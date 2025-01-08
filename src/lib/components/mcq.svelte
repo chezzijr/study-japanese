@@ -25,6 +25,8 @@
 				options.push(quesType == 'first' ? secondList[i] : firstList[i]);
 			}
 		}
+        // shuffle the options
+        options.sort(() => Math.random() - 0.5);
 		return options;
 	}
 
