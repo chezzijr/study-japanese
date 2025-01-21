@@ -7,7 +7,8 @@
         "phonetic": "わたしたち",
         "vietnamese": "chúng tôi"
     },
-    "あなた": { "phonetic": "あなた",
+    "あなた": { 
+        "phonetic": "あなた",
         "vietnamese": "bạn"
     },
     "彼": {
@@ -131,7 +132,8 @@
     },
     "失礼ですが": {
         "phonetic": "しつれいですが",
-        "vietnamese": "Xin lỗi,... (dùng khi hỏi ai đó về thông tin cá nhân)"
+        "vietnamese": "Xin lỗi,...",
+        "note": "dùng khi hỏi ai đó về thông tin cá nhân"
     },
     "お名前をもう一度お願いします": {
         "phonetic": "おなまえをもういちどおねがいします",

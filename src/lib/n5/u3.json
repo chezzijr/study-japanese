@@ -1,0 +1,141 @@
+{
+    "ここ": {
+        "vietnamese": "chỗ này"
+    },
+    "そこ": {
+        "vietnamese": "chỗ đó"
+    },
+    "あそこ": {
+        "vietnamese": "chỗ kia"
+    },
+    "どこ": {
+        "vietnamese": "chỗ nào"
+    },
+    "こちら": {
+        "vietnamese": "phía này",
+        "note": "cách nói lịch sự của ここ"
+    },
+    "そちら": {
+        "vietnamese": "phía đó",
+        "note": "cách nói lịch sự của そこ"
+    },
+    "あちら": {
+        "vietnamese": "phía kia",
+        "note": "cách nói lịch sự của あそこ"
+    },
+    "どちら": {
+        "vietnamese": "phía nào",
+        "note": "cách nói lịch sự của どこ"
+    },
+    "受付": {
+        "phonetic": "うけつけ",
+        "vietnamese": "quầy lễ tân",
+        "note": "dùng cho công ty, cơ quan"
+    },
+    "フロント": {
+        "vietnamese": "quầy lễ tân",
+        "note": "dùng cho khách sạn"
+    },
+    "階段": {
+        "phonetic": "かいだん",
+        "vietnamese": "cầu thang"
+    },
+    "エレベーター": {
+        "vietnamese": "thang máy"
+    },
+    "エスカレーター": {
+        "vietnamese": "thang cuốn"
+    },
+    "お手洗い": {
+        "phonetic": "おてあらい",
+        "vietnamese": "phòng vệ sinh"
+    },
+    "トイレ": {
+        "vietnamese": "phòng vệ sinh"
+    },
+    "うち": {
+        "vietnamese": "nhà"
+    },
+    "いえ": {
+        "vietnamese": "nhà"
+    },
+    "部屋": {
+        "phonetic": "へや",
+        "vietnamese": "căn phòng"
+    },
+    "教室": {
+        "phonetic": "きょうしつ",
+        "vietnamese": "phòng học"
+    },
+    "事務所": {
+        "phonetic": "じむしょ",
+        "vietnamese": "văn phòng"
+    },
+    "会議室": {
+        "phonetic": "かいぎしつ",
+        "vietnamese": "phòng họp"
+    },
+    "食堂": {
+        "phonetic": "しょくどう",
+        "vietnamese": "nhà ăn"
+    },
+    "ビル": {
+        "vietnamese": "tòa nhà"
+    },
+    "デパート": {
+        "vietnamese": "trung tâm thương mại"
+    },
+    "スーパー": {
+        "vietnamese": "siêu thị"
+    },
+    "センター": {
+        "vietnamese": "trung tâm"
+    },
+    "映画館": {
+        "phonetic": "えいがかん",
+        "vietnamese": "rạp chiếu phim"
+    },
+    "喫茶店": {
+        "phonetic": "きっさてん",
+        "vietnamese": "quán trà, cà phê"
+    },
+    "図書館": {
+        "phonetic": "としょかん",
+        "vietnamese": "thư viện"
+    },
+    "会社": {
+        "phonetic": "かいしゃ",
+        "vietnamese": "công ty"
+    },
+    "学校": {
+        "phonetic": "がっこう",
+        "vietnamese": "trường học"
+    },
+    "郵便局": {
+        "phonetic": "ゆうびんきょく",
+        "vietnamese": "bưu điện"
+    },
+    "銀行": {
+        "phonetic": "ぎんこう",
+        "vietnamese": "ngân hàng"
+    },
+    "バスてい": {
+        "vietnamese": "trạm xe bus"
+    },
+    "駅": {
+        "phonetic": "えき",
+        "vietnamese": "nhà ga"
+    },
+    "国": {
+        "phonetic": "くに",
+        "vietnamese": "đất nước",
+        "note": "(của anh/chị)"
+    },
+    "いくら": {
+        "vietnamese": "bao nhiêu tiền"
+    },
+    "円": {
+        "phonetic": "えん",
+        "vietnamese": "yên"
+    }
+}
