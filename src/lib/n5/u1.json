@@ -1,0 +1,150 @@
+{
+    "私": {
+        "phonetic": "わたし",
+        "vietnamese": "tôi"
+    }, 
+    "私たち": {
+        "phonetic": "わたしたち",
+        "vietnamese": "chúng tôi"
+    },
+    "あなた": { "phonetic": "あなた",
+        "vietnamese": "bạn"
+    },
+    "彼": {
+        "phonetic": "かれ",
+        "vietnamese": "anh ấy"
+    },
+    "彼女": {
+        "phonetic": "かのじょ",
+        "vietnamese": "cô ấy"
+    },
+    "皆さん": {
+        "phonetic": "みなさん",
+        "vietnamese": "mọi người"
+    },
+    "あの人": {
+        "phonetic": "あのひと",
+        "vietnamese": "người kia"
+    },
+    "あのかた": {
+        "vietnamese": "người kia",
+        "note": "cách nói lịch sự của あの人"
+    },
+    "先生": {
+        "phonetic": "せんせい",
+        "vietnamese": "giáo viên"
+    },
+    "教師": {
+        "phonetic": "きょうし",
+        "vietnamese": "giáo viên"
+    },
+    "学生": {
+        "phonetic": "がくせい",
+        "vietnamese": "học sinh"
+    },
+    "会社員": {
+        "phonetic": "かいしゃいん",
+        "vietnamese": "nhân viên công ty"
+    },
+    "社員": {
+        "phonetic": "しゃいん",
+        "vietnamese": "nhân viên công ty"
+    },
+    "銀行員": {
+        "phonetic": "ぎんこういん",
+        "vietnamese": "nhân viên ngân hàng"
+    },
+    "医者": {
+        "phonetic": "いしゃ",
+        "vietnamese": "bác sĩ"
+    },
+    "研究者": {
+        "phonetic": "けんきゅうしゃ",
+        "vietnamese": "nhà nghiên cứu"
+    },
+    "エンジニア": {
+        "vietnamese": "kỹ sư"
+    },
+    "留学生": {
+        "phonetic": "りゅうがくせい",
+        "vietnamese": "du học sinh"
+    },
+    "運転手": {
+        "phonetic": "うんてんしゅ",
+        "vietnamese": "tài xế"
+    },
+    "大学": {
+        "phonetic": "だいがく",
+        "vietnamese": "đại học"
+    },
+    "病院": {
+        "phonetic": "びょういん",
+        "vietnamese": "bệnh viện"
+    },
+    "だれ": {
+        "vietnamese": "ai"
+    },
+    "どなた": {
+        "vietnamese": "ai",
+        "note": "cách nói lịch sự của だれ"
+    },
+    "日本": {
+        "phonetic": "にほん",
+        "vietnamese": "Nhật Bản"
+    },
+    "中国": {
+        "phonetic": "ちゅうごく",
+        "vietnamese": "Trung Quốc"
+    },
+    "韓国": {
+        "phonetic": "かんこく",
+        "vietnamese": "Hàn Quốc"
+    },
+    "アメリカ": {
+        "vietnamese": "Mỹ"
+    },
+    "イギリス": {
+        "vietnamese": "Anh"
+    },
+    "ベトナム": {
+        "vietnamese": "Việt Nam"
+    },
+    "〜じん": {
+        "vietnamese": "người ~"
+    },
+    "〜ご": {
+        "vietnamese": "tiếng ~"
+    },
+    "出身": {
+        "phonetic": "しゅっしん",
+        "vietnamese": "quê quán"
+    },
+    "〜から来ました": {
+        "phonetic": "〜からきました",
+        "vietnamese": "(tôi) đến từ ~"
+    },
+    "はい": {
+        "vietnamese": "vâng"
+    },
+    "いいえ": {
+        "vietnamese": "không"
+    },
+    "失礼ですが": {
+        "phonetic": "しつれいですが",
+        "vietnamese": "Xin lỗi,... (dùng khi hỏi ai đó về thông tin cá nhân)"
+    },
+    "お名前をもう一度お願いします": {
+        "phonetic": "おなまえをもういちどおねがいします",
+        "vietnamese": "Anh/Chị vui lòng nhắc lại tên một lần nữa được không ạ?"
+    },
+    "どうぞよろしくお願いします": {
+        "vietnamese": "Rất mong được sự giúp đỡ của anh/chị"
+    },
+    "そうですか": {
+        "vietnamese": "Vậy à/Thế à"
+    },
+    "お仕事なんですか": {
+        "phonetic": "おしごとなんですか",
+        "vietnamese": "Công việc của anh/chị là gì thế?"
+    }
+}

@@ -37,7 +37,7 @@
     }
 
     function questionTitle() {
-        return `What is the ${quesType == 'first' ? valueName : keyName} for this ${quesType == 'first' ? keyName : valueName}: ${quesWord}?`;
+        return `${quesType == 'first' ? valueName : keyName} cho ${quesType == 'first' ? keyName : valueName}: ${quesWord}?`;
     }
 
     function handleClick(e: MouseEvent, opt: number) {
