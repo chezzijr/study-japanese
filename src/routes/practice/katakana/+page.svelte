@@ -1,6 +1,9 @@
 <script lang="ts">
     import MCQ from '$lib/components/mcq.svelte';
     import KatakanaJson from '$lib/writing/katakana.json';
+    const questions = Object.keys(KatakanaJson);
+    const answers = Object.values(KatakanaJson);
+
 </script>
 
-<MCQ map={KatakanaJson} keyName="Katakana" valueName="Romaji" />
+<MCQ quesList={questions} ansList={answers} swappable keyName="Katakana" valueName="Romaji" />

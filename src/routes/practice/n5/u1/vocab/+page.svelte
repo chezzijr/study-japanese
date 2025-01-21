@@ -2,13 +2,10 @@
     import MCQ from '$lib/components/mcq.svelte';
     import U1 from '$lib/n5/u1.json';
 
-    const u1 = {}
-    Object
-        .entries(U1)
-        .forEach(([key, value]) => { 
-            u1[key] = value.vietnamese
-        });
+    const quesList = Object.keys(U1);
+    const ansList = Object.values(U1).map((v) => v.vietnamese);
+    const hintList = Object.values(U1).map((v) => v.phonetic);
 </script>
 
-<MCQ map={u1} keyName="từ/cụm từ" valueName="Tiếng Việt" />
+<MCQ quesList={quesList} ansList={ansList} hintList={hintList} keyName="Từ/cụm từ" valueName="Tiếng Việt" />
 

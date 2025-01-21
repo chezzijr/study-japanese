@@ -1,6 +1,8 @@
 <script lang="ts">
     import MCQ from '$lib/components/mcq.svelte';
     import HiraganaJson from '$lib/writing/hiragana.json';
+    const questions = Object.keys(HiraganaJson);
+    const answers = Object.values(HiraganaJson);
 </script>
 
-<MCQ map={HiraganaJson} keyName="Hiragana" valueName="Romaji" />
+<MCQ quesList={questions} ansList={answers} swappable keyName="Hiragana" valueName="Romaji" />
