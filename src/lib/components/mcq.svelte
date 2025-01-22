@@ -12,7 +12,6 @@
 
     const firstList = quesList;
     const secondList = ansList;
-    console.log(firstList, secondList);
     const len = firstList.length;
 
     let quesType: 'first' | 'second' = $state('first');
