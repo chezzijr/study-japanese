@@ -1,0 +1,207 @@
+{
+    "月曜日": {
+        "phonetic": "げつようび",
+        "vietnamese": "thứ hai"
+    },
+    "火曜日": {
+        "phonetic": "かようび",
+        "vietnamese": "thứ ba"
+    },
+    "水曜日": {
+        "phonetic": "すいようび",
+        "vietnamese": "thứ tư"
+    },
+    "木曜日": {
+        "phonetic": "もくようび",
+        "vietnamese": "thứ năm"
+    },
+    "金曜日": {
+        "phonetic": "きんようび",
+        "vietnamese": "thứ sáu"
+    },
+    "土曜日": {
+        "phonetic": "どようび",
+        "vietnamese": "thứ bảy"
+    },
+    "日曜日": {
+        "phonetic": "にちようび",
+        "vietnamese": "chủ nhật"
+    },
+    "何曜日": {
+        "phonetic": "なんようび",
+        "vietnamese": "thứ mấy"
+    },
+    "今": {
+        "phonetic": "いま",
+        "vietnamese": "bây giờ"
+    },
+    "午前": {
+        "phonetic": "ごぜん",
+        "vietnamese": "sáng, trước 12 giờ trưa"
+    },
+    "午後": {
+        "phonetic": "ごご",
+        "vietnamese": "chiều, sau 12 giờ trưa"
+    },
+    "半": {
+        "phonetic": "はん",
+        "vietnamese": "rưỡi, nửa"
+    },
+    "朝": {
+        "phonetic": "あさ",
+        "vietnamese": "buổi sáng, sáng"
+    },
+    "昼": {
+        "phonetic": "ひる",
+        "vietnamese": "buổi trưa, trưa"
+    },
+    "夕方": {
+        "phonetic": "ゆうがた",
+        "vietnamese": "buổi chiều, chiều"
+    },
+    "晩": {
+        "phonetic": "ばん",
+        "vietnamese": "buổi tối, tối"
+    },
+    "夜": {
+        "phonetic": "よる",
+        "vietnamese": "đêm, khuya"
+    },
+    "一昨日": {
+        "phonetic": "おととい",
+        "vietnamese": "hôm kia"
+    },
+    "昨日": {
+        "phonetic": "きのう",
+        "vietnamese": "hôm qua"
+    },
+    "今日": {
+        "phonetic": "きょう",
+        "vietnamese": "hôm nay"
+    },
+    "明日": {
+        "phonetic": "あした",
+        "vietnamese": "ngày mai"
+    },
+    "明後日": {
+        "phonetic": "あさって",
+        "vietnamese": "ngày kia"
+    },
+    "今朝": {
+        "phonetic": "けさ",
+        "vietnamese": "sáng nay"
+    },
+    "今晩": {
+        "phonetic": "こんばん",
+        "vietnamese": "tối nay"
+    },
+    "今夜": {
+        "phonetic": "こんや",
+        "vietnamese": "đêm nay"
+    },
+    "休み": {
+        "phonetic": "やすみ",
+        "vietnamese": "nghỉ, nghỉ phép, ngày nghỉ"
+    },
+    "昼休み": {
+        "phonetic": "ひるやすみ",
+        "vietnamese": "nghỉ trưa"
+    },
+    "毎朝": {
+        "phonetic": "まいあさ",
+        "vietnamese": "mỗi sáng"
+    },
+    "毎晩": {
+        "phonetic": "まいばん",
+        "vietnamese": "mỗi tối"
+    },
+    "毎日": {
+        "phonetic": "まいにち",
+        "vietnamese": "mỗi ngày"
+    },
+    "何時": {
+        "phonetic": "なんじ",
+        "vietnamese": "mấy giờ"
+    },
+    "何分": {
+        "phonetic": "なんぷん",
+        "vietnamese": "mấy phút"
+    },
+    "働く": {
+        "phonetic": "はたらく",
+        "vietnamese": "làm việc",
+        "note": "I"
+    },
+    "働きます": {
+        "phonetic": "はたらきます",
+        "vietnamese": "làm việc",
+        "note": "lịch sự của はたらく"
+    },
+    "休む": {
+        "phonetic": "やすむ",
+        "vietnamese": "nghỉ, nghỉ ngơi",
+        "note": "I"
+    },
+    "休みます": {
+        "phonetic": "やすみます",
+        "vietnamese": "nghỉ, nghỉ ngơi",
+        "note": "lịch sự của やすむ"
+    },
+    "終わる": {
+        "phonetic": "おわる",
+        "vietnamese": "hết, kết thúc, xong",
+        "note": "I"
+    },
+    "終わります": {
+        "phonetic": "おわります",
+        "vietnamese": "hết, kết thúc, xong",
+        "note": "lịch sự của おわる"
+    },
+    "起きる": {
+        "phonetic": "おきる",
+        "vietnamese": "thức dậy",
+        "note": "II"
+    },
+    "起きます": {
+        "phonetic": "おきます",
+        "vietnamese": "thức dậy",
+        "note": "lịch sự của おきる"
+    },
+    "寝る": {
+        "phonetic": "ねる",
+        "vietnamese": "ngủ",
+        "note": "II"
+    }, 
+    "寝ます": {
+        "phonetic": "ねます",
+        "vietnamese": "ngủ",
+        "note": "lịch sự của ねる"
+    },
+    "勉強する": {
+        "phonetic": "べんきょうする",
+        "vietnamese": "học",
+        "note": "III"
+    },
+    "勉強します": {
+        "phonetic": "べんきょうします",
+        "vietnamese": "học",
+        "note": "lịch sự của べんきょうする"
+    },
+    "～から": {
+        "vietnamese": "từ ~"
+    },
+    "～まで": {
+        "vietnamese": "đến ~"
+    },
+    "～と～": {
+        "vietnamese": "~ và (dùng để nối hai danh từ)"
+    },
+    "試験": {
+        "phonetic": "しけん",
+        "vietnamese": "kỳ thi"
+    },
+    "会議": {
+        "phonetic": "かいぎ",
+        "vietnamese": "cuộc họp"
+    }
+}

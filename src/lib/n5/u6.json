@@ -1,0 +1,282 @@
+ひこうき 飛行機 máy bay
+ふね 船 thuyền, tàu thủy
+ちかてつ 地下鉄 tàu điện ngầm
+でんしゃ 電車 tàu điện
+バイク　　　　　　 xe máy
+バス xe bus
+タクシー　　　　　 taxi
+じてんしゃ 自転車 xe đạp
+あるいて 歩いて đi bộ
+ホテル khách sạn
+びじゅつかん 美術館 bảo tàng mỹ thuật
+ホーチミンし ホーチミン市 Thành phố Hồ Chí Minh
+ハイズオン Hải Dương
+ハロンわん　 ハロン湾 vịnh Hạ Long
+ともだち 友達 bạn, bạn bè
+ひとりで　　　　 一人で một mình
+ひと 人 người
+かぞく 家族 gia đình
+せんしゅう 先週 tuần trước
+こんしゅう 今週 tuần này
+らいしゅう 来週 tuần sau
+せんげつ 先月 tháng trước
+こんげつ 今月 tháng này
+らいげつ 来月 tháng sau
+きょねん 去年 năm ngoái
+ことし 今年 năm nay
+らいねん 来年 năm sau
+ついたち 一日 mồng 1
+ふつか 二日 mồng 2
+みっか 三日 mồng 3
+よっか 四日 mồng 4
+いつか 五日 mồng 5
+むいか 六日 mồng 6
+なのか　 七日 mồng 7
+ようか 八日 mồng 8
+ここのか 　　　　 九日 mồng 9
+とおか 十日 mồng 10
+じゅうよっか　　　 十四日 ngày 14
+はつか 二十日 ngày 20
+にじゅうよっか 二十四日 ngày 24
+たんじょうび 誕生日 sinh nhật
+～ごろ khoảng ~
+なんにち 何日
+ngày mấy, ngày bao nhiêu,
+mấy ngày, bao nhiêu ngày
+なんがつ 何月 tháng mấy
+いつ bao giờ, khi nào
+いく 　　　I
+いきます
+行く　　　 　 I
+行きます
+đi
+くる　　　 III
+きます
+来る 　　　 III
+来ます
+đến
+かえる　　　 I
+かえります　　
+帰る　　　　 I　
+帰ります
+về
+にっき 日記 Nhật kí
+ほんしゃ 本社 Trụ sở chính
+くうこう 空港 Sân bay
+{
+    "飛行機": {
+        "phonetic": "ひこうき",
+        "vietnamese": "máy bay"
+    },
+    "船": {
+        "phonetic": "ふね",
+        "vietnamese": "thuyền, tàu thủy"
+    },
+    "地下鉄": {
+        "phonetic": "ちかてつ",
+        "vietnamese": "tàu điện ngầm"
+    },
+    "電車": {
+        "phonetic": "でんしゃ",
+        "vietnamese": "tàu điện"
+    },
+    "バイク": {
+        "vietnamese": "xe máy"
+    },
+    "バス": {
+        "vietnamese": "xe bus"
+    },
+    "タクシー": {
+        "vietnamese": "taxi"
+    },
+    "自転車": {
+        "phonetic": "じてんしゃ",
+        "vietnamese": "xe đạp"
+    },
+    "歩いて": {
+        "phonetic": "あるいて",
+        "vietnamese": "đi bộ"
+    },
+    "ホテル": {
+        "vietnamese": "khách sạn"
+    },
+    "美術館": {
+        "phonetic": "びじゅつかん",
+        "vietnamese": "bảo tàng mỹ thuật"
+    },
+    "ホーチミン市": {
+        "phonetic": "ホーチミンし",
+        "vietnamese": "Thành phố Hồ Chí Minh"
+    },
+    "ハイズオン": {
+        "vietnamese": "Hải Dương"
+    },
+    "ハロン湾": {
+        "phonetic": "ハロンわん",
+        "vietnamese": "vịnh Hạ Long"
+    },
+    "友達": {
+        "phonetic": "ともだち",
+        "vietnamese": "bạn, bạn bè"
+    },
+    "一人で": {
+        "phonetic": "ひとりで",
+        "vietnamese": "một mình"
+    },
+    "人": {
+        "phonetic": "ひと",
+        "vietnamese": "người"
+    },
+    "家族": {
+        "phonetic": "かぞく",
+        "vietnamese": "gia đình"
+    },
+    "先週": {
+        "phonetic": "せんしゅう",
+        "vietnamese": "tuần trước"
+    },
+    "今週": {
+        "phonetic": "こんしゅう",
+        "vietnamese": "tuần này"
+    },
+    "来週": {
+        "phonetic": "らいしゅう",
+        "vietnamese": "tuần sau"
+    },
+    "先月": {
+        "phonetic": "せんげつ",
+        "vietnamese": "tháng trước"
+    },
+    "今月": {
+        "phonetic": "こんげつ",
+        "vietnamese": "tháng này"
+    },
+    "来月": {
+        "phonetic": "らいげつ",
+        "vietnamese": "tháng sau"
+    },
+    "去年": {
+        "phonetic": "きょねん",
+        "vietnamese": "năm ngoái"
+    },
+    "今年": {
+        "phonetic": "ことし",
+        "vietnamese": "năm nay"
+    },
+    "来年": {
+        "phonetic": "らいねん",
+        "vietnamese": "năm sau"
+    },
+    "一日": {
+        "phonetic": "ついたち",
+        "vietnamese": "mồng 1"
+    },
+    "二日": {
+        "phonetic": "ふつか",
+        "vietnamese": "mồng 2"
+    },
+    "三日": {
+        "phonetic": "みっか",
+        "vietnamese": "mồng 3"
+    },
+    "四日": {
+        "phonetic": "よっか",
+        "vietnamese": "mồng 4"
+    },
+    "五日": {
+        "phonetic": "いつか",
+        "vietnamese": "mồng 5"
+    },
+    "六日": {
+        "phonetic": "むいか",
+        "vietnamese": "mồng 6"
+    },
+    "七日": {
+        "phonetic": "なのか",
+        "vietnamese": "mồng 7"
+    },
+    "八日": {
+        "phonetic": "ようか",
+        "vietnamese": "mồng 8"
+    },
+    "九日": {
+        "phonetic": "ここのか",
+        "vietnamese": "mồng 9"
+    },
+    "十日": {
+        "phonetic": "とおか",
+        "vietnamese": "mồng 10"
+    },
+    "十四日": {
+        "phonetic": "じゅうよっか",
+        "vietnamese": "ngày 14"
+    },
+    "二十日": {
+        "phonetic": "はつか",
+        "vietnamese": "ngày 20"
+    },
+    "二十四日": {
+        "phonetic": "にじゅうよっか",
+        "vietnamese": "ngày 24"
+    },
+    "誕生日": {
+        "phonetic": "たんじょうび",
+        "vietnamese": "sinh nhật"
+    },
+    "～ごろ": {
+        "vietnamese": "khoảng ~"
+    },
+    "何日": {
+        "phonetic": "なんにち",
+        "vietnamese": "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày"
+    },
+    "何月": {
+        "phonetic": "なんがつ",
+        "vietnamese": "tháng mấy"
+    },
+    "いつ": {
+        "vietnamese": "bao giờ, khi nào"
+    },
+    "行く": {
+        "phonetic": "いく",
+        "vietnamese": "đi",
+        "note": "I"
+    },
+    "行きます": {
+        "phonetic": "いきます",
+        "vietnamese": "đi",
+        "note": "lịch sự của 行く"
+    },
+    "来る": {
+        "phonetic": "くる",
+        "vietnamese": "đến",
+        "note": "III"
+    },
+    "来ます": {
+        "phonetic": "きます",
+        "vietnamese": "đến",
+        "note": "lịch sự của 来る"
+    },
+    "帰る": {
+        "phonetic": "かえる",
+        "vietnamese": "về",
+        "note": "I"
+    },
+    "帰ります": {
+        "phonetic": "かえります",
+        "vietnamese": "về",
+        "note": "lịch sự của 帰る"
+    },
+    "日記": {
+        "phonetic": "にっき",
+        "vietnamese": "Nhật kí"
+    },
+    "本社": {
+        "phonetic": "ほんしゃ",
+        "vietnamese": "Trụ sở chính"
+    },
+    "空港": {
+        "phonetic": "くうこう",
+        "vietnamese": "Sân bay"
+    }
+}
