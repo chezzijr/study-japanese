@@ -17,7 +17,19 @@ const config = {
             base: process.env.NODE_ENV === 'production' ? '/study-japanese' : '',
         },
 		prerender: {
-			entries: ['/practice/n5/u1', '/practice/n5/u2', '/practice/n5/u3', '/practice/n5/u4', '/practice/n5/u5', '/practice/n5/u6', '/practice/n5/u7']
+			entries: [
+				'/',
+				'/practice/hiragana',
+				'/practice/kanji',
+				'/practice/katakana',
+				'/practice/n5/u1', 
+				'/practice/n5/u2', 
+				'/practice/n5/u3', 
+				'/practice/n5/u4', 
+				'/practice/n5/u5', 
+				'/practice/n5/u6', 
+				'/practice/n5/u7'
+			]
 		}
 	},
 
