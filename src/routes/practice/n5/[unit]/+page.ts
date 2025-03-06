@@ -6,6 +6,22 @@ export const load: PageLoad = async ({ params }) => {
     const unitImportObject = import.meta.glob('$lib/n5/*.json');
     const unitFiles = Object.keys(unitImportObject)
     const unit = params.unit;
+    if (unit === "all") {
+        const allUnits = await Promise.all(unitFiles.map(async (unitFile) => {
+            return (await unitImportObject[unitFile]()).default
+        }));
+        // combine all units into one json
+        const allUnitsJson = allUnits.reduce((acc, json) => {
+            return {
+                ...acc,
+                ...json
+            };
+        }, {});
+        return {
+            unit: "all",
+            json: allUnitsJson
+        };
+    }
     for (const unitFile of unitFiles) {
         if (unitFile.split('/').pop().split('.').shift() === unit) {
             return {

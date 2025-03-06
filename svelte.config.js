@@ -28,7 +28,10 @@ const config = {
 				'/practice/n5/u4', 
 				'/practice/n5/u5', 
 				'/practice/n5/u6', 
-				'/practice/n5/u7'
+				'/practice/n5/u7',
+				'/practice/n5/u8',
+				'/practice/n5/u9',
+				'/practice/n5/all',
 			]
 		}
 	},

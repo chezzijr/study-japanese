@@ -1,0 +1,29 @@
+{
+    "一": {
+        "vietnameses": [
+            "NHẤT"
+        ],
+        "kun": [
+            {
+                "reading": "ひと-",
+                "examples": [
+                    "一人"
+                ]
+            },
+            {
+                "reading": "ひと.つ",
+                "examples": [
+                    "一つ"
+                ]
+            }
+        ],
+        "on": [
+            {
+                "reading": "いち",
+                "examples": [
+                    "一月"
+                ]
+            }
+        ]
+    }
+}
