@@ -1,0 +1,129 @@
+{
+    "色々": {
+        "phonetic": "いろいろ",
+        "vietnamese": "nhiều, đa dạng",
+        "note": "tính từ đuôi な"
+    },
+    "男の人": {
+        "phonetic": "おとこのひと",
+        "vietnamese": "người đàn ông"
+    },
+    "女の人": {
+        "phonetic": "おんなのひと",
+        "vietnamese": "người phụ nữ"
+    },
+    "男の子": {
+        "phonetic": "おとこのこ",
+        "vietnamese": "cậu bé"
+    },
+    "女の子": {
+        "phonetic": "おんなのこ",
+        "vietnamese": "cô bé"
+    },
+    "犬": {
+        "phonetic": "いぬ",
+        "vietnamese": "chó"
+    },
+    "猫": {
+        "phonetic": "ねこ",
+        "vietnamese": "mèo"
+    },
+    "木": {
+        "phonetic": "き",
+        "vietnamese": "cây, gỗ"
+    },
+    "物": {
+        "phonetic": "もの",
+        "vietnamese": "vật, đồ vật"
+    },
+    "箱": {
+        "phonetic": "はこ",
+        "vietnamese": "hộp"
+    },
+    "冷蔵庫": {
+        "phonetic": "れいぞうこ",
+        "vietnamese": "tủ lạnh"
+    },
+    "テーブル": {
+        "vietnamese": "bàn"
+    },
+    "ベッド": {
+        "vietnamese": "giường"
+    },
+    "公園": {
+        "phonetic": "こうえん",
+        "vietnamese": "công viên"
+    },
+    "本屋": {
+        "phonetic": "ほんや",
+        "vietnamese": "hiệu sách"
+    },
+    "池": {
+        "phonetic": "いけ",
+        "vietnamese": "cái ao"
+    },
+    "～や": {
+        "vietnamese": "hiệu ~, cửa hàng ~"
+    },
+    "地下": {
+        "phonetic": "ちか",
+        "vietnamese": "tầng hầm"
+    },
+    "上": {
+        "phonetic": "うえ",
+        "vietnamese": "trên"
+    },
+    "下": {
+        "phonetic": "した",
+        "vietnamese": "dưới"
+    },
+    "前": {
+        "phonetic": "まえ",
+        "vietnamese": "trước"
+    },
+    "後ろ": {
+        "phonetic": "うしろ",
+        "vietnamese": "sau"
+    },
+    "右": {
+        "phonetic": "みぎ",
+        "vietnamese": "phải"
+    },
+    "左": {
+        "phonetic": "ひだり",
+        "vietnamese": "trái"
+    },
+    "中": {
+        "phonetic": "なか",
+        "vietnamese": "trong, giữa"
+    },
+    "外": {
+        "phonetic": "そと",
+        "vietnamese": "ngoài"
+    },
+    "隣": {
+        "phonetic": "となり",
+        "vietnamese": "bên cạnh"
+    },
+    "近く": {
+        "phonetic": "ちかく",
+        "vietnamese": "gần"
+    },
+    "間": {
+        "phonetic": "あいだ",
+        "vietnamese": "giữa"
+    },
+    "有る": {
+        "phonetic": "ある",
+        "vietnamese": "có",
+        "note": "tồn tại, dùng cho đồ vật"
+    },
+    "居る": {
+        "phonetic": "いる",
+        "vietnamese": "có, ở",
+        "note": "tồn tại, dùng cho người và động vật"
+    },
+    "～など": {
+        "vietnamese": "~ và ~, [v.v.]"
+    }
+}
