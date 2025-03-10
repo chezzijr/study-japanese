@@ -1,6 +1,30 @@
 import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import fs from 'fs';
+// prerender entries
+const initialEntries = [
+	'/',
+	'/practice/hiragana',
+	'/practice/kanji',
+	'/practice/katakana',
+]
+
+// list files in n5 folder
+const units = fs.readdirSync('./src/lib/n5'); // ['u1.json', 'u2.json', ...]
+const practiceUnitEntries = units.map(file => `/practice/n5/${file.replace('.json', '')}`)
+const allUnitEntries = ['/practice/n5/all']
+const vocabEntries = units.map(file => `/vocab/n5/${file.replace('.json', '')}`)
+const allVocabEntries = ['/vocab/n5/all']
+
+const entries = [
+	...initialEntries,
+	...practiceUnitEntries,
+	...allUnitEntries,
+	...vocabEntries,
+	...allVocabEntries
+]
+
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -17,22 +41,7 @@ const config = {
             base: process.env.NODE_ENV === 'production' ? '/study-japanese' : '',
         },
 		prerender: {
-			entries: [
-				'/',
-				'/practice/hiragana',
-				'/practice/kanji',
-				'/practice/katakana',
-				'/practice/n5/u1', 
-				'/practice/n5/u2', 
-				'/practice/n5/u3', 
-				'/practice/n5/u4', 
-				'/practice/n5/u5', 
-				'/practice/n5/u6', 
-				'/practice/n5/u7',
-				'/practice/n5/u8',
-				'/practice/n5/u9',
-				'/practice/n5/all',
-			]
+			entries,
 		}
 	},
 
