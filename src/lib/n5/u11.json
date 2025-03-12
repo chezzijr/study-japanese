@@ -1,0 +1,219 @@
+{
+    "恋人": {
+        "phonetic": "こいびと",
+        "vietnamese": "người yêu"
+    },
+    "兄": {
+        "phonetic": "あに",
+        "vietnamese": "anh trai",
+        "note": "của mình"
+    },
+    "お兄さん": {
+        "phonetic": "おにいさん",
+        "vietnamese": "anh trai",
+        "note": "của người khác và khi xưng hô với anh trai mình"
+    },
+    "姉": {
+        "phonetic": "あね",
+        "vietnamese": "chị gái",
+        "note": "của mình"
+    },
+    "お姉さん": {
+        "phonetic": "おねえさん",
+        "vietnamese": "chị gái",
+        "note": "của người khác và khi xưng hô với chị gái mình"
+    },
+    "弟": {
+        "phonetic": "おとうと",
+        "vietnamese": "em trai",
+        "note": "của mình"
+    },
+    "妹": {
+        "phonetic": "いもうと",
+        "vietnamese": "em gái",
+        "note": "của mình"
+    },
+    "兄弟": {
+        "phonetic": "きょうだい",
+        "vietnamese": "anh em"
+    },
+    "子供": {
+        "phonetic": "こども",
+        "vietnamese": "trẻ con, trẻ em"
+    },
+    "アイスクリーム": {
+        "vietnamese": "kem"
+    },
+    "葉書": {
+        "phonetic": "はがき",
+        "vietnamese": "bưu thiếp"
+    },
+    "奥": {
+        "phonetic": "おく",
+        "vietnamese": "bên trong cùng"
+    },
+    "本棚": {
+        "phonetic": "ほんだな",
+        "vietnamese": "giá sách"
+    },
+    "寮": {
+        "phonetic": "りょう",
+        "vietnamese": "kí túc xá"
+    },
+    "田舎": {
+        "phonetic": "いなか",
+        "vietnamese": "quê, nông thôn"
+    },
+    "外国": {
+        "phonetic": "がいこく",
+        "vietnamese": "nước ngoài"
+    },
+    "動物": {
+        "phonetic": "どうぶつ",
+        "vietnamese": "động vật"
+    },
+    "昼寝": {
+        "phonetic": "ひるね",
+        "vietnamese": "ngủ trưa"
+    },
+    "一つ": {
+        "phonetic": "ひとつ",
+        "vietnamese": "một cái"
+    },
+    "二つ": {
+        "phonetic": "ふたつ",
+        "vietnamese": "hai cái"
+    },
+    "三つ": {
+        "phonetic": "みっつ",
+        "vietnamese": "ba cái"
+    },
+    "四つ": {
+        "phonetic": "よっつ",
+        "vietnamese": "bốn cái"
+    },
+    "五つ": {
+        "phonetic": "いつつ",
+        "vietnamese": "năm cái"
+    },
+    "六つ": {
+        "phonetic": "むっつ",
+        "vietnamese": "sáu cái"
+    },
+    "七つ": {
+        "phonetic": "ななつ",
+        "vietnamese": "bảy cái"
+    },
+    "八つ": {
+        "phonetic": "やっつ",
+        "vietnamese": "tám cái"
+    },
+    "九つ": {
+        "phonetic": "ここのつ",
+        "vietnamese": "chín cái"
+    },
+    "十": {
+        "phonetic": "とお",
+        "vietnamese": "mười cái"
+    },
+    "一人": {
+        "phonetic": "ひとり",
+        "vietnamese": "một người"
+    },
+    "二人": {
+        "phonetic": "ふたり",
+        "vietnamese": "hai người"
+    },
+    "～人": {
+        "phonetic": "～にん",
+        "vietnamese": "~ người"
+    },
+    "～台": {
+        "phonetic": "～だい",
+        "vietnamese": "~ cái"
+    },
+    "～枚": {
+        "phonetic": "～まい",
+        "vietnamese": "~ tờ, tấm"
+    },
+    "～回": {
+        "phonetic": "～かい",
+        "vietnamese": "~ lần"
+    },
+    "～時間": {
+        "phonetic": "～じかん",
+        "vietnamese": "~ tiếng"
+    },
+    "～週間": {
+        "phonetic": "～しゅうかん",
+        "vietnamese": "~ tuần"
+    },
+    "～ヶ月": {
+        "phonetic": "～かげつ",
+        "vietnamese": "~ tháng"
+    },
+    "～年": {
+        "phonetic": "～ねん",
+        "vietnamese": "~ năm"
+    },
+    "いくつ": {
+        "vietnamese": "mấy cái, bao nhiêu cái"
+    },
+    "どのくらい": {
+        "vietnamese": "bao lâu"
+    },
+    "～ぐらい": {
+        "vietnamese": "khoảng ~"
+    },
+    "全部で": {
+        "vietnamese": "tổng cộng"
+    },
+    "～だけ": {
+        "vietnamese": "chỉ ~"
+    },
+    "居る": {
+        "phonetic": "いる",
+        "vietnamese": "có",
+        "note": "con / ở Nhật"
+    },
+    "居ます": {
+        "phonetic": "います",
+        "vietnamese": "có",
+        "note": "lịch sự của 居る"
+    },
+    "掛かる": {
+        "phonetic": "かかる",
+        "vietnamese": "mất, tốn",
+        "note": "thời gian, tiền bạc"
+    },
+    "掛かります": {
+        "phonetic": "かかります",
+        "vietnamese": "mất, tốn",
+        "note": "thời gian, tiền bạc, lịch sự của 掛かる"
+    },
+    "休む": {
+        "phonetic": "やすむ",
+        "vietnamese": "nghỉ, nghỉ ngơi"
+    },
+    "休みます": {
+        "phonetic": "やすみます",
+        "vietnamese": "nghỉ, nghỉ ngơi",
+        "note": "lịch sự của 休む"
+    },
+    "焼きます": {
+        "phonetic": "やきます",
+        "vietnamese": "nướng"
+    },
+    "遠くに": {
+        "phonetic": "とおくに",
+        "vietnamese": "ở đằng xa"
+    },
+    "必要": {
+        "phonetic": "ひつよう",
+        "vietnamese": "cần thiết"
+    },
+    "両親": {
+        "phonetic": "りょうしん",
+        "vietnamese": "bố mẹ"
+    }
+}

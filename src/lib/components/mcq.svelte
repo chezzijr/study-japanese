@@ -13,7 +13,8 @@
     const firstList = quesList;
     const secondList = ansList;
     const len = firstList.length;
-
+    
+    let swp = $state(swappable);
     let quesType: 'first' | 'second' = $state('first');
 	let index = $state(randomIndex());
     let showHint = $state(false);
@@ -40,7 +41,7 @@
 	}
 
     function nextQuestion() {
-        if (swappable)
+        if (swp)
             quesType = Math.random() > 0.5 ? 'first' : 'second';
 
         showHint = false;
@@ -85,6 +86,13 @@
 </script>
 
 <main class="w-screen h-screen flex flex-col justify-center items-center gap-10">
+    <label class="swap swap-flip text-9xl">
+        <!-- this hidden checkbox controls the state -->
+        <input type="checkbox" bind:checked={swp}/>
+      
+        <div class="swap-on">😈</div>
+        <div class="swap-off">😇</div>
+    </label>
 	<h1 class="h1">{questionTitle()}</h1>
     {#if hintList && hintList[index]}
         <button id="hint" class="btn btn-outline btn-primary" onclick={() => showHint = !showHint}>Hint</button>
