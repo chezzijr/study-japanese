@@ -26,7 +26,9 @@ const entries = [
 	...practiceUnitEntries,
 	...allUnitEntries,
 	...vocabEntries,
-	...allVocabEntries
+	...allVocabEntries,
+	...kanjiEntries,
+	...allKanjiEntries
 ]
 
 
