@@ -6,7 +6,6 @@ import fs from 'fs';
 const initialEntries = [
 	'/',
 	'/practice/hiragana',
-	'/practice/kanji',
 	'/practice/katakana',
 ]
 
@@ -30,7 +29,7 @@ const entries = [
 	...kanjiEntries,
 	...allKanjiEntries
 ]
-
+console.log(entries)
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
