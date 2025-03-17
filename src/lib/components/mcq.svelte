@@ -28,13 +28,27 @@
 	function populateOptions(index: number) {
 		const options = [];
         const answers = quesType == 'first' ? secondList : firstList;
-		options.push(answers[index]);
-		while (options.length < 4) {
-			let i = randomIndex();
-			if (i != index && !options.includes(answers[i])) {
-				options.push(quesType == 'first' ? secondList[i] : firstList[i]);
-			}
-		}
+        // if a list of answer, quesTyoe is first only
+        if (answers[index].constructor === Array) {
+            // push a random element from the list
+            options.push(answers[index][Math.floor(Math.random() * answers[index].length)]);
+            while (options.length < 4) {
+                let i = randomIndex();
+                let rndItem = answers[i][Math.floor(Math.random() * answers[i].length)];
+                if (i != index && !options.includes(rndItem)) {
+                    options.push(rndItem);
+                }
+            }
+        } else {
+            options.push(answers[index]);
+            while (options.length < 4) {
+                let i = randomIndex();
+                if (i != index && !options.includes(answers[i])) {
+                    options.push(quesType == 'first' ? secondList[i] : firstList[i]);
+                }
+            }
+        }
+
         // shuffle the options
         options.sort(() => Math.random() - 0.5);
 		return options;
@@ -54,7 +68,38 @@
 
     function handleClick(e: MouseEvent, opt: number) {
         const node = e.target as HTMLButtonElement;
-        if (options[opt] == (quesType == 'first' ? secondList[index] : firstList[index])) {
+        if ((quesType === 'first' ? secondList[index] : firstList[index]).constructor === Array) {
+            // if the answer is a list, we need to check if the clicked option is in the list
+            if ((quesType === 'first' ? secondList[index] : firstList[index]).includes(options[opt])) {
+                // correct animation including pop sound
+                node.animate([
+                    { transform: 'scale(1)' },
+                    { transform: 'scale(1.1)' },
+                    { transform: 'scale(1)' }
+                ], {
+                    duration: 500,
+                    easing: 'ease'
+                });
+                setTimeout(() => {
+                    nextQuestion();
+                }, 500);
+            } else {
+                // incorrect animation including error sound
+                node.animate([
+                    { transform: 'translateX(10px)' },
+                    { transform: 'translateX(-10px)' },
+                    { transform: 'translateX(0)' },
+                    { transform: 'translateX(10px)' },
+                    { transform: 'translateX(-10px)' },
+                    { transform: 'translateX(0)' },
+                ], {
+                    duration: 500,
+                    easing: 'ease',
+                });
+            }
+            return;
+        }
+        if (options[opt] == (quesType === 'first' ? secondList[index] : firstList[index])) {
             // correct animation including pop sound
             node.animate([
                 { transform: 'scale(1)' },
@@ -86,13 +131,15 @@
 </script>
 
 <main class="w-screen h-screen flex flex-col justify-center items-center gap-10">
-    <label class="swap swap-flip text-9xl">
-        <!-- this hidden checkbox controls the state -->
-        <input type="checkbox" bind:checked={swp}/>
-      
-        <div class="swap-on">😈</div>
-        <div class="swap-off">😇</div>
-    </label>
+    {#if swappable}
+        <label class="swap swap-flip text-9xl">
+            <!-- this hidden checkbox controls the state -->
+            <input type="checkbox" bind:checked={swp}/>
+        
+            <div class="swap-on">😈</div>
+            <div class="swap-off">😇</div>
+        </label>
+    {/if}
 	<h1 class="h1">{questionTitle()}</h1>
     {#if hintList && hintList[index]}
         <button id="hint" class="btn btn-outline btn-primary" onclick={() => showHint = !showHint}>Hint</button>

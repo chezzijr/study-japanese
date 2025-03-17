@@ -1,0 +1,857 @@
+{
+  "一": {
+    "meanings": [
+      "one",
+      "one radical (no.1)"
+    ],
+    "grade": 1,
+    "stroke_count": 1,
+    "frequency": 2,
+    "onyomi": [
+      "イチ",
+      "イツ"
+    ],
+    "kunyomi": [
+      "ひと-",
+      "ひと.つ"
+    ],
+    "parts": [
+      "一"
+    ]
+  },
+  "二": {
+    "meanings": [
+      "two",
+      "two radical (no. 7)"
+    ],
+    "grade": 1,
+    "stroke_count": 2,
+    "frequency": 9,
+    "onyomi": [
+      "ニ",
+      "ジ"
+    ],
+    "kunyomi": [
+      "ふた",
+      "ふた.つ",
+      "ふたたび"
+    ],
+    "parts": [
+      "二"
+    ]
+  },
+  "三": {
+    "meanings": [
+      "three"
+    ],
+    "grade": 1,
+    "stroke_count": 3,
+    "frequency": 14,
+    "onyomi": [
+      "サン",
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "み",
+      "み.つ",
+      "みっ.つ"
+    ],
+    "parts": [
+      "一",
+      "二"
+    ]
+  },
+  "四": {
+    "meanings": [
+      "four"
+    ],
+    "grade": 1,
+    "stroke_count": 5,
+    "frequency": 47,
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よ",
+      "よ.つ",
+      "よっ.つ",
+      "よん"
+    ],
+    "parts": [
+      "儿",
+      "囗"
+    ]
+  },
+  "五": {
+    "meanings": [
+      "five"
+    ],
+    "grade": 1,
+    "stroke_count": 4,
+    "frequency": 31,
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "いつ",
+      "いつ.つ"
+    ],
+    "parts": [
+      "五"
+    ]
+  },
+  "六": {
+    "meanings": [
+      "six"
+    ],
+    "grade": 1,
+    "stroke_count": 4,
+    "frequency": 93,
+    "onyomi": [
+      "ロク",
+      "リク"
+    ],
+    "kunyomi": [
+      "む",
+      "む.つ",
+      "むっ.つ",
+      "むい"
+    ],
+    "parts": [
+      "ハ",
+      "亠"
+    ]
+  },
+  "七": {
+    "meanings": [
+      "seven"
+    ],
+    "grade": 1,
+    "stroke_count": 2,
+    "frequency": 115,
+    "onyomi": [
+      "シチ"
+    ],
+    "kunyomi": [
+      "なな",
+      "なな.つ",
+      "なの"
+    ],
+    "parts": [
+      "乙",
+      "匕",
+      "ノ"
+    ]
+  },
+  "八": {
+    "meanings": [
+      "eight",
+      "eight radical (no. 12)"
+    ],
+    "grade": 1,
+    "stroke_count": 2,
+    "frequency": 92,
+    "onyomi": [
+      "ハチ",
+      "ハツ"
+    ],
+    "kunyomi": [
+      "や",
+      "や.つ",
+      "やっ.つ",
+      "よう"
+    ],
+    "parts": [
+      "ハ"
+    ]
+  },
+  "九": {
+    "meanings": [
+      "nine"
+    ],
+    "grade": 1,
+    "stroke_count": 2,
+    "frequency": 55,
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "ここの",
+      "ここの.つ"
+    ],
+    "parts": [
+      "九"
+    ]
+  },
+  "十": {
+    "meanings": [
+      "ten"
+    ],
+    "grade": 1,
+    "stroke_count": 2,
+    "frequency": 8,
+    "onyomi": [
+      "ジュウ",
+      "ジッ",
+      "ジュッ"
+    ],
+    "kunyomi": [
+      "とお",
+      "と",
+      "そ"
+    ],
+    "parts": [
+      "十"
+    ]
+  },
+  "百": {
+    "meanings": [
+      "hundred"
+    ],
+    "grade": 1,
+    "stroke_count": 6,
+    "frequency": 163,
+    "onyomi": [
+      "ヒャク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "もも"
+    ],
+    "parts": [
+      "一",
+      "白"
+    ]
+  },
+  "千": {
+    "meanings": [
+      "thousand"
+    ],
+    "grade": 1,
+    "stroke_count": 3,
+    "frequency": 195,
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "parts": [
+      "ノ",
+      "十"
+    ]
+  },
+  "万": {
+    "meanings": [
+      "ten thousand",
+      "10,000"
+    ],
+    "grade": 2,
+    "stroke_count": 3,
+    "frequency": 375,
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "kunyomi": [
+      "よろず"
+    ],
+    "parts": [
+      "｜",
+      "ノ",
+      "一"
+    ]
+  },
+  "円": {
+    "meanings": [
+      "circle",
+      "yen",
+      "round"
+    ],
+    "grade": 1,
+    "stroke_count": 4,
+    "frequency": 69,
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "まる.い",
+      "まる",
+      "まど",
+      "まど.か",
+      "まろ.やか"
+    ],
+    "parts": [
+      "冂",
+      "亠",
+      "一",
+      "｜"
+    ]
+  },
+  "日": {
+    "meanings": [
+      "day",
+      "sun",
+      "Japan",
+      "counter for days"
+    ],
+    "grade": 1,
+    "stroke_count": 4,
+    "frequency": 1,
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-び",
+      "-か"
+    ],
+    "parts": [
+      "日"
+    ]
+  },
+  "月": {
+    "meanings": [
+      "month",
+      "moon"
+    ],
+    "grade": 1,
+    "stroke_count": 4,
+    "frequency": 23,
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "parts": [
+      "月"
+    ]
+  },
+  "火": {
+    "meanings": [
+      "fire"
+    ],
+    "grade": 1,
+    "stroke_count": 4,
+    "frequency": 574,
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-び",
+      "ほ-"
+    ],
+    "parts": [
+      "火"
+    ]
+  },
+  "水": {
+    "meanings": [
+      "water"
+    ],
+    "grade": 1,
+    "stroke_count": 4,
+    "frequency": 223,
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず",
+      "みず-"
+    ],
+    "parts": [
+      "水"
+    ]
+  },
+  "木": {
+    "meanings": [
+      "tree",
+      "wood"
+    ],
+    "grade": 1,
+    "stroke_count": 4,
+    "frequency": 317,
+    "onyomi": [
+      "ボク",
+      "モク"
+    ],
+    "kunyomi": [
+      "き",
+      "こ-"
+    ],
+    "parts": [
+      "木"
+    ]
+  },
+  "金": {
+    "meanings": [
+      "gold"
+    ],
+    "grade": 1,
+    "stroke_count": 8,
+    "frequency": 53,
+    "onyomi": [
+      "キン",
+      "コン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "かね",
+      "かな-",
+      "-がね"
+    ],
+    "parts": [
+      "金",
+      "王",
+      "ハ",
+      "𠆢",
+      "丷"
+    ]
+  },
+  "土": {
+    "meanings": [
+      "soil",
+      "earth",
+      "ground",
+      "Turkey"
+    ],
+    "grade": 1,
+    "stroke_count": 3,
+    "frequency": 307,
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "parts": [
+      "土"
+    ]
+  },
+  "人": {
+    "meanings": [
+      "person"
+    ],
+    "grade": 1,
+    "stroke_count": 2,
+    "frequency": 5,
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと",
+      "-り",
+      "-と"
+    ],
+    "parts": [
+      "人"
+    ]
+  },
+  "先": {
+    "meanings": [
+      "before",
+      "ahead",
+      "previous",
+      "future",
+      "precedence"
+    ],
+    "grade": 1,
+    "stroke_count": 6,
+    "frequency": 173,
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき",
+      "ま.ず"
+    ],
+    "parts": [
+      "ノ",
+      "土",
+      "儿"
+    ]
+  },
+  "生": {
+    "meanings": [
+      "life",
+      "genuine",
+      "birth"
+    ],
+    "grade": 1,
+    "stroke_count": 5,
+    "frequency": 29,
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "い.きる",
+      "い.かす",
+      "い.ける",
+      "う.まれる",
+      "うま.れる",
+      "う.まれ",
+      "うまれ",
+      "う.む",
+      "お.う",
+      "は.える",
+      "は.やす",
+      "き",
+      "なま",
+      "なま-",
+      "な.る",
+      "な.す",
+      "む.す",
+      "-う"
+    ],
+    "parts": [
+      "生"
+    ]
+  },
+  "学": {
+    "meanings": [
+      "study",
+      "learning",
+      "science"
+    ],
+    "grade": 1,
+    "stroke_count": 8,
+    "frequency": 63,
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まな.ぶ"
+    ],
+    "parts": [
+      "子",
+      "⺌",
+      "冖"
+    ]
+  },
+  "方": {
+    "meanings": [
+      "direction",
+      "person",
+      "alternative"
+    ],
+    "grade": 2,
+    "stroke_count": 4,
+    "frequency": 46,
+    "onyomi": [
+      "ホウ"
+    ],
+    "kunyomi": [
+      "かた",
+      "-かた",
+      "-がた"
+    ],
+    "parts": [
+      "方"
+    ]
+  },
+  "何": {
+    "meanings": [
+      "what"
+    ],
+    "grade": 2,
+    "stroke_count": 7,
+    "frequency": 340,
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん",
+      "なに-",
+      "なん-"
+    ],
+    "parts": [
+      "⺅",
+      "口",
+      "亅",
+      "一"
+    ]
+  },
+  "今": {
+    "meanings": [
+      "now"
+    ],
+    "grade": 2,
+    "stroke_count": 4,
+    "frequency": 49,
+    "onyomi": [
+      "コン",
+      "キン"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "parts": [
+      "𠆢",
+      "一"
+    ]
+  },
+  "分": {
+    "meanings": [
+      "part",
+      "minute of time",
+      "segment",
+      "share",
+      "degree",
+      "one's lot",
+      "duty",
+      "understand",
+      "know",
+      "rate",
+      "1%",
+      "chances",
+      "shaku/100"
+    ],
+    "grade": 2,
+    "stroke_count": 4,
+    "frequency": 24,
+    "onyomi": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "kunyomi": [
+      "わ.ける",
+      "わ.け",
+      "わ.かれる",
+      "わ.かる",
+      "わ.かつ"
+    ],
+    "parts": [
+      "刀",
+      "ハ"
+    ]
+  },
+  "半": {
+    "meanings": [
+      "half",
+      "middle",
+      "odd number",
+      "semi-",
+      "part-"
+    ],
+    "grade": 2,
+    "stroke_count": 5,
+    "frequency": 224,
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "なか.ば"
+    ],
+    "parts": [
+      "｜",
+      "二",
+      "丷",
+      "十"
+    ]
+  },
+  "時": {
+    "meanings": [
+      "time",
+      "hour"
+    ],
+    "grade": 2,
+    "stroke_count": 10,
+    "frequency": 16,
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "とき",
+      "-どき"
+    ],
+    "parts": [
+      "寸",
+      "土",
+      "日"
+    ]
+  },
+  "年": {
+    "meanings": [
+      "year",
+      "counter for years"
+    ],
+    "grade": 1,
+    "stroke_count": 6,
+    "frequency": 6,
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "parts": [
+      "ノ",
+      "一",
+      "干",
+      "𠂉"
+    ]
+  },
+  "休": {
+    "meanings": [
+      "rest",
+      "day off",
+      "retire",
+      "sleep"
+    ],
+    "grade": 1,
+    "stroke_count": 6,
+    "frequency": 642,
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やす.む",
+      "やす.まる",
+      "やす.める"
+    ],
+    "parts": [
+      "⺅",
+      "木"
+    ]
+  },
+  "校": {
+    "meanings": [
+      "exam",
+      "school",
+      "printing",
+      "proof",
+      "correction"
+    ],
+    "grade": 1,
+    "stroke_count": 10,
+    "frequency": 294,
+    "onyomi": [
+      "コウ",
+      "キョウ"
+    ],
+    "parts": [
+      "父",
+      "木",
+      "亠"
+    ]
+  },
+  "車": {
+    "meanings": [
+      "car"
+    ],
+    "grade": 1,
+    "stroke_count": 7,
+    "frequency": 333,
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "parts": [
+      "車"
+    ]
+  },
+  "行": {
+    "meanings": [
+      "going",
+      "journey",
+      "carry out",
+      "conduct",
+      "act",
+      "line",
+      "row",
+      "bank"
+    ],
+    "grade": 2,
+    "stroke_count": 6,
+    "frequency": 20,
+    "onyomi": [
+      "コウ",
+      "ギョウ",
+      "アン"
+    ],
+    "kunyomi": [
+      "い.く",
+      "ゆ.く",
+      "-ゆ.き",
+      "-ゆき",
+      "-い.き",
+      "-いき",
+      "おこな.う",
+      "おこ.なう"
+    ],
+    "parts": [
+      "行",
+      "彳"
+    ]
+  },
+  "来": {
+    "meanings": [
+      "come",
+      "due",
+      "next",
+      "cause",
+      "become"
+    ],
+    "grade": 2,
+    "stroke_count": 7,
+    "frequency": 102,
+    "onyomi": [
+      "ライ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "く.る",
+      "きた.る",
+      "きた.す",
+      "き.たす",
+      "き.たる",
+      "き",
+      "こ"
+    ],
+    "parts": [
+      "｜",
+      "二",
+      "米",
+      "亠",
+      "木"
+    ]
+  },
+  "帰": {
+    "meanings": [
+      "homecoming",
+      "arrive at",
+      "lead to",
+      "result in"
+    ],
+    "grade": 2,
+    "stroke_count": 10,
+    "frequency": 504,
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "かえ.る",
+      "かえ.す",
+      "おく.る",
+      "とつ.ぐ"
+    ],
+    "parts": [
+      "ヨ",
+      "⺉",
+      "巾",
+      "冖"
+    ]
+  }
+}

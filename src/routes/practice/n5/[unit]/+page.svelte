@@ -15,5 +15,5 @@
 <svelte:head>
     <title>{u}</title>
 </svelte:head>
-<MCQ quesList={quesList} ansList={ansList} hintList={hintList} keyName="Từ/cụm từ" valueName="Tiếng Việt" />
+<MCQ quesList={quesList} ansList={ansList} hintList={hintList} keyName="Từ/Cụm từ" valueName="Tiếng Việt" swappable={true} />
 
