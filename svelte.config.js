@@ -29,7 +29,7 @@ const entries = [
 	...kanjiEntries,
 	...allKanjiEntries
 ]
-console.log(entries)
+// console.log(entries)
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

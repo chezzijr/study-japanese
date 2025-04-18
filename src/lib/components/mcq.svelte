@@ -14,7 +14,7 @@
     const secondList = ansList;
     const len = firstList.length;
     
-    let swp = $state(swappable);
+    let swp = $state(false);
     let quesType: 'first' | 'second' = $state('first');
 	let index = $state(randomIndex());
     let showHint = $state(false);
@@ -63,7 +63,7 @@
     }
 
     function questionTitle() {
-        return `${quesType == 'first' ? valueName : keyName} cho ${quesType == 'first' ? keyName : valueName}: ${quesWord}?`;
+        return quesWord;
     }
 
     function handleClick(e: MouseEvent, opt: number) {
@@ -135,9 +135,13 @@
         <label class="swap swap-flip text-9xl">
             <!-- this hidden checkbox controls the state -->
             <input type="checkbox" bind:checked={swp}/>
-        
-            <div class="swap-on">😈</div>
-            <div class="swap-off">😇</div>
+            
+            <div class="tooltip swap-off" data-tip="Hỏi 1 chiều">
+                😇
+            </div>
+            <div class="tooltip swap-on" data-tip="Hỏi 2 chiều">
+                😈
+            </div>
         </label>
     {/if}
 	<h1 class="h1">{questionTitle()}</h1>

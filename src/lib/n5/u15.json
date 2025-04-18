@@ -1,0 +1,189 @@
+{
+    "危ない": {
+        "pronunciation": "あぶない",
+        "vietnamese": "nguy hiểm"
+    },
+    "日記": {
+        "pronunciation": "にっき",
+        "vietnamese": "nhật kí"
+    },
+    "資料": {
+        "pronunciation": "しりょう",
+        "vietnamese": "tài liệu, tư liệu"
+    },
+    "解答用紙": {
+        "pronunciation": "かいとうようし",
+        "vietnamese": "giấy ghi đáp án"
+    },
+    "カタログ": {
+        "vietnamese": "catalogue"
+    },
+    "フェイスブック": {
+        "vietnamese": "facebook"
+    },
+    "ファイル": {
+        "vietnamese": "file; file đựng tài liệu"
+    },
+    "電子辞書": {
+        "pronunciation": "でんしじしょ",
+        "vietnamese": "kim từ điển"
+    },
+    "ソフト": {
+        "vietnamese": "phần mềm"
+    },
+    "ケーキ": {
+        "vietnamese": "bánh kem"
+    },
+    "お菓子": {
+        "pronunciation": "[お]かし",
+        "vietnamese": "bánh kẹo"
+    },
+    "時刻表": {
+        "pronunciation": "じこくひょう",
+        "vietnamese": "bảng giờ tàu chạy"
+    },
+    "服": {
+        "pronunciation": "ふく",
+        "vietnamese": "quần áo"
+    },
+    "動画": {
+        "pronunciation": "どうが",
+        "vietnamese": "video"
+    },
+    "専門": {
+        "pronunciation": "せんもん",
+        "vietnamese": "chuyên môn"
+    },
+    "週末": {
+        "pronunciation": "しゅうまつ",
+        "vietnamese": "cuối tuần"
+    },
+    "会議中": {
+        "pronunciation": "かいぎちゅう",
+        "vietnamese": "cuộc họp đang diễn ra"
+    },
+    "独身": {
+        "pronunciation": "どくしん",
+        "vietnamese": "độc thân"
+    },
+    "道": {
+        "pronunciation": "みち",
+        "vietnamese": "đường"
+    },
+    "高校": {
+        "pronunciation": "こうこう",
+        "vietnamese": "trường THPT"
+    },
+    "使う": {
+        "pronunciation": "つかう",
+        "vietnamese": "dùng, sử dụng"
+    },
+    "使います": {
+        "pronunciation": "つかいます",
+        "vietnamese": "dùng, sử dụng"
+    },
+    "立つ": {
+        "pronunciation": "たつ",
+        "vietnamese": "đứng"
+    },
+    "立ちます": {
+        "pronunciation": "たちます",
+        "vietnamese": "đứng"
+    },
+    "座る": {
+        "pronunciation": "すわる",
+        "vietnamese": "ngồi"
+    },
+    "座ります": {
+        "pronunciation": "すわります",
+        "vietnamese": "ngồi"
+    },
+    "作る": {
+        "pronunciation": "つくる",
+        "vietnamese": "làm, chế tạo, sản xuất"
+    },
+    "作ります": {
+        "pronunciation": "つくります",
+        "vietnamese": "làm, chế tạo, sản xuất"
+    },
+    "売る": {
+        "pronunciation": "うる",
+        "vietnamese": "bán"
+    },
+    "売ります": {
+        "pronunciation": "うります",
+        "vietnamese": "bán"
+    },
+    "知る": {
+        "pronunciation": "しる",
+        "vietnamese": "biết"
+    },
+    "知ります": {
+        "pronunciation": "しります",
+        "vietnamese": "biết"
+    },
+    "置く": {
+        "pronunciation": "おく",
+        "vietnamese": "đặt, để"
+    },
+    "置きます": {
+        "pronunciation": "おきます",
+        "vietnamese": "đặt, để"
+    },
+    "住む": {
+        "pronunciation": "[おおさかに～]すむ",
+        "vietnamese": "sống, ở [Osaka]"
+    },
+    "住みます": {
+        "pronunciation": "[おおさかに～]すみます",
+        "vietnamese": "sống, ở [Osaka]"
+    },
+    "辞める": {
+        "pronunciation": "やめる",
+        "vietnamese": "bỏ, thôi"
+    },
+    "辞めます": {
+        "pronunciation": "やめます",
+        "vietnamese": "bỏ, thôi"
+    },
+    "旅行する": {
+        "pronunciation": "りょこうする",
+        "vietnamese": "du lịch"
+    },
+    "旅行します": {
+        "pronunciation": "りょこうします",
+        "vietnamese": "du lịch"
+    },
+    "研究する": {
+        "pronunciation": "けんきゅうする",
+        "vietnamese": "nghiên cứu"
+    },
+    "研究します": {
+        "pronunciation": "けんきゅうします",
+        "vietnamese": "nghiên cứu"
+    },
+    "チェックする": {
+        "pronunciation": "チェックする",
+        "vietnamese": "kiểm tra"
+    },
+    "チェックします": {
+        "pronunciation": "チェックします",
+        "vietnamese": "kiểm tra"
+    },
+    "知っている": {
+        "pronunciation": "しっている",
+        "vietnamese": "biết"
+    },
+    "知っています": {
+        "pronunciation": "しっています",
+        "vietnamese": "biết"
+    },
+    "住んでいる": {
+        "pronunciation": "すんでいる",
+        "vietnamese": "đang sống, ở"
+    },
+    "住んでいます": {
+        "pronunciation": "すんでいます",
+        "vietnamese": "đang sống, ở"
+    }
+}

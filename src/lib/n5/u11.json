@@ -1,159 +1,159 @@
 {
     "恋人": {
-        "phonetic": "こいびと",
+        "pronunciation": "こいびと",
         "vietnamese": "người yêu"
     },
     "兄": {
-        "phonetic": "あに",
+        "pronunciation": "あに",
         "vietnamese": "anh trai",
         "note": "của mình"
     },
     "お兄さん": {
-        "phonetic": "おにいさん",
+        "pronunciation": "おにいさん",
         "vietnamese": "anh trai",
         "note": "của người khác và khi xưng hô với anh trai mình"
     },
     "姉": {
-        "phonetic": "あね",
+        "pronunciation": "あね",
         "vietnamese": "chị gái",
         "note": "của mình"
     },
     "お姉さん": {
-        "phonetic": "おねえさん",
+        "pronunciation": "おねえさん",
         "vietnamese": "chị gái",
         "note": "của người khác và khi xưng hô với chị gái mình"
     },
     "弟": {
-        "phonetic": "おとうと",
+        "pronunciation": "おとうと",
         "vietnamese": "em trai",
         "note": "của mình"
     },
     "妹": {
-        "phonetic": "いもうと",
+        "pronunciation": "いもうと",
         "vietnamese": "em gái",
         "note": "của mình"
     },
     "兄弟": {
-        "phonetic": "きょうだい",
+        "pronunciation": "きょうだい",
         "vietnamese": "anh em"
     },
     "子供": {
-        "phonetic": "こども",
+        "pronunciation": "こども",
         "vietnamese": "trẻ con, trẻ em"
     },
     "アイスクリーム": {
         "vietnamese": "kem"
     },
     "葉書": {
-        "phonetic": "はがき",
+        "pronunciation": "はがき",
         "vietnamese": "bưu thiếp"
     },
     "奥": {
-        "phonetic": "おく",
+        "pronunciation": "おく",
         "vietnamese": "bên trong cùng"
     },
     "本棚": {
-        "phonetic": "ほんだな",
+        "pronunciation": "ほんだな",
         "vietnamese": "giá sách"
     },
     "寮": {
-        "phonetic": "りょう",
+        "pronunciation": "りょう",
         "vietnamese": "kí túc xá"
     },
     "田舎": {
-        "phonetic": "いなか",
+        "pronunciation": "いなか",
         "vietnamese": "quê, nông thôn"
     },
     "外国": {
-        "phonetic": "がいこく",
+        "pronunciation": "がいこく",
         "vietnamese": "nước ngoài"
     },
     "動物": {
-        "phonetic": "どうぶつ",
+        "pronunciation": "どうぶつ",
         "vietnamese": "động vật"
     },
     "昼寝": {
-        "phonetic": "ひるね",
+        "pronunciation": "ひるね",
         "vietnamese": "ngủ trưa"
     },
     "一つ": {
-        "phonetic": "ひとつ",
+        "pronunciation": "ひとつ",
         "vietnamese": "một cái"
     },
     "二つ": {
-        "phonetic": "ふたつ",
+        "pronunciation": "ふたつ",
         "vietnamese": "hai cái"
     },
     "三つ": {
-        "phonetic": "みっつ",
+        "pronunciation": "みっつ",
         "vietnamese": "ba cái"
     },
     "四つ": {
-        "phonetic": "よっつ",
+        "pronunciation": "よっつ",
         "vietnamese": "bốn cái"
     },
     "五つ": {
-        "phonetic": "いつつ",
+        "pronunciation": "いつつ",
         "vietnamese": "năm cái"
     },
     "六つ": {
-        "phonetic": "むっつ",
+        "pronunciation": "むっつ",
         "vietnamese": "sáu cái"
     },
     "七つ": {
-        "phonetic": "ななつ",
+        "pronunciation": "ななつ",
         "vietnamese": "bảy cái"
     },
     "八つ": {
-        "phonetic": "やっつ",
+        "pronunciation": "やっつ",
         "vietnamese": "tám cái"
     },
     "九つ": {
-        "phonetic": "ここのつ",
+        "pronunciation": "ここのつ",
         "vietnamese": "chín cái"
     },
     "十": {
-        "phonetic": "とお",
+        "pronunciation": "とお",
         "vietnamese": "mười cái"
     },
     "一人": {
-        "phonetic": "ひとり",
+        "pronunciation": "ひとり",
         "vietnamese": "một người"
     },
     "二人": {
-        "phonetic": "ふたり",
+        "pronunciation": "ふたり",
         "vietnamese": "hai người"
     },
     "～人": {
-        "phonetic": "～にん",
+        "pronunciation": "～にん",
         "vietnamese": "~ người"
     },
     "～台": {
-        "phonetic": "～だい",
+        "pronunciation": "～だい",
         "vietnamese": "~ cái"
     },
     "～枚": {
-        "phonetic": "～まい",
+        "pronunciation": "～まい",
         "vietnamese": "~ tờ, tấm"
     },
     "～回": {
-        "phonetic": "～かい",
+        "pronunciation": "～かい",
         "vietnamese": "~ lần"
     },
     "～時間": {
-        "phonetic": "～じかん",
+        "pronunciation": "～じかん",
         "vietnamese": "~ tiếng"
     },
     "～週間": {
-        "phonetic": "～しゅうかん",
+        "pronunciation": "～しゅうかん",
         "vietnamese": "~ tuần"
     },
     "～ヶ月": {
-        "phonetic": "～かげつ",
+        "pronunciation": "～かげつ",
         "vietnamese": "~ tháng"
     },
     "～年": {
-        "phonetic": "～ねん",
+        "pronunciation": "～ねん",
         "vietnamese": "~ năm"
     },
     "いくつ": {
@@ -172,48 +172,48 @@
         "vietnamese": "chỉ ~"
     },
     "居る": {
-        "phonetic": "いる",
+        "pronunciation": "いる",
         "vietnamese": "có",
         "note": "con / ở Nhật"
     },
     "居ます": {
-        "phonetic": "います",
+        "pronunciation": "います",
         "vietnamese": "có",
         "note": "lịch sự của 居る"
     },
     "掛かる": {
-        "phonetic": "かかる",
+        "pronunciation": "かかる",
         "vietnamese": "mất, tốn",
         "note": "thời gian, tiền bạc"
     },
     "掛かります": {
-        "phonetic": "かかります",
+        "pronunciation": "かかります",
         "vietnamese": "mất, tốn",
         "note": "thời gian, tiền bạc, lịch sự của 掛かる"
     },
     "休む": {
-        "phonetic": "やすむ",
+        "pronunciation": "やすむ",
         "vietnamese": "nghỉ, nghỉ ngơi"
     },
     "休みます": {
-        "phonetic": "やすみます",
+        "pronunciation": "やすみます",
         "vietnamese": "nghỉ, nghỉ ngơi",
         "note": "lịch sự của 休む"
     },
     "焼きます": {
-        "phonetic": "やきます",
+        "pronunciation": "やきます",
         "vietnamese": "nướng"
     },
     "遠くに": {
-        "phonetic": "とおくに",
+        "pronunciation": "とおくに",
         "vietnamese": "ở đằng xa"
     },
     "必要": {
-        "phonetic": "ひつよう",
+        "pronunciation": "ひつよう",
         "vietnamese": "cần thiết"
     },
     "両親": {
-        "phonetic": "りょうしん",
+        "pronunciation": "りょうしん",
         "vietnamese": "bố mẹ"
     }
 }

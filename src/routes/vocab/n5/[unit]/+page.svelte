@@ -1,22 +1,21 @@
 <script lang="ts">
-	import type { PageProps } from './$types';
-
-	let { data }: PageProps = $props();
+	let { data } = $props();
 
     import Vocab from '$lib/components/vocab.svelte';
+	import type { Dictionary } from '$lib/types/vocab';
 
     const u = data.unit
-    const json = data.json
+    const json = data.json as Dictionary;
 
-    const quesList = Object.keys(json);
-    const ansList = Object.values(json).map((v) => v.vietnamese);
-    const hintList = Object.values(json).map((v) => v.phonetic);
+    const wordsList = Object.keys(json);
+    const vietnameseList = Object.values(json).map((v) => v.vietnamese);
+    const pronunciationsList = Object.values(json).map((v) => v.pronunciation);
     const noteList = Object.values(json).map((v) => v.note);
 </script>
 <svelte:head>
     <title>{u}</title>
 </svelte:head>
 
-<div class="mx-10 my-6">
-    <Vocab words={quesList} phonetics={hintList} meanings={ansList} notes={noteList} />
+<div class="">
+    <Vocab words={wordsList} pronunciations={pronunciationsList} meanings={vietnameseList} notes={noteList} />
 </div>

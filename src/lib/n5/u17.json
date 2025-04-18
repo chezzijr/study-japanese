@@ -1,0 +1,177 @@
+{
+    "広い": {
+        "pronunciation": "ひろい",
+        "vietnamese": "rộng"
+    },
+    "狭い": {
+        "pronunciation": "せまい",
+        "vietnamese": "hẹp, chật"
+    },
+    "痛い": {
+        "pronunciation": "いたい",
+        "vietnamese": "đau"
+    },
+    "問題": {
+        "pronunciation": "もんだい",
+        "vietnamese": "vấn đề"
+    },
+    "答え": {
+        "pronunciation": "こたえ",
+        "vietnamese": "câu trả lời"
+    },
+    "荷物": {
+        "pronunciation": "にもつ",
+        "vietnamese": "hành lý"
+    },
+    "禁煙": {
+        "pronunciation": "きんえん",
+        "vietnamese": "cấm hút thuốc"
+    },
+    "準備": {
+        "pronunciation": "じゅんび",
+        "vietnamese": "chuẩn bị"
+    },
+    "残業": {
+        "pronunciation": "ざんぎょう",
+        "vietnamese": "(làm) thêm giờ"
+    },
+    "病気": {
+        "pronunciation": "びょうき",
+        "vietnamese": "ốm, bệnh"
+    },
+    "上着": {
+        "pronunciation": "うわぎ",
+        "vietnamese": "áo khoác"
+    },
+    "下着": {
+        "pronunciation": "したぎ",
+        "vietnamese": "áo lót"
+    },
+    "キャベツ": {
+        "vietnamese": "bắp cải"
+    },
+    "払う": {
+        "pronunciation": "はらう",
+        "vietnamese": "trả tiền"
+    },
+    "払います": {
+        "pronunciation": "はらいます",
+        "vietnamese": "trả tiền"
+    },
+    "無くす": {
+        "pronunciation": "なくす",
+        "vietnamese": "mất, đánh mất"
+    },
+    "無くします": {
+        "pronunciation": "なくします",
+        "vietnamese": "mất, đánh mất"
+    },
+    "出す": {
+        "pronunciation": "だす",
+        "vietnamese": "nộp [báo cáo]"
+    },
+    "出します": {
+        "pronunciation": "だします",
+        "vietnamese": "nộp [báo cáo]"
+    },
+    "返す": {
+        "pronunciation": "かえす",
+        "vietnamese": "trả lại"
+    },
+    "返します": {
+        "pronunciation": "かえします",
+        "vietnamese": "trả lại"
+    },
+    "入る": {
+        "pronunciation": "はいる",
+        "vietnamese": "vào"
+    },
+    "入ります": {
+        "pronunciation": "はいります",
+        "vietnamese": "vào"
+    },
+    "脱ぐ": {
+        "pronunciation": "ぬぐ",
+        "vietnamese": "cởi"
+    },
+    "脱ぎます": {
+        "pronunciation": "ぬぎます",
+        "vietnamese": "cởi"
+    },
+    "持って行く": {
+        "pronunciation": "もっていく",
+        "vietnamese": "mang đi, mang theo"
+    },
+    "持って行きます": {
+        "pronunciation": "もっていきます",
+        "vietnamese": "mang đi, mang theo"
+    },
+    "持って来る": {
+        "pronunciation": "もってくる",
+        "vietnamese": "mang đến"
+    },
+    "持って来ます": {
+        "pronunciation": "もってきます",
+        "vietnamese": "mang đến"
+    },
+    "出かける": {
+        "pronunciation": "でかける",
+        "vietnamese": "ra ngoài"
+    },
+    "出かけます": {
+        "pronunciation": "でかけます",
+        "vietnamese": "ra ngoài"
+    },
+    "覚える": {
+        "pronunciation": "おぼえる",
+        "vietnamese": "nhớ"
+    },
+    "覚えます": {
+        "pronunciation": "おぼえます",
+        "vietnamese": "nhớ"
+    },
+    "忘れる": {
+        "pronunciation": "わすれる",
+        "vietnamese": "quên"
+    },
+    "忘れます": {
+        "pronunciation": "わすれます",
+        "vietnamese": "quên"
+    },
+    "心配する": {
+        "pronunciation": "しんぱいする",
+        "vietnamese": "lo lắng"
+    },
+    "心配します": {
+        "pronunciation": "しんぱいします",
+        "vietnamese": "lo lắng"
+    },
+    "出張する": {
+        "pronunciation": "しゅっちょうする",
+        "vietnamese": "đi công tác"
+    },
+    "出張します": {
+        "pronunciation": "しゅっちょうします",
+        "vietnamese": "đi công tác"
+    },
+    "引っ越しする": {
+        "pronunciation": "ひっこしする",
+        "vietnamese": "chuyển nhà"
+    },
+    "引っ越しします": {
+        "pronunciation": "ひっこしします",
+        "vietnamese": "chuyển nhà"
+    },
+    "自分で": {
+        "pronunciation": "じぶんで",
+        "vietnamese": "tự (mình)"
+    },
+    "～までに": {
+        "pronunciation": "～までに",
+        "vietnamese": "trước ~ (chỉ thời hạn)"
+    },
+    "ですから": {
+        "pronunciation": "ですから",
+        "vietnamese": "vì thế, vì vậy, do đó"
+    }
+}

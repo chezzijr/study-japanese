@@ -21,18 +21,18 @@
         "vietnamese": "máy tính cá nhân"
     },
     "携帯": {
-        "phonetic": "けいたい",
+        "pronunciation": "けいたい",
         "vietnamese": "điện thoại di động"
     },
     "電話": {
-        "phonetic": "でんわ",
+        "pronunciation": "でんわ",
         "vietnamese": "điện thoại"
     },
     "iphone": {
         "vietnamese": "iphone"
     },
     "充電器": {
-        "phonetic": "じゅうでんき",
+        "pronunciation": "じゅうでんき",
         "vietnamese": "sạc pin"
     },
     "ヘッドフォン": {
@@ -45,11 +45,11 @@
         "vietnamese": "tivi"
     },
     "車": {
-        "phonetic": "くるま",
+        "pronunciation": "くるま",
         "vietnamese": "ô tô, xe hơi"
     },
     "時計": {
-        "phonetic": "とけい",
+        "pronunciation": "とけい",
         "vietnamese": "đồng hồ"
     },
     "ペン": {
@@ -59,41 +59,41 @@
         "vietnamese": "bút bi"
     },
     "鉛筆": {
-        "phonetic": "えんぴつ",
+        "pronunciation": "えんぴつ",
         "vietnamese": "bút chì"
     },
     "シャープペンシル": {
         "vietnamese": "bút chì kim"
     },
     "消しゴム": {
-        "phonetic": "けしゴム",
+        "pronunciation": "けしゴム",
         "vietnamese": "tẩy"
     },
     "本": {
-        "phonetic": "ほん",
+        "pronunciation": "ほん",
         "vietnamese": "sách"
     },
     "ノート": {
         "vietnamese": "vở"
     },
     "手帳": {
-        "phonetic": "てちょう",
+        "pronunciation": "てちょう",
         "vietnamese": "sổ tay"
     },
     "辞書": {
-        "phonetic": "じしょ",
+        "pronunciation": "じしょ",
         "vietnamese": "từ điển"
     },
     "新聞": {
-        "phonetic": "しんぶん",
+        "pronunciation": "しんぶん",
         "vietnamese": "báo"
     },
     "雑誌": {
-        "phonetic": "ざっし",
+        "pronunciation": "ざっし",
         "vietnamese": "tạp chí"
     },
     "名刺": {
-        "phonetic": "めいし",
+        "pronunciation": "めいし",
         "vietnamese": "danh thiếp"
     },
     "カード": {
@@ -103,61 +103,61 @@
         "vietnamese": "thẻ tín dụng"
     },
     "帽子": {
-        "phonetic": "ぼうし",
+        "pronunciation": "ぼうし",
         "vietnamese": "mũ"
     },
     "財布": {
-        "phonetic": "さいふ",
+        "pronunciation": "さいふ",
         "vietnamese": "ví"
     },
     "cặp sách": {
-        "phonetic": "かばん",
+        "pronunciation": "かばん",
         "vietnamese": "cặp sách, túi sách"
     },
     "靴": {
-        "phonetic": "くつ",
+        "pronunciation": "くつ",
         "vietnamese": "giày"
     },
     "スリッパ": {
         "vietnamese": "dép đi trong nhà"
     },
     "靴下": {
-        "phonetic": "くつした",
+        "pronunciation": "くつした",
         "vietnamese": "tất"
     },
     "鍵": {
-        "phonetic": "かぎ",
+        "pronunciation": "かぎ",
         "vietnamese": "chìa khóa"
     },
     "傘": {
-        "phonetic": "かさ",
+        "pronunciation": "かさ",
         "vietnamese": "ô, dù"
     },
     "机": {
-        "phonetic": "つくえ",
+        "pronunciation": "つくえ",
         "vietnamese": "bàn"
     },
     "椅子": {
-        "phonetic": "いす",
+        "pronunciation": "いす",
         "vietnamese": "cái ghế"
     },
     "英語": {
-        "phonetic": "えいご",
+        "pronunciation": "えいご",
         "vietnamese": "tiếng Anh"
     },
     "何": {
-        "phonetic": "なん",
+        "pronunciation": "なん",
         "vietnamese": "cái gì (từ để hỏi)"
     },
     "そう": {
         "vietnamese": "đúng, phải, đúng vậy"
     },
     "違う": {
-        "phonetic": "ちがう",
+        "pronunciation": "ちがう",
         "vietnamese": "không phải, sai rồi"
     },
     "ほんの気持ち": {
-        "phonetic": "ほんのきもち",
+        "pronunciation": "ほんのきもち",
         "vietnamese": "Đây là chút lòng thành của tôi!"
     }
 }

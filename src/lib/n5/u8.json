@@ -1,72 +1,72 @@
 {
     "毎週": {
-        "phonetic": "まいしゅう",
+        "pronunciation": "まいしゅう",
         "vietnamese": "mỗi tuần"
     },
     "毎月": {
-        "phonetic": "まいつき",
+        "pronunciation": "まいつき",
         "vietnamese": "mỗi tháng"
     },
     "毎年": {
-        "phonetic": "まいとし",
+        "pronunciation": "まいとし",
         "vietnamese": "mỗi năm"
     },
     "父": {
-        "phonetic": "ちち",
+        "pronunciation": "ちち",
         "vietnamese": "bố",
         "note": "dùng khi nói về bố mình"
     },
     "母": {
-        "phonetic": "はは",
+        "pronunciation": "はは",
         "vietnamese": "mẹ",
         "note": "dùng khi nói về mẹ mình"
     },
     "お父さん": {
-        "phonetic": "おとうさん",
+        "pronunciation": "おとうさん",
         "vietnamese": "bố",
         "note": "dùng khi nói về bố người khác và dùng khi xưng hô với bố mình"
     },
     "お母さん": {
-        "phonetic": "おかあさん",
+        "pronunciation": "おかあさん",
         "vietnamese": "mẹ",
         "note": "dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình"
     },
     "夫": {
-        "phonetic": "おっと",
+        "pronunciation": "おっと",
         "vietnamese": "chồng",
         "note": "mình"
     },
     "主人": {
-        "phonetic": "しゅじん",
+        "pronunciation": "しゅじん",
         "vietnamese": "chồng",
         "note": "mình"
     },
     "妻": {
-        "phonetic": "つま",
+        "pronunciation": "つま",
         "vietnamese": "vợ",
         "note": "mình"
     },
     "家内": {
-        "phonetic": "かない",
+        "pronunciation": "かない",
         "vietnamese": "vợ",
         "note": "mình"
     },
     "ご主人": {
-        "phonetic": "ごしゅじん",
+        "pronunciation": "ごしゅじん",
         "vietnamese": "chồng",
         "note": "của người khác (khi muốn hỏi hoặc giới thiệu chồng của ai đó thì sử dụng từ này)"
     },
     "奥さん": {
-        "phonetic": "おくさん",
+        "pronunciation": "おくさん",
         "vietnamese": "vợ",
         "note": "của người khác (khi muốn hỏi hoặc giới thiệu vợ của ai đó thì dùng từ này)"
     },
     "手": {
-        "phonetic": "て",
+        "pronunciation": "て",
         "vietnamese": "tay"
     },
     "箸": {
-        "phonetic": "はし",
+        "pronunciation": "はし",
         "vietnamese": "đũa"
     },
     "スプーン": {
@@ -79,15 +79,15 @@
         "vietnamese": "dao"
     },
     "鋏": {
-        "phonetic": "はさみ",
+        "pronunciation": "はさみ",
         "vietnamese": "kéo"
     },
     "紙": {
-        "phonetic": "かみ",
+        "pronunciation": "かみ",
         "vietnamese": "giấy"
     },
     "花": {
-        "phonetic": "はな",
+        "pronunciation": "はな",
         "vietnamese": "hoa"
     },
     "シャツ": {
@@ -97,15 +97,15 @@
         "vietnamese": "quà tặng"
     },
     "切符": {
-        "phonetic": "きっぷ",
+        "pronunciation": "きっぷ",
         "vietnamese": "vé"
     },
     "お茶碗": {
-        "phonetic": "おちゃわん",
+        "pronunciation": "おちゃわん",
         "vietnamese": "bát"
     },
     "お金": {
-        "phonetic": "おかね",
+        "pronunciation": "おかね",
         "vietnamese": "tiền"
     },
     "クリスマス": {
@@ -118,92 +118,92 @@
         "vietnamese": "tin tức, bản tin"
     },
     "切る": {
-        "phonetic": "きる",
+        "pronunciation": "きる",
         "vietnamese": "cắt",
         "note": "I"
     },
     "切ります": {
-        "phonetic": "きります",
+        "pronunciation": "きります",
         "vietnamese": "cắt",
         "note": "lịch sự của 切る"
     },
     "送る": {
-        "phonetic": "おくる",
+        "pronunciation": "おくる",
         "vietnamese": "gửi",
         "note": "I"
     },
     "送ります": {
-        "phonetic": "おくります",
+        "pronunciation": "おくります",
         "vietnamese": "gửi",
         "note": "lịch sự của 送る"
     },
     "貰う": {
-        "phonetic": "もらう",
+        "pronunciation": "もらう",
         "vietnamese": "nhận",
         "note": "I"
     },
     "貰います": {
-        "phonetic": "もらいます",
+        "pronunciation": "もらいます",
         "vietnamese": "nhận",
         "note": "lịch sự của 貰う"
     },
     "習う": {
-        "phonetic": "ならう",
+        "pronunciation": "ならう",
         "vietnamese": "học",
         "note": "I"
     },
     "習います": {
-        "phonetic": "ならいます",
+        "pronunciation": "ならいます",
         "vietnamese": "học",
         "note": "lịch sự của 習う"
     },
     "貸す": {
-        "phonetic": "かす",
+        "pronunciation": "かす",
         "vietnamese": "cho mượn",
         "note": "I"
     },
     "貸します": {
-        "phonetic": "かします",
+        "pronunciation": "かします",
         "vietnamese": "cho mượn",
         "note": "lịch sự của 貸す"
     },
     "上げる": {
-        "phonetic": "あげる",
+        "pronunciation": "あげる",
         "vietnamese": "cho, tặng",
         "note": "II"
     },
     "上げます": {
-        "phonetic": "あげます",
+        "pronunciation": "あげます",
         "vietnamese": "cho, tặng",
         "note": "II"
     },
     "教える": {
-        "phonetic": "おしえる",
+        "pronunciation": "おしえる",
         "vietnamese": "dạy",
         "note": "I"
     },
     "教えます": {
-        "phonetic": "おしえます",
+        "pronunciation": "おしえます",
         "vietnamese": "dạy",
         "note": "II"
     },
     "かける": {
-        "phonetic": "かける",
+        "pronunciation": "かける",
         "vietnamese": "gọi điện thoại",
         "note": "II"
     },
     "かけます": {
-        "phonetic": "かけます",
+        "pronunciation": "かけます",
         "vietnamese": "gọi điện thoại",
         "note": "II"
     },
     "借りる": {
-        "phonetic": "かりる",
+        "pronunciation": "かりる",
         "vietnamese": "vay, mượn",
         "note": "II"
     },
     "借ります": {
-        "phonetic": "かります",
+        "pronunciation": "かります",
         "vietnamese": "vay, mượn",
         "note": "II"
     },
@@ -217,11 +217,11 @@
         "vietnamese": "từ bây giờ, từ nay"
     },
     "この間": {
-        "phonetic": "このあいだ",
+        "pronunciation": "このあいだ",
         "vietnamese": "vừa rồi, hôm nọ"
     },
     "恋人": {
-        "phonetic": "こいびと",
+        "pronunciation": "こいびと",
         "vietnamese": "người yêu"
     }
 }

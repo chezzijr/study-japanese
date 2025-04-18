@@ -1,0 +1,169 @@
+{
+    "強い": {
+        "pronunciation": "つよい",
+        "vietnamese": "mạnh"
+    },
+    "弱い": {
+        "pronunciation": "よわい",
+        "vietnamese": "yếu"
+    },
+    "若い": {
+        "pronunciation": "わかい",
+        "vietnamese": "trẻ"
+    },
+    "頭がいい": {
+        "pronunciation": "あたまがいい",
+        "vietnamese": "thông minh"
+    },
+    "髪": {
+        "pronunciation": "かみ",
+        "vietnamese": "tóc"
+    },
+    "顔": {
+        "pronunciation": "かお",
+        "vietnamese": "mặt"
+    },
+    "口": {
+        "pronunciation": "くち",
+        "vietnamese": "miệng"
+    },
+    "耳": {
+        "pronunciation": "みみ",
+        "vietnamese": "tai"
+    },
+    "目": {
+        "pronunciation": "め",
+        "vietnamese": "mắt"
+    },
+    "足": {
+        "pronunciation": "あし",
+        "vietnamese": "chân"
+    },
+    "湖": {
+        "pronunciation": "みずうみ",
+        "vietnamese": "hồ"
+    },
+    "ボタン": {
+        "vietnamese": "nút, cúc, khuy"
+    },
+    "ジョギング": {
+        "vietnamese": "việc chạy bộ"
+    },
+    "シャワー": {
+        "vietnamese": "vòi hoa sen"
+    },
+    "風呂": {
+        "pronunciation": "[お]ふろ",
+        "vietnamese": "bồn tắm"
+    },
+    "確認": {
+        "pronunciation": "かくにん",
+        "vietnamese": "sự xác nhận, sự kiểm tra",
+        "note": "[～しま す：xác nhận]"
+    },
+    "どうやって": {
+        "vietnamese": "làm thế nào~"
+    },
+    "どの～": {
+        "vietnamese": "cái nào~ (dùng với trường hợp từ ba thứ trở lên)"
+    },
+    "出す": {
+        "pronunciation": "[お金を～]だす",
+        "vietnamese": "lấy ra, rút [tiền]"
+    },
+    "出します": {
+        "pronunciation": "[お金を～]だします",
+        "vietnamese": "lấy ra, rút [tiền]"
+    },
+    "押す": {
+        "pronunciation": "[ボタンを～]おす",
+        "vietnamese": "bấm, ấn [nút]"
+    },
+    "押します": {
+        "pronunciation": "[ボタンを～]おします",
+        "vietnamese": "bấm, ấn [nút]"
+    },
+    "乗る": {
+        "pronunciation": "[電車に～]のる",
+        "vietnamese": "đi, lên [tàu]"
+    },
+    "乗ります": {
+        "pronunciation": "[電車に～]のります",
+        "vietnamese": "đi, lên [tàu]"
+    },
+    "入る": {
+        "pronunciation": "[大学に～]はいる",
+        "vietnamese": "vào, nhập học [đại học]"
+    },
+    "入ります": {
+        "pronunciation": "[大学に～]はいります",
+        "vietnamese": "vào, nhập học [đại học]"
+    },
+    "出る": {
+        "pronunciation": "[大学を～]でる",
+        "vietnamese": "ra, tốt nghiệp [đại học]"
+    },
+    "出ます": {
+        "pronunciation": "[大学を～]でます",
+        "vietnamese": "ra, tốt nghiệp [đại học]"
+    },
+    "乗り換える": {
+        "pronunciation": "[電車を～]のりかえる",
+        "vietnamese": "chuyển, đổi [tàu]"
+    },
+    "乗り換えます": {
+        "pronunciation": "[電車を～]のりかえます",
+        "vietnamese": "chuyển, đổi [tàu]"
+    },
+    "浴びる": {
+        "pronunciation": "[シャワーを～]あびる",
+        "vietnamese": "tắm [vòi hoa sen]"
+    },
+    "浴びます": {
+        "pronunciation": "[シャワーを～]あびます",
+        "vietnamese": "tắm [vòi hoa sen]"
+    },
+    "入れる": {
+        "pronunciation": "いれる",
+        "vietnamese": "cho vào, bỏ vào"
+    },
+    "入れます": {
+        "pronunciation": "いれます",
+        "vietnamese": "cho vào, bỏ vào"
+    },
+    "降りる": {
+        "pronunciation": "[電車を～]おりる",
+        "vietnamese": "xuống [tàu]"
+    },
+    "降ります": {
+        "pronunciation": "[電車を～]おります",
+        "vietnamese": "xuống [tàu]"
+    },
+    "まず": {
+        "vietnamese": "trước hết, đầu tiên"
+    },
+    "初めに": {
+        "pronunciation": "はじめに",
+        "vietnamese": "ban đầu"
+    },
+    "次に": {
+        "pronunciation": "つぎに",
+        "vietnamese": "tiếp theo"
+    },
+    "磨きます": {
+        "pronunciation": "みがきます",
+        "vietnamese": "Đánh, mài"
+    },
+    "選びます": {
+        "pronunciation": "えらびます",
+        "vietnamese": "Chọn lựa"
+    },
+    "お寺": {
+        "pronunciation": "おてら",
+        "vietnamese": "Chùa"
+    },
+    "神社": {
+        "pronunciation": "じんじゃ",
+        "vietnamese": "Đền thờ thần đạo"
+    }
+}

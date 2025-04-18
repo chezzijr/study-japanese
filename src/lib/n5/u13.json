@@ -1,0 +1,140 @@
+{
+    "欲しい": {
+        "pronunciation": "ほしい",
+        "vietnamese": "muốn có"
+    },
+    "寂しい": {
+        "pronunciation": "さびしい",
+        "vietnamese": "buồn, cô đơn"
+    },
+    "眠い": {
+        "pronunciation": "ねむい",
+        "vietnamese": "buồn ngủ"
+    },
+    "校長": {
+        "pronunciation": "こうちょう",
+        "vietnamese": "hiệu trưởng"
+    },
+    "経済": {
+        "pronunciation": "けいざい",
+        "vietnamese": "kinh tế"
+    },
+    "美術": {
+        "pronunciation": "びじゅつ",
+        "vietnamese": "mỹ thuật"
+    },
+    "釣り": {
+        "pronunciation": "つり",
+        "vietnamese": "câu cá"
+    },
+    "スキー": {
+        "vietnamese": "trượt tuyết"
+    },
+    "市役所": {
+        "pronunciation": "しやくしょ",
+        "vietnamese": "tòa nhà thị chính"
+    },
+    "プール": {
+        "vietnamese": "bể bơi"
+    },
+    "川": {
+        "pronunciation": "かわ",
+        "vietnamese": "sông"
+    },
+    "刺身": {
+        "pronunciation": "さしみ",
+        "vietnamese": "sashimi"
+    },
+    "牛丼": {
+        "pronunciation": "ぎゅうどん",
+        "vietnamese": "cơm thịt bò"
+    },
+    "牛乳": {
+        "pronunciation": "ぎゅうにゅう",
+        "vietnamese": "sữa"
+    },
+    "遊ぶ": {
+        "pronunciation": "あそぶ",
+        "vietnamese": "chơi"
+    },
+    "遊びます": {
+        "pronunciation": "あそびます",
+        "vietnamese": "chơi"
+    },
+    "泳ぐ": {
+        "pronunciation": "およぐ",
+        "vietnamese": "bơi"
+    },
+    "泳ぎます": {
+        "pronunciation": "およぎます",
+        "vietnamese": "bơi"
+    },
+    "出す": {
+        "pronunciation": "だす",
+        "vietnamese": "gửi [thư]"
+    },
+    "出します": {
+        "pronunciation": "だします",
+        "vietnamese": "gửi [thư]"
+    },
+    "入る": {
+        "pronunciation": "はいる",
+        "vietnamese": "vào [quán giải khát]"
+    },
+    "入ります": {
+        "pronunciation": "はいります",
+        "vietnamese": "vào [quán giải khát]"
+    },
+    "出る": {
+        "pronunciation": "でる",
+        "vietnamese": "ra, ra khỏi [quán giải khát]"
+    },
+    "出ます": {
+        "pronunciation": "でます",
+        "vietnamese": "ra, ra khỏi [quán giải khát]"
+    },
+    "迎える": {
+        "pronunciation": "むかえる",
+        "vietnamese": "đón"
+    },
+    "迎えます": {
+        "pronunciation": "むかえます",
+        "vietnamese": "đón"
+    },
+    "結婚する": {
+        "pronunciation": "けっこんする",
+        "vietnamese": "kết hôn, lập gia đình"
+    },
+    "結婚します": {
+        "pronunciation": "けっこんします",
+        "vietnamese": "kết hôn, lập gia đình"
+    },
+    "買い物する": {
+        "pronunciation": "かいものする",
+        "vietnamese": "mua sắm"
+    },
+    "買い物します": {
+        "pronunciation": "かいものします",
+        "vietnamese": "mua sắm"
+    },
+    "散歩する": {
+        "pronunciation": "さんぽする",
+        "vietnamese": "đi dạo [ở công viên]"
+    },
+    "散歩します": {
+        "pronunciation": "さんぽします",
+        "vietnamese": "đi dạo [ở công viên]"
+    },
+    "何か": {
+        "pronunciation": "なにか",
+        "vietnamese": "cái gì đó"
+    },
+    "どこか": {
+        "pronunciation": "どこか",
+        "vietnamese": "đâu đó, chỗ nào đó"
+    },
+    "また": {
+        "pronunciation": "また",
+        "vietnamese": "lại"
+    }
+}

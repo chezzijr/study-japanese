@@ -1,47 +1,47 @@
 {
     "色々": {
-        "phonetic": "いろいろ",
+        "pronunciation": "いろいろ",
         "vietnamese": "nhiều, đa dạng",
         "note": "tính từ đuôi な"
     },
     "男の人": {
-        "phonetic": "おとこのひと",
+        "pronunciation": "おとこのひと",
         "vietnamese": "người đàn ông"
     },
     "女の人": {
-        "phonetic": "おんなのひと",
+        "pronunciation": "おんなのひと",
         "vietnamese": "người phụ nữ"
     },
     "男の子": {
-        "phonetic": "おとこのこ",
+        "pronunciation": "おとこのこ",
         "vietnamese": "cậu bé"
     },
     "女の子": {
-        "phonetic": "おんなのこ",
+        "pronunciation": "おんなのこ",
         "vietnamese": "cô bé"
     },
     "犬": {
-        "phonetic": "いぬ",
+        "pronunciation": "いぬ",
         "vietnamese": "chó"
     },
     "猫": {
-        "phonetic": "ねこ",
+        "pronunciation": "ねこ",
         "vietnamese": "mèo"
     },
     "木": {
-        "phonetic": "き",
+        "pronunciation": "き",
         "vietnamese": "cây, gỗ"
     },
     "物": {
-        "phonetic": "もの",
+        "pronunciation": "もの",
         "vietnamese": "vật, đồ vật"
     },
     "箱": {
-        "phonetic": "はこ",
+        "pronunciation": "はこ",
         "vietnamese": "hộp"
     },
     "冷蔵庫": {
-        "phonetic": "れいぞうこ",
+        "pronunciation": "れいぞうこ",
         "vietnamese": "tủ lạnh"
     },
     "テーブル": {
@@ -51,75 +51,75 @@
         "vietnamese": "giường"
     },
     "公園": {
-        "phonetic": "こうえん",
+        "pronunciation": "こうえん",
         "vietnamese": "công viên"
     },
     "本屋": {
-        "phonetic": "ほんや",
+        "pronunciation": "ほんや",
         "vietnamese": "hiệu sách"
     },
     "池": {
-        "phonetic": "いけ",
+        "pronunciation": "いけ",
         "vietnamese": "cái ao"
     },
     "～や": {
         "vietnamese": "hiệu ~, cửa hàng ~"
     },
     "地下": {
-        "phonetic": "ちか",
+        "pronunciation": "ちか",
         "vietnamese": "tầng hầm"
     },
     "上": {
-        "phonetic": "うえ",
+        "pronunciation": "うえ",
         "vietnamese": "trên"
     },
     "下": {
-        "phonetic": "した",
+        "pronunciation": "した",
         "vietnamese": "dưới"
     },
     "前": {
-        "phonetic": "まえ",
+        "pronunciation": "まえ",
         "vietnamese": "trước"
     },
     "後ろ": {
-        "phonetic": "うしろ",
+        "pronunciation": "うしろ",
         "vietnamese": "sau"
     },
     "右": {
-        "phonetic": "みぎ",
+        "pronunciation": "みぎ",
         "vietnamese": "phải"
     },
     "左": {
-        "phonetic": "ひだり",
+        "pronunciation": "ひだり",
         "vietnamese": "trái"
     },
     "中": {
-        "phonetic": "なか",
+        "pronunciation": "なか",
         "vietnamese": "trong, giữa"
     },
     "外": {
-        "phonetic": "そと",
+        "pronunciation": "そと",
         "vietnamese": "ngoài"
     },
     "隣": {
-        "phonetic": "となり",
+        "pronunciation": "となり",
         "vietnamese": "bên cạnh"
     },
     "近く": {
-        "phonetic": "ちかく",
+        "pronunciation": "ちかく",
         "vietnamese": "gần"
     },
     "間": {
-        "phonetic": "あいだ",
+        "pronunciation": "あいだ",
         "vietnamese": "giữa"
     },
     "有る": {
-        "phonetic": "ある",
+        "pronunciation": "ある",
         "vietnamese": "có",
         "note": "tồn tại, dùng cho đồ vật"
     },
     "居る": {
-        "phonetic": "いる",
+        "pronunciation": "いる",
         "vietnamese": "có, ở",
         "note": "tồn tại, dùng cho người và động vật"
     },

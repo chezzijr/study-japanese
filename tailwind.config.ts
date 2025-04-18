@@ -9,5 +9,13 @@ export default {
 		extend: {}
 	},
 
-	plugins: [typography, daisyui]
+	plugins: [typography(), daisyui],
+	daisyui: {
+		themes: [
+			"retro",
+			"dim",
+		],
+		darkTheme: "dim",
+	},
+
 } satisfies Config;

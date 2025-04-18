@@ -1,102 +1,102 @@
 {
     "簡単": {
-        "phonetic": "かんたん",
+        "pronunciation": "かんたん",
         "vietnamese": "đơn giản, dễ",
         "note": "tính từ な"
     },
     "近い": {
-        "phonetic": "ちかい",
+        "pronunciation": "ちかい",
         "vietnamese": "gần"
     },
     "遠い": {
-        "phonetic": "とおい",
+        "pronunciation": "とおい",
         "vietnamese": "xa"
     },
     "早い": {
-        "phonetic": "はやい",
+        "pronunciation": "はやい",
         "vietnamese": "sớm, nhanh"
     },
     "遅い": {
-        "phonetic": "おそい",
+        "pronunciation": "おそい",
         "vietnamese": "muộn, chậm"
     },
     "多い": {
-        "phonetic": "おおい",
+        "pronunciation": "おおい",
         "vietnamese": "nhiều [người]",
         "note": "人が～"
     },
     "少ない": {
-        "phonetic": "すくない",
+        "pronunciation": "すくない",
         "vietnamese": "ít [người]",
         "note": "人が～"
     },
     "暖かい": {
-        "phonetic": "あたたかい",
+        "pronunciation": "あたたかい",
         "vietnamese": "ấm"
     },
     "涼しい": {
-        "phonetic": "すずしい",
+        "pronunciation": "すずしい",
         "vietnamese": "mát"
     },
     "甘い": {
-        "phonetic": "あまい",
+        "pronunciation": "あまい",
         "vietnamese": "ngọt"
     },
     "辛い": {
-        "phonetic": "からい",
+        "pronunciation": "からい",
         "vietnamese": "cay"
     },
     "重い": {
-        "phonetic": "おもい",
+        "pronunciation": "おもい",
         "vietnamese": "nặng"
     },
     "軽い": {
-        "phonetic": "かるい",
+        "pronunciation": "かるい",
         "vietnamese": "nhẹ"
     },
     "良い": {
-        "phonetic": "いい",
+        "pronunciation": "いい",
         "vietnamese": "thích, chọn, dùng",
         "note": "コーヒーが～"
     },
     "背が高い": {
-        "phonetic": "せがたかい",
+        "pronunciation": "せがたかい",
         "vietnamese": "cao (dùng cho người)"
     },
     "季節": {
-        "phonetic": "きせつ",
+        "pronunciation": "きせつ",
         "vietnamese": "mùa"
     },
     "春": {
-        "phonetic": "はる",
+        "pronunciation": "はる",
         "vietnamese": "mùa xuân"
     },
     "夏": {
-        "phonetic": "なつ",
+        "pronunciation": "なつ",
         "vietnamese": "mùa hè"
     },
     "秋": {
-        "phonetic": "あき",
+        "pronunciation": "あき",
         "vietnamese": "mùa thu"
     },
     "冬": {
-        "phonetic": "ふゆ",
+        "pronunciation": "ふゆ",
         "vietnamese": "mùa đông"
     },
     "天気": {
-        "phonetic": "てんき",
+        "pronunciation": "てんき",
         "vietnamese": "thời tiết"
     },
     "雨": {
-        "phonetic": "あめ",
+        "pronunciation": "あめ",
         "vietnamese": "mưa"
     },
     "雪": {
-        "phonetic": "ゆき",
+        "pronunciation": "ゆき",
         "vietnamese": "tuyết"
     },
     "曇り": {
-        "phonetic": "くもり",
+        "pronunciation": "くもり",
         "vietnamese": "trời âm u"
     },
     "りんご": {
@@ -109,22 +109,22 @@
         "vietnamese": "quýt"
     },
     "空港": {
-        "phonetic": "くうこう",
+        "pronunciation": "くうこう",
         "vietnamese": "sân bay"
     },
     "海": {
-        "phonetic": "うみ",
+        "pronunciation": "うみ",
         "vietnamese": "biển, đại dương"
     },
     "世界": {
-        "phonetic": "せかい",
+        "pronunciation": "せかい",
         "vietnamese": "thế giới"
     },
     "パーティー": {
         "vietnamese": "tiệc"
     },
     "祭り": {
-        "phonetic": "まつり",
+        "pronunciation": "まつり",
         "vietnamese": "lễ hội"
     },
     "スピーチ": {
@@ -134,11 +134,11 @@
         "vietnamese": "bài kiểm tra"
     },
     "試験": {
-        "phonetic": "しけん",
+        "pronunciation": "しけん",
         "vietnamese": "kỳ thi, bài thi"
     },
     "一番": {
-        "phonetic": "いちばん",
+        "pronunciation": "いちばん",
         "vietnamese": "nhất"
     },
     "どちら": {
@@ -152,15 +152,15 @@
         "note": "dùng để nhấn mạnh sự khác biệt giữa hai đối tượng"
     },
     "初めて": {
-        "phonetic": "はじめて",
+        "pronunciation": "はじめて",
         "vietnamese": "lần đầu tiên"
     },
     "日本酒": {
-        "phonetic": "にほんしゅ",
+        "pronunciation": "にほんしゅ",
         "vietnamese": "Rượu Nhật"
     },
     "一生懸命": {
-        "phonetic": "いっしょうけんめい",
+        "pronunciation": "いっしょうけんめい",
         "vietnamese": "Sự cố gắng hết sức"
     }
 }

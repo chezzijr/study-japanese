@@ -6,39 +6,39 @@
         "vietnamese": "bánh mỳ"
     },
     "ご飯": {
-        "phonetic": "ごはん",
+        "pronunciation": "ごはん",
         "vietnamese": "cơm"
     },
     "卵": {
-        "phonetic": "たまご",
+        "pronunciation": "たまご",
         "vietnamese": "trứng"
     },
     "肉": {
-        "phonetic": "にく",
+        "pronunciation": "にく",
         "vietnamese": "thịt"
     },
     "牛肉": {
-        "phonetic": "ぎゅうにく",
+        "pronunciation": "ぎゅうにく",
         "vietnamese": "thịt bò"
     },
     "魚": {
-        "phonetic": "さかな",
+        "pronunciation": "さかな",
         "vietnamese": "cá"
     },
     "野菜": {
-        "phonetic": "やさい",
+        "pronunciation": "やさい",
         "vietnamese": "rau củ"
     },
     "果物": {
-        "phonetic": "くだもの",
+        "pronunciation": "くだもの",
         "vietnamese": "hoa quả"
     },
     "水": {
-        "phonetic": "みず",
+        "pronunciation": "みず",
         "vietnamese": "nước"
     },
     "お茶": {
-        "phonetic": "おちゃ",
+        "pronunciation": "おちゃ",
         "vietnamese": "trà"
     },
     "コーヒー": {
@@ -54,18 +54,18 @@
         "vietnamese": "bia"
     },
     "お酒": {
-        "phonetic": "おさけ",
+        "pronunciation": "おさけ",
         "vietnamese": "rượu"
     },
     "たばこ": {
         "vietnamese": "thuốc lá"
     },
     "薬": {
-        "phonetic": "くすり",
+        "pronunciation": "くすり",
         "vietnamese": "thuốc"
     },
     "手紙": {
-        "phonetic": "てがみ",
+        "pronunciation": "てがみ",
         "vietnamese": "thư, bức thư"
     },
     "メール": {
@@ -78,19 +78,19 @@
         "vietnamese": "bình luận"
     },
     "音楽": {
-        "phonetic": "おんがく",
+        "pronunciation": "おんがく",
         "vietnamese": "âm nhạc"
     },
     "映画": {
-        "phonetic": "えいが",
+        "pronunciation": "えいが",
         "vietnamese": "phim, điện ảnh"
     },
     "写真": {
-        "phonetic": "しゃしん",
+        "pronunciation": "しゃしん",
         "vietnamese": "ảnh"
     },
     "宿題": {
-        "phonetic": "しゅくだい",
+        "pronunciation": "しゅくだい",
         "vietnamese": "bài về nhà"
     },
     "テニス": {
@@ -100,7 +100,7 @@
         "vietnamese": "bóng đá"
     },
     "お花見": {
-        "phonetic": "おはなみ",
+        "pronunciation": "おはなみ",
         "vietnamese": "ngắm hoa anh đào"
     },
     "レストラン": {
@@ -110,81 +110,81 @@
         "vietnamese": "quán cà phê"
     },
     "庭": {
-        "phonetic": "にわ",
+        "pronunciation": "にわ",
         "vietnamese": "vườn"
     },
     "店": {
-        "phonetic": "みせ",
+        "pronunciation": "みせ",
         "vietnamese": "cửa hàng, tiệm"
     },
     "お正月": {
-        "phonetic": "おしょうがつ",
+        "pronunciation": "おしょうがつ",
         "vietnamese": "tết, năm mới"
     },
     "みんなで": {
         "vietnamese": "mọi người cùng"
     },
     "何": {
-        "phonetic": "なに",
+        "pronunciation": "なに",
         "vietnamese": "cái gì, gì"
     },
     "読む": {
-        "phonetic": "よむ",
+        "pronunciation": "よむ",
         "vietnamese": "đọc",
         "note": "I"
     },
     "読みます": {
-        "phonetic": "よみます",
+        "pronunciation": "よみます",
         "vietnamese": "đọc",
         "note": "lịch sự của 読む"
     },
     "書く": {
-        "phonetic": "かく",
+        "pronunciation": "かく",
         "vietnamese": "viết",
         "note": "I"
     },
     "書きます": {
-        "phonetic": "かきます",
+        "pronunciation": "かきます",
         "vietnamese": "viết",
         "note": "lịch sự của 書く"
     },
     "買う": {
-        "phonetic": "かう",
+        "pronunciation": "かう",
         "vietnamese": "mua",
         "note": "I"
     },
     "買います": {
-        "phonetic": "かいます",
+        "pronunciation": "かいます",
         "vietnamese": "mua",
         "note": "lịch sự của 買う"
     },
     "撮る": {
-        "phonetic": "とる",
+        "pronunciation": "とる",
         "vietnamese": "chụp ảnh",
         "note": "I"
     },
     "撮ります": {
-        "phonetic": "とります",
+        "pronunciation": "とります",
         "vietnamese": "chụp ảnh",
         "note": "lịch sự của 撮る"
     },
     "聞く": {
-        "phonetic": "きく",
+        "pronunciation": "きく",
         "vietnamese": "nghe",
         "note": "I"
     },
     "聞きます": {
-        "phonetic": "ききます",
+        "pronunciation": "ききます",
         "vietnamese": "nghe",
         "note": "lịch sự của 聞く"
     },
     "吸う": {
-        "phonetic": "すう",
+        "pronunciation": "すう",
         "vietnamese": "hút thuốc",
         "note": "I"
     },
     "吸います": {
-        "phonetic": "すいます",
+        "pronunciation": "すいます",
         "vietnamese": "hút thuốc",
         "note": "lịch sự của 吸う"
     },
@@ -197,57 +197,57 @@
         "note": "lịch sự của する"
     },
     "会う": {
-        "phonetic": "あう",
+        "pronunciation": "あう",
         "vietnamese": "gặp",
         "note": "I"
     },
     "会います": {
-        "phonetic": "あいます",
+        "pronunciation": "あいます",
         "vietnamese": "gặp",
         "note": "lịch sự của 会う"
     },
     "飲む": {
-        "phonetic": "のむ",
+        "pronunciation": "のむ",
         "vietnamese": "uống",
         "note": "I"
     },
     "飲みます": {
-        "phonetic": "のみます",
+        "pronunciation": "のみます",
         "vietnamese": "uống",
         "note": "lịch sự của 飲む"
     },
     "食べる": {
-        "phonetic": "たべる",
+        "pronunciation": "たべる",
         "vietnamese": "ăn",
         "note": "II"
     },
     "食べます": {
-        "phonetic": "たべます",
+        "pronunciation": "たべます",
         "vietnamese": "ăn",
         "note": "lịch sự của 食べる"
     },
     "見る": {
-        "phonetic": "みる",
+        "pronunciation": "みる",
         "vietnamese": "xem, nhìn, trông",
         "note": "II"
     },
     "見ます": {
-        "phonetic": "みます",
+        "pronunciation": "みます",
         "vietnamese": "xem, nhìn, trông",
         "note": "lịch sự của 見る"
     },
     "食事する": {
-        "phonetic": "しょくじする",
+        "pronunciation": "しょくじする",
         "vietnamese": "dùng bữa",
         "note": "III"
     },
     "食事します": {
-        "phonetic": "しょくじします",
+        "pronunciation": "しょくじします",
         "vietnamese": "dùng bữa",
         "note": "lịch sự của 食事する"
     },
     "一緒に": {
-        "phonetic": "いっしょに",
+        "pronunciation": "いっしょに",
         "vietnamese": "cùng nhau"
     },
     "ちょっと": {
@@ -257,7 +257,7 @@
         "vietnamese": "luôn luôn, lúc nào cũng"
     },
     "時々": {
-        "phonetic": "ときどき",
+        "pronunciation": "ときどき",
         "vietnamese": "thỉnh thoảng"
     }
 }

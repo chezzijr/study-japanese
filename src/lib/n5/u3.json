@@ -28,7 +28,7 @@
         "note": "cách nói lịch sự của どこ"
     },
     "受付": {
-        "phonetic": "うけつけ",
+        "pronunciation": "うけつけ",
         "vietnamese": "quầy lễ tân",
         "note": "dùng cho công ty, cơ quan"
     },
@@ -37,7 +37,7 @@
         "note": "dùng cho khách sạn"
     },
     "階段": {
-        "phonetic": "かいだん",
+        "pronunciation": "かいだん",
         "vietnamese": "cầu thang"
     },
     "エレベーター": {
@@ -47,7 +47,7 @@
         "vietnamese": "thang cuốn"
     },
     "お手洗い": {
-        "phonetic": "おてあらい",
+        "pronunciation": "おてあらい",
         "vietnamese": "phòng vệ sinh"
     },
     "トイレ": {
@@ -60,23 +60,23 @@
         "vietnamese": "nhà"
     },
     "部屋": {
-        "phonetic": "へや",
+        "pronunciation": "へや",
         "vietnamese": "căn phòng"
     },
     "教室": {
-        "phonetic": "きょうしつ",
+        "pronunciation": "きょうしつ",
         "vietnamese": "phòng học"
     },
     "事務所": {
-        "phonetic": "じむしょ",
+        "pronunciation": "じむしょ",
         "vietnamese": "văn phòng"
     },
     "会議室": {
-        "phonetic": "かいぎしつ",
+        "pronunciation": "かいぎしつ",
         "vietnamese": "phòng họp"
     },
     "食堂": {
-        "phonetic": "しょくどう",
+        "pronunciation": "しょくどう",
         "vietnamese": "nhà ăn"
     },
     "ビル": {
@@ -92,42 +92,42 @@
         "vietnamese": "trung tâm"
     },
     "映画館": {
-        "phonetic": "えいがかん",
+        "pronunciation": "えいがかん",
         "vietnamese": "rạp chiếu phim"
     },
     "喫茶店": {
-        "phonetic": "きっさてん",
+        "pronunciation": "きっさてん",
         "vietnamese": "quán trà, cà phê"
     },
     "図書館": {
-        "phonetic": "としょかん",
+        "pronunciation": "としょかん",
         "vietnamese": "thư viện"
     },
     "会社": {
-        "phonetic": "かいしゃ",
+        "pronunciation": "かいしゃ",
         "vietnamese": "công ty"
     },
     "学校": {
-        "phonetic": "がっこう",
+        "pronunciation": "がっこう",
         "vietnamese": "trường học"
     },
     "郵便局": {
-        "phonetic": "ゆうびんきょく",
+        "pronunciation": "ゆうびんきょく",
         "vietnamese": "bưu điện"
     },
     "銀行": {
-        "phonetic": "ぎんこう",
+        "pronunciation": "ぎんこう",
         "vietnamese": "ngân hàng"
     },
     "バスてい": {
         "vietnamese": "trạm xe bus"
     },
     "駅": {
-        "phonetic": "えき",
+        "pronunciation": "えき",
         "vietnamese": "nhà ga"
     },
     "国": {
-        "phonetic": "くに",
+        "pronunciation": "くに",
         "vietnamese": "đất nước",
         "note": "(của anh/chị)"
     },
@@ -135,7 +135,7 @@
         "vietnamese": "bao nhiêu tiền"
     },
     "円": {
-        "phonetic": "えん",
+        "pronunciation": "えん",
         "vietnamese": "yên"
     }
 }

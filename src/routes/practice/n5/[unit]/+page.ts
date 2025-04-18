@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
-import type { Vocab } from '$lib/types/vocab';
+import type { Dictionary } from '$lib/types/vocab';
 
 export const load: PageLoad = async ({ params }) => {
 	// in folder n5, list all files
@@ -9,7 +9,7 @@ export const load: PageLoad = async ({ params }) => {
     const unit = params.unit;
     if (unit === "all") {
         const allUnits = await Promise.all(unitFiles.map(async (unitFile) => {
-            return (await unitImportObject[unitFile]() as any).default as Vocab[];
+            return (await unitImportObject[unitFile]() as any).default as Dictionary[];
         }));
         // combine all units into one json
         const allUnitsJson = allUnits.reduce((acc, json) => {
@@ -32,7 +32,7 @@ export const load: PageLoad = async ({ params }) => {
         if (u === unit) {
             return {
                 unit,
-                json: (await unitImportObject[unitFile]() as any).default as Vocab
+                json: (await unitImportObject[unitFile]() as any).default as Dictionary
             };
         }
     }
