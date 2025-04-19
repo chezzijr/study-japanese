@@ -52,115 +52,143 @@
     },
     "払う": {
         "pronunciation": "はらう",
-        "vietnamese": "trả tiền"
+        "vietnamese": "trả tiền",
+        "note": "I"
     },
     "払います": {
         "pronunciation": "はらいます",
-        "vietnamese": "trả tiền"
+        "vietnamese": "trả tiền",
+        "note": "I"
     },
     "無くす": {
         "pronunciation": "なくす",
-        "vietnamese": "mất, đánh mất"
+        "vietnamese": "mất, đánh mất",
+        "note": "I"
     },
     "無くします": {
         "pronunciation": "なくします",
-        "vietnamese": "mất, đánh mất"
+        "vietnamese": "mất, đánh mất",
+        "note": "I"
     },
     "出す": {
         "pronunciation": "だす",
-        "vietnamese": "nộp [báo cáo]"
+        "vietnamese": "nộp [báo cáo]",
+        "note": "I"
     },
     "出します": {
         "pronunciation": "だします",
-        "vietnamese": "nộp [báo cáo]"
+        "vietnamese": "nộp [báo cáo]",
+        "note": "I"
     },
     "返す": {
         "pronunciation": "かえす",
-        "vietnamese": "trả lại"
+        "vietnamese": "trả lại",
+        "note": "I"
     },
     "返します": {
         "pronunciation": "かえします",
-        "vietnamese": "trả lại"
+        "vietnamese": "trả lại",
+        "note": "I"
     },
     "入る": {
         "pronunciation": "はいる",
-        "vietnamese": "vào"
+        "vietnamese": "vào",
+        "note": "I"
     },
     "入ります": {
         "pronunciation": "はいります",
-        "vietnamese": "vào"
+        "vietnamese": "vào",
+        "note": "I"
     },
     "脱ぐ": {
         "pronunciation": "ぬぐ",
-        "vietnamese": "cởi"
+        "vietnamese": "cởi",
+        "note": "I"
     },
     "脱ぎます": {
         "pronunciation": "ぬぎます",
-        "vietnamese": "cởi"
+        "vietnamese": "cởi",
+        "note": "I"
     },
     "持って行く": {
         "pronunciation": "もっていく",
-        "vietnamese": "mang đi, mang theo"
+        "vietnamese": "mang đi, mang theo",
+        "note": "I"
     },
     "持って行きます": {
         "pronunciation": "もっていきます",
-        "vietnamese": "mang đi, mang theo"
+        "vietnamese": "mang đi, mang theo",
+        "note": "I"
     },
     "持って来る": {
         "pronunciation": "もってくる",
-        "vietnamese": "mang đến"
+        "vietnamese": "mang đến",
+        "note": "III"
     },
     "持って来ます": {
         "pronunciation": "もってきます",
-        "vietnamese": "mang đến"
+        "vietnamese": "mang đến",
+        "note": "III"
     },
     "出かける": {
         "pronunciation": "でかける",
-        "vietnamese": "ra ngoài"
+        "vietnamese": "ra ngoài",
+        "note": "II"
     },
     "出かけます": {
         "pronunciation": "でかけます",
-        "vietnamese": "ra ngoài"
+        "vietnamese": "ra ngoài",
+        "note": "II"
     },
     "覚える": {
         "pronunciation": "おぼえる",
-        "vietnamese": "nhớ"
+        "vietnamese": "nhớ",
+        "note": "II"
     },
     "覚えます": {
         "pronunciation": "おぼえます",
-        "vietnamese": "nhớ"
+        "vietnamese": "nhớ",
+        "note": "II"
     },
     "忘れる": {
         "pronunciation": "わすれる",
-        "vietnamese": "quên"
+        "vietnamese": "quên",
+        "note": "II"
     },
     "忘れます": {
         "pronunciation": "わすれます",
-        "vietnamese": "quên"
+        "vietnamese": "quên",
+        "note": "II"
     },
     "心配する": {
         "pronunciation": "しんぱいする",
-        "vietnamese": "lo lắng"
+        "vietnamese": "lo lắng",
+        "note": "III"
     },
     "心配します": {
         "pronunciation": "しんぱいします",
-        "vietnamese": "lo lắng"
+        "vietnamese": "lo lắng",
+        "note": "III"
     },
     "出張する": {
         "pronunciation": "しゅっちょうする",
-        "vietnamese": "đi công tác"
+        "vietnamese": "đi công tác",
+        "note": "III"
     },
     "出張します": {
         "pronunciation": "しゅっちょうします",
-        "vietnamese": "đi công tác"
+        "vietnamese": "đi công tác",
+        "note": "III"
     },
     "引っ越しする": {
         "pronunciation": "ひっこしする",
-        "vietnamese": "chuyển nhà"
+        "vietnamese": "chuyển nhà",
+        "note": "III"
     },
     "引っ越しします": {
         "pronunciation": "ひっこしします",
-        "vietnamese": "chuyển nhà"
+        "vietnamese": "chuyển nhà",
+        "note": "III"
     },
     "自分で": {
         "pronunciation": "じぶんで",
