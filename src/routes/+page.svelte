@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from "$app/paths";
     const unitImportObject = import.meta.glob('$lib/n5/*.json');
     const unitFiles = Object.keys(unitImportObject);
     const units = unitFiles.length;
@@ -11,12 +12,12 @@
     <h1 class="text-3xl">Quá trình học tiếng Nhật</h1>
     
     <h3 class="text-xl">Luyện tập Hiragana và Katakana</h3>
-    <a class="link" href="/practice/hiragana">Hiragana</a>
-    <a class="link" href="/practice/katakana">Katakana</a>
+    <a class="link" href="{base}/practice/hiragana">Hiragana</a>
+    <a class="link" href="{base}/practice/katakana">Katakana</a>
     <br>
     <h3 class="text-xl">Từ vựng N5</h3>
-    <a class="link" href="/vocab/n5/all">Tất cả từ vựng</a>
-    <a class="link" href="/practice/n5/all">Luyện tập tất cả từ vựng</a>
+    <a class="link" href="{base}/vocab/n5/all">Tất cả từ vựng</a>
+    <a class="link" href="{base}/practice/n5/all">Luyện tập tất cả từ vựng</a>
     <br>
     
     <div>
@@ -27,7 +28,7 @@
                 <option value={unit}>{unit}</option>
             {/each}
         </select>
-        <a class="link" href={`/vocab/n5/u${vocabUnit}`}>Di chuyển</a>
+        <a class="link" href={`${base}/vocab/n5/u${vocabUnit}`}>Di chuyển</a>
     </div>
     
     <div>
@@ -38,6 +39,6 @@
                 <option value={unit}>{unit}</option>
             {/each}
         </select>
-        <a class="link" href={`/practice/n5/u${practiceUnit}`}>Di chuyển</a>
+        <a class="link" href={`${base}/practice/n5/u${practiceUnit}`}>Di chuyển</a>
     </div>
 </main>

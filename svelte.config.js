@@ -1,4 +1,3 @@
-import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import fs from 'fs';
@@ -20,6 +19,10 @@ const kanjiLevels = fs.readdirSync('./src/lib/kanji').filter(file => !file.inclu
 const kanjiEntries = kanjiLevels.map(level => `/practice/kanji/${level}`)
 const allKanjiEntries = ['/practice/kanji/all']
 
+const grammarEntries = [
+	'/grammar/verb'
+]
+
 const entries = [
 	...initialEntries,
 	...practiceUnitEntries,
@@ -27,7 +30,8 @@ const entries = [
 	...vocabEntries,
 	...allVocabEntries,
 	...kanjiEntries,
-	...allKanjiEntries
+	...allKanjiEntries,
+	...grammarEntries,
 ]
 // console.log(entries)
 
@@ -35,7 +39,7 @@ const entries = [
 const config = {
 	// Consult https://svelte.dev/docs/kit/integrations
 	// for more information about preprocessors
-	preprocess: [mdsvex(), vitePreprocess()],
+	preprocess: [vitePreprocess()],
 
 	kit: {
 		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.

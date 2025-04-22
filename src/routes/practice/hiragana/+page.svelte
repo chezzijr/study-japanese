@@ -5,4 +5,4 @@
     const answers = Object.values(HiraganaJson);
 </script>
 
-<MCQ quesList={questions} ansList={answers} swappable keyName="Hiragana" valueName="Romaji" />
+<MCQ quesList={questions} ansList={answers} hintList={[]} swappable keyName="Hiragana" valueName="Romaji" />

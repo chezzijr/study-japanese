@@ -6,4 +6,4 @@
 
 </script>
 
-<MCQ quesList={questions} ansList={answers} swappable keyName="Katakana" valueName="Romaji" />
+<MCQ quesList={questions} ansList={answers} hintList={[]} swappable keyName="Katakana" valueName="Romaji" />
