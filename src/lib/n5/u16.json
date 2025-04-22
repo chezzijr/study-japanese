@@ -59,85 +59,104 @@
     "確認": {
         "pronunciation": "かくにん",
         "vietnamese": "sự xác nhận, sự kiểm tra",
-        "note": "[～しま す：xác nhận]"
+        "note": "[~します: xác nhận]"
     },
     "どうやって": {
         "vietnamese": "làm thế nào~"
     },
     "どの～": {
-        "vietnamese": "cái nào~ (dùng với trường hợp từ ba thứ trở lên)"
+        "vietnamese": "cái nào ~",
+        "note": "dùng với trường hợp từ ba thứ trở lên"
     },
     "出す": {
         "pronunciation": "[お金を～]だす",
-        "vietnamese": "lấy ra, rút [tiền]"
+        "vietnamese": "lấy ra, rút [tiền]",
+        "note": "I"
     },
     "出します": {
         "pronunciation": "[お金を～]だします",
-        "vietnamese": "lấy ra, rút [tiền]"
+        "vietnamese": "lấy ra, rút [tiền]",
+        "note": "I"
     },
     "押す": {
         "pronunciation": "[ボタンを～]おす",
-        "vietnamese": "bấm, ấn [nút]"
+        "vietnamese": "bấm, ấn [nút]",
+        "note": "I"
     },
     "押します": {
         "pronunciation": "[ボタンを～]おします",
-        "vietnamese": "bấm, ấn [nút]"
+        "vietnamese": "bấm, ấn [nút]",
+        "note": "I"
     },
     "乗る": {
         "pronunciation": "[電車に～]のる",
-        "vietnamese": "đi, lên [tàu]"
+        "vietnamese": "đi, lên [tàu]",
+        "note": "I"
     },
     "乗ります": {
         "pronunciation": "[電車に～]のります",
-        "vietnamese": "đi, lên [tàu]"
+        "vietnamese": "đi, lên [tàu]",
+        "note": "I"
     },
     "入る": {
         "pronunciation": "[大学に～]はいる",
-        "vietnamese": "vào, nhập học [đại học]"
+        "vietnamese": "vào, nhập học [đại học]",
+        "note": "I"
     },
     "入ります": {
         "pronunciation": "[大学に～]はいります",
-        "vietnamese": "vào, nhập học [đại học]"
+        "vietnamese": "vào, nhập học [đại học]",
+        "note": "I"
     },
     "出る": {
         "pronunciation": "[大学を～]でる",
-        "vietnamese": "ra, tốt nghiệp [đại học]"
+        "vietnamese": "ra, tốt nghiệp [đại học]",
+        "note": "II"
     },
     "出ます": {
         "pronunciation": "[大学を～]でます",
-        "vietnamese": "ra, tốt nghiệp [đại học]"
+        "vietnamese": "ra, tốt nghiệp [đại học]",
+        "note": "II"
     },
     "乗り換える": {
         "pronunciation": "[電車を～]のりかえる",
-        "vietnamese": "chuyển, đổi [tàu]"
+        "vietnamese": "chuyển, đổi [tàu]",
+        "note": "II"
     },
     "乗り換えます": {
         "pronunciation": "[電車を～]のりかえます",
-        "vietnamese": "chuyển, đổi [tàu]"
+        "vietnamese": "chuyển, đổi [tàu]",
+        "note": "II"
     },
     "浴びる": {
         "pronunciation": "[シャワーを～]あびる",
-        "vietnamese": "tắm [vòi hoa sen]"
+        "vietnamese": "tắm [vòi hoa sen]",
+        "note": "II"
     },
     "浴びます": {
         "pronunciation": "[シャワーを～]あびます",
-        "vietnamese": "tắm [vòi hoa sen]"
+        "vietnamese": "tắm [vòi hoa sen]",
+        "note": "II"
     },
     "入れる": {
         "pronunciation": "いれる",
-        "vietnamese": "cho vào, bỏ vào"
+        "vietnamese": "cho vào, bỏ vào",
+        "note": "II"
     },
     "入れます": {
         "pronunciation": "いれます",
-        "vietnamese": "cho vào, bỏ vào"
+        "vietnamese": "cho vào, bỏ vào",
+        "note": "II"
     },
     "降りる": {
         "pronunciation": "[電車を～]おりる",
-        "vietnamese": "xuống [tàu]"
+        "vietnamese": "xuống [tàu]",
+        "note": "II"
     },
     "降ります": {
         "pronunciation": "[電車を～]おります",
-        "vietnamese": "xuống [tàu]"
+        "vietnamese": "xuống [tàu]",
+        "note": "II"
     },
     "まず": {
         "vietnamese": "trước hết, đầu tiên"

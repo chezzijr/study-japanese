@@ -11,6 +11,9 @@ importers:
       '@tailwindcss/typography':
         specifier: ^0.5.15
         version: 0.5.15(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@22.13.10)(typescript@5.7.2)))
+      furigana:
+        specifier: ^0.19.3
+        version: 0.19.3
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.3
@@ -1123,6 +1126,9 @@ packages:
   function-bind@1.1.2:
     resolution: {integrity: sha512-7XHNxH7qX9xG5mIwxkhumTox/MIRNcOgDrxWsMt2pAr23WHp6MrRlN7FBSFpCpr+oVO0F744iUgR82nJMfG2SA==}
 
+  furigana@0.19.3:
+    resolution: {integrity: sha512-Glc8eJzxFTes4OVAfy8CyDxJkAoJdO6s+mSFEdwlNDlNVEXvycDzqOIsCQF/P1oI336xRlx9Wa79gbKee86ywA==}
+
   get-tsconfig@4.10.0:
     resolution: {integrity: sha512-kGzZ3LWWQcGIAmg6iWvXn0ei6WDtV26wzHRMwDSzmAbcXrTEXxHy6IehI6/4eT6VRKyMP1eF1VqwrVUmE/LR7A==}
 
@@ -1237,6 +1243,9 @@ packages:
 
   known-css-properties@0.35.0:
     resolution: {integrity: sha512-a/RAk2BfKk+WFGhhOCAYqSiFLc34k8Mt/6NWRI4joER0EYUzXIcFivjjnoD3+XU1DggLn/tZc3DOAgke7l8a4A==}
+
+  kyarakuta@0.19.3:
+    resolution: {integrity: sha512-Vafj6dEcD50CiKkA9WBzlFmVB2uY4OvJnCp27LqEZWmfNoEZwyIlRUZYdscj3/1sC3EVq+Y3lugCT5rUnkecRA==}
 
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
@@ -2869,6 +2878,10 @@ snapshots:
 
   function-bind@1.1.2: {}
 
+  furigana@0.19.3:
+    dependencies:
+      kyarakuta: 0.19.3
+
   get-tsconfig@4.10.0:
     dependencies:
       resolve-pkg-maps: 1.0.0
@@ -2966,6 +2979,8 @@ snapshots:
   kleur@4.1.5: {}
 
   known-css-properties@0.35.0: {}
+
+  kyarakuta@0.19.3: {}
 
   levn@0.4.1:
     dependencies:

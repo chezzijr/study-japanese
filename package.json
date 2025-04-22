@@ -43,6 +43,7 @@
 		"vitest": "^2.0.4"
 	},
 	"dependencies": {
-		"@tailwindcss/typography": "^0.5.15"
+		"@tailwindcss/typography": "^0.5.15",
+		"furigana": "^0.19.3"
 	}
 }
