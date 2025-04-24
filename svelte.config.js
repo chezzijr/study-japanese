@@ -6,6 +6,7 @@ const initialEntries = [
 	'/',
 	'/practice/hiragana',
 	'/practice/katakana',
+	'/practice/verb'
 ]
 
 // list files in n5 folder

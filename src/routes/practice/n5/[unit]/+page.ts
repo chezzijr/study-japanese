@@ -9,7 +9,7 @@ export const load: PageLoad = async ({ params }) => {
     const unit = params.unit;
     if (unit === "all") {
         const allUnits = await Promise.all(unitFiles.map(async (unitFile) => {
-            return (await unitImportObject[unitFile]() as any).default as Dictionary[];
+            return (await unitImportObject[unitFile]() as any).default as Dictionary;
         }));
         // combine all units into one json
         const allUnitsJson = allUnits.reduce((acc, json) => {
