@@ -115,13 +115,13 @@
     },
     "有る": {
         "pronunciation": "ある",
-        "vietnamese": "có",
-        "note": "tồn tại, dùng cho đồ vật"
+        "vietnamese": "có [tồn tại, dùng cho đồ vật]",
+        "note": "I"
     },
     "居る": {
         "pronunciation": "いる",
-        "vietnamese": "có, ở",
-        "note": "tồn tại, dùng cho người và động vật"
+        "vietnamese": "có, ở [tồn tại, dùng cho người và động vật]",
+        "note": "II"
     },
     "～など": {
         "vietnamese": "~ và ~, [v.v.]"

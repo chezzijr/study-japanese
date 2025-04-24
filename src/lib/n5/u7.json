@@ -136,7 +136,7 @@
     "読みます": {
         "pronunciation": "よみます",
         "vietnamese": "đọc",
-        "note": "lịch sự của 読む"
+        "note": "I"
     },
     "書く": {
         "pronunciation": "かく",
@@ -146,7 +146,7 @@
     "書きます": {
         "pronunciation": "かきます",
         "vietnamese": "viết",
-        "note": "lịch sự của 書く"
+        "note": "I"
     },
     "買う": {
         "pronunciation": "かう",
@@ -156,7 +156,7 @@
     "買います": {
         "pronunciation": "かいます",
         "vietnamese": "mua",
-        "note": "lịch sự của 買う"
+        "note": "I"
     },
     "撮る": {
         "pronunciation": "とる",
@@ -166,7 +166,7 @@
     "撮ります": {
         "pronunciation": "とります",
         "vietnamese": "chụp ảnh",
-        "note": "lịch sự của 撮る"
+        "note": "I"
     },
     "聞く": {
         "pronunciation": "きく",
@@ -176,7 +176,7 @@
     "聞きます": {
         "pronunciation": "ききます",
         "vietnamese": "nghe",
-        "note": "lịch sự của 聞く"
+        "note": "I"
     },
     "吸う": {
         "pronunciation": "すう",
@@ -186,7 +186,7 @@
     "吸います": {
         "pronunciation": "すいます",
         "vietnamese": "hút thuốc",
-        "note": "lịch sự của 吸う"
+        "note": "I"
     },
     "する": {
         "vietnamese": "làm",
@@ -194,7 +194,7 @@
     },
     "します": {
         "vietnamese": "làm",
-        "note": "lịch sự của する"
+        "note": "III"
     },
     "会う": {
         "pronunciation": "あう",
@@ -204,7 +204,7 @@
     "会います": {
         "pronunciation": "あいます",
         "vietnamese": "gặp",
-        "note": "lịch sự của 会う"
+        "note": "I"
     },
     "飲む": {
         "pronunciation": "のむ",
@@ -214,7 +214,7 @@
     "飲みます": {
         "pronunciation": "のみます",
         "vietnamese": "uống",
-        "note": "lịch sự của 飲む"
+        "note": "I"
     },
     "食べる": {
         "pronunciation": "たべる",
@@ -224,7 +224,7 @@
     "食べます": {
         "pronunciation": "たべます",
         "vietnamese": "ăn",
-        "note": "lịch sự của 食べる"
+        "note": "II"
     },
     "見る": {
         "pronunciation": "みる",
@@ -234,7 +234,7 @@
     "見ます": {
         "pronunciation": "みます",
         "vietnamese": "xem, nhìn, trông",
-        "note": "lịch sự của 見る"
+        "note": "II"
     },
     "食事する": {
         "pronunciation": "しょくじする",
@@ -244,7 +244,7 @@
     "食事します": {
         "pronunciation": "しょくじします",
         "vietnamese": "dùng bữa",
-        "note": "lịch sự của 食事する"
+        "note": "III"
     },
     "一緒に": {
         "pronunciation": "いっしょに",

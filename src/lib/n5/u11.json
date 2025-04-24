@@ -173,13 +173,13 @@
     },
     "居る": {
         "pronunciation": "いる",
-        "vietnamese": "có",
-        "note": "con / ở Nhật"
+        "vietnamese": "có [con / ở Nhật]",
+        "note": "II"
     },
     "居ます": {
         "pronunciation": "います",
         "vietnamese": "có",
-        "note": "lịch sự của 居る"
+        "note": "II"
     },
     "掛かる": {
         "pronunciation": "かかる",

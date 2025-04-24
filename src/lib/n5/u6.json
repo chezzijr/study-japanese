@@ -180,7 +180,7 @@
     "行きます": {
         "pronunciation": "いきます",
         "vietnamese": "đi",
-        "note": "lịch sự của 行く"
+        "note": "I"
     },
     "来る": {
         "pronunciation": "くる",
@@ -190,7 +190,7 @@
     "来ます": {
         "pronunciation": "きます",
         "vietnamese": "đến",
-        "note": "lịch sự của 来る"
+        "note": "III"
     },
     "帰る": {
         "pronunciation": "かえる",
@@ -200,7 +200,7 @@
     "帰ります": {
         "pronunciation": "かえります",
         "vietnamese": "về",
-        "note": "lịch sự của 帰る"
+        "note": "I"
     },
     "日記": {
         "pronunciation": "にっき",
