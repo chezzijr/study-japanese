@@ -75,147 +75,183 @@
     },
     "手伝う": {
         "pronunciation": "てつだう",
-        "vietnamese": "giúp, giúp đỡ"
+        "vietnamese": "giúp, giúp đỡ",
+        "note": "I"
     },
     "手伝います": {
         "pronunciation": "てつだいます",
-        "vietnamese": "giúp, giúp đỡ"
+        "vietnamese": "giúp, giúp đỡ",
+        "note": "I"
     },
     "話す": {
         "pronunciation": "はなす",
-        "vietnamese": "nói, nói chuyện"
+        "vietnamese": "nói, nói chuyện",
+        "note": "I"
     },
     "話します": {
         "pronunciation": "はなします",
-        "vietnamese": "nói, nói chuyện"
+        "vietnamese": "nói, nói chuyện",
+        "note": "I"
     },
     "待つ": {
         "pronunciation": "まつ",
-        "vietnamese": "đợi, chờ"
+        "vietnamese": "đợi, chờ",
+        "note": "I"
     },
     "待ちます": {
         "pronunciation": "まちます",
-        "vietnamese": "đợi, chờ"
+        "vietnamese": "đợi, chờ",
+        "note": "I"
     },
     "持つ": {
         "pronunciation": "もつ",
-        "vietnamese": "mang, cầm"
+        "vietnamese": "mang, cầm",
+        "note": "I"
     },
     "持ちます": {
         "pronunciation": "もちます",
-        "vietnamese": "mang, cầm"
+        "vietnamese": "mang, cầm",
+        "note": "I"
     },
     "取る": {
         "pronunciation": "とる",
-        "vietnamese": "lấy"
+        "vietnamese": "lấy",
+        "note": "I"
     },
     "取ります": {
         "pronunciation": "とります",
-        "vietnamese": "lấy"
+        "vietnamese": "lấy",
+        "note": "I"
     },
     "降る": {
         "pronunciation": "ふる",
-        "vietnamese": "mưa"
+        "vietnamese": "mưa",
+        "note": "I"
     },
     "降ります": {
         "pronunciation": "ふります",
-        "vietnamese": "mưa"
+        "vietnamese": "mưa",
+        "note": "I"
     },
     "曲がる": {
         "pronunciation": "まがる",
-        "vietnamese": "rẽ, quẹo [phải]"
+        "vietnamese": "rẽ, quẹo [phải]",
+        "note": "I"
     },
     "曲がります": {
         "pronunciation": "まがります",
-        "vietnamese": "rẽ, quẹo [phải]"
+        "vietnamese": "rẽ, quẹo [phải]",
+        "note": "I"
     },
     "急ぐ": {
         "pronunciation": "いそぐ",
-        "vietnamese": "nhanh, gấp, vội"
+        "vietnamese": "nhanh, gấp, vội",
+        "note": "I"
     },
     "急ぎます": {
         "pronunciation": "いそぎます",
-        "vietnamese": "nhanh, gấp, vội"
+        "vietnamese": "nhanh, gấp, vội",
+        "note": "I"
     },
     "呼ぶ": {
         "pronunciation": "よぶ",
-        "vietnamese": "gọi"
+        "vietnamese": "gọi",
+        "note": "I"
     },
     "呼びます": {
         "pronunciation": "よびます",
-        "vietnamese": "gọi"
+        "vietnamese": "gọi",
+        "note": "I"
     },
     "教える": {
         "pronunciation": "おしえる",
-        "vietnamese": "nói, cho biết [địa chỉ]"
+        "vietnamese": "nói, cho biết [địa chỉ]",
+        "note": "II"
     },
     "教えます": {
         "pronunciation": "おしえます",
-        "vietnamese": "nói, cho biết [địa chỉ]"
+        "vietnamese": "nói, cho biết [địa chỉ]",
+        "note": "II"
     },
     "つける": {
         "pronunciation": "つける",
-        "vietnamese": "bật [điện], (điều hòa)"
+        "vietnamese": "bật [điện], (điều hòa)",
+        "note": "II"
     },
     "つけます": {
         "pronunciation": "つけます",
-        "vietnamese": "bật [điện], (điều hòa)"
+        "vietnamese": "bật [điện], (điều hòa)",
+        "note": "II"
     },
     "消す": {
         "pronunciation": "けす",
-        "vietnamese": "tắt [điện], (điều hòa)"
+        "vietnamese": "tắt [điện], (điều hòa)",
+        "note": "I"
     },
     "消します": {
         "pronunciation": "けします",
-        "vietnamese": "tắt [điện], (điều hòa)"
+        "vietnamese": "tắt [điện], (điều hòa)",
+        "note": "I"
     },
     "開ける": {
         "pronunciation": "あける",
-        "vietnamese": "mở [cửa]"
+        "vietnamese": "mở [cửa]",
+        "note": "II"
     },
     "開けます": {
         "pronunciation": "あけます",
-        "vietnamese": "mở [cửa]"
+        "vietnamese": "mở [cửa]",
+        "note": "II"
     },
     "閉める": {
         "pronunciation": "しめる",
-        "vietnamese": "đóng [cửa]"
+        "vietnamese": "đóng [cửa]",
+        "note": "II"
     },
     "閉めます": {
         "pronunciation": "しめます",
-        "vietnamese": "đóng [cửa]"
+        "vietnamese": "đóng [cửa]",
+        "note": "II"
     },
     "止める": {
         "pronunciation": "とめる",
-        "vietnamese": "dừng, đỗ"
+        "vietnamese": "dừng, đỗ",
+        "note": "II"
     },
     "止めます": {
         "pronunciation": "とめます",
-        "vietnamese": "dừng, đỗ"
+        "vietnamese": "dừng, đỗ",
+        "note": "II"
     },
     "見せる": {
         "pronunciation": "みせる",
-        "vietnamese": "cho xem, trình"
+        "vietnamese": "cho xem, trình",
+        "note": "II"
     },
     "見せます": {
         "pronunciation": "みせます",
-        "vietnamese": "cho xem, trình"
+        "vietnamese": "cho xem, trình",
+        "note": "II"
     },
     "始める": {
         "pronunciation": "はじめる",
-        "vietnamese": "bắt đầu"
+        "vietnamese": "bắt đầu",
+        "note": "II"
     },
     "始めます": {
         "pronunciation": "はじめます",
-        "vietnamese": "bắt đầu"
+        "vietnamese": "bắt đầu",
+        "note": "II"
     },
     "コピーする": {
         "pronunciation": "コピーする",
-        "vietnamese": "copy, phô-tô"
+        "vietnamese": "copy, phô-tô",
+        "note": "III"
     },
     "コピーします": {
         "pronunciation": "コピーします",
-        "vietnamese": "copy, phô-tô"
+        "vietnamese": "copy, phô-tô",
+        "note": "III"
     },
     "ゆっくり": {
         "pronunciation": "ゆっくり",

@@ -183,26 +183,28 @@
     },
     "掛かる": {
         "pronunciation": "かかる",
-        "vietnamese": "mất, tốn",
-        "note": "thời gian, tiền bạc"
+        "vietnamese": "mất, tốn [thời gian, tiền bạc]",
+        "note": "I"
     },
     "掛かります": {
         "pronunciation": "かかります",
-        "vietnamese": "mất, tốn",
-        "note": "thời gian, tiền bạc, lịch sự của 掛かる"
+        "vietnamese": "mất, tốn [thời gian, tiền bạc]",
+        "note": "I"
     },
     "休む": {
         "pronunciation": "やすむ",
-        "vietnamese": "nghỉ, nghỉ ngơi"
+        "vietnamese": "nghỉ, nghỉ ngơi",
+        "note": "I"
     },
     "休みます": {
         "pronunciation": "やすみます",
         "vietnamese": "nghỉ, nghỉ ngơi",
-        "note": "lịch sự của 休む"
+        "note": "I"
     },
     "焼きます": {
         "pronunciation": "やきます",
-        "vietnamese": "nướng"
+        "vietnamese": "nướng",
+        "note": "I"
     },
     "遠くに": {
         "pronunciation": "とおくに",

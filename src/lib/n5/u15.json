@@ -68,7 +68,7 @@
     },
     "道": {
         "pronunciation": "みち",
-        "vietnamese": "đường"
+        "vietnamese": "đường xá, con đường"
     },
     "高校": {
         "pronunciation": "こうこう",
@@ -76,99 +76,123 @@
     },
     "使う": {
         "pronunciation": "つかう",
-        "vietnamese": "dùng, sử dụng"
+        "vietnamese": "dùng, sử dụng",
+        "note": "I"
     },
     "使います": {
         "pronunciation": "つかいます",
-        "vietnamese": "dùng, sử dụng"
+        "vietnamese": "dùng, sử dụng",
+        "note": "I"
     },
     "立つ": {
         "pronunciation": "たつ",
-        "vietnamese": "đứng"
+        "vietnamese": "đứng",
+        "note": "I"
     },
     "立ちます": {
         "pronunciation": "たちます",
-        "vietnamese": "đứng"
+        "vietnamese": "đứng",
+        "note": "I" 
     },
     "座る": {
         "pronunciation": "すわる",
-        "vietnamese": "ngồi"
+        "vietnamese": "ngồi",
+        "note": "I"
     },
     "座ります": {
         "pronunciation": "すわります",
-        "vietnamese": "ngồi"
+        "vietnamese": "ngồi",
+        "note": "I"
     },
     "作る": {
         "pronunciation": "つくる",
-        "vietnamese": "làm, chế tạo, sản xuất"
+        "vietnamese": "làm, chế tạo, sản xuất",
+        "note": "I"
     },
     "作ります": {
         "pronunciation": "つくります",
-        "vietnamese": "làm, chế tạo, sản xuất"
+        "vietnamese": "làm, chế tạo, sản xuất",
+        "note": "I"
     },
     "売る": {
         "pronunciation": "うる",
-        "vietnamese": "bán"
+        "vietnamese": "bán",
+        "note": "I"
     },
     "売ります": {
         "pronunciation": "うります",
-        "vietnamese": "bán"
+        "vietnamese": "bán",
+        "note": "I"
     },
     "知る": {
         "pronunciation": "しる",
-        "vietnamese": "biết"
+        "vietnamese": "biết",
+        "note": "I"
     },
     "知ります": {
         "pronunciation": "しります",
-        "vietnamese": "biết"
+        "vietnamese": "biết",
+        "note": "I"
     },
     "置く": {
         "pronunciation": "おく",
-        "vietnamese": "đặt, để"
+        "vietnamese": "đặt, để",
+        "note": "I"
     },
     "置きます": {
         "pronunciation": "おきます",
-        "vietnamese": "đặt, để"
+        "vietnamese": "đặt, để",
+        "note": "I"
     },
     "住む": {
         "pronunciation": "[おおさかに～]すむ",
-        "vietnamese": "sống, ở [Osaka]"
+        "vietnamese": "sống, ở [Osaka]",
+        "note": "I"
     },
     "住みます": {
         "pronunciation": "[おおさかに～]すみます",
-        "vietnamese": "sống, ở [Osaka]"
+        "vietnamese": "sống, ở [Osaka]",
+        "note": "I"
     },
     "辞める": {
         "pronunciation": "やめる",
-        "vietnamese": "bỏ, thôi"
+        "vietnamese": "bỏ, thôi",
+        "note": "II"
     },
     "辞めます": {
         "pronunciation": "やめます",
-        "vietnamese": "bỏ, thôi"
+        "vietnamese": "bỏ, thôi",
+        "note": "II"
     },
     "旅行する": {
         "pronunciation": "りょこうする",
-        "vietnamese": "du lịch"
+        "vietnamese": "du lịch",
+        "note": "III"
     },
     "旅行します": {
         "pronunciation": "りょこうします",
-        "vietnamese": "du lịch"
+        "vietnamese": "du lịch",
+        "note": "III"
     },
     "研究する": {
         "pronunciation": "けんきゅうする",
-        "vietnamese": "nghiên cứu"
+        "vietnamese": "nghiên cứu",
+        "note": "III"
     },
     "研究します": {
         "pronunciation": "けんきゅうします",
-        "vietnamese": "nghiên cứu"
+        "vietnamese": "nghiên cứu",
+        "note": "III"
     },
     "チェックする": {
         "pronunciation": "チェックする",
-        "vietnamese": "kiểm tra"
+        "vietnamese": "kiểm tra",
+        "note": "III"
     },
     "チェックします": {
         "pronunciation": "チェックします",
-        "vietnamese": "kiểm tra"
+        "vietnamese": "kiểm tra",
+        "note": "III"
     },
     "知っている": {
         "pronunciation": "しっている",

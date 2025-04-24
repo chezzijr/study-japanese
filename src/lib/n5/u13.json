@@ -55,75 +55,93 @@
     },
     "遊ぶ": {
         "pronunciation": "あそぶ",
-        "vietnamese": "chơi"
+        "vietnamese": "chơi",
+        "note": "I"
     },
     "遊びます": {
         "pronunciation": "あそびます",
-        "vietnamese": "chơi"
+        "vietnamese": "chơi",
+        "note": "I"
     },
     "泳ぐ": {
         "pronunciation": "およぐ",
-        "vietnamese": "bơi"
+        "vietnamese": "bơi",
+        "note": "I"
     },
     "泳ぎます": {
         "pronunciation": "およぎます",
-        "vietnamese": "bơi"
+        "vietnamese": "bơi",
+        "note": "I"
     },
     "出す": {
         "pronunciation": "だす",
-        "vietnamese": "gửi [thư]"
+        "vietnamese": "gửi [thư]",
+        "note": "I"
     },
     "出します": {
         "pronunciation": "だします",
-        "vietnamese": "gửi [thư]"
+        "vietnamese": "gửi [thư]",
+        "note": "I"
     },
     "入る": {
         "pronunciation": "はいる",
-        "vietnamese": "vào [quán giải khát]"
+        "vietnamese": "vào [quán giải khát]",
+        "note": "I"
     },
     "入ります": {
         "pronunciation": "はいります",
-        "vietnamese": "vào [quán giải khát]"
+        "vietnamese": "vào [quán giải khát]",
+        "note": "I"
     },
     "出る": {
         "pronunciation": "でる",
-        "vietnamese": "ra, ra khỏi [quán giải khát]"
+        "vietnamese": "ra, ra khỏi [quán giải khát]",
+        "note": "II"
     },
     "出ます": {
         "pronunciation": "でます",
-        "vietnamese": "ra, ra khỏi [quán giải khát]"
+        "vietnamese": "ra, ra khỏi [quán giải khát]",
+        "note": "II"
     },
     "迎える": {
         "pronunciation": "むかえる",
-        "vietnamese": "đón"
+        "vietnamese": "đón",
+        "note": "II"
     },
     "迎えます": {
         "pronunciation": "むかえます",
-        "vietnamese": "đón"
+        "vietnamese": "đón",
+        "note": "II"
     },
     "結婚する": {
         "pronunciation": "けっこんする",
-        "vietnamese": "kết hôn, lập gia đình"
+        "vietnamese": "kết hôn, lập gia đình",
+        "note": "III"
     },
     "結婚します": {
         "pronunciation": "けっこんします",
-        "vietnamese": "kết hôn, lập gia đình"
+        "vietnamese": "kết hôn, lập gia đình",
+        "note": "III"
     },
     "買い物する": {
         "pronunciation": "かいものする",
-        "vietnamese": "mua sắm"
+        "vietnamese": "mua sắm",
+        "note": "III"
     },
     "買い物します": {
         "pronunciation": "かいものします",
-        "vietnamese": "mua sắm"
+        "vietnamese": "mua sắm",
+        "note": "III"
     },
     "散歩する": {
         "pronunciation": "さんぽする",
-        "vietnamese": "đi dạo [ở công viên]"
+        "vietnamese": "đi dạo [ở công viên]",
+        "note": "III"
     },
     "散歩します": {
         "pronunciation": "さんぽします",
-        "vietnamese": "đi dạo [ở công viên]"
+        "vietnamese": "đi dạo [ở công viên]",
+        "note": "III"
     },
     "何か": {
         "pronunciation": "なにか",

@@ -125,7 +125,7 @@
     "切ります": {
         "pronunciation": "きります",
         "vietnamese": "cắt",
-        "note": "lịch sự của 切る"
+        "note": "I"
     },
     "送る": {
         "pronunciation": "おくる",
@@ -135,7 +135,7 @@
     "送ります": {
         "pronunciation": "おくります",
         "vietnamese": "gửi",
-        "note": "lịch sự của 送る"
+        "note": "I"
     },
     "貰う": {
         "pronunciation": "もらう",
@@ -145,7 +145,7 @@
     "貰います": {
         "pronunciation": "もらいます",
         "vietnamese": "nhận",
-        "note": "lịch sự của 貰う"
+        "note": "I"
     },
     "習う": {
         "pronunciation": "ならう",
@@ -155,7 +155,7 @@
     "習います": {
         "pronunciation": "ならいます",
         "vietnamese": "học",
-        "note": "lịch sự của 習う"
+        "note": "I"
     },
     "貸す": {
         "pronunciation": "かす",
@@ -165,7 +165,7 @@
     "貸します": {
         "pronunciation": "かします",
         "vietnamese": "cho mượn",
-        "note": "lịch sự của 貸す"
+        "note": "I"
     },
     "上げる": {
         "pronunciation": "あげる",
