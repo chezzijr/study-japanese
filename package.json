@@ -44,6 +44,7 @@
 	},
 	"dependencies": {
 		"@tailwindcss/typography": "^0.5.15",
-		"furigana": "^0.19.3"
+		"furigana": "^0.19.3",
+		"wanakana": "^5.3.1"
 	}
 }
