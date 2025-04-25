@@ -24,5 +24,15 @@ export const load: PageLoad = async ({ params }) => {
     //     json: allUnitsJson
     // };
     
-    return importUnit("all");
+    const data = await importUnit("all");
+    const newObj: Dictionary = {};
+    for (const key in data.json) {   
+        if (data.json[key].note && ['I', 'II', 'III'].includes(data.json[key].note)) {
+            newObj[key] = data.json[key];
+        }
+    }
+    return {
+        unit: data.unit,
+        json: newObj
+    }
 };
