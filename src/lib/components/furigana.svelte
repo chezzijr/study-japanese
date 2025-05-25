@@ -1,16 +1,27 @@
 <script lang="ts">
 	import { fit } from 'furigana';
 	const { text, reading } = $props();
-	const obj = fit(text, reading, { type: 'object' }) ?? [];
+    let error = false;
+    let obj: { w: string; r?: string }[] = [];
+    try {
+        obj = fit(text, reading, { type: 'object' }) ?? [];
+    } catch (e) {
+        error = true;
+    }
+
 </script>
 
-{#each obj as { w, r }}
-    <ruby>
-        {#if w !== r}
-            <rb>{w}</rb>
-            <rp>(</rp><rt>{r}</rt><rp>)</rp>
-        {:else}
-            <rb>{w}</rb>
-        {/if}
-    </ruby>
-{/each}
+{#if error || obj.length === 0}
+    <span>${text} (${reading})</span>
+{:else}
+    {#each obj as { w, r }}
+        <ruby>
+            {#if r}
+                <rb>{w}</rb>
+                <rp>(</rp><rt>{r}</rt><rp>)</rp>
+            {:else}
+                <rb>{w}</rb>
+            {/if}
+        </ruby>
+    {/each}
+{/if}
