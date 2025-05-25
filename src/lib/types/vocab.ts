@@ -1,5 +1,5 @@
 export type WordDefinition = {
-    pronunciation: string,
+    pronunciation?: string,
     vietnamese: string,
     note: string,
 }

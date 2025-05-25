@@ -1,0 +1,163 @@
+{
+    "不便": {
+        "pronunciation": "ふべん",
+        "vietnamese": "bất tiện"
+    },
+    "大丈夫": {
+        "pronunciation": "だいじょうぶ",
+        "vietnamese": "không sao, không vấn đề gì"
+    },
+    "息子": {
+        "pronunciation": "むすこ",
+        "vietnamese": "con trai mình"
+    },
+    "娘": {
+        "pronunciation": "むすめ",
+        "vietnamese": "con gái mình"
+    },
+    "夕食": {
+        "pronunciation": "ゆうしょく",
+        "vietnamese": "cơm chiều"
+    },
+    "雲": {
+        "pronunciation": "くも",
+        "vietnamese": "mây"
+    },
+    "政治": {
+        "pronunciation": "せいじ",
+        "vietnamese": "chính trị"
+    },
+    "試合": {
+        "pronunciation": "しあい",
+        "vietnamese": "trận đấu"
+    },
+    "意見": {
+        "pronunciation": "いけん",
+        "vietnamese": "ý kiến"
+    },
+    "[お]話": {
+        "pronunciation": "[お]はなし",
+        "vietnamese": "câu chuyện"
+    },
+    "交通": {
+        "pronunciation": "こうつう",
+        "vietnamese": "giao thông, đi lại"
+    },
+    "登録": {
+        "pronunciation": "とうろく",
+        "vietnamese": "sự đăng ký",
+        "note": "[～します: đăng ký]"
+    },
+    "思う": {
+        "pronunciation": "おもう",
+        "vietnamese": "nghĩ",
+        "note": "I"
+    },
+    "思います": {
+        "pronunciation": "おもいます",
+        "vietnamese": "nghĩ",
+        "note": "I"
+    },
+    "言う": {
+        "pronunciation": "いう",
+        "vietnamese": "nói",
+        "note": "I"
+    },
+    "言います": {
+        "pronunciation": "いいます",
+        "vietnamese": "nói",
+        "note": "I"
+    },
+    "役に立つ": {
+        "pronunciation": "やくにたつ",
+        "vietnamese": "giúp ích",
+        "note": "I"
+    },
+    "役に立ちます": {
+        "pronunciation": "やくにたちます",
+        "vietnamese": "giúp ích",
+        "note": "I"
+    },
+    "有る": {
+        "pronunciation": "ある",
+        "vietnamese": "được tổ chức, diễn ra, có",
+        "note": "I"
+    },
+    "有ります": {
+        "pronunciation": "あります",
+        "vietnamese": "được tổ chức, diễn ra, có",
+        "note": "I"
+    },
+    "勝つ": {
+        "pronunciation": "かつ",
+        "vietnamese": "thắng",
+        "note": "I"
+    },
+    "勝ちます": {
+        "pronunciation": "かちます",
+        "vietnamese": "thắng",
+        "note": "I"
+    },
+    "負ける": {
+        "pronunciation": "まける",
+        "vietnamese": "thua",
+        "note": "II"
+    },
+    "負けます": {
+        "pronunciation": "まけます",
+        "vietnamese": "thua",
+        "note": "II"
+    },
+    "足りる": {
+        "pronunciation": "たりる",
+        "vietnamese": "đủ",
+        "note": "II"
+    },
+    "足ります": {
+        "pronunciation": "たります",
+        "vietnamese": "đủ",
+        "note": "II"
+    },
+    "気を付ける": {
+        "pronunciation": "きをつける",
+        "vietnamese": "chú ý, bảo trọng",
+        "note": "II"
+    },
+    "気を付けます": {
+        "pronunciation": "きをつけます",
+        "vietnamese": "chú ý, bảo trọng",
+        "note": "II"
+    },
+    "最近": {
+        "pronunciation": "さいきん",
+        "vietnamese": "gần đây"
+    },
+    "多分": {
+        "pronunciation": "たぶん",
+        "vietnamese": "chắc, có lẽ"
+    },
+    "きっと": {
+        "vietnamese": "chắc chắn, nhất định"
+    },
+    "本当に": {
+        "pronunciation": "ほんとうに",
+        "vietnamese": "thật sự"
+    },
+    "そんなに": {
+        "vietnamese": "(không)~ lắm"
+    },
+    "～について": {
+        "vietnamese": "về ~"
+    },
+    "仕方がありません": {
+        "pronunciation": "しかたがありません",
+        "vietnamese": "không còn cách nào khác"
+    },
+    "オーストラリア": {
+        "vietnamese": "Úc"
+    },
+    "キャップテン・クック": {
+        "pronunciation": "キャップテン・クック",
+        "vietnamese": "Thuyền trưởng Cooks"
+    }
+}

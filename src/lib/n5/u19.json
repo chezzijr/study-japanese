@@ -1,0 +1,103 @@
+{
+    "茶道": {
+        "pronunciation": "さどう",
+        "vietnamese": "trà đạo"
+    },
+    "キス": {
+        "vietnamese": "nụ hôn, hôn"
+    },
+    "彼氏": {
+        "pronunciation": "かれし",
+        "vietnamese": "bạn trai"
+    },
+    "デート": {
+        "vietnamese": "hẹn hò[～します: hẹn hò]"
+    },
+    "そろそろ": {
+        "vietnamese": "sắp sửa"
+    },
+    "[山に〜]登る": {
+        "pronunciation": "[やまに～]のぼる",
+        "vietnamese": "leo [núi]",
+        "note": "I"
+    },
+    "[山に～]登ります": {
+        "pronunciation": "[やまに～]のぼります",
+        "vietnamese": "leo [núi]",
+        "note": "I"
+    },
+    "[ホテルに～]泊まる": {
+        "pronunciation": "[ホテルに～]とまる",
+        "vietnamese": "trọ [ở khách sạn]",
+        "note": "I"
+    },
+    "[ホテルに～]泊まります": {
+        "pronunciation": "[ホテルに～]とまります",
+        "vietnamese": "trọ [ở khách sạn]",
+        "note": "I"
+    },
+    "なる": {
+        "pronunciation": "なる",
+        "vietnamese": "trở thành, trở nên",
+        "note": "I"
+    },
+    "なります": {
+        "pronunciation": "なります",
+        "vietnamese": "trở thành, trở nên",
+        "note": "I"
+    },
+    "掃除する": {
+        "pronunciation": "そうじする",
+        "vietnamese": "dọn vệ sinh",
+        "note": "III"
+    },
+    "掃除します": {
+        "pronunciation": "そうじします",
+        "vietnamese": "dọn vệ sinh",
+        "note": "III"
+    },
+    "洗濯する": {
+        "pronunciation": "せんたくする",
+        "vietnamese": "giặt",
+        "note": "III"
+    },
+    "洗濯します": {
+        "pronunciation": "せんたくします",
+        "vietnamese": "giặt",
+        "note": "III"
+    },
+    "練習する": {
+        "pronunciation": "れんしゅうする",
+        "vietnamese": "luyện tập, thực hành",
+        "note": "III"
+    },
+    "練習します": {
+        "pronunciation": "れんしゅうします",
+        "vietnamese": "luyện tập, thực hành",
+        "note": "III"
+    },
+    "将来": {
+        "pronunciation": "しょうらい",
+        "vietnamese": "tương lai"
+    },
+    "一度": {
+        "pronunciation": "いちど",
+        "vietnamese": "một lần"
+    },
+    "一度も": {
+        "pronunciation": "いちども",
+        "vietnamese": "chưa lần nào"
+    },
+    "段々": {
+        "pronunciation": "だんだん",
+        "vietnamese": "dần dần"
+    },
+    "もうすぐ": {
+        "pronunciation": "もうすぐ",
+        "vietnamese": "sắp"
+    },
+    "汚い": {
+        "pronunciation": "きたない",
+        "vietnamese": "Bẩn"
+    }
+}

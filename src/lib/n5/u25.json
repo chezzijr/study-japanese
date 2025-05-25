@@ -1,0 +1,72 @@
+{
+    "体": {
+        "pronunciation": "からだ",
+        "vietnamese": "cơ thể"
+    },
+    "調子": {
+        "pronunciation": "ちょうし",
+        "vietnamese": "tình trạng (sức khỏe, máy móc)"
+    },
+    "グループ": {
+        "vietnamese": "nhóm, đoàn"
+    },
+    "チャンス": {
+        "vietnamese": "cơ hội"
+    },
+    "日本製": {
+        "pronunciation": "にほんせい",
+        "vietnamese": "hàng Nhật (có xuất xứ từ Nhật)"
+    },
+    "[駅に～]着く": {
+        "pronunciation": "[えきに～]つく",
+        "vietnamese": "đến [ga]",
+        "note": "I"
+    },
+    "[駅に～]着きます": {
+        "pronunciation": "[えきに～]つきます",
+        "vietnamese": "đến [ga]",
+        "note": "I"
+    },
+    "考える": {
+        "pronunciation": "かんがえる",
+        "vietnamese": "nghĩ, suy nghĩ",
+        "note": "II"
+    },
+    "考えます": {
+        "pronunciation": "かんがえます",
+        "vietnamese": "nghĩ, suy nghĩ",
+        "note": "II"
+    },
+    "留学する": {
+        "pronunciation": "りゅうがくする",
+        "vietnamese": "du học",
+        "note": "III"
+    },
+    "留学します": {
+        "pronunciation": "りゅうがくします",
+        "vietnamese": "du học",
+        "note": "III"
+    },
+    "体にいい": {
+        "pronunciation": "からだにいい",
+        "vietnamese": "tốt cho sức khỏe"
+    },
+    "もし[～たら]": {
+        "vietnamese": "nếu (~ thì)"
+    },
+    "いくら[～ても]": {
+        "vietnamese": "cho dù, thế nào (~ đi nữa)"
+    },
+    "給料": {
+        "pronunciation": "きゅうりょう",
+        "vietnamese": "lương"
+    },
+    "目が覚める": {
+        "pronunciation": "めがさめる",
+        "vietnamese": "tỉnh giấc"
+    },
+    "言葉": {
+        "pronunciation": "ことば",
+        "vietnamese": "từ vựng"
+    }
+}

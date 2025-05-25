@@ -10,7 +10,7 @@
             <rb>{w}</rb>
             <rp>(</rp><rt>{r}</rt><rp>)</rp>
         {:else}
-            <span>{w}</span>
+            <rb>{w}</rb>
         {/if}
     </ruby>
 {/each}

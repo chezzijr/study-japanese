@@ -1,0 +1,125 @@
+{
+    "大変「な」": {
+        "pronunciation": "たいへん「な」",
+        "vietnamese": "khó khăn, vất vả"
+    },
+    "台風": {
+        "pronunciation": "たいふう",
+        "vietnamese": "bão"
+    },
+    "お土産": {
+        "pronunciation": "おみやげ",
+        "vietnamese": "quà"
+    },
+    "スーツ": {
+        "vietnamese": "com-lê"
+    },
+    "セーター": {
+        "vietnamese": "áo len"
+    },
+    "眼鏡": {
+        "pronunciation": "めがね",
+        "vietnamese": "kính"
+    },
+    "日": {
+        "pronunciation": "ひ",
+        "vietnamese": "ngày"
+    },
+    "押入れ": {
+        "pronunciation": "おしいれ",
+        "vietnamese": "tủ âm tường"
+    },
+    "地図": {
+        "pronunciation": "ちず",
+        "vietnamese": "bản đồ"
+    },
+    "[お]寺": {
+        "pronunciation": "[お]てら",
+        "vietnamese": "chùa"
+    },
+    "[靴を～]、[靴下を～]、[ズボンを～] 履く": {
+        "pronunciation": "[くつを～]、[くつしたを～]、[ズボンを～] はく",
+        "vietnamese": "đi [giày], xỏ [tất], mặc [quần]"
+        "note": "I"
+    },
+    "[靴を～]、[靴下を～]、[ズボンを～] 履きます": {
+        "pronunciation": "[くつを～]、[くつしたを～]、[ズボンを～] はきます",
+        "vietnamese": "đi [giày], xỏ [tất], mặc [quần]"
+        "note": "I"
+    },
+    "[帽子を～] 被る": {
+        "pronunciation": "[ぼうしを～] かぶる",
+        "vietnamese": "đội mũ",
+        "note": "I"
+    },
+    "[帽子を～] 被ります": {
+        "pronunciation": "[ぼうしを～] かぶります",
+        "vietnamese": "đội mũ",
+        "note": "I"
+    },
+    "[シャツを～] 着る": {
+        "pronunciation": "[シャツを～] きる",
+        "vietnamese": "mặc [áo sơ mi]",
+        "note": "II"
+    },
+    "[シャツを～] 着ます": {
+        "pronunciation": "[シャツを～] きます",
+        "vietnamese": "mặc [áo sơ mi]",
+        "note": "II"
+    },
+    "[眼鏡を～] かける": {
+        "pronunciation": "[めがねを～] かける",
+        "vietnamese": "đeo kính",
+        "note": "II"
+    },
+    "[眼鏡を～] かけます": {
+        "pronunciation": "[めがねを～] かけます",
+        "vietnamese": "đeo kính",
+        "note": "II"
+    },
+    "生まれる": {
+        "pronunciation": "うまれる",
+        "vietnamese": "được sinh ra",
+        "note": "II"
+    },
+    "生まれます": {
+        "pronunciation": "うまれます",
+        "vietnamese": "được sinh ra",
+        "note": "II"
+    },
+    "よく": {
+        "vietnamese": "thường, hay"
+    },
+    "おめでとうございます。": {
+        "vietnamese": "Chúc mừng! (dùng để nói trong dịp sinh nhật, lễ cưới, năm mới v.v.)"
+    },
+    "うーん": {
+        "vietnamese": "Ừ ~/ Để tôi xem/ Thế nào nhỉ!"
+    },
+    "怒る": {
+        "pronunciation": "おこる",
+        "vietnamese": "Nổi giận",
+        "note": "I"
+    },
+    "怒ります": {
+        "pronunciation": "おこります",
+        "vietnamese": "Nổi giận",
+        "note": "I"
+    },
+    "弁当": {
+        "pronunciation": "べんとう",
+        "vietnamese": "Cơm hộp"
+    },
+    "お菓子": {
+        "pronunciation": "おかし",
+        "vietnamese": "Bánh kẹo"
+    },
+    "コンビニ": {
+        "vietnamese": "Cửa hàng tiện lợi"
+    },
+    "復讐する": {
+        "pronunciation": "ふくしゅうする",
+        "vietnamese": "Ôn bài",
+        "note": "III"
+    },
+}
