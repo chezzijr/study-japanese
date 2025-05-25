@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { fit } from 'furigana';
 	const { text, reading } = $props();
-    let error = false;
-    let obj: { w: string; r?: string }[] = [];
+    let error = $state(false);
+    let obj: { w: string; r?: string }[] = $state([]);
     try {
         obj = fit(text, reading, { type: 'object' }) ?? [];
     } catch (e) {
