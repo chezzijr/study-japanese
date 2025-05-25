@@ -16,7 +16,7 @@
 {:else}
     {#each obj as { w, r }}
         <ruby>
-            {#if r}
+            {#if w !== r}
                 <rb>{w}</rb>
                 <rp>(</rp><rt>{r}</rt><rp>)</rp>
             {:else}
