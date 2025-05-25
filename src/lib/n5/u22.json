@@ -44,7 +44,7 @@
     },
     "[靴を～]、[靴下を～]、[ズボンを～] 履きます": {
         "pronunciation": "[くつを～]、[くつしたを～]、[ズボンを～] はきます",
-        "vietnamese": "đi [giày], xỏ [tất], mặc [quần]"
+        "vietnamese": "đi [giày], xỏ [tất], mặc [quần]",
         "note": "I"
     },
     "[帽子を～] 被る": {
@@ -121,5 +121,5 @@
         "pronunciation": "ふくしゅうする",
         "vietnamese": "Ôn bài",
         "note": "III"
-    },
+    }
 }
