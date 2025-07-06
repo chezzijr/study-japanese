@@ -31,7 +31,7 @@
 		<input
 			type="checkbox"
 			class="toggle toggle-primary"
-			data-toggle-theme="dim,retro"
+			data-toggle-theme="retro,dim"
 			data-act-class="toggle--active"
 		/>
 	</label>
