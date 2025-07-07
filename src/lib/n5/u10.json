@@ -1,129 +1,161 @@
-{
-    "色々": {
-        "pronunciation": "いろいろ",
-        "vietnamese": "nhiều, đa dạng",
-        "note": "tính từ đuôi な"
-    },
-    "男の人": {
-        "pronunciation": "おとこのひと",
-        "vietnamese": "người đàn ông"
-    },
-    "女の人": {
-        "pronunciation": "おんなのひと",
-        "vietnamese": "người phụ nữ"
-    },
-    "男の子": {
-        "pronunciation": "おとこのこ",
-        "vietnamese": "cậu bé"
-    },
-    "女の子": {
-        "pronunciation": "おんなのこ",
-        "vietnamese": "cô bé"
-    },
-    "犬": {
-        "pronunciation": "いぬ",
-        "vietnamese": "chó"
-    },
-    "猫": {
-        "pronunciation": "ねこ",
-        "vietnamese": "mèo"
-    },
-    "木": {
-        "pronunciation": "き",
-        "vietnamese": "cây, gỗ"
-    },
-    "物": {
-        "pronunciation": "もの",
-        "vietnamese": "vật, đồ vật"
-    },
-    "箱": {
-        "pronunciation": "はこ",
-        "vietnamese": "hộp"
-    },
-    "冷蔵庫": {
-        "pronunciation": "れいぞうこ",
-        "vietnamese": "tủ lạnh"
-    },
-    "テーブル": {
-        "vietnamese": "bàn"
-    },
-    "ベッド": {
-        "vietnamese": "giường"
-    },
-    "公園": {
-        "pronunciation": "こうえん",
-        "vietnamese": "công viên"
-    },
-    "本屋": {
-        "pronunciation": "ほんや",
-        "vietnamese": "hiệu sách"
-    },
-    "池": {
-        "pronunciation": "いけ",
-        "vietnamese": "cái ao"
-    },
-    "～や": {
-        "vietnamese": "hiệu ~, cửa hàng ~"
-    },
-    "地下": {
-        "pronunciation": "ちか",
-        "vietnamese": "tầng hầm"
-    },
-    "上": {
-        "pronunciation": "うえ",
-        "vietnamese": "trên"
-    },
-    "下": {
-        "pronunciation": "した",
-        "vietnamese": "dưới"
-    },
-    "前": {
-        "pronunciation": "まえ",
-        "vietnamese": "trước"
-    },
-    "後ろ": {
-        "pronunciation": "うしろ",
-        "vietnamese": "sau"
-    },
-    "右": {
-        "pronunciation": "みぎ",
-        "vietnamese": "phải"
-    },
-    "左": {
-        "pronunciation": "ひだり",
-        "vietnamese": "trái"
-    },
-    "中": {
-        "pronunciation": "なか",
-        "vietnamese": "trong, giữa"
-    },
-    "外": {
-        "pronunciation": "そと",
-        "vietnamese": "ngoài"
-    },
-    "隣": {
-        "pronunciation": "となり",
-        "vietnamese": "bên cạnh"
-    },
-    "近く": {
-        "pronunciation": "ちかく",
-        "vietnamese": "gần"
-    },
-    "間": {
-        "pronunciation": "あいだ",
-        "vietnamese": "giữa"
-    },
-    "有る": {
-        "pronunciation": "ある",
-        "vietnamese": "có [tồn tại, dùng cho đồ vật]",
-        "note": "I"
-    },
-    "居る": {
-        "pronunciation": "いる",
-        "vietnamese": "có, ở [tồn tại, dùng cho người và động vật]",
-        "note": "II"
-    },
-    "～など": {
-        "vietnamese": "~ và ~, [v.v.]"
-    }
-}
+[
+  {
+    "word": "色々",
+    "reading": "いろいろ",
+    "meaning": "nhiều, đa dạng",
+    "note": "tính từ đuôi な"
+  },
+  {
+    "word": "男の人",
+    "reading": "おとこのひと",
+    "meaning": "người đàn ông"
+  },
+  {
+    "word": "女の人",
+    "reading": "おんなのひと",
+    "meaning": "người phụ nữ"
+  },
+  {
+    "word": "男の子",
+    "reading": "おとこのこ",
+    "meaning": "cậu bé"
+  },
+  {
+    "word": "女の子",
+    "reading": "おんなのこ",
+    "meaning": "cô bé"
+  },
+  {
+    "word": "犬",
+    "reading": "いぬ",
+    "meaning": "chó"
+  },
+  {
+    "word": "猫",
+    "reading": "ねこ",
+    "meaning": "mèo"
+  },
+  {
+    "word": "木",
+    "reading": "き",
+    "meaning": "cây, gỗ"
+  },
+  {
+    "word": "物",
+    "reading": "もの",
+    "meaning": "vật, đồ vật"
+  },
+  {
+    "word": "箱",
+    "reading": "はこ",
+    "meaning": "hộp"
+  },
+  {
+    "word": "冷蔵庫",
+    "reading": "れいぞうこ",
+    "meaning": "tủ lạnh"
+  },
+  {
+    "word": "テーブル",
+    "meaning": "bàn"
+  },
+  {
+    "word": "ベッド",
+    "meaning": "giường"
+  },
+  {
+    "word": "公園",
+    "reading": "こうえん",
+    "meaning": "công viên"
+  },
+  {
+    "word": "本屋",
+    "reading": "ほんや",
+    "meaning": "hiệu sách"
+  },
+  {
+    "word": "池",
+    "reading": "いけ",
+    "meaning": "cái ao"
+  },
+  {
+    "word": "～や",
+    "meaning": "hiệu ~, cửa hàng ~"
+  },
+  {
+    "word": "地下",
+    "reading": "ちか",
+    "meaning": "tầng hầm"
+  },
+  {
+    "word": "上",
+    "reading": "うえ",
+    "meaning": "trên"
+  },
+  {
+    "word": "下",
+    "reading": "した",
+    "meaning": "dưới"
+  },
+  {
+    "word": "前",
+    "reading": "まえ",
+    "meaning": "trước"
+  },
+  {
+    "word": "後ろ",
+    "reading": "うしろ",
+    "meaning": "sau"
+  },
+  {
+    "word": "右",
+    "reading": "みぎ",
+    "meaning": "phải"
+  },
+  {
+    "word": "左",
+    "reading": "ひだり",
+    "meaning": "trái"
+  },
+  {
+    "word": "中",
+    "reading": "なか",
+    "meaning": "trong, giữa"
+  },
+  {
+    "word": "外",
+    "reading": "そと",
+    "meaning": "ngoài"
+  },
+  {
+    "word": "隣",
+    "reading": "となり",
+    "meaning": "bên cạnh"
+  },
+  {
+    "word": "近く",
+    "reading": "ちかく",
+    "meaning": "gần"
+  },
+  {
+    "word": "間",
+    "reading": "あいだ",
+    "meaning": "giữa"
+  },
+  {
+    "word": "有る",
+    "reading": "ある",
+    "meaning": "có [tồn tại, dùng cho đồ vật]",
+    "note": "I"
+  },
+  {
+    "word": "居る",
+    "reading": "いる",
+    "meaning": "có, ở [tồn tại, dùng cho người và động vật]",
+    "note": "II"
+  },
+  {
+    "word": "～など",
+    "meaning": "~ và ~, [v.v.]"
+  }
+]

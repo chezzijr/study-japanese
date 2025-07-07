@@ -1,217 +1,271 @@
-{
-    "飛行機": {
-        "pronunciation": "ひこうき",
-        "vietnamese": "máy bay"
-    },
-    "船": {
-        "pronunciation": "ふね",
-        "vietnamese": "thuyền, tàu thủy"
-    },
-    "地下鉄": {
-        "pronunciation": "ちかてつ",
-        "vietnamese": "tàu điện ngầm"
-    },
-    "電車": {
-        "pronunciation": "でんしゃ",
-        "vietnamese": "tàu điện"
-    },
-    "バイク": {
-        "vietnamese": "xe máy"
-    },
-    "バス": {
-        "vietnamese": "xe bus"
-    },
-    "タクシー": {
-        "vietnamese": "taxi"
-    },
-    "自転車": {
-        "pronunciation": "じてんしゃ",
-        "vietnamese": "xe đạp"
-    },
-    "歩いて": {
-        "pronunciation": "あるいて",
-        "vietnamese": "đi bộ"
-    },
-    "ホテル": {
-        "vietnamese": "khách sạn"
-    },
-    "美術館": {
-        "pronunciation": "びじゅつかん",
-        "vietnamese": "bảo tàng mỹ thuật"
-    },
-    "ホーチミン市": {
-        "pronunciation": "ホーチミンし",
-        "vietnamese": "Thành phố Hồ Chí Minh"
-    },
-    "ハイズオン": {
-        "vietnamese": "Hải Dương"
-    },
-    "ハロン湾": {
-        "pronunciation": "ハロンわん",
-        "vietnamese": "vịnh Hạ Long"
-    },
-    "友達": {
-        "pronunciation": "ともだち",
-        "vietnamese": "bạn, bạn bè"
-    },
-    "一人で": {
-        "pronunciation": "ひとりで",
-        "vietnamese": "một mình"
-    },
-    "人": {
-        "pronunciation": "ひと",
-        "vietnamese": "người"
-    },
-    "家族": {
-        "pronunciation": "かぞく",
-        "vietnamese": "gia đình"
-    },
-    "先週": {
-        "pronunciation": "せんしゅう",
-        "vietnamese": "tuần trước"
-    },
-    "今週": {
-        "pronunciation": "こんしゅう",
-        "vietnamese": "tuần này"
-    },
-    "来週": {
-        "pronunciation": "らいしゅう",
-        "vietnamese": "tuần sau"
-    },
-    "先月": {
-        "pronunciation": "せんげつ",
-        "vietnamese": "tháng trước"
-    },
-    "今月": {
-        "pronunciation": "こんげつ",
-        "vietnamese": "tháng này"
-    },
-    "来月": {
-        "pronunciation": "らいげつ",
-        "vietnamese": "tháng sau"
-    },
-    "去年": {
-        "pronunciation": "きょねん",
-        "vietnamese": "năm ngoái"
-    },
-    "今年": {
-        "pronunciation": "ことし",
-        "vietnamese": "năm nay"
-    },
-    "来年": {
-        "pronunciation": "らいねん",
-        "vietnamese": "năm sau"
-    },
-    "一日": {
-        "pronunciation": "ついたち",
-        "vietnamese": "mồng 1"
-    },
-    "二日": {
-        "pronunciation": "ふつか",
-        "vietnamese": "mồng 2"
-    },
-    "三日": {
-        "pronunciation": "みっか",
-        "vietnamese": "mồng 3"
-    },
-    "四日": {
-        "pronunciation": "よっか",
-        "vietnamese": "mồng 4"
-    },
-    "五日": {
-        "pronunciation": "いつか",
-        "vietnamese": "mồng 5"
-    },
-    "六日": {
-        "pronunciation": "むいか",
-        "vietnamese": "mồng 6"
-    },
-    "七日": {
-        "pronunciation": "なのか",
-        "vietnamese": "mồng 7"
-    },
-    "八日": {
-        "pronunciation": "ようか",
-        "vietnamese": "mồng 8"
-    },
-    "九日": {
-        "pronunciation": "ここのか",
-        "vietnamese": "mồng 9"
-    },
-    "十日": {
-        "pronunciation": "とおか",
-        "vietnamese": "mồng 10"
-    },
-    "十四日": {
-        "pronunciation": "じゅうよっか",
-        "vietnamese": "ngày 14"
-    },
-    "二十日": {
-        "pronunciation": "はつか",
-        "vietnamese": "ngày 20"
-    },
-    "二十四日": {
-        "pronunciation": "にじゅうよっか",
-        "vietnamese": "ngày 24"
-    },
-    "誕生日": {
-        "pronunciation": "たんじょうび",
-        "vietnamese": "sinh nhật"
-    },
-    "～ごろ": {
-        "vietnamese": "khoảng ~"
-    },
-    "何日": {
-        "pronunciation": "なんにち",
-        "vietnamese": "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày"
-    },
-    "何月": {
-        "pronunciation": "なんがつ",
-        "vietnamese": "tháng mấy"
-    },
-    "いつ": {
-        "vietnamese": "bao giờ, khi nào"
-    },
-    "行く": {
-        "pronunciation": "いく",
-        "vietnamese": "đi",
-        "note": "I"
-    },
-    "行きます": {
-        "pronunciation": "いきます",
-        "vietnamese": "đi",
-        "note": "I"
-    },
-    "来る": {
-        "pronunciation": "くる",
-        "vietnamese": "đến",
-        "note": "III"
-    },
-    "来ます": {
-        "pronunciation": "きます",
-        "vietnamese": "đến",
-        "note": "III"
-    },
-    "帰る": {
-        "pronunciation": "かえる",
-        "vietnamese": "về",
-        "note": "I"
-    },
-    "帰ります": {
-        "pronunciation": "かえります",
-        "vietnamese": "về",
-        "note": "I"
-    },
-    "日記": {
-        "pronunciation": "にっき",
-        "vietnamese": "Nhật kí"
-    },
-    "本社": {
-        "pronunciation": "ほんしゃ",
-        "vietnamese": "Trụ sở chính"
-    },
-    "空港": {
-        "pronunciation": "くうこう",
-        "vietnamese": "Sân bay"
-    }
-}
+[
+  {
+    "word": "飛行機",
+    "reading": "ひこうき",
+    "meaning": "máy bay"
+  },
+  {
+    "word": "船",
+    "reading": "ふね",
+    "meaning": "thuyền, tàu thủy"
+  },
+  {
+    "word": "地下鉄",
+    "reading": "ちかてつ",
+    "meaning": "tàu điện ngầm"
+  },
+  {
+    "word": "電車",
+    "reading": "でんしゃ",
+    "meaning": "tàu điện"
+  },
+  {
+    "word": "バイク",
+    "meaning": "xe máy"
+  },
+  {
+    "word": "バス",
+    "meaning": "xe bus"
+  },
+  {
+    "word": "タクシー",
+    "meaning": "taxi"
+  },
+  {
+    "word": "自転車",
+    "reading": "じてんしゃ",
+    "meaning": "xe đạp"
+  },
+  {
+    "word": "歩いて",
+    "reading": "あるいて",
+    "meaning": "đi bộ"
+  },
+  {
+    "word": "ホテル",
+    "meaning": "khách sạn"
+  },
+  {
+    "word": "美術館",
+    "reading": "びじゅつかん",
+    "meaning": "bảo tàng mỹ thuật"
+  },
+  {
+    "word": "ホーチミン市",
+    "reading": "ホーチミンし",
+    "meaning": "Thành phố Hồ Chí Minh"
+  },
+  {
+    "word": "ハイズオン",
+    "meaning": "Hải Dương"
+  },
+  {
+    "word": "ハロン湾",
+    "reading": "ハロンわん",
+    "meaning": "vịnh Hạ Long"
+  },
+  {
+    "word": "友達",
+    "reading": "ともだち",
+    "meaning": "bạn, bạn bè"
+  },
+  {
+    "word": "一人で",
+    "reading": "ひとりで",
+    "meaning": "một mình"
+  },
+  {
+    "word": "人",
+    "reading": "ひと",
+    "meaning": "người"
+  },
+  {
+    "word": "家族",
+    "reading": "かぞく",
+    "meaning": "gia đình"
+  },
+  {
+    "word": "先週",
+    "reading": "せんしゅう",
+    "meaning": "tuần trước"
+  },
+  {
+    "word": "今週",
+    "reading": "こんしゅう",
+    "meaning": "tuần này"
+  },
+  {
+    "word": "来週",
+    "reading": "らいしゅう",
+    "meaning": "tuần sau"
+  },
+  {
+    "word": "先月",
+    "reading": "せんげつ",
+    "meaning": "tháng trước"
+  },
+  {
+    "word": "今月",
+    "reading": "こんげつ",
+    "meaning": "tháng này"
+  },
+  {
+    "word": "来月",
+    "reading": "らいげつ",
+    "meaning": "tháng sau"
+  },
+  {
+    "word": "去年",
+    "reading": "きょねん",
+    "meaning": "năm ngoái"
+  },
+  {
+    "word": "今年",
+    "reading": "ことし",
+    "meaning": "năm nay"
+  },
+  {
+    "word": "来年",
+    "reading": "らいねん",
+    "meaning": "năm sau"
+  },
+  {
+    "word": "一日",
+    "reading": "ついたち",
+    "meaning": "mồng 1"
+  },
+  {
+    "word": "二日",
+    "reading": "ふつか",
+    "meaning": "mồng 2"
+  },
+  {
+    "word": "三日",
+    "reading": "みっか",
+    "meaning": "mồng 3"
+  },
+  {
+    "word": "四日",
+    "reading": "よっか",
+    "meaning": "mồng 4"
+  },
+  {
+    "word": "五日",
+    "reading": "いつか",
+    "meaning": "mồng 5"
+  },
+  {
+    "word": "六日",
+    "reading": "むいか",
+    "meaning": "mồng 6"
+  },
+  {
+    "word": "七日",
+    "reading": "なのか",
+    "meaning": "mồng 7"
+  },
+  {
+    "word": "八日",
+    "reading": "ようか",
+    "meaning": "mồng 8"
+  },
+  {
+    "word": "九日",
+    "reading": "ここのか",
+    "meaning": "mồng 9"
+  },
+  {
+    "word": "十日",
+    "reading": "とおか",
+    "meaning": "mồng 10"
+  },
+  {
+    "word": "十四日",
+    "reading": "じゅうよっか",
+    "meaning": "ngày 14"
+  },
+  {
+    "word": "二十日",
+    "reading": "はつか",
+    "meaning": "ngày 20"
+  },
+  {
+    "word": "二十四日",
+    "reading": "にじゅうよっか",
+    "meaning": "ngày 24"
+  },
+  {
+    "word": "誕生日",
+    "reading": "たんじょうび",
+    "meaning": "sinh nhật"
+  },
+  {
+    "word": "～ごろ",
+    "meaning": "khoảng ~"
+  },
+  {
+    "word": "何日",
+    "reading": "なんにち",
+    "meaning": "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày"
+  },
+  {
+    "word": "何月",
+    "reading": "なんがつ",
+    "meaning": "tháng mấy"
+  },
+  {
+    "word": "いつ",
+    "meaning": "bao giờ, khi nào"
+  },
+  {
+    "word": "行く",
+    "reading": "いく",
+    "meaning": "đi",
+    "note": "I"
+  },
+  {
+    "word": "行きます",
+    "reading": "いきます",
+    "meaning": "đi",
+    "note": "I"
+  },
+  {
+    "word": "来る",
+    "reading": "くる",
+    "meaning": "đến",
+    "note": "III"
+  },
+  {
+    "word": "来ます",
+    "reading": "きます",
+    "meaning": "đến",
+    "note": "III"
+  },
+  {
+    "word": "帰る",
+    "reading": "かえる",
+    "meaning": "về",
+    "note": "I"
+  },
+  {
+    "word": "帰ります",
+    "reading": "かえります",
+    "meaning": "về",
+    "note": "I"
+  },
+  {
+    "word": "日記",
+    "reading": "にっき",
+    "meaning": "Nhật kí"
+  },
+  {
+    "word": "本社",
+    "reading": "ほんしゃ",
+    "meaning": "Trụ sở chính"
+  },
+  {
+    "word": "空港",
+    "reading": "くうこう",
+    "meaning": "Sân bay"
+  }
+]

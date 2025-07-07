@@ -1,268 +1,326 @@
-{
-    "イケメン": {
-        "vietnamese": "đẹp trai",
-        "note": "tính từ な"
-    },
-    "綺麗": {
-        "pronunciation": "きれい",
-        "vietnamese": "xinh, đẹp, sạch",
-        "note": "tính từ な"
-    },
-    "親切": {
-        "pronunciation": "しんせつ",
-        "vietnamese": "tốt bụng",
-        "note": "tính từ な"
-    },
-    "元気": {
-        "pronunciation": "げんき",
-        "vietnamese": "khỏe mạnh",
-        "note": "tính từ な"
-    },
-    "静か": {
-        "pronunciation": "しずか",
-        "vietnamese": "yên tĩnh",
-        "note": "tính từ な"
-    },
-    "賑やか": {
-        "pronunciation": "にぎやか",
-        "vietnamese": "náo nhiệt",
-        "note": "tính từ な"
-    },
-    "有名": {
-        "pronunciation": "ゆうめい",
-        "vietnamese": "nổi tiếng",
-        "note": "tính từ な"
-    },
-    "便利": {
-        "pronunciation": "べんり",
-        "vietnamese": "tiện lợi",
-        "note": "tính từ な"
-    },
-    "大切": {
-        "pronunciation": "たいせつ",
-        "vietnamese": "quan trọng",
-        "note": "tính từ な"
-    },
-    "暇": {
-        "pronunciation": "ひま",
-        "vietnamese": "rảnh rỗi",
-        "note": "tính từ な"
-    },
-    "忙しい": {
-        "pronunciation": "いそがしい",
-        "vietnamese": "bận rộn",
-        "note": "tính từ い"
-    },
-    "大きい": {
-        "pronunciation": "おおきい",
-        "vietnamese": "to, lớn",
-        "note": "tính từ い"
-    },
-    "小さい": {
-        "pronunciation": "ちいさい",
-        "vietnamese": "nhỏ, bé",
-        "note": "tính từ い"
-    },
-    "新しい": {
-        "pronunciation": "あたらしい",
-        "vietnamese": "mới",
-        "note": "tính từ い"
-    },
-    "古い": {
-        "pronunciation": "ふるい",
-        "vietnamese": "cũ",
-        "note": "tính từ い"
-    },
-    "いい（よい）": {
-        "vietnamese": "tốt",
-        "note": "tính từ い"
-    },
-    "悪い": {
-        "pronunciation": "わるい",
-        "vietnamese": "xấu",
-        "note": "tính từ い"
-    },
-    "暑い": {
-        "pronunciation": "あつい",
-        "vietnamese": "nóng (dùng cho thời tiết)",
-        "note": "tính từ い"
-    },
-    "寒い": {
-        "pronunciation": "さむい",
-        "vietnamese": "lạnh, rét (dùng cho thời tiết)",
-        "note": "tính từ い"
-    },
-    "熱い": {
-        "pronunciation": "あつい",
-        "vietnamese": "nóng (dùng cho cảm giác)",
-        "note": "tính từ い"
-    },
-    "冷たい": {
-        "pronunciation": "つめたい",
-        "vietnamese": "lạnh, buốt (dùng cho cảm giác)",
-        "note": "tính từ い"
-    },
-    "難しい": {
-        "pronunciation": "むずかしい",
-        "vietnamese": "khó",
-        "note": "tính từ い"
-    },
-    "易しい": {
-        "pronunciation": "やさしい",
-        "vietnamese": "dễ, hiền lành",
-        "note": "tính từ い"
-    },
-    "高い": {
-        "pronunciation": "たかい",
-        "vietnamese": "đắt, cao",
-        "note": "tính từ い"
-    },
-    "安い": {
-        "pronunciation": "やすい",
-        "vietnamese": "rẻ",
-        "note": "tính từ い"
-    },
-    "低い": {
-        "pronunciation": "ひくい",
-        "vietnamese": "thấp",
-        "note": "tính từ い"
-    },
-    "明るい": {
-        "pronunciation": "あかるい",
-        "vietnamese": "sáng sủa, tươi sáng",
-        "note": "tính từ い"
-    },
-    "暗い": {
-        "pronunciation": "くらい",
-        "vietnamese": "tối, u ám",
-        "note": "tính từ い"
-    },
-    "面白い": {
-        "pronunciation": "おもしろい",
-        "vietnamese": "thú vị",
-        "note": "tính từ い"
-    },
-    "可愛い": {
-        "pronunciation": "かわいい",
-        "vietnamese": "dễ thương",
-        "note": "tính từ い"
-    },
-    "美味しい": {
-        "pronunciation": "おいしい",
-        "vietnamese": "ngon",
-        "note": "tính từ い"
-    },
-    "楽しい": {
-        "pronunciation": "たのしい",
-        "vietnamese": "vui vẻ",
-        "note": "tính từ い"
-    },
-    "白い": {
-        "pronunciation": "しろい",
-        "vietnamese": "trắng",
-        "note": "tính từ い"
-    },
-    "赤い": {
-        "pronunciation": "あかい",
-        "vietnamese": "đỏ",
-        "note": "tính từ い"
-    },
-    "青い": {
-        "pronunciation": "あおい",
-        "vietnamese": "xanh",
-        "note": "tính từ い"
-    },
-    "黒い": {
-        "pronunciation": "くろい",
-        "vietnamese": "đen",
-        "note": "tính từ い"
-    },
-    "寂しい": {
-        "pronunciation": "さびしい",
-        "vietnamese": "cô đơn",
-        "note": "tính từ い"
-    },
-    "花": {
-        "pronunciation": "はな",
-        "vietnamese": "hoa"
-    },
-    "桜": {
-        "pronunciation": "さくら",
-        "vietnamese": "hoa anh đào"
-    },
-    "山": {
-        "pronunciation": "やま",
-        "vietnamese": "núi"
-    },
-    "富士山": {
-        "pronunciation": "ふじさん",
-        "vietnamese": "núi Phú Sĩ"
-    },
-    "町": {
-        "pronunciation": "まち",
-        "vietnamese": "thị trấn, thành phố"
-    },
-    "食べ物": {
-        "pronunciation": "たべもの",
-        "vietnamese": "đồ ăn"
-    },
-    "着物": {
-        "pronunciation": "きもの",
-        "vietnamese": "kimono"
-    },
-    "機械": {
-        "pronunciation": "きかい",
-        "vietnamese": "máy móc"
-    },
-    "所": {
-        "pronunciation": "ところ",
-        "vietnamese": "nơi, chỗ"
-    },
-    "勉強": {
-        "pronunciation": "べんきょう",
-        "vietnamese": "học, việc học"
-    },
-    "生活": {
-        "pronunciation": "せいかつ",
-        "vietnamese": "cuộc sống, sinh hoạt, đời sống"
-    },
-    "物価": {
-        "pronunciation": "ぶっか",
-        "vietnamese": "vật giá"
-    },
-    "お仕事": {
-        "pronunciation": "おしごと",
-        "vietnamese": "công việc"
-    },
-    "料理": {
-        "pronunciation": "りょうり",
-        "vietnamese": "món ăn"
-    },
-    "パスポート": {
-        "vietnamese": "hộ chiếu"
-    },
-    "どう": {
-        "vietnamese": "thế nào"
-    },
-    "どんな": {
-        "vietnamese": "như thế nào"
-    },
-    "どれ": {
-        "vietnamese": "cái nào"
-    },
-    "とても": {
-        "vietnamese": "rất"
-    },
-    "あまり": {
-        "vietnamese": "không ~ lắm",
-        "note": "dùng với thể phủ định"
-    },
-    "そして": {
-        "vietnamese": "hơn nữa, và",
-        "note": "dùng để nối 2 câu"
-    },
-    "～が、～": {
-        "vietnamese": "～ nhưng ～"
-    }
-}
-
+[
+  {
+    "word": "イケメン",
+    "meaning": "đẹp trai",
+    "note": "tính từ な"
+  },
+  {
+    "word": "綺麗",
+    "reading": "きれい",
+    "meaning": "xinh, đẹp, sạch",
+    "note": "tính từ な"
+  },
+  {
+    "word": "親切",
+    "reading": "しんせつ",
+    "meaning": "tốt bụng",
+    "note": "tính từ な"
+  },
+  {
+    "word": "元気",
+    "reading": "げんき",
+    "meaning": "khỏe mạnh",
+    "note": "tính từ な"
+  },
+  {
+    "word": "静か",
+    "reading": "しずか",
+    "meaning": "yên tĩnh",
+    "note": "tính từ な"
+  },
+  {
+    "word": "賑やか",
+    "reading": "にぎやか",
+    "meaning": "náo nhiệt",
+    "note": "tính từ な"
+  },
+  {
+    "word": "有名",
+    "reading": "ゆうめい",
+    "meaning": "nổi tiếng",
+    "note": "tính từ な"
+  },
+  {
+    "word": "便利",
+    "reading": "べんり",
+    "meaning": "tiện lợi",
+    "note": "tính từ な"
+  },
+  {
+    "word": "大切",
+    "reading": "たいせつ",
+    "meaning": "quan trọng",
+    "note": "tính từ な"
+  },
+  {
+    "word": "暇",
+    "reading": "ひま",
+    "meaning": "rảnh rỗi",
+    "note": "tính từ な"
+  },
+  {
+    "word": "忙しい",
+    "reading": "いそがしい",
+    "meaning": "bận rộn",
+    "note": "tính từ い"
+  },
+  {
+    "word": "大きい",
+    "reading": "おおきい",
+    "meaning": "to, lớn",
+    "note": "tính từ い"
+  },
+  {
+    "word": "小さい",
+    "reading": "ちいさい",
+    "meaning": "nhỏ, bé",
+    "note": "tính từ い"
+  },
+  {
+    "word": "新しい",
+    "reading": "あたらしい",
+    "meaning": "mới",
+    "note": "tính từ い"
+  },
+  {
+    "word": "古い",
+    "reading": "ふるい",
+    "meaning": "cũ",
+    "note": "tính từ い"
+  },
+  {
+    "word": "いい（よい）",
+    "meaning": "tốt",
+    "note": "tính từ い"
+  },
+  {
+    "word": "悪い",
+    "reading": "わるい",
+    "meaning": "xấu",
+    "note": "tính từ い"
+  },
+  {
+    "word": "暑い",
+    "reading": "あつい",
+    "meaning": "nóng (dùng cho thời tiết)",
+    "note": "tính từ い"
+  },
+  {
+    "word": "寒い",
+    "reading": "さむい",
+    "meaning": "lạnh, rét (dùng cho thời tiết)",
+    "note": "tính từ い"
+  },
+  {
+    "word": "熱い",
+    "reading": "あつい",
+    "meaning": "nóng (dùng cho cảm giác)",
+    "note": "tính từ い"
+  },
+  {
+    "word": "冷たい",
+    "reading": "つめたい",
+    "meaning": "lạnh, buốt (dùng cho cảm giác)",
+    "note": "tính từ い"
+  },
+  {
+    "word": "難しい",
+    "reading": "むずかしい",
+    "meaning": "khó",
+    "note": "tính từ い"
+  },
+  {
+    "word": "易しい",
+    "reading": "やさしい",
+    "meaning": "dễ, hiền lành",
+    "note": "tính từ い"
+  },
+  {
+    "word": "高い",
+    "reading": "たかい",
+    "meaning": "đắt, cao",
+    "note": "tính từ い"
+  },
+  {
+    "word": "安い",
+    "reading": "やすい",
+    "meaning": "rẻ",
+    "note": "tính từ い"
+  },
+  {
+    "word": "低い",
+    "reading": "ひくい",
+    "meaning": "thấp",
+    "note": "tính từ い"
+  },
+  {
+    "word": "明るい",
+    "reading": "あかるい",
+    "meaning": "sáng sủa, tươi sáng",
+    "note": "tính từ い"
+  },
+  {
+    "word": "暗い",
+    "reading": "くらい",
+    "meaning": "tối, u ám",
+    "note": "tính từ い"
+  },
+  {
+    "word": "面白い",
+    "reading": "おもしろい",
+    "meaning": "thú vị",
+    "note": "tính từ い"
+  },
+  {
+    "word": "可愛い",
+    "reading": "かわいい",
+    "meaning": "dễ thương",
+    "note": "tính từ い"
+  },
+  {
+    "word": "美味しい",
+    "reading": "おいしい",
+    "meaning": "ngon",
+    "note": "tính từ い"
+  },
+  {
+    "word": "楽しい",
+    "reading": "たのしい",
+    "meaning": "vui vẻ",
+    "note": "tính từ い"
+  },
+  {
+    "word": "白い",
+    "reading": "しろい",
+    "meaning": "trắng",
+    "note": "tính từ い"
+  },
+  {
+    "word": "赤い",
+    "reading": "あかい",
+    "meaning": "đỏ",
+    "note": "tính từ い"
+  },
+  {
+    "word": "青い",
+    "reading": "あおい",
+    "meaning": "xanh",
+    "note": "tính từ い"
+  },
+  {
+    "word": "黒い",
+    "reading": "くろい",
+    "meaning": "đen",
+    "note": "tính từ い"
+  },
+  {
+    "word": "寂しい",
+    "reading": "さびしい",
+    "meaning": "cô đơn",
+    "note": "tính từ い"
+  },
+  {
+    "word": "花",
+    "reading": "はな",
+    "meaning": "hoa"
+  },
+  {
+    "word": "桜",
+    "reading": "さくら",
+    "meaning": "hoa anh đào"
+  },
+  {
+    "word": "山",
+    "reading": "やま",
+    "meaning": "núi"
+  },
+  {
+    "word": "富士山",
+    "reading": "ふじさん",
+    "meaning": "núi Phú Sĩ"
+  },
+  {
+    "word": "町",
+    "reading": "まち",
+    "meaning": "thị trấn, thành phố"
+  },
+  {
+    "word": "食べ物",
+    "reading": "たべもの",
+    "meaning": "đồ ăn"
+  },
+  {
+    "word": "着物",
+    "reading": "きもの",
+    "meaning": "kimono"
+  },
+  {
+    "word": "機械",
+    "reading": "きかい",
+    "meaning": "máy móc"
+  },
+  {
+    "word": "所",
+    "reading": "ところ",
+    "meaning": "nơi, chỗ"
+  },
+  {
+    "word": "勉強",
+    "reading": "べんきょう",
+    "meaning": "học, việc học"
+  },
+  {
+    "word": "生活",
+    "reading": "せいかつ",
+    "meaning": "cuộc sống, sinh hoạt, đời sống"
+  },
+  {
+    "word": "物価",
+    "reading": "ぶっか",
+    "meaning": "vật giá"
+  },
+  {
+    "word": "お仕事",
+    "reading": "おしごと",
+    "meaning": "công việc"
+  },
+  {
+    "word": "料理",
+    "reading": "りょうり",
+    "meaning": "món ăn"
+  },
+  {
+    "word": "パスポート",
+    "meaning": "hộ chiếu"
+  },
+  {
+    "word": "どう",
+    "meaning": "thế nào"
+  },
+  {
+    "word": "どんな",
+    "meaning": "như thế nào"
+  },
+  {
+    "word": "どれ",
+    "meaning": "cái nào"
+  },
+  {
+    "word": "とても",
+    "meaning": "rất"
+  },
+  {
+    "word": "あまり",
+    "meaning": "không ~ lắm",
+    "note": "dùng với thể phủ định"
+  },
+  {
+    "word": "そして",
+    "meaning": "hơn nữa, và",
+    "note": "dùng để nối 2 câu"
+  },
+  {
+    "word": "～が、～",
+    "meaning": "～ nhưng ～"
+  }
+]

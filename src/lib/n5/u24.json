@@ -1,112 +1,136 @@
-{
-    "[お]弁当": {
-        "pronunciation": "[お]べんとう",
-        "vietnamese": "cơm hộp"
-    },
-    "洋服": {
-        "pronunciation": "ようふく",
-        "vietnamese": "quần áo, đồ Âu"
-    },
-    "大阪城": {
-        "pronunciation": "おおさかじょう",
-        "vietnamese": "lâu đài Osaka"
-    },
-    "連れていく": {
-        "pronunciation": "つれていく",
-        "vietnamese": "dẫn đi",
-        "note": "I"
-    },
-    "連れていきます": {
-        "pronunciation": "つれていきます",
-        "vietnamese": "dẫn đi",
-        "note": "I"
-    },
-    "連れてくる": {
-        "pronunciation": "つれてくる",
-        "vietnamese": "dẫn đến",
-        "note": "III"
-    },
-    "連れてきます": {
-        "pronunciation": "つれてきます",
-        "vietnamese": "dẫn đến",
-        "note": "III"
-    },
-    "[コーヒを～]入れる": {
-        "pronunciation": "[コーヒを～]いれる",
-        "vietnamese": "pha [cà phê]",
-        "note": "II"
-    },
-    "[コーヒを～]入れます": {
-        "pronunciation": "[コーヒを～]いれます",
-        "vietnamese": "pha [cà phê]",
-        "note": "II"
-    },
-    "くれる": {
-        "pronunciation": "くれる",
-        "vietnamese": "cho (tôi)",
-        "note": "II"
-    },
-    "くれます": {
-        "pronunciation": "くれます",
-        "vietnamese": "cho (tôi)",
-        "note": "II"
-    },
-    "紹介する": {
-        "pronunciation": "しょうかいする",
-        "vietnamese": "giới thiệu",
-        "note": "III"
-    },
-    "紹介します": {
-        "pronunciation": "しょうかいします",
-        "vietnamese": "giới thiệu",
-        "note": "III"
-    },
-    "案内する": {
-        "pronunciation": "あんないする",
-        "vietnamese": "hướng dẫn, giới thiệu, dẫn đường",
-        "note": "III"
-    },
-    "案内します": {
-        "pronunciation": "あんないします",
-        "vietnamese": "hướng dẫn, giới thiệu, dẫn đường",
-        "note": "III"
-    },
-    "説明する": {
-        "pronunciation": "せつめいする",
-        "vietnamese": "giải thích, trình bày",
-        "note": "III"
-    },
-    "説明します": {
-        "pronunciation": "せつめいします",
-        "vietnamese": "giải thích, trình bày",
-        "note": "III"
-    },
-    "全部": {
-        "pronunciation": "ぜんぶ",
-        "vietnamese": "toàn bộ, tất cả"
-    },
-    "お菓子": {
-        "pronunciation": "おかし",
-        "vietnamese": "bánh kẹo"
-    },
-    "お話をします": {
-        "pronunciation": "おはなしをします",
-        "vietnamese": "Kể chuyện"
-    },
-    "指輪": {
-        "pronunciation": "ゆびわ",
-        "vietnamese": "Nhẫn"
-    },
-    "工場": {
-        "pronunciation": "こうじょう",
-        "vietnamese": "Công trường"
-    },
-    "故郷": {
-        "pronunciation": "ふるさと",
-        "vietnamese": "Quê"
-    },
-    "調子": {
-        "pronunciation": "ちょうし",
-        "vietnamese": "Tình trạng"
-    }
-}
+[
+  {
+    "word": "[お]弁当",
+    "reading": "[お]べんとう",
+    "meaning": "cơm hộp"
+  },
+  {
+    "word": "洋服",
+    "reading": "ようふく",
+    "meaning": "quần áo, đồ Âu"
+  },
+  {
+    "word": "大阪城",
+    "reading": "おおさかじょう",
+    "meaning": "lâu đài Osaka"
+  },
+  {
+    "word": "連れていく",
+    "reading": "つれていく",
+    "meaning": "dẫn đi",
+    "note": "I"
+  },
+  {
+    "word": "連れていきます",
+    "reading": "つれていきます",
+    "meaning": "dẫn đi",
+    "note": "I"
+  },
+  {
+    "word": "連れてくる",
+    "reading": "つれてくる",
+    "meaning": "dẫn đến",
+    "note": "III"
+  },
+  {
+    "word": "連れてきます",
+    "reading": "つれてきます",
+    "meaning": "dẫn đến",
+    "note": "III"
+  },
+  {
+    "word": "[コーヒを～]入れる",
+    "reading": "[コーヒを～]いれる",
+    "meaning": "pha [cà phê]",
+    "note": "II"
+  },
+  {
+    "word": "[コーヒを～]入れます",
+    "reading": "[コーヒを～]いれます",
+    "meaning": "pha [cà phê]",
+    "note": "II"
+  },
+  {
+    "word": "くれる",
+    "reading": "くれる",
+    "meaning": "cho (tôi)",
+    "note": "II"
+  },
+  {
+    "word": "くれます",
+    "reading": "くれます",
+    "meaning": "cho (tôi)",
+    "note": "II"
+  },
+  {
+    "word": "紹介する",
+    "reading": "しょうかいする",
+    "meaning": "giới thiệu",
+    "note": "III"
+  },
+  {
+    "word": "紹介します",
+    "reading": "しょうかいします",
+    "meaning": "giới thiệu",
+    "note": "III"
+  },
+  {
+    "word": "案内する",
+    "reading": "あんないする",
+    "meaning": "hướng dẫn, giới thiệu, dẫn đường",
+    "note": "III"
+  },
+  {
+    "word": "案内します",
+    "reading": "あんないします",
+    "meaning": "hướng dẫn, giới thiệu, dẫn đường",
+    "note": "III"
+  },
+  {
+    "word": "説明する",
+    "reading": "せつめいする",
+    "meaning": "giải thích, trình bày",
+    "note": "III"
+  },
+  {
+    "word": "説明します",
+    "reading": "せつめいします",
+    "meaning": "giải thích, trình bày",
+    "note": "III"
+  },
+  {
+    "word": "全部",
+    "reading": "ぜんぶ",
+    "meaning": "toàn bộ, tất cả"
+  },
+  {
+    "word": "お菓子",
+    "reading": "おかし",
+    "meaning": "bánh kẹo"
+  },
+  {
+    "word": "お話をします",
+    "reading": "おはなしをします",
+    "meaning": "Kể chuyện"
+  },
+  {
+    "word": "指輪",
+    "reading": "ゆびわ",
+    "meaning": "Nhẫn"
+  },
+  {
+    "word": "工場",
+    "reading": "こうじょう",
+    "meaning": "Công trường"
+  },
+  {
+    "word": "故郷",
+    "reading": "ふるさと",
+    "meaning": "Quê"
+  },
+  {
+    "word": "調子",
+    "reading": "ちょうし",
+    "meaning": "Tình trạng"
+  }
+]

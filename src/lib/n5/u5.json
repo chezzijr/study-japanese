@@ -1,207 +1,256 @@
-{
-    "月曜日": {
-        "pronunciation": "げつようび",
-        "vietnamese": "thứ hai"
-    },
-    "火曜日": {
-        "pronunciation": "かようび",
-        "vietnamese": "thứ ba"
-    },
-    "水曜日": {
-        "pronunciation": "すいようび",
-        "vietnamese": "thứ tư"
-    },
-    "木曜日": {
-        "pronunciation": "もくようび",
-        "vietnamese": "thứ năm"
-    },
-    "金曜日": {
-        "pronunciation": "きんようび",
-        "vietnamese": "thứ sáu"
-    },
-    "土曜日": {
-        "pronunciation": "どようび",
-        "vietnamese": "thứ bảy"
-    },
-    "日曜日": {
-        "pronunciation": "にちようび",
-        "vietnamese": "chủ nhật"
-    },
-    "何曜日": {
-        "pronunciation": "なんようび",
-        "vietnamese": "thứ mấy"
-    },
-    "今": {
-        "pronunciation": "いま",
-        "vietnamese": "bây giờ"
-    },
-    "午前": {
-        "pronunciation": "ごぜん",
-        "vietnamese": "sáng, trước 12 giờ trưa"
-    },
-    "午後": {
-        "pronunciation": "ごご",
-        "vietnamese": "chiều, sau 12 giờ trưa"
-    },
-    "半": {
-        "pronunciation": "はん",
-        "vietnamese": "rưỡi, nửa"
-    },
-    "朝": {
-        "pronunciation": "あさ",
-        "vietnamese": "buổi sáng, sáng"
-    },
-    "昼": {
-        "pronunciation": "ひる",
-        "vietnamese": "buổi trưa, trưa"
-    },
-    "夕方": {
-        "pronunciation": "ゆうがた",
-        "vietnamese": "buổi chiều, chiều"
-    },
-    "晩": {
-        "pronunciation": "ばん",
-        "vietnamese": "buổi tối, tối"
-    },
-    "夜": {
-        "pronunciation": "よる",
-        "vietnamese": "đêm, khuya"
-    },
-    "一昨日": {
-        "pronunciation": "おととい",
-        "vietnamese": "hôm kia"
-    },
-    "昨日": {
-        "pronunciation": "きのう",
-        "vietnamese": "hôm qua"
-    },
-    "今日": {
-        "pronunciation": "きょう",
-        "vietnamese": "hôm nay"
-    },
-    "明日": {
-        "pronunciation": "あした",
-        "vietnamese": "ngày mai"
-    },
-    "明後日": {
-        "pronunciation": "あさって",
-        "vietnamese": "ngày kia"
-    },
-    "今朝": {
-        "pronunciation": "けさ",
-        "vietnamese": "sáng nay"
-    },
-    "今晩": {
-        "pronunciation": "こんばん",
-        "vietnamese": "tối nay"
-    },
-    "今夜": {
-        "pronunciation": "こんや",
-        "vietnamese": "đêm nay"
-    },
-    "休み": {
-        "pronunciation": "やすみ",
-        "vietnamese": "nghỉ, nghỉ phép, ngày nghỉ"
-    },
-    "昼休み": {
-        "pronunciation": "ひるやすみ",
-        "vietnamese": "nghỉ trưa"
-    },
-    "毎朝": {
-        "pronunciation": "まいあさ",
-        "vietnamese": "mỗi sáng"
-    },
-    "毎晩": {
-        "pronunciation": "まいばん",
-        "vietnamese": "mỗi tối"
-    },
-    "毎日": {
-        "pronunciation": "まいにち",
-        "vietnamese": "mỗi ngày"
-    },
-    "何時": {
-        "pronunciation": "なんじ",
-        "vietnamese": "mấy giờ"
-    },
-    "何分": {
-        "pronunciation": "なんぷん",
-        "vietnamese": "mấy phút"
-    },
-    "働く": {
-        "pronunciation": "はたらく",
-        "vietnamese": "làm việc",
-        "note": "I"
-    },
-    "働きます": {
-        "pronunciation": "はたらきます",
-        "vietnamese": "làm việc",
-        "note": "lịch sự của はたらく"
-    },
-    "休む": {
-        "pronunciation": "やすむ",
-        "vietnamese": "nghỉ, nghỉ ngơi",
-        "note": "I"
-    },
-    "休みます": {
-        "pronunciation": "やすみます",
-        "vietnamese": "nghỉ, nghỉ ngơi",
-        "note": "lịch sự của やすむ"
-    },
-    "終わる": {
-        "pronunciation": "おわる",
-        "vietnamese": "hết, kết thúc, xong",
-        "note": "I"
-    },
-    "終わります": {
-        "pronunciation": "おわります",
-        "vietnamese": "hết, kết thúc, xong",
-        "note": "lịch sự của おわる"
-    },
-    "起きる": {
-        "pronunciation": "おきる",
-        "vietnamese": "thức dậy",
-        "note": "II"
-    },
-    "起きます": {
-        "pronunciation": "おきます",
-        "vietnamese": "thức dậy",
-        "note": "lịch sự của おきる"
-    },
-    "寝る": {
-        "pronunciation": "ねる",
-        "vietnamese": "ngủ",
-        "note": "II"
-    }, 
-    "寝ます": {
-        "pronunciation": "ねます",
-        "vietnamese": "ngủ",
-        "note": "lịch sự của ねる"
-    },
-    "勉強する": {
-        "pronunciation": "べんきょうする",
-        "vietnamese": "học",
-        "note": "III"
-    },
-    "勉強します": {
-        "pronunciation": "べんきょうします",
-        "vietnamese": "học",
-        "note": "lịch sự của べんきょうする"
-    },
-    "～から": {
-        "vietnamese": "từ ~"
-    },
-    "～まで": {
-        "vietnamese": "đến ~"
-    },
-    "～と～": {
-        "vietnamese": "~ và (dùng để nối hai danh từ)"
-    },
-    "試験": {
-        "pronunciation": "しけん",
-        "vietnamese": "kỳ thi"
-    },
-    "会議": {
-        "pronunciation": "かいぎ",
-        "vietnamese": "cuộc họp"
-    }
-}
+[
+  {
+    "word": "月曜日",
+    "reading": "げつようび",
+    "meaning": "thứ hai"
+  },
+  {
+    "word": "火曜日",
+    "reading": "かようび",
+    "meaning": "thứ ba"
+  },
+  {
+    "word": "水曜日",
+    "reading": "すいようび",
+    "meaning": "thứ tư"
+  },
+  {
+    "word": "木曜日",
+    "reading": "もくようび",
+    "meaning": "thứ năm"
+  },
+  {
+    "word": "金曜日",
+    "reading": "きんようび",
+    "meaning": "thứ sáu"
+  },
+  {
+    "word": "土曜日",
+    "reading": "どようび",
+    "meaning": "thứ bảy"
+  },
+  {
+    "word": "日曜日",
+    "reading": "にちようび",
+    "meaning": "chủ nhật"
+  },
+  {
+    "word": "何曜日",
+    "reading": "なんようび",
+    "meaning": "thứ mấy"
+  },
+  {
+    "word": "今",
+    "reading": "いま",
+    "meaning": "bây giờ"
+  },
+  {
+    "word": "午前",
+    "reading": "ごぜん",
+    "meaning": "sáng, trước 12 giờ trưa"
+  },
+  {
+    "word": "午後",
+    "reading": "ごご",
+    "meaning": "chiều, sau 12 giờ trưa"
+  },
+  {
+    "word": "半",
+    "reading": "はん",
+    "meaning": "rưỡi, nửa"
+  },
+  {
+    "word": "朝",
+    "reading": "あさ",
+    "meaning": "buổi sáng, sáng"
+  },
+  {
+    "word": "昼",
+    "reading": "ひる",
+    "meaning": "buổi trưa, trưa"
+  },
+  {
+    "word": "夕方",
+    "reading": "ゆうがた",
+    "meaning": "buổi chiều, chiều"
+  },
+  {
+    "word": "晩",
+    "reading": "ばん",
+    "meaning": "buổi tối, tối"
+  },
+  {
+    "word": "夜",
+    "reading": "よる",
+    "meaning": "đêm, khuya"
+  },
+  {
+    "word": "一昨日",
+    "reading": "おととい",
+    "meaning": "hôm kia"
+  },
+  {
+    "word": "昨日",
+    "reading": "きのう",
+    "meaning": "hôm qua"
+  },
+  {
+    "word": "今日",
+    "reading": "きょう",
+    "meaning": "hôm nay"
+  },
+  {
+    "word": "明日",
+    "reading": "あした",
+    "meaning": "ngày mai"
+  },
+  {
+    "word": "明後日",
+    "reading": "あさって",
+    "meaning": "ngày kia"
+  },
+  {
+    "word": "今朝",
+    "reading": "けさ",
+    "meaning": "sáng nay"
+  },
+  {
+    "word": "今晩",
+    "reading": "こんばん",
+    "meaning": "tối nay"
+  },
+  {
+    "word": "今夜",
+    "reading": "こんや",
+    "meaning": "đêm nay"
+  },
+  {
+    "word": "休み",
+    "reading": "やすみ",
+    "meaning": "nghỉ, nghỉ phép, ngày nghỉ"
+  },
+  {
+    "word": "昼休み",
+    "reading": "ひるやすみ",
+    "meaning": "nghỉ trưa"
+  },
+  {
+    "word": "毎朝",
+    "reading": "まいあさ",
+    "meaning": "mỗi sáng"
+  },
+  {
+    "word": "毎晩",
+    "reading": "まいばん",
+    "meaning": "mỗi tối"
+  },
+  {
+    "word": "毎日",
+    "reading": "まいにち",
+    "meaning": "mỗi ngày"
+  },
+  {
+    "word": "何時",
+    "reading": "なんじ",
+    "meaning": "mấy giờ"
+  },
+  {
+    "word": "何分",
+    "reading": "なんぷん",
+    "meaning": "mấy phút"
+  },
+  {
+    "word": "働く",
+    "reading": "はたらく",
+    "meaning": "làm việc",
+    "note": "I"
+  },
+  {
+    "word": "働きます",
+    "reading": "はたらきます",
+    "meaning": "làm việc",
+    "note": "lịch sự của はたらく"
+  },
+  {
+    "word": "休む",
+    "reading": "やすむ",
+    "meaning": "nghỉ, nghỉ ngơi",
+    "note": "I"
+  },
+  {
+    "word": "休みます",
+    "reading": "やすみます",
+    "meaning": "nghỉ, nghỉ ngơi",
+    "note": "lịch sự của やすむ"
+  },
+  {
+    "word": "終わる",
+    "reading": "おわる",
+    "meaning": "hết, kết thúc, xong",
+    "note": "I"
+  },
+  {
+    "word": "終わります",
+    "reading": "おわります",
+    "meaning": "hết, kết thúc, xong",
+    "note": "lịch sự của おわる"
+  },
+  {
+    "word": "起きる",
+    "reading": "おきる",
+    "meaning": "thức dậy",
+    "note": "II"
+  },
+  {
+    "word": "起きます",
+    "reading": "おきます",
+    "meaning": "thức dậy",
+    "note": "lịch sự của おきる"
+  },
+  {
+    "word": "寝る",
+    "reading": "ねる",
+    "meaning": "ngủ",
+    "note": "II"
+  },
+  {
+    "word": "寝ます",
+    "reading": "ねます",
+    "meaning": "ngủ",
+    "note": "lịch sự của ねる"
+  },
+  {
+    "word": "勉強する",
+    "reading": "べんきょうする",
+    "meaning": "học",
+    "note": "III"
+  },
+  {
+    "word": "勉強します",
+    "reading": "べんきょうします",
+    "meaning": "học",
+    "note": "lịch sự của べんきょうする"
+  },
+  {
+    "word": "～から",
+    "meaning": "từ ~"
+  },
+  {
+    "word": "～まで",
+    "meaning": "đến ~"
+  },
+  {
+    "word": "～と～",
+    "meaning": "~ và (dùng để nối hai danh từ)"
+  },
+  {
+    "word": "試験",
+    "reading": "しけん",
+    "meaning": "kỳ thi"
+  },
+  {
+    "word": "会議",
+    "reading": "かいぎ",
+    "meaning": "cuộc họp"
+  }
+]

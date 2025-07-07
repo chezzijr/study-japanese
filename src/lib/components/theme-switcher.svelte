@@ -9,7 +9,7 @@
 	});
 </script>
 
-<div class="fixed ml-4 form-control flex flex-row items-center gap-3">
+<div class="ml-4 h-[5vh] form-control flex flex-row items-center gap-3">
 	<!-- Sun icon for light mode -->
 	<svg
 		class="h-6 w-6 text-amber-600 transition-colors duration-200 dim:text-yellow-400"

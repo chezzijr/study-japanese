@@ -1,175 +1,208 @@
-{
-    "長い": {
-        "pronunciation": "ながい",
-        "vietnamese": "dài"
-    },
-    "短い": {
-        "pronunciation": "みじかい",
-        "vietnamese": "ngắn"
-    },
-    "音": {
-        "pronunciation": "おと",
-        "vietnamese": "âm thanh"
-    },
-    "交差点": {
-        "pronunciation": "こうさてん",
-        "vietnamese": "ngã tư"
-    },
-    "信号": {
-        "pronunciation": "しんごう",
-        "vietnamese": "đèn tín hiệu"
-    },
-    "橋": {
-        "pronunciation": "はし",
-        "vietnamese": "cầu"
-    },
-    "駐車場": {
-        "pronunciation": "ちゅうしゃじょう",
-        "vietnamese": "bãi đỗ xe"
-    },
-    "保険証": {
-        "pronunciation": "ほけんしょう",
-        "vietnamese": "thẻ bảo hiểm"
-    },
-    "細かいお金": {
-        "pronunciation": "こまかいおかね",
-        "vietnamese": "tiền lẻ"
-    },
-    "電池": {
-        "pronunciation": "でんち",
-        "vietnamese": "pin"
-    },
-    "サイズ": {
-        "vietnamese": "kích cỡ"
-    },
-    "角": {
-        "pronunciation": "かど",
-        "vietnamese": "góc"
-    },
-    "～目": {
-        "pronunciation": "～め",
-        "vietnamese": "thứ ~ , số ~ (biểu thị thứ tự)"
-    },
-    "[先生に～]聞く": {
-        "pronunciation": "[せんせいに～]きく",
-        "vietnamese": "hỏi [giáo viên]",
-        "note": "I"
-    },
-    "[先生に～]聞きます": {
-        "pronunciation": "[せんせいに～]ききます",
-        "vietnamese": "hỏi [giáo viên]",
-        "note": "I"
-    },
-    "引く": {
-        "pronunciation": "ひく",
-        "vietnamese": "kéo",
-        "note": "I"
-    },
-    "引きます": {
-        "pronunciation": "ひきます",
-        "vietnamese": "kéo",
-        "note": "I"
-    },
-    "動く": {
-        "pronunciation": "うごく",
-        "vietnamese": "chuyển động",
-        "note": "I"
-    },
-    "動きます": {
-        "pronunciation": "うごきます",
-        "vietnamese": "chuyển động",
-        "note": "I"
-    },
-    "歩く": {
-        "pronunciation": "あるく",
-        "vietnamese": "đi bộ",
-        "note": "I"
-    },
-    "歩きます": {
-        "pronunciation": "あるきます",
-        "vietnamese": "đi bộ",
-        "note": "I"
-    },
-    "触る": {
-        "pronunciation": "さわる",
-        "vietnamese": "sờ, chạm vào",
-        "note": "I"
-    },
-    "触ります": {
-        "pronunciation": "さわります",
-        "vietnamese": "sờ, chạm vào",
-        "note": "I"
-    },
-    "渡る": {
-        "pronunciation": "わたる",
-        "vietnamese": "đi qua, băng qua",
-        "note": "I"
-    },
-    "渡ります": {
-        "pronunciation": "わたります",
-        "vietnamese": "đi qua, băng qua",
-        "note": "I"
-    },
-    "変える": {
-        "pronunciation": "かえる",
-        "vietnamese": "đổi",
-        "note": "II"
-    },
-    "変えます": {
-        "pronunciation": "かえます",
-        "vietnamese": "đổi",
-        "note": "II"
-    },
-    "疲れる": {
-        "pronunciation": "つかれる",
-        "vietnamese": "mệt mỏi",
-        "note": "II"
-    },
-    "疲れます": {
-        "pronunciation": "つかれます",
-        "vietnamese": "mệt mỏi",
-        "note": "II"
-    },
-    "注意する": {
-        "pronunciation": "ちゅういする",
-        "vietnamese": "chú ý",
-        "note": "III"
-    },
-    "注意します": {
-        "pronunciation": "ちゅういします",
-        "vietnamese": "chú ý",
-        "note": "III"
-    },
-    "まっすぐ": {
-        "vietnamese": "thẳng"
-    },
-    "貯金箱": {
-        "pronunciation": "ちょきんばこ",
-        "vietnamese": "Hộp tiết kiệm"
-    },
-    "化粧する": {
-        "pronunciation": "けしょうする",
-        "vietnamese": "Trang điểm",
-        "note": "III"
-    },
-    "漫画": {
-        "pronunciation": "まんが",
-        "vietnamese": "Truyện tranh"
-    },
-    "疲れる": {
-        "pronunciation": "つかれる",
-        "vietnamese": "Mệt"
-    },
-    "扇風機": {
-        "pronunciation": "せんぷうき",
-        "vietnamese": "Quạt"
-    },
-    "聖徳太子": {
-        "pronunciation": "しょうとくたいし",
-        "vietnamese": "Thái tử Shotoku"
-    },
-    "法隆寺": {
-        "pronunciation": "ほうりゅうじ",
-        "vietnamese": "Chùa Horyu"
-    }
-}
+[
+  {
+    "word": "長い",
+    "reading": "ながい",
+    "meaning": "dài"
+  },
+  {
+    "word": "短い",
+    "reading": "みじかい",
+    "meaning": "ngắn"
+  },
+  {
+    "word": "音",
+    "reading": "おと",
+    "meaning": "âm thanh"
+  },
+  {
+    "word": "交差点",
+    "reading": "こうさてん",
+    "meaning": "ngã tư"
+  },
+  {
+    "word": "信号",
+    "reading": "しんごう",
+    "meaning": "đèn tín hiệu"
+  },
+  {
+    "word": "橋",
+    "reading": "はし",
+    "meaning": "cầu"
+  },
+  {
+    "word": "駐車場",
+    "reading": "ちゅうしゃじょう",
+    "meaning": "bãi đỗ xe"
+  },
+  {
+    "word": "保険証",
+    "reading": "ほけんしょう",
+    "meaning": "thẻ bảo hiểm"
+  },
+  {
+    "word": "細かいお金",
+    "reading": "こまかいおかね",
+    "meaning": "tiền lẻ"
+  },
+  {
+    "word": "電池",
+    "reading": "でんち",
+    "meaning": "pin"
+  },
+  {
+    "word": "サイズ",
+    "meaning": "kích cỡ"
+  },
+  {
+    "word": "角",
+    "reading": "かど",
+    "meaning": "góc"
+  },
+  {
+    "word": "～目",
+    "reading": "～め",
+    "meaning": "thứ ~ , số ~ (biểu thị thứ tự)"
+  },
+  {
+    "word": "[先生に～]聞く",
+    "reading": "[せんせいに～]きく",
+    "meaning": "hỏi [giáo viên]",
+    "note": "I"
+  },
+  {
+    "word": "[先生に～]聞きます",
+    "reading": "[せんせいに～]ききます",
+    "meaning": "hỏi [giáo viên]",
+    "note": "I"
+  },
+  {
+    "word": "引く",
+    "reading": "ひく",
+    "meaning": "kéo",
+    "note": "I"
+  },
+  {
+    "word": "引きます",
+    "reading": "ひきます",
+    "meaning": "kéo",
+    "note": "I"
+  },
+  {
+    "word": "動く",
+    "reading": "うごく",
+    "meaning": "chuyển động",
+    "note": "I"
+  },
+  {
+    "word": "動きます",
+    "reading": "うごきます",
+    "meaning": "chuyển động",
+    "note": "I"
+  },
+  {
+    "word": "歩く",
+    "reading": "あるく",
+    "meaning": "đi bộ",
+    "note": "I"
+  },
+  {
+    "word": "歩きます",
+    "reading": "あるきます",
+    "meaning": "đi bộ",
+    "note": "I"
+  },
+  {
+    "word": "触る",
+    "reading": "さわる",
+    "meaning": "sờ, chạm vào",
+    "note": "I"
+  },
+  {
+    "word": "触ります",
+    "reading": "さわります",
+    "meaning": "sờ, chạm vào",
+    "note": "I"
+  },
+  {
+    "word": "渡る",
+    "reading": "わたる",
+    "meaning": "đi qua, băng qua",
+    "note": "I"
+  },
+  {
+    "word": "渡ります",
+    "reading": "わたります",
+    "meaning": "đi qua, băng qua",
+    "note": "I"
+  },
+  {
+    "word": "変える",
+    "reading": "かえる",
+    "meaning": "đổi",
+    "note": "II"
+  },
+  {
+    "word": "変えます",
+    "reading": "かえます",
+    "meaning": "đổi",
+    "note": "II"
+  },
+  {
+    "word": "疲れる",
+    "reading": "つかれる",
+    "meaning": "Mệt"
+  },
+  {
+    "word": "疲れます",
+    "reading": "つかれます",
+    "meaning": "mệt mỏi",
+    "note": "II"
+  },
+  {
+    "word": "注意する",
+    "reading": "ちゅういする",
+    "meaning": "chú ý",
+    "note": "III"
+  },
+  {
+    "word": "注意します",
+    "reading": "ちゅういします",
+    "meaning": "chú ý",
+    "note": "III"
+  },
+  {
+    "word": "まっすぐ",
+    "meaning": "thẳng"
+  },
+  {
+    "word": "貯金箱",
+    "reading": "ちょきんばこ",
+    "meaning": "Hộp tiết kiệm"
+  },
+  {
+    "word": "化粧する",
+    "reading": "けしょうする",
+    "meaning": "Trang điểm",
+    "note": "III"
+  },
+  {
+    "word": "漫画",
+    "reading": "まんが",
+    "meaning": "Truyện tranh"
+  },
+  {
+    "word": "扇風機",
+    "reading": "せんぷうき",
+    "meaning": "Quạt"
+  },
+  {
+    "word": "聖徳太子",
+    "reading": "しょうとくたいし",
+    "meaning": "Thái tử Shotoku"
+  },
+  {
+    "word": "法隆寺",
+    "reading": "ほうりゅうじ",
+    "meaning": "Chùa Horyu"
+  }
+]

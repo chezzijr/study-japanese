@@ -1,18 +1,16 @@
 <script lang="ts">
 	let { data } = $props();
 
-    import MCQ from '$lib/components/mcq.svelte';
-	import type { Dictionary } from '$lib/types/vocab';
+	import MCQ from '$lib/components/mcq.svelte';
 
-    const u = data.unit
-    const json = data.json as Dictionary;
+	import type { DictionaryV2 } from '$lib/types/vocab';
 
-    const quesList = Object.keys(json);
-    const ansList = Object.values(json).map((v) => v.vietnamese);
-    const hintList = Object.values(json).map((v) => v.pronunciation);
+	const u = data.unit;
+	const kotobas = data.json as DictionaryV2;
 </script>
-<svelte:head>
-    <title>{u}</title>
-</svelte:head>
-<MCQ quesList={quesList} ansList={ansList} hintList={hintList} keyName="Tiếng Việt" valueName="Từ/Cụm từ" swappable={true} />
 
+<svelte:head>
+	<title>{u}</title>
+</svelte:head>
+
+<MCQ kotobas={kotobas} />

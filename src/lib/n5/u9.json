@@ -1,181 +1,223 @@
-{
-    "好き": {
-        "pronunciation": "すき",
-        "vietnamese": "thích",
-        "note": "な"
-    },
-    "嫌い": {
-        "pronunciation": "きらい",
-        "vietnamese": "ghét, không thích",
-        "note": "な"
-    },
-    "上手": {
-        "pronunciation": "じょうず",
-        "vietnamese": "giỏi, khéo",
-        "note": "な"
-    },
-    "下手": {
-        "pronunciation": "へた",
-        "vietnamese": "kém",
-        "note": "な"
-    },
-    "痛い": {
-        "pronunciation": "いたい",
-        "vietnamese": "đau"
-    },
-    "お祖父さん": {
-        "pronunciation": "おじいさん",
-        "vietnamese": "ông"
-    },
-    "お祖父ちゃん": {
-        "pronunciation": "おじいちゃん",
-        "vietnamese": "ông"
-    },
-    "お祖母さん": {
-        "pronunciation": "おばあさん",
-        "vietnamese": "bà"
-    },
-    "お祖母ちゃん": {
-        "pronunciation": "おばあちゃん",
-        "vietnamese": "bà"
-    },
-    "歯医者": {
-        "pronunciation": "はいしゃ",
-        "vietnamese": "nha sĩ"
-    },
-    "料理": {
-        "pronunciation": "りょうり",
-        "vietnamese": "món ăn, việc nấu ăn",
-        "note": "[～をします: nấu ăn]"
-    },
-    "飲み物": {
-        "pronunciation": "のみもの",
-        "vietnamese": "đồ uống"
-    },
-    "スポーツ": {
-        "pronunciation": "スポーツ",
-        "vietnamese": "thể thao"
-    },
-    "野球": {
-        "pronunciation": "やきゅう",
-        "vietnamese": "bóng chày"
-    },
-    "ダンス": {
-        "pronunciation": "ダンス",
-        "vietnamese": "nhảy, khiêu vũ"
-    },
-    "歌": {
-        "pronunciation": "うた",
-        "vietnamese": "bài hát"
-    },
-    "歌舞伎": {
-        "pronunciation": "かぶき",
-        "vietnamese": "kịch kabuki"
-    },
-    "絵": {
-        "pronunciation": "え",
-        "vietnamese": "tranh, hội họa"
-    },
-    "字": {
-        "pronunciation": "じ",
-        "vietnamese": "chữ"
-    },
-    "漢字": {
-        "pronunciation": "かんじ",
-        "vietnamese": "chữ Hán"
-    },
-    "風邪": {
-        "pronunciation": "かぜ",
-        "vietnamese": "cảm, cúm [bị cảm]",
-        "note": "[～をひきます: bị cảm]"
-    },
-    "熱": {
-        "pronunciation": "ねつ",
-        "vietnamese": "sốt [bị sốt]",
-        "note": "[～があります: bị sốt]"
-    },
-    "時間": {
-        "pronunciation": "じかん",
-        "vietnamese": "thời gian"
-    },
-    "用事": {
-        "pronunciation": "ようじ",
-        "vietnamese": "việc bận, công chuyện"
-    },
-    "約束": {
-        "pronunciation": "やくそく",
-        "vietnamese": "cuộc hẹn, lời hứa"
-    },
-    "歯": {
-        "pronunciation": "は",
-        "vietnamese": "răng"
-    },
-    "どうして": {
-        "pronunciation": "どうして",
-        "vietnamese": "tại sao"
-    },
-    "分かる": {
-        "pronunciation": "わかる",
-        "vietnamese": "hiểu, nắm được",
-        "note": "I"
-    },
-    "分かります": {
-        "pronunciation": "わかります",
-        "vietnamese": "hiểu, nắm được",
-        "note": "I"
-    },
-    "有る": {
-        "pronunciation": "ある",
-        "vietnamese": "có (sở hữu)",
-        "note": "I"
-    },
-    "有ります": {
-        "pronunciation": "あります",
-        "vietnamese": "có (sở hữu)",
-        "note": "I"
-    },
-    "よく": {
-        "pronunciation": "よく",
-        "vietnamese": "tốt, rõ (chỉ mức độ), thường"
-    },
-    "だいたい": {
-        "pronunciation": "だいたい",
-        "vietnamese": "đại khái, đại thể"
-    },
-    "たくさん": {
-        "pronunciation": "たくさん",
-        "vietnamese": "nhiều"
-    },
-    "少し": {
-        "pronunciation": "すこし",
-        "vietnamese": "ít, một ít"
-    },
-    "全然": {
-        "pronunciation": "ぜんぜん",
-        "vietnamese": "hoàn toàn ~ không"
-    },
-    "早く": {
-        "pronunciation": "はやく",
-        "vietnamese": "sớm, nhanh"
-    },
-    "～から": {
-        "pronunciation": "～から",
-        "vietnamese": "vì ~"
-    },
-    "他に": {
-        "pronunciation": "ほかに",
-        "vietnamese": "ngoài ra, bên cạnh đó"
-    },
-    "コンサート": {
-        "pronunciation": "コンサート",
-        "vietnamese": "buổi hòa nhạc"
-    },
-    "チケット": {
-        "pronunciation": "チケット",
-        "vietnamese": "vé"
-    },
-    "残念": {
-        "pronunciation": "ざんねん",
-        "vietnamese": "Đáng tiếc"
-    }
-}
+[
+  {
+    "word": "好き",
+    "reading": "すき",
+    "meaning": "thích",
+    "note": "な"
+  },
+  {
+    "word": "嫌い",
+    "reading": "きらい",
+    "meaning": "ghét, không thích",
+    "note": "な"
+  },
+  {
+    "word": "上手",
+    "reading": "じょうず",
+    "meaning": "giỏi, khéo",
+    "note": "な"
+  },
+  {
+    "word": "下手",
+    "reading": "へた",
+    "meaning": "kém",
+    "note": "な"
+  },
+  {
+    "word": "痛い",
+    "reading": "いたい",
+    "meaning": "đau"
+  },
+  {
+    "word": "お祖父さん",
+    "reading": "おじいさん",
+    "meaning": "ông"
+  },
+  {
+    "word": "お祖父ちゃん",
+    "reading": "おじいちゃん",
+    "meaning": "ông"
+  },
+  {
+    "word": "お祖母さん",
+    "reading": "おばあさん",
+    "meaning": "bà"
+  },
+  {
+    "word": "お祖母ちゃん",
+    "reading": "おばあちゃん",
+    "meaning": "bà"
+  },
+  {
+    "word": "歯医者",
+    "reading": "はいしゃ",
+    "meaning": "nha sĩ"
+  },
+  {
+    "word": "料理",
+    "reading": "りょうり",
+    "meaning": "món ăn, việc nấu ăn",
+    "note": "[～をします: nấu ăn]"
+  },
+  {
+    "word": "飲み物",
+    "reading": "のみもの",
+    "meaning": "đồ uống"
+  },
+  {
+    "word": "スポーツ",
+    "reading": "スポーツ",
+    "meaning": "thể thao"
+  },
+  {
+    "word": "野球",
+    "reading": "やきゅう",
+    "meaning": "bóng chày"
+  },
+  {
+    "word": "ダンス",
+    "reading": "ダンス",
+    "meaning": "nhảy, khiêu vũ"
+  },
+  {
+    "word": "歌",
+    "reading": "うた",
+    "meaning": "bài hát"
+  },
+  {
+    "word": "歌舞伎",
+    "reading": "かぶき",
+    "meaning": "kịch kabuki"
+  },
+  {
+    "word": "絵",
+    "reading": "え",
+    "meaning": "tranh, hội họa"
+  },
+  {
+    "word": "字",
+    "reading": "じ",
+    "meaning": "chữ"
+  },
+  {
+    "word": "漢字",
+    "reading": "かんじ",
+    "meaning": "chữ Hán"
+  },
+  {
+    "word": "風邪",
+    "reading": "かぜ",
+    "meaning": "cảm, cúm [bị cảm]",
+    "note": "[～をひきます: bị cảm]"
+  },
+  {
+    "word": "熱",
+    "reading": "ねつ",
+    "meaning": "sốt [bị sốt]",
+    "note": "[～があります: bị sốt]"
+  },
+  {
+    "word": "時間",
+    "reading": "じかん",
+    "meaning": "thời gian"
+  },
+  {
+    "word": "用事",
+    "reading": "ようじ",
+    "meaning": "việc bận, công chuyện"
+  },
+  {
+    "word": "約束",
+    "reading": "やくそく",
+    "meaning": "cuộc hẹn, lời hứa"
+  },
+  {
+    "word": "歯",
+    "reading": "は",
+    "meaning": "răng"
+  },
+  {
+    "word": "どうして",
+    "reading": "どうして",
+    "meaning": "tại sao"
+  },
+  {
+    "word": "分かる",
+    "reading": "わかる",
+    "meaning": "hiểu, nắm được",
+    "note": "I"
+  },
+  {
+    "word": "分かります",
+    "reading": "わかります",
+    "meaning": "hiểu, nắm được",
+    "note": "I"
+  },
+  {
+    "word": "有る",
+    "reading": "ある",
+    "meaning": "có (sở hữu)",
+    "note": "I"
+  },
+  {
+    "word": "有ります",
+    "reading": "あります",
+    "meaning": "có (sở hữu)",
+    "note": "I"
+  },
+  {
+    "word": "よく",
+    "reading": "よく",
+    "meaning": "tốt, rõ (chỉ mức độ), thường"
+  },
+  {
+    "word": "だいたい",
+    "reading": "だいたい",
+    "meaning": "đại khái, đại thể"
+  },
+  {
+    "word": "たくさん",
+    "reading": "たくさん",
+    "meaning": "nhiều"
+  },
+  {
+    "word": "少し",
+    "reading": "すこし",
+    "meaning": "ít, một ít"
+  },
+  {
+    "word": "全然",
+    "reading": "ぜんぜん",
+    "meaning": "hoàn toàn ~ không"
+  },
+  {
+    "word": "早く",
+    "reading": "はやく",
+    "meaning": "sớm, nhanh"
+  },
+  {
+    "word": "～から",
+    "reading": "～から",
+    "meaning": "vì ~"
+  },
+  {
+    "word": "他に",
+    "reading": "ほかに",
+    "meaning": "ngoài ra, bên cạnh đó"
+  },
+  {
+    "word": "コンサート",
+    "reading": "コンサート",
+    "meaning": "buổi hòa nhạc"
+  },
+  {
+    "word": "チケット",
+    "reading": "チケット",
+    "meaning": "vé"
+  },
+  {
+    "word": "残念",
+    "reading": "ざんねん",
+    "meaning": "Đáng tiếc"
+  }
+]

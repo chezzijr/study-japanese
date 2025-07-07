@@ -1,72 +1,89 @@
-{
-    "体": {
-        "pronunciation": "からだ",
-        "vietnamese": "cơ thể"
-    },
-    "調子": {
-        "pronunciation": "ちょうし",
-        "vietnamese": "tình trạng (sức khỏe, máy móc)"
-    },
-    "グループ": {
-        "vietnamese": "nhóm, đoàn"
-    },
-    "チャンス": {
-        "vietnamese": "cơ hội"
-    },
-    "日本製": {
-        "pronunciation": "にほんせい",
-        "vietnamese": "hàng Nhật (có xuất xứ từ Nhật)"
-    },
-    "[駅に～]着く": {
-        "pronunciation": "[えきに～]つく",
-        "vietnamese": "đến [ga]",
-        "note": "I"
-    },
-    "[駅に～]着きます": {
-        "pronunciation": "[えきに～]つきます",
-        "vietnamese": "đến [ga]",
-        "note": "I"
-    },
-    "考える": {
-        "pronunciation": "かんがえる",
-        "vietnamese": "nghĩ, suy nghĩ",
-        "note": "II"
-    },
-    "考えます": {
-        "pronunciation": "かんがえます",
-        "vietnamese": "nghĩ, suy nghĩ",
-        "note": "II"
-    },
-    "留学する": {
-        "pronunciation": "りゅうがくする",
-        "vietnamese": "du học",
-        "note": "III"
-    },
-    "留学します": {
-        "pronunciation": "りゅうがくします",
-        "vietnamese": "du học",
-        "note": "III"
-    },
-    "体にいい": {
-        "pronunciation": "からだにいい",
-        "vietnamese": "tốt cho sức khỏe"
-    },
-    "もし[～たら]": {
-        "vietnamese": "nếu (~ thì)"
-    },
-    "いくら[～ても]": {
-        "vietnamese": "cho dù, thế nào (~ đi nữa)"
-    },
-    "給料": {
-        "pronunciation": "きゅうりょう",
-        "vietnamese": "lương"
-    },
-    "目が覚める": {
-        "pronunciation": "めがさめる",
-        "vietnamese": "tỉnh giấc"
-    },
-    "言葉": {
-        "pronunciation": "ことば",
-        "vietnamese": "từ vựng"
-    }
-}
+[
+  {
+    "word": "体",
+    "reading": "からだ",
+    "meaning": "cơ thể"
+  },
+  {
+    "word": "調子",
+    "reading": "ちょうし",
+    "meaning": "tình trạng (sức khỏe, máy móc)"
+  },
+  {
+    "word": "グループ",
+    "meaning": "nhóm, đoàn"
+  },
+  {
+    "word": "チャンス",
+    "meaning": "cơ hội"
+  },
+  {
+    "word": "日本製",
+    "reading": "にほんせい",
+    "meaning": "hàng Nhật (có xuất xứ từ Nhật)"
+  },
+  {
+    "word": "[駅に～]着く",
+    "reading": "[えきに～]つく",
+    "meaning": "đến [ga]",
+    "note": "I"
+  },
+  {
+    "word": "[駅に～]着きます",
+    "reading": "[えきに～]つきます",
+    "meaning": "đến [ga]",
+    "note": "I"
+  },
+  {
+    "word": "考える",
+    "reading": "かんがえる",
+    "meaning": "nghĩ, suy nghĩ",
+    "note": "II"
+  },
+  {
+    "word": "考えます",
+    "reading": "かんがえます",
+    "meaning": "nghĩ, suy nghĩ",
+    "note": "II"
+  },
+  {
+    "word": "留学する",
+    "reading": "りゅうがくする",
+    "meaning": "du học",
+    "note": "III"
+  },
+  {
+    "word": "留学します",
+    "reading": "りゅうがくします",
+    "meaning": "du học",
+    "note": "III"
+  },
+  {
+    "word": "体にいい",
+    "reading": "からだにいい",
+    "meaning": "tốt cho sức khỏe"
+  },
+  {
+    "word": "もし[～たら]",
+    "meaning": "nếu (~ thì)"
+  },
+  {
+    "word": "いくら[～ても]",
+    "meaning": "cho dù, thế nào (~ đi nữa)"
+  },
+  {
+    "word": "給料",
+    "reading": "きゅうりょう",
+    "meaning": "lương"
+  },
+  {
+    "word": "目が覚める",
+    "reading": "めがさめる",
+    "meaning": "tỉnh giấc"
+  },
+  {
+    "word": "言葉",
+    "reading": "ことば",
+    "meaning": "từ vựng"
+  }
+]

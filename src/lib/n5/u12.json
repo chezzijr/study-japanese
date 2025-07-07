@@ -1,166 +1,208 @@
-{
-    "簡単": {
-        "pronunciation": "かんたん",
-        "vietnamese": "đơn giản, dễ",
-        "note": "tính từ な"
-    },
-    "近い": {
-        "pronunciation": "ちかい",
-        "vietnamese": "gần"
-    },
-    "遠い": {
-        "pronunciation": "とおい",
-        "vietnamese": "xa"
-    },
-    "早い": {
-        "pronunciation": "はやい",
-        "vietnamese": "sớm, nhanh"
-    },
-    "遅い": {
-        "pronunciation": "おそい",
-        "vietnamese": "muộn, chậm"
-    },
-    "多い": {
-        "pronunciation": "おおい",
-        "vietnamese": "nhiều [người]",
-        "note": "人が～"
-    },
-    "少ない": {
-        "pronunciation": "すくない",
-        "vietnamese": "ít [người]",
-        "note": "人が～"
-    },
-    "暖かい": {
-        "pronunciation": "あたたかい",
-        "vietnamese": "ấm"
-    },
-    "涼しい": {
-        "pronunciation": "すずしい",
-        "vietnamese": "mát"
-    },
-    "甘い": {
-        "pronunciation": "あまい",
-        "vietnamese": "ngọt"
-    },
-    "辛い": {
-        "pronunciation": "からい",
-        "vietnamese": "cay"
-    },
-    "重い": {
-        "pronunciation": "おもい",
-        "vietnamese": "nặng"
-    },
-    "軽い": {
-        "pronunciation": "かるい",
-        "vietnamese": "nhẹ"
-    },
-    "良い": {
-        "pronunciation": "いい",
-        "vietnamese": "thích, chọn, dùng",
-        "note": "コーヒーが～"
-    },
-    "背が高い": {
-        "pronunciation": "せがたかい",
-        "vietnamese": "cao (dùng cho người)"
-    },
-    "季節": {
-        "pronunciation": "きせつ",
-        "vietnamese": "mùa"
-    },
-    "春": {
-        "pronunciation": "はる",
-        "vietnamese": "mùa xuân"
-    },
-    "夏": {
-        "pronunciation": "なつ",
-        "vietnamese": "mùa hè"
-    },
-    "秋": {
-        "pronunciation": "あき",
-        "vietnamese": "mùa thu"
-    },
-    "冬": {
-        "pronunciation": "ふゆ",
-        "vietnamese": "mùa đông"
-    },
-    "天気": {
-        "pronunciation": "てんき",
-        "vietnamese": "thời tiết"
-    },
-    "雨": {
-        "pronunciation": "あめ",
-        "vietnamese": "mưa"
-    },
-    "雪": {
-        "pronunciation": "ゆき",
-        "vietnamese": "tuyết"
-    },
-    "曇り": {
-        "pronunciation": "くもり",
-        "vietnamese": "trời âm u"
-    },
-    "りんご": {
-        "vietnamese": "táo"
-    },
-    "オレンジ": {
-        "vietnamese": "cam"
-    },
-    "みかん": {
-        "vietnamese": "quýt"
-    },
-    "空港": {
-        "pronunciation": "くうこう",
-        "vietnamese": "sân bay"
-    },
-    "海": {
-        "pronunciation": "うみ",
-        "vietnamese": "biển, đại dương"
-    },
-    "世界": {
-        "pronunciation": "せかい",
-        "vietnamese": "thế giới"
-    },
-    "パーティー": {
-        "vietnamese": "tiệc"
-    },
-    "祭り": {
-        "pronunciation": "まつり",
-        "vietnamese": "lễ hội"
-    },
-    "スピーチ": {
-        "vietnamese": "bài diễn thuyết, bài phát biểu"
-    },
-    "テスト": {
-        "vietnamese": "bài kiểm tra"
-    },
-    "試験": {
-        "pronunciation": "しけん",
-        "vietnamese": "kỳ thi, bài thi"
-    },
-    "一番": {
-        "pronunciation": "いちばん",
-        "vietnamese": "nhất"
-    },
-    "どちら": {
-        "vietnamese": "cái nào"
-    },
-    "どちらも": {
-        "vietnamese": "cả hai, cái nào cũng"
-    },
-    "ずっと": {
-        "vietnamese": "(hơn) hẳn",
-        "note": "dùng để nhấn mạnh sự khác biệt giữa hai đối tượng"
-    },
-    "初めて": {
-        "pronunciation": "はじめて",
-        "vietnamese": "lần đầu tiên"
-    },
-    "日本酒": {
-        "pronunciation": "にほんしゅ",
-        "vietnamese": "Rượu Nhật"
-    },
-    "一生懸命": {
-        "pronunciation": "いっしょうけんめい",
-        "vietnamese": "Sự cố gắng hết sức"
-    }
-}
+[
+  {
+    "word": "簡単",
+    "reading": "かんたん",
+    "meaning": "đơn giản, dễ",
+    "note": "tính từ な"
+  },
+  {
+    "word": "近い",
+    "reading": "ちかい",
+    "meaning": "gần"
+  },
+  {
+    "word": "遠い",
+    "reading": "とおい",
+    "meaning": "xa"
+  },
+  {
+    "word": "早い",
+    "reading": "はやい",
+    "meaning": "sớm, nhanh"
+  },
+  {
+    "word": "遅い",
+    "reading": "おそい",
+    "meaning": "muộn, chậm"
+  },
+  {
+    "word": "多い",
+    "reading": "おおい",
+    "meaning": "nhiều [người]",
+    "note": "人が～"
+  },
+  {
+    "word": "少ない",
+    "reading": "すくない",
+    "meaning": "ít [người]",
+    "note": "人が～"
+  },
+  {
+    "word": "暖かい",
+    "reading": "あたたかい",
+    "meaning": "ấm"
+  },
+  {
+    "word": "涼しい",
+    "reading": "すずしい",
+    "meaning": "mát"
+  },
+  {
+    "word": "甘い",
+    "reading": "あまい",
+    "meaning": "ngọt"
+  },
+  {
+    "word": "辛い",
+    "reading": "からい",
+    "meaning": "cay"
+  },
+  {
+    "word": "重い",
+    "reading": "おもい",
+    "meaning": "nặng"
+  },
+  {
+    "word": "軽い",
+    "reading": "かるい",
+    "meaning": "nhẹ"
+  },
+  {
+    "word": "良い",
+    "reading": "いい",
+    "meaning": "thích, chọn, dùng",
+    "note": "コーヒーが～"
+  },
+  {
+    "word": "背が高い",
+    "reading": "せがたかい",
+    "meaning": "cao (dùng cho người)"
+  },
+  {
+    "word": "季節",
+    "reading": "きせつ",
+    "meaning": "mùa"
+  },
+  {
+    "word": "春",
+    "reading": "はる",
+    "meaning": "mùa xuân"
+  },
+  {
+    "word": "夏",
+    "reading": "なつ",
+    "meaning": "mùa hè"
+  },
+  {
+    "word": "秋",
+    "reading": "あき",
+    "meaning": "mùa thu"
+  },
+  {
+    "word": "冬",
+    "reading": "ふゆ",
+    "meaning": "mùa đông"
+  },
+  {
+    "word": "天気",
+    "reading": "てんき",
+    "meaning": "thời tiết"
+  },
+  {
+    "word": "雨",
+    "reading": "あめ",
+    "meaning": "mưa"
+  },
+  {
+    "word": "雪",
+    "reading": "ゆき",
+    "meaning": "tuyết"
+  },
+  {
+    "word": "曇り",
+    "reading": "くもり",
+    "meaning": "trời âm u"
+  },
+  {
+    "word": "りんご",
+    "meaning": "táo"
+  },
+  {
+    "word": "オレンジ",
+    "meaning": "cam"
+  },
+  {
+    "word": "みかん",
+    "meaning": "quýt"
+  },
+  {
+    "word": "空港",
+    "reading": "くうこう",
+    "meaning": "sân bay"
+  },
+  {
+    "word": "海",
+    "reading": "うみ",
+    "meaning": "biển, đại dương"
+  },
+  {
+    "word": "世界",
+    "reading": "せかい",
+    "meaning": "thế giới"
+  },
+  {
+    "word": "パーティー",
+    "meaning": "tiệc"
+  },
+  {
+    "word": "祭り",
+    "reading": "まつり",
+    "meaning": "lễ hội"
+  },
+  {
+    "word": "スピーチ",
+    "meaning": "bài diễn thuyết, bài phát biểu"
+  },
+  {
+    "word": "テスト",
+    "meaning": "bài kiểm tra"
+  },
+  {
+    "word": "試験",
+    "reading": "しけん",
+    "meaning": "kỳ thi, bài thi"
+  },
+  {
+    "word": "一番",
+    "reading": "いちばん",
+    "meaning": "nhất"
+  },
+  {
+    "word": "どちら",
+    "meaning": "cái nào"
+  },
+  {
+    "word": "どちらも",
+    "meaning": "cả hai, cái nào cũng"
+  },
+  {
+    "word": "ずっと",
+    "meaning": "(hơn) hẳn",
+    "note": "dùng để nhấn mạnh sự khác biệt giữa hai đối tượng"
+  },
+  {
+    "word": "初めて",
+    "reading": "はじめて",
+    "meaning": "lần đầu tiên"
+  },
+  {
+    "word": "日本酒",
+    "reading": "にほんしゅ",
+    "meaning": "Rượu Nhật"
+  },
+  {
+    "word": "一生懸命",
+    "reading": "いっしょうけんめい",
+    "meaning": "Sự cố gắng hết sức"
+  }
+]

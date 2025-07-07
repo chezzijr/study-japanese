@@ -1,188 +1,231 @@
-{
-    "強い": {
-        "pronunciation": "つよい",
-        "vietnamese": "mạnh"
-    },
-    "弱い": {
-        "pronunciation": "よわい",
-        "vietnamese": "yếu"
-    },
-    "若い": {
-        "pronunciation": "わかい",
-        "vietnamese": "trẻ"
-    },
-    "頭がいい": {
-        "pronunciation": "あたまがいい",
-        "vietnamese": "thông minh"
-    },
-    "髪": {
-        "pronunciation": "かみ",
-        "vietnamese": "tóc"
-    },
-    "顔": {
-        "pronunciation": "かお",
-        "vietnamese": "mặt"
-    },
-    "口": {
-        "pronunciation": "くち",
-        "vietnamese": "miệng"
-    },
-    "耳": {
-        "pronunciation": "みみ",
-        "vietnamese": "tai"
-    },
-    "目": {
-        "pronunciation": "め",
-        "vietnamese": "mắt"
-    },
-    "足": {
-        "pronunciation": "あし",
-        "vietnamese": "chân"
-    },
-    "湖": {
-        "pronunciation": "みずうみ",
-        "vietnamese": "hồ"
-    },
-    "ボタン": {
-        "vietnamese": "nút, cúc, khuy"
-    },
-    "ジョギング": {
-        "vietnamese": "việc chạy bộ"
-    },
-    "シャワー": {
-        "vietnamese": "vòi hoa sen"
-    },
-    "風呂": {
-        "pronunciation": "[お]ふろ",
-        "vietnamese": "bồn tắm"
-    },
-    "確認": {
-        "pronunciation": "かくにん",
-        "vietnamese": "sự xác nhận, sự kiểm tra",
-        "note": "[~します: xác nhận]"
-    },
-    "どうやって": {
-        "vietnamese": "làm thế nào~"
-    },
-    "どの～": {
-        "vietnamese": "cái nào ~",
-        "note": "dùng với trường hợp từ ba thứ trở lên"
-    },
-    "出す": {
-        "pronunciation": "[お金を～]だす",
-        "vietnamese": "lấy ra, rút [tiền]",
-        "note": "I"
-    },
-    "出します": {
-        "pronunciation": "[お金を～]だします",
-        "vietnamese": "lấy ra, rút [tiền]",
-        "note": "I"
-    },
-    "押す": {
-        "pronunciation": "[ボタンを～]おす",
-        "vietnamese": "bấm, ấn [nút]",
-        "note": "I"
-    },
-    "押します": {
-        "pronunciation": "[ボタンを～]おします",
-        "vietnamese": "bấm, ấn [nút]",
-        "note": "I"
-    },
-    "乗る": {
-        "pronunciation": "[電車に～]のる",
-        "vietnamese": "đi, lên [tàu]",
-        "note": "I"
-    },
-    "乗ります": {
-        "pronunciation": "[電車に～]のります",
-        "vietnamese": "đi, lên [tàu]",
-        "note": "I"
-    },
-    "入る": {
-        "pronunciation": "[大学に～]はいる",
-        "vietnamese": "vào, nhập học [đại học]",
-        "note": "I"
-    },
-    "入ります": {
-        "pronunciation": "[大学に～]はいります",
-        "vietnamese": "vào, nhập học [đại học]",
-        "note": "I"
-    },
-    "出る": {
-        "pronunciation": "[大学を～]でる",
-        "vietnamese": "ra, tốt nghiệp [đại học]",
-        "note": "II"
-    },
-    "出ます": {
-        "pronunciation": "[大学を～]でます",
-        "vietnamese": "ra, tốt nghiệp [đại học]",
-        "note": "II"
-    },
-    "乗り換える": {
-        "pronunciation": "[電車を～]のりかえる",
-        "vietnamese": "chuyển, đổi [tàu]",
-        "note": "II"
-    },
-    "乗り換えます": {
-        "pronunciation": "[電車を～]のりかえます",
-        "vietnamese": "chuyển, đổi [tàu]",
-        "note": "II"
-    },
-    "浴びる": {
-        "pronunciation": "[シャワーを～]あびる",
-        "vietnamese": "tắm [vòi hoa sen]",
-        "note": "II"
-    },
-    "浴びます": {
-        "pronunciation": "[シャワーを～]あびます",
-        "vietnamese": "tắm [vòi hoa sen]",
-        "note": "II"
-    },
-    "入れる": {
-        "pronunciation": "いれる",
-        "vietnamese": "cho vào, bỏ vào",
-        "note": "II"
-    },
-    "入れます": {
-        "pronunciation": "いれます",
-        "vietnamese": "cho vào, bỏ vào",
-        "note": "II"
-    },
-    "降りる": {
-        "pronunciation": "[電車を～]おりる",
-        "vietnamese": "xuống [tàu]",
-        "note": "II"
-    },
-    "降ります": {
-        "pronunciation": "[電車を～]おります",
-        "vietnamese": "xuống [tàu]",
-        "note": "II"
-    },
-    "まず": {
-        "vietnamese": "trước hết, đầu tiên"
-    },
-    "初めに": {
-        "pronunciation": "はじめに",
-        "vietnamese": "ban đầu"
-    },
-    "次に": {
-        "pronunciation": "つぎに",
-        "vietnamese": "tiếp theo"
-    },
-    "磨きます": {
-        "pronunciation": "みがきます",
-        "vietnamese": "Đánh, mài"
-    },
-    "選びます": {
-        "pronunciation": "えらびます",
-        "vietnamese": "Chọn lựa"
-    },
-    "お寺": {
-        "pronunciation": "おてら",
-        "vietnamese": "Chùa"
-    },
-    "神社": {
-        "pronunciation": "じんじゃ",
-        "vietnamese": "Đền thờ thần đạo"
-    }
-}
+[
+  {
+    "word": "強い",
+    "reading": "つよい",
+    "meaning": "mạnh"
+  },
+  {
+    "word": "弱い",
+    "reading": "よわい",
+    "meaning": "yếu"
+  },
+  {
+    "word": "若い",
+    "reading": "わかい",
+    "meaning": "trẻ"
+  },
+  {
+    "word": "頭がいい",
+    "reading": "あたまがいい",
+    "meaning": "thông minh"
+  },
+  {
+    "word": "髪",
+    "reading": "かみ",
+    "meaning": "tóc"
+  },
+  {
+    "word": "顔",
+    "reading": "かお",
+    "meaning": "mặt"
+  },
+  {
+    "word": "口",
+    "reading": "くち",
+    "meaning": "miệng"
+  },
+  {
+    "word": "耳",
+    "reading": "みみ",
+    "meaning": "tai"
+  },
+  {
+    "word": "目",
+    "reading": "め",
+    "meaning": "mắt"
+  },
+  {
+    "word": "足",
+    "reading": "あし",
+    "meaning": "chân"
+  },
+  {
+    "word": "湖",
+    "reading": "みずうみ",
+    "meaning": "hồ"
+  },
+  {
+    "word": "ボタン",
+    "meaning": "nút, cúc, khuy"
+  },
+  {
+    "word": "ジョギング",
+    "meaning": "việc chạy bộ"
+  },
+  {
+    "word": "シャワー",
+    "meaning": "vòi hoa sen"
+  },
+  {
+    "word": "風呂",
+    "reading": "[お]ふろ",
+    "meaning": "bồn tắm"
+  },
+  {
+    "word": "確認",
+    "reading": "かくにん",
+    "meaning": "sự xác nhận, sự kiểm tra",
+    "note": "[~します: xác nhận]"
+  },
+  {
+    "word": "どうやって",
+    "meaning": "làm thế nào~"
+  },
+  {
+    "word": "どの～",
+    "meaning": "cái nào ~",
+    "note": "dùng với trường hợp từ ba thứ trở lên"
+  },
+  {
+    "word": "出す",
+    "reading": "[お金を～]だす",
+    "meaning": "lấy ra, rút [tiền]",
+    "note": "I"
+  },
+  {
+    "word": "出します",
+    "reading": "[お金を～]だします",
+    "meaning": "lấy ra, rút [tiền]",
+    "note": "I"
+  },
+  {
+    "word": "押す",
+    "reading": "[ボタンを～]おす",
+    "meaning": "bấm, ấn [nút]",
+    "note": "I"
+  },
+  {
+    "word": "押します",
+    "reading": "[ボタンを～]おします",
+    "meaning": "bấm, ấn [nút]",
+    "note": "I"
+  },
+  {
+    "word": "乗る",
+    "reading": "[電車に～]のる",
+    "meaning": "đi, lên [tàu]",
+    "note": "I"
+  },
+  {
+    "word": "乗ります",
+    "reading": "[電車に～]のります",
+    "meaning": "đi, lên [tàu]",
+    "note": "I"
+  },
+  {
+    "word": "入る",
+    "reading": "[大学に～]はいる",
+    "meaning": "vào, nhập học [đại học]",
+    "note": "I"
+  },
+  {
+    "word": "入ります",
+    "reading": "[大学に～]はいります",
+    "meaning": "vào, nhập học [đại học]",
+    "note": "I"
+  },
+  {
+    "word": "出る",
+    "reading": "[大学を～]でる",
+    "meaning": "ra, tốt nghiệp [đại học]",
+    "note": "II"
+  },
+  {
+    "word": "出ます",
+    "reading": "[大学を～]でます",
+    "meaning": "ra, tốt nghiệp [đại học]",
+    "note": "II"
+  },
+  {
+    "word": "乗り換える",
+    "reading": "[電車を～]のりかえる",
+    "meaning": "chuyển, đổi [tàu]",
+    "note": "II"
+  },
+  {
+    "word": "乗り換えます",
+    "reading": "[電車を～]のりかえます",
+    "meaning": "chuyển, đổi [tàu]",
+    "note": "II"
+  },
+  {
+    "word": "浴びる",
+    "reading": "[シャワーを～]あびる",
+    "meaning": "tắm [vòi hoa sen]",
+    "note": "II"
+  },
+  {
+    "word": "浴びます",
+    "reading": "[シャワーを～]あびます",
+    "meaning": "tắm [vòi hoa sen]",
+    "note": "II"
+  },
+  {
+    "word": "入れる",
+    "reading": "いれる",
+    "meaning": "cho vào, bỏ vào",
+    "note": "II"
+  },
+  {
+    "word": "入れます",
+    "reading": "いれます",
+    "meaning": "cho vào, bỏ vào",
+    "note": "II"
+  },
+  {
+    "word": "降りる",
+    "reading": "[電車を～]おりる",
+    "meaning": "xuống [tàu]",
+    "note": "II"
+  },
+  {
+    "word": "降ります",
+    "reading": "[電車を～]おります",
+    "meaning": "xuống [tàu]",
+    "note": "II"
+  },
+  {
+    "word": "まず",
+    "meaning": "trước hết, đầu tiên"
+  },
+  {
+    "word": "初めに",
+    "reading": "はじめに",
+    "meaning": "ban đầu"
+  },
+  {
+    "word": "次に",
+    "reading": "つぎに",
+    "meaning": "tiếp theo"
+  },
+  {
+    "word": "磨きます",
+    "reading": "みがきます",
+    "meaning": "Đánh, mài"
+  },
+  {
+    "word": "選びます",
+    "reading": "えらびます",
+    "meaning": "Chọn lựa"
+  },
+  {
+    "word": "お寺",
+    "reading": "おてら",
+    "meaning": "Chùa"
+  },
+  {
+    "word": "神社",
+    "reading": "じんじゃ",
+    "meaning": "Đền thờ thần đạo"
+  }
+]

@@ -1,170 +1,206 @@
-{
-    "課長": {
-        "pronunciation": "かちょう",
-        "vietnamese": "tổ trưởng"
-    },
-    "部長": {
-        "pronunciation": "ぶちょう",
-        "vietnamese": "trưởng phòng"
-    },
-    "社長": {
-        "pronunciation": "しゃちょう",
-        "vietnamese": "giám đốc"
-    },
-    "ピアノ": {
-        "pronunciation": "ぴあの",
-        "vietnamese": "đàn Piano"
-    },
-    "趣味": {
-        "pronunciation": "しゅみ",
-        "vietnamese": "sở thích, thú vui"
-    },
-    "象": {
-        "pronunciation": "ぞう",
-        "vietnamese": "con voi"
-    },
-    "鳥": {
-        "pronunciation": "とり",
-        "vietnamese": "chim"
-    },
-    "へえ": {
-        "pronunciation": "へえ",
-        "vietnamese": "Thế à! (dùng để biểu thị sự ngạc nhiên hoặc quan tâm)"
-    },
-    "大使館": {
-        "pronunciation": "たいしかん",
-        "vietnamese": "đại sứ quán"
-    },
-    "国際": {
-        "pronunciation": "こくさい",
-        "vietnamese": "quốc tế"
-    },
-    "洗う": {
-        "pronunciation": "あらう",
-        "vietnamese": "rửa",
-        "note": "I"
-    },
-    "洗います": {
-        "pronunciation": "あらいます",
-        "vietnamese": "rửa",
-        "note": "I"
-    },
-    "歌う": {
-        "pronunciation": "うたう",
-        "vietnamese": "hát",
-        "note": "I"
-    },
-    "歌います": {
-        "pronunciation": "うたいます",
-        "vietnamese": "hát",
-        "note": "I"
-    },
-    "弾く": {
-        "pronunciation": "ひく",
-        "vietnamese": "chơi (nhạc cụ: piano,gita…..)",
-        "note": "I"
-    },
-    "弾きます": {
-        "pronunciation": "ひきます",
-        "vietnamese": "chơi (nhạc cụ: piano,gita…..)",
-        "note": "I"
-    },
-    "取る": {
-        "pronunciation": "とる",
-        "vietnamese": "lấy, chuyển",
-        "note": "I"
-    },
-    "取ります": {
-        "pronunciation": "とります",
-        "vietnamese": "lấy, chuyển",
-        "note": "I"
-    },
-    "できる": {
-        "pronunciation": "できる",
-        "vietnamese": "có thể",
-        "note": "II"
-    },
-    "できます": {
-        "pronunciation": "できます",
-        "vietnamese": "có thể",
-        "note": "II"
-    },
-    "捨てる": {
-        "pronunciation": "すてる",
-        "vietnamese": "vứt, bỏ đi",
-        "note": "II"
-    },
-    "捨てます": {
-        "pronunciation": "すてます",
-        "vietnamese": "vứt, bỏ đi",
-        "note": "II"
-    },
-    "調べる": {
-        "pronunciation": "しらべる",
-        "vietnamese": "tìm hiểu, điều tra, xem",
-        "note": "II"
-    },
-    "調べます": {
-        "pronunciation": "しらべます",
-        "vietnamese": "tìm hiểu, điều tra, xem",
-        "note": "II"
-    },
-    "集める": {
-        "pronunciation": "あつめる",
-        "vietnamese": "thu thập, sưu tầm",
-        "note": "II"
-    },
-    "集めます": {
-        "pronunciation": "あつめます",
-        "vietnamese": "thu thập, sưu tầm",
-        "note": "II"
-    },
-    "運転する": {
-        "pronunciation": "うんてんする",
-        "vietnamese": "lái",
-        "note": "III"
-    },
-    "運転します": {
-        "pronunciation": "うんてんします",
-        "vietnamese": "lái",
-        "note": "III"
-    },
-    "予約する": {
-        "pronunciation": "よやくする",
-        "vietnamese": "đặt chỗ, đặt trước",
-        "note": "III"
-    },
-    "予約します": {
-        "pronunciation": "よやくします",
-        "vietnamese": "đặt chỗ, đặt trước",
-        "note": "III"
-    },
-    "見学する": {
-        "pronunciation": "けんがくする",
-        "vietnamese": "tham quan với mục đích học tập",
-        "note": "III"
-    },
-    "見学します": {
-        "pronunciation": "けんがくします",
-        "vietnamese": "tham quan với mục đích học tập",
-        "note": "III"
-    },
-    "それは面白いですね": {
-        "pronunciation": "それはおもしろいですね",
-        "vietnamese": "Hay thật nhỉ!"
-    },
-    "なかなか": {
-        "pronunciation": "なかなか",
-        "vietnamese": "khó mà, không dễ, mãi mà",
-        "note": "Dùng với thể phủ định"
-    },
-    "ぜひ": {
-        "pronunciation": "ぜひ",
-        "vietnamese": "nhất định, rất",
-        "note": "Dùng với thể khẳng định"
-    },
-    "授業": {
-        "pronunciation": "じゅぎょう",
-        "vietnamese": "Giờ học"
-    }
-}
+[
+  {
+    "word": "課長",
+    "reading": "かちょう",
+    "meaning": "tổ trưởng"
+  },
+  {
+    "word": "部長",
+    "reading": "ぶちょう",
+    "meaning": "trưởng phòng"
+  },
+  {
+    "word": "社長",
+    "reading": "しゃちょう",
+    "meaning": "giám đốc"
+  },
+  {
+    "word": "ピアノ",
+    "reading": "ぴあの",
+    "meaning": "đàn Piano"
+  },
+  {
+    "word": "趣味",
+    "reading": "しゅみ",
+    "meaning": "sở thích, thú vui"
+  },
+  {
+    "word": "象",
+    "reading": "ぞう",
+    "meaning": "con voi"
+  },
+  {
+    "word": "鳥",
+    "reading": "とり",
+    "meaning": "chim"
+  },
+  {
+    "word": "へえ",
+    "reading": "へえ",
+    "meaning": "Thế à! (dùng để biểu thị sự ngạc nhiên hoặc quan tâm)"
+  },
+  {
+    "word": "大使館",
+    "reading": "たいしかん",
+    "meaning": "đại sứ quán"
+  },
+  {
+    "word": "国際",
+    "reading": "こくさい",
+    "meaning": "quốc tế"
+  },
+  {
+    "word": "洗う",
+    "reading": "あらう",
+    "meaning": "rửa",
+    "note": "I"
+  },
+  {
+    "word": "洗います",
+    "reading": "あらいます",
+    "meaning": "rửa",
+    "note": "I"
+  },
+  {
+    "word": "歌う",
+    "reading": "うたう",
+    "meaning": "hát",
+    "note": "I"
+  },
+  {
+    "word": "歌います",
+    "reading": "うたいます",
+    "meaning": "hát",
+    "note": "I"
+  },
+  {
+    "word": "弾く",
+    "reading": "ひく",
+    "meaning": "chơi (nhạc cụ: piano,gita…..)",
+    "note": "I"
+  },
+  {
+    "word": "弾きます",
+    "reading": "ひきます",
+    "meaning": "chơi (nhạc cụ: piano,gita…..)",
+    "note": "I"
+  },
+  {
+    "word": "取る",
+    "reading": "とる",
+    "meaning": "lấy, chuyển",
+    "note": "I"
+  },
+  {
+    "word": "取ります",
+    "reading": "とります",
+    "meaning": "lấy, chuyển",
+    "note": "I"
+  },
+  {
+    "word": "できる",
+    "reading": "できる",
+    "meaning": "có thể",
+    "note": "II"
+  },
+  {
+    "word": "できます",
+    "reading": "できます",
+    "meaning": "có thể",
+    "note": "II"
+  },
+  {
+    "word": "捨てる",
+    "reading": "すてる",
+    "meaning": "vứt, bỏ đi",
+    "note": "II"
+  },
+  {
+    "word": "捨てます",
+    "reading": "すてます",
+    "meaning": "vứt, bỏ đi",
+    "note": "II"
+  },
+  {
+    "word": "調べる",
+    "reading": "しらべる",
+    "meaning": "tìm hiểu, điều tra, xem",
+    "note": "II"
+  },
+  {
+    "word": "調べます",
+    "reading": "しらべます",
+    "meaning": "tìm hiểu, điều tra, xem",
+    "note": "II"
+  },
+  {
+    "word": "集める",
+    "reading": "あつめる",
+    "meaning": "thu thập, sưu tầm",
+    "note": "II"
+  },
+  {
+    "word": "集めます",
+    "reading": "あつめます",
+    "meaning": "thu thập, sưu tầm",
+    "note": "II"
+  },
+  {
+    "word": "運転する",
+    "reading": "うんてんする",
+    "meaning": "lái",
+    "note": "III"
+  },
+  {
+    "word": "運転します",
+    "reading": "うんてんします",
+    "meaning": "lái",
+    "note": "III"
+  },
+  {
+    "word": "予約する",
+    "reading": "よやくする",
+    "meaning": "đặt chỗ, đặt trước",
+    "note": "III"
+  },
+  {
+    "word": "予約します",
+    "reading": "よやくします",
+    "meaning": "đặt chỗ, đặt trước",
+    "note": "III"
+  },
+  {
+    "word": "見学する",
+    "reading": "けんがくする",
+    "meaning": "tham quan với mục đích học tập",
+    "note": "III"
+  },
+  {
+    "word": "見学します",
+    "reading": "けんがくします",
+    "meaning": "tham quan với mục đích học tập",
+    "note": "III"
+  },
+  {
+    "word": "それは面白いですね",
+    "reading": "それはおもしろいですね",
+    "meaning": "Hay thật nhỉ!"
+  },
+  {
+    "word": "なかなか",
+    "reading": "なかなか",
+    "meaning": "khó mà, không dễ, mãi mà",
+    "note": "Dùng với thể phủ định"
+  },
+  {
+    "word": "ぜひ",
+    "reading": "ぜひ",
+    "meaning": "nhất định, rất",
+    "note": "Dùng với thể khẳng định"
+  },
+  {
+    "word": "授業",
+    "reading": "じゅぎょう",
+    "meaning": "Giờ học"
+  }
+]

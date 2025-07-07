@@ -1,205 +1,249 @@
-{
-    "広い": {
-        "pronunciation": "ひろい",
-        "vietnamese": "rộng"
-    },
-    "狭い": {
-        "pronunciation": "せまい",
-        "vietnamese": "hẹp, chật"
-    },
-    "痛い": {
-        "pronunciation": "いたい",
-        "vietnamese": "đau"
-    },
-    "問題": {
-        "pronunciation": "もんだい",
-        "vietnamese": "vấn đề"
-    },
-    "答え": {
-        "pronunciation": "こたえ",
-        "vietnamese": "câu trả lời"
-    },
-    "荷物": {
-        "pronunciation": "にもつ",
-        "vietnamese": "hành lý"
-    },
-    "禁煙": {
-        "pronunciation": "きんえん",
-        "vietnamese": "cấm hút thuốc"
-    },
-    "準備": {
-        "pronunciation": "じゅんび",
-        "vietnamese": "chuẩn bị"
-    },
-    "残業": {
-        "pronunciation": "ざんぎょう",
-        "vietnamese": "(làm) thêm giờ"
-    },
-    "病気": {
-        "pronunciation": "びょうき",
-        "vietnamese": "ốm, bệnh"
-    },
-    "上着": {
-        "pronunciation": "うわぎ",
-        "vietnamese": "áo khoác"
-    },
-    "下着": {
-        "pronunciation": "したぎ",
-        "vietnamese": "áo lót"
-    },
-    "キャベツ": {
-        "vietnamese": "bắp cải"
-    },
-    "払う": {
-        "pronunciation": "はらう",
-        "vietnamese": "trả tiền",
-        "note": "I"
-    },
-    "払います": {
-        "pronunciation": "はらいます",
-        "vietnamese": "trả tiền",
-        "note": "I"
-    },
-    "無くす": {
-        "pronunciation": "なくす",
-        "vietnamese": "mất, đánh mất",
-        "note": "I"
-    },
-    "無くします": {
-        "pronunciation": "なくします",
-        "vietnamese": "mất, đánh mất",
-        "note": "I"
-    },
-    "出す": {
-        "pronunciation": "だす",
-        "vietnamese": "nộp [báo cáo]",
-        "note": "I"
-    },
-    "出します": {
-        "pronunciation": "だします",
-        "vietnamese": "nộp [báo cáo]",
-        "note": "I"
-    },
-    "返す": {
-        "pronunciation": "かえす",
-        "vietnamese": "trả lại",
-        "note": "I"
-    },
-    "返します": {
-        "pronunciation": "かえします",
-        "vietnamese": "trả lại",
-        "note": "I"
-    },
-    "入る": {
-        "pronunciation": "はいる",
-        "vietnamese": "vào",
-        "note": "I"
-    },
-    "入ります": {
-        "pronunciation": "はいります",
-        "vietnamese": "vào",
-        "note": "I"
-    },
-    "脱ぐ": {
-        "pronunciation": "ぬぐ",
-        "vietnamese": "cởi",
-        "note": "I"
-    },
-    "脱ぎます": {
-        "pronunciation": "ぬぎます",
-        "vietnamese": "cởi",
-        "note": "I"
-    },
-    "持って行く": {
-        "pronunciation": "もっていく",
-        "vietnamese": "mang đi, mang theo",
-        "note": "I"
-    },
-    "持って行きます": {
-        "pronunciation": "もっていきます",
-        "vietnamese": "mang đi, mang theo",
-        "note": "I"
-    },
-    "持って来る": {
-        "pronunciation": "もってくる",
-        "vietnamese": "mang đến",
-        "note": "III"
-    },
-    "持って来ます": {
-        "pronunciation": "もってきます",
-        "vietnamese": "mang đến",
-        "note": "III"
-    },
-    "出かける": {
-        "pronunciation": "でかける",
-        "vietnamese": "ra ngoài",
-        "note": "II"
-    },
-    "出かけます": {
-        "pronunciation": "でかけます",
-        "vietnamese": "ra ngoài",
-        "note": "II"
-    },
-    "覚える": {
-        "pronunciation": "おぼえる",
-        "vietnamese": "nhớ",
-        "note": "II"
-    },
-    "覚えます": {
-        "pronunciation": "おぼえます",
-        "vietnamese": "nhớ",
-        "note": "II"
-    },
-    "忘れる": {
-        "pronunciation": "わすれる",
-        "vietnamese": "quên",
-        "note": "II"
-    },
-    "忘れます": {
-        "pronunciation": "わすれます",
-        "vietnamese": "quên",
-        "note": "II"
-    },
-    "心配する": {
-        "pronunciation": "しんぱいする",
-        "vietnamese": "lo lắng",
-        "note": "III"
-    },
-    "心配します": {
-        "pronunciation": "しんぱいします",
-        "vietnamese": "lo lắng",
-        "note": "III"
-    },
-    "出張する": {
-        "pronunciation": "しゅっちょうする",
-        "vietnamese": "đi công tác",
-        "note": "III"
-    },
-    "出張します": {
-        "pronunciation": "しゅっちょうします",
-        "vietnamese": "đi công tác",
-        "note": "III"
-    },
-    "引っ越しする": {
-        "pronunciation": "ひっこしする",
-        "vietnamese": "chuyển nhà",
-        "note": "III"
-    },
-    "引っ越しします": {
-        "pronunciation": "ひっこしします",
-        "vietnamese": "chuyển nhà",
-        "note": "III"
-    },
-    "自分で": {
-        "pronunciation": "じぶんで",
-        "vietnamese": "tự (mình)"
-    },
-    "～までに": {
-        "pronunciation": "～までに",
-        "vietnamese": "trước ~ (chỉ thời hạn)"
-    },
-    "ですから": {
-        "pronunciation": "ですから",
-        "vietnamese": "vì thế, vì vậy, do đó"
-    }
-}
+[
+  {
+    "word": "広い",
+    "reading": "ひろい",
+    "meaning": "rộng"
+  },
+  {
+    "word": "狭い",
+    "reading": "せまい",
+    "meaning": "hẹp, chật"
+  },
+  {
+    "word": "痛い",
+    "reading": "いたい",
+    "meaning": "đau"
+  },
+  {
+    "word": "問題",
+    "reading": "もんだい",
+    "meaning": "vấn đề"
+  },
+  {
+    "word": "答え",
+    "reading": "こたえ",
+    "meaning": "câu trả lời"
+  },
+  {
+    "word": "荷物",
+    "reading": "にもつ",
+    "meaning": "hành lý"
+  },
+  {
+    "word": "禁煙",
+    "reading": "きんえん",
+    "meaning": "cấm hút thuốc"
+  },
+  {
+    "word": "準備",
+    "reading": "じゅんび",
+    "meaning": "chuẩn bị"
+  },
+  {
+    "word": "残業",
+    "reading": "ざんぎょう",
+    "meaning": "(làm) thêm giờ"
+  },
+  {
+    "word": "病気",
+    "reading": "びょうき",
+    "meaning": "ốm, bệnh"
+  },
+  {
+    "word": "上着",
+    "reading": "うわぎ",
+    "meaning": "áo khoác"
+  },
+  {
+    "word": "下着",
+    "reading": "したぎ",
+    "meaning": "áo lót"
+  },
+  {
+    "word": "キャベツ",
+    "meaning": "bắp cải"
+  },
+  {
+    "word": "払う",
+    "reading": "はらう",
+    "meaning": "trả tiền",
+    "note": "I"
+  },
+  {
+    "word": "払います",
+    "reading": "はらいます",
+    "meaning": "trả tiền",
+    "note": "I"
+  },
+  {
+    "word": "無くす",
+    "reading": "なくす",
+    "meaning": "mất, đánh mất",
+    "note": "I"
+  },
+  {
+    "word": "無くします",
+    "reading": "なくします",
+    "meaning": "mất, đánh mất",
+    "note": "I"
+  },
+  {
+    "word": "出す",
+    "reading": "だす",
+    "meaning": "nộp [báo cáo]",
+    "note": "I"
+  },
+  {
+    "word": "出します",
+    "reading": "だします",
+    "meaning": "nộp [báo cáo]",
+    "note": "I"
+  },
+  {
+    "word": "返す",
+    "reading": "かえす",
+    "meaning": "trả lại",
+    "note": "I"
+  },
+  {
+    "word": "返します",
+    "reading": "かえします",
+    "meaning": "trả lại",
+    "note": "I"
+  },
+  {
+    "word": "入る",
+    "reading": "はいる",
+    "meaning": "vào",
+    "note": "I"
+  },
+  {
+    "word": "入ります",
+    "reading": "はいります",
+    "meaning": "vào",
+    "note": "I"
+  },
+  {
+    "word": "脱ぐ",
+    "reading": "ぬぐ",
+    "meaning": "cởi",
+    "note": "I"
+  },
+  {
+    "word": "脱ぎます",
+    "reading": "ぬぎます",
+    "meaning": "cởi",
+    "note": "I"
+  },
+  {
+    "word": "持って行く",
+    "reading": "もっていく",
+    "meaning": "mang đi, mang theo",
+    "note": "I"
+  },
+  {
+    "word": "持って行きます",
+    "reading": "もっていきます",
+    "meaning": "mang đi, mang theo",
+    "note": "I"
+  },
+  {
+    "word": "持って来る",
+    "reading": "もってくる",
+    "meaning": "mang đến",
+    "note": "III"
+  },
+  {
+    "word": "持って来ます",
+    "reading": "もってきます",
+    "meaning": "mang đến",
+    "note": "III"
+  },
+  {
+    "word": "出かける",
+    "reading": "でかける",
+    "meaning": "ra ngoài",
+    "note": "II"
+  },
+  {
+    "word": "出かけます",
+    "reading": "でかけます",
+    "meaning": "ra ngoài",
+    "note": "II"
+  },
+  {
+    "word": "覚える",
+    "reading": "おぼえる",
+    "meaning": "nhớ",
+    "note": "II"
+  },
+  {
+    "word": "覚えます",
+    "reading": "おぼえます",
+    "meaning": "nhớ",
+    "note": "II"
+  },
+  {
+    "word": "忘れる",
+    "reading": "わすれる",
+    "meaning": "quên",
+    "note": "II"
+  },
+  {
+    "word": "忘れます",
+    "reading": "わすれます",
+    "meaning": "quên",
+    "note": "II"
+  },
+  {
+    "word": "心配する",
+    "reading": "しんぱいする",
+    "meaning": "lo lắng",
+    "note": "III"
+  },
+  {
+    "word": "心配します",
+    "reading": "しんぱいします",
+    "meaning": "lo lắng",
+    "note": "III"
+  },
+  {
+    "word": "出張する",
+    "reading": "しゅっちょうする",
+    "meaning": "đi công tác",
+    "note": "III"
+  },
+  {
+    "word": "出張します",
+    "reading": "しゅっちょうします",
+    "meaning": "đi công tác",
+    "note": "III"
+  },
+  {
+    "word": "引っ越しする",
+    "reading": "ひっこしする",
+    "meaning": "chuyển nhà",
+    "note": "III"
+  },
+  {
+    "word": "引っ越しします",
+    "reading": "ひっこしします",
+    "meaning": "chuyển nhà",
+    "note": "III"
+  },
+  {
+    "word": "自分で",
+    "reading": "じぶんで",
+    "meaning": "tự (mình)"
+  },
+  {
+    "word": "～までに",
+    "reading": "～までに",
+    "meaning": "trước ~ (chỉ thời hạn)"
+  },
+  {
+    "word": "ですから",
+    "reading": "ですから",
+    "meaning": "vì thế, vì vậy, do đó"
+  }
+]

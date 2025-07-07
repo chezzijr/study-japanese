@@ -1,161 +1,127 @@
 <script lang="ts">
-    import { fly } from 'svelte/transition';
+	import type { WordDefinition, Dictionary } from '$lib/types/vocab';
+	import Furigana from './furigana.svelte';
+	import { fit } from 'furigana';
+	import { fly, fade } from 'svelte/transition';
+	import { quintOut, linear } from 'svelte/easing';
+	import { onMount } from 'svelte';
 
-    let { 
-        quesList, 
-        ansList, 
-        hintList, 
-        keyName, 
-        valueName,
-        swappable
-    } = $props()
+	const {
+		kotobas,
+		furigana = true
+	}: {
+		kotobas: Dictionary;
+		furigana: boolean;
+	} = $props();
 
-    const firstList = quesList;
-    const secondList = ansList;
-    const len = firstList.length;
-    
-    let swp = $state(false);
-    let quesType: 'first' | 'second' = $state('first');
-	let index = $state(randomIndex());
-    let showHint = $state(false);
-	let quesWord = $derived(quesType == 'first' ? firstList[index] : secondList[index]);
-	let options = $derived(populateOptions(index));
+	let targetIndex = $state(randomIndex());
+	let question = $derived(generateOptions(targetIndex));
+	let emojiAnim = $state([] as string[]);
 
 	function randomIndex() {
-		return Math.floor(Math.random() * len);
+		return Math.floor(Math.random() * kotobas.length);
 	}
 
-	function populateOptions(index: number) {
-		const options = [];
-        const answers = quesType == 'first' ? secondList : firstList;
-        // if a list of answer, quesTyoe is first only
-        if (answers[index].constructor === Array) {
-            // push a random element from the list
-            options.push(answers[index][Math.floor(Math.random() * answers[index].length)]);
-            while (options.length < 4) {
-                let i = randomIndex();
-                let rndItem = answers[i][Math.floor(Math.random() * answers[i].length)];
-                if (i != index && !options.includes(rndItem)) {
-                    options.push(rndItem);
-                }
-            }
-        } else {
-            options.push(answers[index]);
-            while (options.length < 4) {
-                let i = randomIndex();
-                if (i != index && !options.includes(answers[i])) {
-                    options.push(quesType == 'first' ? secondList[i] : firstList[i]);
-                }
-            }
-        }
-
-        // shuffle the options
-        options.sort(() => Math.random() - 0.5);
-		return options;
+	function generateOptions(index: number) {
+		const type = Math.random() < 0.5 ? 'kotoba-to-meaning' : 'meaning-to-kotoba';
+		const indices = [index];
+		while (indices.length < 4) {
+			const rand = randomIndex();
+			if (indices.includes(rand)) continue;
+			// no one word multiple meaning or one meaning multiple word
+			// to avoid confusion
+			if (indices.map((i) => kotobas[i].word).includes(kotobas[rand].word)) continue;
+			if (indices.map((i) => kotobas[i].meaning).includes(kotobas[rand].meaning)) continue;
+			indices.push(rand);
+		}
+		return {
+			answer: kotobas[index],
+			type,
+			options: indices.map((i) => kotobas[i]).sort(() => Math.random() - 0.5)
+		};
 	}
 
-    function nextQuestion() {
-        if (swp)
-            quesType = Math.random() > 0.5 ? 'first' : 'second';
+	function nextQuestion() {
+		let nextIndex = randomIndex();
+		while (nextIndex == targetIndex) nextIndex = randomIndex();
+		targetIndex = nextIndex;
+	}
 
-        showHint = false;
-        index = randomIndex();
-    }
+	function handleChoice(e: MouseEvent, choice: WordDefinition) {
+		const node = e.target as HTMLButtonElement;
+		if (choice.word === question.answer.word || choice.meaning === question.answer.meaning) {
+			node.animate(
+				[{ transform: 'scale(1)' }, { transform: 'scale(1.1)' }, { transform: 'scale(1)' }],
+				{
+					duration: 500,
+					easing: 'ease'
+				}
+			);
+			setTimeout(() => {
+				nextQuestion();
+			}, 500);
+		} else {
+			node.animate(
+				[
+					{ transform: 'translateX(10px)' },
+					{ transform: 'translateX(-10px)' },
+					{ transform: 'translateX(0)' },
+					{ transform: 'translateX(10px)' },
+					{ transform: 'translateX(-10px)' },
+					{ transform: 'translateX(0)' }
+				],
+				{
+					duration: 500,
+					easing: 'ease'
+				}
+			);
+			const newId = Date.now().toString();
+			emojiAnim = [...emojiAnim, newId];
+			setTimeout(() => {
+				emojiAnim = emojiAnim.filter((id) => id !== newId);
+			}, 2000);
+		}
+	}
 
-    function questionTitle() {
-        return quesWord;
-    }
+	function getBtnClass(index: number) {
+		return [
+			'btn btn-outline btn-info',
+			'btn btn-outline btn-success',
+			'btn btn-outline btn-warning',
+			'btn btn-outline btn-error'
+		][index];
+	}
 
-    function handleClick(e: MouseEvent, opt: number) {
-        const node = e.target as HTMLButtonElement;
-        if ((quesType === 'first' ? secondList[index] : firstList[index]).constructor === Array) {
-            // if the answer is a list, we need to check if the clicked option is in the list
-            if ((quesType === 'first' ? secondList[index] : firstList[index]).includes(options[opt])) {
-                // correct animation including pop sound
-                node.animate([
-                    { transform: 'scale(1)' },
-                    { transform: 'scale(1.1)' },
-                    { transform: 'scale(1)' }
-                ], {
-                    duration: 500,
-                    easing: 'ease'
-                });
-                setTimeout(() => {
-                    nextQuestion();
-                }, 500);
-            } else {
-                // incorrect animation including error sound
-                node.animate([
-                    { transform: 'translateX(10px)' },
-                    { transform: 'translateX(-10px)' },
-                    { transform: 'translateX(0)' },
-                    { transform: 'translateX(10px)' },
-                    { transform: 'translateX(-10px)' },
-                    { transform: 'translateX(0)' },
-                ], {
-                    duration: 500,
-                    easing: 'ease',
-                });
-            }
-            return;
-        }
-        if (options[opt] == (quesType === 'first' ? secondList[index] : firstList[index])) {
-            // correct animation including pop sound
-            node.animate([
-                { transform: 'scale(1)' },
-                { transform: 'scale(1.1)' },
-                { transform: 'scale(1)' }
-            ], {
-                duration: 500,
-                easing: 'ease'
-            });
-            setTimeout(() => {
-                nextQuestion();
-            }, 500);
-        } else {
-            // incorrect animation including error sound
-            node.animate([
-                { transform: 'translateX(10px)' },
-                { transform: 'translateX(-10px)' },
-                { transform: 'translateX(0)' },
-                { transform: 'translateX(10px)' },
-                { transform: 'translateX(-10px)' },
-                { transform: 'translateX(0)' },
-            ], {
-                duration: 500,
-                easing: 'ease',
-            });
-        }
-    }
-
+	function randomWrongEmoji() {
+		const emojis = ['😭', '😂', '🫣', '🤨', '😞', '😨', '😢', '😳', '😬', '😰', '😩', '😅', '😔'];
+		return emojis[Math.floor(Math.random() * emojis.length)];
+	}
 </script>
 
-<main class="w-screen h-screen flex flex-col justify-center items-center gap-10">
-    {#if swappable}
-        <label class="swap swap-flip text-9xl">
-            <!-- this hidden checkbox controls the state -->
-            <input type="checkbox" bind:checked={swp}/>
-            
-            <div class="tooltip swap-off" data-tip="Hỏi 1 chiều">
-                😇
-            </div>
-            <div class="tooltip swap-on" data-tip="Hỏi 2 chiều">
-                😈
-            </div>
-        </label>
-    {/if}
-	<h1 class="h1">{questionTitle()}</h1>
-    {#if hintList && hintList[index]}
-        <button id="hint" class="btn btn-outline btn-primary" onclick={() => showHint = !showHint}>Hint</button>
-        {#if showHint}
-            <p in:fly={{ y: 10, duration: 500 }}>{hintList[index]}</p>
-        {/if}
-    {/if}
-	<section class="w-[60%] grid grid-cols-2 gap-4">
-		<button class="btn btn-outline btn-info" onclick={(e) => handleClick(e, 0)}>{options[0]}</button>
-		<button class="btn btn-outline btn-success" onclick={(e) => handleClick(e, 1)}>{options[1]}</button>
-		<button class="btn btn-outline btn-warning" onclick={(e) => handleClick(e, 2)}>{options[2]}</button>
-		<button class="btn btn-outline btn-error" onclick={(e) => handleClick(e, 3)}>{options[3]}</button>
+{#each emojiAnim as id (id)}
+	<div
+		class="fixed left-[calc(50vw-15px)] top-1/4 text-3xl"
+		in:fly={{ y: 300, duration: 1000, easing: quintOut, opacity: 0 }}
+		out:fly={{ y: -200, duration: 1000, easing: linear, opacity: 0 }}
+	>
+		{randomWrongEmoji()}
+	</div>
+{/each}
+<main class="flex h-[95vh] w-screen flex-col items-center justify-center gap-10">
+	{#if question.type === 'kotoba-to-meaning'}
+		Nghĩa của {question.answer.word} là:
+	{:else}
+		"{question.answer.meaning}" trong tiếng Nhật là:
+	{/if}
+	<section class="grid w-[60%] grid-cols-2 gap-4">
+		{#each question.options as opt, i}
+			<button class={getBtnClass(i)} onclick={(e) => handleChoice(e, opt)}>
+				{#if question.type === 'kotoba-to-meaning'}
+					{opt.meaning}
+				{:else}
+					{opt.word}
+				{/if}
+			</button>
+		{/each}
 	</section>
 </main>
-

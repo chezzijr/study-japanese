@@ -1,110 +1,136 @@
-{
-    "僕": {
-        "pronunciation": "ぼく",
-        "vietnamese": "tôi, tớ (cách xưng thân mật của わたし được dùng bởi nam giới)"
-    },
-    "君": {
-        "pronunciation": "きみ",
-        "vietnamese": "cậu, bạn (cách xưng thân mật của あなた được dùng với người ngang hàng hoặc ít tuổi hơn)"
-    },
-    "恋人": {
-        "pronunciation": "こいびと",
-        "vietnamese": "người yêu"
-    },
-    "～君": {
-        "pronunciation": "～くん",
-        "vietnamese": "anh ~, cậu ~ (cách gọi thân mật dùng cho nam giới)"
-    },
-    "ビザ": {
-        "vietnamese": "visa, thị thực"
-    },
-    "どっち": {
-        "pronunciation": "どっち",
-        "vietnamese": "phía nào, chỗ nào (cách nói thân mật của どちら)"
-    },
-    "要る": {
-        "pronunciation": "いる",
-        "vietnamese": "cần [visa]",
-        "note": "[ビザが～]"
-    },
-    "要ります": {
-        "pronunciation": "いります",
-        "vietnamese": "cần [visa]",
-        "note": "[ビザが～]"
-    },
-    "直す": {
-        "pronunciation": "なおす",
-        "vietnamese": "sửa, chữa",
-        "note": "I"
-    },
-    "直します": {
-        "pronunciation": "なおします",
-        "vietnamese": "sửa, chữa",
-        "note": "I"
-    },
-    "修理する": {
-        "pronunciation": "しゅうりする",
-        "vietnamese": "sửa chữa, tu sửa (máy móc)",
-        "note": "III"
-    },
-    "修理します": {
-        "pronunciation": "しゅうりします",
-        "vietnamese": "sửa chữa, tu sửa (máy móc)",
-        "note": "III"
-    },
-    "電話する": {
-        "pronunciation": "でんわする",
-        "vietnamese": "gọi điện thoại",
-        "note": "III"
-    },
-    "電話します": {
-        "pronunciation": "でんわします",
-        "vietnamese": "gọi điện thoại",
-        "note": "III"
-    },
-    "～けど": {
-        "vietnamese": "~, nhưng (cách nói thân mật của が)"
-    },
-    "うん": {
-        "vietnamese": "ừ (cách nói thân mật của はい)"
-    },
-    "ううん": {
-        "vietnamese": "không (cách nói thân mật của いいえ)"
-    },
-    "初め": {
-        "pronunciation": "はじめ",
-        "vietnamese": "ban đầu, lúc đầu"
-    },
-    "終わり": {
-        "pronunciation": "おわり",
-        "vietnamese": "kết thúc"
-    },
-    "調味料": {
-        "pronunciation": "ちょうみりょう",
-        "vietnamese": "gia vị"
-    },
-    "お酢": {
-        "pronunciation": "おす",
-        "vietnamese": "dấm"
-    },
-    "醬油": {
-        "pronunciation": "しょうゆ",
-        "vietnamese": "nước tương"
-    },
-    "味噌": {
-        "pronunciation": "みそ",
-        "vietnamese": "miso"
-    },
-    "胡椒": {
-        "pronunciation": "こしょう",
-        "vietnamese": "hạt tiêu"
-    },
-    "授業": {
-        "pronunciation": "じゅぎょう",
-        "vietnamese": "Giờ học"
-    },
-    "神社": {
-        "pronunciation": "じんじゃ",
-        "vietnamese": "Đền thờ thần đạo"
-    }
-}
+[
+  {
+    "word": "僕",
+    "reading": "ぼく",
+    "meaning": "tôi, tớ (cách xưng thân mật của わたし được dùng bởi nam giới)"
+  },
+  {
+    "word": "君",
+    "reading": "きみ",
+    "meaning": "cậu, bạn (cách xưng thân mật của あなた được dùng với người ngang hàng hoặc ít tuổi hơn)"
+  },
+  {
+    "word": "恋人",
+    "reading": "こいびと",
+    "meaning": "người yêu"
+  },
+  {
+    "word": "～君",
+    "reading": "～くん",
+    "meaning": "anh ~, cậu ~ (cách gọi thân mật dùng cho nam giới)"
+  },
+  {
+    "word": "ビザ",
+    "meaning": "visa, thị thực"
+  },
+  {
+    "word": "どっち",
+    "reading": "どっち",
+    "meaning": "phía nào, chỗ nào (cách nói thân mật của どちら)"
+  },
+  {
+    "word": "要る",
+    "reading": "いる",
+    "meaning": "cần [visa]",
+    "note": "[ビザが～]"
+  },
+  {
+    "word": "要ります",
+    "reading": "いります",
+    "meaning": "cần [visa]",
+    "note": "[ビザが～]"
+  },
+  {
+    "word": "直す",
+    "reading": "なおす",
+    "meaning": "sửa, chữa",
+    "note": "I"
+  },
+  {
+    "word": "直します",
+    "reading": "なおします",
+    "meaning": "sửa, chữa",
+    "note": "I"
+  },
+  {
+    "word": "修理する",
+    "reading": "しゅうりする",
+    "meaning": "sửa chữa, tu sửa (máy móc)",
+    "note": "III"
+  },
+  {
+    "word": "修理します",
+    "reading": "しゅうりします",
+    "meaning": "sửa chữa, tu sửa (máy móc)",
+    "note": "III"
+  },
+  {
+    "word": "電話する",
+    "reading": "でんわする",
+    "meaning": "gọi điện thoại",
+    "note": "III"
+  },
+  {
+    "word": "電話します",
+    "reading": "でんわします",
+    "meaning": "gọi điện thoại",
+    "note": "III"
+  },
+  {
+    "word": "～けど",
+    "meaning": "~, nhưng (cách nói thân mật của が)"
+  },
+  {
+    "word": "うん",
+    "meaning": "ừ (cách nói thân mật của はい)"
+  },
+  {
+    "word": "ううん",
+    "meaning": "không (cách nói thân mật của いいえ)"
+  },
+  {
+    "word": "初め",
+    "reading": "はじめ",
+    "meaning": "ban đầu, lúc đầu"
+  },
+  {
+    "word": "終わり",
+    "reading": "おわり",
+    "meaning": "kết thúc"
+  },
+  {
+    "word": "調味料",
+    "reading": "ちょうみりょう",
+    "meaning": "gia vị"
+  },
+  {
+    "word": "お酢",
+    "reading": "おす",
+    "meaning": "dấm"
+  },
+  {
+    "word": "醬油",
+    "reading": "しょうゆ",
+    "meaning": "nước tương"
+  },
+  {
+    "word": "味噌",
+    "reading": "みそ",
+    "meaning": "miso"
+  },
+  {
+    "word": "胡椒",
+    "reading": "こしょう",
+    "meaning": "hạt tiêu"
+  },
+  {
+    "word": "授業",
+    "reading": "じゅぎょう",
+    "meaning": "Giờ học"
+  },
+  {
+    "word": "神社",
+    "reading": "じんじゃ",
+    "meaning": "Đền thờ thần đạo"
+  }
+]

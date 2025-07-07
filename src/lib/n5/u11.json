@@ -1,221 +1,274 @@
-{
-    "恋人": {
-        "pronunciation": "こいびと",
-        "vietnamese": "người yêu"
-    },
-    "兄": {
-        "pronunciation": "あに",
-        "vietnamese": "anh trai",
-        "note": "của mình"
-    },
-    "お兄さん": {
-        "pronunciation": "おにいさん",
-        "vietnamese": "anh trai",
-        "note": "của người khác và khi xưng hô với anh trai mình"
-    },
-    "姉": {
-        "pronunciation": "あね",
-        "vietnamese": "chị gái",
-        "note": "của mình"
-    },
-    "お姉さん": {
-        "pronunciation": "おねえさん",
-        "vietnamese": "chị gái",
-        "note": "của người khác và khi xưng hô với chị gái mình"
-    },
-    "弟": {
-        "pronunciation": "おとうと",
-        "vietnamese": "em trai",
-        "note": "của mình"
-    },
-    "妹": {
-        "pronunciation": "いもうと",
-        "vietnamese": "em gái",
-        "note": "của mình"
-    },
-    "兄弟": {
-        "pronunciation": "きょうだい",
-        "vietnamese": "anh em"
-    },
-    "子供": {
-        "pronunciation": "こども",
-        "vietnamese": "trẻ con, trẻ em"
-    },
-    "アイスクリーム": {
-        "vietnamese": "kem"
-    },
-    "葉書": {
-        "pronunciation": "はがき",
-        "vietnamese": "bưu thiếp"
-    },
-    "奥": {
-        "pronunciation": "おく",
-        "vietnamese": "bên trong cùng"
-    },
-    "本棚": {
-        "pronunciation": "ほんだな",
-        "vietnamese": "giá sách"
-    },
-    "寮": {
-        "pronunciation": "りょう",
-        "vietnamese": "kí túc xá"
-    },
-    "田舎": {
-        "pronunciation": "いなか",
-        "vietnamese": "quê, nông thôn"
-    },
-    "外国": {
-        "pronunciation": "がいこく",
-        "vietnamese": "nước ngoài"
-    },
-    "動物": {
-        "pronunciation": "どうぶつ",
-        "vietnamese": "động vật"
-    },
-    "昼寝": {
-        "pronunciation": "ひるね",
-        "vietnamese": "ngủ trưa"
-    },
-    "一つ": {
-        "pronunciation": "ひとつ",
-        "vietnamese": "một cái"
-    },
-    "二つ": {
-        "pronunciation": "ふたつ",
-        "vietnamese": "hai cái"
-    },
-    "三つ": {
-        "pronunciation": "みっつ",
-        "vietnamese": "ba cái"
-    },
-    "四つ": {
-        "pronunciation": "よっつ",
-        "vietnamese": "bốn cái"
-    },
-    "五つ": {
-        "pronunciation": "いつつ",
-        "vietnamese": "năm cái"
-    },
-    "六つ": {
-        "pronunciation": "むっつ",
-        "vietnamese": "sáu cái"
-    },
-    "七つ": {
-        "pronunciation": "ななつ",
-        "vietnamese": "bảy cái"
-    },
-    "八つ": {
-        "pronunciation": "やっつ",
-        "vietnamese": "tám cái"
-    },
-    "九つ": {
-        "pronunciation": "ここのつ",
-        "vietnamese": "chín cái"
-    },
-    "十": {
-        "pronunciation": "とお",
-        "vietnamese": "mười cái"
-    },
-    "一人": {
-        "pronunciation": "ひとり",
-        "vietnamese": "một người"
-    },
-    "二人": {
-        "pronunciation": "ふたり",
-        "vietnamese": "hai người"
-    },
-    "～人": {
-        "pronunciation": "～にん",
-        "vietnamese": "~ người"
-    },
-    "～台": {
-        "pronunciation": "～だい",
-        "vietnamese": "~ cái"
-    },
-    "～枚": {
-        "pronunciation": "～まい",
-        "vietnamese": "~ tờ, tấm"
-    },
-    "～回": {
-        "pronunciation": "～かい",
-        "vietnamese": "~ lần"
-    },
-    "～時間": {
-        "pronunciation": "～じかん",
-        "vietnamese": "~ tiếng"
-    },
-    "～週間": {
-        "pronunciation": "～しゅうかん",
-        "vietnamese": "~ tuần"
-    },
-    "～ヶ月": {
-        "pronunciation": "～かげつ",
-        "vietnamese": "~ tháng"
-    },
-    "～年": {
-        "pronunciation": "～ねん",
-        "vietnamese": "~ năm"
-    },
-    "いくつ": {
-        "vietnamese": "mấy cái, bao nhiêu cái"
-    },
-    "どのくらい": {
-        "vietnamese": "bao lâu"
-    },
-    "～ぐらい": {
-        "vietnamese": "khoảng ~"
-    },
-    "全部で": {
-        "vietnamese": "tổng cộng"
-    },
-    "～だけ": {
-        "vietnamese": "chỉ ~"
-    },
-    "居る": {
-        "pronunciation": "いる",
-        "vietnamese": "có [con / ở Nhật]",
-        "note": "II"
-    },
-    "居ます": {
-        "pronunciation": "います",
-        "vietnamese": "có",
-        "note": "II"
-    },
-    "掛かる": {
-        "pronunciation": "かかる",
-        "vietnamese": "mất, tốn [thời gian, tiền bạc]",
-        "note": "I"
-    },
-    "掛かります": {
-        "pronunciation": "かかります",
-        "vietnamese": "mất, tốn [thời gian, tiền bạc]",
-        "note": "I"
-    },
-    "休む": {
-        "pronunciation": "やすむ",
-        "vietnamese": "nghỉ, nghỉ ngơi",
-        "note": "I"
-    },
-    "休みます": {
-        "pronunciation": "やすみます",
-        "vietnamese": "nghỉ, nghỉ ngơi",
-        "note": "I"
-    },
-    "焼きます": {
-        "pronunciation": "やきます",
-        "vietnamese": "nướng",
-        "note": "I"
-    },
-    "遠くに": {
-        "pronunciation": "とおくに",
-        "vietnamese": "ở đằng xa"
-    },
-    "必要": {
-        "pronunciation": "ひつよう",
-        "vietnamese": "cần thiết"
-    },
-    "両親": {
-        "pronunciation": "りょうしん",
-        "vietnamese": "bố mẹ"
-    }
-}
+[
+  {
+    "word": "恋人",
+    "reading": "こいびと",
+    "meaning": "người yêu"
+  },
+  {
+    "word": "兄",
+    "reading": "あに",
+    "meaning": "anh trai",
+    "note": "của mình"
+  },
+  {
+    "word": "お兄さん",
+    "reading": "おにいさん",
+    "meaning": "anh trai",
+    "note": "của người khác và khi xưng hô với anh trai mình"
+  },
+  {
+    "word": "姉",
+    "reading": "あね",
+    "meaning": "chị gái",
+    "note": "của mình"
+  },
+  {
+    "word": "お姉さん",
+    "reading": "おねえさん",
+    "meaning": "chị gái",
+    "note": "của người khác và khi xưng hô với chị gái mình"
+  },
+  {
+    "word": "弟",
+    "reading": "おとうと",
+    "meaning": "em trai",
+    "note": "của mình"
+  },
+  {
+    "word": "妹",
+    "reading": "いもうと",
+    "meaning": "em gái",
+    "note": "của mình"
+  },
+  {
+    "word": "兄弟",
+    "reading": "きょうだい",
+    "meaning": "anh em"
+  },
+  {
+    "word": "子供",
+    "reading": "こども",
+    "meaning": "trẻ con, trẻ em"
+  },
+  {
+    "word": "アイスクリーム",
+    "meaning": "kem"
+  },
+  {
+    "word": "葉書",
+    "reading": "はがき",
+    "meaning": "bưu thiếp"
+  },
+  {
+    "word": "奥",
+    "reading": "おく",
+    "meaning": "bên trong cùng"
+  },
+  {
+    "word": "本棚",
+    "reading": "ほんだな",
+    "meaning": "giá sách"
+  },
+  {
+    "word": "寮",
+    "reading": "りょう",
+    "meaning": "kí túc xá"
+  },
+  {
+    "word": "田舎",
+    "reading": "いなか",
+    "meaning": "quê, nông thôn"
+  },
+  {
+    "word": "外国",
+    "reading": "がいこく",
+    "meaning": "nước ngoài"
+  },
+  {
+    "word": "動物",
+    "reading": "どうぶつ",
+    "meaning": "động vật"
+  },
+  {
+    "word": "昼寝",
+    "reading": "ひるね",
+    "meaning": "ngủ trưa"
+  },
+  {
+    "word": "一つ",
+    "reading": "ひとつ",
+    "meaning": "một cái"
+  },
+  {
+    "word": "二つ",
+    "reading": "ふたつ",
+    "meaning": "hai cái"
+  },
+  {
+    "word": "三つ",
+    "reading": "みっつ",
+    "meaning": "ba cái"
+  },
+  {
+    "word": "四つ",
+    "reading": "よっつ",
+    "meaning": "bốn cái"
+  },
+  {
+    "word": "五つ",
+    "reading": "いつつ",
+    "meaning": "năm cái"
+  },
+  {
+    "word": "六つ",
+    "reading": "むっつ",
+    "meaning": "sáu cái"
+  },
+  {
+    "word": "七つ",
+    "reading": "ななつ",
+    "meaning": "bảy cái"
+  },
+  {
+    "word": "八つ",
+    "reading": "やっつ",
+    "meaning": "tám cái"
+  },
+  {
+    "word": "九つ",
+    "reading": "ここのつ",
+    "meaning": "chín cái"
+  },
+  {
+    "word": "十",
+    "reading": "とお",
+    "meaning": "mười cái"
+  },
+  {
+    "word": "一人",
+    "reading": "ひとり",
+    "meaning": "một người"
+  },
+  {
+    "word": "二人",
+    "reading": "ふたり",
+    "meaning": "hai người"
+  },
+  {
+    "word": "～人",
+    "reading": "～にん",
+    "meaning": "~ người"
+  },
+  {
+    "word": "～台",
+    "reading": "～だい",
+    "meaning": "~ cái"
+  },
+  {
+    "word": "～枚",
+    "reading": "～まい",
+    "meaning": "~ tờ, tấm"
+  },
+  {
+    "word": "～回",
+    "reading": "～かい",
+    "meaning": "~ lần"
+  },
+  {
+    "word": "～時間",
+    "reading": "～じかん",
+    "meaning": "~ tiếng"
+  },
+  {
+    "word": "～週間",
+    "reading": "～しゅうかん",
+    "meaning": "~ tuần"
+  },
+  {
+    "word": "～ヶ月",
+    "reading": "～かげつ",
+    "meaning": "~ tháng"
+  },
+  {
+    "word": "～年",
+    "reading": "～ねん",
+    "meaning": "~ năm"
+  },
+  {
+    "word": "いくつ",
+    "meaning": "mấy cái, bao nhiêu cái"
+  },
+  {
+    "word": "どのくらい",
+    "meaning": "bao lâu"
+  },
+  {
+    "word": "～ぐらい",
+    "meaning": "khoảng ~"
+  },
+  {
+    "word": "全部で",
+    "meaning": "tổng cộng"
+  },
+  {
+    "word": "～だけ",
+    "meaning": "chỉ ~"
+  },
+  {
+    "word": "居る",
+    "reading": "いる",
+    "meaning": "có [con / ở Nhật]",
+    "note": "II"
+  },
+  {
+    "word": "居ます",
+    "reading": "います",
+    "meaning": "có",
+    "note": "II"
+  },
+  {
+    "word": "掛かる",
+    "reading": "かかる",
+    "meaning": "mất, tốn [thời gian, tiền bạc]",
+    "note": "I"
+  },
+  {
+    "word": "掛かります",
+    "reading": "かかります",
+    "meaning": "mất, tốn [thời gian, tiền bạc]",
+    "note": "I"
+  },
+  {
+    "word": "休む",
+    "reading": "やすむ",
+    "meaning": "nghỉ, nghỉ ngơi",
+    "note": "I"
+  },
+  {
+    "word": "休みます",
+    "reading": "やすみます",
+    "meaning": "nghỉ, nghỉ ngơi",
+    "note": "I"
+  },
+  {
+    "word": "焼きます",
+    "reading": "やきます",
+    "meaning": "nướng",
+    "note": "I"
+  },
+  {
+    "word": "遠くに",
+    "reading": "とおくに",
+    "meaning": "ở đằng xa"
+  },
+  {
+    "word": "必要",
+    "reading": "ひつよう",
+    "meaning": "cần thiết"
+  },
+  {
+    "word": "両親",
+    "reading": "りょうしん",
+    "meaning": "bố mẹ"
+  }
+]

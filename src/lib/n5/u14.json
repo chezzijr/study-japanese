@@ -1,288 +1,344 @@
-{
-    "塩": {
-        "pronunciation": "しお",
-        "vietnamese": "muối"
-    },
-    "砂糖": {
-        "pronunciation": "さとう",
-        "vietnamese": "đường"
-    },
-    "布団": {
-        "pronunciation": "ふとん",
-        "vietnamese": "chăn, nệm"
-    },
-    "窓": {
-        "pronunciation": "まど",
-        "vietnamese": "cửa sổ"
-    },
-    "ドア": {
-        "vietnamese": "cửa ra vào"
-    },
-    "エアコン": {
-        "pronunciation": "エアコン",
-        "vietnamese": "máy điều hòa"
-    },
-    "電気": {
-        "pronunciation": "でんき",
-        "vietnamese": "điện"
-    },
-    "名前": {
-        "pronunciation": "なまえ",
-        "vietnamese": "tên"
-    },
-    "住所": {
-        "pronunciation": "じゅうしょ",
-        "vietnamese": "địa chỉ"
-    },
-    "電話番号": {
-        "pronunciation": "でんわばんごう",
-        "vietnamese": "số điện thoại"
-    },
-    "チケット": {
-        "vietnamese": "vé"
-    },
-    "切手": {
-        "pronunciation": "きって",
-        "vietnamese": "tem"
-    },
-    "封筒": {
-        "pronunciation": "ふうとう",
-        "vietnamese": "phong bì"
-    },
-    "現金": {
-        "pronunciation": "げんきん",
-        "vietnamese": "tiền mặt"
-    },
-    "意味": {
-        "pronunciation": "いみ",
-        "vietnamese": "ý nghĩa"
-    },
-    "言葉": {
-        "pronunciation": "ことば",
-        "vietnamese": "từ, tiếng"
-    },
-    "読み方": {
-        "pronunciation": "よみかた",
-        "vietnamese": "cách đọc"
-    },
-    "～方": {
-        "pronunciation": "～かた",
-        "vietnamese": "cách ~"
-    },
-    "同じ": {
-        "pronunciation": "おなじ",
-        "vietnamese": "giống"
-    },
-    "手伝う": {
-        "pronunciation": "てつだう",
-        "vietnamese": "giúp, giúp đỡ",
-        "note": "I"
-    },
-    "手伝います": {
-        "pronunciation": "てつだいます",
-        "vietnamese": "giúp, giúp đỡ",
-        "note": "I"
-    },
-    "話す": {
-        "pronunciation": "はなす",
-        "vietnamese": "nói, nói chuyện",
-        "note": "I"
-    },
-    "話します": {
-        "pronunciation": "はなします",
-        "vietnamese": "nói, nói chuyện",
-        "note": "I"
-    },
-    "待つ": {
-        "pronunciation": "まつ",
-        "vietnamese": "đợi, chờ",
-        "note": "I"
-    },
-    "待ちます": {
-        "pronunciation": "まちます",
-        "vietnamese": "đợi, chờ",
-        "note": "I"
-    },
-    "持つ": {
-        "pronunciation": "もつ",
-        "vietnamese": "mang, cầm",
-        "note": "I"
-    },
-    "持ちます": {
-        "pronunciation": "もちます",
-        "vietnamese": "mang, cầm",
-        "note": "I"
-    },
-    "取る": {
-        "pronunciation": "とる",
-        "vietnamese": "lấy",
-        "note": "I"
-    },
-    "取ります": {
-        "pronunciation": "とります",
-        "vietnamese": "lấy",
-        "note": "I"
-    },
-    "降る": {
-        "pronunciation": "ふる",
-        "vietnamese": "mưa",
-        "note": "I"
-    },
-    "降ります": {
-        "pronunciation": "ふります",
-        "vietnamese": "mưa",
-        "note": "I"
-    },
-    "曲がる": {
-        "pronunciation": "まがる",
-        "vietnamese": "rẽ, quẹo [phải]",
-        "note": "I"
-    },
-    "曲がります": {
-        "pronunciation": "まがります",
-        "vietnamese": "rẽ, quẹo [phải]",
-        "note": "I"
-    },
-    "急ぐ": {
-        "pronunciation": "いそぐ",
-        "vietnamese": "nhanh, gấp, vội",
-        "note": "I"
-    },
-    "急ぎます": {
-        "pronunciation": "いそぎます",
-        "vietnamese": "nhanh, gấp, vội",
-        "note": "I"
-    },
-    "呼ぶ": {
-        "pronunciation": "よぶ",
-        "vietnamese": "gọi",
-        "note": "I"
-    },
-    "呼びます": {
-        "pronunciation": "よびます",
-        "vietnamese": "gọi",
-        "note": "I"
-    },
-    "教える": {
-        "pronunciation": "おしえる",
-        "vietnamese": "nói, cho biết [địa chỉ]",
-        "note": "II"
-    },
-    "教えます": {
-        "pronunciation": "おしえます",
-        "vietnamese": "nói, cho biết [địa chỉ]",
-        "note": "II"
-    },
-    "つける": {
-        "pronunciation": "つける",
-        "vietnamese": "bật [điện], (điều hòa)",
-        "note": "II"
-    },
-    "つけます": {
-        "pronunciation": "つけます",
-        "vietnamese": "bật [điện], (điều hòa)",
-        "note": "II"
-    },
-    "消す": {
-        "pronunciation": "けす",
-        "vietnamese": "tắt [điện], (điều hòa)",
-        "note": "I"
-    },
-    "消します": {
-        "pronunciation": "けします",
-        "vietnamese": "tắt [điện], (điều hòa)",
-        "note": "I"
-    },
-    "開ける": {
-        "pronunciation": "あける",
-        "vietnamese": "mở [cửa]",
-        "note": "II"
-    },
-    "開けます": {
-        "pronunciation": "あけます",
-        "vietnamese": "mở [cửa]",
-        "note": "II"
-    },
-    "閉める": {
-        "pronunciation": "しめる",
-        "vietnamese": "đóng [cửa]",
-        "note": "II"
-    },
-    "閉めます": {
-        "pronunciation": "しめます",
-        "vietnamese": "đóng [cửa]",
-        "note": "II"
-    },
-    "止める": {
-        "pronunciation": "とめる",
-        "vietnamese": "dừng, đỗ",
-        "note": "II"
-    },
-    "止めます": {
-        "pronunciation": "とめます",
-        "vietnamese": "dừng, đỗ",
-        "note": "II"
-    },
-    "見せる": {
-        "pronunciation": "みせる",
-        "vietnamese": "cho xem, trình",
-        "note": "II"
-    },
-    "見せます": {
-        "pronunciation": "みせます",
-        "vietnamese": "cho xem, trình",
-        "note": "II"
-    },
-    "始める": {
-        "pronunciation": "はじめる",
-        "vietnamese": "bắt đầu",
-        "note": "II"
-    },
-    "始めます": {
-        "pronunciation": "はじめます",
-        "vietnamese": "bắt đầu",
-        "note": "II"
-    },
-    "コピーする": {
-        "pronunciation": "コピーする",
-        "vietnamese": "copy, phô-tô",
-        "note": "III"
-    },
-    "コピーします": {
-        "pronunciation": "コピーします",
-        "vietnamese": "copy, phô-tô",
-        "note": "III"
-    },
-    "ゆっくり": {
-        "pronunciation": "ゆっくり",
-        "vietnamese": "chậm, thong thả, thoải mái"
-    },
-    "すぐ": {
-        "pronunciation": "すぐ",
-        "vietnamese": "ngay, lập tức"
-    },
-    "後で": {
-        "pronunciation": "あとで",
-        "vietnamese": "sau"
-    },
-    "もう少し": {
-        "pronunciation": "もうすこし",
-        "vietnamese": "thêm một chút nữa thôi"
-    },
-    "もう～": {
-        "pronunciation": "もう～",
-        "vietnamese": "thêm ~"
-    },
-    "いいですよ": {
-        "pronunciation": "いいですよ",
-        "vietnamese": "Được chứ./ Được ạ"
-    },
-    "両親": {
-        "pronunciation": "りょうしん",
-        "vietnamese": "Bố mẹ"
-    },
-    "週末": {
-        "pronunciation": "しゅうまつ",
-        "vietnamese": "Cuối tuần"
-    }
-}
+[
+  {
+    "word": "塩",
+    "reading": "しお",
+    "meaning": "muối"
+  },
+  {
+    "word": "砂糖",
+    "reading": "さとう",
+    "meaning": "đường"
+  },
+  {
+    "word": "布団",
+    "reading": "ふとん",
+    "meaning": "chăn, nệm"
+  },
+  {
+    "word": "窓",
+    "reading": "まど",
+    "meaning": "cửa sổ"
+  },
+  {
+    "word": "ドア",
+    "meaning": "cửa ra vào"
+  },
+  {
+    "word": "エアコン",
+    "meaning": "máy điều hòa"
+  },
+  {
+    "word": "電気",
+    "reading": "でんき",
+    "meaning": "điện"
+  },
+  {
+    "word": "名前",
+    "reading": "なまえ",
+    "meaning": "tên"
+  },
+  {
+    "word": "住所",
+    "reading": "じゅうしょ",
+    "meaning": "địa chỉ"
+  },
+  {
+    "word": "電話番号",
+    "reading": "でんわばんごう",
+    "meaning": "số điện thoại"
+  },
+  {
+    "word": "チケット",
+    "meaning": "vé"
+  },
+  {
+    "word": "切手",
+    "reading": "きって",
+    "meaning": "tem"
+  },
+  {
+    "word": "封筒",
+    "reading": "ふうとう",
+    "meaning": "phong bì"
+  },
+  {
+    "word": "現金",
+    "reading": "げんきん",
+    "meaning": "tiền mặt"
+  },
+  {
+    "word": "意味",
+    "reading": "いみ",
+    "meaning": "ý nghĩa"
+  },
+  {
+    "word": "言葉",
+    "reading": "ことば",
+    "meaning": "từ, tiếng"
+  },
+  {
+    "word": "読み方",
+    "reading": "よみかた",
+    "meaning": "cách đọc"
+  },
+  {
+    "word": "～方",
+    "reading": "～かた",
+    "meaning": "cách ~"
+  },
+  {
+    "word": "同じ",
+    "reading": "おなじ",
+    "meaning": "giống"
+  },
+  {
+    "word": "手伝う",
+    "reading": "てつだう",
+    "meaning": "giúp, giúp đỡ",
+    "note": "I"
+  },
+  {
+    "word": "手伝います",
+    "reading": "てつだいます",
+    "meaning": "giúp, giúp đỡ",
+    "note": "I"
+  },
+  {
+    "word": "話す",
+    "reading": "はなす",
+    "meaning": "nói, nói chuyện",
+    "note": "I"
+  },
+  {
+    "word": "話します",
+    "reading": "はなします",
+    "meaning": "nói, nói chuyện",
+    "note": "I"
+  },
+  {
+    "word": "待つ",
+    "reading": "まつ",
+    "meaning": "đợi, chờ",
+    "note": "I"
+  },
+  {
+    "word": "待ちます",
+    "reading": "まちます",
+    "meaning": "đợi, chờ",
+    "note": "I"
+  },
+  {
+    "word": "持つ",
+    "reading": "もつ",
+    "meaning": "mang, cầm",
+    "note": "I"
+  },
+  {
+    "word": "持ちます",
+    "reading": "もちます",
+    "meaning": "mang, cầm",
+    "note": "I"
+  },
+  {
+    "word": "取る",
+    "reading": "とる",
+    "meaning": "lấy",
+    "note": "I"
+  },
+  {
+    "word": "取ります",
+    "reading": "とります",
+    "meaning": "lấy",
+    "note": "I"
+  },
+  {
+    "word": "降る",
+    "reading": "ふる",
+    "meaning": "mưa",
+    "note": "I"
+  },
+  {
+    "word": "降ります",
+    "reading": "ふります",
+    "meaning": "mưa",
+    "note": "I"
+  },
+  {
+    "word": "曲がる",
+    "reading": "まがる",
+    "meaning": "rẽ, quẹo [phải]",
+    "note": "I"
+  },
+  {
+    "word": "曲がります",
+    "reading": "まがります",
+    "meaning": "rẽ, quẹo [phải]",
+    "note": "I"
+  },
+  {
+    "word": "急ぐ",
+    "reading": "いそぐ",
+    "meaning": "nhanh, gấp, vội",
+    "note": "I"
+  },
+  {
+    "word": "急ぎます",
+    "reading": "いそぎます",
+    "meaning": "nhanh, gấp, vội",
+    "note": "I"
+  },
+  {
+    "word": "呼ぶ",
+    "reading": "よぶ",
+    "meaning": "gọi",
+    "note": "I"
+  },
+  {
+    "word": "呼びます",
+    "reading": "よびます",
+    "meaning": "gọi",
+    "note": "I"
+  },
+  {
+    "word": "教える",
+    "reading": "おしえる",
+    "meaning": "nói, cho biết [địa chỉ]",
+    "note": "II"
+  },
+  {
+    "word": "教えます",
+    "reading": "おしえます",
+    "meaning": "nói, cho biết [địa chỉ]",
+    "note": "II"
+  },
+  {
+    "word": "付ける",
+    "reading": "つける",
+    "meaning": "bật [điện], (điều hòa)",
+    "note": "II"
+  },
+  {
+    "word": "付けます",
+    "reading": "つけます",
+    "meaning": "bật [điện], (điều hòa)",
+    "note": "II"
+  },
+  {
+    "word": "消す",
+    "reading": "けす",
+    "meaning": "tắt [điện], (điều hòa)",
+    "note": "I"
+  },
+  {
+    "word": "消します",
+    "reading": "けします",
+    "meaning": "tắt [điện], (điều hòa)",
+    "note": "I"
+  },
+  {
+    "word": "開ける",
+    "reading": "あける",
+    "meaning": "mở [cửa]",
+    "note": "II"
+  },
+  {
+    "word": "開けます",
+    "reading": "あけます",
+    "meaning": "mở [cửa]",
+    "note": "II"
+  },
+  {
+    "word": "閉める",
+    "reading": "しめる",
+    "meaning": "đóng [cửa]",
+    "note": "II"
+  },
+  {
+    "word": "閉めます",
+    "reading": "しめます",
+    "meaning": "đóng [cửa]",
+    "note": "II"
+  },
+  {
+    "word": "止める",
+    "reading": "とめる",
+    "meaning": "dừng, đỗ",
+    "note": "II"
+  },
+  {
+    "word": "止めます",
+    "reading": "とめます",
+    "meaning": "dừng, đỗ",
+    "note": "II"
+  },
+  {
+    "word": "見せる",
+    "reading": "みせる",
+    "meaning": "cho xem, trình",
+    "note": "II"
+  },
+  {
+    "word": "見せます",
+    "reading": "みせます",
+    "meaning": "cho xem, trình",
+    "note": "II"
+  },
+  {
+    "word": "始める",
+    "reading": "はじめる",
+    "meaning": "bắt đầu",
+    "note": "II"
+  },
+  {
+    "word": "始めます",
+    "reading": "はじめます",
+    "meaning": "bắt đầu",
+    "note": "II"
+  },
+  {
+    "word": "コピーする",
+    "meaning": "copy, phô-tô",
+    "note": "III"
+  },
+  {
+    "word": "コピーします",
+    "meaning": "copy, phô-tô",
+    "note": "III"
+  },
+  {
+    "word": "ゆっくり",
+    "meaning": "chậm, thong thả, thoải mái"
+  },
+  {
+    "word": "すぐ",
+    "meaning": "ngay, lập tức"
+  },
+  {
+    "word": "後で",
+    "reading": "あとで",
+    "meaning": "sau"
+  },
+  {
+    "word": "もう少し",
+    "reading": "もうすこし",
+    "meaning": "thêm một chút nữa thôi"
+  },
+  {
+    "word": "もう～",
+    "meaning": "thêm ~"
+  },
+  {
+    "word": "いいですよ",
+    "meaning": "Được chứ./ Được ạ"
+  },
+  {
+    "word": "両親",
+    "reading": "りょうしん",
+    "meaning": "Bố mẹ"
+  },
+  {
+    "word": "週末",
+    "reading": "しゅうまつ",
+    "meaning": "Cuối tuần"
+  }
+]

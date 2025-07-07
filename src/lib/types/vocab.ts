@@ -1,9 +1,8 @@
 export type WordDefinition = {
-    pronunciation?: string,
-    vietnamese: string,
-    note: string,
+  word: string
+  reading?: string
+  meaning: string
+  note?: string
 }
 
-export type Dictionary = {
-    [key: string]: WordDefinition
-}
+export type Dictionary = WordDefinition[]

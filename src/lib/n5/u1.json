@@ -1,152 +1,192 @@
-{
-    "私": {
-        "pronunciation": "わたし",
-        "vietnamese": "tôi"
-    }, 
-    "私たち": {
-        "pronunciation": "わたしたち",
-        "vietnamese": "chúng tôi"
-    },
-    "あなた": { 
-        "pronunciation": "あなた",
-        "vietnamese": "bạn"
-    },
-    "彼": {
-        "pronunciation": "かれ",
-        "vietnamese": "anh ấy"
-    },
-    "彼女": {
-        "pronunciation": "かのじょ",
-        "vietnamese": "cô ấy"
-    },
-    "皆さん": {
-        "pronunciation": "みなさん",
-        "vietnamese": "mọi người"
-    },
-    "あの人": {
-        "pronunciation": "あのひと",
-        "vietnamese": "người kia"
-    },
-    "あのかた": {
-        "vietnamese": "người kia",
-        "note": "cách nói lịch sự của あの人"
-    },
-    "先生": {
-        "pronunciation": "せんせい",
-        "vietnamese": "giáo viên"
-    },
-    "教師": {
-        "pronunciation": "きょうし",
-        "vietnamese": "giáo viên"
-    },
-    "学生": {
-        "pronunciation": "がくせい",
-        "vietnamese": "học sinh"
-    },
-    "会社員": {
-        "pronunciation": "かいしゃいん",
-        "vietnamese": "nhân viên công ty"
-    },
-    "社員": {
-        "pronunciation": "しゃいん",
-        "vietnamese": "nhân viên công ty"
-    },
-    "銀行員": {
-        "pronunciation": "ぎんこういん",
-        "vietnamese": "nhân viên ngân hàng"
-    },
-    "医者": {
-        "pronunciation": "いしゃ",
-        "vietnamese": "bác sĩ"
-    },
-    "研究者": {
-        "pronunciation": "けんきゅうしゃ",
-        "vietnamese": "nhà nghiên cứu"
-    },
-    "エンジニア": {
-        "vietnamese": "kỹ sư"
-    },
-    "留学生": {
-        "pronunciation": "りゅうがくせい",
-        "vietnamese": "du học sinh"
-    },
-    "運転手": {
-        "pronunciation": "うんてんしゅ",
-        "vietnamese": "tài xế"
-    },
-    "大学": {
-        "pronunciation": "だいがく",
-        "vietnamese": "đại học"
-    },
-    "病院": {
-        "pronunciation": "びょういん",
-        "vietnamese": "bệnh viện"
-    },
-    "だれ": {
-        "vietnamese": "ai"
-    },
-    "どなた": {
-        "vietnamese": "ai",
-        "note": "cách nói lịch sự của だれ"
-    },
-    "日本": {
-        "pronunciation": "にほん",
-        "vietnamese": "Nhật Bản"
-    },
-    "中国": {
-        "pronunciation": "ちゅうごく",
-        "vietnamese": "Trung Quốc"
-    },
-    "韓国": {
-        "pronunciation": "かんこく",
-        "vietnamese": "Hàn Quốc"
-    },
-    "アメリカ": {
-        "vietnamese": "Mỹ"
-    },
-    "イギリス": {
-        "vietnamese": "Anh"
-    },
-    "ベトナム": {
-        "vietnamese": "Việt Nam"
-    },
-    "〜じん": {
-        "vietnamese": "người ~"
-    },
-    "〜ご": {
-        "vietnamese": "tiếng ~"
-    },
-    "出身": {
-        "pronunciation": "しゅっしん",
-        "vietnamese": "quê quán"
-    },
-    "〜から来ました": {
-        "pronunciation": "〜からきました",
-        "vietnamese": "(tôi) đến từ ~"
-    },
-    "はい": {
-        "vietnamese": "vâng"
-    },
-    "いいえ": {
-        "vietnamese": "không"
-    },
-    "失礼ですが": {
-        "pronunciation": "しつれいですが",
-        "vietnamese": "Xin lỗi,...",
-        "note": "dùng khi hỏi ai đó về thông tin cá nhân"
-    },
-    "お名前をもう一度お願いします": {
-        "pronunciation": "おなまえをもういちどおねがいします",
-        "vietnamese": "Anh/Chị vui lòng nhắc lại tên một lần nữa được không ạ?"
-    },
-    "どうぞよろしくお願いします": {
-        "vietnamese": "Rất mong được sự giúp đỡ của anh/chị"
-    },
-    "そうですか": {
-        "vietnamese": "Vậy à/Thế à"
-    },
-    "お仕事なんですか": {
-        "pronunciation": "おしごとなんですか",
-        "vietnamese": "Công việc của anh/chị là gì thế?"
-    }
-}
+[
+  {
+    "word": "私",
+    "reading": "わたし",
+    "meaning": "tôi"
+  },
+  {
+    "word": "私たち",
+    "reading": "わたしたち",
+    "meaning": "chúng tôi"
+  },
+  {
+    "word": "あなた",
+    "reading": "あなた",
+    "meaning": "bạn"
+  },
+  {
+    "word": "彼",
+    "reading": "かれ",
+    "meaning": "anh ấy"
+  },
+  {
+    "word": "彼女",
+    "reading": "かのじょ",
+    "meaning": "cô ấy"
+  },
+  {
+    "word": "皆さん",
+    "reading": "みなさん",
+    "meaning": "mọi người"
+  },
+  {
+    "word": "あの人",
+    "reading": "あのひと",
+    "meaning": "người kia"
+  },
+  {
+    "word": "あのかた",
+    "meaning": "người kia",
+    "note": "cách nói lịch sự của あの人"
+  },
+  {
+    "word": "先生",
+    "reading": "せんせい",
+    "meaning": "giáo viên"
+  },
+  {
+    "word": "教師",
+    "reading": "きょうし",
+    "meaning": "giáo viên"
+  },
+  {
+    "word": "学生",
+    "reading": "がくせい",
+    "meaning": "học sinh"
+  },
+  {
+    "word": "会社員",
+    "reading": "かいしゃいん",
+    "meaning": "nhân viên công ty"
+  },
+  {
+    "word": "社員",
+    "reading": "しゃいん",
+    "meaning": "nhân viên công ty"
+  },
+  {
+    "word": "銀行員",
+    "reading": "ぎんこういん",
+    "meaning": "nhân viên ngân hàng"
+  },
+  {
+    "word": "医者",
+    "reading": "いしゃ",
+    "meaning": "bác sĩ"
+  },
+  {
+    "word": "研究者",
+    "reading": "けんきゅうしゃ",
+    "meaning": "nhà nghiên cứu"
+  },
+  {
+    "word": "エンジニア",
+    "meaning": "kỹ sư"
+  },
+  {
+    "word": "留学生",
+    "reading": "りゅうがくせい",
+    "meaning": "du học sinh"
+  },
+  {
+    "word": "運転手",
+    "reading": "うんてんしゅ",
+    "meaning": "tài xế"
+  },
+  {
+    "word": "大学",
+    "reading": "だいがく",
+    "meaning": "đại học"
+  },
+  {
+    "word": "病院",
+    "reading": "びょういん",
+    "meaning": "bệnh viện"
+  },
+  {
+    "word": "だれ",
+    "meaning": "ai"
+  },
+  {
+    "word": "どなた",
+    "meaning": "ai",
+    "note": "cách nói lịch sự của だれ"
+  },
+  {
+    "word": "日本",
+    "reading": "にほん",
+    "meaning": "Nhật Bản"
+  },
+  {
+    "word": "中国",
+    "reading": "ちゅうごく",
+    "meaning": "Trung Quốc"
+  },
+  {
+    "word": "韓国",
+    "reading": "かんこく",
+    "meaning": "Hàn Quốc"
+  },
+  {
+    "word": "アメリカ",
+    "meaning": "Mỹ"
+  },
+  {
+    "word": "イギリス",
+    "meaning": "Anh"
+  },
+  {
+    "word": "ベトナム",
+    "meaning": "Việt Nam"
+  },
+  {
+    "word": "〜じん",
+    "meaning": "người ~"
+  },
+  {
+    "word": "〜ご",
+    "meaning": "tiếng ~"
+  },
+  {
+    "word": "出身",
+    "reading": "しゅっしん",
+    "meaning": "quê quán"
+  },
+  {
+    "word": "〜から来ました",
+    "reading": "〜からきました",
+    "meaning": "(tôi) đến từ ~"
+  },
+  {
+    "word": "はい",
+    "meaning": "vâng"
+  },
+  {
+    "word": "いいえ",
+    "meaning": "không"
+  },
+  {
+    "word": "失礼ですが",
+    "reading": "しつれいですが",
+    "meaning": "Xin lỗi,...",
+    "note": "dùng khi hỏi ai đó về thông tin cá nhân"
+  },
+  {
+    "word": "お名前をもう一度お願いします",
+    "reading": "おなまえをもういちどおねがいします",
+    "meaning": "Anh/Chị vui lòng nhắc lại tên một lần nữa được không ạ?"
+  },
+  {
+    "word": "どうぞよろしくお願いします",
+    "meaning": "Rất mong được sự giúp đỡ của anh/chị"
+  },
+  {
+    "word": "そうですか",
+    "meaning": "Vậy à/Thế à"
+  },
+  {
+    "word": "お仕事なんですか",
+    "reading": "おしごとなんですか",
+    "meaning": "Công việc của anh/chị là gì thế?"
+  }
+]
