@@ -7,11 +7,9 @@
 	import { onMount } from 'svelte';
 
 	const {
-		kotobas,
-		furigana = true
+		kotobas
 	}: {
 		kotobas: Dictionary;
-		furigana: boolean;
 	} = $props();
 
 	let targetIndex = $state(randomIndex());

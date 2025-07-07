@@ -49,7 +49,7 @@ export default async function importUnit(s: string) {
     }, Promise.resolve([] as Dictionary));
     return {
       unit: s,
-      json: dict
+      json: dict as Dictionary
     }
   }
   else {
