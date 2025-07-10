@@ -1,40 +1,3232 @@
 [
-    "一", 
-    "二", 
-    "三",
-    "四",
-    "五",
-    "六",
-    "七",
-    "八",
-    "九",
-    "十",
-    "百",
-    "千",
-    "万",
-    "円",
-    "日",
-    "月",
-    "火",
-    "水",
-    "木",
-    "金",
-    "土",
-    "人",
-    "先",
-    "生",
-    "学",
-    "方",
-    "何",
-    "今",
-    "分",
-    "半",
-    "時",
-    "年",
-    "休",
-    "校",
-    "車",
-    "行",
-    "来",
-    "帰"
+  {
+    "word": "一",
+    "meaning": "NHẤT",
+    "meaning_resolution": "số một",
+    "kunyomi": [
+      "ひと",
+      "ひと.つ"
+    ],
+    "onyomi": [
+      "イチ",
+      "イツ"
+    ],
+    "radicals": [
+      "一"
+    ]
+  },
+  {
+    "word": "二",
+    "meaning": "NHỊ",
+    "meaning_resolution": "số hai",
+    "kunyomi": [
+      "ふた",
+      "ふた.つ"
+    ],
+    "onyomi": [
+      "ニ",
+      "ジ"
+    ],
+    "radicals": [
+      "二"
+    ]
+  },
+  {
+    "word": "三",
+    "meaning": "TAM",
+    "meaning_resolution": "số ba",
+    "kunyomi": [
+      "み",
+      "み.つ",
+      "みっ.つ"
+    ],
+    "onyomi": [
+      "サン",
+      "ゾウ"
+    ],
+    "radicals": [
+      "一",
+      "二"
+    ]
+  },
+  {
+    "word": "四",
+    "meaning": "TỨ",
+    "meaning_resolution": "số bốn",
+    "kunyomi": [
+      "よ",
+      "よ.つ",
+      "よっ.つ",
+      "よん"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "radicals": [
+      "囗",
+      "儿"
+    ]
+  },
+  {
+    "word": "五",
+    "meaning": "NGŨ",
+    "meaning_resolution": "số năm",
+    "kunyomi": [
+      "いつ",
+      "いつ.つ"
+    ],
+    "onyomi": [
+      "ゴ"
+    ],
+    "radicals": [
+      "二",
+      "乂"
+    ]
+  },
+  {
+    "word": "六",
+    "meaning": "LỤC",
+    "meaning_resolution": "số sáu",
+    "kunyomi": [
+      "む",
+      "む.つ",
+      "むっ.つ",
+      "むい"
+    ],
+    "onyomi": [
+      "ロク",
+      "リク"
+    ],
+    "radicals": [
+      "亠",
+      "八"
+    ]
+  },
+  {
+    "word": "七",
+    "meaning": "THẤT",
+    "meaning_resolution": "số bảy",
+    "kunyomi": [
+      "なな",
+      "なな.つ",
+      "なの"
+    ],
+    "onyomi": [
+      "シチ"
+    ],
+    "radicals": [
+      "七"
+    ]
+  },
+  {
+    "word": "八",
+    "meaning": "BÁT",
+    "meaning_resolution": "số tám",
+    "kunyomi": [
+      "や",
+      "や.つ",
+      "やっ.つ",
+      "よう"
+    ],
+    "onyomi": [
+      "ハチ"
+    ],
+    "radicals": [
+      "八"
+    ]
+  },
+  {
+    "word": "九",
+    "meaning": "CỬU",
+    "meaning_resolution": "số chín",
+    "kunyomi": [
+      "ここの",
+      "ここの.つ"
+    ],
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "radicals": [
+      "九"
+    ]
+  },
+  {
+    "word": "十",
+    "meaning": "THẬP",
+    "meaning_resolution": "số mười",
+    "kunyomi": [
+      "とお",
+      "と"
+    ],
+    "onyomi": [
+      "ジュウ",
+      "ジッ",
+      "ジュッ"
+    ],
+    "radicals": [
+      "十"
+    ]
+  },
+  {
+    "word": "百",
+    "meaning": "BÁCH",
+    "meaning_resolution": "một trăm",
+    "kunyomi": [],
+    "onyomi": [
+      "ヒャク",
+      "ビャク",
+      "ピャク"
+    ],
+    "radicals": [
+      "一",
+      "白"
+    ]
+  },
+  {
+    "word": "千",
+    "meaning": "THIÊN",
+    "meaning_resolution": "một nghìn",
+    "kunyomi": [
+      "ち"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "radicals": [
+      "千"
+    ]
+  },
+  {
+    "word": "万",
+    "meaning": "VẠN",
+    "meaning_resolution": "mười nghìn, vạn",
+    "kunyomi": [
+      "よろず"
+    ],
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "radicals": [
+      "一",
+      "勹",
+      "匕"
+    ]
+  },
+  {
+    "word": "方",
+    "meaning": "PHƯƠNG",
+    "meaning_resolution": "phương hướng, vị, cách",
+    "kunyomi": [
+      "かた",
+      "-がた"
+    ],
+    "onyomi": [
+      "ホウ"
+    ],
+    "radicals": [
+      "方"
+    ]
+  },
+  {
+    "word": "校",
+    "meaning": "HIỆU",
+    "meaning_resolution": "trường học, hiệu đính",
+    "kunyomi": [],
+    "onyomi": [
+      "コウ",
+      "キョウ"
+    ],
+    "radicals": [
+      "木",
+      "交"
+    ]
+  },
+  {
+    "word": "帰",
+    "meaning": "QUY",
+    "meaning_resolution": "trở về",
+    "kunyomi": [
+      "かえ.る",
+      "かえ.す"
+    ],
+    "onyomi": [
+      "キ"
+    ],
+    "radicals": [
+      "刀",
+      "止",
+      "巾"
+    ]
+  },
+  {
+    "word": "日",
+    "meaning": "NHẬT",
+    "meaning_resolution": "ngày, mặt trời",
+    "kunyomi": [
+      "ひ",
+      "-び",
+      "-か"
+    ],
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "radicals": [
+      "日"
+    ]
+  },
+  {
+    "word": "月",
+    "meaning": "NGUYỆT",
+    "meaning_resolution": "tháng, mặt trăng",
+    "kunyomi": [
+      "つき"
+    ],
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "radicals": [
+      "月"
+    ]
+  },
+  {
+    "word": "火",
+    "meaning": "HỎA",
+    "meaning_resolution": "lửa",
+    "kunyomi": [
+      "ひ",
+      "-び"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "radicals": [
+      "火"
+    ]
+  },
+  {
+    "word": "水",
+    "meaning": "THỦY",
+    "meaning_resolution": "nước",
+    "kunyomi": [
+      "みず"
+    ],
+    "onyomi": [
+      "スイ"
+    ],
+    "radicals": [
+      "水"
+    ]
+  },
+  {
+    "word": "木",
+    "meaning": "MỘC",
+    "meaning_resolution": "cây, gỗ",
+    "kunyomi": [
+      "き",
+      "こ-"
+    ],
+    "onyomi": [
+      "ボク",
+      "モク"
+    ],
+    "radicals": [
+      "木"
+    ]
+  },
+  {
+    "word": "金",
+    "meaning": "KIM",
+    "meaning_resolution": "vàng, tiền, kim loại",
+    "kunyomi": [
+      "かね",
+      "かな-"
+    ],
+    "onyomi": [
+      "キン",
+      "コン"
+    ],
+    "radicals": [
+      "金"
+    ]
+  },
+  {
+    "word": "土",
+    "meaning": "THỔ",
+    "meaning_resolution": "đất",
+    "kunyomi": [
+      "つち"
+    ],
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "radicals": [
+      "土"
+    ]
+  },
+  {
+    "word": "本",
+    "meaning": "BẢN",
+    "meaning_resolution": "sách, gốc, bản",
+    "kunyomi": [
+      "もと"
+    ],
+    "onyomi": [
+      "ホン"
+    ],
+    "radicals": [
+      "木",
+      "一"
+    ]
+  },
+  {
+    "word": "人",
+    "meaning": "NHÂN",
+    "meaning_resolution": "người",
+    "kunyomi": [
+      "ひと",
+      "-り",
+      "-と"
+    ],
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "radicals": [
+      "人"
+    ]
+  },
+  {
+    "word": "大",
+    "meaning": "ĐẠI",
+    "meaning_resolution": "lớn",
+    "kunyomi": [
+      "おお-",
+      "おお.きい",
+      "おお.いに"
+    ],
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "radicals": [
+      "大"
+    ]
+  },
+  {
+    "word": "小",
+    "meaning": "TIỂU",
+    "meaning_resolution": "nhỏ",
+    "kunyomi": [
+      "ちい.さい",
+      "こ-",
+      "お-"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "radicals": [
+      "小"
+    ]
+  },
+  {
+    "word": "中",
+    "meaning": "TRUNG",
+    "meaning_resolution": "trong, giữa",
+    "kunyomi": [
+      "なか",
+      "うち",
+      "あた.る"
+    ],
+    "onyomi": [
+      "チュウ"
+    ],
+    "radicals": [
+      "口",
+      "丨"
+    ]
+  },
+  {
+    "word": "上",
+    "meaning": "THƯỢNG",
+    "meaning_resolution": "trên, phía trên",
+    "kunyomi": [
+      "うえ",
+      "うわ-",
+      "かみ",
+      "あ.げる",
+      "あ.がる",
+      "のぼ.る",
+      "のぼ.せる",
+      "のぼ.す"
+    ],
+    "onyomi": [
+      "ジョウ",
+      "ショウ"
+    ],
+    "radicals": [
+      "ト",
+      "一"
+    ]
+  },
+  {
+    "word": "下",
+    "meaning": "HẠ",
+    "meaning_resolution": "dưới, phía dưới",
+    "kunyomi": [
+      "した",
+      "しも",
+      "もと",
+      "さ.げる",
+      "さ.がる",
+      "くだ.る",
+      "くだ.り",
+      "くだ.す",
+      "くだ.さる",
+      "お.ろす",
+      "お.りる"
+    ],
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "radicals": [
+      "一",
+      "卜"
+    ]
+  },
+  {
+    "word": "山",
+    "meaning": "SƠN",
+    "meaning_resolution": "núi",
+    "kunyomi": [
+      "やま"
+    ],
+    "onyomi": [
+      "サン",
+      "セン"
+    ],
+    "radicals": [
+      "山"
+    ]
+  },
+  {
+    "word": "川",
+    "meaning": "XUYÊN",
+    "meaning_resolution": "sông",
+    "kunyomi": [
+      "かわ"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "radicals": [
+      "川"
+    ]
+  },
+  {
+    "word": "田",
+    "meaning": "ĐIỀN",
+    "meaning_resolution": "ruộng lúa",
+    "kunyomi": [
+      "た"
+    ],
+    "onyomi": [
+      "デン"
+    ],
+    "radicals": [
+      "田"
+    ]
+  },
+  {
+    "word": "口",
+    "meaning": "KHẨU",
+    "meaning_resolution": "miệng",
+    "kunyomi": [
+      "くち"
+    ],
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "radicals": [
+      "口"
+    ]
+  },
+  {
+    "word": "耳",
+    "meaning": "NHĨ",
+    "meaning_resolution": "tai",
+    "kunyomi": [
+      "みみ"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "radicals": [
+      "耳"
+    ]
+  },
+  {
+    "word": "手",
+    "meaning": "THỦ",
+    "meaning_resolution": "tay",
+    "kunyomi": [
+      "て",
+      "て-",
+      "-て",
+      "た-"
+    ],
+    "onyomi": [
+      "シュ"
+    ],
+    "radicals": [
+      "手"
+    ]
+  },
+  {
+    "word": "足",
+    "meaning": "TÚC",
+    "meaning_resolution": "chân, đủ",
+    "kunyomi": [
+      "あし",
+      "た.りる",
+      "た.る",
+      "た.す"
+    ],
+    "onyomi": [
+      "ソク"
+    ],
+    "radicals": [
+      "足"
+    ]
+  },
+  {
+    "word": "見",
+    "meaning": "KIẾN",
+    "meaning_resolution": "nhìn",
+    "kunyomi": [
+      "み.る",
+      "み.える",
+      "み.せる"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "radicals": [
+      "目",
+      "儿"
+    ]
+  },
+  {
+    "word": "学",
+    "meaning": "HỌC",
+    "meaning_resolution": "học",
+    "kunyomi": [
+      "まな.ぶ"
+    ],
+    "onyomi": [
+      "ガク"
+    ],
+    "radicals": [
+      "子",
+      "宀"
+    ]
+  },
+  {
+    "word": "生",
+    "meaning": "SINH",
+    "meaning_resolution": "sinh sống, đẻ",
+    "kunyomi": [
+      "い.きる",
+      "い.かす",
+      "い.ける",
+      "う.まれる",
+      "う.まれ",
+      "うま.れる",
+      "うまれ",
+      "お.う",
+      "は.える",
+      "は.やす",
+      "き",
+      "なま",
+      "なま-",
+      "な.る",
+      "な.す",
+      "む.す",
+      "-う"
+    ],
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "radicals": [
+      "生"
+    ]
+  },
+  {
+    "word": "出",
+    "meaning": "XUẤT",
+    "meaning_resolution": "ra, xuất hiện",
+    "kunyomi": [
+      "で.る",
+      "-で",
+      "だ.す",
+      "-だ.す",
+      "い.でる",
+      "い.だす"
+    ],
+    "onyomi": [
+      "シュツ",
+      "スイ"
+    ],
+    "radicals": [
+      "凵",
+      "山"
+    ]
+  },
+  {
+    "word": "入",
+    "meaning": "NHẬP",
+    "meaning_resolution": "vào",
+    "kunyomi": [
+      "い.る",
+      "-い.る",
+      "い.り",
+      "い.れる",
+      "-い.れ",
+      "はい.る"
+    ],
+    "onyomi": [
+      "ニュウ",
+      "ジュ"
+    ],
+    "radicals": [
+      "入"
+    ]
+  },
+  {
+    "word": "休",
+    "meaning": "HƯU",
+    "meaning_resolution": "nghỉ ngơi",
+    "kunyomi": [
+      "やす.む",
+      "やす.まる",
+      "やす.める"
+    ],
+    "onyomi": [
+      "キュウ"
+    ],
+    "radicals": [
+      "人",
+      "木"
+    ]
+  },
+  {
+    "word": "名",
+    "meaning": "DANH",
+    "meaning_resolution": "tên",
+    "kunyomi": [
+      "な"
+    ],
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "radicals": [
+      "夕",
+      "口"
+    ]
+  },
+  {
+    "word": "女",
+    "meaning": "NỮ",
+    "meaning_resolution": "phụ nữ",
+    "kunyomi": [
+      "おんな",
+      "め"
+    ],
+    "onyomi": [
+      "ジョ",
+      "ニョ",
+      "ニョウ"
+    ],
+    "radicals": [
+      "女"
+    ]
+  },
+  {
+    "word": "男",
+    "meaning": "NAM",
+    "meaning_resolution": "đàn ông",
+    "kunyomi": [
+      "おとこ"
+    ],
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "radicals": [
+      "田",
+      "力"
+    ]
+  },
+  {
+    "word": "子",
+    "meaning": "TỬ",
+    "meaning_resolution": "con, trẻ con",
+    "kunyomi": [
+      "こ",
+      "-こ",
+      "ね"
+    ],
+    "onyomi": [
+      "シ",
+      "ス",
+      "ツ"
+    ],
+    "radicals": [
+      "子"
+    ]
+  },
+  {
+    "word": "年",
+    "meaning": "NIÊN",
+    "meaning_resolution": "năm",
+    "kunyomi": [
+      "とし"
+    ],
+    "onyomi": [
+      "ネン"
+    ],
+    "radicals": [
+      "干",
+      "一",
+      "口"
+    ]
+  },
+  {
+    "word": "先",
+    "meaning": "TIÊN",
+    "meaning_resolution": "trước, phía trước, tiên sinh",
+    "kunyomi": [
+      "さき",
+      "ま.ず"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "radicals": [
+      "牛",
+      "人"
+    ]
+  },
+  {
+    "word": "私",
+    "meaning": "TƯ",
+    "meaning_resolution": "tôi, riêng tư",
+    "kunyomi": [
+      "わたくし",
+      "わたし"
+    ],
+    "onyomi": [
+      "シ"
+    ],
+    "radicals": [
+      "禾",
+      "ム"
+    ]
+  },
+  {
+    "word": "今",
+    "meaning": "KIM",
+    "meaning_resolution": "bây giờ",
+    "kunyomi": [
+      "いま"
+    ],
+    "onyomi": [
+      "コン",
+      "キン"
+    ],
+    "radicals": [
+      "人",
+      "一",
+      "乚"
+    ]
+  },
+  {
+    "word": "週",
+    "meaning": "CHU",
+    "meaning_resolution": "tuần",
+    "kunyomi": [],
+    "onyomi": [
+      "シュウ"
+    ],
+    "radicals": [
+      "尸",
+      "口",
+      "士"
+    ]
+  },
+  {
+    "word": "来",
+    "meaning": "LAI",
+    "meaning_resolution": "đến",
+    "kunyomi": [
+      "く.る",
+      "き.ます",
+      "こ.ない"
+    ],
+    "onyomi": [
+      "ライ",
+      "タイ"
+    ],
+    "radicals": [
+      "米",
+      "人"
+    ]
+  },
+  {
+    "word": "東",
+    "meaning": "ĐÔNG",
+    "meaning_resolution": "phía đông",
+    "kunyomi": [
+      "ひがし"
+    ],
+    "onyomi": [
+      "トウ"
+    ],
+    "radicals": [
+      "木",
+      "日"
+    ]
+  },
+  {
+    "word": "西",
+    "meaning": "TÂY",
+    "meaning_resolution": "phía tây",
+    "kunyomi": [
+      "にし"
+    ],
+    "onyomi": [
+      "セイ",
+      "サイ",
+      "ス"
+    ],
+    "radicals": [
+      "西"
+    ]
+  },
+  {
+    "word": "南",
+    "meaning": "NAM",
+    "meaning_resolution": "phía nam",
+    "kunyomi": [
+      "みなみ"
+    ],
+    "onyomi": [
+      "ナン",
+      "ナ"
+    ],
+    "radicals": [
+      "十",
+      "口",
+      "羊"
+    ]
+  },
+  {
+    "word": "北",
+    "meaning": "BẮC",
+    "meaning_resolution": "phía bắc",
+    "kunyomi": [
+      "きた"
+    ],
+    "onyomi": [
+      "ホク"
+    ],
+    "radicals": [
+      "北"
+    ]
+  },
+  {
+    "word": "時",
+    "meaning": "THỜI",
+    "meaning_resolution": "thời gian, giờ",
+    "kunyomi": [
+      "とき",
+      "-どき"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "radicals": [
+      "日",
+      "寺"
+    ]
+  },
+  {
+    "word": "間",
+    "meaning": "GIAN",
+    "meaning_resolution": "giữa, khoảng",
+    "kunyomi": [
+      "あいだ",
+      "ま",
+      "あい"
+    ],
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "radicals": [
+      "門",
+      "日"
+    ]
+  },
+  {
+    "word": "分",
+    "meaning": "PHÂN",
+    "meaning_resolution": "phút, phần, chia",
+    "kunyomi": [
+      "わ.ける",
+      "わ.け",
+      "わ.かれる",
+      "わ.かる",
+      "わ.かつ"
+    ],
+    "onyomi": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "radicals": [
+      "八",
+      "刀"
+    ]
+  },
+  {
+    "word": "半",
+    "meaning": "BÁN",
+    "meaning_resolution": "một nửa",
+    "kunyomi": [
+      "なか.ば"
+    ],
+    "onyomi": [
+      "ハン"
+    ],
+    "radicals": [
+      "半"
+    ]
+  },
+  {
+    "word": "毎",
+    "meaning": "MỖI",
+    "meaning_resolution": "mỗi",
+    "kunyomi": [
+      "ごと"
+    ],
+    "onyomi": [
+      "マイ"
+    ],
+    "radicals": [
+      "人",
+      "毋"
+    ]
+  },
+  {
+    "word": "何",
+    "meaning": "HÀ",
+    "meaning_resolution": "cái gì, bao nhiêu",
+    "kunyomi": [
+      "なに",
+      "なん"
+    ],
+    "onyomi": [
+      "カ"
+    ],
+    "radicals": [
+      "人",
+      "可"
+    ]
+  },
+  {
+    "word": "高",
+    "meaning": "CAO",
+    "meaning_resolution": "cao, đắt",
+    "kunyomi": [
+      "たか.い",
+      "たか",
+      "たか.まる",
+      "たか.める"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "radicals": [
+      "高"
+    ]
+  },
+  {
+    "word": "安",
+    "meaning": "AN",
+    "meaning_resolution": "an toàn, rẻ",
+    "kunyomi": [
+      "やす.い",
+      "やす.まる",
+      "やす"
+    ],
+    "onyomi": [
+      "アン"
+    ],
+    "radicals": [
+      "宀",
+      "女"
+    ]
+  },
+  {
+    "word": "新",
+    "meaning": "TÂN",
+    "meaning_resolution": "mới",
+    "kunyomi": [
+      "あたら.しい",
+      "あら.た",
+      "あら-",
+      "にい-"
+    ],
+    "onyomi": [
+      "シン"
+    ],
+    "radicals": [
+      "立",
+      "木",
+      "斤"
+    ]
+  },
+  {
+    "word": "古",
+    "meaning": "CỔ",
+    "meaning_resolution": "cũ",
+    "kunyomi": [
+      "ふる.い",
+      "ふる.す",
+      "いにしえ"
+    ],
+    "onyomi": [
+      "コ"
+    ],
+    "radicals": [
+      "口",
+      "十"
+    ]
+  },
+  {
+    "word": "長",
+    "meaning": "TRƯỞNG, TRƯỜNG",
+    "meaning_resolution": "dài, trưởng",
+    "kunyomi": [
+      "なが.い",
+      "おさ"
+    ],
+    "onyomi": [
+      "チョウ"
+    ],
+    "radicals": [
+      "長"
+    ]
+  },
+  {
+    "word": "多",
+    "meaning": "ĐA",
+    "meaning_resolution": "nhiều",
+    "kunyomi": [
+      "おお.い",
+      "まさ.に",
+      "まさ.る"
+    ],
+    "onyomi": [
+      "タ"
+    ],
+    "radicals": [
+      "夕",
+      "夕"
+    ]
+  },
+  {
+    "word": "少",
+    "meaning": "THIỂU, THIẾU",
+    "meaning_resolution": "ít, nhỏ",
+    "kunyomi": [
+      "すく.ない",
+      "すこ.し"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "radicals": [
+      "小",
+      "丿"
+    ]
+  },
+  {
+    "word": "行",
+    "meaning": "HÀNH, HÀNG, HIỆU",
+    "meaning_resolution": "đi, hàng, ngân hàng",
+    "kunyomi": [
+      "い.く",
+      "ゆ.く",
+      "おこな.う"
+    ],
+    "onyomi": [
+      "コウ",
+      "ギョウ",
+      "アン"
+    ],
+    "radicals": [
+      "彳",
+      "亍"
+    ]
+  },
+  {
+    "word": "来",
+    "meaning": "LAI",
+    "meaning_resolution": "đến",
+    "kunyomi": [
+      "く.る",
+      "き.ます",
+      "こ.ない"
+    ],
+    "onyomi": [
+      "ライ",
+      "タイ"
+    ],
+    "radicals": [
+      "米",
+      "人"
+    ]
+  },
+  {
+    "word": "見",
+    "meaning": "KIẾN",
+    "meaning_resolution": "nhìn",
+    "kunyomi": [
+      "み.る",
+      "み.える",
+      "み.せる"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "radicals": [
+      "目",
+      "儿"
+    ]
+  },
+  {
+    "word": "聞",
+    "meaning": "VĂN",
+    "meaning_resolution": "nghe, hỏi",
+    "kunyomi": [
+      "き.く",
+      "き.こえる"
+    ],
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "radicals": [
+      "門",
+      "耳"
+    ]
+  },
+  {
+    "word": "食",
+    "meaning": "THỰC",
+    "meaning_resolution": "ăn",
+    "kunyomi": [
+      "く.う",
+      "く.らう",
+      "た.べる",
+      "は.む"
+    ],
+    "onyomi": [
+      "ショク",
+      "ジキ"
+    ],
+    "radicals": [
+      "食"
+    ]
+  },
+  {
+    "word": "飲",
+    "meaning": "ẨM",
+    "meaning_resolution": "uống",
+    "kunyomi": [
+      "の.む",
+      "-の.み"
+    ],
+    "onyomi": [
+      "イン",
+      "オン"
+    ],
+    "radicals": [
+      "食",
+      "欠"
+    ]
+  },
+  {
+    "word": "書",
+    "meaning": "THƯ",
+    "meaning_resolution": "viết",
+    "kunyomi": [
+      "か.く",
+      "-が.き"
+    ],
+    "onyomi": [
+      "ショ"
+    ],
+    "radicals": [
+      "聿",
+      "日"
+    ]
+  },
+  {
+    "word": "読",
+    "meaning": "ĐỘC",
+    "meaning_resolution": "đọc",
+    "kunyomi": [
+      "よ.む"
+    ],
+    "onyomi": [
+      "ドク",
+      "トク",
+      "トウ"
+    ],
+    "radicals": [
+      "言",
+      "売"
+    ]
+  },
+  {
+    "word": "話",
+    "meaning": "THOẠI",
+    "meaning_resolution": "nói chuyện, câu chuyện",
+    "kunyomi": [
+      "はな.す",
+      "はなし"
+    ],
+    "onyomi": [
+      "ワ"
+    ],
+    "radicals": [
+      "言",
+      "舌"
+    ]
+  },
+  {
+    "word": "語",
+    "meaning": "NGỮ",
+    "meaning_resolution": "ngôn ngữ, từ",
+    "kunyomi": [
+      "かた.る",
+      "かた.らう"
+    ],
+    "onyomi": [
+      "ゴ"
+    ],
+    "radicals": [
+      "言",
+      "吾"
+    ]
+  },
+  {
+    "word": "円",
+    "meaning": "VIÊN",
+    "meaning_resolution": "yên (tiền Nhật), hình tròn",
+    "kunyomi": [
+      "まる.い",
+      "まる",
+      "まど",
+      "まど.か",
+      "まろ.やか"
+    ],
+    "onyomi": [
+      "エン"
+    ],
+    "radicals": [
+      "冂",
+      "二",
+      "L"
+    ]
+  },
+  {
+    "word": "電",
+    "meaning": "ĐIỆN",
+    "meaning_resolution": "điện",
+    "kunyomi": [],
+    "onyomi": [
+      "デン"
+    ],
+    "radicals": [
+      "雨",
+      "申"
+    ]
+  },
+  {
+    "word": "会",
+    "meaning": "HỘI",
+    "meaning_resolution": "gặp gỡ, hội họp",
+    "kunyomi": [
+      "あ.う",
+      "あ.わせる",
+      "あつ.まる"
+    ],
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "radicals": [
+      "人",
+      "一",
+      "云"
+    ]
+  },
+  {
+    "word": "社",
+    "meaning": "XÃ",
+    "meaning_resolution": "công ty, đền thờ",
+    "kunyomi": [
+      "やしろ"
+    ],
+    "onyomi": [
+      "シャ"
+    ],
+    "radicals": [
+      "示",
+      "土"
+    ]
+  },
+  {
+    "word": "店",
+    "meaning": "ĐIẾM",
+    "meaning_resolution": "cửa hàng",
+    "kunyomi": [
+      "みせ",
+      "たな"
+    ],
+    "onyomi": [
+      "テン"
+    ],
+    "radicals": [
+      "广",
+      "占"
+    ]
+  },
+  {
+    "word": "駅",
+    "meaning": "DỊCH",
+    "meaning_resolution": "nhà ga",
+    "kunyomi": [],
+    "onyomi": [
+      "エキ"
+    ],
+    "radicals": [
+      "馬",
+      "亦"
+    ]
+  },
+  {
+    "word": "車",
+    "meaning": "XA",
+    "meaning_resolution": "xe",
+    "kunyomi": [
+      "くるま"
+    ],
+    "onyomi": [
+      "シャ"
+    ],
+    "radicals": [
+      "車"
+    ]
+  },
+  {
+    "word": "国",
+    "meaning": "QUỐC",
+    "meaning_resolution": "đất nước",
+    "kunyomi": [
+      "くに"
+    ],
+    "onyomi": [
+      "コク"
+    ],
+    "radicals": [
+      "囗",
+      "玉"
+    ]
+  },
+  {
+    "word": "道",
+    "meaning": "ĐẠO",
+    "meaning_resolution": "con đường",
+    "kunyomi": [
+      "みち",
+      "え"
+    ],
+    "onyomi": [
+      "ドウ",
+      "トウ"
+    ],
+    "radicals": [
+      "辶",
+      "首"
+    ]
+  },
+  {
+    "word": "白",
+    "meaning": "BẠCH",
+    "meaning_resolution": "màu trắng",
+    "kunyomi": [
+      "しろ",
+      "しら-",
+      "しろ.い"
+    ],
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "radicals": [
+      "白"
+    ]
+  },
+  {
+    "word": "赤",
+    "meaning": "XÍCH",
+    "meaning_resolution": "màu đỏ",
+    "kunyomi": [
+      "あか",
+      "あか.い",
+      "あか.らむ",
+      "あか.らめる"
+    ],
+    "onyomi": [
+      "セキ",
+      "シャク"
+    ],
+    "radicals": [
+      "赤"
+    ]
+  },
+  {
+    "word": "青",
+    "meaning": "THANH",
+    "meaning_resolution": "màu xanh",
+    "kunyomi": [
+      "あお",
+      "あお.い"
+    ],
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "radicals": [
+      "青"
+    ]
+  },
+  {
+    "word": "行",
+    "meaning": "HÀNH",
+    "meaning_resolution": "đi",
+    "kunyomi": [
+      "い.く",
+      "ゆ.く",
+      "おこな.う"
+    ],
+    "onyomi": [
+      "コウ",
+      "ギョウ",
+      "アン"
+    ],
+    "radicals": [
+      "行"
+    ]
+  },
+  {
+    "word": "買",
+    "meaning": "MÃI",
+    "meaning_resolution": "mua",
+    "kunyomi": [
+      "か.う"
+    ],
+    "onyomi": [
+      "バイ"
+    ],
+    "radicals": [
+      "買"
+    ]
+  },
+  {
+    "word": "売",
+    "meaning": "MẠI",
+    "meaning_resolution": "bán",
+    "kunyomi": [
+      "う.る",
+      "う.れる"
+    ],
+    "onyomi": [
+      "バイ"
+    ],
+    "radicals": [
+      "士",
+      "儿"
+    ]
+  },
+  {
+    "word": "午",
+    "meaning": "NGỌ",
+    "meaning_resolution": "buổi trưa",
+    "kunyomi": [
+      "うま"
+    ],
+    "onyomi": [
+      "ゴ"
+    ],
+    "radicals": [
+      "干",
+      "十"
+    ]
+  },
+  {
+    "word": "前",
+    "meaning": "TIỀN",
+    "meaning_resolution": "trước",
+    "kunyomi": [
+      "まえ",
+      "-まえ"
+    ],
+    "onyomi": [
+      "ゼン"
+    ],
+    "radicals": [
+      "止",
+      "刀"
+    ]
+  },
+  {
+    "word": "後",
+    "meaning": "HẬU",
+    "meaning_resolution": "sau, phía sau",
+    "kunyomi": [
+      "のち",
+      "うし.ろ",
+      "うしろ",
+      "あと",
+      "おく.れる"
+    ],
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "radicals": [
+      "彳",
+      "夂"
+    ]
+  },
+  {
+    "word": "時",
+    "meaning": "THỜI",
+    "meaning_resolution": "thời gian, giờ",
+    "kunyomi": [
+      "とき",
+      "-どき"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "radicals": [
+      "日",
+      "寺"
+    ]
+  },
+  {
+    "word": "来",
+    "meaning": "LAI",
+    "meaning_resolution": "đến",
+    "kunyomi": [
+      "く.る",
+      "き.ます",
+      "こ.ない"
+    ],
+    "onyomi": [
+      "ライ",
+      "タイ"
+    ],
+    "radicals": [
+      "米",
+      "人"
+    ]
+  },
+  {
+    "word": "見",
+    "meaning": "KIẾN",
+    "meaning_resolution": "nhìn",
+    "kunyomi": [
+      "み.る",
+      "み.える",
+      "み.せる"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "radicals": [
+      "目",
+      "儿"
+    ]
+  },
+  {
+    "word": "聞",
+    "meaning": "VĂN",
+    "meaning_resolution": "nghe, hỏi",
+    "kunyomi": [
+      "き.く",
+      "き.こえる"
+    ],
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "radicals": [
+      "門",
+      "耳"
+    ]
+  },
+  {
+    "word": "書",
+    "meaning": "THƯ",
+    "meaning_resolution": "viết",
+    "kunyomi": [
+      "か.く",
+      "-が.き"
+    ],
+    "onyomi": [
+      "ショ"
+    ],
+    "radicals": [
+      "聿",
+      "日"
+    ]
+  },
+  {
+    "word": "読",
+    "meaning": "ĐỘC",
+    "meaning_resolution": "đọc",
+    "kunyomi": [
+      "よ.む"
+    ],
+    "onyomi": [
+      "ドク",
+      "トク",
+      "トウ"
+    ],
+    "radicals": [
+      "言",
+      "売"
+    ]
+  },
+  {
+    "word": "話",
+    "meaning": "THOẠI",
+    "meaning_resolution": "nói chuyện, câu chuyện",
+    "kunyomi": [
+      "はな.す",
+      "はなし"
+    ],
+    "onyomi": [
+      "ワ"
+    ],
+    "radicals": [
+      "言",
+      "舌"
+    ]
+  },
+  {
+    "word": "語",
+    "meaning": "NGỮ",
+    "meaning_resolution": "ngôn ngữ, từ",
+    "kunyomi": [
+      "かた.る",
+      "かた.らう"
+    ],
+    "onyomi": [
+      "ゴ"
+    ],
+    "radicals": [
+      "言",
+      "吾"
+    ]
+  },
+  {
+    "word": "円",
+    "meaning": "VIÊN",
+    "meaning_resolution": "yên (tiền Nhật), hình tròn",
+    "kunyomi": [
+      "まる.い",
+      "まる",
+      "まど",
+      "まど.か",
+      "まろ.やか"
+    ],
+    "onyomi": [
+      "エン"
+    ],
+    "radicals": [
+      "冂",
+      "二",
+      "L"
+    ]
+  },
+  {
+    "word": "電",
+    "meaning": "ĐIỆN",
+    "meaning_resolution": "điện",
+    "kunyomi": [],
+    "onyomi": [
+      "デン"
+    ],
+    "radicals": [
+      "雨",
+      "申"
+    ]
+  },
+  {
+    "word": "会",
+    "meaning": "HỘI",
+    "meaning_resolution": "gặp gỡ, hội họp",
+    "kunyomi": [
+      "あ.う",
+      "あ.わせる",
+      "あつ.まる"
+    ],
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "radicals": [
+      "人",
+      "一",
+      "云"
+    ]
+  },
+  {
+    "word": "社",
+    "meaning": "XÃ",
+    "meaning_resolution": "công ty, đền thờ",
+    "kunyomi": [
+      "やしろ"
+    ],
+    "onyomi": [
+      "シャ"
+    ],
+    "radicals": [
+      "示",
+      "土"
+    ]
+  },
+  {
+    "word": "店",
+    "meaning": "ĐIẾM",
+    "meaning_resolution": "cửa hàng",
+    "kunyomi": [
+      "みせ",
+      "たな"
+    ],
+    "onyomi": [
+      "テン"
+    ],
+    "radicals": [
+      "广",
+      "占"
+    ]
+  },
+  {
+    "word": "駅",
+    "meaning": "DỊCH",
+    "meaning_resolution": "nhà ga",
+    "kunyomi": [],
+    "onyomi": [
+      "エキ"
+    ],
+    "radicals": [
+      "馬",
+      "亦"
+    ]
+  },
+  {
+    "word": "車",
+    "meaning": "XA",
+    "meaning_resolution": "xe",
+    "kunyomi": [
+      "くるま"
+    ],
+    "onyomi": [
+      "シャ"
+    ],
+    "radicals": [
+      "車"
+    ]
+  },
+  {
+    "word": "国",
+    "meaning": "QUỐC",
+    "meaning_resolution": "đất nước",
+    "kunyomi": [
+      "くに"
+    ],
+    "onyomi": [
+      "コク"
+    ],
+    "radicals": [
+      "囗",
+      "玉"
+    ]
+  },
+  {
+    "word": "道",
+    "meaning": "ĐẠO",
+    "meaning_resolution": "con đường",
+    "kunyomi": [
+      "みち",
+      "え"
+    ],
+    "onyomi": [
+      "ドウ",
+      "トウ"
+    ],
+    "radicals": [
+      "辶",
+      "首"
+    ]
+  },
+  {
+    "word": "白",
+    "meaning": "BẠCH",
+    "meaning_resolution": "màu trắng",
+    "kunyomi": [
+      "しろ",
+      "しら-",
+      "しろ.い"
+    ],
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "radicals": [
+      "白"
+    ]
+  },
+  {
+    "word": "赤",
+    "meaning": "XÍCH",
+    "meaning_resolution": "màu đỏ",
+    "kunyomi": [
+      "あか",
+      "あか.い",
+      "あか.らむ",
+      "あか.らめる"
+    ],
+    "onyomi": [
+      "セキ",
+      "シャク"
+    ],
+    "radicals": [
+      "赤"
+    ]
+  },
+  {
+    "word": "青",
+    "meaning": "THANH",
+    "meaning_resolution": "màu xanh",
+    "kunyomi": [
+      "あお",
+      "あお.い"
+    ],
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "radicals": [
+      "青"
+    ]
+  },
+  {
+    "word": "書",
+    "meaning": "THƯ",
+    "meaning_resolution": "viết",
+    "kunyomi": [
+      "か.く",
+      "-が.き"
+    ],
+    "onyomi": [
+      "ショ"
+    ],
+    "radicals": [
+      "聿",
+      "日"
+    ]
+  },
+  {
+    "word": "食",
+    "meaning": "THỰC",
+    "meaning_resolution": "ăn",
+    "kunyomi": [
+      "く.う",
+      "く.らう",
+      "た.べる",
+      "は.む"
+    ],
+    "onyomi": [
+      "ショク",
+      "ジキ"
+    ],
+    "radicals": [
+      "食"
+    ]
+  },
+  {
+    "word": "飲",
+    "meaning": "ẨM",
+    "meaning_resolution": "uống",
+    "kunyomi": [
+      "の.む",
+      "-の.み"
+    ],
+    "onyomi": [
+      "イン",
+      "オン"
+    ],
+    "radicals": [
+      "食",
+      "欠"
+    ]
+  },
+  {
+    "word": "見",
+    "meaning": "KIẾN",
+    "meaning_resolution": "nhìn",
+    "kunyomi": [
+      "み.る",
+      "み.える",
+      "み.せる"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "radicals": [
+      "目",
+      "儿"
+    ]
+  },
+  {
+    "word": "聞",
+    "meaning": "VĂN",
+    "meaning_resolution": "nghe, hỏi",
+    "kunyomi": [
+      "き.く",
+      "き.こえる"
+    ],
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "radicals": [
+      "門",
+      "耳"
+    ]
+  },
+  {
+    "word": "新",
+    "meaning": "TÂN",
+    "meaning_resolution": "mới",
+    "kunyomi": [
+      "あたら.しい",
+      "あら.た",
+      "あら-",
+      "にい-"
+    ],
+    "onyomi": [
+      "シン"
+    ],
+    "radicals": [
+      "立",
+      "木",
+      "斤"
+    ]
+  },
+  {
+    "word": "肉",
+    "meaning": "NHỤC",
+    "meaning_resolution": "thịt",
+    "kunyomi": [
+      "しし"
+    ],
+    "onyomi": [
+      "ニク"
+    ],
+    "radicals": [
+      "肉"
+    ]
+  },
+  {
+    "word": "魚",
+    "meaning": "NGƯ",
+    "meaning_resolution": "cá",
+    "kunyomi": [
+      "うお",
+      "さかな",
+      "-ざかな"
+    ],
+    "onyomi": [
+      "ギョ"
+    ],
+    "radicals": [
+      "魚"
+    ]
+  },
+  {
+    "word": "物",
+    "meaning": "VẬT",
+    "meaning_resolution": "vật, đồ vật",
+    "kunyomi": [
+      "もの"
+    ],
+    "onyomi": [
+      "ブツ",
+      "モツ"
+    ],
+    "radicals": [
+      "牛",
+      "勿"
+    ]
+  },
+  {
+    "word": "茶",
+    "meaning": "TRÀ",
+    "meaning_resolution": "trà",
+    "kunyomi": [],
+    "onyomi": [
+      "チャ",
+      "サ"
+    ],
+    "radicals": [
+      "艹",
+      "人",
+      "木"
+    ]
+  },
+  {
+    "word": "牛",
+    "meaning": "NGƯU",
+    "meaning_resolution": "bò",
+    "kunyomi": [
+      "うし"
+    ],
+    "onyomi": [
+      "ギュウ"
+    ],
+    "radicals": [
+      "牛"
+    ]
+  },
+  {
+    "word": "花",
+    "meaning": "HOA",
+    "meaning_resolution": "hoa",
+    "kunyomi": [
+      "はな"
+    ],
+    "onyomi": [
+      "カ",
+      "ケ"
+    ],
+    "radicals": [
+      "艹",
+      "化"
+    ]
+  },
+  {
+    "word": "買",
+    "meaning": "MÃI",
+    "meaning_resolution": "mua",
+    "kunyomi": [
+      "か.う"
+    ],
+    "onyomi": [
+      "バイ"
+    ],
+    "radicals": [
+      "買"
+    ]
+  },
+  {
+    "word": "売",
+    "meaning": "MẠI",
+    "meaning_resolution": "bán",
+    "kunyomi": [
+      "う.る",
+      "う.れる"
+    ],
+    "onyomi": [
+      "バイ"
+    ],
+    "radicals": [
+      "士",
+      "儿"
+    ]
+  },
+  {
+    "word": "読",
+    "meaning": "ĐỘC",
+    "meaning_resolution": "đọc",
+    "kunyomi": [
+      "よ.む"
+    ],
+    "onyomi": [
+      "ドク",
+      "トク",
+      "トウ"
+    ],
+    "radicals": [
+      "言",
+      "売"
+    ]
+  },
+  {
+    "word": "手",
+    "meaning": "THỦ",
+    "meaning_resolution": "tay",
+    "kunyomi": [
+      "て",
+      "て-",
+      "-て",
+      "た-"
+    ],
+    "onyomi": [
+      "シュ"
+    ],
+    "radicals": [
+      "手"
+    ]
+  },
+  {
+    "word": "少",
+    "meaning": "THIỂU",
+    "meaning_resolution": "ít, nhỏ",
+    "kunyomi": [
+      "すく.ない",
+      "すこ.し"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "radicals": [
+      "小",
+      "丿"
+    ]
+  },
+  {
+    "word": "間",
+    "meaning": "GIAN",
+    "meaning_resolution": "khoảng trống, giữa",
+    "kunyomi": [
+      "あいだ",
+      "ま",
+      "あい"
+    ],
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "radicals": [
+      "門",
+      "日"
+    ]
+  },
+  {
+    "word": "内",
+    "meaning": "NỘI",
+    "meaning_resolution": "bên trong",
+    "kunyomi": [
+      "うち"
+    ],
+    "onyomi": [
+      "ナイ",
+      "ダイ"
+    ],
+    "radicals": [
+      "入",
+      "冂"
+    ]
+  },
+  {
+    "word": "川",
+    "meaning": "XUYÊN",
+    "meaning_resolution": "sông",
+    "kunyomi": [
+      "かわ"
+    ],
+    "onyomi": [
+      "セン"
+    ],
+    "radicals": [
+      "川"
+    ]
+  },
+  {
+    "word": "町",
+    "meaning": "ĐINH",
+    "meaning_resolution": "thị trấn, khu phố",
+    "kunyomi": [
+      "まち"
+    ],
+    "onyomi": [
+      "チョウ"
+    ],
+    "radicals": [
+      "田",
+      "丁"
+    ]
+  },
+  {
+    "word": "田",
+    "meaning": "ĐIỀN",
+    "meaning_resolution": "ruộng lúa",
+    "kunyomi": [
+      "た"
+    ],
+    "onyomi": [
+      "デン"
+    ],
+    "radicals": [
+      "田"
+    ]
+  },
+  {
+    "word": "電",
+    "meaning": "ĐIỆN",
+    "meaning_resolution": "điện",
+    "kunyomi": [],
+    "onyomi": [
+      "デン"
+    ],
+    "radicals": [
+      "雨",
+      "申"
+    ]
+  },
+  {
+    "word": "気",
+    "meaning": "KHÍ",
+    "meaning_resolution": "khí, tinh thần, không khí",
+    "kunyomi": [
+      "き"
+    ],
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "radicals": [
+      "气",
+      "米"
+    ]
+  },
+  {
+    "word": "山",
+    "meaning": "SƠN",
+    "meaning_resolution": "núi",
+    "kunyomi": [
+      "やま"
+    ],
+    "onyomi": [
+      "サン",
+      "セン"
+    ],
+    "radicals": [
+      "山"
+    ]
+  },
+  {
+    "word": "中",
+    "meaning": "TRUNG",
+    "meaning_resolution": "trong, giữa",
+    "kunyomi": [
+      "なか",
+      "うち",
+      "あた.る"
+    ],
+    "onyomi": [
+      "チュウ"
+    ],
+    "radicals": [
+      "口",
+      "丨"
+    ]
+  },
+  {
+    "word": "上",
+    "meaning": "THƯỢNG",
+    "meaning_resolution": "trên, phía trên",
+    "kunyomi": [
+      "うえ",
+      "うわ-",
+      "かみ",
+      "あ.げる",
+      "あ.がる",
+      "のぼ.る",
+      "のぼ.せる",
+      "のぼ.す"
+    ],
+    "onyomi": [
+      "ジョウ",
+      "ショウ"
+    ],
+    "radicals": [
+      "ト",
+      "一"
+    ]
+  },
+  {
+    "word": "下",
+    "meaning": "HẠ",
+    "meaning_resolution": "dưới, phía dưới",
+    "kunyomi": [
+      "した",
+      "しも",
+      "もと",
+      "さ.げる",
+      "さ.がる",
+      "くだ.る",
+      "くだ.り",
+      "くだ.す",
+      "くだ.さる",
+      "お.ろす",
+      "お.りる"
+    ],
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "radicals": [
+      "一",
+      "卜"
+    ]
+  },
+  {
+    "word": "外",
+    "meaning": "NGOẠI",
+    "meaning_resolution": "ngoài, bên ngoài",
+    "kunyomi": [
+      "そと",
+      "ほか",
+      "はず.す",
+      "はず.れる"
+    ],
+    "onyomi": [
+      "ガイ",
+      "ゲ"
+    ],
+    "radicals": [
+      "夕",
+      "卜"
+    ]
+  },
+  {
+    "word": "左",
+    "meaning": "TẢ",
+    "meaning_resolution": "trái",
+    "kunyomi": [
+      "ひだり"
+    ],
+    "onyomi": [
+      "サ",
+      "シャ"
+    ],
+    "radicals": [
+      "工",
+      "丿"
+    ]
+  },
+  {
+    "word": "右",
+    "meaning": "HỮU",
+    "meaning_resolution": "phải",
+    "kunyomi": [
+      "みぎ"
+    ],
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "radicals": [
+      "口",
+      "又"
+    ]
+  },
+  {
+    "word": "大",
+    "meaning": "ĐẠI",
+    "meaning_resolution": "lớn",
+    "kunyomi": [
+      "おお-",
+      "おお.きい",
+      "おお.いに"
+    ],
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "radicals": [
+      "大"
+    ]
+  },
+  {
+    "word": "小",
+    "meaning": "TIỂU",
+    "meaning_resolution": "nhỏ",
+    "kunyomi": [
+      "ちい.さい",
+      "こ-",
+      "お-"
+    ],
+    "onyomi": [
+      "ショウ"
+    ],
+    "radicals": [
+      "小"
+    ]
+  },
+  {
+    "word": "古",
+    "meaning": "CỔ",
+    "meaning_resolution": "cũ",
+    "kunyomi": [
+      "ふる.い",
+      "ふる.す",
+      "いにしえ"
+    ],
+    "onyomi": [
+      "コ"
+    ],
+    "radicals": [
+      "口",
+      "十"
+    ]
+  },
+  {
+    "word": "高",
+    "meaning": "CAO",
+    "meaning_resolution": "cao, đắt",
+    "kunyomi": [
+      "たか.い",
+      "たか",
+      "たか.まる",
+      "たか.める"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "radicals": [
+      "高"
+    ]
+  },
+  {
+    "word": "安",
+    "meaning": "AN",
+    "meaning_resolution": "an toàn, rẻ",
+    "kunyomi": [
+      "やす.い",
+      "やす.まる",
+      "やす"
+    ],
+    "onyomi": [
+      "アン"
+    ],
+    "radicals": [
+      "宀",
+      "女"
+    ]
+  },
+  {
+    "word": "多",
+    "meaning": "ĐA",
+    "meaning_resolution": "nhiều",
+    "kunyomi": [
+      "おお.い",
+      "まさ.に",
+      "まさ.る"
+    ],
+    "onyomi": [
+      "タ"
+    ],
+    "radicals": [
+      "夕",
+      "夕"
+    ]
+  },
+  {
+    "word": "男",
+    "meaning": "NAM",
+    "meaning_resolution": "đàn ông",
+    "kunyomi": [
+      "おとこ"
+    ],
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "radicals": [
+      "田",
+      "力"
+    ]
+  },
+  {
+    "word": "女",
+    "meaning": "NỮ",
+    "meaning_resolution": "phụ nữ",
+    "kunyomi": [
+      "おんな",
+      "め"
+    ],
+    "onyomi": [
+      "ジョ",
+      "ニョ",
+      "ニョウ"
+    ],
+    "radicals": [
+      "女"
+    ]
+  },
+  {
+    "word": "子",
+    "meaning": "TỬ",
+    "meaning_resolution": "con, trẻ con",
+    "kunyomi": [
+      "こ",
+      "-こ",
+      "ね"
+    ],
+    "onyomi": [
+      "シ",
+      "ス",
+      "ツ"
+    ],
+    "radicals": [
+      "子"
+    ]
+  },
+  {
+    "word": "父",
+    "meaning": "PHỤ",
+    "meaning_resolution": "bố",
+    "kunyomi": [
+      "ちち"
+    ],
+    "onyomi": [
+      "フ"
+    ],
+    "radicals": [
+      "父"
+    ]
+  },
+  {
+    "word": "母",
+    "meaning": "MẪU",
+    "meaning_resolution": "mẹ",
+    "kunyomi": [
+      "はは"
+    ],
+    "onyomi": [
+      "ボ"
+    ],
+    "radicals": [
+      "毋"
+    ]
+  },
+  {
+    "word": "友",
+    "meaning": "HỮU",
+    "meaning_resolution": "bạn bè",
+    "kunyomi": [
+      "とも"
+    ],
+    "onyomi": [
+      "ユウ"
+    ],
+    "radicals": [
+      "又"
+    ]
+  },
+  {
+    "word": "名",
+    "meaning": "DANH",
+    "meaning_resolution": "tên",
+    "kunyomi": [
+      "な"
+    ],
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "radicals": [
+      "夕",
+      "口"
+    ]
+  },
+  {
+    "word": "音",
+    "meaning": "ÂM",
+    "meaning_resolution": "âm thanh",
+    "kunyomi": [
+      "おと",
+      "ね"
+    ],
+    "onyomi": [
+      "オン",
+      "イン"
+    ],
+    "radicals": [
+      "立",
+      "日"
+    ]
+  },
+  {
+    "word": "雨",
+    "meaning": "VŨ",
+    "meaning_resolution": "mưa",
+    "kunyomi": [
+      "あめ",
+      "あま-",
+      "-さめ"
+    ],
+    "onyomi": [
+      "ウ"
+    ],
+    "radicals": [
+      "雨"
+    ]
+  },
+  {
+    "word": "寺",
+    "meaning": "TỰ",
+    "meaning_resolution": "chùa",
+    "kunyomi": [
+      "てら"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "radicals": [
+      "士",
+      "寸"
+    ]
+  },
+  {
+    "word": "米",
+    "meaning": "MỄ",
+    "meaning_resolution": "lúa gạo, Mỹ",
+    "kunyomi": [
+      "こめ",
+      "よね"
+    ],
+    "onyomi": [
+      "ベイ",
+      "マイ"
+    ],
+    "radicals": [
+      "米"
+    ]
+  },
+  {
+    "word": "言",
+    "meaning": "NGÔN",
+    "meaning_resolution": "nói, ngôn ngữ",
+    "kunyomi": [
+      "い.う",
+      "こと"
+    ],
+    "onyomi": [
+      "ゲン",
+      "ゴン"
+    ],
+    "radicals": [
+      "言"
+    ]
+  },
+  {
+    "word": "話",
+    "meaning": "THOẠI",
+    "meaning_resolution": "nói chuyện, câu chuyện",
+    "kunyomi": [
+      "はな.す",
+      "はなし"
+    ],
+    "onyomi": [
+      "ワ"
+    ],
+    "radicals": [
+      "言",
+      "舌"
+    ]
+  },
+  {
+    "word": "力",
+    "meaning": "LỰC",
+    "meaning_resolution": "sức lực",
+    "kunyomi": [
+      "ちから"
+    ],
+    "onyomi": [
+      "リョク",
+      "リキ"
+    ],
+    "radicals": [
+      "力"
+    ]
+  },
+  {
+    "word": "出",
+    "meaning": "XUẤT",
+    "meaning_resolution": "ra, xuất hiện",
+    "kunyomi": [
+      "で.る",
+      "-で",
+      "だ.す",
+      "-だ.す",
+      "い.でる",
+      "い.だす"
+    ],
+    "onyomi": [
+      "シュツ",
+      "スイ"
+    ],
+    "radicals": [
+      "凵",
+      "山"
+    ]
+  },
+  {
+    "word": "入",
+    "meaning": "NHẬP",
+    "meaning_resolution": "vào",
+    "kunyomi": [
+      "い.る",
+      "-い.る",
+      "い.り",
+      "い.れる",
+      "-い.れ",
+      "はい.る"
+    ],
+    "onyomi": [
+      "ニュウ",
+      "ジュ"
+    ],
+    "radicals": [
+      "入"
+    ]
+  },
+  {
+    "word": "立",
+    "meaning": "LẬP",
+    "meaning_resolution": "đứng",
+    "kunyomi": [
+      "た.つ",
+      "た.ち-",
+      "た.てる"
+    ],
+    "onyomi": [
+      "リツ",
+      "リュウ"
+    ],
+    "radicals": [
+      "立"
+    ]
+  },
+  {
+    "word": "長",
+    "meaning": "TRƯỞNG",
+    "meaning_resolution": "dài, trưởng (chức vụ)",
+    "kunyomi": [
+      "なが.い",
+      "おさ"
+    ],
+    "onyomi": [
+      "チョウ"
+    ],
+    "radicals": [
+      "長"
+    ]
+  },
+  {
+    "word": "明",
+    "meaning": "MINH",
+    "meaning_resolution": "sáng, rõ ràng",
+    "kunyomi": [
+      "あ.かり",
+      "あか.るい",
+      "あか.るむ",
+      "あか.らむ",
+      "あき.らか",
+      "あ.ける",
+      "-あ.け",
+      "あ.ける",
+      "あ.けがた",
+      "あ.くる",
+      "あ.かす"
+    ],
+    "onyomi": [
+      "メイ",
+      "ミョウ",
+      "ミン"
+    ],
+    "radicals": [
+      "日",
+      "月"
+    ]
+  },
+  {
+    "word": "暗",
+    "meaning": "ÁM",
+    "meaning_resolution": "tối",
+    "kunyomi": [
+      "くら.い",
+      "くら.む",
+      "くれ"
+    ],
+    "onyomi": [
+      "アン"
+    ],
+    "radicals": [
+      "日",
+      "音"
+    ]
+  },
+  {
+    "word": "元",
+    "meaning": "NGUYÊN",
+    "meaning_resolution": "nguồn gốc, ban đầu",
+    "kunyomi": [
+      "もと"
+    ],
+    "onyomi": [
+      "ゲン",
+      "ガン"
+    ],
+    "radicals": [
+      "二",
+      "儿"
+    ]
+  },
+  {
+    "word": "好",
+    "meaning": "HẢO",
+    "meaning_resolution": "thích, tốt",
+    "kunyomi": [
+      "この.む",
+      "す.く",
+      "い.い"
+    ],
+    "onyomi": [
+      "コウ"
+    ],
+    "radicals": [
+      "女",
+      "子"
+    ]
+  },
+  {
+    "word": "足",
+    "meaning": "TÚC",
+    "meaning_resolution": "chân, đủ",
+    "kunyomi": [
+      "あし",
+      "た.りる",
+      "た.る",
+      "た.す"
+    ],
+    "onyomi": [
+      "ソク"
+    ],
+    "radicals": [
+      "足"
+    ]
+  },
+  {
+    "word": "北",
+    "meaning": "BẮC",
+    "meaning_resolution": "phía bắc",
+    "kunyomi": [
+      "きた"
+    ],
+    "onyomi": [
+      "ホク"
+    ],
+    "radicals": [
+      "北"
+    ]
+  },
+  {
+    "word": "夕",
+    "meaning": "TỊCH",
+    "meaning_resolution": "buổi tối",
+    "kunyomi": [
+      "ゆう"
+    ],
+    "onyomi": [
+      "セキ"
+    ],
+    "radicals": [
+      "夕"
+    ]
+  },
+  {
+    "word": "石",
+    "meaning": "THẠCH",
+    "meaning_resolution": "đá",
+    "kunyomi": [
+      "いし"
+    ],
+    "onyomi": [
+      "セキ",
+      "シャク",
+      "コク"
+    ],
+    "radicals": [
+      "石"
+    ]
+  },
+  {
+    "word": "東",
+    "meaning": "ĐÔNG",
+    "meaning_resolution": "phía đông",
+    "kunyomi": [
+      "ひがし"
+    ],
+    "onyomi": [
+      "トウ"
+    ],
+    "radicals": [
+      "木",
+      "日"
+    ]
+  },
+  {
+    "word": "西",
+    "meaning": "TÂY",
+    "meaning_resolution": "phía tây",
+    "kunyomi": [
+      "にし"
+    ],
+    "onyomi": [
+      "セイ",
+      "サイ",
+      "ス"
+    ],
+    "radicals": [
+      "西"
+    ]
+  },
+  {
+    "word": "南",
+    "meaning": "NAM",
+    "meaning_resolution": "phía nam",
+    "kunyomi": [
+      "みなみ"
+    ],
+    "onyomi": [
+      "ナン",
+      "ナ"
+    ],
+    "radicals": [
+      "十",
+      "口",
+      "羊"
+    ]
+  },
+  {
+    "word": "体",
+    "meaning": "THỂ",
+    "meaning_resolution": "cơ thể",
+    "kunyomi": [
+      "からだ"
+    ],
+    "onyomi": [
+      "タイ",
+      "テイ"
+    ],
+    "radicals": [
+      "人",
+      "本"
+    ]
+  },
+  {
+    "word": "耳",
+    "meaning": "NHĨ",
+    "meaning_resolution": "tai",
+    "kunyomi": [
+      "みみ"
+    ],
+    "onyomi": [
+      "ジ"
+    ],
+    "radicals": [
+      "耳"
+    ]
+  },
+  {
+    "word": "口",
+    "meaning": "KHẨU",
+    "meaning_resolution": "miệng",
+    "kunyomi": [
+      "くち"
+    ],
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "radicals": [
+      "口"
+    ]
+  },
+  {
+    "word": "鳥",
+    "meaning": "ĐIỂU",
+    "meaning_resolution": "chim",
+    "kunyomi": [
+      "とり"
+    ],
+    "onyomi": [
+      "チョウ"
+    ],
+    "radicals": [
+      "鳥"
+    ]
+  },
+  {
+    "word": "犬",
+    "meaning": "KHUYỂN",
+    "meaning_resolution": "chó",
+    "kunyomi": [
+      "いぬ"
+    ],
+    "onyomi": [
+      "ケン"
+    ],
+    "radicals": [
+      "犬"
+    ]
+  },
+  {
+    "word": "竹",
+    "meaning": "TRÚC",
+    "meaning_resolution": "tre",
+    "kunyomi": [
+      "たけ"
+    ],
+    "onyomi": [
+      "チク"
+    ],
+    "radicals": [
+      "竹"
+    ]
+  },
+  {
+    "word": "貝",
+    "meaning": "BỐI",
+    "meaning_resolution": "vỏ sò, tiền",
+    "kunyomi": [
+      "かい"
+    ],
+    "onyomi": [
+      "バイ"
+    ],
+    "radicals": [
+      "貝"
+    ]
+  },
+  {
+    "word": "林",
+    "meaning": "LÂM",
+    "meaning_resolution": "rừng (nhỏ)",
+    "kunyomi": [
+      "はやし"
+    ],
+    "onyomi": [
+      "リン"
+    ],
+    "radicals": [
+      "木",
+      "木"
+    ]
+  },
+  {
+    "word": "森",
+    "meaning": "SÂM",
+    "meaning_resolution": "rừng (lớn)",
+    "kunyomi": [
+      "もり"
+    ],
+    "onyomi": [
+      "シン"
+    ],
+    "radicals": [
+      "木",
+      "木",
+      "木"
+    ]
+  },
+  {
+    "word": "園",
+    "meaning": "VIÊN",
+    "meaning_resolution": "vườn",
+    "kunyomi": [
+      "その"
+    ],
+    "onyomi": [
+      "エン"
+    ],
+    "radicals": [
+      "囗",
+      "土",
+      "元"
+    ]
+  },
+  {
+    "word": "門",
+    "meaning": "MÔN",
+    "meaning_resolution": "cổng",
+    "kunyomi": [
+      "かど"
+    ],
+    "onyomi": [
+      "モン"
+    ],
+    "radicals": [
+      "門"
+    ]
+  },
+  {
+    "word": "岩",
+    "meaning": "NHAM",
+    "meaning_resolution": "đá lớn, vách đá",
+    "kunyomi": [
+      "いわ"
+    ],
+    "onyomi": [
+      "ガン"
+    ],
+    "radicals": [
+      "山",
+      "石"
+    ]
+  }
 ]
