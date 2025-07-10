@@ -2,17 +2,20 @@
 	import { onMount } from 'svelte';
 	import { themeChange } from 'theme-change';
 
+	let theme: string = 'retro';
+
 	// NOTE: the element that is using one of the theme attributes must be in the DOM on mount
 	onMount(() => {
 		themeChange(false);
 		// 👆 false parameter is required for svelte
+		theme = localStorage.getItem('theme') ?? 'retro';
 	});
 </script>
 
-<div class="ml-4 h-[5vh] form-control flex flex-row items-center gap-3">
+<div class="form-control ml-4 flex h-[5vh] flex-row items-center gap-3">
 	<!-- Sun icon for light mode -->
 	<svg
-		class="h-6 w-6 text-amber-600 transition-colors duration-200 dim:text-yellow-400"
+		class="dim:text-yellow-400 h-6 w-6 text-amber-600 transition-colors duration-200"
 		fill="none"
 		stroke="currentColor"
 		viewBox="0 0 24 24"
@@ -30,6 +33,7 @@
 	<label class="label cursor-pointer">
 		<input
 			type="checkbox"
+			checked={theme === 'dim'}
 			class="toggle toggle-primary"
 			data-toggle-theme="retro,dim"
 			data-act-class="toggle--active"
@@ -38,7 +42,7 @@
 
 	<!-- Moon icon for dark mode -->
 	<svg
-		class="h-6 w-6 text-gray-600 transition-colors duration-200 dim:text-gray-200"
+		class="dim:text-gray-200 h-6 w-6 text-gray-600 transition-colors duration-200"
 		fill="none"
 		stroke="currentColor"
 		viewBox="0 0 24 24"
