@@ -169,7 +169,7 @@
     "word": "働きます",
     "reading": "はたらきます",
     "meaning": "làm việc",
-    "note": "lịch sự của はたらく"
+    "note": "I"
   },
   {
     "word": "休む",
@@ -181,7 +181,7 @@
     "word": "休みます",
     "reading": "やすみます",
     "meaning": "nghỉ, nghỉ ngơi",
-    "note": "lịch sự của やすむ"
+    "note": "I"
   },
   {
     "word": "終わる",
@@ -193,7 +193,7 @@
     "word": "終わります",
     "reading": "おわります",
     "meaning": "hết, kết thúc, xong",
-    "note": "lịch sự của おわる"
+    "note": "I"
   },
   {
     "word": "起きる",
@@ -205,7 +205,7 @@
     "word": "起きます",
     "reading": "おきます",
     "meaning": "thức dậy",
-    "note": "lịch sự của おきる"
+    "note": "II"
   },
   {
     "word": "寝る",
@@ -217,7 +217,7 @@
     "word": "寝ます",
     "reading": "ねます",
     "meaning": "ngủ",
-    "note": "lịch sự của ねる"
+    "note": "II"
   },
   {
     "word": "勉強する",
@@ -229,7 +229,7 @@
     "word": "勉強します",
     "reading": "べんきょうします",
     "meaning": "học",
-    "note": "lịch sự của べんきょうする"
+    "note": "III"
   },
   {
     "word": "～から",
