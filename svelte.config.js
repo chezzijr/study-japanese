@@ -16,9 +16,8 @@ const allUnitEntries = ['/practice/n5/all']
 const vocabEntries = units.map(file => `/vocab/n5/${file.replace('.json', '')}`)
 const allVocabEntries = ['/vocab/n5/all']
 
-const kanjiLevels = fs.readdirSync('./src/lib/kanji').filter(file => !file.includes('_def')).map(file => file.replace('.json', ''))
+const kanjiLevels = fs.readdirSync('./src/lib/kanji').map(file => file.replace('.json', ''))
 const kanjiEntries = kanjiLevels.map(level => `/practice/kanji/${level}`)
-const allKanjiEntries = ['/practice/kanji/all']
 
 const grammarEntries = [
 	'/grammar/verb'
@@ -31,7 +30,6 @@ const entries = [
 	...vocabEntries,
 	...allVocabEntries,
 	...kanjiEntries,
-	...allKanjiEntries,
 	...grammarEntries,
 ]
 // console.log(entries)
