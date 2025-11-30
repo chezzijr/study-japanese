@@ -1,8 +1,18 @@
 <script lang="ts">
-	import type { Dictionary } from '$lib/types/vocab';
+	import type { Dictionary, WordDefinition } from '$lib/types/vocab';
 	import { toHiragana, toKatakana } from 'wanakana';
+	import AddToDeckModal from './flashcard/add-to-deck-modal.svelte';
 
-	let { kotobas }: { kotobas: Dictionary } = $props();
+	let { kotobas, level = '', unit = '' }: { kotobas: Dictionary; level?: string; unit?: string } = $props();
+
+	// Flashcard integration state
+	let modalOpen = $state(false);
+	let selectedWord = $state<WordDefinition | null>(null);
+
+	function openAddModal(word: WordDefinition) {
+		selectedWord = word;
+		modalOpen = true;
+	}
 
 	let searchTerm = $state('');
 
@@ -68,10 +78,13 @@
 		<table class="table table-zebra table-pin-rows text-center">
 			<thead class="text-lg">
 				<tr>
-					<th class="w-1/5">Từ</th>
-					<th class="w-1/4">Phiên âm Hiragana</th>
+					<th class="w-1/6">Từ</th>
+					<th class="w-1/5">Phiên âm Hiragana</th>
 					<th class="w-2/5">Nghĩa</th>
-					<th class="w-1/5">Ghi chú</th>
+					<th class="w-1/6">Ghi chú</th>
+					{#if level && unit}
+						<th class="w-12"></th>
+					{/if}
 				</tr>
 			</thead>
 			<tbody>
@@ -81,10 +94,24 @@
 						<td class="text-base-content/80">{kotoba.reading ?? ''}</td>
 						<td>{kotoba.meaning}</td>
 						<td class="text-base-content/60 text-sm">{kotoba.note ?? ''}</td>
+						{#if level && unit}
+							<td>
+								<button
+									type="button"
+									class="btn btn-ghost btn-xs"
+									title="Thêm vào Flashcard"
+									onclick={() => openAddModal(kotoba)}
+								>
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+										<path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+									</svg>
+								</button>
+							</td>
+						{/if}
 					</tr>
 				{:else}
 					<tr>
-						<td colspan="4" class="text-center py-8 text-base-content/50">
+						<td colspan={level && unit ? 5 : 4} class="text-center py-8 text-base-content/50">
 							Không tìm thấy kết quả cho "{searchTerm}"
 						</td>
 					</tr>
@@ -93,3 +120,13 @@
 		</table>
 	</div>
 </div>
+
+<!-- Add to Deck Modal -->
+{#if level && unit}
+	<AddToDeckModal
+		bind:open={modalOpen}
+		word={selectedWord}
+		{level}
+		{unit}
+	/>
+{/if}

@@ -45,6 +45,7 @@
 	"dependencies": {
 		"@tailwindcss/typography": "^0.5.15",
 		"furigana": "^0.19.3",
+		"idb": "^8.0.3",
 		"theme-change": "^2.5.0",
 		"wanakana": "^5.3.1"
 	}

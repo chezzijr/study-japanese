@@ -1,9 +1,26 @@
 <script lang="ts">
 	import { base } from "$app/paths";
+	import { onMount } from "svelte";
+	import { getTotalDueCount, isIndexedDBAvailable } from "$lib/flashcard";
 
 	// Get unit counts for each level
 	const n5Units = Object.keys(import.meta.glob('$lib/n5/*.json'));
 	const n4Units = Object.keys(import.meta.glob('$lib/n4/*.json'));
+
+	// Flashcard due count (loaded client-side)
+	let dueCount = $state<number | null>(null);
+	let flashcardAvailable = $state(false);
+
+	onMount(async () => {
+		if (isIndexedDBAvailable()) {
+			flashcardAvailable = true;
+			try {
+				dueCount = await getTotalDueCount();
+			} catch (e) {
+				console.error('Failed to load due count:', e);
+			}
+		}
+	});
 
 	// Extract unit numbers
 	const n5UnitNumbers = n5Units.map(f => f.split('/').pop()?.replace('.json', '') ?? '').sort((a, b) => {
@@ -138,6 +155,31 @@
 					<p class="text-base-content/70">Luyện tập chia động từ</p>
 					<div class="card-actions justify-end mt-2">
 						<a href="{base}/practice/verb" class="btn btn-accent btn-sm">Luyện tập</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Flashcard Card -->
+			<div class="card bg-base-200 shadow-md hover:shadow-lg transition-shadow">
+				<div class="card-body">
+					<h3 class="card-title">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-6 h-6 stroke-current">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+						</svg>
+						Flashcard
+					</h3>
+					<p class="text-base-content/70">Ôn tập với thẻ ghi nhớ (SM-2)</p>
+					<div class="card-actions justify-between items-center mt-2">
+						{#if flashcardAvailable && dueCount !== null}
+							{#if dueCount > 0}
+								<span class="badge badge-secondary">{dueCount} thẻ cần ôn</span>
+							{:else}
+								<span class="badge badge-success">Đã hoàn thành</span>
+							{/if}
+						{:else}
+							<span></span>
+						{/if}
+						<a href="{base}/flashcard" class="btn btn-info btn-sm">Mở</a>
 					</div>
 				</div>
 			</div>
