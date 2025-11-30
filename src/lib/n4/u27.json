@@ -1,0 +1,200 @@
+[
+  {
+    "word": "飼う",
+    "reading": "かう",
+    "meaning": "nuôi (động vật)",
+    "note": "I"
+  },
+  {
+    "word": "走る",
+    "reading": "はしる",
+    "meaning": "chạy (trên đường)",
+    "note": "I"
+  },
+  {
+    "word": "見える",
+    "reading": "みえる",
+    "meaning": "nhìn thấy",
+    "note": "II"
+  },
+  {
+    "word": "聞こえる",
+    "reading": "きこえる",
+    "meaning": "nghe thấy",
+    "note": "II"
+  },
+  {
+    "word": "出来る",
+    "reading": "できる",
+    "meaning": "được làm, được hoàn thành",
+    "note": "II"
+  },
+  {
+    "word": "開く",
+    "reading": "ひらく",
+    "meaning": "mở, tổ chức",
+    "note": "I"
+  },
+  {
+    "word": "建てる",
+    "reading": "たてる",
+    "meaning": "xây dựng",
+    "note": "II"
+  },
+  {
+    "word": "心配",
+    "reading": "しんぱい",
+    "meaning": "lo lắng"
+  },
+  {
+    "word": "ペット",
+    "reading": "ペット",
+    "meaning": "thú cưng, động vật nuôi"
+  },
+  {
+    "word": "鳥",
+    "reading": "とり",
+    "meaning": "chim"
+  },
+  {
+    "word": "声",
+    "reading": "こえ",
+    "meaning": "giọng nói, tiếng (người)"
+  },
+  {
+    "word": "波",
+    "reading": "なみ",
+    "meaning": "sóng"
+  },
+  {
+    "word": "花火",
+    "reading": "はなび",
+    "meaning": "pháo hoa"
+  },
+  {
+    "word": "道具",
+    "reading": "どうぐ",
+    "meaning": "dụng cụ"
+  },
+  {
+    "word": "家具",
+    "reading": "かぐ",
+    "meaning": "đồ gỗ trong nhà"
+  },
+  {
+    "word": "家賃",
+    "reading": "やちん",
+    "meaning": "tiền nhà"
+  },
+  {
+    "word": "通信販売",
+    "reading": "つうしんはんばい",
+    "meaning": "mua hàng qua mạng"
+  },
+  {
+    "word": "空",
+    "reading": "そら",
+    "meaning": "bầu trời"
+  },
+  {
+    "word": "クリーニング",
+    "reading": "クリーニング",
+    "meaning": "giặt là"
+  },
+  {
+    "word": "神社",
+    "reading": "じんじゃ",
+    "meaning": "đền thờ thần đạo"
+  },
+  {
+    "word": "マンション",
+    "reading": "マンション",
+    "meaning": "chung cư"
+  },
+  {
+    "word": "キッチン",
+    "reading": "キッチン",
+    "meaning": "bếp"
+  },
+  {
+    "word": "方",
+    "reading": "かた",
+    "meaning": "vị, ngài"
+  },
+  {
+    "word": "ほか",
+    "reading": "ほか",
+    "meaning": "khác"
+  },
+  {
+    "word": "はっきり",
+    "reading": "はっきり",
+    "meaning": "rõ ràng"
+  },
+  {
+    "word": "ほとんど",
+    "reading": "ほとんど",
+    "meaning": "hầu hết, hầu như"
+  },
+  {
+    "word": "いつか",
+    "reading": "いつか",
+    "meaning": "một lúc nào đó"
+  },
+  {
+    "word": "例えば",
+    "reading": "たとえば",
+    "meaning": "ví dụ"
+  },
+  {
+    "word": "昔",
+    "reading": "むかし",
+    "meaning": "ngày xưa"
+  },
+  {
+    "word": "昼間",
+    "reading": "ひるま",
+    "meaning": "thời gian ban ngày"
+  },
+  {
+    "word": "漫画",
+    "reading": "まんが",
+    "meaning": "truyện tranh"
+  },
+  {
+    "word": "大好き",
+    "reading": "だいすき",
+    "meaning": "rất thích"
+  },
+  {
+    "word": "主人公",
+    "reading": "しゅじんこう",
+    "meaning": "nhân vật chính"
+  },
+  {
+    "word": "自由に",
+    "reading": "じゆうに",
+    "meaning": "tự do, tùy thích"
+  },
+  {
+    "word": "動画",
+    "reading": "どうが",
+    "meaning": "video"
+  },
+  {
+    "word": "不思議",
+    "reading": "ふしぎ",
+    "meaning": "kỳ lạ"
+  },
+  {
+    "word": "空を飛びます",
+    "reading": "そらをとびます",
+    "meaning": "bay trên bầu trời",
+    "note": "I"
+  },
+  {
+    "word": "鳴き声",
+    "reading": "なきごえ",
+    "meaning": "tiếng kêu, tiếng hót (con vật)"
+  }
+]

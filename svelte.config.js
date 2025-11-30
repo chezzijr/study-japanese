@@ -4,17 +4,32 @@ import fs from 'fs';
 // prerender entries
 const initialEntries = [
 	'/',
-	'/practice/hiragana',
-	'/practice/katakana',
 	'/practice/verb'
 ]
 
-// list files in n5 folder
-const units = fs.readdirSync('./src/lib/n5'); // ['u1.json', 'u2.json', ...]
-const practiceUnitEntries = units.map(file => `/practice/n5/${file.replace('.json', '')}`)
-const allUnitEntries = ['/practice/n5/all']
-const vocabEntries = units.map(file => `/vocab/n5/${file.replace('.json', '')}`)
-const allVocabEntries = ['/vocab/n5/all']
+// practice routes - dynamic across all levels
+const practiceLevels = ['n1', 'n2', 'n3', 'n4', 'n5'];
+const practiceUnitEntries = practiceLevels.flatMap(level => {
+	const levelDir = `./src/lib/${level}`;
+	if (!fs.existsSync(levelDir)) return [];
+	const levelUnits = fs.readdirSync(levelDir).filter(f => f.endsWith('.json'));
+	return [
+		...levelUnits.map(file => `/practice/${level}/${file.replace('.json', '')}`),
+		`/practice/${level}/all`
+	];
+});
+
+// vocab routes - dynamic across all levels
+const vocabLevels = ['n1', 'n2', 'n3', 'n4', 'n5'];
+const vocabEntries = vocabLevels.flatMap(level => {
+	const levelDir = `./src/lib/${level}`;
+	if (!fs.existsSync(levelDir)) return [];
+	const levelUnits = fs.readdirSync(levelDir).filter(f => f.endsWith('.json'));
+	return [
+		...levelUnits.map(file => `/vocab/${level}/${file.replace('.json', '')}`),
+		`/vocab/${level}/all`
+	];
+});
 
 const kanjiLevels = fs.readdirSync('./src/lib/kanji').map(file => file.replace('.json', ''))
 const kanjiEntries = kanjiLevels.map(level => `/practice/kanji/${level}`)
@@ -26,9 +41,7 @@ const grammarEntries = [
 const entries = [
 	...initialEntries,
 	...practiceUnitEntries,
-	...allUnitEntries,
 	...vocabEntries,
-	...allVocabEntries,
 	...kanjiEntries,
 	...grammarEntries,
 ]

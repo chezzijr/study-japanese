@@ -1,0 +1,244 @@
+[
+  {
+    "word": "数える",
+    "reading": "かぞえる",
+    "meaning": "đếm",
+    "note": "II"
+  },
+  {
+    "word": "測る・量る",
+    "reading": "はかる",
+    "meaning": "đo, cân",
+    "note": "I"
+  },
+  {
+    "word": "確かめる",
+    "reading": "たしかめる",
+    "meaning": "xác nhận",
+    "note": "II"
+  },
+  {
+    "word": "合う",
+    "reading": "あう",
+    "meaning": "vừa, phù hợp (cỡ)",
+    "note": "I"
+  },
+  {
+    "word": "出発する",
+    "reading": "しゅっぱつする",
+    "meaning": "xuất phát",
+    "note": "III"
+  },
+  {
+    "word": "到着する",
+    "reading": "とうちゃくする",
+    "meaning": "đến nơi",
+    "note": "III"
+  },
+  {
+    "word": "酔う",
+    "reading": "よう",
+    "meaning": "say (rượu)",
+    "note": "I"
+  },
+  {
+    "word": "うまくいく",
+    "reading": "うまくいく",
+    "meaning": "thuận lợi",
+    "note": "I"
+  },
+  {
+    "word": "相談する",
+    "reading": "そうだんする",
+    "meaning": "nói chuyện, thảo luận",
+    "note": "III"
+  },
+  {
+    "word": "動かす",
+    "reading": "うごかす",
+    "meaning": "di chuyển",
+    "note": "I"
+  },
+  {
+    "word": "コンテスト",
+    "reading": "コンテスト",
+    "meaning": "cuộc thi"
+  },
+  {
+    "word": "天気予報",
+    "reading": "てんきよほう",
+    "meaning": "dự báo thời tiết"
+  },
+  {
+    "word": "爆弾",
+    "reading": "ばくだん",
+    "meaning": "bom"
+  },
+  {
+    "word": "急に",
+    "reading": "きゅうに",
+    "meaning": "đột nhiên"
+  },
+  {
+    "word": "発表会",
+    "reading": "はっぴょうかい",
+    "meaning": "buổi phát biểu"
+  },
+  {
+    "word": "大会",
+    "reading": "たいかい",
+    "meaning": "cuộc thi, hội thi"
+  },
+  {
+    "word": "表",
+    "reading": "おもて",
+    "meaning": "mặt phải, mặt trước"
+  },
+  {
+    "word": "裏",
+    "reading": "うら",
+    "meaning": "mặt trái, mặt sau"
+  },
+  {
+    "word": "間違い",
+    "reading": "まちがい",
+    "meaning": "sai sót"
+  },
+  {
+    "word": "傷",
+    "reading": "きず",
+    "meaning": "vết xước, vết trầy, vết thương"
+  },
+  {
+    "word": "ズボン",
+    "reading": "ズボン",
+    "meaning": "quần"
+  },
+  {
+    "word": "年寄り",
+    "reading": "としより",
+    "meaning": "người già, người cao tuổi"
+  },
+  {
+    "word": "長さ",
+    "reading": "ながさ",
+    "meaning": "chiều dài"
+  },
+  {
+    "word": "重さ",
+    "reading": "おもさ",
+    "meaning": "trọng lượng"
+  },
+  {
+    "word": "高さ",
+    "reading": "たかさ",
+    "meaning": "chiều cao"
+  },
+  {
+    "word": "大きさ",
+    "reading": "おおきさ",
+    "meaning": "độ lớn, kích thước"
+  },
+  {
+    "word": "成績",
+    "reading": "せいせき",
+    "meaning": "thành tích"
+  },
+  {
+    "word": "事件",
+    "reading": "じけん",
+    "meaning": "vụ án"
+  },
+  {
+    "word": "犯人",
+    "reading": "はんにん",
+    "meaning": "tội phạm"
+  },
+  {
+    "word": "ところで",
+    "reading": "ところで",
+    "meaning": "nhân tiện"
+  },
+  {
+    "word": "～便",
+    "reading": "～びん",
+    "meaning": "chuyến ~"
+  },
+  {
+    "word": "～個",
+    "reading": "～こ",
+    "meaning": "cái, chiếc"
+  },
+  {
+    "word": "～キロ",
+    "reading": "～キロ",
+    "meaning": "kilo, cân"
+  },
+  {
+    "word": "～グラム",
+    "reading": "～グラム",
+    "meaning": "gram"
+  },
+  {
+    "word": "～ミリ",
+    "reading": "～ミリ",
+    "meaning": "mi-li-mét"
+  },
+  {
+    "word": "～以上",
+    "reading": "～いじょう",
+    "meaning": "trên ~"
+  },
+  {
+    "word": "～以下",
+    "reading": "～いか",
+    "meaning": "dưới ~"
+  },
+  {
+    "word": "忘年会",
+    "reading": "ぼうねんかい",
+    "meaning": "tiệc cuối năm"
+  },
+  {
+    "word": "新年会",
+    "reading": "しんねんかい",
+    "meaning": "tiệc đầu năm"
+  },
+  {
+    "word": "二次会",
+    "reading": "にじかい",
+    "meaning": "tăng hai"
+  },
+  {
+    "word": "手に入れる",
+    "reading": "てにいれる",
+    "meaning": "có được, thu được",
+    "note": "II"
+  },
+  {
+    "word": "様子",
+    "reading": "ようす",
+    "meaning": "tình hình, tình trạng, dáng vẻ"
+  },
+  {
+    "word": "噂",
+    "reading": "うわさ",
+    "meaning": "lời đồn"
+  },
+  {
+    "word": "美しい",
+    "reading": "うつくしい",
+    "meaning": "xinh đẹp"
+  },
+  {
+    "word": "オートバイ",
+    "reading": "オートバイ",
+    "meaning": "mô tô phân khối lớn"
+  },
+  {
+    "word": "積む",
+    "reading": "つむ",
+    "meaning": "chồng lên, tích lũy",
+    "note": "I"
+  }
+]

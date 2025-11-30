@@ -2,11 +2,10 @@
 	let { data } = $props();
 
 	import MCQ from '$lib/components/mcq.svelte';
-
-	import type { DictionaryV2 } from '$lib/types/vocab';
+	import type { Dictionary } from '$lib/types/vocab';
 
 	const u = data.unit;
-	const kotobas = data.json as DictionaryV2;
+	const kotobas = data.json as Dictionary;
 </script>
 
 <svelte:head>

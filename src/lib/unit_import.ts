@@ -1,19 +1,29 @@
 import type { Dictionary } from '$lib/types/vocab';
 import { error } from '@sveltejs/kit';
 
-export default async function importUnit(s: string) {
+const LEVEL_IMPORTS = {
+  n1: import.meta.glob<{ default: Dictionary }>('$lib/n1/*.json'),
+  n2: import.meta.glob<{ default: Dictionary }>('$lib/n2/*.json'),
+  n3: import.meta.glob<{ default: Dictionary }>('$lib/n3/*.json'),
+  n4: import.meta.glob<{ default: Dictionary }>('$lib/n4/*.json'),
+  n5: import.meta.glob<{ default: Dictionary }>('$lib/n5/*.json'),
+};
+
+type Level = keyof typeof LEVEL_IMPORTS;
+
+export default async function importUnit(s: string, level: Level = 'n5') {
   // s in form of all, u1, u2, u3-u8, u4-u8, u5-u8, etc.
   // check if s not in above format
   if (!/^(all|u\d+(-u\d+)?)$/.test(s)) {
     throw new Error('Invalid unit format: ' + s);
   }
 
-  const unitImportObject = import.meta.glob('$lib/n5/*.json');
+  const unitImportObject = LEVEL_IMPORTS[level];
   const unitFiles = Object.keys(unitImportObject);
   // if select all units
   if (s === "all") {
     const allUnits = await Promise.all(unitFiles.map(async (unitFile) => {
-      return (await unitImportObject[unitFile]() as any).default as Dictionary;
+      return (await unitImportObject[unitFile]()).default;
     }));
     // combine all units into one json
     const allUnitsJson = allUnits.reduce((acc, json) => {
@@ -39,7 +49,7 @@ export default async function importUnit(s: string) {
       }
       const u = fileName.split('.').shift() as string;
       if (units.includes(u)) {
-        const json = await unitImportObject[unitFile]() as any;
+        const json = await unitImportObject[unitFile]();
         return [
           ...await acc,
           ...json.default
@@ -62,7 +72,7 @@ export default async function importUnit(s: string) {
       if (u === s) {
         return {
           unit: s,
-          json: (await unitImportObject[unitFile]() as any).default as Dictionary
+          json: (await unitImportObject[unitFile]()).default
         };
       }
     }

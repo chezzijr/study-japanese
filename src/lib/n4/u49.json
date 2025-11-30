@@ -1,0 +1,139 @@
+[
+  {
+    "word": "利用する",
+    "reading": "りようする",
+    "meaning": "sử dụng",
+    "note": "III"
+  },
+  {
+    "word": "勤める",
+    "reading": "つとめる",
+    "meaning": "làm việc (ở công ty)",
+    "note": "II"
+  },
+  {
+    "word": "開発する",
+    "reading": "かいはつする",
+    "meaning": "phát triển",
+    "note": "III"
+  },
+  {
+    "word": "掛ける",
+    "reading": "かける",
+    "meaning": "ngồi xuống (ghế)",
+    "note": "II"
+  },
+  {
+    "word": "目指す",
+    "reading": "めざす",
+    "meaning": "nhắm đến, hướng đến",
+    "note": "I"
+  },
+  {
+    "word": "過ごす",
+    "reading": "すごす",
+    "meaning": "trải qua",
+    "note": "I"
+  },
+  {
+    "word": "いらっしゃる",
+    "reading": "いらっしゃる",
+    "meaning": "ở, đi, đến (kính ngữ của いる、行く、来る)",
+    "note": "I"
+  },
+  {
+    "word": "召し上がる",
+    "reading": "めしあがる",
+    "meaning": "ăn uống (kính ngữ của たべる、のむ)",
+    "note": "I"
+  },
+  {
+    "word": "おっしゃる",
+    "reading": "おっしゃる",
+    "meaning": "nói (kính ngữ của 言う)",
+    "note": "I"
+  },
+  {
+    "word": "なさる",
+    "reading": "なさる",
+    "meaning": "làm (kính ngữ của する)",
+    "note": "I"
+  },
+  {
+    "word": "ご覧になる",
+    "reading": "ごらんになる",
+    "meaning": "xem (kính ngữ của 見る)",
+    "note": "I"
+  },
+  {
+    "word": "ご存知です",
+    "reading": "ごぞんじです",
+    "meaning": "biết (kính ngữ của している)"
+  },
+  {
+    "word": "講演会",
+    "reading": "こうえんかい",
+    "meaning": "buổi thuyết trình, diễn thuyết"
+  },
+  {
+    "word": "医学部",
+    "reading": "いがくぶ",
+    "meaning": "Khoa Y"
+  },
+  {
+    "word": "細胞",
+    "reading": "さいぼう",
+    "meaning": "tế bào"
+  },
+  {
+    "word": "旅館",
+    "reading": "りょかん",
+    "meaning": "nhà trọ, lữ quán"
+  },
+  {
+    "word": "経歴",
+    "reading": "けいれき",
+    "meaning": "quá trình làm việc, lý lịch việc làm"
+  },
+  {
+    "word": "バス停",
+    "reading": "バスてい",
+    "meaning": "trạm xe bus"
+  },
+  {
+    "word": "奥様",
+    "reading": "おくさま",
+    "meaning": "vợ của người khác (kính ngữ của おくさん)"
+  },
+  {
+    "word": "たまに",
+    "reading": "たまに",
+    "meaning": "thi thoảng"
+  },
+  {
+    "word": "どなたでも",
+    "reading": "どなたでも",
+    "meaning": "vị nào cũng (kính ngữ của だれでも)"
+  },
+  {
+    "word": "進む",
+    "reading": "すすむ",
+    "meaning": "tiến lên; tiến triển",
+    "note": "I"
+  },
+  {
+    "word": "マウス",
+    "reading": "マウス",
+    "meaning": "chuột"
+  },
+  {
+    "word": "ノーベル賞",
+    "reading": "ノーベルしょう",
+    "meaning": "giải Nobel"
+  },
+  {
+    "word": "受賞",
+    "reading": "じゅしょう",
+    "meaning": "nhận giải"
+  }
+]

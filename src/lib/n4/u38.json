@@ -1,0 +1,236 @@
+[
+  {
+    "word": "参加する",
+    "reading": "さんかする",
+    "meaning": "tham gia (bữa tiệc)",
+    "note": "III"
+  },
+  {
+    "word": "育てる",
+    "reading": "そだてる",
+    "meaning": "mắng",
+    "note": "II"
+  },
+  {
+    "word": "誘う",
+    "reading": "さそう",
+    "meaning": "mời, rủ",
+    "note": "I"
+  },
+  {
+    "word": "招待する",
+    "reading": "しょうたいする",
+    "meaning": "mời",
+    "note": "III"
+  },
+  {
+    "word": "頼む",
+    "reading": "たのむ",
+    "meaning": "chăm sóc, nuôi dưỡng",
+    "note": "I"
+  },
+  {
+    "word": "運ぶ",
+    "reading": "はこぶ",
+    "meaning": "vận chuyển",
+    "note": "I"
+  },
+  {
+    "word": "入院する",
+    "reading": "にゅういんする",
+    "meaning": "nhập viện",
+    "note": "III"
+  },
+  {
+    "word": "退院する",
+    "reading": "たいいんする",
+    "meaning": "xuất viện",
+    "note": "III"
+  },
+  {
+    "word": "整理する",
+    "reading": "せいりする",
+    "meaning": "chỉnh sửa, sắp xếp",
+    "note": "III"
+  },
+  {
+    "word": "入れる",
+    "reading": "いれる",
+    "meaning": "bật (nguồn điện)",
+    "note": "II"
+  },
+  {
+    "word": "切る",
+    "reading": "きる",
+    "meaning": "tắt (nguồn điện)",
+    "note": "I"
+  },
+  {
+    "word": "掛ける",
+    "reading": "かける",
+    "meaning": "khóa (ổ khóa)",
+    "note": "II"
+  },
+  {
+    "word": "つく",
+    "reading": "つく",
+    "meaning": "nói dối",
+    "note": "I"
+  },
+  {
+    "word": "気持ちがいい",
+    "reading": "きもちがいい",
+    "meaning": "tâm trạng sảng khoái, cảm thấy dễ chịu"
+  },
+  {
+    "word": "気持ちが悪い",
+    "reading": "きもちがわるい",
+    "meaning": "tâm trạng không tốt, cảm thấy khó chịu"
+  },
+  {
+    "word": "赤ちゃん",
+    "reading": "あかちゃん",
+    "meaning": "em bé"
+  },
+  {
+    "word": "小学せい",
+    "reading": "しょうがくせい",
+    "meaning": "học sinh tiểu học"
+  },
+  {
+    "word": "中学生",
+    "reading": "ちゅうがくせい",
+    "meaning": "học sinh cấp 2"
+  },
+  {
+    "word": "高校生",
+    "reading": "こうこうせい",
+    "meaning": "học sinh cấp 3"
+  },
+  {
+    "word": "小学校",
+    "reading": "しょうがっこう",
+    "meaning": "trường tiểu học"
+  },
+  {
+    "word": "中学校",
+    "reading": "ちゅうがっこう",
+    "meaning": "trường cấp hai"
+  },
+  {
+    "word": "海岸",
+    "reading": "かいがん",
+    "meaning": "bờ biển"
+  },
+  {
+    "word": "工場",
+    "reading": "こうじょう",
+    "meaning": "nhà máy"
+  },
+  {
+    "word": "指輪",
+    "reading": "ゆびわ",
+    "meaning": "nhẫn"
+  },
+  {
+    "word": "電源",
+    "reading": "でんげん",
+    "meaning": "nguồn điện"
+  },
+  {
+    "word": "習慣",
+    "reading": "しゅうかん",
+    "meaning": "thói quen"
+  },
+  {
+    "word": "一昨年",
+    "reading": "おととし",
+    "meaning": "năm kia"
+  },
+  {
+    "word": "大きい",
+    "reading": "おおきい",
+    "meaning": "lớn, to"
+  },
+  {
+    "word": "小さい",
+    "reading": "ちいさい",
+    "meaning": "bé, nhỏ"
+  },
+  {
+    "word": "いけない",
+    "reading": "いけない",
+    "meaning": "không được rồi"
+  },
+  {
+    "word": "お先に",
+    "reading": "おさきに",
+    "meaning": "tôi xin phép về trước"
+  },
+  {
+    "word": "研究室",
+    "reading": "けんきゅうしつ",
+    "meaning": "phòng nghiên cứu"
+  },
+  {
+    "word": "きちんと",
+    "reading": "きちんと",
+    "meaning": "ngay ngắn, cẩn thận"
+  },
+  {
+    "word": "方法",
+    "reading": "ほうほう",
+    "meaning": "phương pháp"
+  },
+  {
+    "word": "双子",
+    "reading": "ふたご",
+    "meaning": "sinh đôi"
+  },
+  {
+    "word": "姉妹",
+    "reading": "しまい",
+    "meaning": "chị em"
+  },
+  {
+    "word": "性格",
+    "reading": "せいかく",
+    "meaning": "tính cách"
+  },
+  {
+    "word": "気が強い",
+    "reading": "きがつよい",
+    "meaning": "tính cách mạnh mẽ"
+  },
+  {
+    "word": "年齢",
+    "reading": "ねんれい",
+    "meaning": "tuổi tác"
+  },
+  {
+    "word": "仕方",
+    "reading": "しかた",
+    "meaning": "cách làm"
+  },
+  {
+    "word": "バレンタインデー",
+    "reading": "バレンタインデー",
+    "meaning": "Ngày lễ tình yêu (Valentine)"
+  },
+  {
+    "word": "オリンピック",
+    "reading": "オリンピック",
+    "meaning": "Olympic"
+  },
+  {
+    "word": "得意",
+    "reading": "とくい",
+    "meaning": "giỏi, mạnh"
+  },
+  {
+    "word": "似てる",
+    "reading": "にてる",
+    "meaning": "giống nhau",
+    "note": "II"
+  }
+]

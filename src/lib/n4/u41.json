@@ -1,0 +1,271 @@
+[
+  {
+    "word": "頂く",
+    "reading": "いただく",
+    "meaning": "nhận (khiêm nhường ngữ của もらう)",
+    "note": "I"
+  },
+  {
+    "word": "下さる",
+    "reading": "くださる",
+    "meaning": "cho tôi (kính ngữ của くれる)",
+    "note": "I"
+  },
+  {
+    "word": "やる",
+    "reading": "やる",
+    "meaning": "cho (dùng với người kém tuổi, động vật, thực vật)",
+    "note": "I"
+  },
+  {
+    "word": "上げる",
+    "reading": "あげる",
+    "meaning": "tăng",
+    "note": "II"
+  },
+  {
+    "word": "下げる",
+    "reading": "さげる",
+    "meaning": "giảm",
+    "note": "II"
+  },
+  {
+    "word": "親切にする",
+    "reading": "しんせつにする",
+    "meaning": "giúp đỡ, đối xử thân thiện",
+    "note": "III"
+  },
+  {
+    "word": "いじめる",
+    "reading": "いじめる",
+    "meaning": "bắt nạt",
+    "note": "II"
+  },
+  {
+    "word": "助ける",
+    "reading": "たすける",
+    "meaning": "giúp, giúp đỡ",
+    "note": "II"
+  },
+  {
+    "word": "可愛い",
+    "reading": "かわいい",
+    "meaning": "dễ thương"
+  },
+  {
+    "word": "珍しい",
+    "reading": "めずらしい",
+    "meaning": "hiếm"
+  },
+  {
+    "word": "お祝い",
+    "reading": "おいわい",
+    "meaning": "chúc mừng, quà mừng"
+  },
+  {
+    "word": "お年玉",
+    "reading": "おとしだま",
+    "meaning": "tiền mừng tuổi"
+  },
+  {
+    "word": "興味",
+    "reading": "きょうみ",
+    "meaning": "có hứng thú, quan tâm đến N"
+  },
+  {
+    "word": "情報",
+    "reading": "じょうほう",
+    "meaning": "thông tin"
+  },
+  {
+    "word": "文法",
+    "reading": "ぶんぽう",
+    "meaning": "ngữ pháp"
+  },
+  {
+    "word": "発音",
+    "reading": "はつおん",
+    "meaning": "phát âm"
+  },
+  {
+    "word": "猿",
+    "reading": "さる",
+    "meaning": "con khỉ"
+  },
+  {
+    "word": "餌",
+    "reading": "えさ",
+    "meaning": "thức ăn (cho động vật)"
+  },
+  {
+    "word": "おもちゃ",
+    "reading": "おもちゃ",
+    "meaning": "đồ chơi"
+  },
+  {
+    "word": "絵本",
+    "reading": "えほん",
+    "meaning": "sách tranh"
+  },
+  {
+    "word": "絵はがき",
+    "reading": "えはがき",
+    "meaning": "bưu thiếp tranh, bưu thiếp ảnh"
+  },
+  {
+    "word": "ドライバー",
+    "reading": "ドライバー",
+    "meaning": "tuốc-nơ-vít"
+  },
+  {
+    "word": "ハンカチ",
+    "reading": "ハンカチ",
+    "meaning": "khăn tay"
+  },
+  {
+    "word": "靴下",
+    "reading": "くつした",
+    "meaning": "tất chân"
+  },
+  {
+    "word": "手袋",
+    "reading": "てぶくろ",
+    "meaning": "găng tay"
+  },
+  {
+    "word": "幼稚園",
+    "reading": "ようちえん",
+    "meaning": "trường mầm non"
+  },
+  {
+    "word": "暖房",
+    "reading": "だんぼう",
+    "meaning": "máy sưởi"
+  },
+  {
+    "word": "冷房",
+    "reading": "れいぼう",
+    "meaning": "máy lạnh"
+  },
+  {
+    "word": "温度",
+    "reading": "おんど",
+    "meaning": "nhiệt độ"
+  },
+  {
+    "word": "祖父",
+    "reading": "そふ",
+    "meaning": "ông (của mình)"
+  },
+  {
+    "word": "祖母",
+    "reading": "そぼ",
+    "meaning": "bà (của mình)"
+  },
+  {
+    "word": "孫",
+    "reading": "まご",
+    "meaning": "cháu (của mình)"
+  },
+  {
+    "word": "お孫さん",
+    "reading": "おまごさん",
+    "meaning": "cháu (của người khác)"
+  },
+  {
+    "word": "伯父",
+    "reading": "おじ",
+    "meaning": "chú, bác (của mình)"
+  },
+  {
+    "word": "伯父さん",
+    "reading": "おじさん",
+    "meaning": "chú, bác (của người khác)"
+  },
+  {
+    "word": "伯母",
+    "reading": "おば",
+    "meaning": "cô, dì, bác (của mình)"
+  },
+  {
+    "word": "伯母さん",
+    "reading": "おばさん",
+    "meaning": "cô, dì, bác (của người khác)"
+  },
+  {
+    "word": "管理人",
+    "reading": "かんりにん",
+    "meaning": "người quản lý"
+  },
+  {
+    "word": "この間",
+    "reading": "このあいだ",
+    "meaning": "dợt vừa rồi"
+  },
+  {
+    "word": "一言",
+    "reading": "ひとこと",
+    "meaning": "đôi lời"
+  },
+  {
+    "word": "お宅",
+    "reading": "おたく",
+    "meaning": "nhà (kính ngữ của うち, いえ)"
+  },
+  {
+    "word": "中身",
+    "reading": "なかみ",
+    "meaning": "bên trong, nội dung"
+  },
+  {
+    "word": "真っ白",
+    "reading": "まっしろ",
+    "meaning": "trắng toát"
+  },
+  {
+    "word": "素敵な",
+    "reading": "すてきな",
+    "meaning": "tuyệt vời"
+  },
+  {
+    "word": "上司",
+    "reading": "じょうし",
+    "meaning": "cấp trên"
+  },
+  {
+    "word": "アルバイト",
+    "reading": "アルバイト",
+    "meaning": "làm thêm"
+  },
+  {
+    "word": "ご馳走",
+    "reading": "ごちそう",
+    "meaning": "khao, chiêu đãi"
+  },
+  {
+    "word": "亀",
+    "reading": "かめ",
+    "meaning": "con rùa"
+  },
+  {
+    "word": "お姫様",
+    "reading": "おひめさま",
+    "meaning": "công chúa"
+  },
+  {
+    "word": "暮らす",
+    "reading": "くらす",
+    "meaning": "sinh sống",
+    "note": "I"
+  },
+  {
+    "word": "陸",
+    "reading": "りく",
+    "meaning": "đất liền"
+  },
+  {
+    "word": "煙",
+    "reading": "けむり",
+    "meaning": "khói"
+  }
+]
