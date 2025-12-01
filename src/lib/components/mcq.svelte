@@ -106,18 +106,20 @@
 	</div>
 {/each}
 <main class="flex h-[95vh] w-screen flex-col items-center justify-center gap-10">
-	{#if question.type === 'kotoba-to-meaning'}
-		Nghĩa của {question.answer.word} là:
-	{:else}
-		"{question.answer.meaning}" trong tiếng Nhật là:
-	{/if}
+	<p class="text-2xl">
+		{#if question.type === 'kotoba-to-meaning'}
+			Nghĩa của <Furigana text={question.answer.word} reading={question.answer.reading} /> là:
+		{:else}
+			"{question.answer.meaning}" trong tiếng Nhật là:
+		{/if}
+	</p>
 	<section class="grid w-[60%] grid-cols-2 gap-4">
 		{#each question.options as opt, i}
-			<button class={getBtnClass(i)} onclick={(e) => handleChoice(e, opt)}>
+			<button class="{getBtnClass(i)} text-xl btn-lg" onclick={(e) => handleChoice(e, opt)}>
 				{#if question.type === 'kotoba-to-meaning'}
 					{opt.meaning}
 				{:else}
-					{opt.word}
+					<Furigana text={opt.word} reading={opt.reading} />
 				{/if}
 			</button>
 		{/each}
