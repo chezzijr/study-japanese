@@ -126,18 +126,18 @@
 
 	<!-- Preview -->
 	{#if front || back}
-		<div class="bg-base-200 p-4 rounded-lg">
-			<div class="text-sm text-base-content/60 mb-2">Xem trước:</div>
+		<div class="rounded-lg bg-base-200 p-4">
+			<div class="mb-2 text-sm text-base-content/60">Xem trước:</div>
 			<div class="flex gap-4">
-				<div class="flex-1 p-3 bg-base-100 rounded text-center">
-					<div class="text-xs text-base-content/50 mb-1">Trước</div>
+				<div class="flex-1 rounded bg-base-100 p-3 text-center">
+					<div class="mb-1 text-xs text-base-content/50">Trước</div>
 					{#if frontReading}
 						<div class="text-sm text-base-content/60">{frontReading}</div>
 					{/if}
 					<div class="text-lg font-medium">{front || '...'}</div>
 				</div>
-				<div class="flex-1 p-3 bg-primary text-primary-content rounded text-center">
-					<div class="text-xs opacity-60 mb-1">Sau</div>
+				<div class="flex-1 rounded bg-primary p-3 text-center text-primary-content">
+					<div class="mb-1 text-xs opacity-60">Sau</div>
 					<div class="text-lg font-medium">{back || '...'}</div>
 				</div>
 			</div>
@@ -146,9 +146,7 @@
 
 	<!-- Actions -->
 	<div class="flex justify-end gap-2 pt-4">
-		<button type="button" class="btn btn-ghost" onclick={onCancel}>
-			Hủy
-		</button>
+		<button type="button" class="btn btn-ghost" onclick={onCancel}> Hủy </button>
 		<button type="submit" class="btn btn-primary" disabled={!isValid}>
 			{card ? 'Lưu thay đổi' : 'Thêm thẻ'}
 		</button>

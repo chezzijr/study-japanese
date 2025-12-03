@@ -73,13 +73,11 @@
 <svelte:window onkeydown={handleKeydown} />
 
 <div class="rating-buttons w-full">
-	<div class="mb-2 text-center text-sm text-base-content/60">
-		Đánh giá (phím 1-4)
-	</div>
+	<div class="mb-2 text-center text-sm text-base-content/60">Đánh giá (phím 1-4)</div>
 	<div class="grid grid-cols-4 gap-2">
 		{#each buttons as btn}
 			<button
-				class="btn {btn.class} btn-outline flex flex-col gap-1 h-auto py-3"
+				class="btn {btn.class} btn-outline flex h-auto flex-col gap-1 py-3"
 				{disabled}
 				onclick={() => handleClick(btn.rating)}
 				title={btn.description}

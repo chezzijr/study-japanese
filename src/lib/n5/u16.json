@@ -1,231 +1,231 @@
 [
-  {
-    "word": "強い",
-    "reading": "つよい",
-    "meaning": "mạnh"
-  },
-  {
-    "word": "弱い",
-    "reading": "よわい",
-    "meaning": "yếu"
-  },
-  {
-    "word": "若い",
-    "reading": "わかい",
-    "meaning": "trẻ"
-  },
-  {
-    "word": "頭がいい",
-    "reading": "あたまがいい",
-    "meaning": "thông minh"
-  },
-  {
-    "word": "髪",
-    "reading": "かみ",
-    "meaning": "tóc"
-  },
-  {
-    "word": "顔",
-    "reading": "かお",
-    "meaning": "mặt"
-  },
-  {
-    "word": "口",
-    "reading": "くち",
-    "meaning": "miệng"
-  },
-  {
-    "word": "耳",
-    "reading": "みみ",
-    "meaning": "tai"
-  },
-  {
-    "word": "目",
-    "reading": "め",
-    "meaning": "mắt"
-  },
-  {
-    "word": "足",
-    "reading": "あし",
-    "meaning": "chân"
-  },
-  {
-    "word": "湖",
-    "reading": "みずうみ",
-    "meaning": "hồ"
-  },
-  {
-    "word": "ボタン",
-    "meaning": "nút, cúc, khuy"
-  },
-  {
-    "word": "ジョギング",
-    "meaning": "việc chạy bộ"
-  },
-  {
-    "word": "シャワー",
-    "meaning": "vòi hoa sen"
-  },
-  {
-    "word": "風呂",
-    "reading": "[お]ふろ",
-    "meaning": "bồn tắm"
-  },
-  {
-    "word": "確認",
-    "reading": "かくにん",
-    "meaning": "sự xác nhận, sự kiểm tra",
-    "note": "[~します: xác nhận]"
-  },
-  {
-    "word": "どうやって",
-    "meaning": "làm thế nào~"
-  },
-  {
-    "word": "どの～",
-    "meaning": "cái nào ~",
-    "note": "dùng với trường hợp từ ba thứ trở lên"
-  },
-  {
-    "word": "出す",
-    "reading": "[お金を～]だす",
-    "meaning": "lấy ra, rút [tiền]",
-    "note": "I"
-  },
-  {
-    "word": "出します",
-    "reading": "[お金を～]だします",
-    "meaning": "lấy ra, rút [tiền]",
-    "note": "I"
-  },
-  {
-    "word": "押す",
-    "reading": "[ボタンを～]おす",
-    "meaning": "bấm, ấn [nút]",
-    "note": "I"
-  },
-  {
-    "word": "押します",
-    "reading": "[ボタンを～]おします",
-    "meaning": "bấm, ấn [nút]",
-    "note": "I"
-  },
-  {
-    "word": "乗る",
-    "reading": "[電車に～]のる",
-    "meaning": "đi, lên [tàu]",
-    "note": "I"
-  },
-  {
-    "word": "乗ります",
-    "reading": "[電車に～]のります",
-    "meaning": "đi, lên [tàu]",
-    "note": "I"
-  },
-  {
-    "word": "入る",
-    "reading": "[大学に～]はいる",
-    "meaning": "vào, nhập học [đại học]",
-    "note": "I"
-  },
-  {
-    "word": "入ります",
-    "reading": "[大学に～]はいります",
-    "meaning": "vào, nhập học [đại học]",
-    "note": "I"
-  },
-  {
-    "word": "出る",
-    "reading": "[大学を～]でる",
-    "meaning": "ra, tốt nghiệp [đại học]",
-    "note": "II"
-  },
-  {
-    "word": "出ます",
-    "reading": "[大学を～]でます",
-    "meaning": "ra, tốt nghiệp [đại học]",
-    "note": "II"
-  },
-  {
-    "word": "乗り換える",
-    "reading": "[電車を～]のりかえる",
-    "meaning": "chuyển, đổi [tàu]",
-    "note": "II"
-  },
-  {
-    "word": "乗り換えます",
-    "reading": "[電車を～]のりかえます",
-    "meaning": "chuyển, đổi [tàu]",
-    "note": "II"
-  },
-  {
-    "word": "浴びる",
-    "reading": "[シャワーを～]あびる",
-    "meaning": "tắm [vòi hoa sen]",
-    "note": "II"
-  },
-  {
-    "word": "浴びます",
-    "reading": "[シャワーを～]あびます",
-    "meaning": "tắm [vòi hoa sen]",
-    "note": "II"
-  },
-  {
-    "word": "入れる",
-    "reading": "いれる",
-    "meaning": "cho vào, bỏ vào",
-    "note": "II"
-  },
-  {
-    "word": "入れます",
-    "reading": "いれます",
-    "meaning": "cho vào, bỏ vào",
-    "note": "II"
-  },
-  {
-    "word": "降りる",
-    "reading": "[電車を～]おりる",
-    "meaning": "xuống [tàu]",
-    "note": "II"
-  },
-  {
-    "word": "降ります",
-    "reading": "[電車を～]おります",
-    "meaning": "xuống [tàu]",
-    "note": "II"
-  },
-  {
-    "word": "まず",
-    "meaning": "trước hết, đầu tiên"
-  },
-  {
-    "word": "初めに",
-    "reading": "はじめに",
-    "meaning": "ban đầu"
-  },
-  {
-    "word": "次に",
-    "reading": "つぎに",
-    "meaning": "tiếp theo"
-  },
-  {
-    "word": "磨きます",
-    "reading": "みがきます",
-    "meaning": "Đánh, mài"
-  },
-  {
-    "word": "選びます",
-    "reading": "えらびます",
-    "meaning": "Chọn lựa"
-  },
-  {
-    "word": "お寺",
-    "reading": "おてら",
-    "meaning": "Chùa"
-  },
-  {
-    "word": "神社",
-    "reading": "じんじゃ",
-    "meaning": "Đền thờ thần đạo"
-  }
+	{
+		"word": "強い",
+		"reading": "つよい",
+		"meaning": "mạnh"
+	},
+	{
+		"word": "弱い",
+		"reading": "よわい",
+		"meaning": "yếu"
+	},
+	{
+		"word": "若い",
+		"reading": "わかい",
+		"meaning": "trẻ"
+	},
+	{
+		"word": "頭がいい",
+		"reading": "あたまがいい",
+		"meaning": "thông minh"
+	},
+	{
+		"word": "髪",
+		"reading": "かみ",
+		"meaning": "tóc"
+	},
+	{
+		"word": "顔",
+		"reading": "かお",
+		"meaning": "mặt"
+	},
+	{
+		"word": "口",
+		"reading": "くち",
+		"meaning": "miệng"
+	},
+	{
+		"word": "耳",
+		"reading": "みみ",
+		"meaning": "tai"
+	},
+	{
+		"word": "目",
+		"reading": "め",
+		"meaning": "mắt"
+	},
+	{
+		"word": "足",
+		"reading": "あし",
+		"meaning": "chân"
+	},
+	{
+		"word": "湖",
+		"reading": "みずうみ",
+		"meaning": "hồ"
+	},
+	{
+		"word": "ボタン",
+		"meaning": "nút, cúc, khuy"
+	},
+	{
+		"word": "ジョギング",
+		"meaning": "việc chạy bộ"
+	},
+	{
+		"word": "シャワー",
+		"meaning": "vòi hoa sen"
+	},
+	{
+		"word": "風呂",
+		"reading": "[お]ふろ",
+		"meaning": "bồn tắm"
+	},
+	{
+		"word": "確認",
+		"reading": "かくにん",
+		"meaning": "sự xác nhận, sự kiểm tra",
+		"note": "[~します: xác nhận]"
+	},
+	{
+		"word": "どうやって",
+		"meaning": "làm thế nào~"
+	},
+	{
+		"word": "どの～",
+		"meaning": "cái nào ~",
+		"note": "dùng với trường hợp từ ba thứ trở lên"
+	},
+	{
+		"word": "出す",
+		"reading": "[お金を～]だす",
+		"meaning": "lấy ra, rút [tiền]",
+		"note": "I"
+	},
+	{
+		"word": "出します",
+		"reading": "[お金を～]だします",
+		"meaning": "lấy ra, rút [tiền]",
+		"note": "I"
+	},
+	{
+		"word": "押す",
+		"reading": "[ボタンを～]おす",
+		"meaning": "bấm, ấn [nút]",
+		"note": "I"
+	},
+	{
+		"word": "押します",
+		"reading": "[ボタンを～]おします",
+		"meaning": "bấm, ấn [nút]",
+		"note": "I"
+	},
+	{
+		"word": "乗る",
+		"reading": "[電車に～]のる",
+		"meaning": "đi, lên [tàu]",
+		"note": "I"
+	},
+	{
+		"word": "乗ります",
+		"reading": "[電車に～]のります",
+		"meaning": "đi, lên [tàu]",
+		"note": "I"
+	},
+	{
+		"word": "入る",
+		"reading": "[大学に～]はいる",
+		"meaning": "vào, nhập học [đại học]",
+		"note": "I"
+	},
+	{
+		"word": "入ります",
+		"reading": "[大学に～]はいります",
+		"meaning": "vào, nhập học [đại học]",
+		"note": "I"
+	},
+	{
+		"word": "出る",
+		"reading": "[大学を～]でる",
+		"meaning": "ra, tốt nghiệp [đại học]",
+		"note": "II"
+	},
+	{
+		"word": "出ます",
+		"reading": "[大学を～]でます",
+		"meaning": "ra, tốt nghiệp [đại học]",
+		"note": "II"
+	},
+	{
+		"word": "乗り換える",
+		"reading": "[電車を～]のりかえる",
+		"meaning": "chuyển, đổi [tàu]",
+		"note": "II"
+	},
+	{
+		"word": "乗り換えます",
+		"reading": "[電車を～]のりかえます",
+		"meaning": "chuyển, đổi [tàu]",
+		"note": "II"
+	},
+	{
+		"word": "浴びる",
+		"reading": "[シャワーを～]あびる",
+		"meaning": "tắm [vòi hoa sen]",
+		"note": "II"
+	},
+	{
+		"word": "浴びます",
+		"reading": "[シャワーを～]あびます",
+		"meaning": "tắm [vòi hoa sen]",
+		"note": "II"
+	},
+	{
+		"word": "入れる",
+		"reading": "いれる",
+		"meaning": "cho vào, bỏ vào",
+		"note": "II"
+	},
+	{
+		"word": "入れます",
+		"reading": "いれます",
+		"meaning": "cho vào, bỏ vào",
+		"note": "II"
+	},
+	{
+		"word": "降りる",
+		"reading": "[電車を～]おりる",
+		"meaning": "xuống [tàu]",
+		"note": "II"
+	},
+	{
+		"word": "降ります",
+		"reading": "[電車を～]おります",
+		"meaning": "xuống [tàu]",
+		"note": "II"
+	},
+	{
+		"word": "まず",
+		"meaning": "trước hết, đầu tiên"
+	},
+	{
+		"word": "初めに",
+		"reading": "はじめに",
+		"meaning": "ban đầu"
+	},
+	{
+		"word": "次に",
+		"reading": "つぎに",
+		"meaning": "tiếp theo"
+	},
+	{
+		"word": "磨きます",
+		"reading": "みがきます",
+		"meaning": "Đánh, mài"
+	},
+	{
+		"word": "選びます",
+		"reading": "えらびます",
+		"meaning": "Chọn lựa"
+	},
+	{
+		"word": "お寺",
+		"reading": "おてら",
+		"meaning": "Chùa"
+	},
+	{
+		"word": "神社",
+		"reading": "じんじゃ",
+		"meaning": "Đền thờ thần đạo"
+	}
 ]

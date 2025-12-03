@@ -51,16 +51,14 @@
 		<div class="flashcard-face flashcard-front card bg-base-200 shadow-xl">
 			<div class="card-body flex h-full items-center justify-center text-center">
 				{#if frontReading}
-					<div class="text-base-content/60 mb-2 text-sm">
+					<div class="mb-2 text-sm text-base-content/60">
 						{frontReading}
 					</div>
 				{/if}
 				<div class="text-3xl font-bold">
 					{front}
 				</div>
-				<div class="text-base-content/50 mt-4 text-sm">
-					Nhấn để lật thẻ
-				</div>
+				<div class="mt-4 text-sm text-base-content/50">Nhấn để lật thẻ</div>
 			</div>
 		</div>
 

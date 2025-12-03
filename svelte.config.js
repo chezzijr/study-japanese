@@ -2,49 +2,49 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import fs from 'fs';
 // prerender entries
-const initialEntries = [
-	'/',
-	'/practice/verb'
-]
+const initialEntries = ['/', '/practice/verb'];
 
 // practice routes - dynamic across all levels
 const practiceLevels = ['n1', 'n2', 'n3', 'n4', 'n5'];
-const practiceUnitEntries = practiceLevels.flatMap(level => {
+const practiceUnitEntries = practiceLevels.flatMap((level) => {
 	const levelDir = `./src/lib/${level}`;
 	if (!fs.existsSync(levelDir)) return [];
-	const levelUnits = fs.readdirSync(levelDir).filter(f => f.endsWith('.json'));
+	const levelUnits = fs.readdirSync(levelDir).filter((f) => f.endsWith('.json'));
 	return [
-		...levelUnits.map(file => `/practice/${level}/${file.replace('.json', '')}`),
+		...levelUnits.map((file) => `/practice/${level}/${file.replace('.json', '')}`),
 		`/practice/${level}/all`
 	];
 });
 
 // vocab routes - dynamic across all levels
 const vocabLevels = ['n1', 'n2', 'n3', 'n4', 'n5'];
-const vocabEntries = vocabLevels.flatMap(level => {
+const vocabEntries = vocabLevels.flatMap((level) => {
 	const levelDir = `./src/lib/${level}`;
 	if (!fs.existsSync(levelDir)) return [];
-	const levelUnits = fs.readdirSync(levelDir).filter(f => f.endsWith('.json'));
+	const levelUnits = fs.readdirSync(levelDir).filter((f) => f.endsWith('.json'));
 	return [
-		...levelUnits.map(file => `/vocab/${level}/${file.replace('.json', '')}`),
+		...levelUnits.map((file) => `/vocab/${level}/${file.replace('.json', '')}`),
 		`/vocab/${level}/all`
 	];
 });
 
-const kanjiLevels = fs.readdirSync('./src/lib/kanji').map(file => file.replace('.json', ''))
-const kanjiEntries = kanjiLevels.map(level => `/practice/kanji/${level}`)
+const kanjiLevels = fs
+	.readdirSync('./src/lib/kanji')
+	.map((file) => file.replace('.json', ''))
+	.filter((level) => !level.includes('_def'));
+const kanjiEntries = kanjiLevels.map((level) => `/practice/kanji/${level}`);
+const kanjiMcqEntries = kanjiLevels.map((level) => `/practice/kanji/${level}/mcq`);
 
-const grammarEntries = [
-	'/grammar/verb'
-]
+const grammarEntries = ['/grammar/verb'];
 
 const entries = [
 	...initialEntries,
 	...practiceUnitEntries,
 	...vocabEntries,
 	...kanjiEntries,
-	...grammarEntries,
-]
+	...kanjiMcqEntries,
+	...grammarEntries
+];
 // console.log(entries)
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -61,11 +61,11 @@ const config = {
 			// Fallback page for SPA routes (flashcard routes that can't be prerendered)
 			fallback: '200.html'
 		}),
-        paths: {
-            base: process.env.NODE_ENV === 'production' ? '/study-japanese' : '',
-        },
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/study-japanese' : ''
+		},
 		prerender: {
-			entries,
+			entries
 		}
 	},
 

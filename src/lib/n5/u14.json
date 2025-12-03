@@ -1,344 +1,344 @@
 [
-  {
-    "word": "塩",
-    "reading": "しお",
-    "meaning": "muối"
-  },
-  {
-    "word": "砂糖",
-    "reading": "さとう",
-    "meaning": "đường"
-  },
-  {
-    "word": "布団",
-    "reading": "ふとん",
-    "meaning": "chăn, nệm"
-  },
-  {
-    "word": "窓",
-    "reading": "まど",
-    "meaning": "cửa sổ"
-  },
-  {
-    "word": "ドア",
-    "meaning": "cửa ra vào"
-  },
-  {
-    "word": "エアコン",
-    "meaning": "máy điều hòa"
-  },
-  {
-    "word": "電気",
-    "reading": "でんき",
-    "meaning": "điện"
-  },
-  {
-    "word": "名前",
-    "reading": "なまえ",
-    "meaning": "tên"
-  },
-  {
-    "word": "住所",
-    "reading": "じゅうしょ",
-    "meaning": "địa chỉ"
-  },
-  {
-    "word": "電話番号",
-    "reading": "でんわばんごう",
-    "meaning": "số điện thoại"
-  },
-  {
-    "word": "チケット",
-    "meaning": "vé"
-  },
-  {
-    "word": "切手",
-    "reading": "きって",
-    "meaning": "tem"
-  },
-  {
-    "word": "封筒",
-    "reading": "ふうとう",
-    "meaning": "phong bì"
-  },
-  {
-    "word": "現金",
-    "reading": "げんきん",
-    "meaning": "tiền mặt"
-  },
-  {
-    "word": "意味",
-    "reading": "いみ",
-    "meaning": "ý nghĩa"
-  },
-  {
-    "word": "言葉",
-    "reading": "ことば",
-    "meaning": "từ, tiếng"
-  },
-  {
-    "word": "読み方",
-    "reading": "よみかた",
-    "meaning": "cách đọc"
-  },
-  {
-    "word": "～方",
-    "reading": "～かた",
-    "meaning": "cách ~"
-  },
-  {
-    "word": "同じ",
-    "reading": "おなじ",
-    "meaning": "giống"
-  },
-  {
-    "word": "手伝う",
-    "reading": "てつだう",
-    "meaning": "giúp, giúp đỡ",
-    "note": "I"
-  },
-  {
-    "word": "手伝います",
-    "reading": "てつだいます",
-    "meaning": "giúp, giúp đỡ",
-    "note": "I"
-  },
-  {
-    "word": "話す",
-    "reading": "はなす",
-    "meaning": "nói, nói chuyện",
-    "note": "I"
-  },
-  {
-    "word": "話します",
-    "reading": "はなします",
-    "meaning": "nói, nói chuyện",
-    "note": "I"
-  },
-  {
-    "word": "待つ",
-    "reading": "まつ",
-    "meaning": "đợi, chờ",
-    "note": "I"
-  },
-  {
-    "word": "待ちます",
-    "reading": "まちます",
-    "meaning": "đợi, chờ",
-    "note": "I"
-  },
-  {
-    "word": "持つ",
-    "reading": "もつ",
-    "meaning": "mang, cầm",
-    "note": "I"
-  },
-  {
-    "word": "持ちます",
-    "reading": "もちます",
-    "meaning": "mang, cầm",
-    "note": "I"
-  },
-  {
-    "word": "取る",
-    "reading": "とる",
-    "meaning": "lấy",
-    "note": "I"
-  },
-  {
-    "word": "取ります",
-    "reading": "とります",
-    "meaning": "lấy",
-    "note": "I"
-  },
-  {
-    "word": "降る",
-    "reading": "ふる",
-    "meaning": "mưa",
-    "note": "I"
-  },
-  {
-    "word": "降ります",
-    "reading": "ふります",
-    "meaning": "mưa",
-    "note": "I"
-  },
-  {
-    "word": "曲がる",
-    "reading": "まがる",
-    "meaning": "rẽ, quẹo [phải]",
-    "note": "I"
-  },
-  {
-    "word": "曲がります",
-    "reading": "まがります",
-    "meaning": "rẽ, quẹo [phải]",
-    "note": "I"
-  },
-  {
-    "word": "急ぐ",
-    "reading": "いそぐ",
-    "meaning": "nhanh, gấp, vội",
-    "note": "I"
-  },
-  {
-    "word": "急ぎます",
-    "reading": "いそぎます",
-    "meaning": "nhanh, gấp, vội",
-    "note": "I"
-  },
-  {
-    "word": "呼ぶ",
-    "reading": "よぶ",
-    "meaning": "gọi",
-    "note": "I"
-  },
-  {
-    "word": "呼びます",
-    "reading": "よびます",
-    "meaning": "gọi",
-    "note": "I"
-  },
-  {
-    "word": "教える",
-    "reading": "おしえる",
-    "meaning": "nói, cho biết [địa chỉ]",
-    "note": "II"
-  },
-  {
-    "word": "教えます",
-    "reading": "おしえます",
-    "meaning": "nói, cho biết [địa chỉ]",
-    "note": "II"
-  },
-  {
-    "word": "付ける",
-    "reading": "つける",
-    "meaning": "bật [điện], (điều hòa)",
-    "note": "II"
-  },
-  {
-    "word": "付けます",
-    "reading": "つけます",
-    "meaning": "bật [điện], (điều hòa)",
-    "note": "II"
-  },
-  {
-    "word": "消す",
-    "reading": "けす",
-    "meaning": "tắt [điện], (điều hòa)",
-    "note": "I"
-  },
-  {
-    "word": "消します",
-    "reading": "けします",
-    "meaning": "tắt [điện], (điều hòa)",
-    "note": "I"
-  },
-  {
-    "word": "開ける",
-    "reading": "あける",
-    "meaning": "mở [cửa]",
-    "note": "II"
-  },
-  {
-    "word": "開けます",
-    "reading": "あけます",
-    "meaning": "mở [cửa]",
-    "note": "II"
-  },
-  {
-    "word": "閉める",
-    "reading": "しめる",
-    "meaning": "đóng [cửa]",
-    "note": "II"
-  },
-  {
-    "word": "閉めます",
-    "reading": "しめます",
-    "meaning": "đóng [cửa]",
-    "note": "II"
-  },
-  {
-    "word": "止める",
-    "reading": "とめる",
-    "meaning": "dừng, đỗ",
-    "note": "II"
-  },
-  {
-    "word": "止めます",
-    "reading": "とめます",
-    "meaning": "dừng, đỗ",
-    "note": "II"
-  },
-  {
-    "word": "見せる",
-    "reading": "みせる",
-    "meaning": "cho xem, trình",
-    "note": "II"
-  },
-  {
-    "word": "見せます",
-    "reading": "みせます",
-    "meaning": "cho xem, trình",
-    "note": "II"
-  },
-  {
-    "word": "始める",
-    "reading": "はじめる",
-    "meaning": "bắt đầu",
-    "note": "II"
-  },
-  {
-    "word": "始めます",
-    "reading": "はじめます",
-    "meaning": "bắt đầu",
-    "note": "II"
-  },
-  {
-    "word": "コピーする",
-    "meaning": "copy, phô-tô",
-    "note": "III"
-  },
-  {
-    "word": "コピーします",
-    "meaning": "copy, phô-tô",
-    "note": "III"
-  },
-  {
-    "word": "ゆっくり",
-    "meaning": "chậm, thong thả, thoải mái"
-  },
-  {
-    "word": "すぐ",
-    "meaning": "ngay, lập tức"
-  },
-  {
-    "word": "後で",
-    "reading": "あとで",
-    "meaning": "sau"
-  },
-  {
-    "word": "もう少し",
-    "reading": "もうすこし",
-    "meaning": "thêm một chút nữa thôi"
-  },
-  {
-    "word": "もう～",
-    "meaning": "thêm ~"
-  },
-  {
-    "word": "いいですよ",
-    "meaning": "Được chứ./ Được ạ"
-  },
-  {
-    "word": "両親",
-    "reading": "りょうしん",
-    "meaning": "Bố mẹ"
-  },
-  {
-    "word": "週末",
-    "reading": "しゅうまつ",
-    "meaning": "Cuối tuần"
-  }
+	{
+		"word": "塩",
+		"reading": "しお",
+		"meaning": "muối"
+	},
+	{
+		"word": "砂糖",
+		"reading": "さとう",
+		"meaning": "đường"
+	},
+	{
+		"word": "布団",
+		"reading": "ふとん",
+		"meaning": "chăn, nệm"
+	},
+	{
+		"word": "窓",
+		"reading": "まど",
+		"meaning": "cửa sổ"
+	},
+	{
+		"word": "ドア",
+		"meaning": "cửa ra vào"
+	},
+	{
+		"word": "エアコン",
+		"meaning": "máy điều hòa"
+	},
+	{
+		"word": "電気",
+		"reading": "でんき",
+		"meaning": "điện"
+	},
+	{
+		"word": "名前",
+		"reading": "なまえ",
+		"meaning": "tên"
+	},
+	{
+		"word": "住所",
+		"reading": "じゅうしょ",
+		"meaning": "địa chỉ"
+	},
+	{
+		"word": "電話番号",
+		"reading": "でんわばんごう",
+		"meaning": "số điện thoại"
+	},
+	{
+		"word": "チケット",
+		"meaning": "vé"
+	},
+	{
+		"word": "切手",
+		"reading": "きって",
+		"meaning": "tem"
+	},
+	{
+		"word": "封筒",
+		"reading": "ふうとう",
+		"meaning": "phong bì"
+	},
+	{
+		"word": "現金",
+		"reading": "げんきん",
+		"meaning": "tiền mặt"
+	},
+	{
+		"word": "意味",
+		"reading": "いみ",
+		"meaning": "ý nghĩa"
+	},
+	{
+		"word": "言葉",
+		"reading": "ことば",
+		"meaning": "từ, tiếng"
+	},
+	{
+		"word": "読み方",
+		"reading": "よみかた",
+		"meaning": "cách đọc"
+	},
+	{
+		"word": "～方",
+		"reading": "～かた",
+		"meaning": "cách ~"
+	},
+	{
+		"word": "同じ",
+		"reading": "おなじ",
+		"meaning": "giống"
+	},
+	{
+		"word": "手伝う",
+		"reading": "てつだう",
+		"meaning": "giúp, giúp đỡ",
+		"note": "I"
+	},
+	{
+		"word": "手伝います",
+		"reading": "てつだいます",
+		"meaning": "giúp, giúp đỡ",
+		"note": "I"
+	},
+	{
+		"word": "話す",
+		"reading": "はなす",
+		"meaning": "nói, nói chuyện",
+		"note": "I"
+	},
+	{
+		"word": "話します",
+		"reading": "はなします",
+		"meaning": "nói, nói chuyện",
+		"note": "I"
+	},
+	{
+		"word": "待つ",
+		"reading": "まつ",
+		"meaning": "đợi, chờ",
+		"note": "I"
+	},
+	{
+		"word": "待ちます",
+		"reading": "まちます",
+		"meaning": "đợi, chờ",
+		"note": "I"
+	},
+	{
+		"word": "持つ",
+		"reading": "もつ",
+		"meaning": "mang, cầm",
+		"note": "I"
+	},
+	{
+		"word": "持ちます",
+		"reading": "もちます",
+		"meaning": "mang, cầm",
+		"note": "I"
+	},
+	{
+		"word": "取る",
+		"reading": "とる",
+		"meaning": "lấy",
+		"note": "I"
+	},
+	{
+		"word": "取ります",
+		"reading": "とります",
+		"meaning": "lấy",
+		"note": "I"
+	},
+	{
+		"word": "降る",
+		"reading": "ふる",
+		"meaning": "mưa",
+		"note": "I"
+	},
+	{
+		"word": "降ります",
+		"reading": "ふります",
+		"meaning": "mưa",
+		"note": "I"
+	},
+	{
+		"word": "曲がる",
+		"reading": "まがる",
+		"meaning": "rẽ, quẹo [phải]",
+		"note": "I"
+	},
+	{
+		"word": "曲がります",
+		"reading": "まがります",
+		"meaning": "rẽ, quẹo [phải]",
+		"note": "I"
+	},
+	{
+		"word": "急ぐ",
+		"reading": "いそぐ",
+		"meaning": "nhanh, gấp, vội",
+		"note": "I"
+	},
+	{
+		"word": "急ぎます",
+		"reading": "いそぎます",
+		"meaning": "nhanh, gấp, vội",
+		"note": "I"
+	},
+	{
+		"word": "呼ぶ",
+		"reading": "よぶ",
+		"meaning": "gọi",
+		"note": "I"
+	},
+	{
+		"word": "呼びます",
+		"reading": "よびます",
+		"meaning": "gọi",
+		"note": "I"
+	},
+	{
+		"word": "教える",
+		"reading": "おしえる",
+		"meaning": "nói, cho biết [địa chỉ]",
+		"note": "II"
+	},
+	{
+		"word": "教えます",
+		"reading": "おしえます",
+		"meaning": "nói, cho biết [địa chỉ]",
+		"note": "II"
+	},
+	{
+		"word": "付ける",
+		"reading": "つける",
+		"meaning": "bật [điện], (điều hòa)",
+		"note": "II"
+	},
+	{
+		"word": "付けます",
+		"reading": "つけます",
+		"meaning": "bật [điện], (điều hòa)",
+		"note": "II"
+	},
+	{
+		"word": "消す",
+		"reading": "けす",
+		"meaning": "tắt [điện], (điều hòa)",
+		"note": "I"
+	},
+	{
+		"word": "消します",
+		"reading": "けします",
+		"meaning": "tắt [điện], (điều hòa)",
+		"note": "I"
+	},
+	{
+		"word": "開ける",
+		"reading": "あける",
+		"meaning": "mở [cửa]",
+		"note": "II"
+	},
+	{
+		"word": "開けます",
+		"reading": "あけます",
+		"meaning": "mở [cửa]",
+		"note": "II"
+	},
+	{
+		"word": "閉める",
+		"reading": "しめる",
+		"meaning": "đóng [cửa]",
+		"note": "II"
+	},
+	{
+		"word": "閉めます",
+		"reading": "しめます",
+		"meaning": "đóng [cửa]",
+		"note": "II"
+	},
+	{
+		"word": "止める",
+		"reading": "とめる",
+		"meaning": "dừng, đỗ",
+		"note": "II"
+	},
+	{
+		"word": "止めます",
+		"reading": "とめます",
+		"meaning": "dừng, đỗ",
+		"note": "II"
+	},
+	{
+		"word": "見せる",
+		"reading": "みせる",
+		"meaning": "cho xem, trình",
+		"note": "II"
+	},
+	{
+		"word": "見せます",
+		"reading": "みせます",
+		"meaning": "cho xem, trình",
+		"note": "II"
+	},
+	{
+		"word": "始める",
+		"reading": "はじめる",
+		"meaning": "bắt đầu",
+		"note": "II"
+	},
+	{
+		"word": "始めます",
+		"reading": "はじめます",
+		"meaning": "bắt đầu",
+		"note": "II"
+	},
+	{
+		"word": "コピーする",
+		"meaning": "copy, phô-tô",
+		"note": "III"
+	},
+	{
+		"word": "コピーします",
+		"meaning": "copy, phô-tô",
+		"note": "III"
+	},
+	{
+		"word": "ゆっくり",
+		"meaning": "chậm, thong thả, thoải mái"
+	},
+	{
+		"word": "すぐ",
+		"meaning": "ngay, lập tức"
+	},
+	{
+		"word": "後で",
+		"reading": "あとで",
+		"meaning": "sau"
+	},
+	{
+		"word": "もう少し",
+		"reading": "もうすこし",
+		"meaning": "thêm một chút nữa thôi"
+	},
+	{
+		"word": "もう～",
+		"meaning": "thêm ~"
+	},
+	{
+		"word": "いいですよ",
+		"meaning": "Được chứ./ Được ạ"
+	},
+	{
+		"word": "両親",
+		"reading": "りょうしん",
+		"meaning": "Bố mẹ"
+	},
+	{
+		"word": "週末",
+		"reading": "しゅうまつ",
+		"meaning": "Cuối tuần"
+	}
 ]

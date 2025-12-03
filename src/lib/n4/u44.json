@@ -1,171 +1,171 @@
 [
-  {
-    "word": "泣く",
-    "reading": "なく",
-    "meaning": "khóc",
-    "note": "I"
-  },
-  {
-    "word": "笑う",
-    "reading": "わらう",
-    "meaning": "cười",
-    "note": "I"
-  },
-  {
-    "word": "眠る",
-    "reading": "ねむる",
-    "meaning": "ngủ",
-    "note": "I"
-  },
-  {
-    "word": "乾く",
-    "reading": "かわく",
-    "meaning": "khô",
-    "note": "I"
-  },
-  {
-    "word": "濡れる",
-    "reading": "ぬれる",
-    "meaning": "ướt",
-    "note": "II"
-  },
-  {
-    "word": "滑る",
-    "reading": "すべる",
-    "meaning": "bị trơn trượt",
-    "note": "I"
-  },
-  {
-    "word": "起きる",
-    "reading": "おきる",
-    "meaning": "xảy ra",
-    "note": "II"
-  },
-  {
-    "word": "調節する",
-    "reading": "ちょうせつする",
-    "meaning": "điều chỉnh",
-    "note": "III"
-  },
-  {
-    "word": "安全",
-    "reading": "あんぜん",
-    "meaning": "an toàn"
-  },
-  {
-    "word": "危険",
-    "reading": "きけん",
-    "meaning": "nguy hiểm"
-  },
-  {
-    "word": "濃い",
-    "reading": "こい",
-    "meaning": "đậm, đặc"
-  },
-  {
-    "word": "薄い",
-    "reading": "うすい",
-    "meaning": "loãng, nhạt"
-  },
-  {
-    "word": "厚い",
-    "reading": "あつい",
-    "meaning": "dày"
-  },
-  {
-    "word": "太い",
-    "reading": "ふとい",
-    "meaning": "béo"
-  },
-  {
-    "word": "細い",
-    "reading": "ほそい",
-    "meaning": "gầy"
-  },
-  {
-    "word": "空気",
-    "reading": "くうき",
-    "meaning": "không khí"
-  },
-  {
-    "word": "涙",
-    "reading": "なみだ",
-    "meaning": "nước mắt"
-  },
-  {
-    "word": "和食",
-    "reading": "わしょく",
-    "meaning": "món ăn kiểu Nhật"
-  },
-  {
-    "word": "洋食",
-    "reading": "ようしょく",
-    "meaning": "món ăn kiểu Tây"
-  },
-  {
-    "word": "おかず",
-    "reading": "おかず",
-    "meaning": "thức ăn kèm"
-  },
-  {
-    "word": "量",
-    "reading": "りょう",
-    "meaning": "lượng"
-  },
-  {
-    "word": "～倍",
-    "reading": "～ばい",
-    "meaning": "gấp ~ lần"
-  },
-  {
-    "word": "シングル",
-    "reading": "シングル",
-    "meaning": "phòng đơn"
-  },
-  {
-    "word": "ツイン",
-    "reading": "ツイン",
-    "meaning": "phòng đôi"
-  },
-  {
-    "word": "洗濯物",
-    "reading": "せんたくもの",
-    "meaning": "quần áo giặt"
-  },
-  {
-    "word": "カット",
-    "reading": "カット",
-    "meaning": "cắt"
-  },
-  {
-    "word": "シャンプー",
-    "reading": "シャンプー",
-    "meaning": "dầu gội"
-  },
-  {
-    "word": "表現",
-    "reading": "ひょうげん",
-    "meaning": "biểu hiện"
-  },
-  {
-    "word": "宿泊",
-    "reading": "しゅくはく",
-    "meaning": "ngủ lại/ trọ lại"
-  },
-  {
-    "word": "順序",
-    "reading": "じゅんじょ",
-    "meaning": "trình tự"
-  },
-  {
-    "word": "別れる",
-    "reading": "わかれる",
-    "meaning": "chia tay với ~",
-    "note": "II"
-  },
-  {
-    "word": "縁起が悪い",
-    "reading": "えんぎがわるい",
-    "meaning": "điềm xui"
-  }
+	{
+		"word": "泣く",
+		"reading": "なく",
+		"meaning": "khóc",
+		"note": "I"
+	},
+	{
+		"word": "笑う",
+		"reading": "わらう",
+		"meaning": "cười",
+		"note": "I"
+	},
+	{
+		"word": "眠る",
+		"reading": "ねむる",
+		"meaning": "ngủ",
+		"note": "I"
+	},
+	{
+		"word": "乾く",
+		"reading": "かわく",
+		"meaning": "khô",
+		"note": "I"
+	},
+	{
+		"word": "濡れる",
+		"reading": "ぬれる",
+		"meaning": "ướt",
+		"note": "II"
+	},
+	{
+		"word": "滑る",
+		"reading": "すべる",
+		"meaning": "bị trơn trượt",
+		"note": "I"
+	},
+	{
+		"word": "起きる",
+		"reading": "おきる",
+		"meaning": "xảy ra",
+		"note": "II"
+	},
+	{
+		"word": "調節する",
+		"reading": "ちょうせつする",
+		"meaning": "điều chỉnh",
+		"note": "III"
+	},
+	{
+		"word": "安全",
+		"reading": "あんぜん",
+		"meaning": "an toàn"
+	},
+	{
+		"word": "危険",
+		"reading": "きけん",
+		"meaning": "nguy hiểm"
+	},
+	{
+		"word": "濃い",
+		"reading": "こい",
+		"meaning": "đậm, đặc"
+	},
+	{
+		"word": "薄い",
+		"reading": "うすい",
+		"meaning": "loãng, nhạt"
+	},
+	{
+		"word": "厚い",
+		"reading": "あつい",
+		"meaning": "dày"
+	},
+	{
+		"word": "太い",
+		"reading": "ふとい",
+		"meaning": "béo"
+	},
+	{
+		"word": "細い",
+		"reading": "ほそい",
+		"meaning": "gầy"
+	},
+	{
+		"word": "空気",
+		"reading": "くうき",
+		"meaning": "không khí"
+	},
+	{
+		"word": "涙",
+		"reading": "なみだ",
+		"meaning": "nước mắt"
+	},
+	{
+		"word": "和食",
+		"reading": "わしょく",
+		"meaning": "món ăn kiểu Nhật"
+	},
+	{
+		"word": "洋食",
+		"reading": "ようしょく",
+		"meaning": "món ăn kiểu Tây"
+	},
+	{
+		"word": "おかず",
+		"reading": "おかず",
+		"meaning": "thức ăn kèm"
+	},
+	{
+		"word": "量",
+		"reading": "りょう",
+		"meaning": "lượng"
+	},
+	{
+		"word": "～倍",
+		"reading": "～ばい",
+		"meaning": "gấp ~ lần"
+	},
+	{
+		"word": "シングル",
+		"reading": "シングル",
+		"meaning": "phòng đơn"
+	},
+	{
+		"word": "ツイン",
+		"reading": "ツイン",
+		"meaning": "phòng đôi"
+	},
+	{
+		"word": "洗濯物",
+		"reading": "せんたくもの",
+		"meaning": "quần áo giặt"
+	},
+	{
+		"word": "カット",
+		"reading": "カット",
+		"meaning": "cắt"
+	},
+	{
+		"word": "シャンプー",
+		"reading": "シャンプー",
+		"meaning": "dầu gội"
+	},
+	{
+		"word": "表現",
+		"reading": "ひょうげん",
+		"meaning": "biểu hiện"
+	},
+	{
+		"word": "宿泊",
+		"reading": "しゅくはく",
+		"meaning": "ngủ lại/ trọ lại"
+	},
+	{
+		"word": "順序",
+		"reading": "じゅんじょ",
+		"meaning": "trình tự"
+	},
+	{
+		"word": "別れる",
+		"reading": "わかれる",
+		"meaning": "chia tay với ~",
+		"note": "II"
+	},
+	{
+		"word": "縁起が悪い",
+		"reading": "えんぎがわるい",
+		"meaning": "điềm xui"
+	}
 ]

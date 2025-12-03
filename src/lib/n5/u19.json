@@ -1,126 +1,126 @@
 [
-  {
-    "word": "茶道",
-    "reading": "さどう",
-    "meaning": "trà đạo"
-  },
-  {
-    "word": "キス",
-    "meaning": "nụ hôn, hôn"
-  },
-  {
-    "word": "彼氏",
-    "reading": "かれし",
-    "meaning": "bạn trai"
-  },
-  {
-    "word": "デート",
-    "meaning": "hẹn hò[～します: hẹn hò]"
-  },
-  {
-    "word": "そろそろ",
-    "meaning": "sắp sửa"
-  },
-  {
-    "word": "[山に〜]登る",
-    "reading": "[やまに～]のぼる",
-    "meaning": "leo [núi]",
-    "note": "I"
-  },
-  {
-    "word": "[山に～]登ります",
-    "reading": "[やまに～]のぼります",
-    "meaning": "leo [núi]",
-    "note": "I"
-  },
-  {
-    "word": "[ホテルに～]泊まる",
-    "reading": "[ホテルに～]とまる",
-    "meaning": "trọ [ở khách sạn]",
-    "note": "I"
-  },
-  {
-    "word": "[ホテルに～]泊まります",
-    "reading": "[ホテルに～]とまります",
-    "meaning": "trọ [ở khách sạn]",
-    "note": "I"
-  },
-  {
-    "word": "なる",
-    "reading": "なる",
-    "meaning": "trở thành, trở nên",
-    "note": "I"
-  },
-  {
-    "word": "なります",
-    "reading": "なります",
-    "meaning": "trở thành, trở nên",
-    "note": "I"
-  },
-  {
-    "word": "掃除する",
-    "reading": "そうじする",
-    "meaning": "dọn vệ sinh",
-    "note": "III"
-  },
-  {
-    "word": "掃除します",
-    "reading": "そうじします",
-    "meaning": "dọn vệ sinh",
-    "note": "III"
-  },
-  {
-    "word": "洗濯する",
-    "reading": "せんたくする",
-    "meaning": "giặt",
-    "note": "III"
-  },
-  {
-    "word": "洗濯します",
-    "reading": "せんたくします",
-    "meaning": "giặt",
-    "note": "III"
-  },
-  {
-    "word": "練習する",
-    "reading": "れんしゅうする",
-    "meaning": "luyện tập, thực hành",
-    "note": "III"
-  },
-  {
-    "word": "練習します",
-    "reading": "れんしゅうします",
-    "meaning": "luyện tập, thực hành",
-    "note": "III"
-  },
-  {
-    "word": "将来",
-    "reading": "しょうらい",
-    "meaning": "tương lai"
-  },
-  {
-    "word": "一度",
-    "reading": "いちど",
-    "meaning": "một lần"
-  },
-  {
-    "word": "一度も",
-    "reading": "いちども",
-    "meaning": "chưa lần nào"
-  },
-  {
-    "word": "段々",
-    "reading": "だんだん",
-    "meaning": "dần dần"
-  },
-  {
-    "word": "もうすぐ",
-    "reading": "もうすぐ",
-    "meaning": "sắp"
-  },
-  {
-    "word": "汚い",
-    "reading": "きたない",
-    "meaning": "Bẩn"
-  }
+	{
+		"word": "茶道",
+		"reading": "さどう",
+		"meaning": "trà đạo"
+	},
+	{
+		"word": "キス",
+		"meaning": "nụ hôn, hôn"
+	},
+	{
+		"word": "彼氏",
+		"reading": "かれし",
+		"meaning": "bạn trai"
+	},
+	{
+		"word": "デート",
+		"meaning": "hẹn hò[～します: hẹn hò]"
+	},
+	{
+		"word": "そろそろ",
+		"meaning": "sắp sửa"
+	},
+	{
+		"word": "[山に〜]登る",
+		"reading": "[やまに～]のぼる",
+		"meaning": "leo [núi]",
+		"note": "I"
+	},
+	{
+		"word": "[山に～]登ります",
+		"reading": "[やまに～]のぼります",
+		"meaning": "leo [núi]",
+		"note": "I"
+	},
+	{
+		"word": "[ホテルに～]泊まる",
+		"reading": "[ホテルに～]とまる",
+		"meaning": "trọ [ở khách sạn]",
+		"note": "I"
+	},
+	{
+		"word": "[ホテルに～]泊まります",
+		"reading": "[ホテルに～]とまります",
+		"meaning": "trọ [ở khách sạn]",
+		"note": "I"
+	},
+	{
+		"word": "なる",
+		"reading": "なる",
+		"meaning": "trở thành, trở nên",
+		"note": "I"
+	},
+	{
+		"word": "なります",
+		"reading": "なります",
+		"meaning": "trở thành, trở nên",
+		"note": "I"
+	},
+	{
+		"word": "掃除する",
+		"reading": "そうじする",
+		"meaning": "dọn vệ sinh",
+		"note": "III"
+	},
+	{
+		"word": "掃除します",
+		"reading": "そうじします",
+		"meaning": "dọn vệ sinh",
+		"note": "III"
+	},
+	{
+		"word": "洗濯する",
+		"reading": "せんたくする",
+		"meaning": "giặt",
+		"note": "III"
+	},
+	{
+		"word": "洗濯します",
+		"reading": "せんたくします",
+		"meaning": "giặt",
+		"note": "III"
+	},
+	{
+		"word": "練習する",
+		"reading": "れんしゅうする",
+		"meaning": "luyện tập, thực hành",
+		"note": "III"
+	},
+	{
+		"word": "練習します",
+		"reading": "れんしゅうします",
+		"meaning": "luyện tập, thực hành",
+		"note": "III"
+	},
+	{
+		"word": "将来",
+		"reading": "しょうらい",
+		"meaning": "tương lai"
+	},
+	{
+		"word": "一度",
+		"reading": "いちど",
+		"meaning": "một lần"
+	},
+	{
+		"word": "一度も",
+		"reading": "いちども",
+		"meaning": "chưa lần nào"
+	},
+	{
+		"word": "段々",
+		"reading": "だんだん",
+		"meaning": "dần dần"
+	},
+	{
+		"word": "もうすぐ",
+		"reading": "もうすぐ",
+		"meaning": "sắp"
+	},
+	{
+		"word": "汚い",
+		"reading": "きたない",
+		"meaning": "Bẩn"
+	}
 ]

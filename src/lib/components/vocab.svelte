@@ -5,7 +5,11 @@
 	import AddToDeckModal from './flashcard/add-to-deck-modal.svelte';
 	import { getAllCards, getAllDecks, deleteCard } from '$lib/flashcard';
 
-	let { kotobas, level = '', unit = '' }: { kotobas: Dictionary; level?: string; unit?: string } = $props();
+	let {
+		kotobas,
+		level = '',
+		unit = ''
+	}: { kotobas: Dictionary; level?: string; unit?: string } = $props();
 
 	// Flashcard integration state
 	let modalOpen = $state(false);
@@ -131,22 +135,30 @@
 		return false;
 	}
 
-	let filteredKotobas = $derived(
-		kotobas.filter(kotoba => matchesSearch(kotoba, searchTerm))
-	);
+	let filteredKotobas = $derived(kotobas.filter((kotoba) => matchesSearch(kotoba, searchTerm)));
 </script>
 
-<div class="flex flex-col h-[95vh]">
+<div class="flex h-[95vh] flex-col">
 	<!-- Search bar -->
-	<div class="flex items-center justify-between gap-4 p-4 bg-base-200 rounded-t-box">
-		<div class="flex items-center gap-2 flex-1">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-5 h-5 stroke-current opacity-70">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+	<div class="flex items-center justify-between gap-4 rounded-t-box bg-base-200 p-4">
+		<div class="flex flex-1 items-center gap-2">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 24 24"
+				class="h-5 w-5 stroke-current opacity-70"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+				></path>
 			</svg>
 			<input
 				type="text"
 				placeholder="Tìm kiếm (kanji, hiragana, romaji, nghĩa)..."
-				class="input input-bordered input-sm w-full max-w-md"
+				class="input input-sm input-bordered w-full max-w-md"
 				bind:value={searchTerm}
 			/>
 		</div>
@@ -175,7 +187,7 @@
 						<td class="font-medium">{kotoba.word}</td>
 						<td class="text-base-content/80">{kotoba.reading ?? ''}</td>
 						<td>{kotoba.meaning}</td>
-						<td class="text-base-content/60 text-sm">{kotoba.note ?? ''}</td>
+						<td class="text-sm text-base-content/60">{kotoba.note ?? ''}</td>
 						{#if level && unit}
 							<td>
 								{#if lookupLoading}
@@ -191,7 +203,14 @@
 												title="Xóa khỏi Flashcard"
 												onclick={() => openRemoveDialog(kotoba, existing)}
 											>
-												<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke-width="2"
+													stroke="currentColor"
+													class="h-4 w-4"
+												>
 													<path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
 												</svg>
 											</button>
@@ -203,8 +222,19 @@
 											title="Thêm vào Flashcard"
 											onclick={() => openAddModal(kotoba)}
 										>
-											<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
-												<path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												fill="none"
+												viewBox="0 0 24 24"
+												stroke-width="2"
+												stroke="currentColor"
+												class="h-4 w-4"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													d="M12 4.5v15m7.5-7.5h-15"
+												/>
 											</svg>
 										</button>
 									{/if}
@@ -239,20 +269,16 @@
 {#if removeDialogOpen && wordToRemove && cardToRemove}
 	<div class="modal modal-open">
 		<div class="modal-box max-w-sm">
-			<h3 class="font-bold text-lg">Xác nhận xóa</h3>
+			<h3 class="text-lg font-bold">Xác nhận xóa</h3>
 			<p class="py-4">
-				Xóa từ <strong>"{wordToRemove.word}"</strong> khỏi bộ thẻ <strong>"{cardToRemove.deckName}"</strong>?
+				Xóa từ <strong>"{wordToRemove.word}"</strong> khỏi bộ thẻ
+				<strong>"{cardToRemove.deckName}"</strong>?
 			</p>
 			<div class="modal-action">
-				<button type="button" class="btn btn-ghost" onclick={() => removeDialogOpen = false}>
+				<button type="button" class="btn btn-ghost" onclick={() => (removeDialogOpen = false)}>
 					Hủy
 				</button>
-				<button
-					type="button"
-					class="btn btn-error"
-					onclick={handleRemove}
-					disabled={removing}
-				>
+				<button type="button" class="btn btn-error" onclick={handleRemove} disabled={removing}>
 					{#if removing}
 						<span class="loading loading-spinner loading-sm"></span>
 					{/if}
@@ -261,7 +287,7 @@
 			</div>
 		</div>
 		<form method="dialog" class="modal-backdrop">
-			<button type="button" onclick={() => removeDialogOpen = false}>close</button>
+			<button type="button" onclick={() => (removeDialogOpen = false)}>close</button>
 		</form>
 	</div>
 {/if}

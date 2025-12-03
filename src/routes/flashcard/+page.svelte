@@ -103,15 +103,20 @@
 
 <main class="container mx-auto max-w-4xl p-4">
 	<!-- Header -->
-	<div class="flex items-center justify-between mb-6">
+	<div class="mb-6 flex items-center justify-between">
 		<div>
 			<h1 class="text-3xl font-bold">Flashcard</h1>
-			<p class="text-base-content/60 mt-1">
+			<p class="mt-1 text-base-content/60">
 				Ôn tập với thẻ ghi nhớ theo phương pháp lặp lại ngắt quãng
 			</p>
 		</div>
 		<a href="{base}/flashcard/deck/new" class="btn btn-primary">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-5 h-5 stroke-current">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 24 24"
+				class="h-5 w-5 stroke-current"
+			>
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
 			</svg>
 			Tạo bộ thẻ
@@ -120,7 +125,7 @@
 
 	<!-- Overall Stats -->
 	{#if !loading && !error && decks.length > 0}
-		<div class="stats shadow mb-6 w-full">
+		<div class="stats mb-6 w-full shadow">
 			<div class="stat">
 				<div class="stat-title">Tổng bộ thẻ</div>
 				<div class="stat-value text-primary">{decks.length}</div>
@@ -134,32 +139,38 @@
 
 	<!-- Loading State -->
 	{#if loading}
-		<div class="flex justify-center items-center py-20">
+		<div class="flex items-center justify-center py-20">
 			<span class="loading loading-spinner loading-lg"></span>
 		</div>
 	{:else if error}
 		<!-- Error State -->
 		<div class="alert alert-error">
-			<svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="h-6 w-6 shrink-0 stroke-current"
+				fill="none"
+				viewBox="0 0 24 24"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+				/>
 			</svg>
 			<span>{error}</span>
 		</div>
 	{:else if decks.length === 0}
 		<!-- Empty State -->
-		<div class="text-center py-20">
-			<div class="text-6xl mb-4">📚</div>
-			<h2 class="text-xl font-semibold mb-2">Chưa có bộ thẻ nào</h2>
-			<p class="text-base-content/60 mb-6">
-				Tạo bộ thẻ đầu tiên để bắt đầu ôn tập
-			</p>
-			<a href="{base}/flashcard/deck/new" class="btn btn-primary">
-				Tạo bộ thẻ mới
-			</a>
+		<div class="py-20 text-center">
+			<div class="mb-4 text-6xl">📚</div>
+			<h2 class="mb-2 text-xl font-semibold">Chưa có bộ thẻ nào</h2>
+			<p class="mb-6 text-base-content/60">Tạo bộ thẻ đầu tiên để bắt đầu ôn tập</p>
+			<a href="{base}/flashcard/deck/new" class="btn btn-primary"> Tạo bộ thẻ mới </a>
 		</div>
 	{:else}
 		<!-- Deck Grid -->
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+		<div class="grid grid-cols-1 gap-4 md:grid-cols-2">
 			{#each decks as deck (deck.id)}
 				{@const stats = deckStats.get(deck.id)}
 				<DeckCard
@@ -179,7 +190,7 @@
 {#if deleteConfirmDeck}
 	<div class="modal modal-open">
 		<div class="modal-box">
-			<h3 class="font-bold text-lg">Xác nhận xóa</h3>
+			<h3 class="text-lg font-bold">Xác nhận xóa</h3>
 			<p class="py-4">
 				Bạn có chắc muốn xóa bộ thẻ "{deleteConfirmDeck.name}"?
 				<br />

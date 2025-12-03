@@ -57,9 +57,7 @@ export function calculateStreak(
 		const startDate = new Date(reviewDays[0]);
 
 		for (let i = 1; i < reviewDays.length; i++) {
-			const expected = new Date(startDate.getTime() - i * MS_PER_DAY)
-				.toISOString()
-				.split('T')[0];
+			const expected = new Date(startDate.getTime() - i * MS_PER_DAY).toISOString().split('T')[0];
 			if (reviewDays[i] === expected) {
 				currentStreak++;
 			} else {
@@ -125,16 +123,11 @@ export function calculateDeckStats(cards: Flashcard[], reviews: ReviewLog[]): De
 	const reviewCards = cards.filter((c) => c.status === 'review');
 	const suspendedCards = cards.filter((c) => c.status === 'suspended');
 
-	const dueToday = cards.filter(
-		(c) => c.status !== 'suspended' && isDue(c.state, now)
-	).length;
+	const dueToday = cards.filter((c) => c.status !== 'suspended' && isDue(c.state, now)).length;
 
 	const tomorrow = now + MS_PER_DAY;
 	const dueTomorrow = cards.filter(
-		(c) =>
-			c.status !== 'suspended' &&
-			c.state.dueDate > now &&
-			c.state.dueDate <= tomorrow
+		(c) => c.status !== 'suspended' && c.state.dueDate > now && c.state.dueDate <= tomorrow
 	).length;
 
 	// Average ease factor (only for cards with reviews)

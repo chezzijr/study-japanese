@@ -10,11 +10,7 @@ import { determineCardStatus } from './sm2';
 /**
  * Export a deck with all its data
  */
-export function exportDeck(
-	deck: Deck,
-	cards: Flashcard[],
-	reviews?: ReviewLog[]
-): ExportData {
+export function exportDeck(deck: Deck, cards: Flashcard[], reviews?: ReviewLog[]): ExportData {
 	return {
 		version: EXPORT_VERSION,
 		exportedAt: Date.now(),

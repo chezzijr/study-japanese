@@ -1,207 +1,207 @@
 [
-  {
-    "word": "これ",
-    "meaning": "cái này, đây (vật ở gần người nói)"
-  },
-  {
-    "word": "それ",
-    "meaning": "cái đó, đó (vật ở gần người nghe)"
-  },
-  {
-    "word": "あれ",
-    "meaning": "cái kia, kia (vật ở xa cả người nói và người nghe)"
-  },
-  {
-    "word": "この～",
-    "meaning": "~ này"
-  },
-  {
-    "word": "その～",
-    "meaning": "~ đó"
-  },
-  {
-    "word": "あの～",
-    "meaning": "~ kia"
-  },
-  {
-    "word": "パソコン",
-    "meaning": "máy tính cá nhân"
-  },
-  {
-    "word": "携帯",
-    "reading": "けいたい",
-    "meaning": "điện thoại di động"
-  },
-  {
-    "word": "電話",
-    "reading": "でんわ",
-    "meaning": "điện thoại"
-  },
-  {
-    "word": "アイフォン",
-    "meaning": "iphone"
-  },
-  {
-    "word": "充電器",
-    "reading": "じゅうでんき",
-    "meaning": "sạc pin"
-  },
-  {
-    "word": "ヘッドフォン",
-    "meaning": "tai nghe"
-  },
-  {
-    "word": "カメラ",
-    "meaning": "máy ảnh"
-  },
-  {
-    "word": "テレビ",
-    "meaning": "tivi"
-  },
-  {
-    "word": "車",
-    "reading": "くるま",
-    "meaning": "ô tô, xe hơi"
-  },
-  {
-    "word": "時計",
-    "reading": "とけい",
-    "meaning": "đồng hồ"
-  },
-  {
-    "word": "ペン",
-    "meaning": "bút"
-  },
-  {
-    "word": "ボールペン",
-    "meaning": "bút bi"
-  },
-  {
-    "word": "鉛筆",
-    "reading": "えんぴつ",
-    "meaning": "bút chì"
-  },
-  {
-    "word": "シャープペンシル",
-    "meaning": "bút chì kim"
-  },
-  {
-    "word": "消しゴム",
-    "reading": "けしゴム",
-    "meaning": "tẩy"
-  },
-  {
-    "word": "本",
-    "reading": "ほん",
-    "meaning": "sách"
-  },
-  {
-    "word": "ノート",
-    "meaning": "vở"
-  },
-  {
-    "word": "手帳",
-    "reading": "てちょう",
-    "meaning": "sổ tay"
-  },
-  {
-    "word": "辞書",
-    "reading": "じしょ",
-    "meaning": "từ điển"
-  },
-  {
-    "word": "新聞",
-    "reading": "しんぶん",
-    "meaning": "báo"
-  },
-  {
-    "word": "雑誌",
-    "reading": "ざっし",
-    "meaning": "tạp chí"
-  },
-  {
-    "word": "名刺",
-    "reading": "めいし",
-    "meaning": "danh thiếp"
-  },
-  {
-    "word": "カード",
-    "meaning": "thẻ, cạc"
-  },
-  {
-    "word": "クレジットカード",
-    "meaning": "thẻ tín dụng"
-  },
-  {
-    "word": "帽子",
-    "reading": "ぼうし",
-    "meaning": "mũ"
-  },
-  {
-    "word": "財布",
-    "reading": "さいふ",
-    "meaning": "ví"
-  },
-  {
-    "word": "かばん",
-    "meaning": "cặp sách, túi sách"
-  },
-  {
-    "word": "靴",
-    "reading": "くつ",
-    "meaning": "giày"
-  },
-  {
-    "word": "スリッパ",
-    "meaning": "dép đi trong nhà"
-  },
-  {
-    "word": "靴下",
-    "reading": "くつした",
-    "meaning": "tất"
-  },
-  {
-    "word": "鍵",
-    "reading": "かぎ",
-    "meaning": "chìa khóa"
-  },
-  {
-    "word": "傘",
-    "reading": "かさ",
-    "meaning": "ô, dù"
-  },
-  {
-    "word": "机",
-    "reading": "つくえ",
-    "meaning": "bàn"
-  },
-  {
-    "word": "椅子",
-    "reading": "いす",
-    "meaning": "cái ghế"
-  },
-  {
-    "word": "英語",
-    "reading": "えいご",
-    "meaning": "tiếng Anh"
-  },
-  {
-    "word": "何",
-    "reading": "なん",
-    "meaning": "cái gì (từ để hỏi)"
-  },
-  {
-    "word": "そう",
-    "meaning": "đúng, phải, đúng vậy"
-  },
-  {
-    "word": "違う",
-    "reading": "ちがう",
-    "meaning": "không phải, sai rồi"
-  },
-  {
-    "word": "ほんの気持ち",
-    "reading": "ほんのきもち",
-    "meaning": "Đây là chút lòng thành của tôi!"
-  }
+	{
+		"word": "これ",
+		"meaning": "cái này, đây (vật ở gần người nói)"
+	},
+	{
+		"word": "それ",
+		"meaning": "cái đó, đó (vật ở gần người nghe)"
+	},
+	{
+		"word": "あれ",
+		"meaning": "cái kia, kia (vật ở xa cả người nói và người nghe)"
+	},
+	{
+		"word": "この～",
+		"meaning": "~ này"
+	},
+	{
+		"word": "その～",
+		"meaning": "~ đó"
+	},
+	{
+		"word": "あの～",
+		"meaning": "~ kia"
+	},
+	{
+		"word": "パソコン",
+		"meaning": "máy tính cá nhân"
+	},
+	{
+		"word": "携帯",
+		"reading": "けいたい",
+		"meaning": "điện thoại di động"
+	},
+	{
+		"word": "電話",
+		"reading": "でんわ",
+		"meaning": "điện thoại"
+	},
+	{
+		"word": "アイフォン",
+		"meaning": "iphone"
+	},
+	{
+		"word": "充電器",
+		"reading": "じゅうでんき",
+		"meaning": "sạc pin"
+	},
+	{
+		"word": "ヘッドフォン",
+		"meaning": "tai nghe"
+	},
+	{
+		"word": "カメラ",
+		"meaning": "máy ảnh"
+	},
+	{
+		"word": "テレビ",
+		"meaning": "tivi"
+	},
+	{
+		"word": "車",
+		"reading": "くるま",
+		"meaning": "ô tô, xe hơi"
+	},
+	{
+		"word": "時計",
+		"reading": "とけい",
+		"meaning": "đồng hồ"
+	},
+	{
+		"word": "ペン",
+		"meaning": "bút"
+	},
+	{
+		"word": "ボールペン",
+		"meaning": "bút bi"
+	},
+	{
+		"word": "鉛筆",
+		"reading": "えんぴつ",
+		"meaning": "bút chì"
+	},
+	{
+		"word": "シャープペンシル",
+		"meaning": "bút chì kim"
+	},
+	{
+		"word": "消しゴム",
+		"reading": "けしゴム",
+		"meaning": "tẩy"
+	},
+	{
+		"word": "本",
+		"reading": "ほん",
+		"meaning": "sách"
+	},
+	{
+		"word": "ノート",
+		"meaning": "vở"
+	},
+	{
+		"word": "手帳",
+		"reading": "てちょう",
+		"meaning": "sổ tay"
+	},
+	{
+		"word": "辞書",
+		"reading": "じしょ",
+		"meaning": "từ điển"
+	},
+	{
+		"word": "新聞",
+		"reading": "しんぶん",
+		"meaning": "báo"
+	},
+	{
+		"word": "雑誌",
+		"reading": "ざっし",
+		"meaning": "tạp chí"
+	},
+	{
+		"word": "名刺",
+		"reading": "めいし",
+		"meaning": "danh thiếp"
+	},
+	{
+		"word": "カード",
+		"meaning": "thẻ, cạc"
+	},
+	{
+		"word": "クレジットカード",
+		"meaning": "thẻ tín dụng"
+	},
+	{
+		"word": "帽子",
+		"reading": "ぼうし",
+		"meaning": "mũ"
+	},
+	{
+		"word": "財布",
+		"reading": "さいふ",
+		"meaning": "ví"
+	},
+	{
+		"word": "かばん",
+		"meaning": "cặp sách, túi sách"
+	},
+	{
+		"word": "靴",
+		"reading": "くつ",
+		"meaning": "giày"
+	},
+	{
+		"word": "スリッパ",
+		"meaning": "dép đi trong nhà"
+	},
+	{
+		"word": "靴下",
+		"reading": "くつした",
+		"meaning": "tất"
+	},
+	{
+		"word": "鍵",
+		"reading": "かぎ",
+		"meaning": "chìa khóa"
+	},
+	{
+		"word": "傘",
+		"reading": "かさ",
+		"meaning": "ô, dù"
+	},
+	{
+		"word": "机",
+		"reading": "つくえ",
+		"meaning": "bàn"
+	},
+	{
+		"word": "椅子",
+		"reading": "いす",
+		"meaning": "cái ghế"
+	},
+	{
+		"word": "英語",
+		"reading": "えいご",
+		"meaning": "tiếng Anh"
+	},
+	{
+		"word": "何",
+		"reading": "なん",
+		"meaning": "cái gì (từ để hỏi)"
+	},
+	{
+		"word": "そう",
+		"meaning": "đúng, phải, đúng vậy"
+	},
+	{
+		"word": "違う",
+		"reading": "ちがう",
+		"meaning": "không phải, sai rồi"
+	},
+	{
+		"word": "ほんの気持ち",
+		"reading": "ほんのきもち",
+		"meaning": "Đây là chút lòng thành của tôi!"
+	}
 ]

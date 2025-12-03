@@ -1,210 +1,210 @@
 [
-  {
-    "word": "開く",
-    "reading": "あく",
-    "meaning": "mở",
-    "note": "I"
-  },
-  {
-    "word": "閉まる",
-    "reading": "しまる",
-    "meaning": "đóng",
-    "note": "I"
-  },
-  {
-    "word": "付く",
-    "reading": "つく",
-    "meaning": "(đèn-) sáng",
-    "note": "I"
-  },
-  {
-    "word": "消える",
-    "reading": "きえる",
-    "meaning": "(đèn-) tắt",
-    "note": "II"
-  },
-  {
-    "word": "壊れる",
-    "reading": "こわれる",
-    "meaning": "hỏng",
-    "note": "II"
-  },
-  {
-    "word": "割れる",
-    "reading": "われる",
-    "meaning": "vỡ",
-    "note": "II"
-  },
-  {
-    "word": "折れる",
-    "reading": "おれる",
-    "meaning": "(cây-) gãy",
-    "note": "II"
-  },
-  {
-    "word": "破れる",
-    "reading": "やぶれる",
-    "meaning": "rách",
-    "note": "II"
-  },
-  {
-    "word": "汚れる",
-    "reading": "よごれる",
-    "meaning": "bẩn",
-    "note": "II"
-  },
-  {
-    "word": "付く",
-    "reading": "つく",
-    "meaning": "dính, dính",
-    "note": "I"
-  },
-  {
-    "word": "外れる",
-    "reading": "はずれる",
-    "meaning": "bung, rơi",
-    "note": "II"
-  },
-  {
-    "word": "止まる",
-    "reading": "とまる",
-    "meaning": "dừng",
-    "note": "I"
-  },
-  {
-    "word": "間違える",
-    "reading": "まちがえる",
-    "meaning": "nhầm",
-    "note": "II"
-  },
-  {
-    "word": "落とす",
-    "reading": "おとす",
-    "meaning": "đánh rơi",
-    "note": "I"
-  },
-  {
-    "word": "掛かる",
-    "reading": "かかる",
-    "meaning": "khóa",
-    "note": "I"
-  },
-  {
-    "word": "拭く",
-    "reading": "ふく",
-    "meaning": "lau, chùi",
-    "note": "I"
-  },
-  {
-    "word": "取り替える",
-    "reading": "とりかえる",
-    "meaning": "thay (pin)",
-    "note": "II"
-  },
-  {
-    "word": "片付ける",
-    "reading": "かたづける",
-    "meaning": "dọn dẹp",
-    "note": "II"
-  },
-  {
-    "word": "皿",
-    "reading": "さら",
-    "meaning": "đĩa"
-  },
-  {
-    "word": "ちゃわん",
-    "reading": "ちゃわん",
-    "meaning": "bát"
-  },
-  {
-    "word": "コップ",
-    "reading": "コップ",
-    "meaning": "cốc"
-  },
-  {
-    "word": "ガラス",
-    "reading": "ガラス",
-    "meaning": "thủy tinh"
-  },
-  {
-    "word": "袋",
-    "reading": "ふくろ",
-    "meaning": "túi đựng"
-  },
-  {
-    "word": "書類",
-    "reading": "しょるい",
-    "meaning": "giấy tờ"
-  },
-  {
-    "word": "枝",
-    "reading": "えだ",
-    "meaning": "cành cây"
-  },
-  {
-    "word": "駅員",
-    "reading": "えきいん",
-    "meaning": "nhân viên nhà ga"
-  },
-  {
-    "word": "交番",
-    "reading": "こうばん",
-    "meaning": "đồn cảnh sát, bốt cảnh sát"
-  },
-  {
-    "word": "スピーチ",
-    "reading": "スピーチ",
-    "meaning": "diễn văn"
-  },
-  {
-    "word": "返事",
-    "reading": "へんじ",
-    "meaning": "trả lời"
-  },
-  {
-    "word": "お先にどうぞ",
-    "reading": "おさきにどうぞ",
-    "meaning": "mời anh/chị cứ đi/ làm/... trước"
-  },
-  {
-    "word": "忘れ物",
-    "reading": "わすれもの",
-    "meaning": "đồ bỏ quên"
-  },
-  {
-    "word": "ポケット",
-    "reading": "ポケット",
-    "meaning": "túi (quần, áo)"
-  },
-  {
-    "word": "網棚",
-    "reading": "あみだな",
-    "meaning": "giá để hành lý"
-  },
-  {
-    "word": "地震",
-    "reading": "じしん",
-    "meaning": "động đất"
-  },
-  {
-    "word": "針",
-    "reading": "はり",
-    "meaning": "cái kim; kim đồng hồ"
-  },
-  {
-    "word": "乗り場",
-    "reading": "のりば",
-    "meaning": "điểm lên xe"
-  },
-  {
-    "word": "駅前",
-    "reading": "えきまえ",
-    "meaning": "trước nhà ga"
-  },
-  {
-    "word": "レポーター",
-    "reading": "レポーター",
-    "meaning": "phóng viên"
-  }
+	{
+		"word": "開く",
+		"reading": "あく",
+		"meaning": "mở",
+		"note": "I"
+	},
+	{
+		"word": "閉まる",
+		"reading": "しまる",
+		"meaning": "đóng",
+		"note": "I"
+	},
+	{
+		"word": "付く",
+		"reading": "つく",
+		"meaning": "(đèn-) sáng",
+		"note": "I"
+	},
+	{
+		"word": "消える",
+		"reading": "きえる",
+		"meaning": "(đèn-) tắt",
+		"note": "II"
+	},
+	{
+		"word": "壊れる",
+		"reading": "こわれる",
+		"meaning": "hỏng",
+		"note": "II"
+	},
+	{
+		"word": "割れる",
+		"reading": "われる",
+		"meaning": "vỡ",
+		"note": "II"
+	},
+	{
+		"word": "折れる",
+		"reading": "おれる",
+		"meaning": "(cây-) gãy",
+		"note": "II"
+	},
+	{
+		"word": "破れる",
+		"reading": "やぶれる",
+		"meaning": "rách",
+		"note": "II"
+	},
+	{
+		"word": "汚れる",
+		"reading": "よごれる",
+		"meaning": "bẩn",
+		"note": "II"
+	},
+	{
+		"word": "付く",
+		"reading": "つく",
+		"meaning": "dính, dính",
+		"note": "I"
+	},
+	{
+		"word": "外れる",
+		"reading": "はずれる",
+		"meaning": "bung, rơi",
+		"note": "II"
+	},
+	{
+		"word": "止まる",
+		"reading": "とまる",
+		"meaning": "dừng",
+		"note": "I"
+	},
+	{
+		"word": "間違える",
+		"reading": "まちがえる",
+		"meaning": "nhầm",
+		"note": "II"
+	},
+	{
+		"word": "落とす",
+		"reading": "おとす",
+		"meaning": "đánh rơi",
+		"note": "I"
+	},
+	{
+		"word": "掛かる",
+		"reading": "かかる",
+		"meaning": "khóa",
+		"note": "I"
+	},
+	{
+		"word": "拭く",
+		"reading": "ふく",
+		"meaning": "lau, chùi",
+		"note": "I"
+	},
+	{
+		"word": "取り替える",
+		"reading": "とりかえる",
+		"meaning": "thay (pin)",
+		"note": "II"
+	},
+	{
+		"word": "片付ける",
+		"reading": "かたづける",
+		"meaning": "dọn dẹp",
+		"note": "II"
+	},
+	{
+		"word": "皿",
+		"reading": "さら",
+		"meaning": "đĩa"
+	},
+	{
+		"word": "ちゃわん",
+		"reading": "ちゃわん",
+		"meaning": "bát"
+	},
+	{
+		"word": "コップ",
+		"reading": "コップ",
+		"meaning": "cốc"
+	},
+	{
+		"word": "ガラス",
+		"reading": "ガラス",
+		"meaning": "thủy tinh"
+	},
+	{
+		"word": "袋",
+		"reading": "ふくろ",
+		"meaning": "túi đựng"
+	},
+	{
+		"word": "書類",
+		"reading": "しょるい",
+		"meaning": "giấy tờ"
+	},
+	{
+		"word": "枝",
+		"reading": "えだ",
+		"meaning": "cành cây"
+	},
+	{
+		"word": "駅員",
+		"reading": "えきいん",
+		"meaning": "nhân viên nhà ga"
+	},
+	{
+		"word": "交番",
+		"reading": "こうばん",
+		"meaning": "đồn cảnh sát, bốt cảnh sát"
+	},
+	{
+		"word": "スピーチ",
+		"reading": "スピーチ",
+		"meaning": "diễn văn"
+	},
+	{
+		"word": "返事",
+		"reading": "へんじ",
+		"meaning": "trả lời"
+	},
+	{
+		"word": "お先にどうぞ",
+		"reading": "おさきにどうぞ",
+		"meaning": "mời anh/chị cứ đi/ làm/... trước"
+	},
+	{
+		"word": "忘れ物",
+		"reading": "わすれもの",
+		"meaning": "đồ bỏ quên"
+	},
+	{
+		"word": "ポケット",
+		"reading": "ポケット",
+		"meaning": "túi (quần, áo)"
+	},
+	{
+		"word": "網棚",
+		"reading": "あみだな",
+		"meaning": "giá để hành lý"
+	},
+	{
+		"word": "地震",
+		"reading": "じしん",
+		"meaning": "động đất"
+	},
+	{
+		"word": "針",
+		"reading": "はり",
+		"meaning": "cái kim; kim đồng hồ"
+	},
+	{
+		"word": "乗り場",
+		"reading": "のりば",
+		"meaning": "điểm lên xe"
+	},
+	{
+		"word": "駅前",
+		"reading": "えきまえ",
+		"meaning": "trước nhà ga"
+	},
+	{
+		"word": "レポーター",
+		"reading": "レポーター",
+		"meaning": "phóng viên"
+	}
 ]

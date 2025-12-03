@@ -320,7 +320,10 @@ export async function deleteCards(ids: string[]): Promise<void> {
 /**
  * Suspend or unsuspend a card
  */
-export async function setCardSuspended(id: string, suspended: boolean): Promise<Flashcard | undefined> {
+export async function setCardSuspended(
+	id: string,
+	suspended: boolean
+): Promise<Flashcard | undefined> {
 	const db = await getDB();
 	const card = await db.get('cards', id);
 	if (!card) return undefined;

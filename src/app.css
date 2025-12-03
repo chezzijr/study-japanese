@@ -4,22 +4,22 @@
 
 /* Furigana/Ruby styling */
 ruby {
-    display: inline-flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    vertical-align: bottom;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	vertical-align: bottom;
 }
 
 ruby rt {
-    font-size: 0.5em;
-    text-align: center;
-    line-height: 1.2;
+	font-size: 0.5em;
+	text-align: center;
+	line-height: 1.2;
 }
 
 ruby rb {
-    display: inline;
+	display: inline;
 }
 
 .furigana-wrapper {
-    display: inline;
+	display: inline;
 }

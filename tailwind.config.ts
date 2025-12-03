@@ -11,11 +11,7 @@ export default {
 
 	plugins: [typography(), daisyui],
 	daisyui: {
-		themes: [
-      "dim",
-			"retro",
-		],
-		darkTheme: "dim",
-	},
-
+		themes: ['dim', 'retro'],
+		darkTheme: 'dim'
+	}
 } satisfies Config;

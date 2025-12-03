@@ -1,254 +1,254 @@
 [
-  {
-    "word": "逃げる",
-    "reading": "にげる",
-    "meaning": "chạy trốn",
-    "note": "II"
-  },
-  {
-    "word": "騒ぐ",
-    "reading": "さわぐ",
-    "meaning": "làm ồn",
-    "note": "I"
-  },
-  {
-    "word": "諦める",
-    "reading": "あきらめる",
-    "meaning": "bỏ cuộc, từ bỏ",
-    "note": "II"
-  },
-  {
-    "word": "投げる",
-    "reading": "なげる",
-    "meaning": "ném",
-    "note": "II"
-  },
-  {
-    "word": "守る",
-    "reading": "まもる",
-    "meaning": "giữ (lời hứa), tuân thủ",
-    "note": "I"
-  },
-  {
-    "word": "始まる",
-    "reading": "はじまる",
-    "meaning": "(lễ) bắt đầu",
-    "note": "I"
-  },
-  {
-    "word": "出席する",
-    "reading": "しゅっせきする",
-    "meaning": "có mặt, tham dự (cuộc họp)",
-    "note": "III"
-  },
-  {
-    "word": "欠席する",
-    "reading": "けっせきする",
-    "meaning": "vắng mặt, không tham dự (cuộc họp)",
-    "note": "III"
-  },
-  {
-    "word": "伝える",
-    "reading": "つたえる",
-    "meaning": "nói lại, truyền đạt lại",
-    "note": "II"
-  },
-  {
-    "word": "注意する",
-    "reading": "ちゅういする",
-    "meaning": "chú ý",
-    "note": "III"
-  },
-  {
-    "word": "外す",
-    "reading": "はずす",
-    "meaning": "rời (ghế)",
-    "note": "I"
-  },
-  {
-    "word": "戻る",
-    "reading": "もどる",
-    "meaning": "quay trở lại",
-    "note": "I"
-  },
-  {
-    "word": "リサイクルする",
-    "reading": "リサイクルする",
-    "meaning": "tái chế",
-    "note": "III"
-  },
-  {
-    "word": "助け合う",
-    "reading": "たすけあう",
-    "meaning": "giúp đỡ lẫn nhau",
-    "note": "I"
-  },
-  {
-    "word": "だめ",
-    "reading": "だめ",
-    "meaning": "không được"
-  },
-  {
-    "word": "警察",
-    "reading": "けいさつ",
-    "meaning": "cảnh sát"
-  },
-  {
-    "word": "席",
-    "reading": "せき",
-    "meaning": "ghế, chỗ (ngồi)"
-  },
-  {
-    "word": "マーク",
-    "reading": "マーク",
-    "meaning": "kí hiệu"
-  },
-  {
-    "word": "ボール",
-    "reading": "ボール",
-    "meaning": "quả bóng"
-  },
-  {
-    "word": "締め切り",
-    "reading": "しめきり",
-    "meaning": "hạn chót, hạn cuối"
-  },
-  {
-    "word": "規則",
-    "reading": "きそく",
-    "meaning": "quy tắc"
-  },
-  {
-    "word": "危険",
-    "reading": "きけん",
-    "meaning": "nguy hiểm"
-  },
-  {
-    "word": "使用禁止",
-    "reading": "しようきんし",
-    "meaning": "cấm sử dụng"
-  },
-  {
-    "word": "立ち入り禁止",
-    "reading": "たちいりきんし",
-    "meaning": "cấm vào"
-  },
-  {
-    "word": "徐行",
-    "reading": "じょこう",
-    "meaning": "chạy chậm, đi chậm"
-  },
-  {
-    "word": "入り口",
-    "reading": "いりぐち",
-    "meaning": "lối vào"
-  },
-  {
-    "word": "出口",
-    "reading": "でぐち",
-    "meaning": "lối ra"
-  },
-  {
-    "word": "非常口",
-    "reading": "ひじょうぐち",
-    "meaning": "cửa thoát hiểm"
-  },
-  {
-    "word": "割引",
-    "reading": "わりびき",
-    "meaning": "giảm giá"
-  },
-  {
-    "word": "食べ放題",
-    "reading": "たべほうだい",
-    "meaning": "ăn thoải mái"
-  },
-  {
-    "word": "飲み放題",
-    "reading": "のみほうだい",
-    "meaning": "uống thoải mái"
-  },
-  {
-    "word": "使用中",
-    "reading": "しようちゅう",
-    "meaning": "đang sử dụng"
-  },
-  {
-    "word": "募集中",
-    "reading": "ぼしゅうちゅう",
-    "meaning": "đang tuyển dụng"
-  },
-  {
-    "word": "どういう",
-    "reading": "どういう",
-    "meaning": "như thế nào"
-  },
-  {
-    "word": "もう",
-    "reading": "もう",
-    "meaning": "nữa"
-  },
-  {
-    "word": "罰金",
-    "reading": "ばっきん",
-    "meaning": "tiền phạt"
-  },
-  {
-    "word": "駐車違反",
-    "reading": "ちゅうしゃいはん",
-    "meaning": "đỗ xe sai quy định"
-  },
-  {
-    "word": "相手",
-    "reading": "あいて",
-    "meaning": "đối phương, đối thủ"
-  },
-  {
-    "word": "気持ち",
-    "reading": "きもち",
-    "meaning": "tâm trạng"
-  },
-  {
-    "word": "ごにょごにょ",
-    "reading": "ごにょごにょ",
-    "meaning": "lầm bầm"
-  },
-  {
-    "word": "喋る",
-    "reading": "しゃべる",
-    "meaning": "nói chuyện, tán gẫu",
-    "note": "I"
-  },
-  {
-    "word": "うとうとする",
-    "reading": "うとうとする",
-    "meaning": "mơ màng",
-    "note": "III"
-  },
-  {
-    "word": "こら",
-    "reading": "こら",
-    "meaning": "Này!"
-  },
-  {
-    "word": "一期一会",
-    "reading": "いちごいちえ",
-    "meaning": "(thành ngữ) nhất kì nhất hội, ý chỉ mỗi cuộc gặp gỡ để đáng quý"
-  },
-  {
-    "word": "頑張る",
-    "reading": "がんばる",
-    "meaning": "cố gắng",
-    "note": "I"
-  },
-  {
-    "word": "悲しい",
-    "reading": "かなしい",
-    "meaning": "buồn"
-  },
-  {
-    "word": "挨拶",
-    "reading": "あいさつ",
-    "meaning": "chào hỏi"
-  }
+	{
+		"word": "逃げる",
+		"reading": "にげる",
+		"meaning": "chạy trốn",
+		"note": "II"
+	},
+	{
+		"word": "騒ぐ",
+		"reading": "さわぐ",
+		"meaning": "làm ồn",
+		"note": "I"
+	},
+	{
+		"word": "諦める",
+		"reading": "あきらめる",
+		"meaning": "bỏ cuộc, từ bỏ",
+		"note": "II"
+	},
+	{
+		"word": "投げる",
+		"reading": "なげる",
+		"meaning": "ném",
+		"note": "II"
+	},
+	{
+		"word": "守る",
+		"reading": "まもる",
+		"meaning": "giữ (lời hứa), tuân thủ",
+		"note": "I"
+	},
+	{
+		"word": "始まる",
+		"reading": "はじまる",
+		"meaning": "(lễ) bắt đầu",
+		"note": "I"
+	},
+	{
+		"word": "出席する",
+		"reading": "しゅっせきする",
+		"meaning": "có mặt, tham dự (cuộc họp)",
+		"note": "III"
+	},
+	{
+		"word": "欠席する",
+		"reading": "けっせきする",
+		"meaning": "vắng mặt, không tham dự (cuộc họp)",
+		"note": "III"
+	},
+	{
+		"word": "伝える",
+		"reading": "つたえる",
+		"meaning": "nói lại, truyền đạt lại",
+		"note": "II"
+	},
+	{
+		"word": "注意する",
+		"reading": "ちゅういする",
+		"meaning": "chú ý",
+		"note": "III"
+	},
+	{
+		"word": "外す",
+		"reading": "はずす",
+		"meaning": "rời (ghế)",
+		"note": "I"
+	},
+	{
+		"word": "戻る",
+		"reading": "もどる",
+		"meaning": "quay trở lại",
+		"note": "I"
+	},
+	{
+		"word": "リサイクルする",
+		"reading": "リサイクルする",
+		"meaning": "tái chế",
+		"note": "III"
+	},
+	{
+		"word": "助け合う",
+		"reading": "たすけあう",
+		"meaning": "giúp đỡ lẫn nhau",
+		"note": "I"
+	},
+	{
+		"word": "だめ",
+		"reading": "だめ",
+		"meaning": "không được"
+	},
+	{
+		"word": "警察",
+		"reading": "けいさつ",
+		"meaning": "cảnh sát"
+	},
+	{
+		"word": "席",
+		"reading": "せき",
+		"meaning": "ghế, chỗ (ngồi)"
+	},
+	{
+		"word": "マーク",
+		"reading": "マーク",
+		"meaning": "kí hiệu"
+	},
+	{
+		"word": "ボール",
+		"reading": "ボール",
+		"meaning": "quả bóng"
+	},
+	{
+		"word": "締め切り",
+		"reading": "しめきり",
+		"meaning": "hạn chót, hạn cuối"
+	},
+	{
+		"word": "規則",
+		"reading": "きそく",
+		"meaning": "quy tắc"
+	},
+	{
+		"word": "危険",
+		"reading": "きけん",
+		"meaning": "nguy hiểm"
+	},
+	{
+		"word": "使用禁止",
+		"reading": "しようきんし",
+		"meaning": "cấm sử dụng"
+	},
+	{
+		"word": "立ち入り禁止",
+		"reading": "たちいりきんし",
+		"meaning": "cấm vào"
+	},
+	{
+		"word": "徐行",
+		"reading": "じょこう",
+		"meaning": "chạy chậm, đi chậm"
+	},
+	{
+		"word": "入り口",
+		"reading": "いりぐち",
+		"meaning": "lối vào"
+	},
+	{
+		"word": "出口",
+		"reading": "でぐち",
+		"meaning": "lối ra"
+	},
+	{
+		"word": "非常口",
+		"reading": "ひじょうぐち",
+		"meaning": "cửa thoát hiểm"
+	},
+	{
+		"word": "割引",
+		"reading": "わりびき",
+		"meaning": "giảm giá"
+	},
+	{
+		"word": "食べ放題",
+		"reading": "たべほうだい",
+		"meaning": "ăn thoải mái"
+	},
+	{
+		"word": "飲み放題",
+		"reading": "のみほうだい",
+		"meaning": "uống thoải mái"
+	},
+	{
+		"word": "使用中",
+		"reading": "しようちゅう",
+		"meaning": "đang sử dụng"
+	},
+	{
+		"word": "募集中",
+		"reading": "ぼしゅうちゅう",
+		"meaning": "đang tuyển dụng"
+	},
+	{
+		"word": "どういう",
+		"reading": "どういう",
+		"meaning": "như thế nào"
+	},
+	{
+		"word": "もう",
+		"reading": "もう",
+		"meaning": "nữa"
+	},
+	{
+		"word": "罰金",
+		"reading": "ばっきん",
+		"meaning": "tiền phạt"
+	},
+	{
+		"word": "駐車違反",
+		"reading": "ちゅうしゃいはん",
+		"meaning": "đỗ xe sai quy định"
+	},
+	{
+		"word": "相手",
+		"reading": "あいて",
+		"meaning": "đối phương, đối thủ"
+	},
+	{
+		"word": "気持ち",
+		"reading": "きもち",
+		"meaning": "tâm trạng"
+	},
+	{
+		"word": "ごにょごにょ",
+		"reading": "ごにょごにょ",
+		"meaning": "lầm bầm"
+	},
+	{
+		"word": "喋る",
+		"reading": "しゃべる",
+		"meaning": "nói chuyện, tán gẫu",
+		"note": "I"
+	},
+	{
+		"word": "うとうとする",
+		"reading": "うとうとする",
+		"meaning": "mơ màng",
+		"note": "III"
+	},
+	{
+		"word": "こら",
+		"reading": "こら",
+		"meaning": "Này!"
+	},
+	{
+		"word": "一期一会",
+		"reading": "いちごいちえ",
+		"meaning": "(thành ngữ) nhất kì nhất hội, ý chỉ mỗi cuộc gặp gỡ để đáng quý"
+	},
+	{
+		"word": "頑張る",
+		"reading": "がんばる",
+		"meaning": "cố gắng",
+		"note": "I"
+	},
+	{
+		"word": "悲しい",
+		"reading": "かなしい",
+		"meaning": "buồn"
+	},
+	{
+		"word": "挨拶",
+		"reading": "あいさつ",
+		"meaning": "chào hỏi"
+	}
 ]

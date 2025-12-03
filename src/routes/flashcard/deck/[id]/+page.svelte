@@ -239,8 +239,13 @@
 <main class="container mx-auto max-w-4xl p-4">
 	<!-- Header -->
 	<div class="mb-6">
-		<a href="{base}/flashcard" class="btn btn-ghost btn-sm gap-1 mb-4">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-4 h-4 stroke-current">
+		<a href="{base}/flashcard" class="btn btn-ghost btn-sm mb-4 gap-1">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 24 24"
+				class="h-4 w-4 stroke-current"
+			>
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
 			</svg>
 			Quay lại
@@ -251,7 +256,7 @@
 				<div>
 					<h1 class="text-2xl font-bold">{deck.name}</h1>
 					{#if deck.description}
-						<p class="text-base-content/60 mt-1">{deck.description}</p>
+						<p class="mt-1 text-base-content/60">{deck.description}</p>
 					{/if}
 				</div>
 				{#if reviewableCount.totalReviewable > 0}
@@ -262,7 +267,7 @@
 			</div>
 
 			<!-- Quick Stats -->
-			<div class="stats shadow mt-4">
+			<div class="stats mt-4 shadow">
 				<div class="stat py-3">
 					<div class="stat-title text-sm">Mới</div>
 					<div class="stat-value text-lg text-primary">{reviewableCount.newCount}</div>
@@ -280,7 +285,7 @@
 	</div>
 
 	{#if loading}
-		<div class="flex justify-center items-center py-20">
+		<div class="flex items-center justify-center py-20">
 			<span class="loading loading-spinner loading-lg"></span>
 		</div>
 	{:else if error}
@@ -289,13 +294,13 @@
 		</div>
 	{:else if deck}
 		<!-- Toolbar -->
-		<div class="flex flex-wrap items-center gap-4 mb-4">
+		<div class="mb-4 flex flex-wrap items-center gap-4">
 			<!-- Search -->
-			<div class="flex items-center gap-2 flex-1 min-w-64">
+			<div class="flex min-w-64 flex-1 items-center gap-2">
 				<input
 					type="text"
 					placeholder="Tìm kiếm..."
-					class="input input-bordered input-sm w-full max-w-xs"
+					class="input input-sm input-bordered w-full max-w-xs"
 					bind:value={searchTerm}
 				/>
 			</div>
@@ -311,8 +316,18 @@
 
 			<!-- Add Card Button -->
 			<button class="btn btn-primary btn-sm" onclick={() => (showAddCard = true)}>
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-4 h-4 stroke-current">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					class="h-4 w-4 stroke-current"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M12 4v16m8-8H4"
+					/>
 				</svg>
 				Thêm thẻ
 			</button>
@@ -320,7 +335,7 @@
 
 		<!-- Bulk Actions -->
 		{#if selectedCards.size > 0}
-			<div class="bg-base-200 p-2 rounded-lg mb-4 flex items-center gap-4">
+			<div class="mb-4 flex items-center gap-4 rounded-lg bg-base-200 p-2">
 				<span class="text-sm">{selectedCards.size} thẻ đã chọn</span>
 				<button class="btn btn-error btn-sm" onclick={() => (showBulkDeleteConfirm = true)}>
 					Xóa đã chọn
@@ -333,13 +348,11 @@
 
 		<!-- Cards Table -->
 		{#if cards.length === 0}
-			<div class="text-center py-20">
-				<div class="text-5xl mb-4">📝</div>
-				<h2 class="text-xl font-semibold mb-2">Chưa có thẻ nào</h2>
-				<p class="text-base-content/60 mb-6">Thêm thẻ đầu tiên để bắt đầu ôn tập</p>
-				<button class="btn btn-primary" onclick={() => (showAddCard = true)}>
-					Thêm thẻ mới
-				</button>
+			<div class="py-20 text-center">
+				<div class="mb-4 text-5xl">📝</div>
+				<h2 class="mb-2 text-xl font-semibold">Chưa có thẻ nào</h2>
+				<p class="mb-6 text-base-content/60">Thêm thẻ đầu tiên để bắt đầu ôn tập</p>
+				<button class="btn btn-primary" onclick={() => (showAddCard = true)}> Thêm thẻ mới </button>
 			</div>
 		{:else}
 			<div class="overflow-x-auto rounded-lg border border-base-content/10">
@@ -388,18 +401,35 @@
 								<td>
 									<div class="dropdown dropdown-end">
 										<button tabindex="0" class="btn btn-ghost btn-xs">
-											<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-4 h-4 stroke-current">
-												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												fill="none"
+												viewBox="0 0 24 24"
+												class="h-4 w-4 stroke-current"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M12 5v.01M12 12v.01M12 19v.01M12 6a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z"
+												/>
 											</svg>
 										</button>
-										<ul tabindex="0" class="dropdown-content z-10 menu p-2 shadow bg-base-100 rounded-box w-40">
+										<ul
+											tabindex="0"
+											class="menu dropdown-content z-10 w-40 rounded-box bg-base-100 p-2 shadow"
+										>
 											<li><button onclick={() => (editingCard = card)}>Sửa</button></li>
 											<li>
 												<button onclick={() => handleToggleSuspend(card)}>
 													{card.status === 'suspended' ? 'Bỏ tạm dừng' : 'Tạm dừng'}
 												</button>
 											</li>
-											<li><button onclick={() => (deleteConfirmCard = card)} class="text-error">Xóa</button></li>
+											<li>
+												<button onclick={() => (deleteConfirmCard = card)} class="text-error"
+													>Xóa</button
+												>
+											</li>
 										</ul>
 									</div>
 								</td>
@@ -426,7 +456,7 @@
 {#if showAddCard}
 	<div class="modal modal-open">
 		<div class="modal-box max-w-lg">
-			<h3 class="font-bold text-lg mb-4">Thêm thẻ mới</h3>
+			<h3 class="mb-4 text-lg font-bold">Thêm thẻ mới</h3>
 			<CardForm onSave={handleAddCard} onCancel={() => (showAddCard = false)} />
 		</div>
 		<div class="modal-backdrop" onclick={() => (showAddCard = false)}></div>
@@ -437,7 +467,7 @@
 {#if editingCard}
 	<div class="modal modal-open">
 		<div class="modal-box max-w-lg">
-			<h3 class="font-bold text-lg mb-4">Sửa thẻ</h3>
+			<h3 class="mb-4 text-lg font-bold">Sửa thẻ</h3>
 			<CardForm card={editingCard} onSave={handleEditCard} onCancel={() => (editingCard = null)} />
 		</div>
 		<div class="modal-backdrop" onclick={() => (editingCard = null)}></div>
@@ -448,7 +478,7 @@
 {#if deleteConfirmCard}
 	<div class="modal modal-open">
 		<div class="modal-box">
-			<h3 class="font-bold text-lg">Xác nhận xóa</h3>
+			<h3 class="text-lg font-bold">Xác nhận xóa</h3>
 			<p class="py-4">Bạn có chắc muốn xóa thẻ này?</p>
 			<div class="modal-action">
 				<button class="btn btn-ghost" onclick={() => (deleteConfirmCard = null)}>Hủy</button>
@@ -463,7 +493,7 @@
 {#if showBulkDeleteConfirm}
 	<div class="modal modal-open">
 		<div class="modal-box">
-			<h3 class="font-bold text-lg">Xác nhận xóa</h3>
+			<h3 class="text-lg font-bold">Xác nhận xóa</h3>
 			<p class="py-4">Bạn có chắc muốn xóa {selectedCards.size} thẻ đã chọn?</p>
 			<div class="modal-action">
 				<button class="btn btn-ghost" onclick={() => (showBulkDeleteConfirm = false)}>Hủy</button>

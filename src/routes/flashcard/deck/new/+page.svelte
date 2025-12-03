@@ -40,8 +40,13 @@
 <main class="container mx-auto max-w-xl p-4">
 	<!-- Header -->
 	<div class="mb-6">
-		<a href="{base}/flashcard" class="btn btn-ghost btn-sm gap-1 mb-4">
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-4 h-4 stroke-current">
+		<a href="{base}/flashcard" class="btn btn-ghost btn-sm mb-4 gap-1">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 24 24"
+				class="h-4 w-4 stroke-current"
+			>
 				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
 			</svg>
 			Quay lại
@@ -52,8 +57,18 @@
 	<!-- Error -->
 	{#if error}
 		<div class="alert alert-error mb-4">
-			<svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="h-6 w-6 shrink-0 stroke-current"
+				fill="none"
+				viewBox="0 0 24 24"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+				/>
 			</svg>
 			<span>{error}</span>
 		</div>
@@ -63,7 +78,7 @@
 	<div class="card bg-base-200">
 		<div class="card-body">
 			{#if saving}
-				<div class="flex justify-center items-center py-10">
+				<div class="flex items-center justify-center py-10">
 					<span class="loading loading-spinner loading-lg"></span>
 				</div>
 			{:else}

@@ -1,211 +1,211 @@
 [
-  {
-    "word": "見る・診る",
-    "reading": "みる",
-    "meaning": "nhìn, xem/khám bệnh",
-    "note": "II"
-  },
-  {
-    "word": "探す",
-    "reading": "さがす",
-    "meaning": "tìm kiếm",
-    "note": "I"
-  },
-  {
-    "word": "遅れる",
-    "reading": "おくれる",
-    "meaning": "chậm, trễ",
-    "note": "II"
-  },
-  {
-    "word": "間に合う",
-    "reading": "まにあう",
-    "meaning": "kịp [giờ]",
-    "note": "I"
-  },
-  {
-    "word": "やる",
-    "reading": "やる",
-    "meaning": "làm",
-    "note": "I"
-  },
-  {
-    "word": "拾う",
-    "reading": "ひろう",
-    "meaning": "nhặt",
-    "note": "I"
-  },
-  {
-    "word": "出す",
-    "reading": "だす",
-    "meaning": "đưa ra, gửi đi; [ごみを～] đổ (rác); [レポートを～] nộp (báo cáo)",
-    "note": "I"
-  },
-  {
-    "word": "連絡する",
-    "reading": "れんらくする",
-    "meaning": "liên lạc",
-    "note": "III"
-  },
-  {
-    "word": "気分がいい",
-    "reading": "きぶんがいい",
-    "meaning": "cảm thấy thoải mái, cảm thấy khỏe"
-  },
-  {
-    "word": "気分が悪い",
-    "reading": "きぶんがわるい",
-    "meaning": "cảm thấy không thoải mái, cảm thấy mệt"
-  },
-  {
-    "word": "運動会",
-    "reading": "うんどうかい",
-    "meaning": "hội thi thể thao"
-  },
-  {
-    "word": "盆踊り",
-    "reading": "ぼんおどり",
-    "meaning": "múa Bon"
-  },
-  {
-    "word": "場所",
-    "reading": "ばしょ",
-    "meaning": "địa điểm, nơi"
-  },
-  {
-    "word": "置き場",
-    "reading": "おきば",
-    "meaning": "nơi để"
-  },
-  {
-    "word": "財布",
-    "reading": "さいふ",
-    "meaning": "ví"
-  },
-  {
-    "word": "ごみ",
-    "reading": "ごみ",
-    "meaning": "rác"
-  },
-  {
-    "word": "急行",
-    "reading": "きゅうこう",
-    "meaning": "tàu tốc hành"
-  },
-  {
-    "word": "特急",
-    "reading": "とっきゅう",
-    "meaning": "tàu tốc hành đặc biệt"
-  },
-  {
-    "word": "自動車",
-    "reading": "じどうしゃ",
-    "meaning": "xe ô tô"
-  },
-  {
-    "word": "国会議事堂",
-    "reading": "こっかいぎじどう",
-    "meaning": "tòa nhà quốc hội"
-  },
-  {
-    "word": "ボランティア",
-    "reading": "ボランティア",
-    "meaning": "tình nguyện viên"
-  },
-  {
-    "word": "フリーマーケット",
-    "reading": "フリーマーケット",
-    "meaning": "chợ trời (chợ đồ cũ)"
-  },
-  {
-    "word": "平日",
-    "reading": "へいじつ",
-    "meaning": "ngày thường"
-  },
-  {
-    "word": "今度",
-    "reading": "こんど",
-    "meaning": "lần tới"
-  },
-  {
-    "word": "ずいぶん",
-    "reading": "ずいぶん",
-    "meaning": "khá, tương đối"
-  },
-  {
-    "word": "直接",
-    "reading": "ちょくせつ",
-    "meaning": "trực tiếp"
-  },
-  {
-    "word": "いつでも",
-    "reading": "いつでも",
-    "meaning": "lúc nào cũng"
-  },
-  {
-    "word": "どこでも",
-    "reading": "どこでも",
-    "meaning": "ở đâu cũng"
-  },
-  {
-    "word": "だれでも",
-    "reading": "だれでも",
-    "meaning": "ai cũng"
-  },
-  {
-    "word": "なんでも",
-    "reading": "なんでも",
-    "meaning": "cái gì cũng"
-  },
-  {
-    "word": "こんな～",
-    "reading": "こんな～",
-    "meaning": "như thế này ~"
-  },
-  {
-    "word": "そんな～",
-    "reading": "そんな～",
-    "meaning": "như thế đó ~"
-  },
-  {
-    "word": "あんな～",
-    "reading": "あんな～",
-    "meaning": "như thế kia ~"
-  },
-  {
-    "word": "詳しい",
-    "reading": "くわしい",
-    "meaning": "tường tận, cụ thể"
-  },
-  {
-    "word": "寝坊する",
-    "reading": "ねぼうする",
-    "meaning": "ngủ quên",
-    "note": "III"
-  },
-  {
-    "word": "宇宙",
-    "reading": "うちゅう",
-    "meaning": "vũ trụ"
-  },
-  {
-    "word": "宇宙船",
-    "reading": "うちゅうせん",
-    "meaning": "tàu vũ trụ"
-  },
-  {
-    "word": "宇宙ステーション",
-    "reading": "うちゅうステーション",
-    "meaning": "trạm vũ trụ"
-  },
-  {
-    "word": "宇宙飛行士",
-    "reading": "うちゅうひこうし",
-    "meaning": "phi hành gia"
-  },
-  {
-    "word": "地球",
-    "reading": "ちきゅう",
-    "meaning": "Trái đất"
-  }
+	{
+		"word": "見る・診る",
+		"reading": "みる",
+		"meaning": "nhìn, xem/khám bệnh",
+		"note": "II"
+	},
+	{
+		"word": "探す",
+		"reading": "さがす",
+		"meaning": "tìm kiếm",
+		"note": "I"
+	},
+	{
+		"word": "遅れる",
+		"reading": "おくれる",
+		"meaning": "chậm, trễ",
+		"note": "II"
+	},
+	{
+		"word": "間に合う",
+		"reading": "まにあう",
+		"meaning": "kịp [giờ]",
+		"note": "I"
+	},
+	{
+		"word": "やる",
+		"reading": "やる",
+		"meaning": "làm",
+		"note": "I"
+	},
+	{
+		"word": "拾う",
+		"reading": "ひろう",
+		"meaning": "nhặt",
+		"note": "I"
+	},
+	{
+		"word": "出す",
+		"reading": "だす",
+		"meaning": "đưa ra, gửi đi; [ごみを～] đổ (rác); [レポートを～] nộp (báo cáo)",
+		"note": "I"
+	},
+	{
+		"word": "連絡する",
+		"reading": "れんらくする",
+		"meaning": "liên lạc",
+		"note": "III"
+	},
+	{
+		"word": "気分がいい",
+		"reading": "きぶんがいい",
+		"meaning": "cảm thấy thoải mái, cảm thấy khỏe"
+	},
+	{
+		"word": "気分が悪い",
+		"reading": "きぶんがわるい",
+		"meaning": "cảm thấy không thoải mái, cảm thấy mệt"
+	},
+	{
+		"word": "運動会",
+		"reading": "うんどうかい",
+		"meaning": "hội thi thể thao"
+	},
+	{
+		"word": "盆踊り",
+		"reading": "ぼんおどり",
+		"meaning": "múa Bon"
+	},
+	{
+		"word": "場所",
+		"reading": "ばしょ",
+		"meaning": "địa điểm, nơi"
+	},
+	{
+		"word": "置き場",
+		"reading": "おきば",
+		"meaning": "nơi để"
+	},
+	{
+		"word": "財布",
+		"reading": "さいふ",
+		"meaning": "ví"
+	},
+	{
+		"word": "ごみ",
+		"reading": "ごみ",
+		"meaning": "rác"
+	},
+	{
+		"word": "急行",
+		"reading": "きゅうこう",
+		"meaning": "tàu tốc hành"
+	},
+	{
+		"word": "特急",
+		"reading": "とっきゅう",
+		"meaning": "tàu tốc hành đặc biệt"
+	},
+	{
+		"word": "自動車",
+		"reading": "じどうしゃ",
+		"meaning": "xe ô tô"
+	},
+	{
+		"word": "国会議事堂",
+		"reading": "こっかいぎじどう",
+		"meaning": "tòa nhà quốc hội"
+	},
+	{
+		"word": "ボランティア",
+		"reading": "ボランティア",
+		"meaning": "tình nguyện viên"
+	},
+	{
+		"word": "フリーマーケット",
+		"reading": "フリーマーケット",
+		"meaning": "chợ trời (chợ đồ cũ)"
+	},
+	{
+		"word": "平日",
+		"reading": "へいじつ",
+		"meaning": "ngày thường"
+	},
+	{
+		"word": "今度",
+		"reading": "こんど",
+		"meaning": "lần tới"
+	},
+	{
+		"word": "ずいぶん",
+		"reading": "ずいぶん",
+		"meaning": "khá, tương đối"
+	},
+	{
+		"word": "直接",
+		"reading": "ちょくせつ",
+		"meaning": "trực tiếp"
+	},
+	{
+		"word": "いつでも",
+		"reading": "いつでも",
+		"meaning": "lúc nào cũng"
+	},
+	{
+		"word": "どこでも",
+		"reading": "どこでも",
+		"meaning": "ở đâu cũng"
+	},
+	{
+		"word": "だれでも",
+		"reading": "だれでも",
+		"meaning": "ai cũng"
+	},
+	{
+		"word": "なんでも",
+		"reading": "なんでも",
+		"meaning": "cái gì cũng"
+	},
+	{
+		"word": "こんな～",
+		"reading": "こんな～",
+		"meaning": "như thế này ~"
+	},
+	{
+		"word": "そんな～",
+		"reading": "そんな～",
+		"meaning": "như thế đó ~"
+	},
+	{
+		"word": "あんな～",
+		"reading": "あんな～",
+		"meaning": "như thế kia ~"
+	},
+	{
+		"word": "詳しい",
+		"reading": "くわしい",
+		"meaning": "tường tận, cụ thể"
+	},
+	{
+		"word": "寝坊する",
+		"reading": "ねぼうする",
+		"meaning": "ngủ quên",
+		"note": "III"
+	},
+	{
+		"word": "宇宙",
+		"reading": "うちゅう",
+		"meaning": "vũ trụ"
+	},
+	{
+		"word": "宇宙船",
+		"reading": "うちゅうせん",
+		"meaning": "tàu vũ trụ"
+	},
+	{
+		"word": "宇宙ステーション",
+		"reading": "うちゅうステーション",
+		"meaning": "trạm vũ trụ"
+	},
+	{
+		"word": "宇宙飛行士",
+		"reading": "うちゅうひこうし",
+		"meaning": "phi hành gia"
+	},
+	{
+		"word": "地球",
+		"reading": "ちきゅう",
+		"meaning": "Trái đất"
+	}
 ]

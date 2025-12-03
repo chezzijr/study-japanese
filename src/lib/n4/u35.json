@@ -1,196 +1,196 @@
 [
-  {
-    "word": "変わる",
-    "reading": "かわる",
-    "meaning": "đổi, thay đổi",
-    "note": "I"
-  },
-  {
-    "word": "困る",
-    "reading": "こまる",
-    "meaning": "khó khăn",
-    "note": "I"
-  },
-  {
-    "word": "付ける",
-    "reading": "つける",
-    "meaning": "đánh dấu (tròn)",
-    "note": "II"
-  },
-  {
-    "word": "治る",
-    "reading": "なおる",
-    "meaning": "khỏi (bệnh)",
-    "note": "I"
-  },
-  {
-    "word": "直る",
-    "reading": "なおる",
-    "meaning": "(hỏng hóc) được sửa xong",
-    "note": "I"
-  },
-  {
-    "word": "入力する",
-    "reading": "にゅうりょくする",
-    "meaning": "nhập vào",
-    "note": "III"
-  },
-  {
-    "word": "仲良くする",
-    "reading": "なかよくする",
-    "meaning": "chơi thân với (cô ấy)",
-    "note": "III"
-  },
-  {
-    "word": "クリックする",
-    "reading": "クリックする",
-    "meaning": "click chuột",
-    "note": "III"
-  },
-  {
-    "word": "咲く",
-    "reading": "さく",
-    "meaning": "(hoa) nở",
-    "note": "I"
-  },
-  {
-    "word": "向こう",
-    "reading": "むこう",
-    "meaning": "đằng ấy, phía đối diện"
-  },
-  {
-    "word": "島",
-    "reading": "しま",
-    "meaning": "đảo"
-  },
-  {
-    "word": "港",
-    "reading": "みなと",
-    "meaning": "cảng"
-  },
-  {
-    "word": "近所",
-    "reading": "きんじょ",
-    "meaning": "hàng xóm, gần quanh đây"
-  },
-  {
-    "word": "屋上",
-    "reading": "おくじょう",
-    "meaning": "tầng thượng"
-  },
-  {
-    "word": "海外",
-    "reading": "かいがい",
-    "meaning": "nước ngoài"
-  },
-  {
-    "word": "山登り",
-    "reading": "やまのぼり",
-    "meaning": "leo núi"
-  },
-  {
-    "word": "歴史",
-    "reading": "れきし",
-    "meaning": "lịch sử"
-  },
-  {
-    "word": "機会",
-    "reading": "きかい",
-    "meaning": "cơ hội"
-  },
-  {
-    "word": "許可",
-    "reading": "きょか",
-    "meaning": "sự cho phép"
-  },
-  {
-    "word": "丸",
-    "reading": "まる",
-    "meaning": "dấu tròn"
-  },
-  {
-    "word": "ふりがな",
-    "reading": "ふりがな",
-    "meaning": "chữ Furigana (dùng để phiên âm cách đọc kanji)"
-  },
-  {
-    "word": "設備",
-    "reading": "せつび",
-    "meaning": "thiết bị"
-  },
-  {
-    "word": "紐",
-    "reading": "ひも",
-    "meaning": "sợi dây"
-  },
-  {
-    "word": "炊飯器",
-    "reading": "すいはんき",
-    "meaning": "nồi cơm điện"
-  },
-  {
-    "word": "葉",
-    "reading": "は",
-    "meaning": "lá"
-  },
-  {
-    "word": "昔",
-    "reading": "むかし",
-    "meaning": "ngày xưa"
-  },
-  {
-    "word": "レバー",
-    "reading": "レバー",
-    "meaning": "cần, cần gạt"
-  },
-  {
-    "word": "カーテン",
-    "reading": "カーテン",
-    "meaning": "rèm cửa"
-  },
-  {
-    "word": "夜行バス",
-    "reading": "やこうバス",
-    "meaning": "xe buýt đêm"
-  },
-  {
-    "word": "旅行社",
-    "reading": "りょこうしゃ",
-    "meaning": "công ty du lịch"
-  },
-  {
-    "word": "スキー場",
-    "reading": "スキーじょう",
-    "meaning": "sân trượt tuyết"
-  },
-  {
-    "word": "ことわざ",
-    "reading": "ことわざ",
-    "meaning": "thành ngữ"
-  },
-  {
-    "word": "詳しい",
-    "reading": "くわしい",
-    "meaning": "cụ thể, chi tiết"
-  },
-  {
-    "word": "正しい",
-    "reading": "ただしい",
-    "meaning": "đúng, chính xác"
-  },
-  {
-    "word": "必要",
-    "reading": "ひつよう",
-    "meaning": "cần thiết"
-  },
-  {
-    "word": "おかゆ",
-    "reading": "おかゆ",
-    "meaning": "cháo"
-  },
-  {
-    "word": "関係",
-    "reading": "かんけい",
-    "meaning": "quan hệ"
-  }
+	{
+		"word": "変わる",
+		"reading": "かわる",
+		"meaning": "đổi, thay đổi",
+		"note": "I"
+	},
+	{
+		"word": "困る",
+		"reading": "こまる",
+		"meaning": "khó khăn",
+		"note": "I"
+	},
+	{
+		"word": "付ける",
+		"reading": "つける",
+		"meaning": "đánh dấu (tròn)",
+		"note": "II"
+	},
+	{
+		"word": "治る",
+		"reading": "なおる",
+		"meaning": "khỏi (bệnh)",
+		"note": "I"
+	},
+	{
+		"word": "直る",
+		"reading": "なおる",
+		"meaning": "(hỏng hóc) được sửa xong",
+		"note": "I"
+	},
+	{
+		"word": "入力する",
+		"reading": "にゅうりょくする",
+		"meaning": "nhập vào",
+		"note": "III"
+	},
+	{
+		"word": "仲良くする",
+		"reading": "なかよくする",
+		"meaning": "chơi thân với (cô ấy)",
+		"note": "III"
+	},
+	{
+		"word": "クリックする",
+		"reading": "クリックする",
+		"meaning": "click chuột",
+		"note": "III"
+	},
+	{
+		"word": "咲く",
+		"reading": "さく",
+		"meaning": "(hoa) nở",
+		"note": "I"
+	},
+	{
+		"word": "向こう",
+		"reading": "むこう",
+		"meaning": "đằng ấy, phía đối diện"
+	},
+	{
+		"word": "島",
+		"reading": "しま",
+		"meaning": "đảo"
+	},
+	{
+		"word": "港",
+		"reading": "みなと",
+		"meaning": "cảng"
+	},
+	{
+		"word": "近所",
+		"reading": "きんじょ",
+		"meaning": "hàng xóm, gần quanh đây"
+	},
+	{
+		"word": "屋上",
+		"reading": "おくじょう",
+		"meaning": "tầng thượng"
+	},
+	{
+		"word": "海外",
+		"reading": "かいがい",
+		"meaning": "nước ngoài"
+	},
+	{
+		"word": "山登り",
+		"reading": "やまのぼり",
+		"meaning": "leo núi"
+	},
+	{
+		"word": "歴史",
+		"reading": "れきし",
+		"meaning": "lịch sử"
+	},
+	{
+		"word": "機会",
+		"reading": "きかい",
+		"meaning": "cơ hội"
+	},
+	{
+		"word": "許可",
+		"reading": "きょか",
+		"meaning": "sự cho phép"
+	},
+	{
+		"word": "丸",
+		"reading": "まる",
+		"meaning": "dấu tròn"
+	},
+	{
+		"word": "ふりがな",
+		"reading": "ふりがな",
+		"meaning": "chữ Furigana (dùng để phiên âm cách đọc kanji)"
+	},
+	{
+		"word": "設備",
+		"reading": "せつび",
+		"meaning": "thiết bị"
+	},
+	{
+		"word": "紐",
+		"reading": "ひも",
+		"meaning": "sợi dây"
+	},
+	{
+		"word": "炊飯器",
+		"reading": "すいはんき",
+		"meaning": "nồi cơm điện"
+	},
+	{
+		"word": "葉",
+		"reading": "は",
+		"meaning": "lá"
+	},
+	{
+		"word": "昔",
+		"reading": "むかし",
+		"meaning": "ngày xưa"
+	},
+	{
+		"word": "レバー",
+		"reading": "レバー",
+		"meaning": "cần, cần gạt"
+	},
+	{
+		"word": "カーテン",
+		"reading": "カーテン",
+		"meaning": "rèm cửa"
+	},
+	{
+		"word": "夜行バス",
+		"reading": "やこうバス",
+		"meaning": "xe buýt đêm"
+	},
+	{
+		"word": "旅行社",
+		"reading": "りょこうしゃ",
+		"meaning": "công ty du lịch"
+	},
+	{
+		"word": "スキー場",
+		"reading": "スキーじょう",
+		"meaning": "sân trượt tuyết"
+	},
+	{
+		"word": "ことわざ",
+		"reading": "ことわざ",
+		"meaning": "thành ngữ"
+	},
+	{
+		"word": "詳しい",
+		"reading": "くわしい",
+		"meaning": "cụ thể, chi tiết"
+	},
+	{
+		"word": "正しい",
+		"reading": "ただしい",
+		"meaning": "đúng, chính xác"
+	},
+	{
+		"word": "必要",
+		"reading": "ひつよう",
+		"meaning": "cần thiết"
+	},
+	{
+		"word": "おかゆ",
+		"reading": "おかゆ",
+		"meaning": "cháo"
+	},
+	{
+		"word": "関係",
+		"reading": "かんけい",
+		"meaning": "quan hệ"
+	}
 ]

@@ -2,86 +2,84 @@ import type { Dictionary } from '$lib/types/vocab';
 import { error } from '@sveltejs/kit';
 
 const LEVEL_IMPORTS = {
-  n1: import.meta.glob<{ default: Dictionary }>('$lib/n1/*.json'),
-  n2: import.meta.glob<{ default: Dictionary }>('$lib/n2/*.json'),
-  n3: import.meta.glob<{ default: Dictionary }>('$lib/n3/*.json'),
-  n4: import.meta.glob<{ default: Dictionary }>('$lib/n4/*.json'),
-  n5: import.meta.glob<{ default: Dictionary }>('$lib/n5/*.json'),
+	n1: import.meta.glob<{ default: Dictionary }>('$lib/n1/*.json'),
+	n2: import.meta.glob<{ default: Dictionary }>('$lib/n2/*.json'),
+	n3: import.meta.glob<{ default: Dictionary }>('$lib/n3/*.json'),
+	n4: import.meta.glob<{ default: Dictionary }>('$lib/n4/*.json'),
+	n5: import.meta.glob<{ default: Dictionary }>('$lib/n5/*.json')
 };
 
 type Level = keyof typeof LEVEL_IMPORTS;
 
 export default async function importUnit(s: string, level: Level = 'n5') {
-  // s in form of all, u1, u2, u3-u8, u4-u8, u5-u8, etc.
-  // check if s not in above format
-  if (!/^(all|u\d+(-u\d+)?)$/.test(s)) {
-    throw new Error('Invalid unit format: ' + s);
-  }
+	// s in form of all, u1, u2, u3-u8, u4-u8, u5-u8, etc.
+	// check if s not in above format
+	if (!/^(all|u\d+(-u\d+)?)$/.test(s)) {
+		throw new Error('Invalid unit format: ' + s);
+	}
 
-  const unitImportObject = LEVEL_IMPORTS[level];
-  const unitFiles = Object.keys(unitImportObject);
-  // if select all units
-  if (s === "all") {
-    const allUnits = await Promise.all(unitFiles.map(async (unitFile) => {
-      const fileName = unitFile.split('/').pop();
-      const u = fileName?.split('.').shift() ?? '';
-      const words = (await unitImportObject[unitFile]()).default;
-      // Add unit info to each word for tracking
-      return words.map(w => ({ ...w, _unit: u }));
-    }));
-    // combine all units into one json
-    const allUnitsJson = allUnits.reduce((acc, json) => {
-      return [
-        ...acc,
-        ...json
-      ];
-    }, [] as Dictionary);
-    return {
-      unit: "all",
-      json: allUnitsJson
-    };
-  }
-  // if select range of units
-  else if (s.includes('-')) {
-    // get range of units
-    const [start, end] = s.split('-').map((u) => parseInt(u.replace('u', '')));
-    const units = Array.from({ length: end - start + 1 }, (_, i) => `u${start + i}`);
-    const dict = await unitFiles.reduce(async (acc, unitFile) => {
-      const fileName = unitFile.split('/').pop();
-      if (!fileName) {
-        return acc;
-      }
-      const u = fileName.split('.').shift() as string;
-      if (units.includes(u)) {
-        const json = await unitImportObject[unitFile]();
-        // Add unit info to each word for tracking
-        const wordsWithUnit = json.default.map(w => ({ ...w, _unit: u }));
-        return [
-          ...await acc,
-          ...wordsWithUnit
-        ];
-      }
-      return await acc;
-    }, Promise.resolve([] as Dictionary));
-    return {
-      unit: s,
-      json: dict as Dictionary
-    }
-  }
-  else {
-    for (const unitFile of unitFiles) {
-      const fileName = unitFile.split('/').pop();
-      if (!fileName) {
-        continue;
-      }
-      const u = fileName.split('.').shift();
-      if (u === s) {
-        return {
-          unit: s,
-          json: (await unitImportObject[unitFile]()).default
-        };
-      }
-    }
-  }
-  error(404, `Unit ${s} not found`);
+	const unitImportObject = LEVEL_IMPORTS[level];
+	const unitFiles = Object.keys(unitImportObject);
+	// if select all units
+	if (s === 'all') {
+		const allUnits = await Promise.all(
+			unitFiles.map(async (unitFile) => {
+				const fileName = unitFile.split('/').pop();
+				const u = fileName?.split('.').shift() ?? '';
+				const words = (await unitImportObject[unitFile]()).default;
+				// Add unit info to each word for tracking
+				return words.map((w) => ({ ...w, _unit: u }));
+			})
+		);
+		// combine all units into one json
+		const allUnitsJson = allUnits.reduce((acc, json) => {
+			return [...acc, ...json];
+		}, [] as Dictionary);
+		return {
+			unit: 'all',
+			json: allUnitsJson
+		};
+	}
+	// if select range of units
+	else if (s.includes('-')) {
+		// get range of units
+		const [start, end] = s.split('-').map((u) => parseInt(u.replace('u', '')));
+		const units = Array.from({ length: end - start + 1 }, (_, i) => `u${start + i}`);
+		const dict = await unitFiles.reduce(
+			async (acc, unitFile) => {
+				const fileName = unitFile.split('/').pop();
+				if (!fileName) {
+					return acc;
+				}
+				const u = fileName.split('.').shift() as string;
+				if (units.includes(u)) {
+					const json = await unitImportObject[unitFile]();
+					// Add unit info to each word for tracking
+					const wordsWithUnit = json.default.map((w) => ({ ...w, _unit: u }));
+					return [...(await acc), ...wordsWithUnit];
+				}
+				return await acc;
+			},
+			Promise.resolve([] as Dictionary)
+		);
+		return {
+			unit: s,
+			json: dict as Dictionary
+		};
+	} else {
+		for (const unitFile of unitFiles) {
+			const fileName = unitFile.split('/').pop();
+			if (!fileName) {
+				continue;
+			}
+			const u = fileName.split('.').shift();
+			if (u === s) {
+				return {
+					unit: s,
+					json: (await unitImportObject[unitFile]()).default
+				};
+			}
+		}
+	}
+	error(404, `Unit ${s} not found`);
 }

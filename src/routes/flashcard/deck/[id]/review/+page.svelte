@@ -191,16 +191,14 @@
 {:else if completed}
 	<!-- Session Complete -->
 	<main class="flex h-screen flex-col items-center justify-center p-4">
-		<div class="card bg-base-200 w-full max-w-md">
+		<div class="card w-full max-w-md bg-base-200">
 			<div class="card-body text-center">
-				<div class="text-6xl mb-4">🎉</div>
+				<div class="mb-4 text-6xl">🎉</div>
 				<h2 class="card-title justify-center text-2xl">Hoàn thành!</h2>
-				<p class="text-base-content/60 mb-4">
-					Bạn đã hoàn thành phiên ôn tập hôm nay.
-				</p>
+				<p class="mb-4 text-base-content/60">Bạn đã hoàn thành phiên ôn tập hôm nay.</p>
 
 				<!-- Stats -->
-				<div class="stats shadow mb-6">
+				<div class="stats mb-6 shadow">
 					<div class="stat">
 						<div class="stat-title">Đã ôn</div>
 						<div class="stat-value text-lg">{sessionStats.total}</div>
@@ -217,7 +215,7 @@
 
 				{#if sessionStats.total > 0}
 					<div class="mb-4">
-						<div class="text-sm text-base-content/60 mb-1">Tỷ lệ đúng</div>
+						<div class="mb-1 text-sm text-base-content/60">Tỷ lệ đúng</div>
 						<div class="text-2xl font-bold">
 							{Math.round((sessionStats.correct / sessionStats.total) * 100)}%
 						</div>
@@ -225,9 +223,7 @@
 				{/if}
 
 				<div class="card-actions justify-center">
-					<button class="btn btn-primary" onclick={handleFinish}>
-						Quay lại bộ thẻ
-					</button>
+					<button class="btn btn-primary" onclick={handleFinish}> Quay lại bộ thẻ </button>
 				</div>
 			</div>
 		</div>
@@ -236,10 +232,20 @@
 	<!-- Review Session -->
 	<main class="flex h-screen flex-col">
 		<!-- Header -->
-		<header class="flex items-center justify-between p-4 bg-base-200">
+		<header class="flex items-center justify-between bg-base-200 p-4">
 			<a href="{base}/flashcard/deck/{deck.id}" class="btn btn-ghost btn-sm">
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="w-4 h-4 stroke-current">
-					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					class="h-4 w-4 stroke-current"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						stroke-width="2"
+						d="M6 18L18 6M6 6l12 12"
+					/>
 				</svg>
 			</a>
 
@@ -266,15 +272,15 @@
 		</header>
 
 		<!-- Progress bar -->
-		<div class="w-full bg-base-300 h-1">
+		<div class="h-1 w-full bg-base-300">
 			<div
-				class="bg-primary h-1 transition-all duration-300"
+				class="h-1 bg-primary transition-all duration-300"
 				style="width: {getProgressPercent()}%"
 			></div>
 		</div>
 
 		<!-- Card Area -->
-		<div class="flex-1 flex flex-col items-center justify-center p-4 gap-8">
+		<div class="flex flex-1 flex-col items-center justify-center gap-8 p-4">
 			<!-- Flashcard -->
 			<FlashcardCard
 				front={displayCard.front}
@@ -287,7 +293,7 @@
 
 			<!-- Notes -->
 			{#if currentCard.notes && flipped}
-				<div class="text-center max-w-md">
+				<div class="max-w-md text-center">
 					<div class="text-sm text-base-content/60">
 						📝 {currentCard.notes}
 					</div>
@@ -300,14 +306,12 @@
 					<RatingButtons state={currentCard.state} onRate={handleRate} />
 				</div>
 			{:else}
-				<div class="text-base-content/50 text-sm">
-					Nhấn thẻ hoặc phím Space để xem đáp án
-				</div>
+				<div class="text-sm text-base-content/50">Nhấn thẻ hoặc phím Space để xem đáp án</div>
 			{/if}
 		</div>
 
 		<!-- Session Stats Footer -->
-		<footer class="p-4 bg-base-200 flex justify-center gap-8 text-sm">
+		<footer class="flex justify-center gap-8 bg-base-200 p-4 text-sm">
 			<div>
 				<span class="text-success">✓ {sessionStats.correct}</span>
 			</div>

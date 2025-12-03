@@ -30,9 +30,7 @@ export function buildSessionQueue(
 	const now = Date.now();
 
 	// Separate new and review cards (excluding suspended)
-	const newCards = allCards.filter(
-		(c) => c.status !== 'suspended' && isNew(c.state)
-	);
+	const newCards = allCards.filter((c) => c.status !== 'suspended' && isNew(c.state));
 
 	const reviewCards = allCards.filter(
 		(c) => c.status !== 'suspended' && !isNew(c.state) && isDue(c.state, now)
@@ -145,9 +143,8 @@ export function prepareCardForDisplay(
 	direction: CardDirection
 ): { front: string; back: string; frontReading?: string; backReading?: string } {
 	// Determine actual direction for this card
-	let actualDirection: 'viet-to-jp' | 'jp-to-viet' = direction === 'random'
-		? Math.random() < 0.5 ? 'viet-to-jp' : 'jp-to-viet'
-		: direction;
+	let actualDirection: 'viet-to-jp' | 'jp-to-viet' =
+		direction === 'random' ? (Math.random() < 0.5 ? 'viet-to-jp' : 'jp-to-viet') : direction;
 
 	if (actualDirection === 'viet-to-jp') {
 		// Vietnamese meaning on front, Japanese on back
@@ -178,9 +175,7 @@ export function getReviewableCount(cards: Flashcard[]): {
 } {
 	const now = Date.now();
 
-	const newCount = cards.filter(
-		(c) => c.status !== 'suspended' && isNew(c.state)
-	).length;
+	const newCount = cards.filter((c) => c.status !== 'suspended' && isNew(c.state)).length;
 
 	const dueCount = cards.filter(
 		(c) => c.status !== 'suspended' && !isNew(c.state) && isDue(c.state, now)

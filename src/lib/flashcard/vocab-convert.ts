@@ -90,9 +90,7 @@ export function kanjiToFlashcard(
 	const back = backParts.join('\n');
 
 	// Notes with radicals
-	const notes = kanji.radicals.length > 0
-		? `Bộ thủ: ${kanji.radicals.join(', ')}`
-		: undefined;
+	const notes = kanji.radicals.length > 0 ? `Bộ thủ: ${kanji.radicals.join(', ')}` : undefined;
 
 	return {
 		deckId,
@@ -168,9 +166,7 @@ export function isVocabAlreadyInDeck(
 		if (card.source.type !== 'vocab') return false;
 		const vocabSource = card.source as { type: 'vocab'; level: string; unit: string; word: string };
 		return (
-			vocabSource.level === level &&
-			vocabSource.unit === unit &&
-			vocabSource.word === word.word
+			vocabSource.level === level && vocabSource.unit === unit && vocabSource.word === word.word
 		);
 	});
 }
@@ -178,11 +174,7 @@ export function isVocabAlreadyInDeck(
 /**
  * Check if a kanji already exists as a card in a deck
  */
-export function isKanjiAlreadyInDeck(
-	cards: Flashcard[],
-	kanji: KanjiData,
-	level: string
-): boolean {
+export function isKanjiAlreadyInDeck(cards: Flashcard[], kanji: KanjiData, level: string): boolean {
 	return cards.some((card) => {
 		if (card.source.type !== 'kanji') return false;
 		const kanjiSource = card.source as { type: 'kanji'; level: string; kanji: string };

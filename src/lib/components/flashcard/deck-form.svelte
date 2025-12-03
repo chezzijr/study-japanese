@@ -21,7 +21,9 @@
 	// Form state
 	let name = $state(deck?.name ?? '');
 	let description = $state(deck?.description ?? '');
-	let newCardsPerDay = $state(deck?.settings.newCardsPerDay ?? DEFAULT_DECK_SETTINGS.newCardsPerDay);
+	let newCardsPerDay = $state(
+		deck?.settings.newCardsPerDay ?? DEFAULT_DECK_SETTINGS.newCardsPerDay
+	);
 	let reviewsPerDay = $state(deck?.settings.reviewsPerDay ?? DEFAULT_DECK_SETTINGS.reviewsPerDay);
 	let defaultDirection = $state<CardDirection>(
 		deck?.settings.defaultDirection ?? DEFAULT_DECK_SETTINGS.defaultDirection
@@ -78,9 +80,7 @@
 	<!-- Settings -->
 	<div class="collapse collapse-arrow bg-base-200">
 		<input type="checkbox" />
-		<div class="collapse-title font-medium">
-			Cài đặt nâng cao
-		</div>
+		<div class="collapse-title font-medium">Cài đặt nâng cao</div>
 		<div class="collapse-content space-y-4">
 			<!-- New cards per day -->
 			<div class="form-control">
@@ -102,7 +102,9 @@
 			<div class="form-control">
 				<label class="label" for="reviews">
 					<span class="label-text">Ôn tập tối đa mỗi ngày</span>
-					<span class="label-text-alt">{reviewsPerDay === 0 ? 'Không giới hạn' : reviewsPerDay}</span>
+					<span class="label-text-alt"
+						>{reviewsPerDay === 0 ? 'Không giới hạn' : reviewsPerDay}</span
+					>
 				</label>
 				<input
 					id="reviews"
@@ -131,9 +133,7 @@
 
 	<!-- Actions -->
 	<div class="flex justify-end gap-2 pt-4">
-		<button type="button" class="btn btn-ghost" onclick={onCancel}>
-			Hủy
-		</button>
+		<button type="button" class="btn btn-ghost" onclick={onCancel}> Hủy </button>
 		<button type="submit" class="btn btn-primary" disabled={!isValid}>
 			{deck ? 'Lưu' : 'Tạo bộ thẻ'}
 		</button>

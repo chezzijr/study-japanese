@@ -1,170 +1,170 @@
 [
-  {
-    "word": "貯金する",
-    "reading": "ちょきんする",
-    "meaning": "tiết kiệm tiền",
-    "note": "III"
-  },
-  {
-    "word": "過ぎる",
-    "reading": "すぎる",
-    "meaning": "quá (7 giờ)",
-    "note": "II"
-  },
-  {
-    "word": "慣れる",
-    "reading": "なれる",
-    "meaning": "quen với (công việc)",
-    "note": "II"
-  },
-  {
-    "word": "腐る",
-    "reading": "くさる",
-    "meaning": "(đồ ăn) bị thối, bị hỏng",
-    "note": "I"
-  },
-  {
-    "word": "遭う",
-    "reading": "あう",
-    "meaning": "gặp (tai nạn)",
-    "note": "I"
-  },
-  {
-    "word": "柔道",
-    "reading": "じゅうどう",
-    "meaning": "judo"
-  },
-  {
-    "word": "ラッシュ",
-    "reading": "ラッシュ",
-    "meaning": "giờ cao điểm"
-  },
-  {
-    "word": "宇宙",
-    "reading": "うちゅう",
-    "meaning": "vũ trụ"
-  },
-  {
-    "word": "曲",
-    "reading": "きょく",
-    "meaning": "ca khúc, bản nhạc"
-  },
-  {
-    "word": "世紀",
-    "reading": "せいき",
-    "meaning": "thế kỉ"
-  },
-  {
-    "word": "このごろ",
-    "reading": "このごろ",
-    "meaning": "dạo này"
-  },
-  {
-    "word": "遠く",
-    "reading": "とおく",
-    "meaning": "xa"
-  },
-  {
-    "word": "やっと",
-    "reading": "やっと",
-    "meaning": "cuối cùng thì"
-  },
-  {
-    "word": "かなり",
-    "reading": "かなり",
-    "meaning": "khá là"
-  },
-  {
-    "word": "必ず",
-    "reading": "かならず",
-    "meaning": "nhất định"
-  },
-  {
-    "word": "絶対に",
-    "reading": "ぜったいに",
-    "meaning": "tuyệt đối"
-  },
-  {
-    "word": "上手に",
-    "reading": "じょうずに",
-    "meaning": "giỏi"
-  },
-  {
-    "word": "出来るだけ",
-    "reading": "できるだけ",
-    "meaning": "trong khả năng có thể"
-  },
-  {
-    "word": "お客様",
-    "reading": "おきゃくさま",
-    "meaning": "quý khách"
-  },
-  {
-    "word": "特別",
-    "reading": "とくべつ",
-    "meaning": "đặc biệt"
-  },
-  {
-    "word": "水泳",
-    "reading": "すいえい",
-    "meaning": "bơi lội"
-  },
-  {
-    "word": "珍しい",
-    "reading": "めずらしい",
-    "meaning": "hiếm"
-  },
-  {
-    "word": "乗り物",
-    "reading": "のりもの",
-    "meaning": "phương tiện đi lại"
-  },
-  {
-    "word": "剣道",
-    "reading": "けんどう",
-    "meaning": "kiếm đạo"
-  },
-  {
-    "word": "お弁当",
-    "reading": "おべんとう",
-    "meaning": "cơm hộp"
-  },
-  {
-    "word": "うがいをする",
-    "reading": "うがいをする",
-    "meaning": "súc miệng",
-    "note": "III"
-  },
-  {
-    "word": "ヨーロッパ",
-    "reading": "ヨーロッパ",
-    "meaning": "châu Âu"
-  },
-  {
-    "word": "汽車",
-    "reading": "きしゃ",
-    "meaning": "tàu hỏa chạy bằng hơi nước"
-  },
-  {
-    "word": "汽船",
-    "reading": "きせん",
-    "meaning": "tàu thủy chạy bằng hơi nước"
-  },
-  {
-    "word": "大勢の人",
-    "reading": "おおぜいのひと",
-    "meaning": "nhiều người"
-  },
-  {
-    "word": "運ぶ",
-    "reading": "はこぶ",
-    "meaning": "vận chuyển",
-    "note": "I"
-  },
-  {
-    "word": "利用する",
-    "reading": "りようする",
-    "meaning": "sử dụng",
-    "note": "III"
-  }
+	{
+		"word": "貯金する",
+		"reading": "ちょきんする",
+		"meaning": "tiết kiệm tiền",
+		"note": "III"
+	},
+	{
+		"word": "過ぎる",
+		"reading": "すぎる",
+		"meaning": "quá (7 giờ)",
+		"note": "II"
+	},
+	{
+		"word": "慣れる",
+		"reading": "なれる",
+		"meaning": "quen với (công việc)",
+		"note": "II"
+	},
+	{
+		"word": "腐る",
+		"reading": "くさる",
+		"meaning": "(đồ ăn) bị thối, bị hỏng",
+		"note": "I"
+	},
+	{
+		"word": "遭う",
+		"reading": "あう",
+		"meaning": "gặp (tai nạn)",
+		"note": "I"
+	},
+	{
+		"word": "柔道",
+		"reading": "じゅうどう",
+		"meaning": "judo"
+	},
+	{
+		"word": "ラッシュ",
+		"reading": "ラッシュ",
+		"meaning": "giờ cao điểm"
+	},
+	{
+		"word": "宇宙",
+		"reading": "うちゅう",
+		"meaning": "vũ trụ"
+	},
+	{
+		"word": "曲",
+		"reading": "きょく",
+		"meaning": "ca khúc, bản nhạc"
+	},
+	{
+		"word": "世紀",
+		"reading": "せいき",
+		"meaning": "thế kỉ"
+	},
+	{
+		"word": "このごろ",
+		"reading": "このごろ",
+		"meaning": "dạo này"
+	},
+	{
+		"word": "遠く",
+		"reading": "とおく",
+		"meaning": "xa"
+	},
+	{
+		"word": "やっと",
+		"reading": "やっと",
+		"meaning": "cuối cùng thì"
+	},
+	{
+		"word": "かなり",
+		"reading": "かなり",
+		"meaning": "khá là"
+	},
+	{
+		"word": "必ず",
+		"reading": "かならず",
+		"meaning": "nhất định"
+	},
+	{
+		"word": "絶対に",
+		"reading": "ぜったいに",
+		"meaning": "tuyệt đối"
+	},
+	{
+		"word": "上手に",
+		"reading": "じょうずに",
+		"meaning": "giỏi"
+	},
+	{
+		"word": "出来るだけ",
+		"reading": "できるだけ",
+		"meaning": "trong khả năng có thể"
+	},
+	{
+		"word": "お客様",
+		"reading": "おきゃくさま",
+		"meaning": "quý khách"
+	},
+	{
+		"word": "特別",
+		"reading": "とくべつ",
+		"meaning": "đặc biệt"
+	},
+	{
+		"word": "水泳",
+		"reading": "すいえい",
+		"meaning": "bơi lội"
+	},
+	{
+		"word": "珍しい",
+		"reading": "めずらしい",
+		"meaning": "hiếm"
+	},
+	{
+		"word": "乗り物",
+		"reading": "のりもの",
+		"meaning": "phương tiện đi lại"
+	},
+	{
+		"word": "剣道",
+		"reading": "けんどう",
+		"meaning": "kiếm đạo"
+	},
+	{
+		"word": "お弁当",
+		"reading": "おべんとう",
+		"meaning": "cơm hộp"
+	},
+	{
+		"word": "うがいをする",
+		"reading": "うがいをする",
+		"meaning": "súc miệng",
+		"note": "III"
+	},
+	{
+		"word": "ヨーロッパ",
+		"reading": "ヨーロッパ",
+		"meaning": "châu Âu"
+	},
+	{
+		"word": "汽車",
+		"reading": "きしゃ",
+		"meaning": "tàu hỏa chạy bằng hơi nước"
+	},
+	{
+		"word": "汽船",
+		"reading": "きせん",
+		"meaning": "tàu thủy chạy bằng hơi nước"
+	},
+	{
+		"word": "大勢の人",
+		"reading": "おおぜいのひと",
+		"meaning": "nhiều người"
+	},
+	{
+		"word": "運ぶ",
+		"reading": "はこぶ",
+		"meaning": "vận chuyển",
+		"note": "I"
+	},
+	{
+		"word": "利用する",
+		"reading": "りようする",
+		"meaning": "sử dụng",
+		"note": "III"
+	}
 ]

@@ -159,7 +159,7 @@
 
 			if (deckResult.action === 'replace') {
 				// Update existing deck
-				targetDeck = await updateDeck(deckResult.deck!.id, deckResult.deck!) as Deck;
+				targetDeck = (await updateDeck(deckResult.deck!.id, deckResult.deck!)) as Deck;
 			} else {
 				// Create new deck
 				targetDeck = await createDeck(
@@ -234,53 +234,59 @@
 <main class="min-h-screen p-4 md:p-6">
 	<!-- Header -->
 	<header class="mb-6">
-		<div class="flex items-center gap-2 text-sm text-base-content/60 mb-2">
+		<div class="mb-2 flex items-center gap-2 text-sm text-base-content/60">
 			<a href="{base}/flashcard" class="hover:text-base-content">Flashcard</a>
 			<span>/</span>
 			<span>Import</span>
 		</div>
-		<h1 class="text-2xl md:text-3xl font-bold">Import Flashcard</h1>
-		<p class="text-base-content/60 mt-1">Import bộ thẻ từ file JSON hoặc dán trực tiếp.</p>
+		<h1 class="text-2xl font-bold md:text-3xl">Import Flashcard</h1>
+		<p class="mt-1 text-base-content/60">Import bộ thẻ từ file JSON hoặc dán trực tiếp.</p>
 	</header>
 
 	<!-- Import Success -->
 	{#if importResult?.success}
-		<div class="card bg-base-200 max-w-2xl mx-auto">
+		<div class="card mx-auto max-w-2xl bg-base-200">
 			<div class="card-body text-center">
-				<div class="text-6xl mb-4">✅</div>
+				<div class="mb-4 text-6xl">✅</div>
 				<h2 class="card-title justify-center text-xl">Import thành công!</h2>
 				<p class="text-base-content/60">{importResult.message}</p>
 
-				<div class="stats shadow mt-4">
+				<div class="stats mt-4 shadow">
 					<div class="stat">
 						<div class="stat-title">Đã import</div>
-						<div class="stat-value text-success text-lg">{importResult.cardsImported}</div>
+						<div class="stat-value text-lg text-success">{importResult.cardsImported}</div>
 					</div>
 					<div class="stat">
 						<div class="stat-title">Bỏ qua</div>
-						<div class="stat-value text-warning text-lg">{importResult.cardsSkipped}</div>
+						<div class="stat-value text-lg text-warning">{importResult.cardsSkipped}</div>
 					</div>
 				</div>
 
-				<div class="card-actions justify-center mt-6">
+				<div class="card-actions mt-6 justify-center">
 					<button class="btn btn-ghost" onclick={resetForm}>Import thêm</button>
 					<button class="btn btn-primary" onclick={goToDeck}>Xem bộ thẻ</button>
 				</div>
 			</div>
 		</div>
 	{:else}
-		<div class="max-w-2xl mx-auto space-y-6">
+		<div class="mx-auto max-w-2xl space-y-6">
 			<!-- Input Method Tabs -->
-			<div class="tabs tabs-boxed">
+			<div class="tabs-boxed tabs">
 				<button
 					class="tab {inputMethod === 'file' ? 'tab-active' : ''}"
-					onclick={() => { inputMethod = 'file'; resetForm(); }}
+					onclick={() => {
+						inputMethod = 'file';
+						resetForm();
+					}}
 				>
 					📁 File
 				</button>
 				<button
 					class="tab {inputMethod === 'text' ? 'tab-active' : ''}"
-					onclick={() => { inputMethod = 'text'; resetForm(); }}
+					onclick={() => {
+						inputMethod = 'text';
+						resetForm();
+					}}
 				>
 					📝 Dán JSON
 				</button>
@@ -309,7 +315,7 @@
 					<div class="card-body">
 						<h3 class="card-title text-base">Dán JSON</h3>
 						<textarea
-							class="textarea textarea-bordered w-full h-48 font-mono text-sm"
+							class="textarea textarea-bordered h-48 w-full font-mono text-sm"
 							placeholder="Dán JSON vào đây..."
 							bind:value={jsonInput}
 						></textarea>
@@ -332,8 +338,18 @@
 			<!-- Error Message -->
 			{#if error}
 				<div class="alert alert-error">
-					<svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-6 w-6 shrink-0 stroke-current"
+						fill="none"
+						viewBox="0 0 24 24"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
+						/>
 					</svg>
 					<span>{error}</span>
 				</div>
@@ -342,8 +358,18 @@
 			<!-- Validation Warnings -->
 			{#if validation?.warnings && validation.warnings.length > 0}
 				<div class="alert alert-warning">
-					<svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-6 w-6 shrink-0 stroke-current"
+						fill="none"
+						viewBox="0 0 24 24"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
+						/>
 					</svg>
 					<div>
 						{#each validation.warnings as warning}
@@ -360,8 +386,8 @@
 						<h3 class="card-title text-base">Xem trước</h3>
 
 						<!-- Deck Info -->
-						<div class="bg-base-100 rounded-lg p-4">
-							<div class="font-medium text-lg">{importData.deck.name}</div>
+						<div class="rounded-lg bg-base-100 p-4">
+							<div class="text-lg font-medium">{importData.deck.name}</div>
 							{#if importData.deck.description}
 								<div class="text-sm text-base-content/60">{importData.deck.description}</div>
 							{/if}
@@ -411,13 +437,9 @@
 						{/if}
 
 						<!-- Import Button -->
-						<div class="card-actions justify-end mt-4">
+						<div class="card-actions mt-4 justify-end">
 							<button class="btn btn-ghost" onclick={resetForm}>Hủy</button>
-							<button
-								class="btn btn-primary"
-								onclick={handleImport}
-								disabled={loading}
-							>
+							<button class="btn btn-primary" onclick={handleImport} disabled={loading}>
 								{#if loading}
 									<span class="loading loading-spinner loading-sm"></span>
 								{/if}
@@ -434,7 +456,8 @@
 					<input type="checkbox" />
 					<div class="collapse-title font-medium">Định dạng JSON mẫu</div>
 					<div class="collapse-content">
-						<pre class="bg-base-300 p-4 rounded-lg overflow-x-auto text-sm"><code>{`{
+						<pre class="overflow-x-auto rounded-lg bg-base-300 p-4 text-sm"><code
+								>{`{
   "version": "1.0.0",
   "exportedAt": 1700000000000,
   "deck": {
@@ -449,7 +472,8 @@
       "notes": "School"
     }
   ]
-}`}</code></pre>
+}`}</code
+							></pre>
 					</div>
 				</div>
 			{/if}
@@ -457,9 +481,7 @@
 	{/if}
 
 	<!-- Back Link -->
-	<div class="flex justify-center mt-8">
-		<a href="{base}/flashcard" class="btn btn-ghost">
-			&larr; Quay lại Flashcard
-		</a>
+	<div class="mt-8 flex justify-center">
+		<a href="{base}/flashcard" class="btn btn-ghost"> &larr; Quay lại Flashcard </a>
 	</div>
 </main>

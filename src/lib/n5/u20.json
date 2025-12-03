@@ -1,136 +1,136 @@
 [
-  {
-    "word": "僕",
-    "reading": "ぼく",
-    "meaning": "tôi, tớ (cách xưng thân mật của わたし được dùng bởi nam giới)"
-  },
-  {
-    "word": "君",
-    "reading": "きみ",
-    "meaning": "cậu, bạn (cách xưng thân mật của あなた được dùng với người ngang hàng hoặc ít tuổi hơn)"
-  },
-  {
-    "word": "恋人",
-    "reading": "こいびと",
-    "meaning": "người yêu"
-  },
-  {
-    "word": "～君",
-    "reading": "～くん",
-    "meaning": "anh ~, cậu ~ (cách gọi thân mật dùng cho nam giới)"
-  },
-  {
-    "word": "ビザ",
-    "meaning": "visa, thị thực"
-  },
-  {
-    "word": "どっち",
-    "reading": "どっち",
-    "meaning": "phía nào, chỗ nào (cách nói thân mật của どちら)"
-  },
-  {
-    "word": "要る",
-    "reading": "いる",
-    "meaning": "cần [visa]",
-    "note": "[ビザが～]"
-  },
-  {
-    "word": "要ります",
-    "reading": "いります",
-    "meaning": "cần [visa]",
-    "note": "[ビザが～]"
-  },
-  {
-    "word": "直す",
-    "reading": "なおす",
-    "meaning": "sửa, chữa",
-    "note": "I"
-  },
-  {
-    "word": "直します",
-    "reading": "なおします",
-    "meaning": "sửa, chữa",
-    "note": "I"
-  },
-  {
-    "word": "修理する",
-    "reading": "しゅうりする",
-    "meaning": "sửa chữa, tu sửa (máy móc)",
-    "note": "III"
-  },
-  {
-    "word": "修理します",
-    "reading": "しゅうりします",
-    "meaning": "sửa chữa, tu sửa (máy móc)",
-    "note": "III"
-  },
-  {
-    "word": "電話する",
-    "reading": "でんわする",
-    "meaning": "gọi điện thoại",
-    "note": "III"
-  },
-  {
-    "word": "電話します",
-    "reading": "でんわします",
-    "meaning": "gọi điện thoại",
-    "note": "III"
-  },
-  {
-    "word": "～けど",
-    "meaning": "~, nhưng (cách nói thân mật của が)"
-  },
-  {
-    "word": "うん",
-    "meaning": "ừ (cách nói thân mật của はい)"
-  },
-  {
-    "word": "ううん",
-    "meaning": "không (cách nói thân mật của いいえ)"
-  },
-  {
-    "word": "初め",
-    "reading": "はじめ",
-    "meaning": "ban đầu, lúc đầu"
-  },
-  {
-    "word": "終わり",
-    "reading": "おわり",
-    "meaning": "kết thúc"
-  },
-  {
-    "word": "調味料",
-    "reading": "ちょうみりょう",
-    "meaning": "gia vị"
-  },
-  {
-    "word": "お酢",
-    "reading": "おす",
-    "meaning": "dấm"
-  },
-  {
-    "word": "醬油",
-    "reading": "しょうゆ",
-    "meaning": "nước tương"
-  },
-  {
-    "word": "味噌",
-    "reading": "みそ",
-    "meaning": "miso"
-  },
-  {
-    "word": "胡椒",
-    "reading": "こしょう",
-    "meaning": "hạt tiêu"
-  },
-  {
-    "word": "授業",
-    "reading": "じゅぎょう",
-    "meaning": "Giờ học"
-  },
-  {
-    "word": "神社",
-    "reading": "じんじゃ",
-    "meaning": "Đền thờ thần đạo"
-  }
+	{
+		"word": "僕",
+		"reading": "ぼく",
+		"meaning": "tôi, tớ (cách xưng thân mật của わたし được dùng bởi nam giới)"
+	},
+	{
+		"word": "君",
+		"reading": "きみ",
+		"meaning": "cậu, bạn (cách xưng thân mật của あなた được dùng với người ngang hàng hoặc ít tuổi hơn)"
+	},
+	{
+		"word": "恋人",
+		"reading": "こいびと",
+		"meaning": "người yêu"
+	},
+	{
+		"word": "～君",
+		"reading": "～くん",
+		"meaning": "anh ~, cậu ~ (cách gọi thân mật dùng cho nam giới)"
+	},
+	{
+		"word": "ビザ",
+		"meaning": "visa, thị thực"
+	},
+	{
+		"word": "どっち",
+		"reading": "どっち",
+		"meaning": "phía nào, chỗ nào (cách nói thân mật của どちら)"
+	},
+	{
+		"word": "要る",
+		"reading": "いる",
+		"meaning": "cần [visa]",
+		"note": "[ビザが～]"
+	},
+	{
+		"word": "要ります",
+		"reading": "いります",
+		"meaning": "cần [visa]",
+		"note": "[ビザが～]"
+	},
+	{
+		"word": "直す",
+		"reading": "なおす",
+		"meaning": "sửa, chữa",
+		"note": "I"
+	},
+	{
+		"word": "直します",
+		"reading": "なおします",
+		"meaning": "sửa, chữa",
+		"note": "I"
+	},
+	{
+		"word": "修理する",
+		"reading": "しゅうりする",
+		"meaning": "sửa chữa, tu sửa (máy móc)",
+		"note": "III"
+	},
+	{
+		"word": "修理します",
+		"reading": "しゅうりします",
+		"meaning": "sửa chữa, tu sửa (máy móc)",
+		"note": "III"
+	},
+	{
+		"word": "電話する",
+		"reading": "でんわする",
+		"meaning": "gọi điện thoại",
+		"note": "III"
+	},
+	{
+		"word": "電話します",
+		"reading": "でんわします",
+		"meaning": "gọi điện thoại",
+		"note": "III"
+	},
+	{
+		"word": "～けど",
+		"meaning": "~, nhưng (cách nói thân mật của が)"
+	},
+	{
+		"word": "うん",
+		"meaning": "ừ (cách nói thân mật của はい)"
+	},
+	{
+		"word": "ううん",
+		"meaning": "không (cách nói thân mật của いいえ)"
+	},
+	{
+		"word": "初め",
+		"reading": "はじめ",
+		"meaning": "ban đầu, lúc đầu"
+	},
+	{
+		"word": "終わり",
+		"reading": "おわり",
+		"meaning": "kết thúc"
+	},
+	{
+		"word": "調味料",
+		"reading": "ちょうみりょう",
+		"meaning": "gia vị"
+	},
+	{
+		"word": "お酢",
+		"reading": "おす",
+		"meaning": "dấm"
+	},
+	{
+		"word": "醬油",
+		"reading": "しょうゆ",
+		"meaning": "nước tương"
+	},
+	{
+		"word": "味噌",
+		"reading": "みそ",
+		"meaning": "miso"
+	},
+	{
+		"word": "胡椒",
+		"reading": "こしょう",
+		"meaning": "hạt tiêu"
+	},
+	{
+		"word": "授業",
+		"reading": "じゅぎょう",
+		"meaning": "Giờ học"
+	},
+	{
+		"word": "神社",
+		"reading": "じんじゃ",
+		"meaning": "Đền thờ thần đạo"
+	}
 ]

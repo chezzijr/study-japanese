@@ -14,5 +14,5 @@
 </svelte:head>
 
 <div class="">
-	<Vocab kotobas={kotobas} level={level} unit={unit} />
+	<Vocab {kotobas} {level} {unit} />
 </div>

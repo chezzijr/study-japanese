@@ -1,256 +1,256 @@
 [
-  {
-    "word": "月曜日",
-    "reading": "げつようび",
-    "meaning": "thứ hai"
-  },
-  {
-    "word": "火曜日",
-    "reading": "かようび",
-    "meaning": "thứ ba"
-  },
-  {
-    "word": "水曜日",
-    "reading": "すいようび",
-    "meaning": "thứ tư"
-  },
-  {
-    "word": "木曜日",
-    "reading": "もくようび",
-    "meaning": "thứ năm"
-  },
-  {
-    "word": "金曜日",
-    "reading": "きんようび",
-    "meaning": "thứ sáu"
-  },
-  {
-    "word": "土曜日",
-    "reading": "どようび",
-    "meaning": "thứ bảy"
-  },
-  {
-    "word": "日曜日",
-    "reading": "にちようび",
-    "meaning": "chủ nhật"
-  },
-  {
-    "word": "何曜日",
-    "reading": "なんようび",
-    "meaning": "thứ mấy"
-  },
-  {
-    "word": "今",
-    "reading": "いま",
-    "meaning": "bây giờ"
-  },
-  {
-    "word": "午前",
-    "reading": "ごぜん",
-    "meaning": "sáng, trước 12 giờ trưa"
-  },
-  {
-    "word": "午後",
-    "reading": "ごご",
-    "meaning": "chiều, sau 12 giờ trưa"
-  },
-  {
-    "word": "半",
-    "reading": "はん",
-    "meaning": "rưỡi, nửa"
-  },
-  {
-    "word": "朝",
-    "reading": "あさ",
-    "meaning": "buổi sáng, sáng"
-  },
-  {
-    "word": "昼",
-    "reading": "ひる",
-    "meaning": "buổi trưa, trưa"
-  },
-  {
-    "word": "夕方",
-    "reading": "ゆうがた",
-    "meaning": "buổi chiều, chiều"
-  },
-  {
-    "word": "晩",
-    "reading": "ばん",
-    "meaning": "buổi tối, tối"
-  },
-  {
-    "word": "夜",
-    "reading": "よる",
-    "meaning": "đêm, khuya"
-  },
-  {
-    "word": "一昨日",
-    "reading": "おととい",
-    "meaning": "hôm kia"
-  },
-  {
-    "word": "昨日",
-    "reading": "きのう",
-    "meaning": "hôm qua"
-  },
-  {
-    "word": "今日",
-    "reading": "きょう",
-    "meaning": "hôm nay"
-  },
-  {
-    "word": "明日",
-    "reading": "あした",
-    "meaning": "ngày mai"
-  },
-  {
-    "word": "明後日",
-    "reading": "あさって",
-    "meaning": "ngày kia"
-  },
-  {
-    "word": "今朝",
-    "reading": "けさ",
-    "meaning": "sáng nay"
-  },
-  {
-    "word": "今晩",
-    "reading": "こんばん",
-    "meaning": "tối nay"
-  },
-  {
-    "word": "今夜",
-    "reading": "こんや",
-    "meaning": "đêm nay"
-  },
-  {
-    "word": "休み",
-    "reading": "やすみ",
-    "meaning": "nghỉ, nghỉ phép, ngày nghỉ"
-  },
-  {
-    "word": "昼休み",
-    "reading": "ひるやすみ",
-    "meaning": "nghỉ trưa"
-  },
-  {
-    "word": "毎朝",
-    "reading": "まいあさ",
-    "meaning": "mỗi sáng"
-  },
-  {
-    "word": "毎晩",
-    "reading": "まいばん",
-    "meaning": "mỗi tối"
-  },
-  {
-    "word": "毎日",
-    "reading": "まいにち",
-    "meaning": "mỗi ngày"
-  },
-  {
-    "word": "何時",
-    "reading": "なんじ",
-    "meaning": "mấy giờ"
-  },
-  {
-    "word": "何分",
-    "reading": "なんぷん",
-    "meaning": "mấy phút"
-  },
-  {
-    "word": "働く",
-    "reading": "はたらく",
-    "meaning": "làm việc",
-    "note": "I"
-  },
-  {
-    "word": "働きます",
-    "reading": "はたらきます",
-    "meaning": "làm việc",
-    "note": "I"
-  },
-  {
-    "word": "休む",
-    "reading": "やすむ",
-    "meaning": "nghỉ, nghỉ ngơi",
-    "note": "I"
-  },
-  {
-    "word": "休みます",
-    "reading": "やすみます",
-    "meaning": "nghỉ, nghỉ ngơi",
-    "note": "I"
-  },
-  {
-    "word": "終わる",
-    "reading": "おわる",
-    "meaning": "hết, kết thúc, xong",
-    "note": "I"
-  },
-  {
-    "word": "終わります",
-    "reading": "おわります",
-    "meaning": "hết, kết thúc, xong",
-    "note": "I"
-  },
-  {
-    "word": "起きる",
-    "reading": "おきる",
-    "meaning": "thức dậy",
-    "note": "II"
-  },
-  {
-    "word": "起きます",
-    "reading": "おきます",
-    "meaning": "thức dậy",
-    "note": "II"
-  },
-  {
-    "word": "寝る",
-    "reading": "ねる",
-    "meaning": "ngủ",
-    "note": "II"
-  },
-  {
-    "word": "寝ます",
-    "reading": "ねます",
-    "meaning": "ngủ",
-    "note": "II"
-  },
-  {
-    "word": "勉強する",
-    "reading": "べんきょうする",
-    "meaning": "học",
-    "note": "III"
-  },
-  {
-    "word": "勉強します",
-    "reading": "べんきょうします",
-    "meaning": "học",
-    "note": "III"
-  },
-  {
-    "word": "～から",
-    "meaning": "từ ~"
-  },
-  {
-    "word": "～まで",
-    "meaning": "đến ~"
-  },
-  {
-    "word": "～と～",
-    "meaning": "~ và (dùng để nối hai danh từ)"
-  },
-  {
-    "word": "試験",
-    "reading": "しけん",
-    "meaning": "kỳ thi"
-  },
-  {
-    "word": "会議",
-    "reading": "かいぎ",
-    "meaning": "cuộc họp"
-  }
+	{
+		"word": "月曜日",
+		"reading": "げつようび",
+		"meaning": "thứ hai"
+	},
+	{
+		"word": "火曜日",
+		"reading": "かようび",
+		"meaning": "thứ ba"
+	},
+	{
+		"word": "水曜日",
+		"reading": "すいようび",
+		"meaning": "thứ tư"
+	},
+	{
+		"word": "木曜日",
+		"reading": "もくようび",
+		"meaning": "thứ năm"
+	},
+	{
+		"word": "金曜日",
+		"reading": "きんようび",
+		"meaning": "thứ sáu"
+	},
+	{
+		"word": "土曜日",
+		"reading": "どようび",
+		"meaning": "thứ bảy"
+	},
+	{
+		"word": "日曜日",
+		"reading": "にちようび",
+		"meaning": "chủ nhật"
+	},
+	{
+		"word": "何曜日",
+		"reading": "なんようび",
+		"meaning": "thứ mấy"
+	},
+	{
+		"word": "今",
+		"reading": "いま",
+		"meaning": "bây giờ"
+	},
+	{
+		"word": "午前",
+		"reading": "ごぜん",
+		"meaning": "sáng, trước 12 giờ trưa"
+	},
+	{
+		"word": "午後",
+		"reading": "ごご",
+		"meaning": "chiều, sau 12 giờ trưa"
+	},
+	{
+		"word": "半",
+		"reading": "はん",
+		"meaning": "rưỡi, nửa"
+	},
+	{
+		"word": "朝",
+		"reading": "あさ",
+		"meaning": "buổi sáng, sáng"
+	},
+	{
+		"word": "昼",
+		"reading": "ひる",
+		"meaning": "buổi trưa, trưa"
+	},
+	{
+		"word": "夕方",
+		"reading": "ゆうがた",
+		"meaning": "buổi chiều, chiều"
+	},
+	{
+		"word": "晩",
+		"reading": "ばん",
+		"meaning": "buổi tối, tối"
+	},
+	{
+		"word": "夜",
+		"reading": "よる",
+		"meaning": "đêm, khuya"
+	},
+	{
+		"word": "一昨日",
+		"reading": "おととい",
+		"meaning": "hôm kia"
+	},
+	{
+		"word": "昨日",
+		"reading": "きのう",
+		"meaning": "hôm qua"
+	},
+	{
+		"word": "今日",
+		"reading": "きょう",
+		"meaning": "hôm nay"
+	},
+	{
+		"word": "明日",
+		"reading": "あした",
+		"meaning": "ngày mai"
+	},
+	{
+		"word": "明後日",
+		"reading": "あさって",
+		"meaning": "ngày kia"
+	},
+	{
+		"word": "今朝",
+		"reading": "けさ",
+		"meaning": "sáng nay"
+	},
+	{
+		"word": "今晩",
+		"reading": "こんばん",
+		"meaning": "tối nay"
+	},
+	{
+		"word": "今夜",
+		"reading": "こんや",
+		"meaning": "đêm nay"
+	},
+	{
+		"word": "休み",
+		"reading": "やすみ",
+		"meaning": "nghỉ, nghỉ phép, ngày nghỉ"
+	},
+	{
+		"word": "昼休み",
+		"reading": "ひるやすみ",
+		"meaning": "nghỉ trưa"
+	},
+	{
+		"word": "毎朝",
+		"reading": "まいあさ",
+		"meaning": "mỗi sáng"
+	},
+	{
+		"word": "毎晩",
+		"reading": "まいばん",
+		"meaning": "mỗi tối"
+	},
+	{
+		"word": "毎日",
+		"reading": "まいにち",
+		"meaning": "mỗi ngày"
+	},
+	{
+		"word": "何時",
+		"reading": "なんじ",
+		"meaning": "mấy giờ"
+	},
+	{
+		"word": "何分",
+		"reading": "なんぷん",
+		"meaning": "mấy phút"
+	},
+	{
+		"word": "働く",
+		"reading": "はたらく",
+		"meaning": "làm việc",
+		"note": "I"
+	},
+	{
+		"word": "働きます",
+		"reading": "はたらきます",
+		"meaning": "làm việc",
+		"note": "I"
+	},
+	{
+		"word": "休む",
+		"reading": "やすむ",
+		"meaning": "nghỉ, nghỉ ngơi",
+		"note": "I"
+	},
+	{
+		"word": "休みます",
+		"reading": "やすみます",
+		"meaning": "nghỉ, nghỉ ngơi",
+		"note": "I"
+	},
+	{
+		"word": "終わる",
+		"reading": "おわる",
+		"meaning": "hết, kết thúc, xong",
+		"note": "I"
+	},
+	{
+		"word": "終わります",
+		"reading": "おわります",
+		"meaning": "hết, kết thúc, xong",
+		"note": "I"
+	},
+	{
+		"word": "起きる",
+		"reading": "おきる",
+		"meaning": "thức dậy",
+		"note": "II"
+	},
+	{
+		"word": "起きます",
+		"reading": "おきます",
+		"meaning": "thức dậy",
+		"note": "II"
+	},
+	{
+		"word": "寝る",
+		"reading": "ねる",
+		"meaning": "ngủ",
+		"note": "II"
+	},
+	{
+		"word": "寝ます",
+		"reading": "ねます",
+		"meaning": "ngủ",
+		"note": "II"
+	},
+	{
+		"word": "勉強する",
+		"reading": "べんきょうする",
+		"meaning": "học",
+		"note": "III"
+	},
+	{
+		"word": "勉強します",
+		"reading": "べんきょうします",
+		"meaning": "học",
+		"note": "III"
+	},
+	{
+		"word": "～から",
+		"meaning": "từ ~"
+	},
+	{
+		"word": "～まで",
+		"meaning": "đến ~"
+	},
+	{
+		"word": "～と～",
+		"meaning": "~ và (dùng để nối hai danh từ)"
+	},
+	{
+		"word": "試験",
+		"reading": "しけん",
+		"meaning": "kỳ thi"
+	},
+	{
+		"word": "会議",
+		"reading": "かいぎ",
+		"meaning": "cuộc họp"
+	}
 ]

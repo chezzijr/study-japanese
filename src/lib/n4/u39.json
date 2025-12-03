@@ -1,215 +1,215 @@
 [
-  {
-    "word": "答える",
-    "reading": "こたえる",
-    "meaning": "trả lời (câu hỏi)",
-    "note": "II"
-  },
-  {
-    "word": "倒れる",
-    "reading": "たおれる",
-    "meaning": "(tòa nhà) đổ/(người) ngất",
-    "note": "II"
-  },
-  {
-    "word": "通る",
-    "reading": "とおる",
-    "meaning": "đi (xuyên) qua (đường)",
-    "note": "I"
-  },
-  {
-    "word": "死ぬ",
-    "reading": "しぬ",
-    "meaning": "chết",
-    "note": "I"
-  },
-  {
-    "word": "西洋化する",
-    "reading": "せいようかする",
-    "meaning": "Tây Âu hóa",
-    "note": "III"
-  },
-  {
-    "word": "びっくりする",
-    "reading": "びっくりする",
-    "meaning": "giật mình",
-    "note": "III"
-  },
-  {
-    "word": "がっかりする",
-    "reading": "がっかりする",
-    "meaning": "thất vọng",
-    "note": "III"
-  },
-  {
-    "word": "安心する",
-    "reading": "あんしんする",
-    "meaning": "yên tâm",
-    "note": "III"
-  },
-  {
-    "word": "喧嘩する",
-    "reading": "けんかする",
-    "meaning": "cãi nhau",
-    "note": "III"
-  },
-  {
-    "word": "離婚する",
-    "reading": "りこんする",
-    "meaning": "ly hôn",
-    "note": "III"
-  },
-  {
-    "word": "太る",
-    "reading": "ふとる",
-    "meaning": "béo ra",
-    "note": "I"
-  },
-  {
-    "word": "痩せる",
-    "reading": "やせる",
-    "meaning": "gầy đi",
-    "note": "II"
-  },
-  {
-    "word": "複雑",
-    "reading": "ふくざつ",
-    "meaning": "phức tạp"
-  },
-  {
-    "word": "邪魔",
-    "reading": "じゃま",
-    "meaning": "vướng, vướng víu"
-  },
-  {
-    "word": "硬い",
-    "reading": "かたい",
-    "meaning": "cứng"
-  },
-  {
-    "word": "柔らかい",
-    "reading": "やわらかい",
-    "meaning": "mềm"
-  },
-  {
-    "word": "汚い",
-    "reading": "きたない",
-    "meaning": "bẩn"
-  },
-  {
-    "word": "悲しい",
-    "reading": "かなしい",
-    "meaning": "buồn"
-  },
-  {
-    "word": "恥ずかしい",
-    "reading": "はずかしい",
-    "meaning": "xấu hổ"
-  },
-  {
-    "word": "大人",
-    "reading": "おとな",
-    "meaning": "người lớn"
-  },
-  {
-    "word": "大統領",
-    "reading": "だいとうりょう",
-    "meaning": "Tổng thống"
-  },
-  {
-    "word": "首相",
-    "reading": "しゅしょう",
-    "meaning": "Thủ tướng"
-  },
-  {
-    "word": "津波",
-    "reading": "つなみ",
-    "meaning": "sóng thần"
-  },
-  {
-    "word": "台風",
-    "reading": "たいふう",
-    "meaning": "bão"
-  },
-  {
-    "word": "雷",
-    "reading": "かみなり",
-    "meaning": "sấm, sét"
-  },
-  {
-    "word": "火事",
-    "reading": "かじ",
-    "meaning": "hỏa hoạn"
-  },
-  {
-    "word": "事故",
-    "reading": "じこ",
-    "meaning": "tai nạn, sự cố"
-  },
-  {
-    "word": "ハイキング",
-    "reading": "ハイキング",
-    "meaning": "đi bộ đường dài"
-  },
-  {
-    "word": "見合い",
-    "reading": "みあい",
-    "meaning": "xem mặt (để kết hôn)"
-  },
-  {
-    "word": "見舞い",
-    "reading": "みまい",
-    "meaning": "thăm người ốm"
-  },
-  {
-    "word": "操作する",
-    "reading": "そうさする",
-    "meaning": "thao tác",
-    "note": "III"
-  },
-  {
-    "word": "会場",
-    "reading": "かいじょう",
-    "meaning": "hội trường"
-  },
-  {
-    "word": "タオル",
-    "reading": "タオル",
-    "meaning": "khăn tắm"
-  },
-  {
-    "word": "石鹸",
-    "reading": "せっけん",
-    "meaning": "xà phòng"
-  },
-  {
-    "word": "途中で",
-    "reading": "とちゅうで",
-    "meaning": "trên đường"
-  },
-  {
-    "word": "洋服",
-    "reading": "ようふく",
-    "meaning": "áo quần kiểu Tây"
-  },
-  {
-    "word": "成人式",
-    "reading": "せいじんしき",
-    "meaning": "lễ thành nhân"
-  },
-  {
-    "word": "伝統的",
-    "reading": "でんとうてき",
-    "meaning": "mang tính truyền thống"
-  },
-  {
-    "word": "都合",
-    "reading": "つごう",
-    "meaning": "thuận tiện"
-  },
-  {
-    "word": "インフルエンザ",
-    "reading": "インフルエンザ",
-    "meaning": "dịch cúm"
-  }
+	{
+		"word": "答える",
+		"reading": "こたえる",
+		"meaning": "trả lời (câu hỏi)",
+		"note": "II"
+	},
+	{
+		"word": "倒れる",
+		"reading": "たおれる",
+		"meaning": "(tòa nhà) đổ/(người) ngất",
+		"note": "II"
+	},
+	{
+		"word": "通る",
+		"reading": "とおる",
+		"meaning": "đi (xuyên) qua (đường)",
+		"note": "I"
+	},
+	{
+		"word": "死ぬ",
+		"reading": "しぬ",
+		"meaning": "chết",
+		"note": "I"
+	},
+	{
+		"word": "西洋化する",
+		"reading": "せいようかする",
+		"meaning": "Tây Âu hóa",
+		"note": "III"
+	},
+	{
+		"word": "びっくりする",
+		"reading": "びっくりする",
+		"meaning": "giật mình",
+		"note": "III"
+	},
+	{
+		"word": "がっかりする",
+		"reading": "がっかりする",
+		"meaning": "thất vọng",
+		"note": "III"
+	},
+	{
+		"word": "安心する",
+		"reading": "あんしんする",
+		"meaning": "yên tâm",
+		"note": "III"
+	},
+	{
+		"word": "喧嘩する",
+		"reading": "けんかする",
+		"meaning": "cãi nhau",
+		"note": "III"
+	},
+	{
+		"word": "離婚する",
+		"reading": "りこんする",
+		"meaning": "ly hôn",
+		"note": "III"
+	},
+	{
+		"word": "太る",
+		"reading": "ふとる",
+		"meaning": "béo ra",
+		"note": "I"
+	},
+	{
+		"word": "痩せる",
+		"reading": "やせる",
+		"meaning": "gầy đi",
+		"note": "II"
+	},
+	{
+		"word": "複雑",
+		"reading": "ふくざつ",
+		"meaning": "phức tạp"
+	},
+	{
+		"word": "邪魔",
+		"reading": "じゃま",
+		"meaning": "vướng, vướng víu"
+	},
+	{
+		"word": "硬い",
+		"reading": "かたい",
+		"meaning": "cứng"
+	},
+	{
+		"word": "柔らかい",
+		"reading": "やわらかい",
+		"meaning": "mềm"
+	},
+	{
+		"word": "汚い",
+		"reading": "きたない",
+		"meaning": "bẩn"
+	},
+	{
+		"word": "悲しい",
+		"reading": "かなしい",
+		"meaning": "buồn"
+	},
+	{
+		"word": "恥ずかしい",
+		"reading": "はずかしい",
+		"meaning": "xấu hổ"
+	},
+	{
+		"word": "大人",
+		"reading": "おとな",
+		"meaning": "người lớn"
+	},
+	{
+		"word": "大統領",
+		"reading": "だいとうりょう",
+		"meaning": "Tổng thống"
+	},
+	{
+		"word": "首相",
+		"reading": "しゅしょう",
+		"meaning": "Thủ tướng"
+	},
+	{
+		"word": "津波",
+		"reading": "つなみ",
+		"meaning": "sóng thần"
+	},
+	{
+		"word": "台風",
+		"reading": "たいふう",
+		"meaning": "bão"
+	},
+	{
+		"word": "雷",
+		"reading": "かみなり",
+		"meaning": "sấm, sét"
+	},
+	{
+		"word": "火事",
+		"reading": "かじ",
+		"meaning": "hỏa hoạn"
+	},
+	{
+		"word": "事故",
+		"reading": "じこ",
+		"meaning": "tai nạn, sự cố"
+	},
+	{
+		"word": "ハイキング",
+		"reading": "ハイキング",
+		"meaning": "đi bộ đường dài"
+	},
+	{
+		"word": "見合い",
+		"reading": "みあい",
+		"meaning": "xem mặt (để kết hôn)"
+	},
+	{
+		"word": "見舞い",
+		"reading": "みまい",
+		"meaning": "thăm người ốm"
+	},
+	{
+		"word": "操作する",
+		"reading": "そうさする",
+		"meaning": "thao tác",
+		"note": "III"
+	},
+	{
+		"word": "会場",
+		"reading": "かいじょう",
+		"meaning": "hội trường"
+	},
+	{
+		"word": "タオル",
+		"reading": "タオル",
+		"meaning": "khăn tắm"
+	},
+	{
+		"word": "石鹸",
+		"reading": "せっけん",
+		"meaning": "xà phòng"
+	},
+	{
+		"word": "途中で",
+		"reading": "とちゅうで",
+		"meaning": "trên đường"
+	},
+	{
+		"word": "洋服",
+		"reading": "ようふく",
+		"meaning": "áo quần kiểu Tây"
+	},
+	{
+		"word": "成人式",
+		"reading": "せいじんしき",
+		"meaning": "lễ thành nhân"
+	},
+	{
+		"word": "伝統的",
+		"reading": "でんとうてき",
+		"meaning": "mang tính truyền thống"
+	},
+	{
+		"word": "都合",
+		"reading": "つごう",
+		"meaning": "thuận tiện"
+	},
+	{
+		"word": "インフルエンザ",
+		"reading": "インフルエンザ",
+		"meaning": "dịch cúm"
+	}
 ]

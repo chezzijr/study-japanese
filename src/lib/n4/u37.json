@@ -1,116 +1,116 @@
 [
-  {
-    "word": "褒める",
-    "reading": "ほめる",
-    "meaning": "khen",
-    "note": "II"
-  },
-  {
-    "word": "叱る",
-    "reading": "しかる",
-    "meaning": "mắng",
-    "note": "I"
-  },
-  {
-    "word": "誘う",
-    "reading": "さそう",
-    "meaning": "mời, rủ",
-    "note": "I"
-  },
-  {
-    "word": "招待する",
-    "reading": "しょうたいする",
-    "meaning": "mời",
-    "note": "III"
-  },
-  {
-    "word": "頼む",
-    "reading": "たのむ",
-    "meaning": "nhờ",
-    "note": "I"
-  },
-  {
-    "word": "注意する",
-    "reading": "ちゅういする",
-    "meaning": "nhắc nhở",
-    "note": "III"
-  },
-  {
-    "word": "盗む",
-    "reading": "ぬすむ",
-    "meaning": "lấy cắp",
-    "note": "I"
-  },
-  {
-    "word": "踏む",
-    "reading": "ふむ",
-    "meaning": "dẫm lên",
-    "note": "I"
-  },
-  {
-    "word": "壊す",
-    "reading": "こわす",
-    "meaning": "làm hỏng",
-    "note": "I"
-  },
-  {
-    "word": "汚す",
-    "reading": "よごす",
-    "meaning": "làm bẩn",
-    "note": "I"
-  },
-  {
-    "word": "行う",
-    "reading": "おこなう",
-    "meaning": "tổ chức, tiến hành",
-    "note": "I"
-  },
-  {
-    "word": "輸出する",
-    "reading": "ゆしゅつする",
-    "meaning": "xuất khẩu",
-    "note": "III"
-  },
-  {
-    "word": "輸入する",
-    "reading": "ゆにゅうする",
-    "meaning": "nhập khẩu",
-    "note": "III"
-  },
-  {
-    "word": "翻訳する",
-    "reading": "ほんやくする",
-    "meaning": "biên dịch",
-    "note": "III"
-  },
-  {
-    "word": "発明する",
-    "reading": "はつめいする",
-    "meaning": "phát minh",
-    "note": "III"
-  },
-  {
-    "word": "発見する",
-    "reading": "はっけんする",
-    "meaning": "phát hiện",
-    "note": "III"
-  },
-  {
-    "word": "殺す",
-    "reading": "ころす",
-    "meaning": "giết",
-    "note": "I"
-  },
-  {
-    "word": "撃つ",
-    "reading": "うつ",
-    "meaning": "bắn (súng, tên)",
-    "note": "I"
-  },
-  {
-    "word": "刺す",
-    "reading": "さす",
-    "meaning": "đâm",
-    "note": "I"
-  }
-]    
+	{
+		"word": "褒める",
+		"reading": "ほめる",
+		"meaning": "khen",
+		"note": "II"
+	},
+	{
+		"word": "叱る",
+		"reading": "しかる",
+		"meaning": "mắng",
+		"note": "I"
+	},
+	{
+		"word": "誘う",
+		"reading": "さそう",
+		"meaning": "mời, rủ",
+		"note": "I"
+	},
+	{
+		"word": "招待する",
+		"reading": "しょうたいする",
+		"meaning": "mời",
+		"note": "III"
+	},
+	{
+		"word": "頼む",
+		"reading": "たのむ",
+		"meaning": "nhờ",
+		"note": "I"
+	},
+	{
+		"word": "注意する",
+		"reading": "ちゅういする",
+		"meaning": "nhắc nhở",
+		"note": "III"
+	},
+	{
+		"word": "盗む",
+		"reading": "ぬすむ",
+		"meaning": "lấy cắp",
+		"note": "I"
+	},
+	{
+		"word": "踏む",
+		"reading": "ふむ",
+		"meaning": "dẫm lên",
+		"note": "I"
+	},
+	{
+		"word": "壊す",
+		"reading": "こわす",
+		"meaning": "làm hỏng",
+		"note": "I"
+	},
+	{
+		"word": "汚す",
+		"reading": "よごす",
+		"meaning": "làm bẩn",
+		"note": "I"
+	},
+	{
+		"word": "行う",
+		"reading": "おこなう",
+		"meaning": "tổ chức, tiến hành",
+		"note": "I"
+	},
+	{
+		"word": "輸出する",
+		"reading": "ゆしゅつする",
+		"meaning": "xuất khẩu",
+		"note": "III"
+	},
+	{
+		"word": "輸入する",
+		"reading": "ゆにゅうする",
+		"meaning": "nhập khẩu",
+		"note": "III"
+	},
+	{
+		"word": "翻訳する",
+		"reading": "ほんやくする",
+		"meaning": "biên dịch",
+		"note": "III"
+	},
+	{
+		"word": "発明する",
+		"reading": "はつめいする",
+		"meaning": "phát minh",
+		"note": "III"
+	},
+	{
+		"word": "発見する",
+		"reading": "はっけんする",
+		"meaning": "phát hiện",
+		"note": "III"
+	},
+	{
+		"word": "殺す",
+		"reading": "ころす",
+		"meaning": "giết",
+		"note": "I"
+	},
+	{
+		"word": "撃つ",
+		"reading": "うつ",
+		"meaning": "bắn (súng, tên)",
+		"note": "I"
+	},
+	{
+		"word": "刺す",
+		"reading": "さす",
+		"meaning": "đâm",
+		"note": "I"
+	}
+]

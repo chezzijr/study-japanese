@@ -12,4 +12,4 @@
 	<title>{u}</title>
 </svelte:head>
 
-<MCQ kotobas={kotobas} />
+<MCQ {kotobas} />

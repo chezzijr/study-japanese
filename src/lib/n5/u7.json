@@ -1,327 +1,327 @@
 [
-  {
-    "word": "チョコレート",
-    "meaning": "sô cô la"
-  },
-  {
-    "word": "パン",
-    "meaning": "bánh mỳ"
-  },
-  {
-    "word": "ご飯",
-    "reading": "ごはん",
-    "meaning": "cơm"
-  },
-  {
-    "word": "卵",
-    "reading": "たまご",
-    "meaning": "trứng"
-  },
-  {
-    "word": "肉",
-    "reading": "にく",
-    "meaning": "thịt"
-  },
-  {
-    "word": "牛肉",
-    "reading": "ぎゅうにく",
-    "meaning": "thịt bò"
-  },
-  {
-    "word": "魚",
-    "reading": "さかな",
-    "meaning": "cá"
-  },
-  {
-    "word": "野菜",
-    "reading": "やさい",
-    "meaning": "rau củ"
-  },
-  {
-    "word": "果物",
-    "reading": "くだもの",
-    "meaning": "hoa quả"
-  },
-  {
-    "word": "水",
-    "reading": "みず",
-    "meaning": "nước"
-  },
-  {
-    "word": "お茶",
-    "reading": "おちゃ",
-    "meaning": "trà"
-  },
-  {
-    "word": "コーヒー",
-    "meaning": "cà phê"
-  },
-  {
-    "word": "ワイン",
-    "meaning": "rượu vang"
-  },
-  {
-    "word": "ジュース",
-    "meaning": "nước hoa quả"
-  },
-  {
-    "word": "ビール",
-    "meaning": "bia"
-  },
-  {
-    "word": "お酒",
-    "reading": "おさけ",
-    "meaning": "rượu"
-  },
-  {
-    "word": "たばこ",
-    "meaning": "thuốc lá"
-  },
-  {
-    "word": "薬",
-    "reading": "くすり",
-    "meaning": "thuốc"
-  },
-  {
-    "word": "手紙",
-    "reading": "てがみ",
-    "meaning": "thư, bức thư"
-  },
-  {
-    "word": "メール",
-    "meaning": "mail"
-  },
-  {
-    "word": "レポート",
-    "meaning": "bản báo cáo"
-  },
-  {
-    "word": "コメント",
-    "meaning": "bình luận"
-  },
-  {
-    "word": "音楽",
-    "reading": "おんがく",
-    "meaning": "âm nhạc"
-  },
-  {
-    "word": "映画",
-    "reading": "えいが",
-    "meaning": "phim, điện ảnh"
-  },
-  {
-    "word": "写真",
-    "reading": "しゃしん",
-    "meaning": "ảnh"
-  },
-  {
-    "word": "宿題",
-    "reading": "しゅくだい",
-    "meaning": "bài về nhà"
-  },
-  {
-    "word": "テニス",
-    "meaning": "tennis"
-  },
-  {
-    "word": "サッカー",
-    "meaning": "bóng đá"
-  },
-  {
-    "word": "お花見",
-    "reading": "おはなみ",
-    "meaning": "ngắm hoa anh đào"
-  },
-  {
-    "word": "レストラン",
-    "meaning": "nhà hàng"
-  },
-  {
-    "word": "カフェ",
-    "meaning": "quán cà phê"
-  },
-  {
-    "word": "庭",
-    "reading": "にわ",
-    "meaning": "vườn"
-  },
-  {
-    "word": "店",
-    "reading": "みせ",
-    "meaning": "cửa hàng, tiệm"
-  },
-  {
-    "word": "お正月",
-    "reading": "おしょうがつ",
-    "meaning": "tết, năm mới"
-  },
-  {
-    "word": "みんなで",
-    "meaning": "mọi người cùng"
-  },
-  {
-    "word": "何",
-    "reading": "なに",
-    "meaning": "cái gì, gì"
-  },
-  {
-    "word": "読む",
-    "reading": "よむ",
-    "meaning": "đọc",
-    "note": "I"
-  },
-  {
-    "word": "読みます",
-    "reading": "よみます",
-    "meaning": "đọc",
-    "note": "I"
-  },
-  {
-    "word": "書く",
-    "reading": "かく",
-    "meaning": "viết",
-    "note": "I"
-  },
-  {
-    "word": "書きます",
-    "reading": "かきます",
-    "meaning": "viết",
-    "note": "I"
-  },
-  {
-    "word": "買う",
-    "reading": "かう",
-    "meaning": "mua",
-    "note": "I"
-  },
-  {
-    "word": "買います",
-    "reading": "かいます",
-    "meaning": "mua",
-    "note": "I"
-  },
-  {
-    "word": "撮る",
-    "reading": "とる",
-    "meaning": "chụp ảnh",
-    "note": "I"
-  },
-  {
-    "word": "撮ります",
-    "reading": "とります",
-    "meaning": "chụp ảnh",
-    "note": "I"
-  },
-  {
-    "word": "聞く",
-    "reading": "きく",
-    "meaning": "nghe",
-    "note": "I"
-  },
-  {
-    "word": "聞きます",
-    "reading": "ききます",
-    "meaning": "nghe",
-    "note": "I"
-  },
-  {
-    "word": "吸う",
-    "reading": "すう",
-    "meaning": "hút thuốc",
-    "note": "I"
-  },
-  {
-    "word": "吸います",
-    "reading": "すいます",
-    "meaning": "hút thuốc",
-    "note": "I"
-  },
-  {
-    "word": "する",
-    "meaning": "làm",
-    "note": "III"
-  },
-  {
-    "word": "します",
-    "meaning": "làm",
-    "note": "III"
-  },
-  {
-    "word": "会う",
-    "reading": "あう",
-    "meaning": "gặp",
-    "note": "I"
-  },
-  {
-    "word": "会います",
-    "reading": "あいます",
-    "meaning": "gặp",
-    "note": "I"
-  },
-  {
-    "word": "飲む",
-    "reading": "のむ",
-    "meaning": "uống",
-    "note": "I"
-  },
-  {
-    "word": "飲みます",
-    "reading": "のみます",
-    "meaning": "uống",
-    "note": "I"
-  },
-  {
-    "word": "食べる",
-    "reading": "たべる",
-    "meaning": "ăn",
-    "note": "II"
-  },
-  {
-    "word": "食べます",
-    "reading": "たべます",
-    "meaning": "ăn",
-    "note": "II"
-  },
-  {
-    "word": "見る",
-    "reading": "みる",
-    "meaning": "xem, nhìn, trông",
-    "note": "II"
-  },
-  {
-    "word": "見ます",
-    "reading": "みます",
-    "meaning": "xem, nhìn, trông",
-    "note": "II"
-  },
-  {
-    "word": "食事する",
-    "reading": "しょくじする",
-    "meaning": "dùng bữa",
-    "note": "III"
-  },
-  {
-    "word": "食事します",
-    "reading": "しょくじします",
-    "meaning": "dùng bữa",
-    "note": "III"
-  },
-  {
-    "word": "一緒に",
-    "reading": "いっしょに",
-    "meaning": "cùng nhau"
-  },
-  {
-    "word": "ちょっと",
-    "meaning": "một chút"
-  },
-  {
-    "word": "いつも",
-    "meaning": "luôn luôn, lúc nào cũng"
-  },
-  {
-    "word": "時々",
-    "reading": "ときどき",
-    "meaning": "thỉnh thoảng"
-  }
+	{
+		"word": "チョコレート",
+		"meaning": "sô cô la"
+	},
+	{
+		"word": "パン",
+		"meaning": "bánh mỳ"
+	},
+	{
+		"word": "ご飯",
+		"reading": "ごはん",
+		"meaning": "cơm"
+	},
+	{
+		"word": "卵",
+		"reading": "たまご",
+		"meaning": "trứng"
+	},
+	{
+		"word": "肉",
+		"reading": "にく",
+		"meaning": "thịt"
+	},
+	{
+		"word": "牛肉",
+		"reading": "ぎゅうにく",
+		"meaning": "thịt bò"
+	},
+	{
+		"word": "魚",
+		"reading": "さかな",
+		"meaning": "cá"
+	},
+	{
+		"word": "野菜",
+		"reading": "やさい",
+		"meaning": "rau củ"
+	},
+	{
+		"word": "果物",
+		"reading": "くだもの",
+		"meaning": "hoa quả"
+	},
+	{
+		"word": "水",
+		"reading": "みず",
+		"meaning": "nước"
+	},
+	{
+		"word": "お茶",
+		"reading": "おちゃ",
+		"meaning": "trà"
+	},
+	{
+		"word": "コーヒー",
+		"meaning": "cà phê"
+	},
+	{
+		"word": "ワイン",
+		"meaning": "rượu vang"
+	},
+	{
+		"word": "ジュース",
+		"meaning": "nước hoa quả"
+	},
+	{
+		"word": "ビール",
+		"meaning": "bia"
+	},
+	{
+		"word": "お酒",
+		"reading": "おさけ",
+		"meaning": "rượu"
+	},
+	{
+		"word": "たばこ",
+		"meaning": "thuốc lá"
+	},
+	{
+		"word": "薬",
+		"reading": "くすり",
+		"meaning": "thuốc"
+	},
+	{
+		"word": "手紙",
+		"reading": "てがみ",
+		"meaning": "thư, bức thư"
+	},
+	{
+		"word": "メール",
+		"meaning": "mail"
+	},
+	{
+		"word": "レポート",
+		"meaning": "bản báo cáo"
+	},
+	{
+		"word": "コメント",
+		"meaning": "bình luận"
+	},
+	{
+		"word": "音楽",
+		"reading": "おんがく",
+		"meaning": "âm nhạc"
+	},
+	{
+		"word": "映画",
+		"reading": "えいが",
+		"meaning": "phim, điện ảnh"
+	},
+	{
+		"word": "写真",
+		"reading": "しゃしん",
+		"meaning": "ảnh"
+	},
+	{
+		"word": "宿題",
+		"reading": "しゅくだい",
+		"meaning": "bài về nhà"
+	},
+	{
+		"word": "テニス",
+		"meaning": "tennis"
+	},
+	{
+		"word": "サッカー",
+		"meaning": "bóng đá"
+	},
+	{
+		"word": "お花見",
+		"reading": "おはなみ",
+		"meaning": "ngắm hoa anh đào"
+	},
+	{
+		"word": "レストラン",
+		"meaning": "nhà hàng"
+	},
+	{
+		"word": "カフェ",
+		"meaning": "quán cà phê"
+	},
+	{
+		"word": "庭",
+		"reading": "にわ",
+		"meaning": "vườn"
+	},
+	{
+		"word": "店",
+		"reading": "みせ",
+		"meaning": "cửa hàng, tiệm"
+	},
+	{
+		"word": "お正月",
+		"reading": "おしょうがつ",
+		"meaning": "tết, năm mới"
+	},
+	{
+		"word": "みんなで",
+		"meaning": "mọi người cùng"
+	},
+	{
+		"word": "何",
+		"reading": "なに",
+		"meaning": "cái gì, gì"
+	},
+	{
+		"word": "読む",
+		"reading": "よむ",
+		"meaning": "đọc",
+		"note": "I"
+	},
+	{
+		"word": "読みます",
+		"reading": "よみます",
+		"meaning": "đọc",
+		"note": "I"
+	},
+	{
+		"word": "書く",
+		"reading": "かく",
+		"meaning": "viết",
+		"note": "I"
+	},
+	{
+		"word": "書きます",
+		"reading": "かきます",
+		"meaning": "viết",
+		"note": "I"
+	},
+	{
+		"word": "買う",
+		"reading": "かう",
+		"meaning": "mua",
+		"note": "I"
+	},
+	{
+		"word": "買います",
+		"reading": "かいます",
+		"meaning": "mua",
+		"note": "I"
+	},
+	{
+		"word": "撮る",
+		"reading": "とる",
+		"meaning": "chụp ảnh",
+		"note": "I"
+	},
+	{
+		"word": "撮ります",
+		"reading": "とります",
+		"meaning": "chụp ảnh",
+		"note": "I"
+	},
+	{
+		"word": "聞く",
+		"reading": "きく",
+		"meaning": "nghe",
+		"note": "I"
+	},
+	{
+		"word": "聞きます",
+		"reading": "ききます",
+		"meaning": "nghe",
+		"note": "I"
+	},
+	{
+		"word": "吸う",
+		"reading": "すう",
+		"meaning": "hút thuốc",
+		"note": "I"
+	},
+	{
+		"word": "吸います",
+		"reading": "すいます",
+		"meaning": "hút thuốc",
+		"note": "I"
+	},
+	{
+		"word": "する",
+		"meaning": "làm",
+		"note": "III"
+	},
+	{
+		"word": "します",
+		"meaning": "làm",
+		"note": "III"
+	},
+	{
+		"word": "会う",
+		"reading": "あう",
+		"meaning": "gặp",
+		"note": "I"
+	},
+	{
+		"word": "会います",
+		"reading": "あいます",
+		"meaning": "gặp",
+		"note": "I"
+	},
+	{
+		"word": "飲む",
+		"reading": "のむ",
+		"meaning": "uống",
+		"note": "I"
+	},
+	{
+		"word": "飲みます",
+		"reading": "のみます",
+		"meaning": "uống",
+		"note": "I"
+	},
+	{
+		"word": "食べる",
+		"reading": "たべる",
+		"meaning": "ăn",
+		"note": "II"
+	},
+	{
+		"word": "食べます",
+		"reading": "たべます",
+		"meaning": "ăn",
+		"note": "II"
+	},
+	{
+		"word": "見る",
+		"reading": "みる",
+		"meaning": "xem, nhìn, trông",
+		"note": "II"
+	},
+	{
+		"word": "見ます",
+		"reading": "みます",
+		"meaning": "xem, nhìn, trông",
+		"note": "II"
+	},
+	{
+		"word": "食事する",
+		"reading": "しょくじする",
+		"meaning": "dùng bữa",
+		"note": "III"
+	},
+	{
+		"word": "食事します",
+		"reading": "しょくじします",
+		"meaning": "dùng bữa",
+		"note": "III"
+	},
+	{
+		"word": "一緒に",
+		"reading": "いっしょに",
+		"meaning": "cùng nhau"
+	},
+	{
+		"word": "ちょっと",
+		"meaning": "một chút"
+	},
+	{
+		"word": "いつも",
+		"meaning": "luôn luôn, lúc nào cũng"
+	},
+	{
+		"word": "時々",
+		"reading": "ときどき",
+		"meaning": "thỉnh thoảng"
+	}
 ]

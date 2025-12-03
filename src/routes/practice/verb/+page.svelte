@@ -12,4 +12,3 @@
 	<title>{u}</title>
 </svelte:head>
 <MCQ {kotobas} />
-

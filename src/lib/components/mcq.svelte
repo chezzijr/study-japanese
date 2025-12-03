@@ -115,7 +115,7 @@
 	</p>
 	<section class="grid w-[60%] grid-cols-2 gap-4">
 		{#each question.options as opt, i}
-			<button class="{getBtnClass(i)} text-xl btn-lg" onclick={(e) => handleChoice(e, opt)}>
+			<button class="{getBtnClass(i)} btn-lg text-xl" onclick={(e) => handleChoice(e, opt)}>
 				{#if question.type === 'kotoba-to-meaning'}
 					{opt.meaning}
 				{:else}

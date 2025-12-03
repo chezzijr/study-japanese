@@ -106,16 +106,16 @@
 	<main class="min-h-screen p-4 md:p-6">
 		<!-- Header -->
 		<header class="mb-6">
-			<div class="flex items-center gap-2 text-sm text-base-content/60 mb-2">
+			<div class="mb-2 flex items-center gap-2 text-sm text-base-content/60">
 				<a href="{base}/flashcard" class="hover:text-base-content">Flashcard</a>
 				<span>/</span>
 				<a href="{base}/flashcard/deck/{deck.id}" class="hover:text-base-content">{deck.name}</a>
 				<span>/</span>
 				<span>Thống kê</span>
 			</div>
-			<h1 class="text-2xl md:text-3xl font-bold">Thống kê: {deck.name}</h1>
+			<h1 class="text-2xl font-bold md:text-3xl">Thống kê: {deck.name}</h1>
 			{#if deck.description}
-				<p class="text-base-content/60 mt-1">{deck.description}</p>
+				<p class="mt-1 text-base-content/60">{deck.description}</p>
 			{/if}
 		</header>
 
@@ -123,14 +123,14 @@
 		<StatsOverview {stats} showForecast={true} {forecastData} />
 
 		<!-- Additional Statistics -->
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+		<div class="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2">
 			<!-- Card Maturity -->
 			<div class="card bg-base-200">
 				<div class="card-body">
 					<h3 class="card-title text-base">Độ chín của thẻ</h3>
 					<div class="space-y-4">
 						<div>
-							<div class="flex justify-between text-sm mb-1">
+							<div class="mb-1 flex justify-between text-sm">
 								<span>Thẻ trưởng thành (21+ ngày)</span>
 								<span class="font-medium">{matureCount}</span>
 							</div>
@@ -141,7 +141,7 @@
 							></progress>
 						</div>
 						<div>
-							<div class="flex justify-between text-sm mb-1">
+							<div class="mb-1 flex justify-between text-sm">
 								<span>Thẻ non (1-20 ngày)</span>
 								<span class="font-medium">{youngCount}</span>
 							</div>
@@ -152,7 +152,7 @@
 							></progress>
 						</div>
 						<div>
-							<div class="flex justify-between text-sm mb-1">
+							<div class="mb-1 flex justify-between text-sm">
 								<span>Thẻ mới (chưa học)</span>
 								<span class="font-medium">{stats.newCards}</span>
 							</div>
@@ -172,20 +172,22 @@
 					<div class="card-body">
 						<h3 class="card-title text-base">Tổng kết 30 ngày</h3>
 						<div class="grid grid-cols-2 gap-4">
-							<div class="text-center p-3 bg-base-100 rounded-lg">
+							<div class="rounded-lg bg-base-100 p-3 text-center">
 								<div class="text-2xl font-bold text-primary">{aggregatedStats.totalReviewed}</div>
 								<div class="text-sm text-base-content/60">Lần ôn</div>
 							</div>
-							<div class="text-center p-3 bg-base-100 rounded-lg">
+							<div class="rounded-lg bg-base-100 p-3 text-center">
 								<div class="text-2xl font-bold text-success">{aggregatedStats.totalNewLearned}</div>
 								<div class="text-sm text-base-content/60">Thẻ mới</div>
 							</div>
-							<div class="text-center p-3 bg-base-100 rounded-lg">
+							<div class="rounded-lg bg-base-100 p-3 text-center">
 								<div class="text-2xl font-bold text-info">{aggregatedStats.averagePerDay}</div>
 								<div class="text-sm text-base-content/60">TB/ngày</div>
 							</div>
-							<div class="text-center p-3 bg-base-100 rounded-lg">
-								<div class="text-2xl font-bold text-warning">{formatStudyTime(aggregatedStats.totalStudyTimeMs)}</div>
+							<div class="rounded-lg bg-base-100 p-3 text-center">
+								<div class="text-2xl font-bold text-warning">
+									{formatStudyTime(aggregatedStats.totalStudyTimeMs)}
+								</div>
 								<div class="text-sm text-base-content/60">Thời gian</div>
 							</div>
 						</div>
@@ -197,9 +199,10 @@
 									value={aggregatedStats.totalCorrect}
 									max={aggregatedStats.totalReviewed}
 								></progress>
-								<div class="text-xs text-base-content/50 mt-1">
-									{Math.round((aggregatedStats.totalCorrect / aggregatedStats.totalReviewed) * 100)}%
-									({aggregatedStats.totalCorrect}/{aggregatedStats.totalReviewed})
+								<div class="mt-1 text-xs text-base-content/50">
+									{Math.round(
+										(aggregatedStats.totalCorrect / aggregatedStats.totalReviewed) * 100
+									)}% ({aggregatedStats.totalCorrect}/{aggregatedStats.totalReviewed})
 								</div>
 							</div>
 						{/if}
@@ -209,10 +212,8 @@
 		</div>
 
 		<!-- Actions -->
-		<div class="flex justify-center gap-4 mt-8">
-			<a href="{base}/flashcard/deck/{deck.id}" class="btn btn-ghost">
-				Quay lại
-			</a>
+		<div class="mt-8 flex justify-center gap-4">
+			<a href="{base}/flashcard/deck/{deck.id}" class="btn btn-ghost"> Quay lại </a>
 			{#if stats.dueToday > 0}
 				<a href="{base}/flashcard/deck/{deck.id}/review" class="btn btn-primary">
 					Ôn tập ngay ({stats.dueToday})
