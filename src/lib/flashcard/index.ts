@@ -54,6 +54,7 @@ export {
 	createCards,
 	getCard,
 	getCardsByDeck,
+	getAllCards,
 	getDueCards,
 	getNewCards,
 	getCardsByStatus,

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { base } from "$app/paths";
 	import { onMount } from "svelte";
-	import { getTotalDueCount, isIndexedDBAvailable } from "$lib/flashcard";
+	import { getTotalDueCount, getAllCards, isIndexedDBAvailable } from "$lib/flashcard";
 
 	// Get unit counts for each level
 	const n5Units = Object.keys(import.meta.glob('$lib/n5/*.json'));
@@ -9,15 +9,21 @@
 
 	// Flashcard due count (loaded client-side)
 	let dueCount = $state<number | null>(null);
+	let totalCards = $state<number | null>(null);
 	let flashcardAvailable = $state(false);
 
 	onMount(async () => {
 		if (isIndexedDBAvailable()) {
 			flashcardAvailable = true;
 			try {
-				dueCount = await getTotalDueCount();
+				const [due, cards] = await Promise.all([
+					getTotalDueCount(),
+					getAllCards()
+				]);
+				dueCount = due;
+				totalCards = cards.length;
 			} catch (e) {
-				console.error('Failed to load due count:', e);
+				console.error('Failed to load flashcard data:', e);
 			}
 		}
 	});
@@ -170,8 +176,10 @@
 					</h3>
 					<p class="text-base-content/70">Ôn tập với thẻ ghi nhớ (SM-2)</p>
 					<div class="card-actions justify-between items-center mt-2">
-						{#if flashcardAvailable && dueCount !== null}
-							{#if dueCount > 0}
+						{#if flashcardAvailable && dueCount !== null && totalCards !== null}
+							{#if totalCards === 0}
+								<span></span>
+							{:else if dueCount > 0}
 								<span class="badge badge-secondary">{dueCount} thẻ cần ôn</span>
 							{:else}
 								<span class="badge badge-success">Đã hoàn thành</span>

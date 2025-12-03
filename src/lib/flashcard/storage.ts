@@ -184,6 +184,14 @@ export async function getCardsByDeck(deckId: string): Promise<Flashcard[]> {
 }
 
 /**
+ * Get all cards across all decks
+ */
+export async function getAllCards(): Promise<Flashcard[]> {
+	const db = await getDB();
+	return db.getAll('cards');
+}
+
+/**
  * Get cards due for review in a deck
  */
 export async function getDueCards(deckId: string, limit?: number): Promise<Flashcard[]> {

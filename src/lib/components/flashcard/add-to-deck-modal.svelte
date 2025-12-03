@@ -30,7 +30,7 @@
 		word: WordDefinition | null;
 		level: string;
 		unit: string;
-		onSuccess?: () => void;
+		onSuccess?: (cardId: string, deckId: string, deckName: string, actualUnit: string) => void;
 	} = $props();
 
 	// State
@@ -88,7 +88,8 @@
 
 		try {
 			const cards = await getCardsByDeck(selectedDeckId);
-			const isDuplicate = isVocabAlreadyInDeck(cards, word, level, unit);
+			const actualUnit = word._unit ?? unit;
+			const isDuplicate = isVocabAlreadyInDeck(cards, word, level, actualUnit);
 			duplicateWarning = isDuplicate
 				? `Từ "${word.word}" đã có trong bộ thẻ này.`
 				: null;
@@ -135,11 +136,13 @@
 			loading = true;
 			error = null;
 
-			const cardData = vocabToFlashcard(word, selectedDeckId, level, unit);
-			await createCard(cardData);
+			const actualUnit = word._unit ?? unit;
+			const cardData = vocabToFlashcard(word, selectedDeckId, level, actualUnit);
+			const newCard = await createCard(cardData);
 
 			success = true;
-			onSuccess?.();
+			const selectedDeck = decks.find((d) => d.id === selectedDeckId);
+			onSuccess?.(newCard.id, selectedDeckId, selectedDeck?.name ?? 'Unknown', actualUnit);
 
 			// Close after short delay
 			setTimeout(() => {

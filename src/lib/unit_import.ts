@@ -23,7 +23,11 @@ export default async function importUnit(s: string, level: Level = 'n5') {
   // if select all units
   if (s === "all") {
     const allUnits = await Promise.all(unitFiles.map(async (unitFile) => {
-      return (await unitImportObject[unitFile]()).default;
+      const fileName = unitFile.split('/').pop();
+      const u = fileName?.split('.').shift() ?? '';
+      const words = (await unitImportObject[unitFile]()).default;
+      // Add unit info to each word for tracking
+      return words.map(w => ({ ...w, _unit: u }));
     }));
     // combine all units into one json
     const allUnitsJson = allUnits.reduce((acc, json) => {
@@ -31,7 +35,7 @@ export default async function importUnit(s: string, level: Level = 'n5') {
         ...acc,
         ...json
       ];
-    }, []);
+    }, [] as Dictionary);
     return {
       unit: "all",
       json: allUnitsJson
@@ -50,9 +54,11 @@ export default async function importUnit(s: string, level: Level = 'n5') {
       const u = fileName.split('.').shift() as string;
       if (units.includes(u)) {
         const json = await unitImportObject[unitFile]();
+        // Add unit info to each word for tracking
+        const wordsWithUnit = json.default.map(w => ({ ...w, _unit: u }));
         return [
           ...await acc,
-          ...json.default
+          ...wordsWithUnit
         ];
       }
       return await acc;
