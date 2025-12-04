@@ -13,7 +13,7 @@
 	// Deduplicate by word
 	const kanjis: KanjiItem[] = [...new Map(data.kanjis.map((k: KanjiItem) => [k.word, k])).values()];
 
-	let currentIndex = $state(0);
+	let currentIndex = $state(Math.floor(Math.random() * kanjis.length));
 	let result = $state<'idle' | 'correct' | 'wrong' | 'loading'>('idle');
 	let canvasRef: KanjiCanvas;
 
