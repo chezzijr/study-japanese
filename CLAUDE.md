@@ -40,7 +40,9 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 - `/` - Dashboard homepage with stats, feature cards, and unit navigation
 - `/vocab/[level]/[unit]` - Vocabulary reference by level and unit (e.g., `/vocab/n5/u1`, `/vocab/n4/all`)
 - `/practice/[level]/[unit]` - Vocabulary practice (MCQ) by level and unit
-- `/practice/kanji/[level]` - Kanji practice by level (e.g., `/practice/kanji/n5`)
+- `/practice/kanji/[level]` - Combined kanji practice (randomly mixes Sino-Vietnamese MCQ and handwriting)
+- `/practice/kanji/[level]/mcq` - Dedicated Sino-Vietnamese reading (Âm Hán Việt) MCQ only
+- `/practice/kanji/[level]/draw` - Dedicated kanji handwriting recognition only
 - `/practice/verb` - Verb conjugation practice
 - `/grammar/verb` - Verb grammar explanations
 - `/flashcard` - Flashcard dashboard with deck list and due count
@@ -54,7 +56,8 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 
 **Prerendered vs Client-only routes:**
 
-- Vocabulary/practice/kanji routes are pre-rendered at build time (discovered from filesystem in `svelte.config.js`)
+- Vocabulary and vocab practice routes are pre-rendered at build time (discovered from filesystem in `svelte.config.js`)
+- Kanji practice routes (`/practice/kanji/[level]`, `/practice/kanji/[level]/draw`) use `ssr = false` and are client-only (use canvas and fetch API for handwriting recognition)
 - Flashcard routes use `ssr = false` and are client-only (depend on IndexedDB)
 
 ### Data Organization
@@ -91,6 +94,12 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 - `vocab-convert.ts` - Convert WordDefinition/Kanji to Flashcard
 - `index.ts` - Module re-exports
 
+**Handwriting Module** (`src/lib/handwriting/`)
+
+- `types.ts` - `Stroke`, `RecognitionResult` types
+- `google.ts` - Google handwriting recognition API integration
+- `index.ts` - Module re-exports
+
 **Unit Import System** (`src/lib/unit_import.ts`)
 
 - Handles flexible unit loading: single units (`u1`), ranges (`u3-u8`), or all units (`all`)
@@ -104,6 +113,8 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 Located in `src/lib/components/`:
 
 - `mcq.svelte` - Multiple choice question component for vocabulary practice
+- `kanji-mcq.svelte` - MCQ component for Sino-Vietnamese reading (Âm Hán Việt) practice
+- `kanji-canvas.svelte` - Canvas for handwriting kanji with stroke capture, undo/clear, theme support
 - `vocab.svelte` - Vocabulary table with search functionality (supports kanji, hiragana, romaji, Vietnamese); includes "+" button to add words to flashcard decks and "-" button to remove (with duplicate detection - words already in a deck show "-" with tooltip indicating deck name)
 - `answer.svelte` - Answer reveal/check component
 - `furigana.svelte` - Furigana display wrapper

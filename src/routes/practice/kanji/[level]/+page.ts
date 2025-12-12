@@ -1,22 +1,36 @@
 import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
-import type { Kanji } from '$lib/types/kanji';
+
+interface KanjiItem {
+	word: string;
+	meaning: string;
+	meaning_resolution?: string;
+	kunyomi?: string[];
+	onyomi?: string[];
+	radicals?: string[];
+}
+
+// Client-only route (uses canvas and fetch API)
+export const ssr = false;
+export const prerender = false;
 
 export const load: PageLoad = async ({ params }) => {
-	// in folder n5, list all files
 	const kanjiImportObject = import.meta.glob('$lib/kanji/*.json');
-	const kanjiFiles = Object.keys(kanjiImportObject);
 	const level = params.level;
-	for (const kanjiFile of kanjiFiles) {
-		const fileName = kanjiFile.split('/').pop();
-		if (!fileName) {
-			continue;
-		}
-		const k = fileName.split('.').shift();
+
+	for (const [path, importer] of Object.entries(kanjiImportObject)) {
+		const fileName = path.split('/').pop();
+		if (!fileName) continue;
+
+		const k = fileName.replace('.json', '');
+		// Skip definition files (e.g., n5_def.json)
+		if (k.includes('_def')) continue;
+
 		if (k === level) {
+			const data = ((await importer()) as { default: KanjiItem[] }).default;
 			return {
 				level,
-				json: ((await kanjiImportObject[kanjiFile]()) as any).default as Kanji
+				kanjis: data
 			};
 		}
 	}

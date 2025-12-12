@@ -80,9 +80,25 @@ export async function recognizeKanji(
 }
 
 /**
- * Check if target kanji is in the top N predictions
+ * Check if a string contains only hiragana or katakana (no kanji)
  */
-export function isCorrect(result: RecognitionResult, target: string, topN = 3): boolean {
+function isKanaOnly(str: string): boolean {
+	// Hiragana: U+3040-U+309F, Katakana: U+30A0-U+30FF
+	return /^[\u3040-\u309F\u30A0-\u30FF]+$/.test(str);
+}
+
+/**
+ * Filter out hiragana/katakana predictions, keeping only kanji
+ */
+export function filterKanjiOnly(predictions: string[]): string[] {
+	return predictions.filter((p) => !isKanaOnly(p));
+}
+
+/**
+ * Check if target kanji is in the top N predictions (excluding kana)
+ */
+export function isCorrect(result: RecognitionResult, target: string, topN = 2): boolean {
 	if (!result.success) return false;
-	return result.predictions.slice(0, topN).includes(target);
+	const kanjiPredictions = filterKanjiOnly(result.predictions);
+	return kanjiPredictions.slice(0, topN).includes(target);
 }
