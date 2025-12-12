@@ -25,7 +25,6 @@
 	},
 	{
 		"word": "やむ",
-		"reading": "やむ",
 		"meaning": "tạnh (mưa)",
 		"note": "I"
 	},
@@ -102,12 +101,10 @@
 	},
 	{
 		"word": "おかしい",
-		"reading": "おかしい",
 		"meaning": "lạ, thú vị"
 	},
 	{
 		"word": "うるさい",
-		"reading": "うるさい",
 		"meaning": "ồn ào"
 	},
 	{
@@ -182,12 +179,10 @@
 	},
 	{
 		"word": "エンジン",
-		"reading": "エンジン",
 		"meaning": "động cơ"
 	},
 	{
 		"word": "チーム",
-		"reading": "チーム",
 		"meaning": "đội"
 	},
 	{
@@ -207,17 +202,14 @@
 	},
 	{
 		"word": "こんなに",
-		"reading": "こんなに",
 		"meaning": "như thế này"
 	},
 	{
 		"word": "そんなに",
-		"reading": "そんなに",
 		"meaning": "như thế đó"
 	},
 	{
 		"word": "あんなに",
-		"reading": "あんなに",
 		"meaning": "như thế kia"
 	},
 	{
@@ -232,7 +224,6 @@
 	},
 	{
 		"word": "ストレス",
-		"reading": "ストレス",
 		"meaning": "căng thẳng"
 	},
 	{
@@ -267,7 +258,6 @@
 	},
 	{
 		"word": "ラッキーアイテム",
-		"reading": "ラッキーアイテム",
 		"meaning": "vật mang lại may mắn"
 	}
 ]

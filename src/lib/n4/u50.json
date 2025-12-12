@@ -7,13 +7,11 @@
 	},
 	{
 		"word": "おる",
-		"reading": "おる",
 		"meaning": "ở (khiêm nhường ngữ của いる)",
 		"note": "I"
 	},
 	{
 		"word": "いただく",
-		"reading": "いただく",
 		"meaning": "ăn, uống, nhận (khiêm nhường ngữ của たべる、のむ、もらう)",
 		"note": "I"
 	},
@@ -99,17 +97,14 @@
 	},
 	{
 		"word": "ガイド",
-		"reading": "ガイド",
 		"meaning": "hướng dẫn viên du lịch"
 	},
 	{
 		"word": "メールアドレス",
-		"reading": "メールアドレス",
 		"meaning": "địa chỉ email"
 	},
 	{
 		"word": "スケジュール",
-		"reading": "スケジュール",
 		"meaning": "lịch làm việc, lịch trình"
 	},
 	{
@@ -139,7 +134,6 @@
 	},
 	{
 		"word": "おかげさまで",
-		"reading": "おかげさまで",
 		"meaning": "nhờ ơn trời"
 	}
 ]

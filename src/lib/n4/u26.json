@@ -1,8 +1,8 @@
 [
 	{
-		"word": "見る・診る",
+		"word": "診る",
 		"reading": "みる",
-		"meaning": "nhìn, xem/khám bệnh",
+		"meaning": "khám bệnh",
 		"note": "II"
 	},
 	{
@@ -25,7 +25,6 @@
 	},
 	{
 		"word": "やる",
-		"reading": "やる",
 		"meaning": "làm",
 		"note": "I"
 	},
@@ -84,7 +83,6 @@
 	},
 	{
 		"word": "ごみ",
-		"reading": "ごみ",
 		"meaning": "rác"
 	},
 	{
@@ -109,12 +107,10 @@
 	},
 	{
 		"word": "ボランティア",
-		"reading": "ボランティア",
 		"meaning": "tình nguyện viên"
 	},
 	{
 		"word": "フリーマーケット",
-		"reading": "フリーマーケット",
 		"meaning": "chợ trời (chợ đồ cũ)"
 	},
 	{
@@ -129,7 +125,6 @@
 	},
 	{
 		"word": "ずいぶん",
-		"reading": "ずいぶん",
 		"meaning": "khá, tương đối"
 	},
 	{
@@ -139,37 +134,30 @@
 	},
 	{
 		"word": "いつでも",
-		"reading": "いつでも",
 		"meaning": "lúc nào cũng"
 	},
 	{
 		"word": "どこでも",
-		"reading": "どこでも",
 		"meaning": "ở đâu cũng"
 	},
 	{
 		"word": "だれでも",
-		"reading": "だれでも",
 		"meaning": "ai cũng"
 	},
 	{
 		"word": "なんでも",
-		"reading": "なんでも",
 		"meaning": "cái gì cũng"
 	},
 	{
 		"word": "こんな～",
-		"reading": "こんな～",
 		"meaning": "như thế này ~"
 	},
 	{
 		"word": "そんな～",
-		"reading": "そんな～",
 		"meaning": "như thế đó ~"
 	},
 	{
 		"word": "あんな～",
-		"reading": "あんな～",
 		"meaning": "như thế kia ~"
 	},
 	{

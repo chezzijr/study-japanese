@@ -31,13 +31,11 @@
 	},
 	{
 		"word": "びっくりする",
-		"reading": "びっくりする",
 		"meaning": "giật mình",
 		"note": "III"
 	},
 	{
 		"word": "がっかりする",
-		"reading": "がっかりする",
 		"meaning": "thất vọng",
 		"note": "III"
 	},
@@ -148,7 +146,6 @@
 	},
 	{
 		"word": "ハイキング",
-		"reading": "ハイキング",
 		"meaning": "đi bộ đường dài"
 	},
 	{
@@ -174,7 +171,6 @@
 	},
 	{
 		"word": "タオル",
-		"reading": "タオル",
 		"meaning": "khăn tắm"
 	},
 	{
@@ -209,7 +205,6 @@
 	},
 	{
 		"word": "インフルエンザ",
-		"reading": "インフルエンザ",
 		"meaning": "dịch cúm"
 	}
 ]

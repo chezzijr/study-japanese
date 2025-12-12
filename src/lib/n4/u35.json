@@ -43,7 +43,6 @@
 	},
 	{
 		"word": "クリックする",
-		"reading": "クリックする",
 		"meaning": "click chuột",
 		"note": "III"
 	},
@@ -110,7 +109,6 @@
 	},
 	{
 		"word": "ふりがな",
-		"reading": "ふりがな",
 		"meaning": "chữ Furigana (dùng để phiên âm cách đọc kanji)"
 	},
 	{
@@ -140,12 +138,10 @@
 	},
 	{
 		"word": "レバー",
-		"reading": "レバー",
 		"meaning": "cần, cần gạt"
 	},
 	{
 		"word": "カーテン",
-		"reading": "カーテン",
 		"meaning": "rèm cửa"
 	},
 	{
@@ -165,7 +161,6 @@
 	},
 	{
 		"word": "ことわざ",
-		"reading": "ことわざ",
 		"meaning": "thành ngữ"
 	},
 	{
@@ -185,7 +180,6 @@
 	},
 	{
 		"word": "おかゆ",
-		"reading": "おかゆ",
 		"meaning": "cháo"
 	},
 	{
