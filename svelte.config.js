@@ -30,12 +30,7 @@ const vocabEntries = vocabLevels.flatMap((level) => {
 
 const grammarEntries = ['/grammar/verb'];
 
-const entries = [
-	...initialEntries,
-	...practiceUnitEntries,
-	...vocabEntries,
-	...grammarEntries
-];
+const entries = [...initialEntries, ...practiceUnitEntries, ...vocabEntries, ...grammarEntries];
 // console.log(entries)
 
 /** @type {import('@sveltejs/kit').Config} */
