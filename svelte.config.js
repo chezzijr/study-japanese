@@ -28,9 +28,22 @@ const vocabEntries = vocabLevels.flatMap((level) => {
 	];
 });
 
+// kanji listing routes - one per level
+const kanjiLevels = ['n1', 'n2', 'n3', 'n4', 'n5'];
+const kanjiEntries = kanjiLevels.flatMap((level) => {
+	const kanjiFile = `./src/lib/kanji/${level}.json`;
+	return fs.existsSync(kanjiFile) ? [`/kanji/${level}`] : [];
+});
+
 const grammarEntries = ['/grammar/verb'];
 
-const entries = [...initialEntries, ...practiceUnitEntries, ...vocabEntries, ...grammarEntries];
+const entries = [
+	...initialEntries,
+	...practiceUnitEntries,
+	...vocabEntries,
+	...kanjiEntries,
+	...grammarEntries
+];
 // console.log(entries)
 
 /** @type {import('@sveltejs/kit').Config} */

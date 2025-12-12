@@ -7,7 +7,6 @@
 	interface KanjiItem {
 		word: string;
 		meaning: string;
-		meaning_resolution?: string;
 	}
 
 	let { data } = $props();
@@ -178,7 +177,7 @@
 		<h2 class="text-center text-2xl">
 			Viết chữ Hán có nghĩa:
 			<span class="block text-3xl font-bold text-primary">
-				{current.meaning_resolution || current.meaning}
+				{current.meaning}
 			</span>
 		</h2>
 

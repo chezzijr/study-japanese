@@ -4,14 +4,16 @@ import type { PageLoad } from './$types';
 interface KanjiItem {
 	word: string;
 	meaning: string;
-	kunyomi?: string[];
-	onyomi?: string[];
+	kunyomi: string[];
+	onyomi: string[];
 	radicals?: string;
+	examples?: Array<{
+		word: string;
+		reading: string;
+		meaning: string;
+		special_case?: boolean;
+	}>;
 }
-
-// Client-only route (uses canvas and fetch API)
-export const ssr = false;
-export const prerender = false;
 
 export const load: PageLoad = async ({ params }) => {
 	const kanjiImportObject = import.meta.glob('$lib/kanji/*.json');

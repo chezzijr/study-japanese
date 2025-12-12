@@ -5,7 +5,6 @@
 	interface KanjiItem {
 		word: string;
 		meaning: string;
-		meaning_resolution?: string;
 	}
 
 	const {

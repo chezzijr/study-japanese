@@ -15,10 +15,9 @@ import { generateId } from './db';
 export interface KanjiData {
 	word: string;
 	meaning: string;
-	meaning_resolution?: string;
 	kunyomi: string[];
 	onyomi: string[];
-	radicals: string[];
+	radicals?: string;
 }
 
 /**
@@ -72,12 +71,8 @@ export function kanjiToFlashcard(
 	// Format back content with all kanji info
 	const backParts: string[] = [];
 
-	// Main meaning in Vietnamese
-	if (kanji.meaning_resolution) {
-		backParts.push(`${kanji.meaning} (${kanji.meaning_resolution})`);
-	} else {
-		backParts.push(kanji.meaning);
-	}
+	// Main meaning in Vietnamese (Âm Hán Việt)
+	backParts.push(kanji.meaning);
 
 	// Add readings
 	if (kanji.onyomi.length > 0) {
@@ -90,7 +85,7 @@ export function kanjiToFlashcard(
 	const back = backParts.join('\n');
 
 	// Notes with radicals
-	const notes = kanji.radicals.length > 0 ? `Bộ thủ: ${kanji.radicals.join(', ')}` : undefined;
+	const notes = kanji.radicals ? `Bộ thủ: ${kanji.radicals}` : undefined;
 
 	return {
 		deckId,

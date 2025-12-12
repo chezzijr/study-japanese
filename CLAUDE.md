@@ -30,6 +30,7 @@ A SvelteKit-based Japanese language learning application featuring vocabulary pr
 ### Data Generation
 
 - `pnpm gen-kanji` - Fetch kanji definitions from Jotoba API and generate `*_def.json` files in `src/lib/kanji/`
+- `npx tsx scripts/add_radicals.ts` - Fetch radicals from Jotoba API and add to kanji JSON files (skips radicals that are same as the kanji itself)
 
 ## Architecture
 
@@ -41,6 +42,7 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 - `/vocab/[level]/[unit]` - Vocabulary reference by level and unit (e.g., `/vocab/n5/u1`, `/vocab/n4/all`)
 - `/practice/[level]/[unit]` - Vocabulary practice (MCQ) by level and unit
 - `/practice/kanji/[level]` - Combined kanji practice (randomly mixes Sino-Vietnamese MCQ and handwriting)
+- `/kanji/[level]` - Kanji listing/reference page by level (e.g., `/kanji/n5`) with search and flashcard integration
 - `/practice/verb` - Verb conjugation practice
 - `/grammar/verb` - Verb grammar explanations
 - `/flashcard` - Flashcard dashboard with deck list and due count
@@ -54,7 +56,7 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 
 **Prerendered vs Client-only routes:**
 
-- Vocabulary and vocab practice routes are pre-rendered at build time (discovered from filesystem in `svelte.config.js`)
+- Vocabulary, vocab practice, and kanji listing routes are pre-rendered at build time (discovered from filesystem in `svelte.config.js`)
 - Kanji practice route (`/practice/kanji/[level]`) uses `ssr = false` and is client-only (uses canvas and fetch API for handwriting recognition)
 - Flashcard routes use `ssr = false` and are client-only (depend on IndexedDB)
 
@@ -76,9 +78,24 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 
 **Kanji Data** (`src/lib/kanji/`)
 
-- Level files: `n5.json` (contains array of kanji characters)
-- Generated definition files: `n5_def.json` (maps kanji to definitions)
-- Kanji definitions fetched from Jotoba API via `pnpm gen-kanji`
+- Level files: `n5.json`, `n4.json`, etc. - each contains array of kanji entries:
+  ```typescript
+  {
+    word: string        // The kanji character (e.g., "一")
+    meaning: string     // Sino-Vietnamese reading (e.g., "NHẤT")
+    kunyomi: string[]   // Japanese kun readings (e.g., ["ひと[り]", "ひと[つ]"])
+    onyomi: string[]    // Japanese on readings (e.g., ["イチ"])
+    radicals?: string   // Main radical (omitted if same as kanji itself)
+    examples?: Array<{
+      word: string      // Written form (e.g., "一人で")
+      reading: string   // Hiragana reading (e.g., "ひとりで")
+      meaning: string   // Vietnamese meaning
+      special_case?: boolean
+    }>
+  }
+  ```
+- Generated definition files: `n5_def.json` (maps kanji to definitions from Jotoba API)
+- Radicals fetched via `npx tsx scripts/add_radicals.ts` - skips if radical equals the kanji
 
 **Flashcard Module** (`src/lib/flashcard/`)
 
@@ -113,6 +130,7 @@ Located in `src/lib/components/`:
 - `mcq.svelte` - Multiple choice question component for vocabulary practice
 - `kanji-mcq.svelte` - MCQ component for Sino-Vietnamese reading (Âm Hán Việt) practice
 - `kanji-canvas.svelte` - Canvas for handwriting kanji with stroke capture, undo/clear, theme support
+- `kanji-listing.svelte` - Kanji reference table with search (kanji, meaning, readings, romaji), collapsible examples, and flashcard add/remove buttons
 - `vocab.svelte` - Vocabulary table with search functionality (supports kanji, hiragana, romaji, Vietnamese); includes "+" button to add words to flashcard decks and "-" button to remove (with duplicate detection - words already in a deck show "-" with tooltip indicating deck name)
 - `answer.svelte` - Answer reveal/check component
 - `furigana.svelte` - Furigana display wrapper
@@ -126,6 +144,7 @@ Located in `src/lib/components/`:
 - `deck-form.svelte` - Create/edit deck form
 - `card-form.svelte` - Create/edit flashcard form
 - `add-to-deck-modal.svelte` - Modal for adding vocab words to decks (used in vocab.svelte)
+- `add-kanji-to-deck-modal.svelte` - Modal for adding kanji to decks (used in kanji-listing.svelte)
 - `stats-overview.svelte` - Statistics display widget (retention, streak, card breakdown)
 
 ### Type Definitions
@@ -133,6 +152,7 @@ Located in `src/lib/components/`:
 - `src/lib/types/vocab.ts` - `WordDefinition`, `Dictionary` types
 - `src/lib/types/kanji.ts` - `KanjiDefinition`, `Kanji`, `KanjiJotoba` types
 - `src/lib/flashcard/types.ts` - Flashcard types: `Flashcard`, `Deck`, `DeckSettings`, `SM2State`, `Rating`, `CardStatus`, `CardSource`, `ReviewLog`, `DailyStats`, `DeckStats`, `ExportData`
+- `src/lib/flashcard/vocab-convert.ts` - `KanjiData` interface for kanji-to-flashcard conversion (includes `radicals?: string`)
 
 ### Styling
 
@@ -181,9 +201,10 @@ Located in `src/lib/components/`:
 
 ### Adding New Kanji Levels
 
-1. Create `src/lib/kanji/LEVEL.json` with kanji character array
-2. Run `pnpm gen-kanji` to fetch definitions
-3. Build will automatically discover and prerender the new routes
+1. Create `src/lib/kanji/LEVEL.json` with kanji entries (see Kanji Data structure above)
+2. Run `npx tsx scripts/add_radicals.ts` to fetch radicals from Jotoba API
+3. Optionally run `pnpm gen-kanji` to generate definition files
+4. Build will automatically discover and prerender kanji listing routes (`/kanji/[level]`)
 
 ### Modifying Practice/Vocab Routes
 
@@ -203,6 +224,16 @@ The vocab component (`src/lib/components/vocab.svelte`) supports searching:
 
 Example: Searching "gakkou" will find entries with reading "がっこう"
 
+### Kanji Listing Feature
+
+The kanji listing component (`src/lib/components/kanji-listing.svelte`) provides:
+
+- Searchable table with columns: Kanji, Âm HV (Sino-Vietnamese), Onyomi, Kunyomi, Bộ thủ (Radical), Examples
+- Search across kanji character, meaning, all readings, radicals, and romaji input
+- Collapsible example sections (shows first 2, expandable for more)
+- Flashcard integration with add/remove buttons and duplicate detection
+- Uses `add-kanji-to-deck-modal.svelte` for deck selection
+
 ### Flashcard System
 
 **SM-2 Algorithm**: The flashcard system uses the SM-2 spaced repetition algorithm (same as Anki). Rating options:
@@ -215,7 +246,7 @@ Example: Searching "gakkou" will find entries with reading "がっこう"
 **Card Sources**: Cards can be created from:
 
 - Vocabulary words (via "+" button in vocab table)
-- Kanji data
+- Kanji (via "+" button in kanji listing table)
 - Custom input
 - JSON import
 
