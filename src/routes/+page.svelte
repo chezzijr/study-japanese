@@ -177,16 +177,9 @@
 						</svg>
 						Kanji
 					</h3>
-					<p class="text-base-content/70">Luyện tập Hán tự</p>
-					<div class="card-actions mt-2 flex-col gap-2">
-						<div class="flex w-full items-center gap-2">
-							<span class="text-sm text-base-content/70">MCQ:</span>
-							<a href="{base}/practice/kanji/n5/mcq" class="btn btn-primary btn-xs">N5</a>
-						</div>
-						<div class="flex w-full items-center gap-2">
-							<span class="text-sm text-base-content/70">Viết:</span>
-							<a href="{base}/practice/kanji/n5/draw" class="btn btn-secondary btn-xs">N5</a>
-						</div>
+					<p class="text-base-content/70">Luyện tập Hán tự (MCQ + Viết)</p>
+					<div class="card-actions mt-2 justify-end">
+						<a href="{base}/practice/kanji/n5" class="btn btn-primary btn-sm">N5</a>
 					</div>
 				</div>
 			</div>

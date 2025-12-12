@@ -28,21 +28,12 @@ const vocabEntries = vocabLevels.flatMap((level) => {
 	];
 });
 
-const kanjiLevels = fs
-	.readdirSync('./src/lib/kanji')
-	.map((file) => file.replace('.json', ''))
-	.filter((level) => !level.includes('_def'));
-const kanjiEntries = kanjiLevels.map((level) => `/practice/kanji/${level}`);
-const kanjiMcqEntries = kanjiLevels.map((level) => `/practice/kanji/${level}/mcq`);
-
 const grammarEntries = ['/grammar/verb'];
 
 const entries = [
 	...initialEntries,
 	...practiceUnitEntries,
 	...vocabEntries,
-	...kanjiEntries,
-	...kanjiMcqEntries,
 	...grammarEntries
 ];
 // console.log(entries)

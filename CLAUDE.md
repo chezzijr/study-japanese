@@ -41,8 +41,6 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 - `/vocab/[level]/[unit]` - Vocabulary reference by level and unit (e.g., `/vocab/n5/u1`, `/vocab/n4/all`)
 - `/practice/[level]/[unit]` - Vocabulary practice (MCQ) by level and unit
 - `/practice/kanji/[level]` - Combined kanji practice (randomly mixes Sino-Vietnamese MCQ and handwriting)
-- `/practice/kanji/[level]/mcq` - Dedicated Sino-Vietnamese reading (Âm Hán Việt) MCQ only
-- `/practice/kanji/[level]/draw` - Dedicated kanji handwriting recognition only
 - `/practice/verb` - Verb conjugation practice
 - `/grammar/verb` - Verb grammar explanations
 - `/flashcard` - Flashcard dashboard with deck list and due count
@@ -57,7 +55,7 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 **Prerendered vs Client-only routes:**
 
 - Vocabulary and vocab practice routes are pre-rendered at build time (discovered from filesystem in `svelte.config.js`)
-- Kanji practice routes (`/practice/kanji/[level]`, `/practice/kanji/[level]/draw`) use `ssr = false` and are client-only (use canvas and fetch API for handwriting recognition)
+- Kanji practice route (`/practice/kanji/[level]`) uses `ssr = false` and is client-only (uses canvas and fetch API for handwriting recognition)
 - Flashcard routes use `ssr = false` and are client-only (depend on IndexedDB)
 
 ### Data Organization
