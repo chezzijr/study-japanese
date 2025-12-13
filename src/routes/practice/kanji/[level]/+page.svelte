@@ -15,7 +15,7 @@
 	const kanjis: KanjiItem[] = [...new Map(data.kanjis.map((k: KanjiItem) => [k.word, k])).values()];
 
 	// Session state
-	type QuestionType = 'mcq' | 'draw';
+	type QuestionType = 'mcq-kanji-to-meaning' | 'mcq-meaning-to-kanji' | 'draw';
 	type QuestionState = 'idle' | 'correct' | 'wrong' | 'loading';
 
 	let currentIndex = $state(randomIndex());
@@ -25,23 +25,34 @@
 	let emojiAnim = $state([] as string[]);
 
 	const current = $derived(kanjis[currentIndex]);
-	const mcqOptions = $derived(questionType === 'mcq' ? generateMCQOptions(currentIndex) : []);
+	const mcqOptions = $derived(
+		questionType.startsWith('mcq-') ? generateMCQOptions(currentIndex) : []
+	);
 
 	function randomIndex() {
 		return Math.floor(Math.random() * kanjis.length);
 	}
 
 	function randomQuestionType(): QuestionType {
-		return Math.random() < 0.5 ? 'mcq' : 'draw';
+		const rand = Math.random();
+		if (rand < 1 / 3) return 'mcq-kanji-to-meaning';
+		if (rand < 2 / 3) return 'mcq-meaning-to-kanji';
+		return 'draw';
 	}
 
 	function generateMCQOptions(targetIndex: number): KanjiItem[] {
 		const indices = [targetIndex];
+		const usedMeanings = new Set([kanjis[targetIndex].meaning]);
+
 		while (indices.length < 4) {
 			const rand = randomIndex();
 			if (indices.includes(rand)) continue;
-			// Avoid same meaning
-			if (kanjis[rand].meaning === kanjis[targetIndex].meaning) continue;
+
+			const candidate = kanjis[rand];
+			// Prevent any duplicate meanings in choices
+			if (usedMeanings.has(candidate.meaning)) continue;
+
+			usedMeanings.add(candidate.meaning);
 			indices.push(rand);
 		}
 		return indices.map((i) => kanjis[i]).sort(() => Math.random() - 0.5);
@@ -67,7 +78,10 @@
 		if (questionState !== 'idle') return;
 
 		const node = e.target as HTMLButtonElement;
-		const isCorrectAnswer = choice.meaning === current.meaning;
+		const isCorrectAnswer =
+			questionType === 'mcq-kanji-to-meaning'
+				? choice.meaning === current.meaning
+				: choice.word === current.word;
 
 		if (isCorrectAnswer) {
 			questionState = 'correct';
@@ -154,8 +168,8 @@
 {/each}
 
 <main class="flex min-h-screen flex-col items-center justify-center gap-6 p-8">
-	{#if questionType === 'mcq'}
-		<!-- MCQ Mode -->
+	{#if questionType === 'mcq-kanji-to-meaning'}
+		<!-- MCQ: Kanji → Meaning -->
 		<p class="text-center text-2xl">
 			Âm Hán Việt của
 			<span class="text-4xl font-bold text-primary">{current.word}</span>
@@ -169,6 +183,24 @@
 					disabled={questionState !== 'idle'}
 				>
 					{opt.meaning}
+				</button>
+			{/each}
+		</section>
+	{:else if questionType === 'mcq-meaning-to-kanji'}
+		<!-- MCQ: Meaning → Kanji -->
+		<p class="text-center text-2xl">
+			Kanji nào có âm Hán Việt
+			<span class="text-4xl font-bold text-primary">{current.meaning}</span>
+			?
+		</p>
+		<section class="grid w-[60%] grid-cols-2 gap-4">
+			{#each mcqOptions as opt, i}
+				<button
+					class="{getBtnClass(i)} btn-lg text-4xl"
+					onclick={(e) => handleMCQChoice(e, opt)}
+					disabled={questionState !== 'idle'}
+				>
+					{opt.word}
 				</button>
 			{/each}
 		</section>

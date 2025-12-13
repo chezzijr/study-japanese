@@ -41,7 +41,7 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 - `/` - Dashboard homepage with stats, feature cards, and unit navigation
 - `/vocab/[level]/[unit]` - Vocabulary reference by level and unit (e.g., `/vocab/n5/u1`, `/vocab/n4/all`)
 - `/practice/[level]/[unit]` - Vocabulary practice (MCQ) by level and unit
-- `/practice/kanji/[level]` - Combined kanji practice (randomly mixes Sino-Vietnamese MCQ and handwriting)
+- `/practice/kanji/[level]` - Combined kanji practice with 3 modes (~33% each): kanji→meaning MCQ, meaning→kanji MCQ, and handwriting recognition
 - `/kanji/[level]` - Kanji listing/reference page by level (e.g., `/kanji/n5`) with search and flashcard integration
 - `/practice/verb` - Verb conjugation practice
 - `/grammar/verb` - Verb grammar explanations
