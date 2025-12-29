@@ -7,12 +7,21 @@
 	interface KanjiItem {
 		word: string;
 		meaning: string;
+		onyomi: string[];
+		kunyomi: string[];
 	}
 
 	let { data } = $props();
 
-	// Deduplicate by word
-	const kanjis: KanjiItem[] = [...new Map(data.kanjis.map((k: KanjiItem) => [k.word, k])).values()];
+	// Deduplicate by word and ensure onyomi/kunyomi are arrays
+	const kanjis: KanjiItem[] = [
+		...new Map(
+			data.kanjis.map((k: { word: string; meaning: string; onyomi?: string[]; kunyomi?: string[] }) => [
+				k.word,
+				{ ...k, onyomi: k.onyomi ?? [], kunyomi: k.kunyomi ?? [] }
+			])
+		).values()
+	];
 
 	// Session state
 	type QuestionType = 'mcq-kanji-to-meaning' | 'mcq-meaning-to-kanji' | 'draw';
@@ -210,6 +219,14 @@
 			Viết chữ Hán có nghĩa:
 			<span class="block text-3xl font-bold text-primary">
 				{current.meaning}
+			</span>
+			<span class="block text-lg text-base-content/70 mt-1 font-normal">
+				{#if current.onyomi.length > 0}
+					<span>音: {current.onyomi.join(', ')}</span>
+				{/if}
+				{#if current.kunyomi.length > 0}
+					<span class="ml-3">訓: {current.kunyomi.join(', ')}</span>
+				{/if}
 			</span>
 		</h2>
 
