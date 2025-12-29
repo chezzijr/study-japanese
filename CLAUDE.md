@@ -127,8 +127,8 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 
 Located in `src/lib/components/`:
 
-- `mcq.svelte` - Multiple choice question component for vocabulary practice
-- `kanji-mcq.svelte` - MCQ component for Sino-Vietnamese reading (Âm Hán Việt) practice
+- `mcq.svelte` - Multiple choice question component for vocabulary practice (bidirectional: word→meaning and meaning→word, with duplicate prevention)
+- `kanji-mcq.svelte` - (Deprecated) Standalone MCQ component - kanji MCQ logic is now integrated in `/practice/kanji/[level]` route
 - `kanji-canvas.svelte` - Canvas for handwriting kanji with stroke capture, undo/clear, theme support
 - `kanji-listing.svelte` - Kanji reference table with search (kanji, meaning, readings, romaji), collapsible examples, and flashcard add/remove buttons
 - `vocab.svelte` - Vocabulary table with search functionality (supports kanji, hiragana, romaji, Vietnamese); includes "+" button to add words to flashcard decks and "-" button to remove (with duplicate detection - words already in a deck show "-" with tooltip indicating deck name)
@@ -233,6 +233,16 @@ The kanji listing component (`src/lib/components/kanji-listing.svelte`) provides
 - Collapsible example sections (shows first 2, expandable for more)
 - Flashcard integration with add/remove buttons and duplicate detection
 - Uses `add-kanji-to-deck-modal.svelte` for deck selection
+
+### Kanji Practice Feature
+
+The kanji practice route (`src/routes/practice/kanji/[level]/+page.svelte`) provides 3 question modes with ~33% distribution each:
+
+1. **Kanji → Meaning MCQ**: Shows kanji character, user picks the Sino-Vietnamese reading from 4 options
+2. **Meaning → Kanji MCQ**: Shows Sino-Vietnamese reading, user picks the correct kanji from 4 options
+3. **Handwriting**: Shows Sino-Vietnamese reading, user draws the kanji (Google handwriting recognition)
+
+**Duplicate Prevention**: MCQ options use a `Set` to ensure no two choices have the same meaning, preventing ambiguous questions.
 
 ### Flashcard System
 

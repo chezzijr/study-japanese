@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 	import { getTotalDueCount, getAllCards, isIndexedDBAvailable } from '$lib/flashcard';
+	import UnitRangeSelector from '$lib/components/unit-range-selector.svelte';
 
 	// Get unit counts for each level
 	const n5Units = Object.keys(import.meta.glob('$lib/n5/*.json'));
@@ -286,20 +287,11 @@
 				N5 - {n5Units.length} units
 			</div>
 			<div class="collapse-content">
-				<div class="mb-4 flex flex-wrap gap-2">
-					<span class="mb-1 w-full text-sm text-base-content/70">Từ vựng:</span>
-					{#each n5UnitNumbers as unit}
-						<a href="{base}/vocab/n5/{unit}" class="btn btn-outline btn-xs">{unit}</a>
-					{/each}
-					<a href="{base}/vocab/n5/all" class="btn btn-primary btn-xs">all</a>
-				</div>
-				<div class="flex flex-wrap gap-2">
-					<span class="mb-1 w-full text-sm text-base-content/70">Luyện tập:</span>
-					{#each n5UnitNumbers as unit}
-						<a href="{base}/practice/n5/{unit}" class="btn btn-outline btn-xs">{unit}</a>
-					{/each}
-					<a href="{base}/practice/n5/all" class="btn btn-secondary btn-xs">all</a>
-				</div>
+				<span class="mb-1 block text-sm text-base-content/70">Từ vựng:</span>
+				<UnitRangeSelector type="vocab" level="n5" unitNumbers={n5UnitNumbers} {base} />
+
+				<span class="mb-1 block text-sm text-base-content/70">Luyện tập:</span>
+				<UnitRangeSelector type="practice" level="n5" unitNumbers={n5UnitNumbers} {base} />
 			</div>
 		</div>
 
@@ -310,20 +302,11 @@
 				N4 - {n4Units.length} units
 			</div>
 			<div class="collapse-content">
-				<div class="mb-4 flex flex-wrap gap-2">
-					<span class="mb-1 w-full text-sm text-base-content/70">Từ vựng:</span>
-					{#each n4UnitNumbers as unit}
-						<a href="{base}/vocab/n4/{unit}" class="btn btn-outline btn-xs">{unit}</a>
-					{/each}
-					<a href="{base}/vocab/n4/all" class="btn btn-primary btn-xs">all</a>
-				</div>
-				<div class="flex flex-wrap gap-2">
-					<span class="mb-1 w-full text-sm text-base-content/70">Luyện tập:</span>
-					{#each n4UnitNumbers as unit}
-						<a href="{base}/practice/n4/{unit}" class="btn btn-outline btn-xs">{unit}</a>
-					{/each}
-					<a href="{base}/practice/n4/all" class="btn btn-secondary btn-xs">all</a>
-				</div>
+				<span class="mb-1 block text-sm text-base-content/70">Từ vựng:</span>
+				<UnitRangeSelector type="vocab" level="n4" unitNumbers={n4UnitNumbers} {base} />
+
+				<span class="mb-1 block text-sm text-base-content/70">Luyện tập:</span>
+				<UnitRangeSelector type="practice" level="n4" unitNumbers={n4UnitNumbers} {base} />
 			</div>
 		</div>
 	</section>
