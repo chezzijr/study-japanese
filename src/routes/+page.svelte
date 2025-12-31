@@ -181,6 +181,34 @@
 					<p class="text-base-content/70">Luyện tập Hán tự (MCQ + Viết)</p>
 					<div class="card-actions mt-2 justify-end">
 						<a href="{base}/practice/kanji/n5" class="btn btn-primary btn-sm">N5</a>
+						<a href="{base}/practice/kanji/n4" class="btn btn-secondary btn-sm">N4</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Kanji View Card -->
+			<div class="card bg-base-200 shadow-md transition-shadow hover:shadow-lg">
+				<div class="card-body">
+					<h3 class="card-title">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							class="h-6 w-6 stroke-current"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M4 6h16M4 10h16M4 14h16M4 18h16"
+							></path>
+						</svg>
+						Tra Kanji
+					</h3>
+					<p class="text-base-content/70">Xem danh sách Hán tự</p>
+					<div class="card-actions mt-2 justify-end">
+						<a href="{base}/kanji/n5" class="btn btn-primary btn-sm">N5</a>
+						<a href="{base}/kanji/n4" class="btn btn-secondary btn-sm">N4</a>
 					</div>
 				</div>
 			</div>
@@ -207,32 +235,6 @@
 					<p class="text-base-content/70">Hướng dẫn ngữ pháp</p>
 					<div class="card-actions mt-2 justify-end">
 						<a href="{base}/grammar/verb" class="btn btn-accent btn-sm">Động từ</a>
-					</div>
-				</div>
-			</div>
-
-			<!-- Verb Practice Card -->
-			<div class="card bg-base-200 shadow-md transition-shadow hover:shadow-lg">
-				<div class="card-body">
-					<h3 class="card-title">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							class="h-6 w-6 stroke-current"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
-							></path>
-						</svg>
-						Chia động từ
-					</h3>
-					<p class="text-base-content/70">Luyện tập chia động từ</p>
-					<div class="card-actions mt-2 justify-end">
-						<a href="{base}/practice/verb" class="btn btn-accent btn-sm">Luyện tập</a>
 					</div>
 				</div>
 			</div>
