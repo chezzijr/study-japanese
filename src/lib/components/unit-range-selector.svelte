@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+
 	interface Props {
 		level: string;
 		unitNumbers: string[];
@@ -8,195 +10,207 @@
 
 	const { level, unitNumbers, base, type }: Props = $props();
 
-	// State for dual-handle range slider (using array indices)
-	let minIdx = $state(0);
-	let maxIdx = $state(unitNumbers.length - 1);
+	// Multi-select mode state
+	let isMultiSelect = $state(false);
+	let selectedIndices = $state<Set<number>>(new Set());
 
-	// Ensure minIdx <= maxIdx
-	function handleMinInput(e: Event) {
-		const target = e.target as HTMLInputElement;
-		const val = parseInt(target.value);
-		if (val > maxIdx) {
-			minIdx = maxIdx;
-			maxIdx = val;
-		} else {
-			minIdx = val;
-		}
-	}
-
-	function handleMaxInput(e: Event) {
-		const target = e.target as HTMLInputElement;
-		const val = parseInt(target.value);
-		if (val < minIdx) {
-			maxIdx = minIdx;
-			minIdx = val;
-		} else {
-			maxIdx = val;
-		}
-	}
-
-	// Check if unit at index is in selected range
-	function isInRange(index: number): boolean {
-		return index >= minIdx && index <= maxIdx;
-	}
-
-	// Generate range string for URL
-	const rangeStr = $derived(() => {
-		const minUnit = unitNumbers[minIdx];
-		const maxUnit = unitNumbers[maxIdx];
-		if (minIdx === maxIdx) {
-			return minUnit;
-		}
-		return `${minUnit}-${maxUnit}`;
-	});
-
-	const rangeUrl = $derived(`${base}/${type}/${level}/${rangeStr()}`);
+	// Drag state
+	let isDragging = $state(false);
+	let dragMode = $state<'select' | 'deselect'>('select');
 
 	// Highlight class based on type
 	const highlightClass = type === 'vocab' ? 'btn-primary' : 'btn-secondary';
 
-	// Calculate slider fill position
-	const fillLeft = $derived((minIdx / (unitNumbers.length - 1)) * 100);
-	const fillWidth = $derived(((maxIdx - minIdx) / (unitNumbers.length - 1)) * 100);
+	// Optimize selected indices to range string (e.g., [0,1,2,4,7,8,9] -> "u1-u3,u5,u8-u10")
+	function optimizeToRangeString(sortedIndices: number[]): string {
+		if (sortedIndices.length === 0) return '';
+
+		const unitNums = sortedIndices.map((i) => parseInt(unitNumbers[i].replace('u', '')));
+		const segments: string[] = [];
+		let rangeStart = unitNums[0];
+		let rangeEnd = unitNums[0];
+
+		for (let i = 1; i < unitNums.length; i++) {
+			if (unitNums[i] === rangeEnd + 1) {
+				rangeEnd = unitNums[i];
+			} else {
+				segments.push(rangeStart === rangeEnd ? `u${rangeStart}` : `u${rangeStart}-u${rangeEnd}`);
+				rangeStart = unitNums[i];
+				rangeEnd = unitNums[i];
+			}
+		}
+		segments.push(rangeStart === rangeEnd ? `u${rangeStart}` : `u${rangeStart}-u${rangeEnd}`);
+
+		return segments.join(',');
+	}
+
+	// Derived selection URL
+	const selectionUrl = $derived(() => {
+		const sorted = [...selectedIndices].sort((a, b) => a - b);
+		return optimizeToRangeString(sorted);
+	});
+
+	// Toggle selection for a unit
+	function toggleSelection(index: number) {
+		if (selectedIndices.has(index)) {
+			selectedIndices.delete(index);
+		} else {
+			selectedIndices.add(index);
+		}
+		selectedIndices = new Set(selectedIndices);
+	}
+
+	// Mouse handlers for drag-to-select
+	function handleMouseDown(index: number, e: MouseEvent) {
+		if (!isMultiSelect) return;
+		e.preventDefault();
+
+		isDragging = true;
+		dragMode = selectedIndices.has(index) ? 'deselect' : 'select';
+		toggleSelection(index);
+	}
+
+	function handleMouseEnter(index: number) {
+		if (!isDragging || !isMultiSelect) return;
+
+		if (dragMode === 'select') {
+			if (!selectedIndices.has(index)) {
+				selectedIndices.add(index);
+				selectedIndices = new Set(selectedIndices);
+			}
+		} else {
+			if (selectedIndices.has(index)) {
+				selectedIndices.delete(index);
+				selectedIndices = new Set(selectedIndices);
+			}
+		}
+	}
+
+	// Touch handlers for mobile drag-to-select
+	function handleTouchStart(index: number, e: TouchEvent) {
+		if (!isMultiSelect) return;
+		e.preventDefault();
+
+		isDragging = true;
+		dragMode = selectedIndices.has(index) ? 'deselect' : 'select';
+		toggleSelection(index);
+	}
+
+	function handleTouchMove(e: TouchEvent) {
+		if (!isDragging || !isMultiSelect) return;
+
+		const touch = e.touches[0];
+		const element = document.elementFromPoint(touch.clientX, touch.clientY);
+		const indexAttr = element?.getAttribute('data-index');
+
+		if (indexAttr !== null && indexAttr !== undefined) {
+			const idx = parseInt(indexAttr);
+			if (!isNaN(idx)) {
+				if (dragMode === 'select') {
+					if (!selectedIndices.has(idx)) {
+						selectedIndices.add(idx);
+						selectedIndices = new Set(selectedIndices);
+					}
+				} else {
+					if (selectedIndices.has(idx)) {
+						selectedIndices.delete(idx);
+						selectedIndices = new Set(selectedIndices);
+					}
+				}
+			}
+		}
+	}
+
+	// Mode controls
+	function enterMultiSelect() {
+		isMultiSelect = true;
+		selectedIndices = new Set();
+	}
+
+	function cancelMultiSelect() {
+		isMultiSelect = false;
+		selectedIndices = new Set();
+	}
+
+	function selectAll() {
+		selectedIndices = new Set(unitNumbers.map((_, i) => i));
+	}
+
+	function selectNone() {
+		selectedIndices = new Set();
+	}
+
+	// Global mouseup/touchend listener
+	onMount(() => {
+		const handleGlobalUp = () => {
+			isDragging = false;
+		};
+
+		document.addEventListener('mouseup', handleGlobalUp);
+		document.addEventListener('touchend', handleGlobalUp);
+
+		return () => {
+			document.removeEventListener('mouseup', handleGlobalUp);
+			document.removeEventListener('touchend', handleGlobalUp);
+		};
+	});
 </script>
 
 <div class="mb-4">
-	<!-- Horizontally scrollable container -->
-	<div class="overflow-x-auto pb-1">
-		<div class="inline-flex flex-col" style="min-width: max-content;">
-			<!-- Row of unit buttons -->
+	<!-- Control row -->
+	<div class="mb-2 flex items-center justify-between gap-2">
+		{#if isMultiSelect}
 			<div class="flex gap-1">
-				{#each unitNumbers as unit, i}
-					<a
-						href="{base}/{type}/{level}/{unit}"
-						class="btn btn-xs w-10 {isInRange(i) ? highlightClass : 'btn-outline'}"
-					>
-						{unit}
+				<button class="btn btn-ghost btn-xs" onclick={selectAll}>Select All</button>
+				<button class="btn btn-ghost btn-xs" onclick={selectNone}>Select None</button>
+			</div>
+			<div class="flex gap-1">
+				<button class="btn btn-ghost btn-xs" onclick={cancelMultiSelect}>Cancel</button>
+				{#if selectedIndices.size > 0}
+					<a href="{base}/{type}/{level}/{selectionUrl()}" class="btn btn-xs {highlightClass}">
+						Go ({selectedIndices.size})
 					</a>
-				{/each}
-				<a
-					href="{base}/{type}/{level}/all"
-					class="btn btn-xs w-10 {type === 'vocab' ? 'btn-primary' : 'btn-secondary'}"
-				>
-					all
-				</a>
+				{:else}
+					<button class="btn btn-xs btn-disabled" disabled>Go (0)</button>
+				{/if}
 			</div>
-
-			<!-- Range slider below (hidden on small screens) -->
-			<div class="slider-wrapper hidden" style="width: calc({unitNumbers.length} * 2.5rem + ({unitNumbers.length} - 1) * 0.25rem);">
-				<div class="range-slider-container relative mt-2 h-6">
-					<!-- Track background -->
-					<div class="absolute left-0 right-0 top-1/2 h-2 -translate-y-1/2 rounded-full bg-base-300"></div>
-
-					<!-- Fill between thumbs -->
-					<div
-						class="absolute top-1/2 h-2 -translate-y-1/2 rounded-full {type === 'vocab' ? 'bg-primary' : 'bg-secondary'}"
-						style="left: {fillLeft}%; width: {fillWidth}%;"
-					></div>
-
-					<!-- Min slider -->
-					<input
-						type="range"
-						min="0"
-						max={unitNumbers.length - 1}
-						value={minIdx}
-						oninput={handleMinInput}
-						class="range-thumb absolute w-full"
-					/>
-
-					<!-- Max slider -->
-					<input
-						type="range"
-						min="0"
-						max={unitNumbers.length - 1}
-						value={maxIdx}
-						oninput={handleMaxInput}
-						class="range-thumb absolute w-full"
-					/>
-				</div>
-			</div>
-		</div>
+		{:else}
+			<div></div>
+			<button class="btn btn-ghost btn-xs" onclick={enterMultiSelect}>Multi-select</button>
+		{/if}
 	</div>
 
-	<!-- Range action button (hidden on small screens) -->
-	<a href={rangeUrl} class="range-btn btn btn-sm mt-2 hidden {highlightClass}">
-		Range ({rangeStr()})
-	</a>
+	<!-- Unit buttons container -->
+	<div
+		class="overflow-x-auto pb-1"
+		class:select-none={isDragging}
+		ontouchmove={handleTouchMove}
+	>
+		<div class="inline-flex gap-1" style="min-width: max-content;">
+			{#each unitNumbers as unit, i}
+				{#if isMultiSelect}
+					<button
+						data-index={i}
+						class="btn btn-xs w-10 {selectedIndices.has(i) ? highlightClass : 'btn-outline'}"
+						onmousedown={(e) => handleMouseDown(i, e)}
+						onmouseenter={() => handleMouseEnter(i)}
+						ontouchstart={(e) => handleTouchStart(i, e)}
+					>
+						{unit}
+					</button>
+				{:else}
+					<a href="{base}/{type}/{level}/{unit}" class="btn btn-xs w-10 btn-outline">
+						{unit}
+					</a>
+				{/if}
+			{/each}
+
+			<!-- "all" button -->
+			{#if isMultiSelect}
+				<button class="btn btn-xs w-10 {highlightClass}" onclick={selectAll}>all</button>
+			{:else}
+				<a href="{base}/{type}/{level}/all" class="btn btn-xs w-10 {highlightClass}">all</a>
+			{/if}
+		</div>
+	</div>
 </div>
-
-<style>
-	/* Overlay both range inputs */
-	.range-thumb {
-		-webkit-appearance: none;
-		appearance: none;
-		background: transparent;
-		pointer-events: none;
-		height: 1.5rem;
-	}
-
-	/* Style the thumb - Webkit (Chrome, Safari, Edge) */
-	.range-thumb::-webkit-slider-thumb {
-		-webkit-appearance: none;
-		appearance: none;
-		pointer-events: auto;
-		width: 1rem;
-		height: 1rem;
-		border-radius: 50%;
-		background: oklch(var(--bc));
-		border: 2px solid oklch(var(--b1));
-		cursor: pointer;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-		transition: transform 0.1s ease;
-	}
-
-	.range-thumb::-webkit-slider-thumb:hover {
-		transform: scale(1.15);
-	}
-
-	/* Style the thumb - Firefox */
-	.range-thumb::-moz-range-thumb {
-		pointer-events: auto;
-		width: 1rem;
-		height: 1rem;
-		border-radius: 50%;
-		background: oklch(var(--bc));
-		border: 2px solid oklch(var(--b1));
-		cursor: pointer;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-		transition: transform 0.1s ease;
-	}
-
-	.range-thumb::-moz-range-thumb:hover {
-		transform: scale(1.15);
-	}
-
-	/* Remove track styling */
-	.range-thumb::-webkit-slider-runnable-track {
-		background: transparent;
-	}
-
-	.range-thumb::-moz-range-track {
-		background: transparent;
-	}
-
-	/* Focus state for accessibility */
-	.range-thumb:focus {
-		outline: none;
-	}
-
-	.range-thumb:focus::-webkit-slider-thumb {
-		box-shadow: 0 0 0 3px oklch(var(--p) / 0.3);
-	}
-
-	.range-thumb:focus::-moz-range-thumb {
-		box-shadow: 0 0 0 3px oklch(var(--p) / 0.3);
-	}
-
-	/* Show slider and range button only on screens >= 1250px */
-	@media (min-width: 1250px) {
-		:global(.slider-wrapper),
-		:global(.range-btn) {
-			display: block !important;
-		}
-	}
-</style>

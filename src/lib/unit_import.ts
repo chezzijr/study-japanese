@@ -11,27 +11,44 @@ const LEVEL_IMPORTS = {
 
 type Level = keyof typeof LEVEL_IMPORTS;
 
+// Parse comma-separated unit string like "u1-u3,u5,u8-u10" into sorted array of unit numbers
+function parseUnitString(s: string): number[] {
+	const segments = s.split(',');
+	const unitNumbers = new Set<number>();
+
+	for (const segment of segments) {
+		if (segment.includes('-')) {
+			const [start, end] = segment.split('-').map((u) => parseInt(u.replace('u', '')));
+			for (let i = start; i <= end; i++) {
+				unitNumbers.add(i);
+			}
+		} else {
+			unitNumbers.add(parseInt(segment.replace('u', '')));
+		}
+	}
+
+	return [...unitNumbers].sort((a, b) => a - b);
+}
+
 export default async function importUnit(s: string, level: Level = 'n5') {
-	// s in form of all, u1, u2, u3-u8, u4-u8, u5-u8, etc.
-	// check if s not in above format
-	if (!/^(all|u\d+(-u\d+)?)$/.test(s)) {
+	// s in form of: all, u1, u3-u8, u1-u3,u5,u8-u10 (comma-separated segments)
+	if (!/^(all|u\d+(-u\d+)?(,u\d+(-u\d+)?)*)$/.test(s)) {
 		throw new Error('Invalid unit format: ' + s);
 	}
 
 	const unitImportObject = LEVEL_IMPORTS[level];
 	const unitFiles = Object.keys(unitImportObject);
-	// if select all units
+
+	// Handle 'all'
 	if (s === 'all') {
 		const allUnits = await Promise.all(
 			unitFiles.map(async (unitFile) => {
 				const fileName = unitFile.split('/').pop();
 				const u = fileName?.split('.').shift() ?? '';
 				const words = (await unitImportObject[unitFile]()).default;
-				// Add unit info to each word for tracking
 				return words.map((w) => ({ ...w, _unit: u }));
 			})
 		);
-		// combine all units into one json
 		const allUnitsJson = allUnits.reduce((acc, json) => {
 			return [...acc, ...json];
 		}, [] as Dictionary);
@@ -40,46 +57,47 @@ export default async function importUnit(s: string, level: Level = 'n5') {
 			json: allUnitsJson
 		};
 	}
-	// if select range of units
-	else if (s.includes('-')) {
-		// get range of units
-		const [start, end] = s.split('-').map((u) => parseInt(u.replace('u', '')));
-		const units = Array.from({ length: end - start + 1 }, (_, i) => `u${start + i}`);
-		const dict = await unitFiles.reduce(
-			async (acc, unitFile) => {
-				const fileName = unitFile.split('/').pop();
-				if (!fileName) {
-					return acc;
-				}
-				const u = fileName.split('.').shift() as string;
-				if (units.includes(u)) {
-					const json = await unitImportObject[unitFile]();
-					// Add unit info to each word for tracking
-					const wordsWithUnit = json.default.map((w) => ({ ...w, _unit: u }));
-					return [...(await acc), ...wordsWithUnit];
-				}
-				return await acc;
-			},
-			Promise.resolve([] as Dictionary)
-		);
-		return {
-			unit: s,
-			json: dict as Dictionary
-		};
-	} else {
+
+	// Parse the unit string (handles single, range, and comma-separated formats)
+	const unitNumbers = parseUnitString(s);
+	const targetUnits = unitNumbers.map((n) => `u${n}`);
+
+	// Single unit - don't add _unit field
+	if (targetUnits.length === 1) {
+		const targetUnit = targetUnits[0];
 		for (const unitFile of unitFiles) {
 			const fileName = unitFile.split('/').pop();
-			if (!fileName) {
-				continue;
-			}
+			if (!fileName) continue;
 			const u = fileName.split('.').shift();
-			if (u === s) {
+			if (u === targetUnit) {
 				return {
 					unit: s,
 					json: (await unitImportObject[unitFile]()).default
 				};
 			}
 		}
+		error(404, `Unit ${s} not found`);
 	}
-	error(404, `Unit ${s} not found`);
+
+	// Multiple units - add _unit field for tracking
+	const dict = await unitFiles.reduce(
+		async (acc, unitFile) => {
+			const fileName = unitFile.split('/').pop();
+			if (!fileName) return acc;
+			const u = fileName.split('.').shift() as string;
+			if (targetUnits.includes(u)) {
+				const json = await unitImportObject[unitFile]();
+				const wordsWithUnit = json.default.map((w) => ({ ...w, _unit: u }));
+				return [...(await acc), ...wordsWithUnit];
+			}
+			return await acc;
+		},
+		Promise.resolve([] as Dictionary)
+	);
+
+	if (dict.length === 0) {
+		error(404, `No units found for ${s}`);
+	}
+
+	return { unit: s, json: dict as Dictionary };
 }
