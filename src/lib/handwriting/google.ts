@@ -97,7 +97,7 @@ export function filterKanjiOnly(predictions: string[]): string[] {
 /**
  * Check if target kanji is in the top N predictions (excluding kana)
  */
-export function isCorrect(result: RecognitionResult, target: string, topN = 2): boolean {
+export function isCorrect(result: RecognitionResult, target: string, topN = 1): boolean {
 	if (!result.success) return false;
 	const kanjiPredictions = filterKanjiOnly(result.predictions);
 	return kanjiPredictions.slice(0, topN).includes(target);
