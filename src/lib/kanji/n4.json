@@ -1,0 +1,2164 @@
+[
+	{
+		"word": "会",
+		"meaning": "HỘI",
+		"kunyomi": ["あ[う]"],
+		"onyomi": ["カイ", "エ"],
+		"examples": [
+			{ "word": "会う", "reading": "あう", "meaning": "gặp, gặp nhau" },
+			{ "word": "会社", "reading": "かいしゃ", "meaning": "công ty" },
+			{ "word": "会社員", "reading": "かいしゃいん", "meaning": "nhân viên công ty" },
+			{ "word": "会議", "reading": "かいぎ", "meaning": "cuộc họp" },
+			{ "word": "会議室", "reading": "かいぎしつ", "meaning": "phòng họp" },
+			{ "word": "運動会", "reading": "うんどうかい", "meaning": "hội thể thao" },
+			{ "word": "国会議事堂", "reading": "こっかいぎじどう", "meaning": "tòa nhà quốc hội" },
+			{ "word": "展覧会", "reading": "てんらんかい", "meaning": "hội triển lãm" },
+			{ "word": "教会", "reading": "きょうかい", "meaning": "giáo hội, nhà thờ" },
+			{ "word": "都会", "reading": "とかい", "meaning": "thành phố, đô thị" },
+			{ "word": "機会", "reading": "きかい", "meaning": "cơ hội" },
+			{ "word": "会場", "reading": "かいじょう", "meaning": "hội trường" },
+			{ "word": "社会", "reading": "しゃかい", "meaning": "xã hội" },
+			{ "word": "忘年会", "reading": "ぼうねんかい", "meaning": "tiệc cuối năm, tất niên" },
+			{ "word": "新年会", "reading": "しんねんかい", "meaning": "tiệc năm mới" },
+			{ "word": "二次会", "reading": "にじかい", "meaning": "tăng hai" },
+			{ "word": "発表会", "reading": "はっぴょうかい", "meaning": "buổi giới thiệu, buổi ra mắt" },
+			{ "word": "大会", "reading": "たいかい", "meaning": "đại hội" },
+			{ "word": "講演会", "reading": "こうえんかい", "meaning": "buổi thuyết trình" }
+		]
+	},
+	{
+		"word": "動",
+		"meaning": "ĐỘNG",
+		"kunyomi": ["うご[く]", "うご[かす]"],
+		"onyomi": ["ドウ"],
+		"examples": [
+			{ "word": "動く", "reading": "うごく", "meaning": "cử động, di chuyển" },
+			{ "word": "動かす", "reading": "うごかす", "meaning": "làm chuyển động, vận hành" },
+			{ "word": "自動販売機", "reading": "じどうはんばいき", "meaning": "máy bán hàng tự động" },
+			{ "word": "動物", "reading": "どうぶつ", "meaning": "động vật" },
+			{ "word": "動物園", "reading": "どうぶつえん", "meaning": "sở thú" },
+			{ "word": "自動車", "reading": "じどうしゃ", "meaning": "xe ô tô" },
+			{ "word": "運動する", "reading": "うんどうする", "meaning": "vận động" }
+		]
+	},
+	{
+		"word": "歩",
+		"meaning": "BỘ",
+		"kunyomi": ["あゆ[む]", "ある[く]"],
+		"onyomi": ["ホ", "ブ", "フ"],
+		"examples": [
+			{ "word": "歩く", "reading": "あるく", "meaning": "đi bộ" },
+			{ "word": "散歩する", "reading": "さんぽする", "meaning": "đi dạo" }
+		]
+	},
+	{
+		"word": "急",
+		"meaning": "CẤP",
+		"kunyomi": ["いそ[ぐ]"],
+		"onyomi": ["キュウ"],
+		"examples": [
+			{ "word": "急ぐ", "reading": "いそぐ", "meaning": "khẩn trương, nhanh chóng" },
+			{ "word": "急行", "reading": "きゅうこう", "meaning": "tốc hành" },
+			{ "word": "特急", "reading": "とっきゅう", "meaning": "hỏa tốc, thần tốc" },
+			{ "word": "急に", "reading": "きゅうに", "meaning": "đột nhiên, bất chợt" },
+			{ "word": "救急車", "reading": "きゅうきゅうしゃ", "meaning": "xe cấp cứu" }
+		]
+	},
+	{
+		"word": "切",
+		"meaning": "THIẾT",
+		"kunyomi": ["き[る]"],
+		"onyomi": ["セツ"],
+		"examples": [
+			{ "word": "切る", "reading": "きる", "meaning": "cắt, tạm ngừng" },
+			{ "word": "切れる", "reading": "きれる", "meaning": "đứt, hết, hết hạn" },
+			{ "word": "切符", "reading": "きっぷ", "meaning": "vé" },
+			{ "word": "切手", "reading": "きって", "meaning": "tem" },
+			{ "word": "締め切り", "reading": "しめきり", "meaning": "hạn cuối, deadline" },
+			{ "word": "缶切り", "reading": "かんきり", "meaning": "đồ khui nắp" },
+			{ "word": "親切な", "reading": "しんせつな", "meaning": "thân thiện" },
+			{ "word": "大切な", "reading": "たいせつな", "meaning": "quan trọng" }
+		]
+	},
+	{
+		"word": "送",
+		"meaning": "TỐNG",
+		"kunyomi": ["おく[る]"],
+		"onyomi": ["ソウ"],
+		"examples": [
+			{ "word": "送る", "reading": "おくる", "meaning": "gửi" }
+		]
+	},
+	{
+		"word": "習",
+		"meaning": "TẬP",
+		"kunyomi": ["なら[う]"],
+		"onyomi": ["ジュウ", "シュウ"],
+		"examples": [
+			{ "word": "習う", "reading": "ならう", "meaning": "học" },
+			{ "word": "練習", "reading": "れんしゅう", "meaning": "luyện tập, thực hành" },
+			{ "word": "予習する", "reading": "よしゅうする", "meaning": "soạn bài" },
+			{ "word": "復習する", "reading": "ふくしゅうする", "meaning": "ôn tập" },
+			{ "word": "習慣", "reading": "しゅうかん", "meaning": "thói quen" },
+			{ "word": "習字", "reading": "しゅうじ", "meaning": "luyện chữ" }
+		]
+	},
+	{
+		"word": "歌",
+		"meaning": "CA",
+		"kunyomi": ["うた[う]"],
+		"onyomi": ["カ"],
+		"examples": [
+			{ "word": "歌", "reading": "うた", "meaning": "bài hát" },
+			{ "word": "歌う", "reading": "うたう", "meaning": "hát" },
+			{ "word": "歌手", "reading": "かしゅ", "meaning": "ca sĩ" },
+			{ "word": "歌舞伎", "reading": "かぶき", "meaning": "kịch Kabuki" }
+		]
+	},
+	{
+		"word": "終",
+		"meaning": "CHUNG",
+		"kunyomi": ["お[わる]", "お[える]"],
+		"onyomi": ["シュウ"],
+		"examples": [
+			{ "word": "終わる", "reading": "おわる", "meaning": "kết thúc" },
+			{ "word": "終わり", "reading": "おわり", "meaning": "sự kết thúc" }
+		]
+	},
+	{
+		"word": "社",
+		"meaning": "XÃ",
+		"kunyomi": ["やしろ"],
+		"onyomi": ["シャ", "ジャ"],
+		"examples": [
+			{ "word": "本社", "reading": "ほんしゃ", "meaning": "trụ sở chính" },
+			{ "word": "旅行社", "reading": "りょこうしゃ", "meaning": "công ty du lịch" },
+			{ "word": "神社", "reading": "じんじゃ", "meaning": "đền thờ, miếu" }
+		]
+	},
+	{
+		"word": "銀",
+		"meaning": "NGÂN",
+		"kunyomi": [],
+		"onyomi": ["ギン"],
+		"examples": [
+			{ "word": "銀行", "reading": "ぎんこう", "meaning": "ngân hàng" },
+			{ "word": "銀行員", "reading": "ぎんこういん", "meaning": "nhân viên ngân hàng" }
+		]
+	},
+	{
+		"word": "医",
+		"meaning": "Y",
+		"kunyomi": [],
+		"onyomi": ["イ"],
+		"examples": [
+			{ "word": "医者", "reading": "いしゃ", "meaning": "bác sĩ" },
+			{ "word": "歯医者", "reading": "はいしゃ", "meaning": "bác sĩ nha khoa" },
+			{ "word": "医学", "reading": "いがく", "meaning": "y học" },
+			{ "word": "医学部", "reading": "いがくぶ", "meaning": "khoa y, ngành y" }
+		]
+	},
+	{
+		"word": "病",
+		"meaning": "BỆNH",
+		"kunyomi": [],
+		"onyomi": ["ビョウ"],
+		"examples": [
+			{ "word": "病院", "reading": "びょういん", "meaning": "bệnh viện" },
+			{ "word": "病気", "reading": "びょうき", "meaning": "bệnh tật, ốm" }
+		]
+	},
+	{
+		"word": "院",
+		"meaning": "VIỆN",
+		"kunyomi": [],
+		"onyomi": ["イン"],
+		"examples": [
+			{ "word": "美容院", "reading": "びよういん", "meaning": "tiệm làm tóc, salon" },
+			{ "word": "大学院", "reading": "だいがくいん", "meaning": "cao học" },
+			{ "word": "入院する", "reading": "にゅういんする", "meaning": "nhập viện" },
+			{ "word": "退院する", "reading": "たいいんする", "meaning": "ra viện" }
+		]
+	},
+	{
+		"word": "国",
+		"meaning": "QUỐC",
+		"kunyomi": ["くに"],
+		"onyomi": ["コク"],
+		"examples": [
+			{ "word": "お国", "reading": "おくに", "meaning": "quốc gia, đất nước" },
+			{ "word": "外国", "reading": "がいこく", "meaning": "nước ngoài" },
+			{ "word": "韓国", "reading": "かんこく", "meaning": "Hàn Quốc" },
+			{ "word": "中国", "reading": "ちゅうごく", "meaning": "Trung Quốc" },
+			{ "word": "国際", "reading": "こくさい", "meaning": "quốc tế" },
+			{ "word": "国連", "reading": "こくれん", "meaning": "liên hợp quốc" }
+		]
+	},
+	{
+		"word": "世",
+		"meaning": "THẾ",
+		"kunyomi": ["よ"],
+		"onyomi": ["セ", "セイ"],
+		"examples": [
+			{ "word": "世話", "reading": "せわ", "meaning": "sự chăm sóc" },
+			{ "word": "世界", "reading": "せかい", "meaning": "thế giới" },
+			{ "word": "世界中", "reading": "せかいじゅう", "meaning": "khắp thế giới" },
+			{ "word": "世界遺産", "reading": "せかいいさん", "meaning": "di sản thế giới" },
+			{ "word": "世界初", "reading": "せかいはつ", "meaning": "đầu tiên trên thế giới" },
+			{ "word": "世紀", "reading": "せいき", "meaning": "thế kỷ" }
+		]
+	},
+	{
+		"word": "界",
+		"meaning": "GIỚI",
+		"kunyomi": [],
+		"onyomi": ["カイ"],
+		"examples": [
+			{ "word": "世界", "reading": "せかい", "meaning": "thế giới" }
+		]
+	},
+	{
+		"word": "教",
+		"meaning": "GIÁO",
+		"kunyomi": ["おし[える]", "おそ[わる]"],
+		"onyomi": ["キョウ"],
+		"examples": [
+			{ "word": "教える", "reading": "おしえる", "meaning": "giảng dạy" },
+			{ "word": "教師", "reading": "きょうし", "meaning": "giáo viên" },
+			{ "word": "教室", "reading": "きょうしつ", "meaning": "phòng học" },
+			{ "word": "教育", "reading": "きょういく", "meaning": "giáo dục" }
+		]
+	},
+	{
+		"word": "研",
+		"meaning": "NGHIÊN",
+		"kunyomi": [],
+		"onyomi": ["ケン"],
+		"examples": [
+			{ "word": "研究する", "reading": "けんきゅうする", "meaning": "nghiên cứu" },
+			{ "word": "研究者", "reading": "けんきゅうしゃ", "meaning": "nhà nghiên cứu" },
+			{ "word": "研究室", "reading": "けんきゅうしつ", "meaning": "phòng nghiên cứu" }
+		]
+	},
+	{
+		"word": "究",
+		"meaning": "CỨU",
+		"kunyomi": [],
+		"onyomi": ["キュウ"],
+		"examples": [
+			{ "word": "研究する", "reading": "けんきゅうする", "meaning": "nghiên cứu" }
+		]
+	},
+	{
+		"word": "売",
+		"meaning": "MẠI",
+		"kunyomi": ["う[る]", "う[れる]"],
+		"onyomi": ["バイ"],
+		"examples": [
+			{ "word": "売る", "reading": "うる", "meaning": "bán" },
+			{ "word": "売れる", "reading": "うれる", "meaning": "bán chạy, nổi tiếng" },
+			{ "word": "売り場", "reading": "うりば", "meaning": "quầy hàng, sạp hàng" },
+			{ "word": "自動販売機", "reading": "じどうはんばいき", "meaning": "máy bán hàng tự động" }
+		]
+	},
+	{
+		"word": "働",
+		"meaning": "ĐỘNG",
+		"kunyomi": ["はたら[く]"],
+		"onyomi": ["ドウ"],
+		"examples": [
+			{ "word": "働く", "reading": "はたらく", "meaning": "làm việc" },
+			{ "word": "働きすぎ", "reading": "はたらきすぎ", "meaning": "làm việc quá sức" }
+		]
+	},
+	{
+		"word": "勉",
+		"meaning": "MIỄN",
+		"kunyomi": [],
+		"onyomi": ["ベン"],
+		"examples": [
+			{ "word": "勉強する", "reading": "べんきょうする", "meaning": "học" }
+		]
+	},
+	{
+		"word": "強",
+		"meaning": "CƯỜNG",
+		"kunyomi": ["つよ[い]", "し[いる]", "つよ[める]", "つよ[まる]"],
+		"onyomi": ["キョウ", "ゴウ"],
+		"examples": [
+			{ "word": "強い", "reading": "つよい", "meaning": "khỏe, bền, mạnh mẽ" },
+			{ "word": "勉強する", "reading": "べんきょうする", "meaning": "học" }
+		]
+	},
+	{
+		"word": "泳",
+		"meaning": "VỊNH",
+		"kunyomi": ["およ[ぐ]"],
+		"onyomi": ["エイ"],
+		"examples": [
+			{ "word": "泳ぐ", "reading": "およぐ", "meaning": "bơi" },
+			{ "word": "水泳", "reading": "すいえい", "meaning": "bơi lội, môn bơi lội" }
+		]
+	},
+	{
+		"word": "部",
+		"meaning": "BỘ",
+		"kunyomi": [],
+		"onyomi": ["ブ"],
+		"examples": [
+			{ "word": "部屋", "reading": "へや", "meaning": "phòng" },
+			{ "word": "全部", "reading": "ぜんぶ", "meaning": "toàn bộ" },
+			{ "word": "部長", "reading": "ぶちょう", "meaning": "trưởng phòng" }
+		]
+	},
+	{
+		"word": "屋",
+		"meaning": "ỐC",
+		"kunyomi": ["や"],
+		"onyomi": ["オク"],
+		"examples": [
+			{ "word": "部屋", "reading": "へや", "meaning": "phòng" },
+			{ "word": "屋上", "reading": "おくじょう", "meaning": "mái nhà, tầng thượng" }
+		]
+	},
+	{
+		"word": "室",
+		"meaning": "THẤT",
+		"kunyomi": ["むろ"],
+		"onyomi": ["シツ"],
+		"examples": [
+			{ "word": "和室", "reading": "わしつ", "meaning": "phòng kiểu Nhật" },
+			{ "word": "号室", "reading": "ごうしつ", "meaning": "số phòng" }
+		]
+	},
+	{
+		"word": "場",
+		"meaning": "TRƯỜNG",
+		"kunyomi": ["ば"],
+		"onyomi": ["ジョウ"],
+		"examples": [
+			{ "word": "乗り場", "reading": "のりば", "meaning": "điểm lên - xuống xe" },
+			{ "word": "場所", "reading": "ばしょ", "meaning": "địa điểm" },
+			{ "word": "置き場", "reading": "おきば", "meaning": "nơi để, chỗ để" },
+			{ "word": "駐車場", "reading": "ちゅうしゃじょう", "meaning": "bãi đỗ xe" },
+			{ "word": "市場調査", "reading": "しじょうちょうさ", "meaning": "điều tra thị trường" }
+		]
+	},
+	{
+		"word": "所",
+		"meaning": "SỞ",
+		"kunyomi": ["ところ"],
+		"onyomi": ["ショ"],
+		"examples": [
+			{ "word": "所", "reading": "ところ", "meaning": "nơi, chỗ" },
+			{ "word": "台所", "reading": "だいどころ", "meaning": "nhà bếp" },
+			{ "word": "元の所", "reading": "もとのところ", "meaning": "chỗ cũ, vị trí cũ" },
+			{ "word": "事務所", "reading": "じむしょ", "meaning": "văn phòng" },
+			{ "word": "住所", "reading": "じゅうしょ", "meaning": "địa chỉ" },
+			{ "word": "市役所", "reading": "しやくしょ", "meaning": "tòa thị chính" },
+			{ "word": "近所", "reading": "きんじょ", "meaning": "hàng xóm, lân cận" }
+		]
+	},
+	{
+		"word": "図",
+		"meaning": "ĐỒ",
+		"kunyomi": ["と"],
+		"onyomi": ["ズ"],
+		"examples": [
+			{ "word": "図書館", "reading": "としょかん", "meaning": "thư viện" },
+			{ "word": "図", "reading": "ず", "meaning": "hình minh họa" },
+			{ "word": "地図", "reading": "ちず", "meaning": "bản đồ" }
+		]
+	},
+	{
+		"word": "館",
+		"meaning": "QUÁN",
+		"kunyomi": [],
+		"onyomi": ["カン"],
+		"examples": [
+			{ "word": "旅館", "reading": "りょかん", "meaning": "nhà trọ kiểu Nhật" },
+			{ "word": "美術館", "reading": "びじゅつかん", "meaning": "bảo tàng mỹ thuật" }
+		]
+	},
+	{
+		"word": "家",
+		"meaning": "GIA",
+		"kunyomi": ["いえ", "や"],
+		"onyomi": ["カ"],
+		"examples": [
+			{ "word": "家", "reading": "いえ", "meaning": "nhà" },
+			{ "word": "家賃", "reading": "やちん", "meaning": "tiền nhà" },
+			{ "word": "家族", "reading": "かぞく", "meaning": "gia đình" },
+			{ "word": "家内", "reading": "かない", "meaning": "vợ mình" },
+			{ "word": "家具", "reading": "かぐ", "meaning": "dụng cụ gia đình" },
+			{ "word": "小説家", "reading": "しょうせつか", "meaning": "tiểu thuyết gia" }
+		]
+	},
+	{
+		"word": "族",
+		"meaning": "TỘC",
+		"kunyomi": [],
+		"onyomi": ["ゾク"],
+		"examples": [
+			{ "word": "家族", "reading": "かぞく", "meaning": "gia đình" }
+		]
+	},
+	{
+		"word": "毎",
+		"meaning": "MỖI",
+		"kunyomi": [],
+		"onyomi": ["マイ"],
+		"examples": [
+			{ "word": "毎朝", "reading": "まいあさ", "meaning": "mỗi sáng" },
+			{ "word": "毎日", "reading": "まいにち", "meaning": "mỗi ngày" },
+			{ "word": "毎月", "reading": "まいつき", "meaning": "mỗi tháng" }
+		]
+	},
+	{
+		"word": "朝",
+		"meaning": "TRIỀU",
+		"kunyomi": ["あさ"],
+		"onyomi": ["チョウ"],
+		"examples": [
+			{ "word": "朝", "reading": "あさ", "meaning": "buổi sáng" },
+			{ "word": "朝ごはん", "reading": "あさごはん", "meaning": "bữa sáng" }
+		]
+	},
+	{
+		"word": "昼",
+		"meaning": "TRÚ",
+		"kunyomi": ["ひる"],
+		"onyomi": ["チュウ"],
+		"examples": [
+			{ "word": "昼", "reading": "ひる", "meaning": "buổi trưa" },
+			{ "word": "昼ごはん", "reading": "ひるごはん", "meaning": "bữa trưa" },
+			{ "word": "昼休み", "reading": "ひるやすみ", "meaning": "nghỉ trưa" }
+		]
+	},
+	{
+		"word": "晩",
+		"meaning": "VÃN",
+		"kunyomi": [],
+		"onyomi": ["バン"],
+		"examples": [
+			{ "word": "晩", "reading": "ばん", "meaning": "buổi tối" },
+			{ "word": "毎晩", "reading": "まいばん", "meaning": "mỗi tối" },
+			{ "word": "晩ごはん", "reading": "ばんごはん", "meaning": "bữa tối" }
+		]
+	},
+	{
+		"word": "夜",
+		"meaning": "DẠ",
+		"kunyomi": ["よ", "よる"],
+		"onyomi": ["ヤ"],
+		"examples": [
+			{ "word": "夜", "reading": "よる", "meaning": "buổi đêm" },
+			{ "word": "今夜", "reading": "こんや", "meaning": "đêm nay" },
+			{ "word": "夜行バス", "reading": "やこうバス", "meaning": "xe bus chạy đêm" }
+		]
+	},
+	{
+		"word": "午",
+		"meaning": "NGỌ",
+		"kunyomi": [],
+		"onyomi": ["ゴ"],
+		"examples": [
+			{ "word": "午前", "reading": "ごぜん", "meaning": "buổi sáng" },
+			{ "word": "午後", "reading": "ごご", "meaning": "buổi chiều" }
+		]
+	},
+	{
+		"word": "後",
+		"meaning": "HẬU",
+		"kunyomi": ["あと", "うし"],
+		"onyomi": ["ゴ", "コウ"],
+		"examples": [
+			{ "word": "午後", "reading": "ごご", "meaning": "buổi chiều" }
+		]
+	},
+	{
+		"word": "前",
+		"meaning": "TIỀN",
+		"kunyomi": ["まえ"],
+		"onyomi": ["ゼン"],
+		"examples": [
+			{ "word": "お名前", "reading": "おなまえ", "meaning": "tên" },
+			{ "word": "前", "reading": "まえ", "meaning": "trước" },
+			{ "word": "駅前", "reading": "えきまえ", "meaning": "trước nhà ga" },
+			{ "word": "午前", "reading": "ごぜん", "meaning": "buổi sáng" }
+		]
+	},
+	{
+		"word": "週",
+		"meaning": "CHU",
+		"kunyomi": [],
+		"onyomi": ["シュウ"],
+		"examples": [
+			{ "word": "先週", "reading": "せんしゅう", "meaning": "tuần trước" },
+			{ "word": "今週", "reading": "こんしゅう", "meaning": "tuần này" },
+			{ "word": "来週", "reading": "らいしゅう", "meaning": "tuần sau" },
+			{ "word": "週末", "reading": "しゅうまつ", "meaning": "cuối tuần" },
+			{ "word": "再来週", "reading": "さらいしゅう", "meaning": "tuần sau nữa" }
+		]
+	},
+	{
+		"word": "試",
+		"meaning": "THÍ",
+		"kunyomi": ["こころ[みる]", "ため[す]"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "試験", "reading": "しけん", "meaning": "kỳ thi" },
+			{ "word": "試合", "reading": "しあい", "meaning": "trận đấu" }
+		]
+	},
+	{
+		"word": "験",
+		"meaning": "NGHIỆM",
+		"kunyomi": [],
+		"onyomi": ["ケン", "ゲン"],
+		"examples": [
+			{ "word": "実験", "reading": "じっけん", "meaning": "thí nghiệm" }
+		]
+	},
+	{
+		"word": "映",
+		"meaning": "ÁNH",
+		"kunyomi": ["うつ[る]", "うつ[す]"],
+		"onyomi": ["エイ"],
+		"examples": [
+			{ "word": "映画", "reading": "えいが", "meaning": "phim, bộ phim" }
+		]
+	},
+	{
+		"word": "画",
+		"meaning": "HỌA",
+		"kunyomi": [],
+		"onyomi": ["ガ", "カク"],
+		"examples": [
+			{ "word": "映画館", "reading": "えいがかん", "meaning": "rạp chiếu phim" }
+		]
+	},
+	{
+		"word": "宿",
+		"meaning": "TÚC",
+		"kunyomi": ["やど", "やど[る]", "やど[す]"],
+		"onyomi": ["シュク"],
+		"examples": [
+			{ "word": "宿題", "reading": "しゅくだい", "meaning": "bài tập về nhà" }
+		]
+	},
+	{
+		"word": "題",
+		"meaning": "ĐỀ",
+		"kunyomi": [],
+		"onyomi": ["ダイ"],
+		"examples": [
+			{ "word": "問題", "reading": "もんだい", "meaning": "vấn đề" },
+			{ "word": "飲み放題", "reading": "のみほうだい", "meaning": "buffet đồ uống" },
+			{ "word": "食べ放題", "reading": "たべほうだい", "meaning": "buffet đồ ăn" }
+		]
+	},
+	{
+		"word": "紙",
+		"meaning": "CHỈ",
+		"kunyomi": ["かみ"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "紙", "reading": "かみ", "meaning": "giấy" },
+			{ "word": "手紙", "reading": "てがみ", "meaning": "thư" }
+		]
+	},
+	{
+		"word": "英",
+		"meaning": "ANH",
+		"kunyomi": [],
+		"onyomi": ["エイ"],
+		"examples": [
+			{ "word": "英語", "reading": "えいご", "meaning": "tiếng Anh" }
+		]
+	},
+	{
+		"word": "語",
+		"meaning": "NGỮ",
+		"kunyomi": ["かた[る]", "かた[らう]"],
+		"onyomi": ["ゴ"],
+		"examples": [
+			{ "word": "何語", "reading": "なにご", "meaning": "ngôn ngữ nào" },
+			{ "word": "日本語", "reading": "にほんご", "meaning": "tiếng Nhật" }
+		]
+	},
+	{
+		"word": "待",
+		"meaning": "ĐÃI",
+		"kunyomi": ["ま[つ]"],
+		"onyomi": ["タイ"],
+		"examples": [
+			{ "word": "待つ", "reading": "まつ", "meaning": "đợi" },
+			{ "word": "お待ちください", "reading": "おまちください", "meaning": "xin hãy đợi" },
+			{ "word": "お待たせしました", "reading": "おまたせしました", "meaning": "cảm ơn vì đã chờ đợi" },
+			{ "word": "招待する", "reading": "しょうたいする", "meaning": "chiêu đãi, mời" }
+		]
+	},
+	{
+		"word": "開",
+		"meaning": "KHAI",
+		"kunyomi": ["あ[く]", "あ[ける]", "ひら[く]", "ひら[ける]"],
+		"onyomi": ["カイ"],
+		"examples": [
+			{ "word": "開く", "reading": "あく", "meaning": "(cái gì đó) mở" },
+			{ "word": "開ける", "reading": "あける", "meaning": "mở ra (cái gì đó)" },
+			{ "word": "開く", "reading": "ひらく", "meaning": "(cái gì đó) mở" },
+			{ "word": "開発する", "reading": "かいはつする", "meaning": "khai phá, phát triển" }
+		]
+	},
+	{
+		"word": "閉",
+		"meaning": "BẾ",
+		"kunyomi": ["し[める]", "し[まる]", "と[じる]"],
+		"onyomi": ["ヘイ"],
+		"examples": [
+			{ "word": "閉める", "reading": "しめる", "meaning": "đóng (cái gì đó)" },
+			{ "word": "閉まる", "reading": "しまる", "meaning": "đóng lại" },
+			{ "word": "閉じる", "reading": "とじる", "meaning": "(cái gì đó) đóng lại" }
+		]
+	},
+	{
+		"word": "持",
+		"meaning": "TRÌ",
+		"kunyomi": ["も[つ]"],
+		"onyomi": [],
+		"examples": [
+			{ "word": "持つ", "reading": "もつ", "meaning": "mang, cầm, có" },
+			{ "word": "持っていく", "reading": "もっていく", "meaning": "mang đi" },
+			{ "word": "持ってくる", "reading": "もってくる", "meaning": "mang đến" },
+			{ "word": "気持ち", "reading": "きもち", "meaning": "cảm xúc" }
+		]
+	},
+	{
+		"word": "使",
+		"meaning": "SỬ",
+		"kunyomi": ["つか[う]"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "使う", "reading": "つかう", "meaning": "sử dụng" },
+			{ "word": "使用禁止", "reading": "しようきんし", "meaning": "cấm sử dụng" },
+			{ "word": "使用中", "reading": "しようちゅう", "meaning": "đang sử dụng" }
+		]
+	},
+	{
+		"word": "止",
+		"meaning": "CHỈ",
+		"kunyomi": ["と[める]", "と[まる]"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "止まる", "reading": "とまる", "meaning": "(cái gì đó) dừng lại" },
+			{ "word": "止める", "reading": "とめる", "meaning": "ngăn, dừng(cái gì đó)" },
+			{ "word": "中止", "reading": "ちゅうし", "meaning": "ngừng, hủy bỏ" },
+			{ "word": "立入禁止", "reading": "たちいりきんし", "meaning": "cấm vào" }
+		]
+	},
+	{
+		"word": "住",
+		"meaning": "TRÚ",
+		"kunyomi": ["す[む]", "す[まう]"],
+		"onyomi": ["ジュウ"],
+		"examples": [
+			{ "word": "住む", "reading": "すむ", "meaning": "sống" },
+			{ "word": "住所", "reading": "じゅうしょ", "meaning": "địa chỉ" }
+		]
+	},
+	{
+		"word": "降",
+		"meaning": "GIÁNG",
+		"kunyomi": ["お[りる]", "お[ろす]", "ふ[る]", "ふ[り]"],
+		"onyomi": ["コウ"],
+		"examples": [
+			{ "word": "降る", "reading": "ふる", "meaning": "rơi (mưa)" },
+			{ "word": "降りる", "reading": "おりる", "meaning": "xuống khỏi, rút khỏi" },
+			{ "word": "降ろす", "reading": "おろす", "meaning": "thả xuống, rút tiền" }
+		]
+	},
+	{
+		"word": "私",
+		"meaning": "TƯ",
+		"kunyomi": ["わたし"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "私", "reading": "わたし", "meaning": "tôi" },
+			{ "word": "私", "reading": "わたくし", "meaning": "tôi" }
+		]
+	},
+	{
+		"word": "夫",
+		"meaning": "PHU",
+		"kunyomi": ["おっと"],
+		"onyomi": ["フ", "フウ"],
+		"examples": [
+			{ "word": "夫", "reading": "おっと", "meaning": "chồng (của mình)" },
+			{ "word": "大丈夫", "reading": "だいじょうぶ", "meaning": "ổn rồi, không sao đâu" }
+		]
+	},
+	{
+		"word": "主",
+		"meaning": "CHỦ",
+		"kunyomi": ["おも", "ぬし"],
+		"onyomi": ["シュ", "ス"],
+		"examples": [
+			{ "word": "ご主人", "reading": "ごしゅじん", "meaning": "chồng (của người khác)" },
+			{ "word": "主人公", "reading": "しゅじんこう", "meaning": "nhân vật chính" }
+		]
+	},
+	{
+		"word": "奥",
+		"meaning": "ÁO",
+		"kunyomi": ["おく"],
+		"onyomi": ["オウ", "イク"],
+		"examples": [
+			{ "word": "奥さん", "reading": "おくさん", "meaning": "vợ" },
+			{ "word": "奥様", "reading": "おくさま", "meaning": "vợ (của người khác)" }
+		]
+	},
+	{
+		"word": "妻",
+		"meaning": "THÊ",
+		"kunyomi": ["つま"],
+		"onyomi": ["サイ"],
+		"examples": [
+			{ "word": "妻", "reading": "つま", "meaning": "vợ (của mình)" }
+		]
+	},
+	{
+		"word": "兄",
+		"meaning": "HUYNH",
+		"kunyomi": ["あに"],
+		"onyomi": ["ケイ", "キョウ"],
+		"examples": [
+			{ "word": "兄", "reading": "あに", "meaning": "anh trai" },
+			{ "word": "お兄さん", "reading": "おにいさん", "meaning": "anh trai (người khác)" },
+			{ "word": "兄弟", "reading": "きょうだい", "meaning": "anh em" }
+		]
+	},
+	{
+		"word": "弟",
+		"meaning": "ĐỆ",
+		"kunyomi": ["おとうと"],
+		"onyomi": ["テイ", "ダイ"],
+		"examples": [
+			{ "word": "弟", "reading": "おとうと", "meaning": "em trai" },
+			{ "word": "弟さん", "reading": "おとうとさん", "meaning": "em trai (người khác)" },
+			{ "word": "兄弟", "reading": "きょうだい", "meaning": "anh em" }
+		]
+	},
+	{
+		"word": "姉",
+		"meaning": "TỈ",
+		"kunyomi": ["あね"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "姉", "reading": "あね", "meaning": "chị gái" },
+			{ "word": "お姉さん", "reading": "おねえさん", "meaning": "chị gái (người khác)" },
+			{ "word": "姉妹", "reading": "しまい", "meaning": "chị em" }
+		]
+	},
+	{
+		"word": "妹",
+		"meaning": "MUỘI",
+		"kunyomi": ["いもうと"],
+		"onyomi": ["マイ"],
+		"examples": [
+			{ "word": "妹", "reading": "いもうと", "meaning": "em gái" },
+			{ "word": "妹さん", "reading": "いもうとさん", "meaning": "em gái (người khác)" },
+			{ "word": "姉妹", "reading": "しまい", "meaning": "chị em" }
+		]
+	},
+	{
+		"word": "春",
+		"meaning": "XUÂN",
+		"kunyomi": ["はる"],
+		"onyomi": ["シュン"],
+		"examples": [
+			{ "word": "春", "reading": "はる", "meaning": "mùa xuân" }
+		]
+	},
+	{
+		"word": "夏",
+		"meaning": "HẠ",
+		"kunyomi": ["なつ"],
+		"onyomi": ["カ"],
+		"examples": [
+			{ "word": "夏", "reading": "なつ", "meaning": "mùa hè" }
+		]
+	},
+	{
+		"word": "秋",
+		"meaning": "THU",
+		"kunyomi": ["あき"],
+		"onyomi": ["シュウ"],
+		"examples": [
+			{ "word": "秋", "reading": "あき", "meaning": "mùa thu" }
+		]
+	},
+	{
+		"word": "冬",
+		"meaning": "ĐÔNG",
+		"kunyomi": ["ふゆ"],
+		"onyomi": ["トウ"],
+		"examples": [
+			{ "word": "冬", "reading": "ふゆ", "meaning": "mùa đông" }
+		]
+	},
+	{
+		"word": "雪",
+		"meaning": "TUYẾT",
+		"kunyomi": ["ゆき"],
+		"onyomi": ["セツ"],
+		"examples": [
+			{ "word": "雪", "reading": "ゆき", "meaning": "tuyết" }
+		]
+	},
+	{
+		"word": "海",
+		"meaning": "HẢI",
+		"kunyomi": ["うみ"],
+		"onyomi": ["カイ"],
+		"examples": [
+			{ "word": "海", "reading": "うみ", "meaning": "biển" },
+			{ "word": "海外", "reading": "かいがい", "meaning": "nước ngoài" },
+			{ "word": "海岸", "reading": "かいがん", "meaning": "bờ biển" }
+		]
+	},
+	{
+		"word": "天",
+		"meaning": "THIÊN",
+		"kunyomi": [],
+		"onyomi": ["テン"],
+		"examples": [
+			{ "word": "天気", "reading": "てんき", "meaning": "thời tiết" },
+			{ "word": "天気予報", "reading": "てんきよほう", "meaning": "dự báo thời tiết" },
+			{ "word": "天才", "reading": "てんさい", "meaning": "thiên tài, người tài" }
+		]
+	},
+	{
+		"word": "空",
+		"meaning": "KHÔNG",
+		"kunyomi": ["そら", "から", "あ[く]", "あ[ける]"],
+		"onyomi": ["クウ"],
+		"examples": [
+			{ "word": "空", "reading": "そら", "meaning": "bầu trời" },
+			{ "word": "空", "reading": "から", "meaning": "trống rỗng" },
+			{ "word": "航空便", "reading": "こうくうびん", "meaning": "đường hàng không" },
+			{ "word": "空港", "reading": "くうこう", "meaning": "sân bay" },
+			{ "word": "空気", "reading": "くうき", "meaning": "không khí" }
+		]
+	},
+	{
+		"word": "暑",
+		"meaning": "THỬ",
+		"kunyomi": ["あつ[い]"],
+		"onyomi": ["ショ"],
+		"examples": [
+			{ "word": "暑い", "reading": "あつい", "meaning": "nóng" }
+		]
+	},
+	{
+		"word": "寒",
+		"meaning": "HÀN",
+		"kunyomi": ["さむ[い]"],
+		"onyomi": ["カン"],
+		"examples": [
+			{ "word": "寒い", "reading": "さむい", "meaning": "lạnh" }
+		]
+	},
+	{
+		"word": "早",
+		"meaning": "TẢO",
+		"kunyomi": ["はや[い]"],
+		"onyomi": ["ソウ"],
+		"examples": [
+			{ "word": "早い", "reading": "はやい", "meaning": "sớm" }
+		]
+	},
+	{
+		"word": "速",
+		"meaning": "TỐC",
+		"kunyomi": ["はや[い]"],
+		"onyomi": ["ソク"],
+		"examples": [
+			{ "word": "速い", "reading": "はやい", "meaning": "nhanh chóng" }
+		]
+	},
+	{
+		"word": "遅",
+		"meaning": "TRÌ",
+		"kunyomi": ["おそ[い]", "おく[れる]"],
+		"onyomi": ["チ"],
+		"examples": [
+			{ "word": "遅い", "reading": "おそい", "meaning": "muộn, chậm" },
+			{ "word": "遅く", "reading": "おそく", "meaning": "muộn, chậm" },
+			{ "word": "遅れる", "reading": "おくれる", "meaning": "trễ, muộn" }
+		]
+	},
+	{
+		"word": "重",
+		"meaning": "TRỌNG",
+		"kunyomi": ["おも[い]", "かさ[ねる]", "かさ[なる]"],
+		"onyomi": ["ジュウ"],
+		"examples": [
+			{ "word": "重い", "reading": "おもい", "meaning": "nặng" },
+			{ "word": "重さ", "reading": "おもさ", "meaning": "sức nặng" }
+		]
+	},
+	{
+		"word": "軽",
+		"meaning": "KHINH",
+		"kunyomi": ["かる[い]", "かろ[やか]"],
+		"onyomi": ["ケイ"],
+		"examples": [
+			{ "word": "軽い", "reading": "かるい", "meaning": "nhẹ" }
+		]
+	},
+	{
+		"word": "近",
+		"meaning": "CẬN",
+		"kunyomi": ["ちか[い]"],
+		"onyomi": ["キン", "コン"],
+		"examples": [
+			{ "word": "近い", "reading": "ちかい", "meaning": "gần" },
+			{ "word": "最近", "reading": "さいきん", "meaning": "gần đây (thời gian)" }
+		]
+	},
+	{
+		"word": "遠",
+		"meaning": "VIỄN",
+		"kunyomi": ["とお[い]"],
+		"onyomi": ["エン", "オン"],
+		"examples": [
+			{ "word": "遠い", "reading": "とおい", "meaning": "xa" }
+		]
+	},
+	{
+		"word": "質",
+		"meaning": "CHẤT",
+		"kunyomi": [],
+		"onyomi": ["シツ"],
+		"examples": [
+			{ "word": "質問する", "reading": "しつもんする", "meaning": "hỏi" }
+		]
+	},
+	{
+		"word": "問",
+		"meaning": "VẤN",
+		"kunyomi": ["と[う]", "と[い]"],
+		"onyomi": ["モン"],
+		"examples": [
+			{ "word": "問題", "reading": "もんだい", "meaning": "vấn đề" }
+		]
+	},
+	{
+		"word": "答",
+		"meaning": "ĐÁP",
+		"kunyomi": ["こた[え]", "こた[える]"],
+		"onyomi": ["トウ"],
+		"examples": [
+			{ "word": "答え", "reading": "こたえ", "meaning": "câu trả lời" },
+			{ "word": "答える", "reading": "こたえる", "meaning": "trả lời" },
+			{ "word": "回答", "reading": "かいとう", "meaning": "trả lời" }
+		]
+	},
+	{
+		"word": "作",
+		"meaning": "TÁC",
+		"kunyomi": ["つく[る]"],
+		"onyomi": ["サク", "サ"],
+		"examples": [
+			{ "word": "作る", "reading": "つくる", "meaning": "làm, chế biến" },
+			{ "word": "作文", "reading": "さくぶん", "meaning": "bài văn" },
+			{ "word": "操作", "reading": "そうさ", "meaning": "thao tác, vận hành" }
+		]
+	},
+	{
+		"word": "思",
+		"meaning": "TƯ",
+		"kunyomi": ["おも[う]"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "思う", "reading": "おもう", "meaning": "nghĩ" },
+			{ "word": "思い出す", "reading": "おもいだす", "meaning": "nhớ lại" },
+			{ "word": "不思議な", "reading": "ふしぎな", "meaning": "kỳ lạ, ảo" }
+		]
+	},
+	{
+		"word": "始",
+		"meaning": "THỦY",
+		"kunyomi": ["はじ[める]", "はじ[まる]"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "始める", "reading": "はじめる", "meaning": "bắt đầu" },
+			{ "word": "始まる", "reading": "はじまる", "meaning": "bắt đầu" }
+		]
+	},
+	{
+		"word": "着",
+		"meaning": "TRỨ",
+		"kunyomi": ["き[る]", "つ[く]", "つ[ける]"],
+		"onyomi": ["チャク"],
+		"examples": [
+			{ "word": "着る", "reading": "きる", "meaning": "mặc" },
+			{ "word": "着く", "reading": "つく", "meaning": "đến nơi ~" },
+			{ "word": "上着", "reading": "うわぎ", "meaning": "áo khoác" },
+			{ "word": "下着", "reading": "したぎ", "meaning": "đồ lót" },
+			{ "word": "着物", "reading": "きもの", "meaning": "trang phục Kimono" },
+			{ "word": "到着する", "reading": "とうちゃくする", "meaning": "đến nơi" }
+		]
+	},
+	{
+		"word": "集",
+		"meaning": "TẬP",
+		"kunyomi": ["あつ[める]", "あつ[まる]"],
+		"onyomi": ["シュウ"],
+		"examples": [
+			{ "word": "集める", "reading": "あつめる", "meaning": "tập hợp, sưu tầm" },
+			{ "word": "集まる", "reading": "あつまる", "meaning": "tập trung, tụ tập" }
+		]
+	},
+	{
+		"word": "練",
+		"meaning": "LUYỆN",
+		"kunyomi": ["ね[る]", "ね[り]"],
+		"onyomi": ["レン"],
+		"examples": [
+			{ "word": "練習", "reading": "れんしゅう", "meaning": "luyện tập" }
+		]
+	},
+	{
+		"word": "晴",
+		"meaning": "TÌNH",
+		"kunyomi": ["は[れ]", "は[れる]", "は[らす]"],
+		"onyomi": ["セイ"],
+		"examples": [
+			{ "word": "晴れる", "reading": "はれる", "meaning": "nắng" }
+		]
+	},
+	{
+		"word": "星",
+		"meaning": "TINH",
+		"kunyomi": ["ほし"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "星", "reading": "ほし", "meaning": "sao" },
+			{ "word": "星占い", "reading": "ほしうらない", "meaning": "bói sao, bói tử vi" }
+		]
+	},
+	{
+		"word": "風",
+		"meaning": "PHONG",
+		"kunyomi": ["かざ", "かぜ"],
+		"onyomi": ["フウ", "フ"],
+		"examples": [
+			{ "word": "風", "reading": "かぜ", "meaning": "gió" },
+			{ "word": "台風", "reading": "たいふう", "meaning": "cơn bão" }
+		]
+	},
+	{
+		"word": "然",
+		"meaning": "NHIÊN",
+		"kunyomi": [],
+		"onyomi": ["ゼン", "ネン"],
+		"examples": [
+			{ "word": "全然", "reading": "ぜんぜん", "meaning": "hoàn toàn" },
+			{ "word": "自然", "reading": "しぜん", "meaning": "tự nhiên" }
+		]
+	},
+	{
+		"word": "油",
+		"meaning": "DU",
+		"kunyomi": ["あぶら"],
+		"onyomi": ["ユ", "ユウ"],
+		"examples": [
+			{ "word": "石油", "reading": "せきゆ", "meaning": "dầu thô, dầu mỏ" }
+		]
+	},
+	{
+		"word": "原",
+		"meaning": "NGUYÊN",
+		"kunyomi": ["はら"],
+		"onyomi": ["ゲン"],
+		"examples": [
+			{ "word": "原料", "reading": "げんりょう", "meaning": "nguyên liệu" },
+			{ "word": "原因", "reading": "げんいん", "meaning": "nguyên nhân" }
+		]
+	},
+	{
+		"word": "皿",
+		"meaning": "MÃNH",
+		"kunyomi": ["さら"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "お皿", "reading": "おさら", "meaning": "cái đĩa" }
+		]
+	},
+	{
+		"word": "発",
+		"meaning": "PHÁT",
+		"kunyomi": [],
+		"onyomi": ["ハツ", "ホツ"],
+		"examples": [
+			{ "word": "発表", "reading": "はっぴょう", "meaning": "phát biểu, thuyết trình" },
+			{ "word": "発見する", "reading": "はっけんする", "meaning": "tìm ra, phát hiện" },
+			{ "word": "発明する", "reading": "はつめいする", "meaning": "phát minh" },
+			{ "word": "出発する", "reading": "しゅっぱつする", "meaning": "xuất phát, bắt đầu" },
+			{ "word": "発音", "reading": "はつおん", "meaning": "phát âm" }
+		]
+	},
+	{
+		"word": "便",
+		"meaning": "TIỆN",
+		"kunyomi": ["たよ[り]"],
+		"onyomi": ["ビン", "ベン"],
+		"examples": [
+			{ "word": "郵便局", "reading": "ゆうびんきょく", "meaning": "bưu điện" },
+			{ "word": "便利", "reading": "べんり", "meaning": "thuận tiện, tiện lợi" },
+			{ "word": "不便な", "reading": "ふべんな", "meaning": "bất tiện" }
+		]
+	},
+	{
+		"word": "利",
+		"meaning": "LỢI",
+		"kunyomi": [],
+		"onyomi": ["リ"],
+		"examples": [
+			{ "word": "利用する", "reading": "りようする", "meaning": "sử dụng, lợi dụng" }
+		]
+	},
+	{
+		"word": "不",
+		"meaning": "BẤT",
+		"kunyomi": [],
+		"onyomi": ["フ", "ブ"],
+		"examples": [
+			{ "word": "不思議な", "reading": "ふしぎな", "meaning": "kỳ lạ, ảo" }
+		]
+	},
+	{
+		"word": "静",
+		"meaning": "TĨNH",
+		"kunyomi": ["しず[か]"],
+		"onyomi": ["セイ", "ジョウ"],
+		"examples": [
+			{ "word": "静かな", "reading": "しずかな", "meaning": "yên tĩnh, im lặng" }
+		]
+	},
+	{
+		"word": "同",
+		"meaning": "ĐỒNG",
+		"kunyomi": ["おな[じ]"],
+		"onyomi": ["ドウ"],
+		"examples": [
+			{ "word": "同じ", "reading": "おなじ", "meaning": "giống" }
+		]
+	},
+	{
+		"word": "有",
+		"meaning": "HỮU",
+		"kunyomi": ["あ[る]"],
+		"onyomi": ["ユウ", "ウ"],
+		"examples": [
+			{ "word": "有名な", "reading": "ゆうめいな", "meaning": "nổi tiếng" }
+		]
+	},
+	{
+		"word": "親",
+		"meaning": "THÂN",
+		"kunyomi": ["おや", "した[しい]", "した[しむ]"],
+		"onyomi": ["シン"],
+		"examples": [
+			{ "word": "親", "reading": "おや", "meaning": "cha mẹ" },
+			{ "word": "親切な", "reading": "しんせつな", "meaning": "thân thiện" },
+			{ "word": "両親", "reading": "りょうしん", "meaning": "cha mẹ" }
+		]
+	},
+	{
+		"word": "細",
+		"meaning": "TẾ",
+		"kunyomi": ["こま[かい]", "ほそ[い]"],
+		"onyomi": ["サイ"],
+		"examples": [
+			{ "word": "細かい", "reading": "こまかい", "meaning": "chi tiết, (tiền) lẻ" },
+			{ "word": "細い", "reading": "ほそい", "meaning": "mỏng, hẹp" },
+			{ "word": "IPS細胞", "reading": "さいぼう", "meaning": "tế bào IPS" }
+		]
+	},
+	{
+		"word": "駅",
+		"meaning": "DỊCH",
+		"kunyomi": [],
+		"onyomi": ["エキ"],
+		"examples": [
+			{ "word": "駅", "reading": "えき", "meaning": "nhà ga" },
+			{ "word": "駅員", "reading": "えきいん", "meaning": "nhân viên nhà ga" }
+		]
+	},
+	{
+		"word": "店",
+		"meaning": "ĐIẾM",
+		"kunyomi": ["みせ"],
+		"onyomi": ["テン"],
+		"examples": [
+			{ "word": "店", "reading": "みせ", "meaning": "cửa hàng" },
+			{ "word": "喫茶店", "reading": "きっさてん", "meaning": "quán cà phê" },
+			{ "word": "支店", "reading": "してん", "meaning": "chi nhánh" }
+		]
+	},
+	{
+		"word": "池",
+		"meaning": "TRÌ",
+		"kunyomi": ["いけ"],
+		"onyomi": ["チ"],
+		"examples": [
+			{ "word": "池", "reading": "いけ", "meaning": "ao" },
+			{ "word": "電池", "reading": "でんち", "meaning": "cục pin" }
+		]
+	},
+	{
+		"word": "公",
+		"meaning": "CÔNG",
+		"kunyomi": ["おおやけ"],
+		"onyomi": ["コウ"],
+		"examples": [
+			{ "word": "公園", "reading": "こうえん", "meaning": "công viên" },
+			{ "word": "主人公", "reading": "しゅじんこう", "meaning": "nhân vật chính" }
+		]
+	},
+	{
+		"word": "園",
+		"meaning": "VIÊN",
+		"kunyomi": [],
+		"onyomi": ["エン"],
+		"examples": [
+			{ "word": "動物園", "reading": "どうぶつえん", "meaning": "vườn bách thú" },
+			{ "word": "幼稚園", "reading": "ようちえん", "meaning": "trường mẫu giáo" }
+		]
+	},
+	{
+		"word": "洋",
+		"meaning": "DƯƠNG",
+		"kunyomi": [],
+		"onyomi": ["ヨウ"],
+		"examples": [
+			{ "word": "洋服", "reading": "ようふく", "meaning": "quần áo phương Tây" },
+			{ "word": "洋食", "reading": "ようしょく", "meaning": "món ăn Tây" },
+			{ "word": "西洋化する", "reading": "せいようかする", "meaning": "Tây hoá" }
+		]
+	},
+	{
+		"word": "辺",
+		"meaning": "BIÊN",
+		"kunyomi": ["あた[り]"],
+		"onyomi": ["ヘン"],
+		"examples": [
+			{ "word": "～辺", "reading": "へん", "meaning": "vùng" }
+		]
+	},
+	{
+		"word": "交",
+		"meaning": "GIAO",
+		"kunyomi": ["まじ[わる]", "まじ[える]", "ま[じる]", "まじ[る]", "ま[ざる]", "ま[ぜる]", "か[わす]", "かわ[す]"],
+		"onyomi": ["コウ"],
+		"examples": [
+			{ "word": "交通", "reading": "こうつう", "meaning": "giao thông" },
+			{ "word": "交差点", "reading": "こうさてん", "meaning": "chỗ giao nhau" },
+			{ "word": "交番", "reading": "こうばん", "meaning": "đồn cảnh sát" }
+		]
+	},
+	{
+		"word": "漢",
+		"meaning": "HÁN",
+		"kunyomi": [],
+		"onyomi": ["カン"],
+		"examples": [
+			{ "word": "漢字", "reading": "かんじ", "meaning": "chữ Kanji" }
+		]
+	},
+	{
+		"word": "数",
+		"meaning": "SỐ",
+		"kunyomi": ["かず", "かぞ[える]"],
+		"onyomi": ["スウ"],
+		"examples": [
+			{ "word": "数える", "reading": "かぞえる", "meaning": "đếm, tính" }
+		]
+	},
+	{
+		"word": "旅",
+		"meaning": "LỮ",
+		"kunyomi": ["たび"],
+		"onyomi": ["リョ"],
+		"examples": [
+			{ "word": "旅行", "reading": "りょこう", "meaning": "du lịch" },
+			{ "word": "旅館", "reading": "りょかん", "meaning": "nhà trọ kiểu Nhật" }
+		]
+	},
+	{
+		"word": "薬",
+		"meaning": "DƯỢC",
+		"kunyomi": ["くすり"],
+		"onyomi": ["ヤク"],
+		"examples": [
+			{ "word": "薬", "reading": "くすり", "meaning": "thuốc" }
+		]
+	},
+	{
+		"word": "台",
+		"meaning": "ĐÀI",
+		"kunyomi": [],
+		"onyomi": ["ダイ", "タイ"],
+		"examples": [
+			{ "word": "台所", "reading": "だいどころ", "meaning": "nhà bếp" },
+			{ "word": "台風", "reading": "たいふう", "meaning": "cơn bão" }
+		]
+	},
+	{
+		"word": "里",
+		"meaning": "LÍ",
+		"kunyomi": ["さと"],
+		"onyomi": ["リ"],
+		"examples": [
+			{ "word": "万里の長城", "reading": "ばんりのちょうじょう", "meaning": "Vạn Lý Trường Thành" }
+		]
+	},
+	{
+		"word": "才",
+		"meaning": "TÀI",
+		"kunyomi": [],
+		"onyomi": ["サイ"],
+		"examples": [
+			{ "word": "天才", "reading": "てんさい", "meaning": "thiên tài, người tài" }
+		]
+	},
+	{
+		"word": "去",
+		"meaning": "KHỨ",
+		"kunyomi": ["さ"],
+		"onyomi": ["キョ", "コ"],
+		"examples": [
+			{ "word": "去年", "reading": "きょねん", "meaning": "năm ngoái" }
+		]
+	},
+	{
+		"word": "若",
+		"meaning": "NHƯỢC",
+		"kunyomi": ["わか[い]"],
+		"onyomi": [],
+		"examples": [
+			{ "word": "若い", "reading": "わかい", "meaning": "trẻ" }
+		]
+	},
+	{
+		"word": "短",
+		"meaning": "ĐOẢN",
+		"kunyomi": ["みじか[い]"],
+		"onyomi": ["タン"],
+		"examples": [
+			{ "word": "短い", "reading": "みじかい", "meaning": "ngắn" }
+		]
+	},
+	{
+		"word": "弱",
+		"meaning": "NHƯỢC",
+		"kunyomi": ["よわ[い]"],
+		"onyomi": ["ジャク"],
+		"examples": [
+			{ "word": "弱い", "reading": "よわい", "meaning": "yếu" }
+		]
+	},
+	{
+		"word": "正",
+		"meaning": "CHÍNH",
+		"kunyomi": ["ただ[しい]", "まさ"],
+		"onyomi": ["ショウ", "セイ"],
+		"examples": [
+			{ "word": "正しい", "reading": "ただしい", "meaning": "đúng, chính xác" },
+			{ "word": "お正月", "reading": "おしょうがつ", "meaning": "Tết, năm mới" }
+		]
+	},
+	{
+		"word": "広",
+		"meaning": "QUẢNG",
+		"kunyomi": ["ひろ[い]", "ひろ[る]", "ひろ[める]"],
+		"onyomi": ["コウ"],
+		"examples": [
+			{ "word": "広い", "reading": "ひろい", "meaning": "rộng, rộng lớn" },
+			{ "word": "広める", "reading": "ひろめる", "meaning": "mở rộng, quảng bá" }
+		]
+	},
+	{
+		"word": "低",
+		"meaning": "ĐÊ",
+		"kunyomi": ["ひく[い]"],
+		"onyomi": ["テイ"],
+		"examples": [
+			{ "word": "低い", "reading": "ひくい", "meaning": "thấp" }
+		]
+	},
+	{
+		"word": "楽",
+		"meaning": "LẠC",
+		"kunyomi": ["たの[しい]", "たの[しむ]"],
+		"onyomi": ["ガク", "ラク"],
+		"examples": [
+			{ "word": "楽しい", "reading": "たのしい", "meaning": "vui tươi" },
+			{ "word": "楽しむ", "reading": "たのしむ", "meaning": "tận hưởng" },
+			{ "word": "楽な", "reading": "らくな", "meaning": "thoải mái, dễ chịu" },
+			{ "word": "音楽", "reading": "おんがく", "meaning": "âm nhạc" }
+		]
+	},
+	{
+		"word": "太",
+		"meaning": "THÁI",
+		"kunyomi": ["ふと[い]", "ふと[る]"],
+		"onyomi": ["タ", "タイ"],
+		"examples": [
+			{ "word": "太い", "reading": "ふとい", "meaning": "béo, mập" },
+			{ "word": "太る", "reading": "ふとる", "meaning": "béo lên" },
+			{ "word": "太陽", "reading": "たいよう", "meaning": "mặt trời" }
+		]
+	},
+	{
+		"word": "運",
+		"meaning": "VẬN",
+		"kunyomi": ["はこ[ぶ]"],
+		"onyomi": ["ウン"],
+		"examples": [
+			{ "word": "運ぶ", "reading": "はこぶ", "meaning": "vận chuyển" },
+			{ "word": "運転", "reading": "うんてん", "meaning": "lái xe" },
+			{ "word": "運転手", "reading": "うんてんしゅ", "meaning": "tài xế" }
+		]
+	},
+	{
+		"word": "合",
+		"meaning": "HỢP",
+		"kunyomi": ["あ[う]"],
+		"onyomi": ["ガッ", "ゴウ"],
+		"examples": [
+			{ "word": "合う", "reading": "あう", "meaning": "phù hợp, vừa vặn" },
+			{ "word": "間に合う", "reading": "まにあう", "meaning": "kịp thời" },
+			{ "word": "助け合う", "reading": "たすけあう", "meaning": "giúp đỡ lẫn nhau" },
+			{ "word": "知り合う", "reading": "しりあう", "meaning": "quen biết" },
+			{ "word": "具合", "reading": "ぐあい", "meaning": "tâm trạng, tình trạng" },
+			{ "word": "都合", "reading": "つごう", "meaning": "thuận tiện" },
+			{ "word": "合格", "reading": "ごうかく", "meaning": "thi đỗ" }
+		]
+	},
+	{
+		"word": "当",
+		"meaning": "ĐƯƠNG",
+		"kunyomi": ["あ[たり]", "あ[たる]"],
+		"onyomi": ["トウ"],
+		"examples": [
+			{ "word": "当たる", "reading": "あたる", "meaning": "trúng" },
+			{ "word": "お弁当", "reading": "おべんとう", "meaning": "cơm hộp" }
+		]
+	},
+	{
+		"word": "考",
+		"meaning": "KHẢO",
+		"kunyomi": ["かんが[える]"],
+		"onyomi": ["コウ"],
+		"examples": [
+			{ "word": "考える", "reading": "かんがえる", "meaning": "suy nghĩ" }
+		]
+	},
+	{
+		"word": "走",
+		"meaning": "TẨU",
+		"kunyomi": ["はし[る]"],
+		"onyomi": ["ソウ"],
+		"examples": [
+			{ "word": "走る", "reading": "はしる", "meaning": "chạy" }
+		]
+	},
+	{
+		"word": "治",
+		"meaning": "TRỊ",
+		"kunyomi": ["おさ[める]", "なお[す]"],
+		"onyomi": ["ジ", "チ"],
+		"examples": [
+			{ "word": "治す", "reading": "なおす", "meaning": "chữa, trị bệnh" },
+			{ "word": "政治", "reading": "せいじ", "meaning": "chính trị" }
+		]
+	},
+	{
+		"word": "通",
+		"meaning": "THÔNG",
+		"kunyomi": ["かよ[う]", "とお[る]"],
+		"onyomi": ["ツウ", "ツ"],
+		"examples": [
+			{ "word": "通う", "reading": "かよう", "meaning": "đi học, đi làm" },
+			{ "word": "通る", "reading": "とおる", "meaning": "chạy (tàu xe), đi qua" },
+			{ "word": "普通", "reading": "ふつう", "meaning": "thông thường" }
+		]
+	},
+	{
+		"word": "知",
+		"meaning": "TRI",
+		"kunyomi": ["し[る]", "し[らせる]"],
+		"onyomi": ["チ"],
+		"examples": [
+			{ "word": "知る", "reading": "しる", "meaning": "biết" },
+			{ "word": "お知らせ", "reading": "おしらせ", "meaning": "thông báo" }
+		]
+	},
+	{
+		"word": "文",
+		"meaning": "VĂN",
+		"kunyomi": [],
+		"onyomi": ["モン", "ブン"],
+		"examples": [
+			{ "word": "ご注文", "reading": "ごちゅうもん", "meaning": "đặt hàng, gọi món" },
+			{ "word": "文法", "reading": "ぶんぽう", "meaning": "ngữ pháp" },
+			{ "word": "作文", "reading": "さくぶん", "meaning": "bài văn" },
+			{ "word": "論文", "reading": "ろんぶん", "meaning": "luận văn" },
+			{ "word": "文化", "reading": "ぶんか", "meaning": "văn hóa" }
+		]
+	},
+	{
+		"word": "化",
+		"meaning": "HÓA",
+		"kunyomi": ["ば[ける]", "ば[かす]"],
+		"onyomi": ["カ", "ケ"],
+		"examples": [
+			{ "word": "西洋化する", "reading": "せいようかする", "meaning": "Tây hoá" },
+			{ "word": "化粧", "reading": "けしょう", "meaning": "trang điểm" }
+		]
+	},
+	{
+		"word": "経",
+		"meaning": "KINH",
+		"kunyomi": ["へ[る]", "た[つ]"],
+		"onyomi": ["ケイ", "キョウ"],
+		"examples": [
+			{ "word": "経歴", "reading": "けいれき", "meaning": "lý lịch, quá trình làm việc" },
+			{ "word": "経験", "reading": "けいけん", "meaning": "kinh nghiệm" }
+		]
+	},
+	{
+		"word": "済",
+		"meaning": "TẾ",
+		"kunyomi": ["す[む]", "す[まない]"],
+		"onyomi": ["サイ"],
+		"examples": [
+			{ "word": "経済", "reading": "けいざい", "meaning": "kinh tế" }
+		]
+	},
+	{
+		"word": "政",
+		"meaning": "CHÍNH",
+		"kunyomi": ["まつりごと"],
+		"onyomi": ["セイ", "ショウ"],
+		"examples": [
+			{ "word": "政治", "reading": "せいじ", "meaning": "chính trị" }
+		]
+	},
+	{
+		"word": "歴",
+		"meaning": "LỊCH",
+		"kunyomi": [],
+		"onyomi": ["レキ"],
+		"examples": [
+			{ "word": "歴史", "reading": "れきし", "meaning": "lịch sử" }
+		]
+	},
+	{
+		"word": "史",
+		"meaning": "SỬ",
+		"kunyomi": [],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "歴史", "reading": "れきし", "meaning": "lịch sử" }
+		]
+	},
+	{
+		"word": "育",
+		"meaning": "DỤC",
+		"kunyomi": ["そだ[つ]", "そだ[てる]"],
+		"onyomi": ["イク"],
+		"examples": [
+			{ "word": "育てる", "reading": "そだてる", "meaning": "nuôi nấng, dạy dỗ" },
+			{ "word": "教育", "reading": "きょういく", "meaning": "giáo dục" },
+			{ "word": "体育館", "reading": "たいいくかん", "meaning": "nhà thi đấu, phòng thể chất" }
+		]
+	},
+	{
+		"word": "料",
+		"meaning": "LIỆU",
+		"kunyomi": [],
+		"onyomi": ["リョウ"],
+		"examples": [
+			{ "word": "料理", "reading": "りょうり", "meaning": "món ăn, việc nấu ăn" },
+			{ "word": "資料", "reading": "しりょう", "meaning": "tài liệu" },
+			{ "word": "原料", "reading": "げんりょう", "meaning": "nguyên liệu" },
+			{ "word": "材料", "reading": "ざいりょう", "meaning": "vật liệu, nguyên liệu" },
+			{ "word": "無料", "reading": "むりょう", "meaning": "miễn phí" },
+			{ "word": "給料", "reading": "きゅうりょう", "meaning": "tiền lương" }
+		]
+	},
+	{
+		"word": "理",
+		"meaning": "LÍ",
+		"kunyomi": [],
+		"onyomi": ["リ"],
+		"examples": [
+			{ "word": "無理な", "reading": "むりな", "meaning": "quá sức/ không thể" },
+			{ "word": "修理する", "reading": "しゅうりする", "meaning": "sửa chữa" },
+			{ "word": "整理する", "reading": "せいりする", "meaning": "sàng lọc, sắp xếp" },
+			{ "word": "理由", "reading": "りゆう", "meaning": "lý do" }
+		]
+	},
+	{
+		"word": "味",
+		"meaning": "VỊ",
+		"kunyomi": ["あじ[わう]"],
+		"onyomi": ["ミ"],
+		"examples": [
+			{ "word": "味", "reading": "あじ", "meaning": "vị" },
+			{ "word": "意味", "reading": "いみ", "meaning": "ý nghĩa" },
+			{ "word": "興味", "reading": "きょうみ", "meaning": "hứng thú" },
+			{ "word": "趣味", "reading": "しゅみ", "meaning": "sở thích" }
+		]
+	},
+	{
+		"word": "飯",
+		"meaning": "PHẠN",
+		"kunyomi": ["めし"],
+		"onyomi": ["ハン"],
+		"examples": [
+			{ "word": "ご飯", "reading": "ごはん", "meaning": "cơm" }
+		]
+	},
+	{
+		"word": "野",
+		"meaning": "DÃ",
+		"kunyomi": ["の"],
+		"onyomi": ["ヤ"],
+		"examples": [
+			{ "word": "野菜", "reading": "やさい", "meaning": "rau củ" },
+			{ "word": "野球", "reading": "やきゅう", "meaning": "bóng chày" }
+		]
+	},
+	{
+		"word": "酒",
+		"meaning": "TỬU",
+		"kunyomi": ["さけ"],
+		"onyomi": ["シュ"],
+		"examples": [
+			{ "word": "お酒", "reading": "おさけ", "meaning": "rượu" }
+		]
+	},
+	{
+		"word": "品",
+		"meaning": "PHẨM",
+		"kunyomi": ["しな"],
+		"onyomi": ["ヒン"],
+		"examples": [
+			{ "word": "品物", "reading": "しなもの", "meaning": "hàng hoá" },
+			{ "word": "製品", "reading": "せいひん", "meaning": "sản phẩm" }
+		]
+	},
+	{
+		"word": "麦",
+		"meaning": "MẠCH",
+		"kunyomi": ["むぎ"],
+		"onyomi": [],
+		"examples": [
+			{ "word": "麦", "reading": "むぎ", "meaning": "lúa mạch" }
+		]
+	},
+	{
+		"word": "船",
+		"meaning": "THUYỀN",
+		"kunyomi": ["ふね", "ふな"],
+		"onyomi": ["セン"],
+		"examples": [
+			{ "word": "船", "reading": "ふね", "meaning": "tàu, thuyền" },
+			{ "word": "船便", "reading": "ふなびん", "meaning": "gửi bằng đường biển" }
+		]
+	},
+	{
+		"word": "地",
+		"meaning": "ĐỊA",
+		"kunyomi": [],
+		"onyomi": ["ジ", "チ"],
+		"examples": [
+			{ "word": "地震", "reading": "じしん", "meaning": "động đất" },
+			{ "word": "地下", "reading": "ちか", "meaning": "tầng hầm" },
+			{ "word": "地下鉄", "reading": "ちかてつ", "meaning": "tàu điện ngầm" },
+			{ "word": "地球", "reading": "ちきゅう", "meaning": "Trái đất" }
+		]
+	},
+	{
+		"word": "鉄",
+		"meaning": "THIẾT",
+		"kunyomi": [],
+		"onyomi": ["テツ"],
+		"examples": [
+			{ "word": "地下鉄", "reading": "ちかてつ", "meaning": "tàu điện ngầm" }
+		]
+	},
+	{
+		"word": "特",
+		"meaning": "ĐẶC",
+		"kunyomi": [],
+		"onyomi": ["トク"],
+		"examples": [
+			{ "word": "特に", "reading": "とくに", "meaning": "nhất là, đặc biệt là" },
+			{ "word": "特別", "reading": "とくべつ", "meaning": "đặc biệt" },
+			{ "word": "特急", "reading": "とっきゅう", "meaning": "hoả tốc, thần tốc" }
+		]
+	},
+	{
+		"word": "客",
+		"meaning": "KHÁCH",
+		"kunyomi": [],
+		"onyomi": ["キャク"],
+		"examples": [
+			{ "word": "お客さん", "reading": "おきゃくさん", "meaning": "vị khách, khách hàng" },
+			{ "word": "お客様", "reading": "おきゃくさま", "meaning": "quý khách hàng" }
+		]
+	},
+	{
+		"word": "様",
+		"meaning": "DẠNG",
+		"kunyomi": ["さま"],
+		"onyomi": ["ヨウ"],
+		"examples": [
+			{ "word": "皆様", "reading": "みなさま", "meaning": "mọi người" },
+			{ "word": "奥様", "reading": "おくさま", "meaning": "vợ (vợ người khác)" },
+			{ "word": "様子", "reading": "ようす", "meaning": "dáng vẻ, bộ dạng" }
+		]
+	},
+	{
+		"word": "荷",
+		"meaning": "HÀ",
+		"kunyomi": ["に"],
+		"onyomi": [],
+		"examples": [
+			{ "word": "荷物", "reading": "にもつ", "meaning": "hành lý" }
+		]
+	},
+	{
+		"word": "馬",
+		"meaning": "MÃ",
+		"kunyomi": ["うま"],
+		"onyomi": [],
+		"examples": [
+			{ "word": "馬", "reading": "うま", "meaning": "con ngựa" }
+		]
+	},
+	{
+		"word": "番",
+		"meaning": "PHIÊN",
+		"kunyomi": [],
+		"onyomi": ["バン"],
+		"examples": [
+			{ "word": "番号", "reading": "ばんごう", "meaning": "số hiệu" },
+			{ "word": "暗証番号", "reading": "あんしょうばんごう", "meaning": "mã PIN" },
+			{ "word": "交番", "reading": "こうばん", "meaning": "đồn cảnh sát" },
+			{ "word": "番組", "reading": "ばんぐみ", "meaning": "chương trình tivi" },
+			{ "word": "順番", "reading": "じゅんばん", "meaning": "thứ tự" },
+			{ "word": "～番線", "reading": "ばんせん", "meaning": "sân ga số ~ / tuyến tàu số ~" }
+		]
+	},
+	{
+		"word": "号",
+		"meaning": "HIỆU",
+		"kunyomi": [],
+		"onyomi": ["ゴウ", "コウ"],
+		"examples": [
+			{ "word": "信号", "reading": "しんごう", "meaning": "đèn giao thông" },
+			{ "word": "号室", "reading": "ごうしつ", "meaning": "số phòng" }
+		]
+	},
+	{
+		"word": "写",
+		"meaning": "TẢ",
+		"kunyomi": ["うつ[る]", "うつ[す]"],
+		"onyomi": ["シャ"],
+		"examples": [
+			{ "word": "写真", "reading": "しゃしん", "meaning": "ảnh, bức ảnh" }
+		]
+	},
+	{
+		"word": "真",
+		"meaning": "CHÂN",
+		"kunyomi": ["ま"],
+		"onyomi": ["シン"],
+		"examples": [
+			{ "word": "真ん中", "reading": "まんなか", "meaning": "chính giữa" },
+			{ "word": "真っ白", "reading": "まっしろ", "meaning": "trắng tinh" },
+			{ "word": "写真", "reading": "しゃしん", "meaning": "ảnh, bức ảnh" }
+		]
+	},
+	{
+		"word": "計",
+		"meaning": "KẾ",
+		"kunyomi": ["はか[る]"],
+		"onyomi": ["ケイ"],
+		"examples": [
+			{ "word": "時計", "reading": "とけい", "meaning": "đồng hồ" },
+			{ "word": "覚まし時計", "reading": "めざましどけい", "meaning": "đồng hồ báo thức" },
+			{ "word": "体温計", "reading": "たいおんけい", "meaning": "nhiệt kế" }
+		]
+	},
+	{
+		"word": "宅",
+		"meaning": "TRẠCH",
+		"kunyomi": [],
+		"onyomi": ["タク"],
+		"examples": [
+			{ "word": "お宅", "reading": "おたく", "meaning": "Nhà (người khác)" }
+		]
+	},
+	{
+		"word": "玉",
+		"meaning": "NGỌC",
+		"kunyomi": ["たま", "だま"],
+		"onyomi": [],
+		"examples": [
+			{ "word": "お年玉", "reading": "おとしだま", "meaning": "tiền lì xì" }
+		]
+	},
+	{
+		"word": "工",
+		"meaning": "CÔNG",
+		"kunyomi": [],
+		"onyomi": ["ク", "コウ"],
+		"examples": [
+			{ "word": "工場", "reading": "こうじょう", "meaning": "nhà máy" }
+		]
+	},
+	{
+		"word": "白",
+		"meaning": "BẠCH",
+		"kunyomi": ["しろ", "しろ[い]"],
+		"onyomi": ["ハク"],
+		"examples": [
+			{ "word": "白", "reading": "しろ", "meaning": "màu trắng" },
+			{ "word": "白い", "reading": "しろい", "meaning": "trắng" },
+			{ "word": "真っ白", "reading": "まっしろ", "meaning": "trắng tinh" }
+		]
+	},
+	{
+		"word": "黒",
+		"meaning": "HẮC",
+		"kunyomi": ["くろ", "くろ[い]"],
+		"onyomi": ["コク"],
+		"examples": [
+			{ "word": "黒", "reading": "くろ", "meaning": "màu đen" },
+			{ "word": "黒い", "reading": "くろい", "meaning": "đen" },
+			{ "word": "真っ黒", "reading": "まっくろ", "meaning": "đen kịt" }
+		]
+	},
+	{
+		"word": "赤",
+		"meaning": "XÍCH",
+		"kunyomi": ["あか", "あか[い]"],
+		"onyomi": ["セキ", "シャク"],
+		"examples": [
+			{ "word": "赤", "reading": "あか", "meaning": "màu đỏ" },
+			{ "word": "赤い", "reading": "あかい", "meaning": "đỏ" },
+			{ "word": "赤ちゃん", "reading": "あかちゃん", "meaning": "em bé" }
+		]
+	},
+	{
+		"word": "青",
+		"meaning": "THANH",
+		"kunyomi": ["あお", "あお[い]"],
+		"onyomi": ["セイ", "ショウ"],
+		"examples": [
+			{ "word": "青", "reading": "あお", "meaning": "màu xanh dương" },
+			{ "word": "青い", "reading": "あおい", "meaning": "xanh dương" }
+		]
+	},
+	{
+		"word": "緑",
+		"meaning": "LỤC",
+		"kunyomi": ["みどり"],
+		"onyomi": ["リョク"],
+		"examples": [
+			{ "word": "緑", "reading": "みどり", "meaning": "màu xanh lá" }
+		]
+	},
+	{
+		"word": "黄",
+		"meaning": "HOÀNG",
+		"kunyomi": ["き"],
+		"onyomi": ["オウ"],
+		"examples": [
+			{ "word": "黄色", "reading": "きいろ", "meaning": "màu vàng" }
+		]
+	},
+	{
+		"word": "色",
+		"meaning": "SẮC",
+		"kunyomi": ["いろ"],
+		"onyomi": ["シキ", "ショク"],
+		"examples": [
+			{ "word": "色", "reading": "いろ", "meaning": "màu sắc" },
+			{ "word": "茶色", "reading": "ちゃいろ", "meaning": "màu nâu" },
+			{ "word": "景色", "reading": "けしき", "meaning": "phong cảnh" },
+			{ "word": "金色", "reading": "こんじき", "meaning": "màu vàng kim" }
+		]
+	},
+	{
+		"word": "丸",
+		"meaning": "HOÀN",
+		"kunyomi": ["まる", "まる[い]", "まる[める]"],
+		"onyomi": ["ガン"],
+		"examples": [
+			{ "word": "丸", "reading": "まる", "meaning": "vòng tròn" },
+			{ "word": "丸い", "reading": "まるい", "meaning": "tròn" }
+		]
+	},
+	{
+		"word": "心",
+		"meaning": "TÂM",
+		"kunyomi": ["こころ"],
+		"onyomi": ["シン"],
+		"examples": [
+			{ "word": "心から", "reading": "こころから", "meaning": "từ tận trái tim" },
+			{ "word": "熱心", "reading": "ねっしん", "meaning": "nhiệt tình" },
+			{ "word": "心配する", "reading": "しんぱいする", "meaning": "lo lắng" },
+			{ "word": "安心する", "reading": "あんしんする", "meaning": "yên tâm" }
+		]
+	},
+	{
+		"word": "自",
+		"meaning": "TỰ",
+		"kunyomi": ["みずか"],
+		"onyomi": ["シ", "ジ"],
+		"examples": [
+			{ "word": "自分", "reading": "じぶん", "meaning": "bản thân mình" },
+			{ "word": "自由", "reading": "じゆう", "meaning": "tự do" },
+			{ "word": "自然", "reading": "しぜん", "meaning": "tự nhiên" },
+			{ "word": "自転車", "reading": "じてんしゃ", "meaning": "xe đạp" },
+			{ "word": "自動車", "reading": "じどうしゃ", "meaning": "xe ô tô" }
+		]
+	},
+	{
+		"word": "声",
+		"meaning": "THANH",
+		"kunyomi": ["こえ"],
+		"onyomi": ["セイ", "ショウ"],
+		"examples": [
+			{ "word": "声", "reading": "こえ", "meaning": "tiếng" }
+		]
+	},
+	{
+		"word": "服",
+		"meaning": "PHỤC",
+		"kunyomi": [],
+		"onyomi": ["フク"],
+		"examples": [
+			{ "word": "服", "reading": "ふく", "meaning": "quần áo" },
+			{ "word": "洋服", "reading": "ようふく", "meaning": "Âu phục" }
+		]
+	},
+	{
+		"word": "毛",
+		"meaning": "MAO",
+		"kunyomi": ["け"],
+		"onyomi": ["モウ"],
+		"examples": [
+			{ "word": "毛", "reading": "け", "meaning": "lông" },
+			{ "word": "毛糸", "reading": "けいと", "meaning": "sợi len" }
+		]
+	},
+	{
+		"word": "糸",
+		"meaning": "MỊCH",
+		"kunyomi": ["いと"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "糸", "reading": "いと", "meaning": "sợi chỉ" },
+			{ "word": "毛糸", "reading": "けいと", "meaning": "sợi len" }
+		]
+	},
+	{
+		"word": "科",
+		"meaning": "KHOA",
+		"kunyomi": [],
+		"onyomi": ["カ"],
+		"examples": [
+			{ "word": "科学", "reading": "かがく", "meaning": "khoa học" }
+		]
+	},
+	{
+		"word": "鳴",
+		"meaning": "MINH",
+		"kunyomi": ["な[る]"],
+		"onyomi": ["メイ"],
+		"examples": [
+			{ "word": "鳴る", "reading": "なる", "meaning": "reo, kêu, hót" }
+		]
+	},
+	{
+		"word": "道",
+		"meaning": "ĐẠO",
+		"kunyomi": ["みち"],
+		"onyomi": ["ドウ"],
+		"examples": [
+			{ "word": "道", "reading": "みち", "meaning": "đường, con đường" },
+			{ "word": "道具", "reading": "どうぐ", "meaning": "dụng cụ" },
+			{ "word": "水道", "reading": "すいどう", "meaning": "nước máy" },
+			{ "word": "剣道", "reading": "けんどう", "meaning": "kiếm đạo" },
+			{ "word": "柔道", "reading": "じゅうどう", "meaning": "võ Judo" }
+		]
+	},
+	{
+		"word": "村",
+		"meaning": "THÔN",
+		"kunyomi": ["むら"],
+		"onyomi": ["ソン"],
+		"examples": [
+			{ "word": "村", "reading": "むら", "meaning": "làng" }
+		]
+	},
+	{
+		"word": "区",
+		"meaning": "KHU",
+		"kunyomi": [],
+		"onyomi": ["ク"],
+		"examples": [
+			{ "word": "区", "reading": "く", "meaning": "khu, quận, huyện" }
+		]
+	},
+	{
+		"word": "市",
+		"meaning": "THỊ",
+		"kunyomi": ["いち"],
+		"onyomi": ["シ"],
+		"examples": [
+			{ "word": "市役所", "reading": "しやくしょ", "meaning": "toà thị chính" }
+		]
+	},
+	{
+		"word": "都",
+		"meaning": "ĐÔ",
+		"kunyomi": ["みやこ"],
+		"onyomi": ["ツ", "ト"],
+		"examples": [
+			{ "word": "都会", "reading": "とかい", "meaning": "thành phố" },
+			{ "word": "都合", "reading": "つごう", "meaning": "thuận tiện" }
+		]
+	},
+	{
+		"word": "県",
+		"meaning": "HUYỆN",
+		"kunyomi": [],
+		"onyomi": ["ケン"],
+		"examples": [
+			{ "word": "県", "reading": "けん", "meaning": "tỉnh" }
+		]
+	},
+	{
+		"word": "府",
+		"meaning": "PHỦ",
+		"kunyomi": [],
+		"onyomi": ["フ"],
+		"examples": [
+			{ "word": "府", "reading": "ふ", "meaning": "phủ" }
+		]
+	},
+	{
+		"word": "京",
+		"meaning": "KINH",
+		"kunyomi": [],
+		"onyomi": ["キョウ", "ケイ", "キン"],
+		"examples": [
+			{ "word": "東京", "reading": "とうきょう", "meaning": "Tokyo" }
+		]
+	},
+	{
+		"word": "衣",
+		"meaning": "Y",
+		"kunyomi": [],
+		"onyomi": ["イ"],
+		"examples": [
+			{ "word": "衣服", "reading": "いふく", "meaning": "y phục, quần áo" }
+		]
+	},
+	{
+		"word": "光",
+		"meaning": "QUANG",
+		"kunyomi": ["ひかり"],
+		"onyomi": ["コウ"],
+		"examples": [
+			{ "word": "光", "reading": "ひかり", "meaning": "ánh sáng" },
+			{ "word": "日光", "reading": "にっこう", "meaning": "ánh mặt trời" },
+			{ "word": "観光地", "reading": "かんこうち", "meaning": "địa điểm tham quan" }
+		]
+	},
+	{
+		"word": "雲",
+		"meaning": "VÂN",
+		"kunyomi": ["くも"],
+		"onyomi": ["ウン"],
+		"examples": [
+			{ "word": "雲", "reading": "くも", "meaning": "mây" }
+		]
+	},
+	{
+		"word": "王",
+		"meaning": "VƯƠNG",
+		"kunyomi": [],
+		"onyomi": ["オウ"],
+		"examples": [
+			{ "word": "国王", "reading": "こくおう", "meaning": "vua" }
+		]
+	},
+	{
+		"word": "草",
+		"meaning": "THẢO",
+		"kunyomi": ["くさ"],
+		"onyomi": ["ソウ"],
+		"examples": [
+			{ "word": "草", "reading": "くさ", "meaning": "cỏ" }
+		]
+	},
+	{
+		"word": "湖",
+		"meaning": "HỒ",
+		"kunyomi": ["みずうみ"],
+		"onyomi": ["コ"],
+		"examples": [
+			{ "word": "湖", "reading": "みずうみ", "meaning": "hồ" }
+		]
+	},
+	{
+		"word": "谷",
+		"meaning": "CỐC",
+		"kunyomi": ["たに"],
+		"onyomi": ["コク"],
+		"examples": [
+			{ "word": "谷", "reading": "たに", "meaning": "thung lũng" }
+		]
+	},
+	{
+		"word": "虫",
+		"meaning": "TRÙNG",
+		"kunyomi": ["むし"],
+		"onyomi": ["チュウ"],
+		"examples": [
+			{ "word": "虫", "reading": "むし", "meaning": "côn trùng" }
+		]
+	},
+	{
+		"word": "羽",
+		"meaning": "VŨ",
+		"kunyomi": ["は", "はね"],
+		"onyomi": ["ウ"],
+		"examples": [
+			{ "word": "羽", "reading": "はね", "meaning": "cánh" }
+		]
+	}
+]
