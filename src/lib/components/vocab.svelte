@@ -3,7 +3,7 @@
 	import type { Dictionary, WordDefinition } from '$lib/types/vocab';
 	import { toHiragana, toKatakana } from 'wanakana';
 	import AddToDeckModal from './flashcard/add-to-deck-modal.svelte';
-	import { getAllCards, getAllDecks, deleteCard } from '$lib/flashcard';
+	import { getAllCards, getAllDecks, deleteCard, deleteCards } from '$lib/flashcard';
 
 	let {
 		kotobas,
@@ -100,6 +100,113 @@
 		}
 	}
 
+	// Bulk action state
+	let bulkAddModalOpen = $state(false);
+	let bulkWordsToAdd = $state<WordDefinition[]>([]);
+	let bulkConfirmOpen = $state(false);
+	let bulkConfirmMessage = $state('');
+	let bulkConfirmAction = $state<() => void>(() => {});
+	let bulkRemoving = $state(false);
+
+	// Count words not in any deck
+	let wordsToAddCount = $derived.by(() => {
+		if (!level || !unit) return 0;
+		return kotobas.filter((w) => {
+			const actualUnit = w._unit ?? unit;
+			return !vocabLookup.has(makeKey(level, actualUnit, w.word));
+		}).length;
+	});
+
+	// Count words in decks (and collect their info for removal)
+	let wordsInDecks = $derived.by(() => {
+		if (!level || !unit) return [];
+		return kotobas
+			.map((w) => {
+				const actualUnit = w._unit ?? unit;
+				const info = vocabLookup.get(makeKey(level, actualUnit, w.word));
+				return info ? { word: w, info, actualUnit } : null;
+			})
+			.filter((item): item is NonNullable<typeof item> => item !== null);
+	});
+
+	function handleAddAll() {
+		// Check if this is "all" or range view - show confirmation first
+		if (unit === 'all' || unit.includes('-') || unit.includes(',')) {
+			bulkConfirmMessage = `Thêm ${wordsToAddCount} từ từ ${unit}?`;
+			bulkConfirmAction = () => {
+				bulkConfirmOpen = false;
+				proceedWithAddAll();
+			};
+			bulkConfirmOpen = true;
+			return;
+		}
+		proceedWithAddAll();
+	}
+
+	function proceedWithAddAll() {
+		// Filter words not in any deck
+		const newWords = kotobas.filter((w) => {
+			const actualUnit = w._unit ?? unit;
+			return !vocabLookup.has(makeKey(level, actualUnit, w.word));
+		});
+		bulkWordsToAdd = newWords;
+		bulkAddModalOpen = true;
+	}
+
+	function handleBulkAddSuccess(
+		results: { cardId: string; word: string; actualUnit: string }[],
+		deckId: string,
+		deckName: string
+	) {
+		// Update vocabLookup for all added words
+		for (const result of results) {
+			vocabLookup.set(makeKey(level, result.actualUnit, result.word), {
+				cardId: result.cardId,
+				deckId,
+				deckName
+			});
+		}
+		vocabLookup = new Map(vocabLookup); // trigger reactivity
+		bulkWordsToAdd = [];
+	}
+
+	function handleRemoveAll() {
+		const toRemove = wordsInDecks;
+		if (toRemove.length === 0) return;
+
+		// Show confirmation (always for remove)
+		const isAllView = unit === 'all' || unit.includes('-') || unit.includes(',');
+		bulkConfirmMessage = isAllView
+			? `Xóa ${toRemove.length} từ khỏi các bộ thẻ? Tiến trình học sẽ bị mất.`
+			: `Xóa ${toRemove.length} từ khỏi các bộ thẻ? Tiến trình học sẽ bị mất.`;
+
+		bulkConfirmAction = async () => {
+			bulkConfirmOpen = false;
+			await proceedWithRemoveAll(toRemove);
+		};
+		bulkConfirmOpen = true;
+	}
+
+	async function proceedWithRemoveAll(
+		toRemove: { word: WordDefinition; info: VocabLookupInfo; actualUnit: string }[]
+	) {
+		try {
+			bulkRemoving = true;
+			const cardIds = toRemove.map((item) => item.info.cardId);
+			await deleteCards(cardIds);
+
+			// Update vocabLookup
+			for (const item of toRemove) {
+				vocabLookup.delete(makeKey(level, item.actualUnit, item.word.word));
+			}
+			vocabLookup = new Map(vocabLookup); // trigger reactivity
+		} catch (e) {
+			console.error('Failed to remove cards:', e);
+		} finally {
+			bulkRemoving = false;
+		}
+	}
+
 	let searchTerm = $state('');
 
 	// Filter function that searches across word, reading, meaning, and romaji
@@ -162,6 +269,29 @@
 				bind:value={searchTerm}
 			/>
 		</div>
+		{#if level && unit}
+			<div class="flex items-center gap-2">
+				<button
+					type="button"
+					class="btn btn-primary btn-sm"
+					onclick={handleAddAll}
+					disabled={lookupLoading || bulkRemoving || wordsToAddCount === 0}
+				>
+					Thêm tất cả ({wordsToAddCount})
+				</button>
+				<button
+					type="button"
+					class="btn btn-outline btn-error btn-sm"
+					onclick={handleRemoveAll}
+					disabled={lookupLoading || bulkRemoving || wordsInDecks.length === 0}
+				>
+					{#if bulkRemoving}
+						<span class="loading loading-spinner loading-xs"></span>
+					{/if}
+					Xóa tất cả ({wordsInDecks.length})
+				</button>
+			</div>
+		{/if}
 		<div class="badge badge-neutral">
 			{filteredKotobas.length} / {kotobas.length}
 		</div>
@@ -288,6 +418,39 @@
 		</div>
 		<form method="dialog" class="modal-backdrop">
 			<button type="button" onclick={() => (removeDialogOpen = false)}>close</button>
+		</form>
+	</div>
+{/if}
+
+<!-- Bulk Add Modal -->
+{#if level && unit}
+	<AddToDeckModal
+		bind:open={bulkAddModalOpen}
+		word={null}
+		bulkWords={bulkWordsToAdd}
+		{level}
+		{unit}
+		onBulkSuccess={handleBulkAddSuccess}
+	/>
+{/if}
+
+<!-- Bulk Confirmation Dialog -->
+{#if bulkConfirmOpen}
+	<div class="modal modal-open">
+		<div class="modal-box max-w-sm">
+			<h3 class="text-lg font-bold">Xác nhận</h3>
+			<p class="py-4">{bulkConfirmMessage}</p>
+			<div class="modal-action">
+				<button type="button" class="btn btn-ghost" onclick={() => (bulkConfirmOpen = false)}>
+					Hủy
+				</button>
+				<button type="button" class="btn btn-primary" onclick={bulkConfirmAction}>
+					Xác nhận
+				</button>
+			</div>
+		</div>
+		<form method="dialog" class="modal-backdrop">
+			<button type="button" onclick={() => (bulkConfirmOpen = false)}>close</button>
 		</form>
 	</div>
 {/if}
