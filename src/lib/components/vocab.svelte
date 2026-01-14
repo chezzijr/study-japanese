@@ -107,6 +107,7 @@
 	let bulkConfirmMessage = $state('');
 	let bulkConfirmAction = $state<() => void>(() => {});
 	let bulkRemoving = $state(false);
+	let bulkError = $state<string | null>(null);
 
 	// Count words not in any deck
 	let wordsToAddCount = $derived.by(() => {
@@ -175,10 +176,7 @@
 		if (toRemove.length === 0) return;
 
 		// Show confirmation (always for remove)
-		const isAllView = unit === 'all' || unit.includes('-') || unit.includes(',');
-		bulkConfirmMessage = isAllView
-			? `Xóa ${toRemove.length} từ khỏi các bộ thẻ? Tiến trình học sẽ bị mất.`
-			: `Xóa ${toRemove.length} từ khỏi các bộ thẻ? Tiến trình học sẽ bị mất.`;
+		bulkConfirmMessage = `Xóa ${toRemove.length} từ khỏi các bộ thẻ? Tiến trình học sẽ bị mất.`;
 
 		bulkConfirmAction = async () => {
 			bulkConfirmOpen = false;
@@ -202,6 +200,7 @@
 			vocabLookup = new Map(vocabLookup); // trigger reactivity
 		} catch (e) {
 			console.error('Failed to remove cards:', e);
+			bulkError = 'Không thể xóa thẻ. Vui lòng thử lại.';
 		} finally {
 			bulkRemoving = false;
 		}
@@ -452,5 +451,15 @@
 		<form method="dialog" class="modal-backdrop">
 			<button type="button" onclick={() => (bulkConfirmOpen = false)}>close</button>
 		</form>
+	</div>
+{/if}
+
+<!-- Bulk Error Toast -->
+{#if bulkError}
+	<div class="toast toast-end">
+		<div class="alert alert-error">
+			<span>{bulkError}</span>
+			<button class="btn btn-ghost btn-xs" onclick={() => (bulkError = null)}>x</button>
+		</div>
 	</div>
 {/if}
