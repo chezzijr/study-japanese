@@ -4,6 +4,7 @@
 	 *
 	 * Modal for adding vocabulary/kanji to a flashcard deck.
 	 * Supports selecting existing deck or creating new one.
+	 * Supports bulk mode for adding multiple words at once.
 	 */
 
 	import { base } from '$app/paths';
@@ -12,6 +13,7 @@
 		getAllDecks,
 		createDeck,
 		createCard,
+		createCards,
 		getCardsByDeck,
 		vocabToFlashcard,
 		isVocabAlreadyInDeck,
@@ -22,16 +24,28 @@
 	let {
 		open = $bindable(false),
 		word,
+		bulkWords,
 		level,
 		unit,
-		onSuccess
+		onSuccess,
+		onBulkSuccess
 	}: {
 		open: boolean;
 		word: WordDefinition | null;
+		bulkWords?: WordDefinition[];
 		level: string;
 		unit: string;
 		onSuccess?: (cardId: string, deckId: string, deckName: string, actualUnit: string) => void;
+		onBulkSuccess?: (
+			results: { cardId: string; word: string; actualUnit: string }[],
+			deckId: string,
+			deckName: string
+		) => void;
 	} = $props();
+
+	// Computed: determine if we're in bulk mode
+	let isBulkMode = $derived(bulkWords && bulkWords.length > 0);
+	let bulkCount = $derived(bulkWords?.length ?? 0);
 
 	// State
 	let decks = $state<Deck[]>([]);
@@ -61,9 +75,9 @@
 		}
 	});
 
-	// Check for duplicates when deck selection changes
+	// Check for duplicates when deck selection changes (single mode only)
 	$effect(() => {
-		if (selectedDeckId && word) {
+		if (selectedDeckId && word && !isBulkMode) {
 			checkDuplicate();
 		} else {
 			duplicateWarning = null;
@@ -122,7 +136,55 @@
 	}
 
 	async function handleAddCard() {
-		if (!selectedDeckId || !word) {
+		if (!selectedDeckId) {
+			error = 'Vui lòng chọn bộ thẻ.';
+			return;
+		}
+
+		// Bulk mode
+		if (isBulkMode && bulkWords && bulkWords.length > 0 && selectedDeckId) {
+			try {
+				loading = true;
+				error = null;
+
+				const deckId = selectedDeckId; // Capture non-null value for use in map
+				// Convert all words to flashcard data
+				const cardsData = bulkWords.map((w) => {
+					const actualUnit = w._unit ?? unit;
+					return vocabToFlashcard(w, deckId, level, actualUnit);
+				});
+
+				// Batch create all cards
+				const newCards = await createCards(cardsData);
+
+				success = true;
+				const selectedDeck = decks.find((d) => d.id === deckId);
+
+				// Build results for callback
+				const results = newCards.map((card, index) => ({
+					cardId: card.id,
+					word: bulkWords[index].word,
+					actualUnit: bulkWords[index]._unit ?? unit
+				}));
+
+				onBulkSuccess?.(results, deckId, selectedDeck?.name ?? 'Unknown');
+
+				// Close after short delay
+				setTimeout(() => {
+					open = false;
+					success = false;
+				}, 1500);
+			} catch (e) {
+				console.error('Failed to add cards in bulk:', e);
+				error = 'Không thể thêm thẻ vào bộ thẻ.';
+			} finally {
+				loading = false;
+			}
+			return;
+		}
+
+		// Single mode
+		if (!word) {
 			error = 'Vui lòng chọn bộ thẻ.';
 			return;
 		}
@@ -159,29 +221,46 @@
 	}
 </script>
 
-{#if open && word}
+{#if open && (word || isBulkMode)}
 	<!-- Modal backdrop -->
 	<div class="modal modal-open">
 		<div class="modal-box max-w-md">
 			<!-- Header -->
-			<h3 class="mb-4 text-lg font-bold">Thêm vào Flashcard</h3>
+			<h3 class="mb-4 text-lg font-bold">
+				{#if isBulkMode}
+					Thêm {bulkCount} từ vào Flashcard
+				{:else}
+					Thêm vào Flashcard
+				{/if}
+			</h3>
 
-			<!-- Card Preview -->
-			<div class="card mb-4 bg-base-200">
-				<div class="card-body p-4">
-					<div class="text-center">
-						<div class="text-2xl font-bold">{word.word}</div>
-						{#if word.reading}
-							<div class="text-sm text-base-content/60">{word.reading}</div>
-						{/if}
-						<div class="divider my-2"></div>
-						<div class="text-lg">{word.meaning}</div>
-						{#if word.note}
-							<div class="mt-2 text-sm text-base-content/50">{word.note}</div>
-						{/if}
+			<!-- Card Preview (single mode) or Summary (bulk mode) -->
+			{#if isBulkMode}
+				<div class="card mb-4 bg-base-200">
+					<div class="card-body p-4">
+						<div class="text-center">
+							<div class="text-4xl font-bold text-primary">{bulkCount}</div>
+							<div class="text-lg text-base-content/70">từ sẽ được thêm vào bộ thẻ</div>
+						</div>
 					</div>
 				</div>
-			</div>
+			{:else if word}
+				<div class="card mb-4 bg-base-200">
+					<div class="card-body p-4">
+						<div class="text-center">
+							<div class="text-2xl font-bold">{word.word}</div>
+							{#if word.reading}
+								<div class="text-sm text-base-content/60">{word.reading}</div>
+							{/if}
+							<div class="divider my-2"></div>
+							<div class="text-lg">{word.meaning}</div>
+							{#if word.note}
+								<div class="mt-2 text-sm text-base-content/50">{word.note}</div>
+							{/if}
+						</div>
+					</div>
+				</div>
+			{/if}
 
 			<!-- Success Message -->
 			{#if success}
@@ -199,7 +278,13 @@
 							d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
 						/>
 					</svg>
-					<span>Đã thêm thẻ thành công!</span>
+					<span>
+						{#if isBulkMode}
+							Đã thêm {bulkCount} thẻ thành công!
+						{:else}
+							Đã thêm thẻ thành công!
+						{/if}
+					</span>
 				</div>
 			{:else}
 				<!-- Deck Selection -->
@@ -215,8 +300,8 @@
 						</select>
 					</div>
 
-					<!-- Duplicate Warning -->
-					{#if duplicateWarning}
+					<!-- Duplicate Warning (single mode only) -->
+					{#if !isBulkMode && duplicateWarning}
 						<div class="alert alert-warning mb-4">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
@@ -334,12 +419,16 @@
 						type="button"
 						class="btn btn-primary"
 						onclick={handleAddCard}
-						disabled={loading || !selectedDeckId || !!duplicateWarning}
+						disabled={loading || !selectedDeckId || (!isBulkMode && !!duplicateWarning)}
 					>
 						{#if loading}
 							<span class="loading loading-spinner loading-sm"></span>
 						{/if}
-						Thêm thẻ
+						{#if isBulkMode}
+							Thêm {bulkCount} thẻ
+						{:else}
+							Thêm thẻ
+						{/if}
 					</button>
 				{/if}
 			</div>
