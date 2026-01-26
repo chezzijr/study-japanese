@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import { toHiragana, toKatakana } from 'wanakana';
 	import AddKanjiToDeckModal from './flashcard/add-kanji-to-deck-modal.svelte';
+	import KanjiPracticeModal from './kanji-practice-modal.svelte';
 	import { getAllCards, getAllDecks, deleteCard, type KanjiData } from '$lib/flashcard';
 
 	interface KanjiItem {
@@ -52,6 +53,15 @@
 
 	// Expanded examples state
 	let expandedKanji = $state<Set<string>>(new Set());
+
+	// Practice modal state
+	let practiceModalOpen = $state(false);
+	let practiceKanji = $state<{ word: string; meaning: string } | null>(null);
+
+	function openPracticeModal(kanji: KanjiItem) {
+		practiceKanji = { word: kanji.word, meaning: kanji.meaning };
+		practiceModalOpen = true;
+	}
 
 	function makeKey(lvl: string, kanji: string): string {
 		return `${lvl}|${kanji}`;
@@ -251,17 +261,62 @@
 						</td>
 						{#if level}
 							<td>
-								{#if lookupLoading}
-									<span class="loading loading-spinner loading-xs"></span>
-								{:else}
-									{@const existing = kanjiLookup.get(makeKey(level, kanji.word))}
-									{#if existing}
-										<div class="tooltip" data-tip="Trong: {existing.deckName}">
+								<div class="flex items-center justify-center gap-1">
+									<!-- Practice Writing Button -->
+									<button
+										type="button"
+										class="btn btn-ghost btn-xs"
+										title="Luyện viết"
+										aria-label="Luyện viết kanji {kanji.word}"
+										onclick={() => openPracticeModal(kanji)}
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke-width="2"
+											stroke="currentColor"
+											class="h-4 w-4"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 0 1 1.13-1.897L16.863 4.487Zm0 0L19.5 7.125"
+											/>
+										</svg>
+									</button>
+
+									<!-- Flashcard Buttons -->
+									{#if lookupLoading}
+										<span class="loading loading-spinner loading-xs"></span>
+									{:else}
+										{@const existing = kanjiLookup.get(makeKey(level, kanji.word))}
+										{#if existing}
+											<div class="tooltip" data-tip="Trong: {existing.deckName}">
+												<button
+													type="button"
+													class="btn btn-ghost btn-xs text-error"
+													title="Xóa khỏi Flashcard"
+													onclick={() => openRemoveDialog(kanji, existing)}
+												>
+													<svg
+														xmlns="http://www.w3.org/2000/svg"
+														fill="none"
+														viewBox="0 0 24 24"
+														stroke-width="2"
+														stroke="currentColor"
+														class="h-4 w-4"
+													>
+														<path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+													</svg>
+												</button>
+											</div>
+										{:else}
 											<button
 												type="button"
-												class="btn btn-ghost btn-xs text-error"
-												title="Xóa khỏi Flashcard"
-												onclick={() => openRemoveDialog(kanji, existing)}
+												class="btn btn-ghost btn-xs"
+												title="Thêm vào Flashcard"
+												onclick={() => openAddModal(kanji)}
 											>
 												<svg
 													xmlns="http://www.w3.org/2000/svg"
@@ -271,34 +326,16 @@
 													stroke="currentColor"
 													class="h-4 w-4"
 												>
-													<path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+													<path
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														d="M12 4.5v15m7.5-7.5h-15"
+													/>
 												</svg>
 											</button>
-										</div>
-									{:else}
-										<button
-											type="button"
-											class="btn btn-ghost btn-xs"
-											title="Thêm vào Flashcard"
-											onclick={() => openAddModal(kanji)}
-										>
-											<svg
-												xmlns="http://www.w3.org/2000/svg"
-												fill="none"
-												viewBox="0 0 24 24"
-												stroke-width="2"
-												stroke="currentColor"
-												class="h-4 w-4"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													d="M12 4.5v15m7.5-7.5h-15"
-												/>
-											</svg>
-										</button>
+										{/if}
 									{/if}
-								{/if}
+								</div>
 							</td>
 						{/if}
 					</tr>
@@ -349,4 +386,13 @@
 			<button type="button" onclick={() => (removeDialogOpen = false)}>close</button>
 		</form>
 	</div>
+{/if}
+
+<!-- Kanji Practice Modal -->
+{#if practiceKanji}
+	<KanjiPracticeModal
+		bind:open={practiceModalOpen}
+		kanji={practiceKanji.word}
+		meaning={practiceKanji.meaning}
+	/>
 {/if}
