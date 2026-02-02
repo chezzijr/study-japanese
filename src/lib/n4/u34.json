@@ -1,231 +1,260 @@
 [
-	{
-		"word": "組み立てる",
-		"reading": "くみたてる",
-		"meaning": "lắp ráp",
-		"note": "II"
-	},
-	{
-		"word": "折る",
-		"reading": "おる",
-		"meaning": "gập, bẻ",
-		"note": "I"
-	},
-	{
-		"word": "気がつく",
-		"reading": "きがつく",
-		"meaning": "để ý đến, chú ý đến (đồ để quên)",
-		"note": "I"
-	},
-	{
-		"word": "つける",
-		"meaning": "chấm (xì dầu)",
-		"note": "II"
-	},
-	{
-		"word": "見つかる",
-		"reading": "みつかる",
-		"meaning": "tìm thấy",
-		"note": "I"
-	},
-	{
-		"word": "質問する",
-		"reading": "しつもんする",
-		"meaning": "hỏi",
-		"note": "III"
-	},
-	{
-		"word": "出席する",
-		"reading": "しゅっせきする",
-		"meaning": "có mặt, tham dự (cuộc họp)",
-		"note": "III"
-	},
-	{
-		"word": "欠席する",
-		"reading": "けっせきする",
-		"meaning": "vắng mặt, không tham dự (cuộc họp)",
-		"note": "III"
-	},
-	{
-		"word": "伝える",
-		"reading": "つたえる",
-		"meaning": "nói lại, truyền đạt lại",
-		"note": "II"
-	},
-	{
-		"word": "さす",
-		"meaning": "che (ô)",
-		"note": "I"
-	},
-	{
-		"word": "磨く",
-		"reading": "みがく",
-		"meaning": "đánh (răng)",
-		"note": "I"
-	},
-	{
-		"word": "説明書",
-		"reading": "せつめいしょ",
-		"meaning": "sách hướng dẫn"
-	},
-	{
-		"word": "図",
-		"reading": "ず",
-		"meaning": "hình vẽ minh họa"
-	},
-	{
-		"word": "線",
-		"reading": "せん",
-		"meaning": "đường kẻ"
-	},
-	{
-		"word": "矢印",
-		"reading": "やじるし",
-		"meaning": "mũi tên"
-	},
-	{
-		"word": "黒",
-		"reading": "くろ",
-		"meaning": "màu đen"
-	},
-	{
-		"word": "白",
-		"reading": "しろ",
-		"meaning": "màu trắng"
-	},
-	{
-		"word": "赤",
-		"reading": "あか",
-		"meaning": "màu đỏ"
-	},
-	{
-		"word": "青",
-		"reading": "あお",
-		"meaning": "màu xanh"
-	},
-	{
-		"word": "紺",
-		"reading": "こん",
-		"meaning": "màu xanh sẫm"
-	},
-	{
-		"word": "黄色",
-		"reading": "きいろ",
-		"meaning": "màu vàng"
-	},
-	{
-		"word": "茶色",
-		"reading": "ちゃいろ",
-		"meaning": "màu nâu"
-	},
-	{
-		"word": "醤油",
-		"reading": "しょうゆ",
-		"meaning": "xì dầu"
-	},
-	{
-		"word": "材料",
-		"reading": "ざいりょう",
-		"meaning": "nguyên liệu"
-	},
-	{
-		"word": "城",
-		"reading": "しろ",
-		"meaning": "lâu đài"
-	},
-	{
-		"word": "天才",
-		"reading": "てんさい",
-		"meaning": "thiên tài"
-	},
-	{
-		"word": "お客さん",
-		"reading": "おきゃくさん",
-		"meaning": "khách hàng"
-	},
-	{
-		"word": "さっき",
-		"meaning": "lúc nãy"
-	},
-	{
-		"word": "いかがですか",
-		"meaning": "như thế nào ạ?"
-	},
-	{
-		"word": "実家",
-		"reading": "じっか",
-		"meaning": "quê"
-	},
-	{
-		"word": "計画",
-		"reading": "けいかく",
-		"meaning": "kế hoạch"
-	},
-	{
-		"word": "発音",
-		"reading": "はつおん",
-		"meaning": "phát âm"
-	},
-	{
-		"word": "レインコート",
-		"meaning": "áo mưa"
-	},
-	{
-		"word": "マフラー",
-		"meaning": "khăn quàng cổ"
-	},
-	{
-		"word": "～様",
-		"reading": "～さま",
-		"meaning": "(là cách nói lịch sự của ~さん)"
-	},
-	{
-		"word": "鶏肉",
-		"reading": "とりにく",
-		"meaning": "thịt gà"
-	},
-	{
-		"word": "玉ねぎ",
-		"reading": "たまねぎ",
-		"meaning": "hành tây"
-	},
-	{
-		"word": "調味料",
-		"reading": "ちょうみりょう",
-		"meaning": "gia vị"
-	},
-	{
-		"word": "適当な",
-		"reading": "てきとうな",
-		"meaning": "thích hợp; đại khái, qua loa"
-	},
-	{
-		"word": "火にかける",
-		"reading": "ひにかける",
-		"meaning": "bắc lên bếp",
-		"note": "II"
-	},
-	{
-		"word": "火を消す",
-		"reading": "ひをけす",
-		"meaning": "tắt bếp",
-		"note": "I"
-	},
-	{
-		"word": "煮る",
-		"reading": "にる",
-		"meaning": "nấu, ninh",
-		"note": "II"
-	},
-	{
-		"word": "載せる",
-		"reading": "のせる",
-		"meaning": "chất lên, đặt lên",
-		"note": "II"
-	},
-	{
-		"word": "丼",
-		"reading": "どんぶり",
-		"meaning": "bát tô"
-	}
+  {
+    "word": "組み立てる",
+    "reading": "くみたてる",
+    "meaning": "lắp ráp",
+    "type": "động từ II"
+  },
+  {
+    "word": "折る",
+    "reading": "おる",
+    "meaning": "gập, bẻ",
+    "type": "động từ I"
+  },
+  {
+    "word": "気がつく",
+    "reading": "きがつく",
+    "meaning": "để ý đến, chú ý đến (đồ để quên)",
+    "type": "động từ I"
+  },
+  {
+    "word": "つける",
+    "meaning": "chấm (xì dầu)",
+    "type": "động từ II"
+  },
+  {
+    "word": "見つかる",
+    "reading": "みつかる",
+    "meaning": "tìm thấy",
+    "type": "động từ I"
+  },
+  {
+    "word": "質問する",
+    "reading": "しつもんする",
+    "meaning": "hỏi",
+    "type": "động từ III"
+  },
+  {
+    "word": "出席する",
+    "reading": "しゅっせきする",
+    "meaning": "có mặt, tham dự (cuộc họp)",
+    "type": "động từ III"
+  },
+  {
+    "word": "欠席する",
+    "reading": "けっせきする",
+    "meaning": "vắng mặt, không tham dự (cuộc họp)",
+    "type": "động từ III"
+  },
+  {
+    "word": "伝える",
+    "reading": "つたえる",
+    "meaning": "nói lại, truyền đạt lại",
+    "type": "động từ II"
+  },
+  {
+    "word": "さす",
+    "meaning": "che (ô)",
+    "type": "động từ I"
+  },
+  {
+    "word": "磨く",
+    "reading": "みがく",
+    "meaning": "đánh (răng)",
+    "type": "động từ I"
+  },
+  {
+    "word": "説明書",
+    "reading": "せつめいしょ",
+    "meaning": "sách hướng dẫn",
+    "type": "danh từ"
+  },
+  {
+    "word": "図",
+    "reading": "ず",
+    "meaning": "hình vẽ minh họa",
+    "type": "danh từ"
+  },
+  {
+    "word": "線",
+    "reading": "せん",
+    "meaning": "đường kẻ",
+    "type": "danh từ"
+  },
+  {
+    "word": "矢印",
+    "reading": "やじるし",
+    "meaning": "mũi tên",
+    "type": "danh từ"
+  },
+  {
+    "word": "黒",
+    "reading": "くろ",
+    "meaning": "màu đen",
+    "type": "danh từ"
+  },
+  {
+    "word": "白",
+    "reading": "しろ",
+    "meaning": "màu trắng",
+    "type": "danh từ"
+  },
+  {
+    "word": "赤",
+    "reading": "あか",
+    "meaning": "màu đỏ",
+    "type": "danh từ"
+  },
+  {
+    "word": "青",
+    "reading": "あお",
+    "meaning": "màu xanh",
+    "type": "danh từ"
+  },
+  {
+    "word": "紺",
+    "reading": "こん",
+    "meaning": "màu xanh sẫm",
+    "type": "danh từ"
+  },
+  {
+    "word": "黄色",
+    "reading": "きいろ",
+    "meaning": "màu vàng",
+    "type": "danh từ"
+  },
+  {
+    "word": "茶色",
+    "reading": "ちゃいろ",
+    "meaning": "màu nâu",
+    "type": "danh từ"
+  },
+  {
+    "word": "醤油",
+    "reading": "しょうゆ",
+    "meaning": "xì dầu",
+    "type": "danh từ"
+  },
+  {
+    "word": "材料",
+    "reading": "ざいりょう",
+    "meaning": "nguyên liệu",
+    "type": "danh từ"
+  },
+  {
+    "word": "城",
+    "reading": "しろ",
+    "meaning": "lâu đài",
+    "type": "danh từ"
+  },
+  {
+    "word": "天才",
+    "reading": "てんさい",
+    "meaning": "thiên tài",
+    "type": "danh từ"
+  },
+  {
+    "word": "お客さん",
+    "reading": "おきゃくさん",
+    "meaning": "khách hàng",
+    "type": "danh từ"
+  },
+  {
+    "word": "さっき",
+    "meaning": "lúc nãy",
+    "type": "phó từ"
+  },
+  {
+    "word": "いかがですか",
+    "meaning": "như thế nào ạ?",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "実家",
+    "reading": "じっか",
+    "meaning": "quê",
+    "type": "danh từ"
+  },
+  {
+    "word": "計画",
+    "reading": "けいかく",
+    "meaning": "kế hoạch",
+    "type": "danh từ"
+  },
+  {
+    "word": "発音",
+    "reading": "はつおん",
+    "meaning": "phát âm",
+    "type": "danh từ"
+  },
+  {
+    "word": "レインコート",
+    "meaning": "áo mưa",
+    "type": "danh từ"
+  },
+  {
+    "word": "マフラー",
+    "meaning": "khăn quàng cổ",
+    "type": "danh từ"
+  },
+  {
+    "word": "～様",
+    "reading": "～さま",
+    "meaning": "(là cách nói lịch sự của ~さん)",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "鶏肉",
+    "reading": "とりにく",
+    "meaning": "thịt gà",
+    "type": "danh từ"
+  },
+  {
+    "word": "玉ねぎ",
+    "reading": "たまねぎ",
+    "meaning": "hành tây",
+    "type": "danh từ"
+  },
+  {
+    "word": "調味料",
+    "reading": "ちょうみりょう",
+    "meaning": "gia vị",
+    "type": "danh từ"
+  },
+  {
+    "word": "適当",
+    "reading": "てきとう",
+    "meaning": "thích hợp; đại khái, qua loa",
+    "type": "tính từ な"
+  },
+  {
+    "word": "火にかける",
+    "reading": "ひにかける",
+    "meaning": "bắc lên bếp",
+    "type": "động từ II"
+  },
+  {
+    "word": "火を消す",
+    "reading": "ひをけす",
+    "meaning": "tắt bếp",
+    "type": "động từ I"
+  },
+  {
+    "word": "煮る",
+    "reading": "にる",
+    "meaning": "nấu, ninh",
+    "type": "động từ II"
+  },
+  {
+    "word": "載せる",
+    "reading": "のせる",
+    "meaning": "chất lên, đặt lên",
+    "type": "động từ II"
+  },
+  {
+    "word": "丼",
+    "reading": "どんぶり",
+    "meaning": "bát tô",
+    "type": "danh từ"
+  }
 ]

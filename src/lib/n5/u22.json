@@ -1,154 +1,170 @@
 [
-	{
-		"word": "大変「な」",
-		"reading": "たいへん「な」",
-		"meaning": "khó khăn, vất vả"
-	},
-	{
-		"word": "台風",
-		"reading": "たいふう",
-		"meaning": "bão"
-	},
-	{
-		"word": "お土産",
-		"reading": "おみやげ",
-		"meaning": "quà"
-	},
-	{
-		"word": "スーツ",
-		"meaning": "com-lê"
-	},
-	{
-		"word": "セーター",
-		"meaning": "áo len"
-	},
-	{
-		"word": "眼鏡",
-		"reading": "めがね",
-		"meaning": "kính"
-	},
-	{
-		"word": "日",
-		"reading": "ひ",
-		"meaning": "ngày"
-	},
-	{
-		"word": "押入れ",
-		"reading": "おしいれ",
-		"meaning": "tủ âm tường"
-	},
-	{
-		"word": "地図",
-		"reading": "ちず",
-		"meaning": "bản đồ"
-	},
-	{
-		"word": "[お]寺",
-		"reading": "[お]てら",
-		"meaning": "chùa"
-	},
-	{
-		"word": "[靴を～]、[靴下を～]、[ズボンを～] 履く",
-		"reading": "[くつを～]、[くつしたを～]、[ズボンを～] はく",
-		"meaning": "đi [giày], xỏ [tất], mặc [quần]",
-		"note": "I"
-	},
-	{
-		"word": "[靴を～]、[靴下を～]、[ズボンを～] 履きます",
-		"reading": "[くつを～]、[くつしたを～]、[ズボンを～] はきます",
-		"meaning": "đi [giày], xỏ [tất], mặc [quần]",
-		"note": "I"
-	},
-	{
-		"word": "[帽子を～] 被る",
-		"reading": "[ぼうしを～] かぶる",
-		"meaning": "đội mũ",
-		"note": "I"
-	},
-	{
-		"word": "[帽子を～] 被ります",
-		"reading": "[ぼうしを～] かぶります",
-		"meaning": "đội mũ",
-		"note": "I"
-	},
-	{
-		"word": "[シャツを～] 着る",
-		"reading": "[シャツを～] きる",
-		"meaning": "mặc [áo sơ mi]",
-		"note": "II"
-	},
-	{
-		"word": "[シャツを～] 着ます",
-		"reading": "[シャツを～] きます",
-		"meaning": "mặc [áo sơ mi]",
-		"note": "II"
-	},
-	{
-		"word": "[眼鏡を～] かける",
-		"reading": "[めがねを～] かける",
-		"meaning": "đeo kính",
-		"note": "II"
-	},
-	{
-		"word": "[眼鏡を～] かけます",
-		"reading": "[めがねを～] かけます",
-		"meaning": "đeo kính",
-		"note": "II"
-	},
-	{
-		"word": "生まれる",
-		"reading": "うまれる",
-		"meaning": "được sinh ra",
-		"note": "II"
-	},
-	{
-		"word": "生まれます",
-		"reading": "うまれます",
-		"meaning": "được sinh ra",
-		"note": "II"
-	},
-	{
-		"word": "よく",
-		"meaning": "thường, hay"
-	},
-	{
-		"word": "おめでとうございます。",
-		"meaning": "Chúc mừng! (dùng để nói trong dịp sinh nhật, lễ cưới, năm mới v.v.)"
-	},
-	{
-		"word": "うーん",
-		"meaning": "Ừ ~/ Để tôi xem/ Thế nào nhỉ!"
-	},
-	{
-		"word": "怒る",
-		"reading": "おこる",
-		"meaning": "Nổi giận",
-		"note": "I"
-	},
-	{
-		"word": "怒ります",
-		"reading": "おこります",
-		"meaning": "Nổi giận",
-		"note": "I"
-	},
-	{
-		"word": "弁当",
-		"reading": "べんとう",
-		"meaning": "Cơm hộp"
-	},
-	{
-		"word": "お菓子",
-		"reading": "おかし",
-		"meaning": "Bánh kẹo"
-	},
-	{
-		"word": "コンビニ",
-		"meaning": "Cửa hàng tiện lợi"
-	},
-	{
-		"word": "復讐する",
-		"reading": "ふくしゅうする",
-		"meaning": "Ôn bài",
-		"note": "III"
-	}
+  {
+    "word": "大変「な」",
+    "reading": "たいへん「な」",
+    "meaning": "khó khăn, vất vả",
+    "type": "tính từ な"
+  },
+  {
+    "word": "台風",
+    "reading": "たいふう",
+    "meaning": "bão",
+    "type": "danh từ"
+  },
+  {
+    "word": "お土産",
+    "reading": "おみやげ",
+    "meaning": "quà",
+    "type": "danh từ"
+  },
+  {
+    "word": "スーツ",
+    "meaning": "com-lê",
+    "type": "danh từ"
+  },
+  {
+    "word": "セーター",
+    "meaning": "áo len",
+    "type": "danh từ"
+  },
+  {
+    "word": "眼鏡",
+    "reading": "めがね",
+    "meaning": "kính",
+    "type": "danh từ"
+  },
+  {
+    "word": "日",
+    "reading": "ひ",
+    "meaning": "ngày",
+    "type": "danh từ"
+  },
+  {
+    "word": "押入れ",
+    "reading": "おしいれ",
+    "meaning": "tủ âm tường",
+    "type": "danh từ"
+  },
+  {
+    "word": "地図",
+    "reading": "ちず",
+    "meaning": "bản đồ",
+    "type": "danh từ"
+  },
+  {
+    "word": "[お]寺",
+    "reading": "[お]てら",
+    "meaning": "chùa",
+    "type": "danh từ"
+  },
+  {
+    "word": "[靴を～]、[靴下を～]、[ズボンを～] 履く",
+    "reading": "[くつを～]、[くつしたを～]、[ズボンを～] はく",
+    "meaning": "đi [giày], xỏ [tất], mặc [quần]",
+    "type": "động từ I"
+  },
+  {
+    "word": "[靴を～]、[靴下を～]、[ズボンを～] 履きます",
+    "reading": "[くつを～]、[くつしたを～]、[ズボンを～] はきます",
+    "meaning": "đi [giày], xỏ [tất], mặc [quần]",
+    "type": "động từ I"
+  },
+  {
+    "word": "[帽子を～] 被る",
+    "reading": "[ぼうしを～] かぶる",
+    "meaning": "đội mũ",
+    "type": "động từ I"
+  },
+  {
+    "word": "[帽子を～] 被ります",
+    "reading": "[ぼうしを～] かぶります",
+    "meaning": "đội mũ",
+    "type": "động từ I"
+  },
+  {
+    "word": "[シャツを～] 着る",
+    "reading": "[シャツを～] きる",
+    "meaning": "mặc [áo sơ mi]",
+    "type": "động từ II"
+  },
+  {
+    "word": "[シャツを～] 着ます",
+    "reading": "[シャツを～] きます",
+    "meaning": "mặc [áo sơ mi]",
+    "type": "động từ II"
+  },
+  {
+    "word": "[眼鏡を～] かける",
+    "reading": "[めがねを～] かける",
+    "meaning": "đeo kính",
+    "type": "động từ II"
+  },
+  {
+    "word": "[眼鏡を～] かけます",
+    "reading": "[めがねを～] かけます",
+    "meaning": "đeo kính",
+    "type": "động từ II"
+  },
+  {
+    "word": "生まれる",
+    "reading": "うまれる",
+    "meaning": "được sinh ra",
+    "type": "động từ II"
+  },
+  {
+    "word": "生まれます",
+    "reading": "うまれます",
+    "meaning": "được sinh ra",
+    "type": "động từ II"
+  },
+  {
+    "word": "よく",
+    "meaning": "thường, hay",
+    "type": "phó từ"
+  },
+  {
+    "word": "おめでとうございます。",
+    "meaning": "Chúc mừng! (dùng để nói trong dịp sinh nhật, lễ cưới, năm mới v.v.)",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "うーん",
+    "meaning": "Ừ ~/ Để tôi xem/ Thế nào nhỉ!",
+    "type": "thán từ"
+  },
+  {
+    "word": "怒る",
+    "reading": "おこる",
+    "meaning": "Nổi giận",
+    "type": "động từ I"
+  },
+  {
+    "word": "怒ります",
+    "reading": "おこります",
+    "meaning": "Nổi giận",
+    "type": "động từ I"
+  },
+  {
+    "word": "弁当",
+    "reading": "べんとう",
+    "meaning": "Cơm hộp",
+    "type": "danh từ"
+  },
+  {
+    "word": "お菓子",
+    "reading": "おかし",
+    "meaning": "Bánh kẹo",
+    "type": "danh từ"
+  },
+  {
+    "word": "コンビニ",
+    "meaning": "Cửa hàng tiện lợi",
+    "type": "danh từ"
+  },
+  {
+    "word": "復習する",
+    "reading": "ふくしゅうする",
+    "meaning": "Ôn bài",
+    "type": "động từ III"
+  }
 ]

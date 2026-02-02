@@ -1,263 +1,298 @@
 [
-	{
-		"word": "運動する",
-		"reading": "うんどうする",
-		"meaning": "vận động",
-		"note": "III"
-	},
-	{
-		"word": "成功する",
-		"reading": "せいこうする",
-		"meaning": "thành công",
-		"note": "III"
-	},
-	{
-		"word": "失敗する",
-		"reading": "しっぱいする",
-		"meaning": "thất bại, trượt (kì thi)",
-		"note": "III"
-	},
-	{
-		"word": "合格する",
-		"reading": "ごうかくする",
-		"meaning": "đỗ (kì thi)",
-		"note": "III"
-	},
-	{
-		"word": "やむ",
-		"meaning": "tạnh (mưa)",
-		"note": "I"
-	},
-	{
-		"word": "晴れる",
-		"reading": "はれる",
-		"meaning": "quang đãng, nắng đẹp",
-		"note": "II"
-	},
-	{
-		"word": "曇る",
-		"reading": "くもる",
-		"meaning": "có mây",
-		"note": "I"
-	},
-	{
-		"word": "続く",
-		"reading": "つづく",
-		"meaning": "kéo dài, liên tiếp",
-		"note": "I"
-	},
-	{
-		"word": "引く",
-		"reading": "ひく",
-		"meaning": "bị cảm",
-		"note": "I"
-	},
-	{
-		"word": "冷やす",
-		"reading": "ひやす",
-		"meaning": "làm mát, làm lạnh",
-		"note": "I"
-	},
-	{
-		"word": "込む",
-		"reading": "こむ",
-		"meaning": "đông đúc",
-		"note": "I"
-	},
-	{
-		"word": "空く",
-		"reading": "すく",
-		"meaning": "vắng",
-		"note": "I"
-	},
-	{
-		"word": "当たる",
-		"reading": "あたる",
-		"meaning": "trúng (xổ số)",
-		"note": "I"
-	},
-	{
-		"word": "出る",
-		"reading": "でる",
-		"meaning": "tham gia (trận đấu)",
-		"note": "II"
-	},
-	{
-		"word": "無理をする",
-		"reading": "むりをする",
-		"meaning": "gắng sức",
-		"note": "III"
-	},
-	{
-		"word": "働き過ぎる",
-		"reading": "はたらきすぎる",
-		"meaning": "làm việc quá sức",
-		"note": "II"
-	},
-	{
-		"word": "十分",
-		"reading": "じゅうぶん",
-		"meaning": "đủ"
-	},
-	{
-		"word": "おかしい",
-		"meaning": "lạ, thú vị"
-	},
-	{
-		"word": "うるさい",
-		"meaning": "ồn ào"
-	},
-	{
-		"word": "先生",
-		"reading": "せんせい",
-		"meaning": "bác sĩ"
-	},
-	{
-		"word": "火傷",
-		"reading": "やけど",
-		"meaning": "bị bỏng"
-	},
-	{
-		"word": "怪我",
-		"reading": "けが",
-		"meaning": "(bị) thương"
-	},
-	{
-		"word": "咳",
-		"reading": "せき",
-		"meaning": "ho (bị ho)"
-	},
-	{
-		"word": "太陽",
-		"reading": "たいよう",
-		"meaning": "mặt trời"
-	},
-	{
-		"word": "石",
-		"reading": "いし",
-		"meaning": "hòn đá"
-	},
-	{
-		"word": "星",
-		"reading": "ほし",
-		"meaning": "sao"
-	},
-	{
-		"word": "風",
-		"reading": "かぜ",
-		"meaning": "gió"
-	},
-	{
-		"word": "東",
-		"reading": "ひがし",
-		"meaning": "phía Đông"
-	},
-	{
-		"word": "西",
-		"reading": "にし",
-		"meaning": "phía Tây"
-	},
-	{
-		"word": "南",
-		"reading": "みなみ",
-		"meaning": "phía Nam"
-	},
-	{
-		"word": "北",
-		"reading": "きた",
-		"meaning": "phía Bắc"
-	},
-	{
-		"word": "国際",
-		"reading": "こくさい",
-		"meaning": "quốc tế"
-	},
-	{
-		"word": "水道",
-		"reading": "すいどう",
-		"meaning": "nước máy"
-	},
-	{
-		"word": "エンジン",
-		"meaning": "động cơ"
-	},
-	{
-		"word": "チーム",
-		"meaning": "đội"
-	},
-	{
-		"word": "夕方",
-		"reading": "ゆうがた",
-		"meaning": "chiều tối"
-	},
-	{
-		"word": "昨夜",
-		"reading": "ゆうべ",
-		"meaning": "tối hôm qua"
-	},
-	{
-		"word": "遅く",
-		"reading": "おそく",
-		"meaning": "muộn"
-	},
-	{
-		"word": "こんなに",
-		"meaning": "như thế này"
-	},
-	{
-		"word": "そんなに",
-		"meaning": "như thế đó"
-	},
-	{
-		"word": "あんなに",
-		"meaning": "như thế kia"
-	},
-	{
-		"word": "元気",
-		"reading": "げんき",
-		"meaning": "khỏe mạnh"
-	},
-	{
-		"word": "胃",
-		"reading": "い",
-		"meaning": "dạ dày"
-	},
-	{
-		"word": "ストレス",
-		"meaning": "căng thẳng"
-	},
-	{
-		"word": "星占い",
-		"reading": "ほしうらない",
-		"meaning": "chiêm tinh, bói sao"
-	},
-	{
-		"word": "体調",
-		"reading": "たいちょう",
-		"meaning": "tình trạng cơ thể"
-	},
-	{
-		"word": "渋滞",
-		"reading": "じゅうたい",
-		"meaning": "tắc đường"
-	},
-	{
-		"word": "牡牛座",
-		"reading": "おうしざ",
-		"meaning": "Sao Kim ngưu"
-	},
-	{
-		"word": "健康",
-		"reading": "けんこう",
-		"meaning": "sức khỏe"
-	},
-	{
-		"word": "恋愛",
-		"reading": "れんあい",
-		"meaning": "tình yêu"
-	},
-	{
-		"word": "ラッキーアイテム",
-		"meaning": "vật mang lại may mắn"
-	}
+  {
+    "word": "運動する",
+    "reading": "うんどうする",
+    "meaning": "vận động",
+    "type": "động từ III"
+  },
+  {
+    "word": "成功する",
+    "reading": "せいこうする",
+    "meaning": "thành công",
+    "type": "động từ III"
+  },
+  {
+    "word": "失敗する",
+    "reading": "しっぱいする",
+    "meaning": "thất bại, trượt (kì thi)",
+    "type": "động từ III"
+  },
+  {
+    "word": "合格する",
+    "reading": "ごうかくする",
+    "meaning": "đỗ (kì thi)",
+    "type": "động từ III"
+  },
+  {
+    "word": "やむ",
+    "meaning": "tạnh (mưa)",
+    "type": "động từ I"
+  },
+  {
+    "word": "晴れる",
+    "reading": "はれる",
+    "meaning": "quang đãng, nắng đẹp",
+    "type": "động từ II"
+  },
+  {
+    "word": "曇る",
+    "reading": "くもる",
+    "meaning": "có mây",
+    "type": "động từ I"
+  },
+  {
+    "word": "続く",
+    "reading": "つづく",
+    "meaning": "kéo dài, liên tiếp",
+    "type": "động từ I"
+  },
+  {
+    "word": "引く",
+    "reading": "ひく",
+    "meaning": "bị cảm",
+    "type": "động từ I"
+  },
+  {
+    "word": "冷やす",
+    "reading": "ひやす",
+    "meaning": "làm mát, làm lạnh",
+    "type": "động từ I"
+  },
+  {
+    "word": "込む",
+    "reading": "こむ",
+    "meaning": "đông đúc",
+    "type": "động từ I"
+  },
+  {
+    "word": "空く",
+    "reading": "すく",
+    "meaning": "vắng",
+    "type": "động từ I"
+  },
+  {
+    "word": "当たる",
+    "reading": "あたる",
+    "meaning": "trúng (xổ số)",
+    "type": "động từ I"
+  },
+  {
+    "word": "出る",
+    "reading": "でる",
+    "meaning": "tham gia (trận đấu)",
+    "type": "động từ II"
+  },
+  {
+    "word": "無理をする",
+    "reading": "むりをする",
+    "meaning": "gắng sức",
+    "type": "động từ III"
+  },
+  {
+    "word": "働き過ぎる",
+    "reading": "はたらきすぎる",
+    "meaning": "làm việc quá sức",
+    "type": "động từ II"
+  },
+  {
+    "word": "十分",
+    "reading": "じゅうぶん",
+    "meaning": "đủ",
+    "type": "tính từ な"
+  },
+  {
+    "word": "おかしい",
+    "meaning": "lạ, thú vị",
+    "type": "tính từ い"
+  },
+  {
+    "word": "うるさい",
+    "meaning": "ồn ào",
+    "type": "tính từ い"
+  },
+  {
+    "word": "先生",
+    "reading": "せんせい",
+    "meaning": "bác sĩ",
+    "type": "danh từ"
+  },
+  {
+    "word": "火傷",
+    "reading": "やけど",
+    "meaning": "bị bỏng",
+    "type": "danh từ"
+  },
+  {
+    "word": "怪我",
+    "reading": "けが",
+    "meaning": "(bị) thương",
+    "type": "danh từ"
+  },
+  {
+    "word": "咳",
+    "reading": "せき",
+    "meaning": "ho (bị ho)",
+    "type": "danh từ"
+  },
+  {
+    "word": "太陽",
+    "reading": "たいよう",
+    "meaning": "mặt trời",
+    "type": "danh từ"
+  },
+  {
+    "word": "石",
+    "reading": "いし",
+    "meaning": "hòn đá",
+    "type": "danh từ"
+  },
+  {
+    "word": "星",
+    "reading": "ほし",
+    "meaning": "sao",
+    "type": "danh từ"
+  },
+  {
+    "word": "風",
+    "reading": "かぜ",
+    "meaning": "gió",
+    "type": "danh từ"
+  },
+  {
+    "word": "東",
+    "reading": "ひがし",
+    "meaning": "phía Đông",
+    "type": "danh từ"
+  },
+  {
+    "word": "西",
+    "reading": "にし",
+    "meaning": "phía Tây",
+    "type": "danh từ"
+  },
+  {
+    "word": "南",
+    "reading": "みなみ",
+    "meaning": "phía Nam",
+    "type": "danh từ"
+  },
+  {
+    "word": "北",
+    "reading": "きた",
+    "meaning": "phía Bắc",
+    "type": "danh từ"
+  },
+  {
+    "word": "国際",
+    "reading": "こくさい",
+    "meaning": "quốc tế",
+    "type": "danh từ"
+  },
+  {
+    "word": "水道",
+    "reading": "すいどう",
+    "meaning": "nước máy",
+    "type": "danh từ"
+  },
+  {
+    "word": "エンジン",
+    "meaning": "động cơ",
+    "type": "danh từ"
+  },
+  {
+    "word": "チーム",
+    "meaning": "đội",
+    "type": "danh từ"
+  },
+  {
+    "word": "夕方",
+    "reading": "ゆうがた",
+    "meaning": "chiều tối",
+    "type": "danh từ"
+  },
+  {
+    "word": "昨夜",
+    "reading": "ゆうべ",
+    "meaning": "tối hôm qua",
+    "type": "danh từ"
+  },
+  {
+    "word": "遅く",
+    "reading": "おそく",
+    "meaning": "muộn",
+    "type": "phó từ"
+  },
+  {
+    "word": "こんなに",
+    "meaning": "như thế này",
+    "type": "phó từ"
+  },
+  {
+    "word": "そんなに",
+    "meaning": "như thế đó",
+    "type": "phó từ"
+  },
+  {
+    "word": "あんなに",
+    "meaning": "như thế kia",
+    "type": "phó từ"
+  },
+  {
+    "word": "元気",
+    "reading": "げんき",
+    "meaning": "khỏe mạnh",
+    "type": "tính từ な"
+  },
+  {
+    "word": "胃",
+    "reading": "い",
+    "meaning": "dạ dày",
+    "type": "danh từ"
+  },
+  {
+    "word": "ストレス",
+    "meaning": "căng thẳng",
+    "type": "danh từ"
+  },
+  {
+    "word": "星占い",
+    "reading": "ほしうらない",
+    "meaning": "chiêm tinh, bói sao",
+    "type": "danh từ"
+  },
+  {
+    "word": "体調",
+    "reading": "たいちょう",
+    "meaning": "tình trạng cơ thể",
+    "type": "danh từ"
+  },
+  {
+    "word": "渋滞",
+    "reading": "じゅうたい",
+    "meaning": "tắc đường",
+    "type": "danh từ"
+  },
+  {
+    "word": "牡牛座",
+    "reading": "おうしざ",
+    "meaning": "Sao Kim ngưu",
+    "type": "danh từ"
+  },
+  {
+    "word": "健康",
+    "reading": "けんこう",
+    "meaning": "sức khỏe",
+    "type": "danh từ"
+  },
+  {
+    "word": "恋愛",
+    "reading": "れんあい",
+    "meaning": "tình yêu",
+    "type": "danh từ"
+  },
+  {
+    "word": "ラッキーアイテム",
+    "meaning": "vật mang lại may mắn",
+    "type": "danh từ"
+  }
 ]

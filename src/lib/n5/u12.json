@@ -1,208 +1,249 @@
 [
-	{
-		"word": "簡単",
-		"reading": "かんたん",
-		"meaning": "đơn giản, dễ",
-		"note": "tính từ な"
-	},
-	{
-		"word": "近い",
-		"reading": "ちかい",
-		"meaning": "gần"
-	},
-	{
-		"word": "遠い",
-		"reading": "とおい",
-		"meaning": "xa"
-	},
-	{
-		"word": "早い",
-		"reading": "はやい",
-		"meaning": "sớm, nhanh"
-	},
-	{
-		"word": "遅い",
-		"reading": "おそい",
-		"meaning": "muộn, chậm"
-	},
-	{
-		"word": "多い",
-		"reading": "おおい",
-		"meaning": "nhiều [người]",
-		"note": "人が～"
-	},
-	{
-		"word": "少ない",
-		"reading": "すくない",
-		"meaning": "ít [người]",
-		"note": "人が～"
-	},
-	{
-		"word": "暖かい",
-		"reading": "あたたかい",
-		"meaning": "ấm"
-	},
-	{
-		"word": "涼しい",
-		"reading": "すずしい",
-		"meaning": "mát"
-	},
-	{
-		"word": "甘い",
-		"reading": "あまい",
-		"meaning": "ngọt"
-	},
-	{
-		"word": "辛い",
-		"reading": "からい",
-		"meaning": "cay"
-	},
-	{
-		"word": "重い",
-		"reading": "おもい",
-		"meaning": "nặng"
-	},
-	{
-		"word": "軽い",
-		"reading": "かるい",
-		"meaning": "nhẹ"
-	},
-	{
-		"word": "良い",
-		"reading": "いい",
-		"meaning": "thích, chọn, dùng",
-		"note": "コーヒーが～"
-	},
-	{
-		"word": "背が高い",
-		"reading": "せがたかい",
-		"meaning": "cao (dùng cho người)"
-	},
-	{
-		"word": "季節",
-		"reading": "きせつ",
-		"meaning": "mùa"
-	},
-	{
-		"word": "春",
-		"reading": "はる",
-		"meaning": "mùa xuân"
-	},
-	{
-		"word": "夏",
-		"reading": "なつ",
-		"meaning": "mùa hè"
-	},
-	{
-		"word": "秋",
-		"reading": "あき",
-		"meaning": "mùa thu"
-	},
-	{
-		"word": "冬",
-		"reading": "ふゆ",
-		"meaning": "mùa đông"
-	},
-	{
-		"word": "天気",
-		"reading": "てんき",
-		"meaning": "thời tiết"
-	},
-	{
-		"word": "雨",
-		"reading": "あめ",
-		"meaning": "mưa"
-	},
-	{
-		"word": "雪",
-		"reading": "ゆき",
-		"meaning": "tuyết"
-	},
-	{
-		"word": "曇り",
-		"reading": "くもり",
-		"meaning": "trời âm u"
-	},
-	{
-		"word": "りんご",
-		"meaning": "táo"
-	},
-	{
-		"word": "オレンジ",
-		"meaning": "cam"
-	},
-	{
-		"word": "みかん",
-		"meaning": "quýt"
-	},
-	{
-		"word": "空港",
-		"reading": "くうこう",
-		"meaning": "sân bay"
-	},
-	{
-		"word": "海",
-		"reading": "うみ",
-		"meaning": "biển, đại dương"
-	},
-	{
-		"word": "世界",
-		"reading": "せかい",
-		"meaning": "thế giới"
-	},
-	{
-		"word": "パーティー",
-		"meaning": "tiệc"
-	},
-	{
-		"word": "祭り",
-		"reading": "まつり",
-		"meaning": "lễ hội"
-	},
-	{
-		"word": "スピーチ",
-		"meaning": "bài diễn thuyết, bài phát biểu"
-	},
-	{
-		"word": "テスト",
-		"meaning": "bài kiểm tra"
-	},
-	{
-		"word": "試験",
-		"reading": "しけん",
-		"meaning": "kỳ thi, bài thi"
-	},
-	{
-		"word": "一番",
-		"reading": "いちばん",
-		"meaning": "nhất"
-	},
-	{
-		"word": "どちら",
-		"meaning": "cái nào"
-	},
-	{
-		"word": "どちらも",
-		"meaning": "cả hai, cái nào cũng"
-	},
-	{
-		"word": "ずっと",
-		"meaning": "(hơn) hẳn",
-		"note": "dùng để nhấn mạnh sự khác biệt giữa hai đối tượng"
-	},
-	{
-		"word": "初めて",
-		"reading": "はじめて",
-		"meaning": "lần đầu tiên"
-	},
-	{
-		"word": "日本酒",
-		"reading": "にほんしゅ",
-		"meaning": "Rượu Nhật"
-	},
-	{
-		"word": "一生懸命",
-		"reading": "いっしょうけんめい",
-		"meaning": "Sự cố gắng hết sức"
-	}
+  {
+    "word": "簡単",
+    "reading": "かんたん",
+    "meaning": "đơn giản, dễ",
+    "type": "tính từ な"
+  },
+  {
+    "word": "近い",
+    "reading": "ちかい",
+    "meaning": "gần",
+    "type": "tính từ い"
+  },
+  {
+    "word": "遠い",
+    "reading": "とおい",
+    "meaning": "xa",
+    "type": "tính từ い"
+  },
+  {
+    "word": "早い",
+    "reading": "はやい",
+    "meaning": "sớm, nhanh",
+    "type": "tính từ い"
+  },
+  {
+    "word": "遅い",
+    "reading": "おそい",
+    "meaning": "muộn, chậm",
+    "type": "tính từ い"
+  },
+  {
+    "word": "多い",
+    "reading": "おおい",
+    "meaning": "nhiều [người]",
+    "note": "人が～",
+    "type": "tính từ い"
+  },
+  {
+    "word": "少ない",
+    "reading": "すくない",
+    "meaning": "ít [người]",
+    "note": "人が～",
+    "type": "tính từ い"
+  },
+  {
+    "word": "暖かい",
+    "reading": "あたたかい",
+    "meaning": "ấm",
+    "type": "tính từ い"
+  },
+  {
+    "word": "涼しい",
+    "reading": "すずしい",
+    "meaning": "mát",
+    "type": "tính từ い"
+  },
+  {
+    "word": "甘い",
+    "reading": "あまい",
+    "meaning": "ngọt",
+    "type": "tính từ い"
+  },
+  {
+    "word": "辛い",
+    "reading": "からい",
+    "meaning": "cay",
+    "type": "tính từ い"
+  },
+  {
+    "word": "重い",
+    "reading": "おもい",
+    "meaning": "nặng",
+    "type": "tính từ い"
+  },
+  {
+    "word": "軽い",
+    "reading": "かるい",
+    "meaning": "nhẹ",
+    "type": "tính từ い"
+  },
+  {
+    "word": "良い",
+    "reading": "いい",
+    "meaning": "thích, chọn, dùng",
+    "note": "コーヒーが～",
+    "type": "tính từ い"
+  },
+  {
+    "word": "背が高い",
+    "reading": "せがたかい",
+    "meaning": "cao (dùng cho người)",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "季節",
+    "reading": "きせつ",
+    "meaning": "mùa",
+    "type": "danh từ"
+  },
+  {
+    "word": "春",
+    "reading": "はる",
+    "meaning": "mùa xuân",
+    "type": "danh từ"
+  },
+  {
+    "word": "夏",
+    "reading": "なつ",
+    "meaning": "mùa hè",
+    "type": "danh từ"
+  },
+  {
+    "word": "秋",
+    "reading": "あき",
+    "meaning": "mùa thu",
+    "type": "danh từ"
+  },
+  {
+    "word": "冬",
+    "reading": "ふゆ",
+    "meaning": "mùa đông",
+    "type": "danh từ"
+  },
+  {
+    "word": "天気",
+    "reading": "てんき",
+    "meaning": "thời tiết",
+    "type": "danh từ"
+  },
+  {
+    "word": "雨",
+    "reading": "あめ",
+    "meaning": "mưa",
+    "type": "danh từ"
+  },
+  {
+    "word": "雪",
+    "reading": "ゆき",
+    "meaning": "tuyết",
+    "type": "danh từ"
+  },
+  {
+    "word": "曇り",
+    "reading": "くもり",
+    "meaning": "trời âm u",
+    "type": "danh từ"
+  },
+  {
+    "word": "りんご",
+    "meaning": "táo",
+    "type": "danh từ"
+  },
+  {
+    "word": "オレンジ",
+    "meaning": "cam",
+    "type": "danh từ"
+  },
+  {
+    "word": "みかん",
+    "meaning": "quýt",
+    "type": "danh từ"
+  },
+  {
+    "word": "空港",
+    "reading": "くうこう",
+    "meaning": "sân bay",
+    "type": "danh từ"
+  },
+  {
+    "word": "海",
+    "reading": "うみ",
+    "meaning": "biển, đại dương",
+    "type": "danh từ"
+  },
+  {
+    "word": "世界",
+    "reading": "せかい",
+    "meaning": "thế giới",
+    "type": "danh từ"
+  },
+  {
+    "word": "パーティー",
+    "meaning": "tiệc",
+    "type": "danh từ"
+  },
+  {
+    "word": "祭り",
+    "reading": "まつり",
+    "meaning": "lễ hội",
+    "type": "danh từ"
+  },
+  {
+    "word": "スピーチ",
+    "meaning": "bài diễn thuyết, bài phát biểu",
+    "type": "danh từ"
+  },
+  {
+    "word": "テスト",
+    "meaning": "bài kiểm tra",
+    "type": "danh từ"
+  },
+  {
+    "word": "試験",
+    "reading": "しけん",
+    "meaning": "kỳ thi, bài thi",
+    "type": "danh từ"
+  },
+  {
+    "word": "一番",
+    "reading": "いちばん",
+    "meaning": "nhất",
+    "type": "phó từ"
+  },
+  {
+    "word": "どちら",
+    "meaning": "cái nào",
+    "type": "danh từ"
+  },
+  {
+    "word": "どちらも",
+    "meaning": "cả hai, cái nào cũng",
+    "type": "phó từ"
+  },
+  {
+    "word": "ずっと",
+    "meaning": "(hơn) hẳn",
+    "note": "dùng để nhấn mạnh sự khác biệt giữa hai đối tượng",
+    "type": "phó từ"
+  },
+  {
+    "word": "初めて",
+    "reading": "はじめて",
+    "meaning": "lần đầu tiên",
+    "type": "phó từ"
+  },
+  {
+    "word": "日本酒",
+    "reading": "にほんしゅ",
+    "meaning": "Rượu Nhật",
+    "type": "danh từ"
+  },
+  {
+    "word": "一生懸命",
+    "reading": "いっしょうけんめい",
+    "meaning": "Sự cố gắng hết sức",
+    "type": "tính từ な"
+  }
 ]

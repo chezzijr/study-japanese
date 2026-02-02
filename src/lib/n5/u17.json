@@ -1,249 +1,265 @@
 [
-	{
-		"word": "広い",
-		"reading": "ひろい",
-		"meaning": "rộng"
-	},
-	{
-		"word": "狭い",
-		"reading": "せまい",
-		"meaning": "hẹp, chật"
-	},
-	{
-		"word": "痛い",
-		"reading": "いたい",
-		"meaning": "đau"
-	},
-	{
-		"word": "問題",
-		"reading": "もんだい",
-		"meaning": "vấn đề"
-	},
-	{
-		"word": "答え",
-		"reading": "こたえ",
-		"meaning": "câu trả lời"
-	},
-	{
-		"word": "荷物",
-		"reading": "にもつ",
-		"meaning": "hành lý"
-	},
-	{
-		"word": "禁煙",
-		"reading": "きんえん",
-		"meaning": "cấm hút thuốc"
-	},
-	{
-		"word": "準備",
-		"reading": "じゅんび",
-		"meaning": "chuẩn bị"
-	},
-	{
-		"word": "残業",
-		"reading": "ざんぎょう",
-		"meaning": "(làm) thêm giờ"
-	},
-	{
-		"word": "病気",
-		"reading": "びょうき",
-		"meaning": "ốm, bệnh"
-	},
-	{
-		"word": "上着",
-		"reading": "うわぎ",
-		"meaning": "áo khoác"
-	},
-	{
-		"word": "下着",
-		"reading": "したぎ",
-		"meaning": "áo lót"
-	},
-	{
-		"word": "キャベツ",
-		"meaning": "bắp cải"
-	},
-	{
-		"word": "払う",
-		"reading": "はらう",
-		"meaning": "trả tiền",
-		"note": "I"
-	},
-	{
-		"word": "払います",
-		"reading": "はらいます",
-		"meaning": "trả tiền",
-		"note": "I"
-	},
-	{
-		"word": "無くす",
-		"reading": "なくす",
-		"meaning": "mất, đánh mất",
-		"note": "I"
-	},
-	{
-		"word": "無くします",
-		"reading": "なくします",
-		"meaning": "mất, đánh mất",
-		"note": "I"
-	},
-	{
-		"word": "出す",
-		"reading": "だす",
-		"meaning": "nộp [báo cáo]",
-		"note": "I"
-	},
-	{
-		"word": "出します",
-		"reading": "だします",
-		"meaning": "nộp [báo cáo]",
-		"note": "I"
-	},
-	{
-		"word": "返す",
-		"reading": "かえす",
-		"meaning": "trả lại",
-		"note": "I"
-	},
-	{
-		"word": "返します",
-		"reading": "かえします",
-		"meaning": "trả lại",
-		"note": "I"
-	},
-	{
-		"word": "入る",
-		"reading": "はいる",
-		"meaning": "vào",
-		"note": "I"
-	},
-	{
-		"word": "入ります",
-		"reading": "はいります",
-		"meaning": "vào",
-		"note": "I"
-	},
-	{
-		"word": "脱ぐ",
-		"reading": "ぬぐ",
-		"meaning": "cởi",
-		"note": "I"
-	},
-	{
-		"word": "脱ぎます",
-		"reading": "ぬぎます",
-		"meaning": "cởi",
-		"note": "I"
-	},
-	{
-		"word": "持って行く",
-		"reading": "もっていく",
-		"meaning": "mang đi, mang theo",
-		"note": "I"
-	},
-	{
-		"word": "持って行きます",
-		"reading": "もっていきます",
-		"meaning": "mang đi, mang theo",
-		"note": "I"
-	},
-	{
-		"word": "持って来る",
-		"reading": "もってくる",
-		"meaning": "mang đến",
-		"note": "III"
-	},
-	{
-		"word": "持って来ます",
-		"reading": "もってきます",
-		"meaning": "mang đến",
-		"note": "III"
-	},
-	{
-		"word": "出かける",
-		"reading": "でかける",
-		"meaning": "ra ngoài",
-		"note": "II"
-	},
-	{
-		"word": "出かけます",
-		"reading": "でかけます",
-		"meaning": "ra ngoài",
-		"note": "II"
-	},
-	{
-		"word": "覚える",
-		"reading": "おぼえる",
-		"meaning": "nhớ",
-		"note": "II"
-	},
-	{
-		"word": "覚えます",
-		"reading": "おぼえます",
-		"meaning": "nhớ",
-		"note": "II"
-	},
-	{
-		"word": "忘れる",
-		"reading": "わすれる",
-		"meaning": "quên",
-		"note": "II"
-	},
-	{
-		"word": "忘れます",
-		"reading": "わすれます",
-		"meaning": "quên",
-		"note": "II"
-	},
-	{
-		"word": "心配する",
-		"reading": "しんぱいする",
-		"meaning": "lo lắng",
-		"note": "III"
-	},
-	{
-		"word": "心配します",
-		"reading": "しんぱいします",
-		"meaning": "lo lắng",
-		"note": "III"
-	},
-	{
-		"word": "出張する",
-		"reading": "しゅっちょうする",
-		"meaning": "đi công tác",
-		"note": "III"
-	},
-	{
-		"word": "出張します",
-		"reading": "しゅっちょうします",
-		"meaning": "đi công tác",
-		"note": "III"
-	},
-	{
-		"word": "引っ越しする",
-		"reading": "ひっこしする",
-		"meaning": "chuyển nhà",
-		"note": "III"
-	},
-	{
-		"word": "引っ越しします",
-		"reading": "ひっこしします",
-		"meaning": "chuyển nhà",
-		"note": "III"
-	},
-	{
-		"word": "自分で",
-		"reading": "じぶんで",
-		"meaning": "tự (mình)"
-	},
-	{
-		"word": "～までに",
-		"reading": "～までに",
-		"meaning": "trước ~ (chỉ thời hạn)"
-	},
-	{
-		"word": "ですから",
-		"reading": "ですから",
-		"meaning": "vì thế, vì vậy, do đó"
-	}
+  {
+    "word": "広い",
+    "reading": "ひろい",
+    "meaning": "rộng",
+    "type": "tính từ い"
+  },
+  {
+    "word": "狭い",
+    "reading": "せまい",
+    "meaning": "hẹp, chật",
+    "type": "tính từ い"
+  },
+  {
+    "word": "痛い",
+    "reading": "いたい",
+    "meaning": "đau",
+    "type": "tính từ い"
+  },
+  {
+    "word": "問題",
+    "reading": "もんだい",
+    "meaning": "vấn đề",
+    "type": "danh từ"
+  },
+  {
+    "word": "答え",
+    "reading": "こたえ",
+    "meaning": "câu trả lời",
+    "type": "danh từ"
+  },
+  {
+    "word": "荷物",
+    "reading": "にもつ",
+    "meaning": "hành lý",
+    "type": "danh từ"
+  },
+  {
+    "word": "禁煙",
+    "reading": "きんえん",
+    "meaning": "cấm hút thuốc",
+    "type": "danh từ"
+  },
+  {
+    "word": "準備",
+    "reading": "じゅんび",
+    "meaning": "chuẩn bị",
+    "type": "danh từ"
+  },
+  {
+    "word": "残業",
+    "reading": "ざんぎょう",
+    "meaning": "(làm) thêm giờ",
+    "type": "danh từ"
+  },
+  {
+    "word": "病気",
+    "reading": "びょうき",
+    "meaning": "ốm, bệnh",
+    "type": "danh từ"
+  },
+  {
+    "word": "上着",
+    "reading": "うわぎ",
+    "meaning": "áo khoác",
+    "type": "danh từ"
+  },
+  {
+    "word": "下着",
+    "reading": "したぎ",
+    "meaning": "áo lót",
+    "type": "danh từ"
+  },
+  {
+    "word": "キャベツ",
+    "meaning": "bắp cải",
+    "type": "danh từ"
+  },
+  {
+    "word": "払う",
+    "reading": "はらう",
+    "meaning": "trả tiền",
+    "type": "động từ I"
+  },
+  {
+    "word": "払います",
+    "reading": "はらいます",
+    "meaning": "trả tiền",
+    "type": "động từ I"
+  },
+  {
+    "word": "無くす",
+    "reading": "なくす",
+    "meaning": "mất, đánh mất",
+    "type": "động từ I"
+  },
+  {
+    "word": "無くします",
+    "reading": "なくします",
+    "meaning": "mất, đánh mất",
+    "type": "động từ I"
+  },
+  {
+    "word": "出す",
+    "reading": "だす",
+    "meaning": "nộp [báo cáo]",
+    "type": "động từ I"
+  },
+  {
+    "word": "出します",
+    "reading": "だします",
+    "meaning": "nộp [báo cáo]",
+    "type": "động từ I"
+  },
+  {
+    "word": "返す",
+    "reading": "かえす",
+    "meaning": "trả lại",
+    "type": "động từ I"
+  },
+  {
+    "word": "返します",
+    "reading": "かえします",
+    "meaning": "trả lại",
+    "type": "động từ I"
+  },
+  {
+    "word": "入る",
+    "reading": "はいる",
+    "meaning": "vào",
+    "type": "động từ I"
+  },
+  {
+    "word": "入ります",
+    "reading": "はいります",
+    "meaning": "vào",
+    "type": "động từ I"
+  },
+  {
+    "word": "脱ぐ",
+    "reading": "ぬぐ",
+    "meaning": "cởi",
+    "type": "động từ I"
+  },
+  {
+    "word": "脱ぎます",
+    "reading": "ぬぎます",
+    "meaning": "cởi",
+    "type": "động từ I"
+  },
+  {
+    "word": "持って行く",
+    "reading": "もっていく",
+    "meaning": "mang đi, mang theo",
+    "type": "động từ I"
+  },
+  {
+    "word": "持って行きます",
+    "reading": "もっていきます",
+    "meaning": "mang đi, mang theo",
+    "type": "động từ I"
+  },
+  {
+    "word": "持って来る",
+    "reading": "もってくる",
+    "meaning": "mang đến",
+    "type": "động từ III"
+  },
+  {
+    "word": "持って来ます",
+    "reading": "もってきます",
+    "meaning": "mang đến",
+    "type": "động từ III"
+  },
+  {
+    "word": "出かける",
+    "reading": "でかける",
+    "meaning": "ra ngoài",
+    "type": "động từ II"
+  },
+  {
+    "word": "出かけます",
+    "reading": "でかけます",
+    "meaning": "ra ngoài",
+    "type": "động từ II"
+  },
+  {
+    "word": "覚える",
+    "reading": "おぼえる",
+    "meaning": "nhớ",
+    "type": "động từ II"
+  },
+  {
+    "word": "覚えます",
+    "reading": "おぼえます",
+    "meaning": "nhớ",
+    "type": "động từ II"
+  },
+  {
+    "word": "忘れる",
+    "reading": "わすれる",
+    "meaning": "quên",
+    "type": "động từ II"
+  },
+  {
+    "word": "忘れます",
+    "reading": "わすれます",
+    "meaning": "quên",
+    "type": "động từ II"
+  },
+  {
+    "word": "心配する",
+    "reading": "しんぱいする",
+    "meaning": "lo lắng",
+    "type": "động từ III"
+  },
+  {
+    "word": "心配します",
+    "reading": "しんぱいします",
+    "meaning": "lo lắng",
+    "type": "động từ III"
+  },
+  {
+    "word": "出張する",
+    "reading": "しゅっちょうする",
+    "meaning": "đi công tác",
+    "type": "động từ III"
+  },
+  {
+    "word": "出張します",
+    "reading": "しゅっちょうします",
+    "meaning": "đi công tác",
+    "type": "động từ III"
+  },
+  {
+    "word": "引っ越しする",
+    "reading": "ひっこしする",
+    "meaning": "chuyển nhà",
+    "type": "động từ III"
+  },
+  {
+    "word": "引っ越しします",
+    "reading": "ひっこしします",
+    "meaning": "chuyển nhà",
+    "type": "động từ III"
+  },
+  {
+    "word": "自分で",
+    "reading": "じぶんで",
+    "meaning": "tự (mình)",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "～までに",
+    "reading": "～までに",
+    "meaning": "trước ~ (chỉ thời hạn)",
+    "type": "trợ từ"
+  },
+  {
+    "word": "ですから",
+    "reading": "ですから",
+    "meaning": "vì thế, vì vậy, do đó",
+    "type": "liên từ"
+  }
 ]

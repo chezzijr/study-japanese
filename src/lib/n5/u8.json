@@ -1,279 +1,313 @@
 [
-	{
-		"word": "毎週",
-		"reading": "まいしゅう",
-		"meaning": "mỗi tuần"
-	},
-	{
-		"word": "毎月",
-		"reading": "まいつき",
-		"meaning": "mỗi tháng"
-	},
-	{
-		"word": "毎年",
-		"reading": "まいとし",
-		"meaning": "mỗi năm"
-	},
-	{
-		"word": "父",
-		"reading": "ちち",
-		"meaning": "bố",
-		"note": "dùng khi nói về bố mình"
-	},
-	{
-		"word": "母",
-		"reading": "はは",
-		"meaning": "mẹ",
-		"note": "dùng khi nói về mẹ mình"
-	},
-	{
-		"word": "お父さん",
-		"reading": "おとうさん",
-		"meaning": "bố",
-		"note": "dùng khi nói về bố người khác và dùng khi xưng hô với bố mình"
-	},
-	{
-		"word": "お母さん",
-		"reading": "おかあさん",
-		"meaning": "mẹ",
-		"note": "dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình"
-	},
-	{
-		"word": "夫",
-		"reading": "おっと",
-		"meaning": "chồng",
-		"note": "mình"
-	},
-	{
-		"word": "主人",
-		"reading": "しゅじん",
-		"meaning": "chồng",
-		"note": "mình"
-	},
-	{
-		"word": "妻",
-		"reading": "つま",
-		"meaning": "vợ",
-		"note": "mình"
-	},
-	{
-		"word": "家内",
-		"reading": "かない",
-		"meaning": "vợ",
-		"note": "mình"
-	},
-	{
-		"word": "ご主人",
-		"reading": "ごしゅじん",
-		"meaning": "chồng",
-		"note": "của người khác (khi muốn hỏi hoặc giới thiệu chồng của ai đó thì sử dụng từ này)"
-	},
-	{
-		"word": "奥さん",
-		"reading": "おくさん",
-		"meaning": "vợ",
-		"note": "của người khác (khi muốn hỏi hoặc giới thiệu vợ của ai đó thì dùng từ này)"
-	},
-	{
-		"word": "手",
-		"reading": "て",
-		"meaning": "tay"
-	},
-	{
-		"word": "箸",
-		"reading": "はし",
-		"meaning": "đũa"
-	},
-	{
-		"word": "スプーン",
-		"meaning": "thìa"
-	},
-	{
-		"word": "フォーク",
-		"meaning": "dĩa, nĩa"
-	},
-	{
-		"word": "ナイフ",
-		"meaning": "dao"
-	},
-	{
-		"word": "鋏",
-		"reading": "はさみ",
-		"meaning": "kéo"
-	},
-	{
-		"word": "紙",
-		"reading": "かみ",
-		"meaning": "giấy"
-	},
-	{
-		"word": "花",
-		"reading": "はな",
-		"meaning": "hoa"
-	},
-	{
-		"word": "シャツ",
-		"meaning": "áo sơ mi"
-	},
-	{
-		"word": "プレゼント",
-		"meaning": "quà tặng"
-	},
-	{
-		"word": "切符",
-		"reading": "きっぷ",
-		"meaning": "vé"
-	},
-	{
-		"word": "お茶碗",
-		"reading": "おちゃわん",
-		"meaning": "bát"
-	},
-	{
-		"word": "お金",
-		"reading": "おかね",
-		"meaning": "tiền"
-	},
-	{
-		"word": "クリスマス",
-		"meaning": "Giáng sinh"
-	},
-	{
-		"word": "インターネット",
-		"meaning": "internet"
-	},
-	{
-		"word": "ニュース",
-		"meaning": "tin tức, bản tin"
-	},
-	{
-		"word": "切る",
-		"reading": "きる",
-		"meaning": "cắt",
-		"note": "I"
-	},
-	{
-		"word": "切ります",
-		"reading": "きります",
-		"meaning": "cắt",
-		"note": "I"
-	},
-	{
-		"word": "送る",
-		"reading": "おくる",
-		"meaning": "gửi",
-		"note": "I"
-	},
-	{
-		"word": "送ります",
-		"reading": "おくります",
-		"meaning": "gửi",
-		"note": "I"
-	},
-	{
-		"word": "貰う",
-		"reading": "もらう",
-		"meaning": "nhận",
-		"note": "I"
-	},
-	{
-		"word": "貰います",
-		"reading": "もらいます",
-		"meaning": "nhận",
-		"note": "I"
-	},
-	{
-		"word": "習う",
-		"reading": "ならう",
-		"meaning": "học",
-		"note": "I"
-	},
-	{
-		"word": "習います",
-		"reading": "ならいます",
-		"meaning": "học",
-		"note": "I"
-	},
-	{
-		"word": "貸す",
-		"reading": "かす",
-		"meaning": "cho mượn",
-		"note": "I"
-	},
-	{
-		"word": "貸します",
-		"reading": "かします",
-		"meaning": "cho mượn",
-		"note": "I"
-	},
-	{
-		"word": "上げる",
-		"reading": "あげる",
-		"meaning": "cho, tặng",
-		"note": "II"
-	},
-	{
-		"word": "上げます",
-		"reading": "あげます",
-		"meaning": "cho, tặng",
-		"note": "II"
-	},
-	{
-		"word": "教える",
-		"reading": "おしえる",
-		"meaning": "dạy",
-		"note": "I"
-	},
-	{
-		"word": "教えます",
-		"reading": "おしえます",
-		"meaning": "dạy",
-		"note": "II"
-	},
-	{
-		"word": "かける",
-		"reading": "かける",
-		"meaning": "gọi điện thoại",
-		"note": "II"
-	},
-	{
-		"word": "かけます",
-		"reading": "かけます",
-		"meaning": "gọi điện thoại",
-		"note": "II"
-	},
-	{
-		"word": "借りる",
-		"reading": "かりる",
-		"meaning": "vay, mượn",
-		"note": "II"
-	},
-	{
-		"word": "借ります",
-		"reading": "かります",
-		"meaning": "vay, mượn",
-		"note": "II"
-	},
-	{
-		"word": "もう",
-		"meaning": "đã"
-	},
-	{
-		"word": "まだ",
-		"meaning": "vẫn, chưa"
-	},
-	{
-		"word": "これから",
-		"meaning": "từ bây giờ, từ nay"
-	},
-	{
-		"word": "この間",
-		"reading": "このあいだ",
-		"meaning": "vừa rồi, hôm nọ"
-	},
-	{
-		"word": "恋人",
-		"reading": "こいびと",
-		"meaning": "người yêu"
-	}
+  {
+    "word": "毎週",
+    "reading": "まいしゅう",
+    "meaning": "mỗi tuần",
+    "type": "danh từ"
+  },
+  {
+    "word": "毎月",
+    "reading": "まいつき",
+    "meaning": "mỗi tháng",
+    "type": "danh từ"
+  },
+  {
+    "word": "毎年",
+    "reading": "まいとし",
+    "meaning": "mỗi năm",
+    "type": "danh từ"
+  },
+  {
+    "word": "父",
+    "reading": "ちち",
+    "meaning": "bố",
+    "note": "dùng khi nói về bố mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "母",
+    "reading": "はは",
+    "meaning": "mẹ",
+    "note": "dùng khi nói về mẹ mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "お父さん",
+    "reading": "おとうさん",
+    "meaning": "bố",
+    "note": "dùng khi nói về bố người khác và dùng khi xưng hô với bố mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "お母さん",
+    "reading": "おかあさん",
+    "meaning": "mẹ",
+    "note": "dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "夫",
+    "reading": "おっと",
+    "meaning": "chồng",
+    "note": "mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "主人",
+    "reading": "しゅじん",
+    "meaning": "chồng",
+    "note": "mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "妻",
+    "reading": "つま",
+    "meaning": "vợ",
+    "note": "mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "家内",
+    "reading": "かない",
+    "meaning": "vợ",
+    "note": "mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "ご主人",
+    "reading": "ごしゅじん",
+    "meaning": "chồng",
+    "note": "của người khác (khi muốn hỏi hoặc giới thiệu chồng của ai đó thì sử dụng từ này)",
+    "type": "danh từ"
+  },
+  {
+    "word": "奥さん",
+    "reading": "おくさん",
+    "meaning": "vợ",
+    "note": "của người khác (khi muốn hỏi hoặc giới thiệu vợ của ai đó thì dùng từ này)",
+    "type": "danh từ"
+  },
+  {
+    "word": "手",
+    "reading": "て",
+    "meaning": "tay",
+    "type": "danh từ"
+  },
+  {
+    "word": "箸",
+    "reading": "はし",
+    "meaning": "đũa",
+    "type": "danh từ"
+  },
+  {
+    "word": "スプーン",
+    "meaning": "thìa",
+    "type": "danh từ"
+  },
+  {
+    "word": "フォーク",
+    "meaning": "dĩa, nĩa",
+    "type": "danh từ"
+  },
+  {
+    "word": "ナイフ",
+    "meaning": "dao",
+    "type": "danh từ"
+  },
+  {
+    "word": "鋏",
+    "reading": "はさみ",
+    "meaning": "kéo",
+    "type": "danh từ"
+  },
+  {
+    "word": "紙",
+    "reading": "かみ",
+    "meaning": "giấy",
+    "type": "danh từ"
+  },
+  {
+    "word": "花",
+    "reading": "はな",
+    "meaning": "hoa",
+    "type": "danh từ"
+  },
+  {
+    "word": "シャツ",
+    "meaning": "áo sơ mi",
+    "type": "danh từ"
+  },
+  {
+    "word": "プレゼント",
+    "meaning": "quà tặng",
+    "type": "danh từ"
+  },
+  {
+    "word": "切符",
+    "reading": "きっぷ",
+    "meaning": "vé",
+    "type": "danh từ"
+  },
+  {
+    "word": "お茶碗",
+    "reading": "おちゃわん",
+    "meaning": "bát",
+    "type": "danh từ"
+  },
+  {
+    "word": "お金",
+    "reading": "おかね",
+    "meaning": "tiền",
+    "type": "danh từ"
+  },
+  {
+    "word": "クリスマス",
+    "meaning": "Giáng sinh",
+    "type": "danh từ"
+  },
+  {
+    "word": "インターネット",
+    "meaning": "internet",
+    "type": "danh từ"
+  },
+  {
+    "word": "ニュース",
+    "meaning": "tin tức, bản tin",
+    "type": "danh từ"
+  },
+  {
+    "word": "切る",
+    "reading": "きる",
+    "meaning": "cắt",
+    "type": "động từ I"
+  },
+  {
+    "word": "切ります",
+    "reading": "きります",
+    "meaning": "cắt",
+    "type": "động từ I"
+  },
+  {
+    "word": "送る",
+    "reading": "おくる",
+    "meaning": "gửi",
+    "type": "động từ I"
+  },
+  {
+    "word": "送ります",
+    "reading": "おくります",
+    "meaning": "gửi",
+    "type": "động từ I"
+  },
+  {
+    "word": "貰う",
+    "reading": "もらう",
+    "meaning": "nhận",
+    "type": "động từ I"
+  },
+  {
+    "word": "貰います",
+    "reading": "もらいます",
+    "meaning": "nhận",
+    "type": "động từ I"
+  },
+  {
+    "word": "習う",
+    "reading": "ならう",
+    "meaning": "học",
+    "type": "động từ I"
+  },
+  {
+    "word": "習います",
+    "reading": "ならいます",
+    "meaning": "học",
+    "type": "động từ I"
+  },
+  {
+    "word": "貸す",
+    "reading": "かす",
+    "meaning": "cho mượn",
+    "type": "động từ I"
+  },
+  {
+    "word": "貸します",
+    "reading": "かします",
+    "meaning": "cho mượn",
+    "type": "động từ I"
+  },
+  {
+    "word": "上げる",
+    "reading": "あげる",
+    "meaning": "cho, tặng",
+    "type": "động từ II"
+  },
+  {
+    "word": "上げます",
+    "reading": "あげます",
+    "meaning": "cho, tặng",
+    "type": "động từ II"
+  },
+  {
+    "word": "教える",
+    "reading": "おしえる",
+    "meaning": "dạy",
+    "type": "động từ II"
+  },
+  {
+    "word": "教えます",
+    "reading": "おしえます",
+    "meaning": "dạy",
+    "type": "động từ II"
+  },
+  {
+    "word": "かける",
+    "reading": "かける",
+    "meaning": "gọi điện thoại",
+    "type": "động từ II"
+  },
+  {
+    "word": "かけます",
+    "reading": "かけます",
+    "meaning": "gọi điện thoại",
+    "type": "động từ II"
+  },
+  {
+    "word": "借りる",
+    "reading": "かりる",
+    "meaning": "vay, mượn",
+    "type": "động từ II"
+  },
+  {
+    "word": "借ります",
+    "reading": "かります",
+    "meaning": "vay, mượn",
+    "type": "động từ II"
+  },
+  {
+    "word": "もう",
+    "meaning": "đã",
+    "type": "phó từ"
+  },
+  {
+    "word": "まだ",
+    "meaning": "vẫn, chưa",
+    "type": "phó từ"
+  },
+  {
+    "word": "これから",
+    "meaning": "từ bây giờ, từ nay",
+    "type": "phó từ"
+  },
+  {
+    "word": "この間",
+    "reading": "このあいだ",
+    "meaning": "vừa rồi, hôm nọ",
+    "type": "danh từ"
+  },
+  {
+    "word": "恋人",
+    "reading": "こいびと",
+    "meaning": "người yêu",
+    "type": "danh từ"
+  }
 ]

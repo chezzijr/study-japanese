@@ -39,12 +39,18 @@ export function vocabToFlashcard(
 		word: word.word
 	};
 
+	// Combine type and note into notes for flashcard display
+	const noteParts: string[] = [];
+	if (word.type) noteParts.push(word.type);
+	if (word.note) noteParts.push(word.note);
+	const notes = noteParts.length > 0 ? noteParts.join(' | ') : undefined;
+
 	return {
 		deckId,
 		front: word.word,
 		back: word.meaning,
 		frontReading: word.reading,
-		notes: word.note,
+		notes,
 		tags: [level, unit],
 		source,
 		state: { ...DEFAULT_SM2_STATE, dueDate: Date.now() }

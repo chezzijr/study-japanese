@@ -1,202 +1,227 @@
 [
-	{
-		"word": "貼る",
-		"reading": "はる",
-		"meaning": "dán",
-		"note": "I"
-	},
-	{
-		"word": "掛ける",
-		"reading": "かける",
-		"meaning": "treo",
-		"note": "II"
-	},
-	{
-		"word": "飾る",
-		"reading": "かざる",
-		"meaning": "trang trí",
-		"note": "I"
-	},
-	{
-		"word": "並べる",
-		"reading": "ならべる",
-		"meaning": "sắp xếp",
-		"note": "II"
-	},
-	{
-		"word": "植える",
-		"reading": "うえる",
-		"meaning": "trồng",
-		"note": "II"
-	},
-	{
-		"word": "戻す",
-		"reading": "もどす",
-		"meaning": "để lại",
-		"note": "I"
-	},
-	{
-		"word": "まとめる",
-		"meaning": "tóm tắt, tổng hợp/thu dọn (hành lý)",
-		"note": "II"
-	},
-	{
-		"word": "しまう",
-		"meaning": "cất",
-		"note": "I"
-	},
-	{
-		"word": "決める",
-		"reading": "きめる",
-		"meaning": "quyết định",
-		"note": "II"
-	},
-	{
-		"word": "覚める",
-		"reading": "さめる",
-		"meaning": "thức dậy, tỉnh giấc",
-		"note": "II"
-	},
-	{
-		"word": "予習する",
-		"reading": "よしゅうする",
-		"meaning": "chuẩn bị bài",
-		"note": "III"
-	},
-	{
-		"word": "復習する",
-		"reading": "ふくしゅうする",
-		"meaning": "ôn tập",
-		"note": "III"
-	},
-	{
-		"word": "そのままにする",
-		"meaning": "để nguyên như thế",
-		"note": "III"
-	},
-	{
-		"word": "授業",
-		"reading": "じゅぎょう",
-		"meaning": "giờ học"
-	},
-	{
-		"word": "講義",
-		"reading": "こうぎ",
-		"meaning": "bài giảng"
-	},
-	{
-		"word": "予定",
-		"reading": "よてい",
-		"meaning": "dự định, kế hoạch"
-	},
-	{
-		"word": "予定表",
-		"reading": "よていひょう",
-		"meaning": "lịch làm việc"
-	},
-	{
-		"word": "ごみ箱",
-		"reading": "ごみばこ",
-		"meaning": "thùng rác"
-	},
-	{
-		"word": "人形",
-		"reading": "にんぎょう",
-		"meaning": "búp bê"
-	},
-	{
-		"word": "花瓶",
-		"reading": "かびん",
-		"meaning": "bình hoa"
-	},
-	{
-		"word": "鏡",
-		"reading": "かがみ",
-		"meaning": "gương"
-	},
-	{
-		"word": "引き出し",
-		"reading": "ひきだし",
-		"meaning": "ngăn kéo"
-	},
-	{
-		"word": "玄関",
-		"reading": "げんかん",
-		"meaning": "lối vào nhà"
-	},
-	{
-		"word": "廊下",
-		"reading": "ろうか",
-		"meaning": "hành lang"
-	},
-	{
-		"word": "壁",
-		"reading": "かべ",
-		"meaning": "tường"
-	},
-	{
-		"word": "元の所",
-		"reading": "もとのところ",
-		"meaning": "chỗ cũ"
-	},
-	{
-		"word": "周り",
-		"reading": "まわり",
-		"meaning": "xung quanh"
-	},
-	{
-		"word": "真ん中",
-		"reading": "まんなか",
-		"meaning": "chính giữa"
-	},
-	{
-		"word": "隅",
-		"reading": "すみ",
-		"meaning": "góc"
-	},
-	{
-		"word": "まだ",
-		"meaning": "vẫn"
-	},
-	{
-		"word": "非常袋",
-		"reading": "ひじょうぶくろ",
-		"meaning": "túi khẩn cấp"
-	},
-	{
-		"word": "非常時",
-		"reading": "ひじょうじ",
-		"meaning": "trường hợp khẩn cấp"
-	},
-	{
-		"word": "嬉しい",
-		"reading": "うれしい",
-		"meaning": "vui vẻ"
-	},
-	{
-		"word": "ミーティング",
-		"meaning": "cuộc họp"
-	},
-	{
-		"word": "ガイドブック",
-		"meaning": "sách hướng dẫn du lịch"
-	},
-	{
-		"word": "カレンダー",
-		"meaning": "lịch"
-	},
-	{
-		"word": "ポスター",
-		"meaning": "poster"
-	},
-	{
-		"word": "リュック",
-		"meaning": "ba lô"
-	},
-	{
-		"word": "夢を見る",
-		"reading": "ゆめをみる",
-		"meaning": "ngủ mơ",
-		"note": "II"
-	}
+  {
+    "word": "貼る",
+    "reading": "はる",
+    "meaning": "dán",
+    "type": "động từ I"
+  },
+  {
+    "word": "掛ける",
+    "reading": "かける",
+    "meaning": "treo",
+    "type": "động từ II"
+  },
+  {
+    "word": "飾る",
+    "reading": "かざる",
+    "meaning": "trang trí",
+    "type": "động từ I"
+  },
+  {
+    "word": "並べる",
+    "reading": "ならべる",
+    "meaning": "sắp xếp",
+    "type": "động từ II"
+  },
+  {
+    "word": "植える",
+    "reading": "うえる",
+    "meaning": "trồng",
+    "type": "động từ II"
+  },
+  {
+    "word": "戻す",
+    "reading": "もどす",
+    "meaning": "để lại",
+    "type": "động từ I"
+  },
+  {
+    "word": "まとめる",
+    "meaning": "tóm tắt, tổng hợp/thu dọn (hành lý)",
+    "type": "động từ II"
+  },
+  {
+    "word": "しまう",
+    "meaning": "cất",
+    "type": "động từ I"
+  },
+  {
+    "word": "決める",
+    "reading": "きめる",
+    "meaning": "quyết định",
+    "type": "động từ II"
+  },
+  {
+    "word": "覚める",
+    "reading": "さめる",
+    "meaning": "thức dậy, tỉnh giấc",
+    "type": "động từ II"
+  },
+  {
+    "word": "予習する",
+    "reading": "よしゅうする",
+    "meaning": "chuẩn bị bài",
+    "type": "động từ III"
+  },
+  {
+    "word": "復習する",
+    "reading": "ふくしゅうする",
+    "meaning": "ôn tập",
+    "type": "động từ III"
+  },
+  {
+    "word": "そのままにする",
+    "meaning": "để nguyên như thế",
+    "type": "động từ III"
+  },
+  {
+    "word": "授業",
+    "reading": "じゅぎょう",
+    "meaning": "giờ học",
+    "type": "danh từ"
+  },
+  {
+    "word": "講義",
+    "reading": "こうぎ",
+    "meaning": "bài giảng",
+    "type": "danh từ"
+  },
+  {
+    "word": "予定",
+    "reading": "よてい",
+    "meaning": "dự định, kế hoạch",
+    "type": "danh từ"
+  },
+  {
+    "word": "予定表",
+    "reading": "よていひょう",
+    "meaning": "lịch làm việc",
+    "type": "danh từ"
+  },
+  {
+    "word": "ごみ箱",
+    "reading": "ごみばこ",
+    "meaning": "thùng rác",
+    "type": "danh từ"
+  },
+  {
+    "word": "人形",
+    "reading": "にんぎょう",
+    "meaning": "búp bê",
+    "type": "danh từ"
+  },
+  {
+    "word": "花瓶",
+    "reading": "かびん",
+    "meaning": "bình hoa",
+    "type": "danh từ"
+  },
+  {
+    "word": "鏡",
+    "reading": "かがみ",
+    "meaning": "gương",
+    "type": "danh từ"
+  },
+  {
+    "word": "引き出し",
+    "reading": "ひきだし",
+    "meaning": "ngăn kéo",
+    "type": "danh từ"
+  },
+  {
+    "word": "玄関",
+    "reading": "げんかん",
+    "meaning": "lối vào nhà",
+    "type": "danh từ"
+  },
+  {
+    "word": "廊下",
+    "reading": "ろうか",
+    "meaning": "hành lang",
+    "type": "danh từ"
+  },
+  {
+    "word": "壁",
+    "reading": "かべ",
+    "meaning": "tường",
+    "type": "danh từ"
+  },
+  {
+    "word": "元の所",
+    "reading": "もとのところ",
+    "meaning": "chỗ cũ",
+    "type": "danh từ"
+  },
+  {
+    "word": "周り",
+    "reading": "まわり",
+    "meaning": "xung quanh",
+    "type": "danh từ"
+  },
+  {
+    "word": "真ん中",
+    "reading": "まんなか",
+    "meaning": "chính giữa",
+    "type": "danh từ"
+  },
+  {
+    "word": "隅",
+    "reading": "すみ",
+    "meaning": "góc",
+    "type": "danh từ"
+  },
+  {
+    "word": "まだ",
+    "meaning": "vẫn",
+    "type": "phó từ"
+  },
+  {
+    "word": "非常袋",
+    "reading": "ひじょうぶくろ",
+    "meaning": "túi khẩn cấp",
+    "type": "danh từ"
+  },
+  {
+    "word": "非常時",
+    "reading": "ひじょうじ",
+    "meaning": "trường hợp khẩn cấp",
+    "type": "danh từ"
+  },
+  {
+    "word": "嬉しい",
+    "reading": "うれしい",
+    "meaning": "vui vẻ",
+    "type": "tính từ い"
+  },
+  {
+    "word": "ミーティング",
+    "meaning": "cuộc họp",
+    "type": "danh từ"
+  },
+  {
+    "word": "ガイドブック",
+    "meaning": "sách hướng dẫn du lịch",
+    "type": "danh từ"
+  },
+  {
+    "word": "カレンダー",
+    "meaning": "lịch",
+    "type": "danh từ"
+  },
+  {
+    "word": "ポスター",
+    "meaning": "poster",
+    "type": "danh từ"
+  },
+  {
+    "word": "リュック",
+    "meaning": "ba lô",
+    "type": "danh từ"
+  },
+  {
+    "word": "夢を見る",
+    "reading": "ゆめをみる",
+    "meaning": "ngủ mơ",
+    "type": "động từ II"
+  }
 ]

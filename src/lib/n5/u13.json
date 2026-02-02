@@ -1,193 +1,210 @@
 [
-	{
-		"word": "欲しい",
-		"reading": "ほしい",
-		"meaning": "muốn có"
-	},
-	{
-		"word": "寂しい",
-		"reading": "さびしい",
-		"meaning": "buồn, cô đơn"
-	},
-	{
-		"word": "眠い",
-		"reading": "ねむい",
-		"meaning": "buồn ngủ"
-	},
-	{
-		"word": "校長",
-		"reading": "こうちょう",
-		"meaning": "hiệu trưởng"
-	},
-	{
-		"word": "経済",
-		"reading": "けいざい",
-		"meaning": "kinh tế"
-	},
-	{
-		"word": "美術",
-		"reading": "びじゅつ",
-		"meaning": "mỹ thuật"
-	},
-	{
-		"word": "釣り",
-		"reading": "つり",
-		"meaning": "câu cá"
-	},
-	{
-		"word": "スキー",
-		"meaning": "trượt tuyết"
-	},
-	{
-		"word": "市役所",
-		"reading": "しやくしょ",
-		"meaning": "tòa nhà thị chính"
-	},
-	{
-		"word": "プール",
-		"meaning": "bể bơi"
-	},
-	{
-		"word": "川",
-		"reading": "かわ",
-		"meaning": "sông"
-	},
-	{
-		"word": "刺身",
-		"reading": "さしみ",
-		"meaning": "sashimi"
-	},
-	{
-		"word": "牛丼",
-		"reading": "ぎゅうどん",
-		"meaning": "cơm thịt bò"
-	},
-	{
-		"word": "牛乳",
-		"reading": "ぎゅうにゅう",
-		"meaning": "sữa"
-	},
-	{
-		"word": "遊ぶ",
-		"reading": "あそぶ",
-		"meaning": "chơi",
-		"note": "I"
-	},
-	{
-		"word": "遊びます",
-		"reading": "あそびます",
-		"meaning": "chơi",
-		"note": "I"
-	},
-	{
-		"word": "泳ぐ",
-		"reading": "およぐ",
-		"meaning": "bơi",
-		"note": "I"
-	},
-	{
-		"word": "泳ぎます",
-		"reading": "およぎます",
-		"meaning": "bơi",
-		"note": "I"
-	},
-	{
-		"word": "出す",
-		"reading": "だす",
-		"meaning": "gửi [thư]",
-		"note": "I"
-	},
-	{
-		"word": "出します",
-		"reading": "だします",
-		"meaning": "gửi [thư]",
-		"note": "I"
-	},
-	{
-		"word": "入る",
-		"reading": "はいる",
-		"meaning": "vào [quán giải khát]",
-		"note": "I"
-	},
-	{
-		"word": "入ります",
-		"reading": "はいります",
-		"meaning": "vào [quán giải khát]",
-		"note": "I"
-	},
-	{
-		"word": "出る",
-		"reading": "でる",
-		"meaning": "ra, ra khỏi [quán giải khát]",
-		"note": "II"
-	},
-	{
-		"word": "出ます",
-		"reading": "でます",
-		"meaning": "ra, ra khỏi [quán giải khát]",
-		"note": "II"
-	},
-	{
-		"word": "迎える",
-		"reading": "むかえる",
-		"meaning": "đón",
-		"note": "II"
-	},
-	{
-		"word": "迎えます",
-		"reading": "むかえます",
-		"meaning": "đón",
-		"note": "II"
-	},
-	{
-		"word": "結婚する",
-		"reading": "けっこんする",
-		"meaning": "kết hôn, lập gia đình",
-		"note": "III"
-	},
-	{
-		"word": "結婚します",
-		"reading": "けっこんします",
-		"meaning": "kết hôn, lập gia đình",
-		"note": "III"
-	},
-	{
-		"word": "買い物する",
-		"reading": "かいものする",
-		"meaning": "mua sắm",
-		"note": "III"
-	},
-	{
-		"word": "買い物します",
-		"reading": "かいものします",
-		"meaning": "mua sắm",
-		"note": "III"
-	},
-	{
-		"word": "散歩する",
-		"reading": "さんぽする",
-		"meaning": "đi dạo [ở công viên]",
-		"note": "III"
-	},
-	{
-		"word": "散歩します",
-		"reading": "さんぽします",
-		"meaning": "đi dạo [ở công viên]",
-		"note": "III"
-	},
-	{
-		"word": "何か",
-		"reading": "なにか",
-		"meaning": "cái gì đó"
-	},
-	{
-		"word": "どこか",
-		"reading": "どこか",
-		"meaning": "đâu đó, chỗ nào đó"
-	},
-	{
-		"word": "また",
-		"reading": "また",
-		"meaning": "lại"
-	}
+  {
+    "word": "欲しい",
+    "reading": "ほしい",
+    "meaning": "muốn có",
+    "type": "tính từ い"
+  },
+  {
+    "word": "寂しい",
+    "reading": "さびしい",
+    "meaning": "buồn, cô đơn",
+    "type": "tính từ い"
+  },
+  {
+    "word": "眠い",
+    "reading": "ねむい",
+    "meaning": "buồn ngủ",
+    "type": "tính từ い"
+  },
+  {
+    "word": "校長",
+    "reading": "こうちょう",
+    "meaning": "hiệu trưởng",
+    "type": "danh từ"
+  },
+  {
+    "word": "経済",
+    "reading": "けいざい",
+    "meaning": "kinh tế",
+    "type": "danh từ"
+  },
+  {
+    "word": "美術",
+    "reading": "びじゅつ",
+    "meaning": "mỹ thuật",
+    "type": "danh từ"
+  },
+  {
+    "word": "釣り",
+    "reading": "つり",
+    "meaning": "câu cá",
+    "type": "danh từ"
+  },
+  {
+    "word": "スキー",
+    "meaning": "trượt tuyết",
+    "type": "danh từ"
+  },
+  {
+    "word": "市役所",
+    "reading": "しやくしょ",
+    "meaning": "tòa nhà thị chính",
+    "type": "danh từ"
+  },
+  {
+    "word": "プール",
+    "meaning": "bể bơi",
+    "type": "danh từ"
+  },
+  {
+    "word": "川",
+    "reading": "かわ",
+    "meaning": "sông",
+    "type": "danh từ"
+  },
+  {
+    "word": "刺身",
+    "reading": "さしみ",
+    "meaning": "sashimi",
+    "type": "danh từ"
+  },
+  {
+    "word": "牛丼",
+    "reading": "ぎゅうどん",
+    "meaning": "cơm thịt bò",
+    "type": "danh từ"
+  },
+  {
+    "word": "牛乳",
+    "reading": "ぎゅうにゅう",
+    "meaning": "sữa",
+    "type": "danh từ"
+  },
+  {
+    "word": "遊ぶ",
+    "reading": "あそぶ",
+    "meaning": "chơi",
+    "type": "động từ I"
+  },
+  {
+    "word": "遊びます",
+    "reading": "あそびます",
+    "meaning": "chơi",
+    "type": "động từ I"
+  },
+  {
+    "word": "泳ぐ",
+    "reading": "およぐ",
+    "meaning": "bơi",
+    "type": "động từ I"
+  },
+  {
+    "word": "泳ぎます",
+    "reading": "およぎます",
+    "meaning": "bơi",
+    "type": "động từ I"
+  },
+  {
+    "word": "出す",
+    "reading": "だす",
+    "meaning": "gửi [thư]",
+    "type": "động từ I"
+  },
+  {
+    "word": "出します",
+    "reading": "だします",
+    "meaning": "gửi [thư]",
+    "type": "động từ I"
+  },
+  {
+    "word": "入る",
+    "reading": "はいる",
+    "meaning": "vào [quán giải khát]",
+    "type": "động từ I"
+  },
+  {
+    "word": "入ります",
+    "reading": "はいります",
+    "meaning": "vào [quán giải khát]",
+    "type": "động từ I"
+  },
+  {
+    "word": "出る",
+    "reading": "でる",
+    "meaning": "ra, ra khỏi [quán giải khát]",
+    "type": "động từ II"
+  },
+  {
+    "word": "出ます",
+    "reading": "でます",
+    "meaning": "ra, ra khỏi [quán giải khát]",
+    "type": "động từ II"
+  },
+  {
+    "word": "迎える",
+    "reading": "むかえる",
+    "meaning": "đón",
+    "type": "động từ II"
+  },
+  {
+    "word": "迎えます",
+    "reading": "むかえます",
+    "meaning": "đón",
+    "type": "động từ II"
+  },
+  {
+    "word": "結婚する",
+    "reading": "けっこんする",
+    "meaning": "kết hôn, lập gia đình",
+    "type": "động từ III"
+  },
+  {
+    "word": "結婚します",
+    "reading": "けっこんします",
+    "meaning": "kết hôn, lập gia đình",
+    "type": "động từ III"
+  },
+  {
+    "word": "買い物する",
+    "reading": "かいものする",
+    "meaning": "mua sắm",
+    "type": "động từ III"
+  },
+  {
+    "word": "買い物します",
+    "reading": "かいものします",
+    "meaning": "mua sắm",
+    "type": "động từ III"
+  },
+  {
+    "word": "散歩する",
+    "reading": "さんぽする",
+    "meaning": "đi dạo [ở công viên]",
+    "type": "động từ III"
+  },
+  {
+    "word": "散歩します",
+    "reading": "さんぽします",
+    "meaning": "đi dạo [ở công viên]",
+    "type": "động từ III"
+  },
+  {
+    "word": "何か",
+    "reading": "なにか",
+    "meaning": "cái gì đó",
+    "type": "danh từ"
+  },
+  {
+    "word": "どこか",
+    "reading": "どこか",
+    "meaning": "đâu đó, chỗ nào đó",
+    "type": "danh từ"
+  },
+  {
+    "word": "また",
+    "reading": "また",
+    "meaning": "lại",
+    "type": "phó từ"
+  }
 ]

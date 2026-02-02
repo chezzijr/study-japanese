@@ -1,180 +1,204 @@
 [
-	{
-		"word": "見つける",
-		"reading": "みつける",
-		"meaning": "tìm thấy",
-		"note": "II"
-	},
-	{
-		"word": "続ける",
-		"reading": "つづける",
-		"meaning": "tiếp tục",
-		"note": "II"
-	},
-	{
-		"word": "取る",
-		"reading": "とる",
-		"meaning": "xin (nghỉ)",
-		"note": "I"
-	},
-	{
-		"word": "受ける",
-		"reading": "うける",
-		"meaning": "dự (thi)",
-		"note": "II"
-	},
-	{
-		"word": "申し込む",
-		"reading": "もうしこむ",
-		"meaning": "đăng ký",
-		"note": "I"
-	},
-	{
-		"word": "休憩する",
-		"reading": "きゅうけいする",
-		"meaning": "nghỉ giải lao",
-		"note": "III"
-	},
-	{
-		"word": "残る",
-		"reading": "のこる",
-		"meaning": "sót lại, thừa lại; ở lại",
-		"note": "I"
-	},
-	{
-		"word": "卒業する",
-		"reading": "そつぎょうする",
-		"meaning": "tốt nghiệp",
-		"note": "III"
-	},
-	{
-		"word": "閉じる",
-		"reading": "とじる",
-		"meaning": "nhắm mắt",
-		"note": "II"
-	},
-	{
-		"word": "連休",
-		"reading": "れんきゅう",
-		"meaning": "kì nghỉ dài, ngày nghỉ liên tục"
-	},
-	{
-		"word": "作文",
-		"reading": "さくぶん",
-		"meaning": "bài tập làm văn"
-	},
-	{
-		"word": "発表",
-		"reading": "はっぴょう",
-		"meaning": "phát biểu, công bố"
-	},
-	{
-		"word": "展覧会",
-		"reading": "てんらんかい",
-		"meaning": "cuộc triển lãm"
-	},
-	{
-		"word": "結婚式",
-		"reading": "けっこんしき",
-		"meaning": "lễ cưới"
-	},
-	{
-		"word": "葬式",
-		"reading": "そうしき",
-		"meaning": "đám tang"
-	},
-	{
-		"word": "式",
-		"reading": "しき",
-		"meaning": "lễ"
-	},
-	{
-		"word": "本社",
-		"reading": "ほんしゃ",
-		"meaning": "trụ sở chính"
-	},
-	{
-		"word": "支店",
-		"reading": "してん",
-		"meaning": "cửa hàng chi nhánh"
-	},
-	{
-		"word": "教会",
-		"reading": "きょうかい",
-		"meaning": "nhà thờ"
-	},
-	{
-		"word": "和室",
-		"reading": "わしつ",
-		"meaning": "phòng kiểu Nhật"
-	},
-	{
-		"word": "大学院",
-		"reading": "だいがくいん",
-		"meaning": "cao học"
-	},
-	{
-		"word": "動物園",
-		"reading": "どうぶつえん",
-		"meaning": "sở thú"
-	},
-	{
-		"word": "温泉",
-		"reading": "おんせん",
-		"meaning": "suối nước nóng"
-	},
-	{
-		"word": "帰り",
-		"reading": "かえり",
-		"meaning": "sự trở về"
-	},
-	{
-		"word": "お子さん",
-		"reading": "おこさん",
-		"meaning": "con (của người khác)"
-	},
-	{
-		"word": "ずっと",
-		"meaning": "suốt"
-	},
-	{
-		"word": "入学試験",
-		"reading": "にゅうがくしけん",
-		"meaning": "kì thi đầu vào"
-	},
-	{
-		"word": "都会",
-		"reading": "とかい",
-		"meaning": "thành phố lớn"
-	},
-	{
-		"word": "記念日",
-		"reading": "きねんび",
-		"meaning": "ngày kỉ niệm"
-	},
-	{
-		"word": "プロポーズ",
-		"meaning": "cầu hôn, tỏ tình"
-	},
-	{
-		"word": "乾杯",
-		"reading": "かんぱい",
-		"meaning": "cạn ly"
-	},
-	{
-		"word": "過ぎる",
-		"reading": "すぎる",
-		"meaning": "quá",
-		"note": "II"
-	},
-	{
-		"word": "村",
-		"reading": "むら",
-		"meaning": "làng"
-	},
-	{
-		"word": "田舎",
-		"reading": "いなか",
-		"meaning": "nông thôn"
-	}
+  {
+    "word": "見つける",
+    "reading": "みつける",
+    "meaning": "tìm thấy",
+    "type": "động từ II"
+  },
+  {
+    "word": "続ける",
+    "reading": "つづける",
+    "meaning": "tiếp tục",
+    "type": "động từ II"
+  },
+  {
+    "word": "取る",
+    "reading": "とる",
+    "meaning": "xin (nghỉ)",
+    "type": "động từ I"
+  },
+  {
+    "word": "受ける",
+    "reading": "うける",
+    "meaning": "dự (thi)",
+    "type": "động từ II"
+  },
+  {
+    "word": "申し込む",
+    "reading": "もうしこむ",
+    "meaning": "đăng ký",
+    "type": "động từ I"
+  },
+  {
+    "word": "休憩する",
+    "reading": "きゅうけいする",
+    "meaning": "nghỉ giải lao",
+    "type": "động từ III"
+  },
+  {
+    "word": "残る",
+    "reading": "のこる",
+    "meaning": "sót lại, thừa lại; ở lại",
+    "type": "động từ I"
+  },
+  {
+    "word": "卒業する",
+    "reading": "そつぎょうする",
+    "meaning": "tốt nghiệp",
+    "type": "động từ III"
+  },
+  {
+    "word": "閉じる",
+    "reading": "とじる",
+    "meaning": "nhắm mắt",
+    "type": "động từ II"
+  },
+  {
+    "word": "連休",
+    "reading": "れんきゅう",
+    "meaning": "kì nghỉ dài, ngày nghỉ liên tục",
+    "type": "danh từ"
+  },
+  {
+    "word": "作文",
+    "reading": "さくぶん",
+    "meaning": "bài tập làm văn",
+    "type": "danh từ"
+  },
+  {
+    "word": "発表",
+    "reading": "はっぴょう",
+    "meaning": "phát biểu, công bố",
+    "type": "danh từ"
+  },
+  {
+    "word": "展覧会",
+    "reading": "てんらんかい",
+    "meaning": "cuộc triển lãm",
+    "type": "danh từ"
+  },
+  {
+    "word": "結婚式",
+    "reading": "けっこんしき",
+    "meaning": "lễ cưới",
+    "type": "danh từ"
+  },
+  {
+    "word": "葬式",
+    "reading": "そうしき",
+    "meaning": "đám tang",
+    "type": "danh từ"
+  },
+  {
+    "word": "式",
+    "reading": "しき",
+    "meaning": "lễ",
+    "type": "danh từ"
+  },
+  {
+    "word": "本社",
+    "reading": "ほんしゃ",
+    "meaning": "trụ sở chính",
+    "type": "danh từ"
+  },
+  {
+    "word": "支店",
+    "reading": "してん",
+    "meaning": "cửa hàng chi nhánh",
+    "type": "danh từ"
+  },
+  {
+    "word": "教会",
+    "reading": "きょうかい",
+    "meaning": "nhà thờ",
+    "type": "danh từ"
+  },
+  {
+    "word": "和室",
+    "reading": "わしつ",
+    "meaning": "phòng kiểu Nhật",
+    "type": "danh từ"
+  },
+  {
+    "word": "大学院",
+    "reading": "だいがくいん",
+    "meaning": "cao học",
+    "type": "danh từ"
+  },
+  {
+    "word": "動物園",
+    "reading": "どうぶつえん",
+    "meaning": "sở thú",
+    "type": "danh từ"
+  },
+  {
+    "word": "温泉",
+    "reading": "おんせん",
+    "meaning": "suối nước nóng",
+    "type": "danh từ"
+  },
+  {
+    "word": "帰り",
+    "reading": "かえり",
+    "meaning": "sự trở về",
+    "type": "danh từ"
+  },
+  {
+    "word": "お子さん",
+    "reading": "おこさん",
+    "meaning": "con (của người khác)",
+    "type": "danh từ"
+  },
+  {
+    "word": "ずっと",
+    "meaning": "suốt",
+    "type": "phó từ"
+  },
+  {
+    "word": "入学試験",
+    "reading": "にゅうがくしけん",
+    "meaning": "kì thi đầu vào",
+    "type": "danh từ"
+  },
+  {
+    "word": "都会",
+    "reading": "とかい",
+    "meaning": "thành phố lớn",
+    "type": "danh từ"
+  },
+  {
+    "word": "記念日",
+    "reading": "きねんび",
+    "meaning": "ngày kỉ niệm",
+    "type": "danh từ"
+  },
+  {
+    "word": "プロポーズ",
+    "meaning": "cầu hôn, tỏ tình",
+    "type": "danh từ"
+  },
+  {
+    "word": "乾杯",
+    "reading": "かんぱい",
+    "meaning": "cạn ly",
+    "type": "danh từ"
+  },
+  {
+    "word": "過ぎる",
+    "reading": "すぎる",
+    "meaning": "quá",
+    "type": "động từ II"
+  },
+  {
+    "word": "村",
+    "reading": "むら",
+    "meaning": "làng",
+    "type": "danh từ"
+  },
+  {
+    "word": "田舎",
+    "reading": "いなか",
+    "meaning": "nông thôn",
+    "type": "danh từ"
+  }
 ]

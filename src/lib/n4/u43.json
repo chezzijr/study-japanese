@@ -1,124 +1,138 @@
 [
-	{
-		"word": "増える",
-		"reading": "ふえる",
-		"meaning": "tăng (kích thước, số lượng)",
-		"note": "II"
-	},
-	{
-		"word": "減る",
-		"reading": "へる",
-		"meaning": "giảm (kích thước, số lượng)",
-		"note": "I"
-	},
-	{
-		"word": "上がる",
-		"reading": "あがる",
-		"meaning": "tăng (giá cả)",
-		"note": "I"
-	},
-	{
-		"word": "下がる",
-		"reading": "さがる",
-		"meaning": "giảm (giá cả)",
-		"note": "I"
-	},
-	{
-		"word": "切れる",
-		"reading": "きれる",
-		"meaning": "bị đứt, hết hạn",
-		"note": "II"
-	},
-	{
-		"word": "とれる",
-		"meaning": "bị tuột ra, bị bung ra",
-		"note": "II"
-	},
-	{
-		"word": "落ちる",
-		"reading": "おちる",
-		"meaning": "bị rơi",
-		"note": "II"
-	},
-	{
-		"word": "無くなる",
-		"reading": "なくなる",
-		"meaning": "hết (xăng), mất",
-		"note": "I"
-	},
-	{
-		"word": "知り合う",
-		"reading": "しりあう",
-		"meaning": "quen biết",
-		"note": "I"
-	},
-	{
-		"word": "理由",
-		"reading": "りゆう",
-		"meaning": "lý do"
-	},
-	{
-		"word": "変",
-		"reading": "へん",
-		"meaning": "lạ"
-	},
-	{
-		"word": "幸せ",
-		"reading": "しあわせ",
-		"meaning": "hạnh phúc"
-	},
-	{
-		"word": "楽",
-		"reading": "らく",
-		"meaning": "nhàn nhã"
-	},
-	{
-		"word": "うまい",
-		"meaning": "ngon"
-	},
-	{
-		"word": "まずい",
-		"meaning": "dở"
-	},
-	{
-		"word": "つまらない",
-		"meaning": "chán, không hay"
-	},
-	{
-		"word": "優しい",
-		"reading": "やさしい",
-		"meaning": "hiền lành"
-	},
-	{
-		"word": "ガソリン",
-		"meaning": "xăng"
-	},
-	{
-		"word": "火",
-		"reading": "ひ",
-		"meaning": "lửa"
-	},
-	{
-		"word": "パンフレット",
-		"meaning": "tờ rơi quảng cáo"
-	},
-	{
-		"word": "今にも",
-		"reading": "いまにも",
-		"meaning": "có vẻ, sắp ~ (đến nơi)"
-	},
-	{
-		"word": "バラ",
-		"meaning": "hoa hồng"
-	},
-	{
-		"word": "ドライブ",
-		"meaning": "lái xe ô tô"
-	},
-	{
-		"word": "謝る",
-		"reading": "あやまる",
-		"meaning": "xin lỗi",
-		"note": "I"
-	}
+  {
+    "word": "増える",
+    "reading": "ふえる",
+    "meaning": "tăng (kích thước, số lượng)",
+    "type": "động từ II"
+  },
+  {
+    "word": "減る",
+    "reading": "へる",
+    "meaning": "giảm (kích thước, số lượng)",
+    "type": "động từ I"
+  },
+  {
+    "word": "上がる",
+    "reading": "あがる",
+    "meaning": "tăng (giá cả)",
+    "type": "động từ I"
+  },
+  {
+    "word": "下がる",
+    "reading": "さがる",
+    "meaning": "giảm (giá cả)",
+    "type": "động từ I"
+  },
+  {
+    "word": "切れる",
+    "reading": "きれる",
+    "meaning": "bị đứt, hết hạn",
+    "type": "động từ II"
+  },
+  {
+    "word": "とれる",
+    "meaning": "bị tuột ra, bị bung ra",
+    "type": "động từ II"
+  },
+  {
+    "word": "落ちる",
+    "reading": "おちる",
+    "meaning": "bị rơi",
+    "type": "động từ II"
+  },
+  {
+    "word": "無くなる",
+    "reading": "なくなる",
+    "meaning": "hết (xăng), mất",
+    "type": "động từ I"
+  },
+  {
+    "word": "知り合う",
+    "reading": "しりあう",
+    "meaning": "quen biết",
+    "type": "động từ I"
+  },
+  {
+    "word": "理由",
+    "reading": "りゆう",
+    "meaning": "lý do",
+    "type": "danh từ"
+  },
+  {
+    "word": "変",
+    "reading": "へん",
+    "meaning": "lạ",
+    "type": "tính từ な"
+  },
+  {
+    "word": "幸せ",
+    "reading": "しあわせ",
+    "meaning": "hạnh phúc",
+    "type": "tính từ な"
+  },
+  {
+    "word": "楽",
+    "reading": "らく",
+    "meaning": "nhàn nhã",
+    "type": "tính từ な"
+  },
+  {
+    "word": "うまい",
+    "meaning": "ngon",
+    "type": "tính từ い"
+  },
+  {
+    "word": "まずい",
+    "meaning": "dở",
+    "type": "tính từ い"
+  },
+  {
+    "word": "つまらない",
+    "meaning": "chán, không hay",
+    "type": "tính từ い"
+  },
+  {
+    "word": "優しい",
+    "reading": "やさしい",
+    "meaning": "hiền lành",
+    "type": "tính từ い"
+  },
+  {
+    "word": "ガソリン",
+    "meaning": "xăng",
+    "type": "danh từ"
+  },
+  {
+    "word": "火",
+    "reading": "ひ",
+    "meaning": "lửa",
+    "type": "danh từ"
+  },
+  {
+    "word": "パンフレット",
+    "meaning": "tờ rơi quảng cáo",
+    "type": "danh từ"
+  },
+  {
+    "word": "今にも",
+    "reading": "いまにも",
+    "meaning": "có vẻ, sắp ~ (đến nơi)",
+    "type": "phó từ"
+  },
+  {
+    "word": "バラ",
+    "meaning": "hoa hồng",
+    "type": "danh từ"
+  },
+  {
+    "word": "ドライブ",
+    "meaning": "lái xe ô tô",
+    "type": "danh từ"
+  },
+  {
+    "word": "謝る",
+    "reading": "あやまる",
+    "meaning": "xin lỗi",
+    "type": "động từ I"
+  }
 ]

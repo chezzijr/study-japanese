@@ -1,231 +1,261 @@
 [
-	{
-		"word": "参加する",
-		"reading": "さんかする",
-		"meaning": "tham gia (bữa tiệc)",
-		"note": "III"
-	},
-	{
-		"word": "育てる",
-		"reading": "そだてる",
-		"meaning": "mắng",
-		"note": "II"
-	},
-	{
-		"word": "誘う",
-		"reading": "さそう",
-		"meaning": "mời, rủ",
-		"note": "I"
-	},
-	{
-		"word": "招待する",
-		"reading": "しょうたいする",
-		"meaning": "mời",
-		"note": "III"
-	},
-	{
-		"word": "頼む",
-		"reading": "たのむ",
-		"meaning": "chăm sóc, nuôi dưỡng",
-		"note": "I"
-	},
-	{
-		"word": "運ぶ",
-		"reading": "はこぶ",
-		"meaning": "vận chuyển",
-		"note": "I"
-	},
-	{
-		"word": "入院する",
-		"reading": "にゅういんする",
-		"meaning": "nhập viện",
-		"note": "III"
-	},
-	{
-		"word": "退院する",
-		"reading": "たいいんする",
-		"meaning": "xuất viện",
-		"note": "III"
-	},
-	{
-		"word": "整理する",
-		"reading": "せいりする",
-		"meaning": "chỉnh sửa, sắp xếp",
-		"note": "III"
-	},
-	{
-		"word": "入れる",
-		"reading": "いれる",
-		"meaning": "bật (nguồn điện)",
-		"note": "II"
-	},
-	{
-		"word": "切る",
-		"reading": "きる",
-		"meaning": "tắt (nguồn điện)",
-		"note": "I"
-	},
-	{
-		"word": "掛ける",
-		"reading": "かける",
-		"meaning": "khóa (ổ khóa)",
-		"note": "II"
-	},
-	{
-		"word": "つく",
-		"meaning": "nói dối",
-		"note": "I"
-	},
-	{
-		"word": "気持ちがいい",
-		"reading": "きもちがいい",
-		"meaning": "tâm trạng sảng khoái, cảm thấy dễ chịu"
-	},
-	{
-		"word": "気持ちが悪い",
-		"reading": "きもちがわるい",
-		"meaning": "tâm trạng không tốt, cảm thấy khó chịu"
-	},
-	{
-		"word": "赤ちゃん",
-		"reading": "あかちゃん",
-		"meaning": "em bé"
-	},
-	{
-		"word": "小学せい",
-		"reading": "しょうがくせい",
-		"meaning": "học sinh tiểu học"
-	},
-	{
-		"word": "中学生",
-		"reading": "ちゅうがくせい",
-		"meaning": "học sinh cấp 2"
-	},
-	{
-		"word": "高校生",
-		"reading": "こうこうせい",
-		"meaning": "học sinh cấp 3"
-	},
-	{
-		"word": "小学校",
-		"reading": "しょうがっこう",
-		"meaning": "trường tiểu học"
-	},
-	{
-		"word": "中学校",
-		"reading": "ちゅうがっこう",
-		"meaning": "trường cấp hai"
-	},
-	{
-		"word": "海岸",
-		"reading": "かいがん",
-		"meaning": "bờ biển"
-	},
-	{
-		"word": "工場",
-		"reading": "こうじょう",
-		"meaning": "nhà máy"
-	},
-	{
-		"word": "指輪",
-		"reading": "ゆびわ",
-		"meaning": "nhẫn"
-	},
-	{
-		"word": "電源",
-		"reading": "でんげん",
-		"meaning": "nguồn điện"
-	},
-	{
-		"word": "習慣",
-		"reading": "しゅうかん",
-		"meaning": "thói quen"
-	},
-	{
-		"word": "一昨年",
-		"reading": "おととし",
-		"meaning": "năm kia"
-	},
-	{
-		"word": "大きい",
-		"reading": "おおきい",
-		"meaning": "lớn, to"
-	},
-	{
-		"word": "小さい",
-		"reading": "ちいさい",
-		"meaning": "bé, nhỏ"
-	},
-	{
-		"word": "いけない",
-		"meaning": "không được rồi"
-	},
-	{
-		"word": "お先に",
-		"reading": "おさきに",
-		"meaning": "tôi xin phép về trước"
-	},
-	{
-		"word": "研究室",
-		"reading": "けんきゅうしつ",
-		"meaning": "phòng nghiên cứu"
-	},
-	{
-		"word": "きちんと",
-		"meaning": "ngay ngắn, cẩn thận"
-	},
-	{
-		"word": "方法",
-		"reading": "ほうほう",
-		"meaning": "phương pháp"
-	},
-	{
-		"word": "双子",
-		"reading": "ふたご",
-		"meaning": "sinh đôi"
-	},
-	{
-		"word": "姉妹",
-		"reading": "しまい",
-		"meaning": "chị em"
-	},
-	{
-		"word": "性格",
-		"reading": "せいかく",
-		"meaning": "tính cách"
-	},
-	{
-		"word": "気が強い",
-		"reading": "きがつよい",
-		"meaning": "tính cách mạnh mẽ"
-	},
-	{
-		"word": "年齢",
-		"reading": "ねんれい",
-		"meaning": "tuổi tác"
-	},
-	{
-		"word": "仕方",
-		"reading": "しかた",
-		"meaning": "cách làm"
-	},
-	{
-		"word": "バレンタインデー",
-		"meaning": "Ngày lễ tình yêu (Valentine)"
-	},
-	{
-		"word": "オリンピック",
-		"meaning": "Olympic"
-	},
-	{
-		"word": "得意",
-		"reading": "とくい",
-		"meaning": "giỏi, mạnh"
-	},
-	{
-		"word": "似てる",
-		"reading": "にてる",
-		"meaning": "giống nhau",
-		"note": "II"
-	}
+  {
+    "word": "参加する",
+    "reading": "さんかする",
+    "meaning": "tham gia (bữa tiệc)",
+    "type": "động từ III"
+  },
+  {
+    "word": "育てる",
+    "reading": "そだてる",
+    "meaning": "nuôi dưỡng, chăm sóc",
+    "type": "động từ II"
+  },
+  {
+    "word": "誘う",
+    "reading": "さそう",
+    "meaning": "mời, rủ",
+    "type": "động từ I"
+  },
+  {
+    "word": "招待する",
+    "reading": "しょうたいする",
+    "meaning": "mời",
+    "type": "động từ III"
+  },
+  {
+    "word": "頼む",
+    "reading": "たのむ",
+    "meaning": "nhờ",
+    "type": "động từ I"
+  },
+  {
+    "word": "運ぶ",
+    "reading": "はこぶ",
+    "meaning": "vận chuyển",
+    "type": "động từ I"
+  },
+  {
+    "word": "入院する",
+    "reading": "にゅういんする",
+    "meaning": "nhập viện",
+    "type": "động từ III"
+  },
+  {
+    "word": "退院する",
+    "reading": "たいいんする",
+    "meaning": "xuất viện",
+    "type": "động từ III"
+  },
+  {
+    "word": "整理する",
+    "reading": "せいりする",
+    "meaning": "chỉnh sửa, sắp xếp",
+    "type": "động từ III"
+  },
+  {
+    "word": "入れる",
+    "reading": "いれる",
+    "meaning": "bật (nguồn điện)",
+    "type": "động từ II"
+  },
+  {
+    "word": "切る",
+    "reading": "きる",
+    "meaning": "tắt (nguồn điện)",
+    "type": "động từ I"
+  },
+  {
+    "word": "掛ける",
+    "reading": "かける",
+    "meaning": "khóa (ổ khóa)",
+    "type": "động từ II"
+  },
+  {
+    "word": "つく",
+    "meaning": "nói dối",
+    "type": "động từ I"
+  },
+  {
+    "word": "気持ちがいい",
+    "reading": "きもちがいい",
+    "meaning": "tâm trạng sảng khoái, cảm thấy dễ chịu",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "気持ちが悪い",
+    "reading": "きもちがわるい",
+    "meaning": "tâm trạng không tốt, cảm thấy khó chịu",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "赤ちゃん",
+    "reading": "あかちゃん",
+    "meaning": "em bé",
+    "type": "danh từ"
+  },
+  {
+    "word": "小学生",
+    "reading": "しょうがくせい",
+    "meaning": "học sinh tiểu học",
+    "type": "danh từ"
+  },
+  {
+    "word": "中学生",
+    "reading": "ちゅうがくせい",
+    "meaning": "học sinh cấp 2",
+    "type": "danh từ"
+  },
+  {
+    "word": "高校生",
+    "reading": "こうこうせい",
+    "meaning": "học sinh cấp 3",
+    "type": "danh từ"
+  },
+  {
+    "word": "小学校",
+    "reading": "しょうがっこう",
+    "meaning": "trường tiểu học",
+    "type": "danh từ"
+  },
+  {
+    "word": "中学校",
+    "reading": "ちゅうがっこう",
+    "meaning": "trường cấp hai",
+    "type": "danh từ"
+  },
+  {
+    "word": "海岸",
+    "reading": "かいがん",
+    "meaning": "bờ biển",
+    "type": "danh từ"
+  },
+  {
+    "word": "工場",
+    "reading": "こうじょう",
+    "meaning": "nhà máy",
+    "type": "danh từ"
+  },
+  {
+    "word": "指輪",
+    "reading": "ゆびわ",
+    "meaning": "nhẫn",
+    "type": "danh từ"
+  },
+  {
+    "word": "電源",
+    "reading": "でんげん",
+    "meaning": "nguồn điện",
+    "type": "danh từ"
+  },
+  {
+    "word": "習慣",
+    "reading": "しゅうかん",
+    "meaning": "thói quen",
+    "type": "danh từ"
+  },
+  {
+    "word": "一昨年",
+    "reading": "おととし",
+    "meaning": "năm kia",
+    "type": "danh từ"
+  },
+  {
+    "word": "大きい",
+    "reading": "おおきい",
+    "meaning": "lớn, to",
+    "type": "tính từ い"
+  },
+  {
+    "word": "小さい",
+    "reading": "ちいさい",
+    "meaning": "bé, nhỏ",
+    "type": "tính từ い"
+  },
+  {
+    "word": "いけない",
+    "meaning": "không được rồi",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "お先に",
+    "reading": "おさきに",
+    "meaning": "tôi xin phép về trước",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "研究室",
+    "reading": "けんきゅうしつ",
+    "meaning": "phòng nghiên cứu",
+    "type": "danh từ"
+  },
+  {
+    "word": "きちんと",
+    "meaning": "ngay ngắn, cẩn thận",
+    "type": "phó từ"
+  },
+  {
+    "word": "方法",
+    "reading": "ほうほう",
+    "meaning": "phương pháp",
+    "type": "danh từ"
+  },
+  {
+    "word": "双子",
+    "reading": "ふたご",
+    "meaning": "sinh đôi",
+    "type": "danh từ"
+  },
+  {
+    "word": "姉妹",
+    "reading": "しまい",
+    "meaning": "chị em",
+    "type": "danh từ"
+  },
+  {
+    "word": "性格",
+    "reading": "せいかく",
+    "meaning": "tính cách",
+    "type": "danh từ"
+  },
+  {
+    "word": "気が強い",
+    "reading": "きがつよい",
+    "meaning": "tính cách mạnh mẽ",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "年齢",
+    "reading": "ねんれい",
+    "meaning": "tuổi tác",
+    "type": "danh từ"
+  },
+  {
+    "word": "仕方",
+    "reading": "しかた",
+    "meaning": "cách làm",
+    "type": "danh từ"
+  },
+  {
+    "word": "バレンタインデー",
+    "meaning": "Ngày lễ tình yêu (Valentine)",
+    "type": "danh từ"
+  },
+  {
+    "word": "オリンピック",
+    "meaning": "Olympic",
+    "type": "danh từ"
+  },
+  {
+    "word": "得意",
+    "reading": "とくい",
+    "meaning": "giỏi, mạnh",
+    "type": "tính từ な"
+  },
+  {
+    "word": "似てる",
+    "reading": "にてる",
+    "meaning": "giống nhau",
+    "type": "động từ II"
+  }
 ]

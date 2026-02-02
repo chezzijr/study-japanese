@@ -1,230 +1,268 @@
 [
-	{
-		"word": "包む",
-		"reading": "つつむ",
-		"meaning": "gói, bọc",
-		"note": "I"
-	},
-	{
-		"word": "沸かす",
-		"reading": "わかす",
-		"meaning": "đun sôi",
-		"note": "I"
-	},
-	{
-		"word": "混ぜる",
-		"reading": "まぜる",
-		"meaning": "trộn",
-		"note": "II"
-	},
-	{
-		"word": "計算する",
-		"reading": "けいさんする",
-		"meaning": "tính, tính toán",
-		"note": "III"
-	},
-	{
-		"word": "並べる",
-		"reading": "ならべる",
-		"meaning": "xếp hàng",
-		"note": "II"
-	},
-	{
-		"word": "広める",
-		"reading": "ひろめる",
-		"meaning": "tuyên truyền, quảng bá",
-		"note": "II"
-	},
-	{
-		"word": "丈夫",
-		"reading": "じょうぶ",
-		"meaning": "chắc chắn"
-	},
-	{
-		"word": "アパート",
-		"meaning": "căn hộ"
-	},
-	{
-		"word": "弁護士",
-		"reading": "べんごし",
-		"meaning": "luật sư"
-	},
-	{
-		"word": "音楽家",
-		"reading": "おんがくか",
-		"meaning": "nhạc sĩ"
-	},
-	{
-		"word": "子供たち",
-		"reading": "こどもたち",
-		"meaning": "những đứa trẻ, bọn trẻ"
-	},
-	{
-		"word": "自然",
-		"reading": "しぜん",
-		"meaning": "tự nhiên"
-	},
-	{
-		"word": "教育",
-		"reading": "きょういく",
-		"meaning": "giáo dục"
-	},
-	{
-		"word": "文化",
-		"reading": "ぶんか",
-		"meaning": "văn hóa"
-	},
-	{
-		"word": "社会",
-		"reading": "しゃかい",
-		"meaning": "xã hội"
-	},
-	{
-		"word": "発音",
-		"reading": "はつおん",
-		"meaning": "phát âm"
-	},
-	{
-		"word": "猿",
-		"reading": "さる",
-		"meaning": "con khỉ"
-	},
-	{
-		"word": "餌",
-		"reading": "えさ",
-		"meaning": "thức ăn (cho động vật)"
-	},
-	{
-		"word": "政治",
-		"reading": "せいじ",
-		"meaning": "chính trị"
-	},
-	{
-		"word": "法律",
-		"reading": "ほうりつ",
-		"meaning": "pháp luật"
-	},
-	{
-		"word": "戦争",
-		"reading": "せんそう",
-		"meaning": "chiến tranh"
-	},
-	{
-		"word": "平和",
-		"reading": "へいわ",
-		"meaning": "hòa bình"
-	},
-	{
-		"word": "目的",
-		"reading": "もくてき",
-		"meaning": "mục đích"
-	},
-	{
-		"word": "論文",
-		"reading": "ろんぶん",
-		"meaning": "luận văn"
-	},
-	{
-		"word": "楽しみ",
-		"reading": "たのしみ",
-		"meaning": "niềm vui"
-	},
-	{
-		"word": "ミキサー",
-		"meaning": "máy xay"
-	},
-	{
-		"word": "やかん",
-		"meaning": "ấm đun nước"
-	},
-	{
-		"word": "ふた",
-		"meaning": "cái nắp"
-	},
-	{
-		"word": "栓抜き",
-		"reading": "せんぬき",
-		"meaning": "cái bật nắp chai"
-	},
-	{
-		"word": "缶切り",
-		"reading": "かんきり",
-		"meaning": "cái mở nắp hộp"
-	},
-	{
-		"word": "缶詰",
-		"reading": "かんづめ",
-		"meaning": "đồ hộp"
-	},
-	{
-		"word": "のし袋",
-		"reading": "のしぶくろ",
-		"meaning": "phong bì dùng để bỏ tiền mừng"
-	},
-	{
-		"word": "風呂敷",
-		"reading": "ふろしき",
-		"meaning": "khăn vuông để gói đồ kiểu Nhật"
-	},
-	{
-		"word": "算盤",
-		"reading": "そろばん",
-		"meaning": "bàn tính"
-	},
-	{
-		"word": "体温計",
-		"reading": "たいおんけい",
-		"meaning": "nhiệt kế"
-	},
-	{
-		"word": "なぜ",
-		"meaning": "tại sao"
-	},
-	{
-		"word": "どのくらい",
-		"meaning": "khoảng bao nhiêu"
-	},
-	{
-		"word": "半分",
-		"reading": "はんぶん",
-		"meaning": "một nửa"
-	},
-	{
-		"word": "ローン",
-		"meaning": "khoản vay ngân hàng"
-	},
-	{
-		"word": "市場調査",
-		"reading": "しじょうちょうさ",
-		"meaning": "điều tra thị trường"
-	},
-	{
-		"word": "スイカ",
-		"meaning": "dưa hấu"
-	},
-	{
-		"word": "最低",
-		"reading": "さいてい",
-		"meaning": "tối thiểu"
-	},
-	{
-		"word": "チキンラーメン",
-		"meaning": "mì gà"
-	},
-	{
-		"word": "インスタントラーメン",
-		"meaning": "mì ăn liền"
-	},
-	{
-		"word": "割る",
-		"reading": "わる",
-		"meaning": "chia; đập vỡ",
-		"note": "I"
-	},
-	{
-		"word": "注ぐ",
-		"reading": "そそぐ",
-		"meaning": "rót",
-		"note": "I"
-	}
+  {
+    "word": "包む",
+    "reading": "つつむ",
+    "meaning": "gói, bọc",
+    "type": "động từ I"
+  },
+  {
+    "word": "沸かす",
+    "reading": "わかす",
+    "meaning": "đun sôi",
+    "type": "động từ I"
+  },
+  {
+    "word": "混ぜる",
+    "reading": "まぜる",
+    "meaning": "trộn",
+    "type": "động từ II"
+  },
+  {
+    "word": "計算する",
+    "reading": "けいさんする",
+    "meaning": "tính, tính toán",
+    "type": "động từ III"
+  },
+  {
+    "word": "並べる",
+    "reading": "ならべる",
+    "meaning": "xếp hàng",
+    "type": "động từ II"
+  },
+  {
+    "word": "広める",
+    "reading": "ひろめる",
+    "meaning": "tuyên truyền, quảng bá",
+    "type": "động từ II"
+  },
+  {
+    "word": "丈夫",
+    "reading": "じょうぶ",
+    "meaning": "chắc chắn",
+    "type": "tính từ な"
+  },
+  {
+    "word": "アパート",
+    "meaning": "căn hộ",
+    "type": "danh từ"
+  },
+  {
+    "word": "弁護士",
+    "reading": "べんごし",
+    "meaning": "luật sư",
+    "type": "danh từ"
+  },
+  {
+    "word": "音楽家",
+    "reading": "おんがくか",
+    "meaning": "nhạc sĩ",
+    "type": "danh từ"
+  },
+  {
+    "word": "子供たち",
+    "reading": "こどもたち",
+    "meaning": "những đứa trẻ, bọn trẻ",
+    "type": "danh từ"
+  },
+  {
+    "word": "自然",
+    "reading": "しぜん",
+    "meaning": "tự nhiên",
+    "type": "danh từ"
+  },
+  {
+    "word": "教育",
+    "reading": "きょういく",
+    "meaning": "giáo dục",
+    "type": "danh từ"
+  },
+  {
+    "word": "文化",
+    "reading": "ぶんか",
+    "meaning": "văn hóa",
+    "type": "danh từ"
+  },
+  {
+    "word": "社会",
+    "reading": "しゃかい",
+    "meaning": "xã hội",
+    "type": "danh từ"
+  },
+  {
+    "word": "発音",
+    "reading": "はつおん",
+    "meaning": "phát âm",
+    "type": "danh từ"
+  },
+  {
+    "word": "猿",
+    "reading": "さる",
+    "meaning": "con khỉ",
+    "type": "danh từ"
+  },
+  {
+    "word": "餌",
+    "reading": "えさ",
+    "meaning": "thức ăn (cho động vật)",
+    "type": "danh từ"
+  },
+  {
+    "word": "政治",
+    "reading": "せいじ",
+    "meaning": "chính trị",
+    "type": "danh từ"
+  },
+  {
+    "word": "法律",
+    "reading": "ほうりつ",
+    "meaning": "pháp luật",
+    "type": "danh từ"
+  },
+  {
+    "word": "戦争",
+    "reading": "せんそう",
+    "meaning": "chiến tranh",
+    "type": "danh từ"
+  },
+  {
+    "word": "平和",
+    "reading": "へいわ",
+    "meaning": "hòa bình",
+    "type": "danh từ"
+  },
+  {
+    "word": "目的",
+    "reading": "もくてき",
+    "meaning": "mục đích",
+    "type": "danh từ"
+  },
+  {
+    "word": "論文",
+    "reading": "ろんぶん",
+    "meaning": "luận văn",
+    "type": "danh từ"
+  },
+  {
+    "word": "楽しみ",
+    "reading": "たのしみ",
+    "meaning": "niềm vui",
+    "type": "danh từ"
+  },
+  {
+    "word": "ミキサー",
+    "meaning": "máy xay",
+    "type": "danh từ"
+  },
+  {
+    "word": "やかん",
+    "meaning": "ấm đun nước",
+    "type": "danh từ"
+  },
+  {
+    "word": "ふた",
+    "meaning": "cái nắp",
+    "type": "danh từ"
+  },
+  {
+    "word": "栓抜き",
+    "reading": "せんぬき",
+    "meaning": "cái bật nắp chai",
+    "type": "danh từ"
+  },
+  {
+    "word": "缶切り",
+    "reading": "かんきり",
+    "meaning": "cái mở nắp hộp",
+    "type": "danh từ"
+  },
+  {
+    "word": "缶詰",
+    "reading": "かんづめ",
+    "meaning": "đồ hộp",
+    "type": "danh từ"
+  },
+  {
+    "word": "のし袋",
+    "reading": "のしぶくろ",
+    "meaning": "phong bì dùng để bỏ tiền mừng",
+    "type": "danh từ"
+  },
+  {
+    "word": "風呂敷",
+    "reading": "ふろしき",
+    "meaning": "khăn vuông để gói đồ kiểu Nhật",
+    "type": "danh từ"
+  },
+  {
+    "word": "算盤",
+    "reading": "そろばん",
+    "meaning": "bàn tính",
+    "type": "danh từ"
+  },
+  {
+    "word": "体温計",
+    "reading": "たいおんけい",
+    "meaning": "nhiệt kế",
+    "type": "danh từ"
+  },
+  {
+    "word": "なぜ",
+    "meaning": "tại sao",
+    "type": "phó từ"
+  },
+  {
+    "word": "どのくらい",
+    "meaning": "khoảng bao nhiêu",
+    "type": "phó từ"
+  },
+  {
+    "word": "半分",
+    "reading": "はんぶん",
+    "meaning": "một nửa",
+    "type": "danh từ"
+  },
+  {
+    "word": "ローン",
+    "meaning": "khoản vay ngân hàng",
+    "type": "danh từ"
+  },
+  {
+    "word": "市場調査",
+    "reading": "しじょうちょうさ",
+    "meaning": "điều tra thị trường",
+    "type": "danh từ"
+  },
+  {
+    "word": "スイカ",
+    "meaning": "dưa hấu",
+    "type": "danh từ"
+  },
+  {
+    "word": "最低",
+    "reading": "さいてい",
+    "meaning": "tối thiểu",
+    "type": "tính từ な"
+  },
+  {
+    "word": "チキンラーメン",
+    "meaning": "mì gà",
+    "type": "danh từ"
+  },
+  {
+    "word": "インスタントラーメン",
+    "meaning": "mì ăn liền",
+    "type": "danh từ"
+  },
+  {
+    "word": "割る",
+    "reading": "わる",
+    "meaning": "chia; đập vỡ",
+    "type": "động từ I"
+  },
+  {
+    "word": "注ぐ",
+    "reading": "そそぐ",
+    "meaning": "rót",
+    "type": "động từ I"
+  }
 ]

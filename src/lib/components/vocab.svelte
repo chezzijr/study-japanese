@@ -223,10 +223,13 @@
 		// 3. Meaning match (Vietnamese, case-insensitive)
 		if (kotoba.meaning.toLowerCase().includes(normalizedTerm)) return true;
 
-		// 4. Note match
+		// 4. Type match
+		if (kotoba.type?.toLowerCase().includes(normalizedTerm)) return true;
+
+		// 5. Note match
 		if (kotoba.note?.toLowerCase().includes(normalizedTerm)) return true;
 
-		// 5. Romaji to kana conversion - try both hiragana and katakana
+		// 6. Romaji to kana conversion - try both hiragana and katakana
 		try {
 			const asHiragana = toHiragana(normalizedTerm);
 			const asKatakana = toKatakana(normalizedTerm);
@@ -303,7 +306,8 @@
 				<tr>
 					<th class="w-1/6">Từ</th>
 					<th class="w-1/5">Phiên âm Hiragana</th>
-					<th class="w-2/5">Nghĩa</th>
+					<th class="w-1/4">Nghĩa</th>
+					<th class="w-1/6">Loại từ</th>
 					<th class="w-1/6">Ghi chú</th>
 					{#if level && unit}
 						<th class="w-12"></th>
@@ -316,6 +320,23 @@
 						<td class="font-medium">{kotoba.word}</td>
 						<td class="text-base-content/80">{kotoba.reading ?? ''}</td>
 						<td>{kotoba.meaning}</td>
+						<td>
+							{#if kotoba.type}
+								<span
+									class="badge badge-sm {kotoba.type.startsWith('động từ')
+										? 'badge-primary'
+										: kotoba.type === 'danh từ'
+											? 'badge-secondary'
+											: kotoba.type.startsWith('tính từ')
+												? 'badge-accent'
+												: kotoba.type === 'phó từ'
+													? 'badge-info'
+													: 'badge-ghost'}"
+								>
+									{kotoba.type}
+								</span>
+							{/if}
+						</td>
 						<td class="text-sm text-base-content/60">{kotoba.note ?? ''}</td>
 						{#if level && unit}
 							<td>
@@ -373,7 +394,7 @@
 					</tr>
 				{:else}
 					<tr>
-						<td colspan={level && unit ? 5 : 4} class="text-center py-8 text-base-content/50">
+						<td colspan={level && unit ? 6 : 5} class="text-center py-8 text-base-content/50">
 							Không tìm thấy kết quả cho "{searchTerm}"
 						</td>
 					</tr>

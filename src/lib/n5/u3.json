@@ -1,179 +1,217 @@
 [
-	{
-		"word": "ここ",
-		"meaning": "chỗ này"
-	},
-	{
-		"word": "そこ",
-		"meaning": "chỗ đó"
-	},
-	{
-		"word": "あそこ",
-		"meaning": "chỗ kia"
-	},
-	{
-		"word": "どこ",
-		"meaning": "chỗ nào"
-	},
-	{
-		"word": "こちら",
-		"meaning": "phía này",
-		"note": "cách nói lịch sự của ここ"
-	},
-	{
-		"word": "そちら",
-		"meaning": "phía đó",
-		"note": "cách nói lịch sự của そこ"
-	},
-	{
-		"word": "あちら",
-		"meaning": "phía kia",
-		"note": "cách nói lịch sự của あそこ"
-	},
-	{
-		"word": "どちら",
-		"meaning": "phía nào",
-		"note": "cách nói lịch sự của どこ"
-	},
-	{
-		"word": "受付",
-		"reading": "うけつけ",
-		"meaning": "quầy lễ tân",
-		"note": "dùng cho công ty, cơ quan"
-	},
-	{
-		"word": "フロント",
-		"meaning": "quầy lễ tân",
-		"note": "dùng cho khách sạn"
-	},
-	{
-		"word": "階段",
-		"reading": "かいだん",
-		"meaning": "cầu thang"
-	},
-	{
-		"word": "エレベーター",
-		"meaning": "thang máy"
-	},
-	{
-		"word": "エスカレーター",
-		"meaning": "thang cuốn"
-	},
-	{
-		"word": "お手洗い",
-		"reading": "おてあらい",
-		"meaning": "phòng vệ sinh"
-	},
-	{
-		"word": "トイレ",
-		"meaning": "phòng vệ sinh"
-	},
-	{
-		"word": "うち",
-		"meaning": "nhà"
-	},
-	{
-		"word": "いえ",
-		"meaning": "nhà"
-	},
-	{
-		"word": "部屋",
-		"reading": "へや",
-		"meaning": "căn phòng"
-	},
-	{
-		"word": "教室",
-		"reading": "きょうしつ",
-		"meaning": "phòng học"
-	},
-	{
-		"word": "事務所",
-		"reading": "じむしょ",
-		"meaning": "văn phòng"
-	},
-	{
-		"word": "会議室",
-		"reading": "かいぎしつ",
-		"meaning": "phòng họp"
-	},
-	{
-		"word": "食堂",
-		"reading": "しょくどう",
-		"meaning": "nhà ăn"
-	},
-	{
-		"word": "ビル",
-		"meaning": "tòa nhà"
-	},
-	{
-		"word": "デパート",
-		"meaning": "trung tâm thương mại"
-	},
-	{
-		"word": "スーパー",
-		"meaning": "siêu thị"
-	},
-	{
-		"word": "センター",
-		"meaning": "trung tâm"
-	},
-	{
-		"word": "映画館",
-		"reading": "えいがかん",
-		"meaning": "rạp chiếu phim"
-	},
-	{
-		"word": "喫茶店",
-		"reading": "きっさてん",
-		"meaning": "quán trà, cà phê"
-	},
-	{
-		"word": "図書館",
-		"reading": "としょかん",
-		"meaning": "thư viện"
-	},
-	{
-		"word": "会社",
-		"reading": "かいしゃ",
-		"meaning": "công ty"
-	},
-	{
-		"word": "学校",
-		"reading": "がっこう",
-		"meaning": "trường học"
-	},
-	{
-		"word": "郵便局",
-		"reading": "ゆうびんきょく",
-		"meaning": "bưu điện"
-	},
-	{
-		"word": "銀行",
-		"reading": "ぎんこう",
-		"meaning": "ngân hàng"
-	},
-	{
-		"word": "バスてい",
-		"meaning": "trạm xe bus"
-	},
-	{
-		"word": "駅",
-		"reading": "えき",
-		"meaning": "nhà ga"
-	},
-	{
-		"word": "国",
-		"reading": "くに",
-		"meaning": "đất nước",
-		"note": "(của anh/chị)"
-	},
-	{
-		"word": "いくら",
-		"meaning": "bao nhiêu tiền"
-	},
-	{
-		"word": "円",
-		"reading": "えん",
-		"meaning": "yên"
-	}
+  {
+    "word": "ここ",
+    "meaning": "chỗ này",
+    "type": "danh từ"
+  },
+  {
+    "word": "そこ",
+    "meaning": "chỗ đó",
+    "type": "danh từ"
+  },
+  {
+    "word": "あそこ",
+    "meaning": "chỗ kia",
+    "type": "danh từ"
+  },
+  {
+    "word": "どこ",
+    "meaning": "chỗ nào",
+    "type": "danh từ"
+  },
+  {
+    "word": "こちら",
+    "meaning": "phía này",
+    "note": "cách nói lịch sự của ここ",
+    "type": "danh từ"
+  },
+  {
+    "word": "そちら",
+    "meaning": "phía đó",
+    "note": "cách nói lịch sự của そこ",
+    "type": "danh từ"
+  },
+  {
+    "word": "あちら",
+    "meaning": "phía kia",
+    "note": "cách nói lịch sự của あそこ",
+    "type": "danh từ"
+  },
+  {
+    "word": "どちら",
+    "meaning": "phía nào",
+    "note": "cách nói lịch sự của どこ",
+    "type": "danh từ"
+  },
+  {
+    "word": "受付",
+    "reading": "うけつけ",
+    "meaning": "quầy lễ tân",
+    "note": "dùng cho công ty, cơ quan",
+    "type": "danh từ"
+  },
+  {
+    "word": "フロント",
+    "meaning": "quầy lễ tân",
+    "note": "dùng cho khách sạn",
+    "type": "danh từ"
+  },
+  {
+    "word": "階段",
+    "reading": "かいだん",
+    "meaning": "cầu thang",
+    "type": "danh từ"
+  },
+  {
+    "word": "エレベーター",
+    "meaning": "thang máy",
+    "type": "danh từ"
+  },
+  {
+    "word": "エスカレーター",
+    "meaning": "thang cuốn",
+    "type": "danh từ"
+  },
+  {
+    "word": "お手洗い",
+    "reading": "おてあらい",
+    "meaning": "phòng vệ sinh",
+    "type": "danh từ"
+  },
+  {
+    "word": "トイレ",
+    "meaning": "phòng vệ sinh",
+    "type": "danh từ"
+  },
+  {
+    "word": "うち",
+    "meaning": "nhà",
+    "type": "danh từ"
+  },
+  {
+    "word": "いえ",
+    "meaning": "nhà",
+    "type": "danh từ"
+  },
+  {
+    "word": "部屋",
+    "reading": "へや",
+    "meaning": "căn phòng",
+    "type": "danh từ"
+  },
+  {
+    "word": "教室",
+    "reading": "きょうしつ",
+    "meaning": "phòng học",
+    "type": "danh từ"
+  },
+  {
+    "word": "事務所",
+    "reading": "じむしょ",
+    "meaning": "văn phòng",
+    "type": "danh từ"
+  },
+  {
+    "word": "会議室",
+    "reading": "かいぎしつ",
+    "meaning": "phòng họp",
+    "type": "danh từ"
+  },
+  {
+    "word": "食堂",
+    "reading": "しょくどう",
+    "meaning": "nhà ăn",
+    "type": "danh từ"
+  },
+  {
+    "word": "ビル",
+    "meaning": "tòa nhà",
+    "type": "danh từ"
+  },
+  {
+    "word": "デパート",
+    "meaning": "trung tâm thương mại",
+    "type": "danh từ"
+  },
+  {
+    "word": "スーパー",
+    "meaning": "siêu thị",
+    "type": "danh từ"
+  },
+  {
+    "word": "センター",
+    "meaning": "trung tâm",
+    "type": "danh từ"
+  },
+  {
+    "word": "映画館",
+    "reading": "えいがかん",
+    "meaning": "rạp chiếu phim",
+    "type": "danh từ"
+  },
+  {
+    "word": "喫茶店",
+    "reading": "きっさてん",
+    "meaning": "quán trà, cà phê",
+    "type": "danh từ"
+  },
+  {
+    "word": "図書館",
+    "reading": "としょかん",
+    "meaning": "thư viện",
+    "type": "danh từ"
+  },
+  {
+    "word": "会社",
+    "reading": "かいしゃ",
+    "meaning": "công ty",
+    "type": "danh từ"
+  },
+  {
+    "word": "学校",
+    "reading": "がっこう",
+    "meaning": "trường học",
+    "type": "danh từ"
+  },
+  {
+    "word": "郵便局",
+    "reading": "ゆうびんきょく",
+    "meaning": "bưu điện",
+    "type": "danh từ"
+  },
+  {
+    "word": "銀行",
+    "reading": "ぎんこう",
+    "meaning": "ngân hàng",
+    "type": "danh từ"
+  },
+  {
+    "word": "バスてい",
+    "meaning": "trạm xe bus",
+    "type": "danh từ"
+  },
+  {
+    "word": "駅",
+    "reading": "えき",
+    "meaning": "nhà ga",
+    "type": "danh từ"
+  },
+  {
+    "word": "国",
+    "reading": "くに",
+    "meaning": "đất nước",
+    "note": "(của anh/chị)",
+    "type": "danh từ"
+  },
+  {
+    "word": "いくら",
+    "meaning": "bao nhiêu tiền",
+    "type": "danh từ"
+  },
+  {
+    "word": "円",
+    "reading": "えん",
+    "meaning": "yên",
+    "type": "danh từ"
+  }
 ]

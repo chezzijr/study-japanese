@@ -1,109 +1,125 @@
 [
-	{
-		"word": "降ろす、下ろす",
-		"reading": "おろす",
-		"meaning": "lấy xuống, hạ xuống",
-		"note": "I"
-	},
-	{
-		"word": "届ける",
-		"reading": "とどける",
-		"meaning": "đưa đến, chuyển đến",
-		"note": "II"
-	},
-	{
-		"word": "世話をする",
-		"reading": "せわをする",
-		"meaning": "chăm sóc",
-		"note": "III"
-	},
-	{
-		"word": "録音する",
-		"reading": "ろくおんする",
-		"meaning": "ghi âm",
-		"note": "III"
-	},
-	{
-		"word": "楽しむ",
-		"reading": "たのしむ",
-		"meaning": "mong chờ, vui vẻ, tận hưởng",
-		"note": "I"
-	},
-	{
-		"word": "嫌い",
-		"reading": "きらい",
-		"meaning": "không thích"
-	},
-	{
-		"word": "塾",
-		"reading": "じゅく",
-		"meaning": "lò luyện thi, nơi học thêm"
-	},
-	{
-		"word": "生徒",
-		"reading": "せいと",
-		"meaning": "học sinh"
-	},
-	{
-		"word": "親",
-		"reading": "おや",
-		"meaning": "cha mẹ"
-	},
-	{
-		"word": "両親",
-		"reading": "りょうしん",
-		"meaning": "cha mẹ, phụ huynh"
-	},
-	{
-		"word": "赤ちゃん",
-		"reading": "あかちゃん",
-		"meaning": "em bé"
-	},
-	{
-		"word": "～世紀",
-		"reading": "～せいき",
-		"meaning": "thế kỷ ~"
-	},
-	{
-		"word": "営業",
-		"reading": "えいぎょう",
-		"meaning": "kinh doanh"
-	},
-	{
-		"word": "入管",
-		"reading": "にゅうかん",
-		"meaning": "cục quản lý nhập cảnh"
-	},
-	{
-		"word": "スケジュール",
-		"meaning": "thời khóa biểu, lịch làm việc"
-	},
-	{
-		"word": "スピード",
-		"meaning": "tốc độ"
-	},
-	{
-		"word": "それまでに",
-		"meaning": "cho đến lúc đấy"
-	},
-	{
-		"word": "特に",
-		"reading": "とくに",
-		"meaning": "đặc biệt là"
-	},
-	{
-		"word": "～番線",
-		"reading": "～ばんせん",
-		"meaning": "đường tàu số ~"
-	},
-	{
-		"word": "丸い",
-		"reading": "まるい",
-		"meaning": "tròn"
-	},
-	{
-		"word": "習字",
-		"reading": "しゅうじ",
-		"meaning": "luyện chữ"
-	}
+  {
+    "word": "降ろす、下ろす",
+    "reading": "おろす",
+    "meaning": "lấy xuống, hạ xuống",
+    "type": "động từ I"
+  },
+  {
+    "word": "届ける",
+    "reading": "とどける",
+    "meaning": "đưa đến, chuyển đến",
+    "type": "động từ II"
+  },
+  {
+    "word": "世話をする",
+    "reading": "せわをする",
+    "meaning": "chăm sóc",
+    "type": "động từ III"
+  },
+  {
+    "word": "録音する",
+    "reading": "ろくおんする",
+    "meaning": "ghi âm",
+    "type": "động từ III"
+  },
+  {
+    "word": "楽しむ",
+    "reading": "たのしむ",
+    "meaning": "mong chờ, vui vẻ, tận hưởng",
+    "type": "động từ I"
+  },
+  {
+    "word": "嫌い",
+    "reading": "きらい",
+    "meaning": "không thích",
+    "type": "tính từ な"
+  },
+  {
+    "word": "塾",
+    "reading": "じゅく",
+    "meaning": "lò luyện thi, nơi học thêm",
+    "type": "danh từ"
+  },
+  {
+    "word": "生徒",
+    "reading": "せいと",
+    "meaning": "học sinh",
+    "type": "danh từ"
+  },
+  {
+    "word": "親",
+    "reading": "おや",
+    "meaning": "cha mẹ",
+    "type": "danh từ"
+  },
+  {
+    "word": "両親",
+    "reading": "りょうしん",
+    "meaning": "cha mẹ, phụ huynh",
+    "type": "danh từ"
+  },
+  {
+    "word": "赤ちゃん",
+    "reading": "あかちゃん",
+    "meaning": "em bé",
+    "type": "danh từ"
+  },
+  {
+    "word": "～世紀",
+    "reading": "～せいき",
+    "meaning": "thế kỷ ~",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "営業",
+    "reading": "えいぎょう",
+    "meaning": "kinh doanh",
+    "type": "danh từ"
+  },
+  {
+    "word": "入管",
+    "reading": "にゅうかん",
+    "meaning": "cục quản lý nhập cảnh",
+    "type": "danh từ"
+  },
+  {
+    "word": "スケジュール",
+    "meaning": "thời khóa biểu, lịch làm việc",
+    "type": "danh từ"
+  },
+  {
+    "word": "スピード",
+    "meaning": "tốc độ",
+    "type": "danh từ"
+  },
+  {
+    "word": "それまでに",
+    "meaning": "cho đến lúc đấy",
+    "type": "phó từ"
+  },
+  {
+    "word": "特に",
+    "reading": "とくに",
+    "meaning": "đặc biệt là",
+    "type": "phó từ"
+  },
+  {
+    "word": "～番線",
+    "reading": "～ばんせん",
+    "meaning": "đường tàu số ~",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "丸い",
+    "reading": "まるい",
+    "meaning": "tròn",
+    "type": "tính từ い"
+  },
+  {
+    "word": "習字",
+    "reading": "しゅうじ",
+    "meaning": "luyện chữ",
+    "type": "danh từ"
+  }
 ]

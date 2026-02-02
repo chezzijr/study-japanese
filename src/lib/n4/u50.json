@@ -1,139 +1,152 @@
 [
-	{
-		"word": "参る",
-		"reading": "まいる",
-		"meaning": "đi, đến (khiêm nhường ngữ của 行く、来る)",
-		"note": "I"
-	},
-	{
-		"word": "おる",
-		"meaning": "ở (khiêm nhường ngữ của いる)",
-		"note": "I"
-	},
-	{
-		"word": "いただく",
-		"meaning": "ăn, uống, nhận (khiêm nhường ngữ của たべる、のむ、もらう)",
-		"note": "I"
-	},
-	{
-		"word": "申す",
-		"reading": "もうす",
-		"meaning": "nói (khiêm nhường ngữ của 言う)",
-		"note": "I"
-	},
-	{
-		"word": "致す",
-		"reading": "いたす",
-		"meaning": "làm (khiêm nhường ngữ của する)",
-		"note": "I"
-	},
-	{
-		"word": "拝見する",
-		"reading": "はいけんする",
-		"meaning": "xem (khiêm nhường ngữ của 見る)",
-		"note": "III"
-	},
-	{
-		"word": "存じる",
-		"reading": "ぞんじる",
-		"meaning": "biết (khiêm nhường ngữ của しります)",
-		"note": "II"
-	},
-	{
-		"word": "伺う",
-		"reading": "うかがう",
-		"meaning": "hỏi, đến thăm (khiêm nhường ngữ của 聞く、行く)",
-		"note": "I"
-	},
-	{
-		"word": "お目にかかる",
-		"reading": "おめにかかる",
-		"meaning": "gặp (khiêm nhường ngữ của 会う)",
-		"note": "I"
-	},
-	{
-		"word": "入れる",
-		"reading": "いれる",
-		"meaning": "pha (cà phê)",
-		"note": "II"
-	},
-	{
-		"word": "緊張する",
-		"reading": "きんちょうする",
-		"meaning": "căng thẳng, hồi hộp lo lắng",
-		"note": "III"
-	},
-	{
-		"word": "応援する",
-		"reading": "おうえんする",
-		"meaning": "động viên, cổ vũ",
-		"note": "III"
-	},
-	{
-		"word": "感謝する",
-		"reading": "かんしゃする",
-		"meaning": "biết ơn",
-		"note": "III"
-	},
-	{
-		"word": "再来週",
-		"reading": "さらいしゅう",
-		"meaning": "tuần sau nữa"
-	},
-	{
-		"word": "再来月",
-		"reading": "さらいげつ",
-		"meaning": "tháng sau nữa"
-	},
-	{
-		"word": "再来年",
-		"reading": "さらいねん",
-		"meaning": "năm sau nữa"
-	},
-	{
-		"word": "私",
-		"reading": "わたくし",
-		"meaning": "tôi (khiêm nhường ngữ của わたし)"
-	},
-	{
-		"word": "ガイド",
-		"meaning": "hướng dẫn viên du lịch"
-	},
-	{
-		"word": "メールアドレス",
-		"meaning": "địa chỉ email"
-	},
-	{
-		"word": "スケジュール",
-		"meaning": "lịch làm việc, lịch trình"
-	},
-	{
-		"word": "賞金",
-		"reading": "しょうきん",
-		"meaning": "tiền thưởng"
-	},
-	{
-		"word": "心から",
-		"reading": "こころから",
-		"meaning": "từ đáy lòng"
-	},
-	{
-		"word": "区",
-		"reading": "く",
-		"meaning": "quận"
-	},
-	{
-		"word": "県",
-		"reading": "けん",
-		"meaning": "tỉnh"
-	},
-	{
-		"word": "迷惑",
-		"reading": "めいわく",
-		"meaning": "phiền hà, quấy rầy"
-	},
-	{
-		"word": "おかげさまで",
-		"meaning": "nhờ ơn trời"
-	}
+  {
+    "word": "参る",
+    "reading": "まいる",
+    "meaning": "đi, đến (khiêm nhường ngữ của 行く、来る)",
+    "type": "động từ I"
+  },
+  {
+    "word": "おる",
+    "meaning": "ở (khiêm nhường ngữ của いる)",
+    "type": "động từ I"
+  },
+  {
+    "word": "いただく",
+    "meaning": "ăn, uống, nhận (khiêm nhường ngữ của たべる、のむ、もらう)",
+    "type": "động từ I"
+  },
+  {
+    "word": "申す",
+    "reading": "もうす",
+    "meaning": "nói (khiêm nhường ngữ của 言う)",
+    "type": "động từ I"
+  },
+  {
+    "word": "致す",
+    "reading": "いたす",
+    "meaning": "làm (khiêm nhường ngữ của する)",
+    "type": "động từ I"
+  },
+  {
+    "word": "拝見する",
+    "reading": "はいけんする",
+    "meaning": "xem (khiêm nhường ngữ của 見る)",
+    "type": "động từ III"
+  },
+  {
+    "word": "存じる",
+    "reading": "ぞんじる",
+    "meaning": "biết (khiêm nhường ngữ của しります)",
+    "type": "động từ II"
+  },
+  {
+    "word": "伺う",
+    "reading": "うかがう",
+    "meaning": "hỏi, đến thăm (khiêm nhường ngữ của 聞く、行く)",
+    "type": "động từ I"
+  },
+  {
+    "word": "お目にかかる",
+    "reading": "おめにかかる",
+    "meaning": "gặp (khiêm nhường ngữ của 会う)",
+    "type": "động từ I"
+  },
+  {
+    "word": "入れる",
+    "reading": "いれる",
+    "meaning": "pha (cà phê)",
+    "type": "động từ II"
+  },
+  {
+    "word": "緊張する",
+    "reading": "きんちょうする",
+    "meaning": "căng thẳng, hồi hộp lo lắng",
+    "type": "động từ III"
+  },
+  {
+    "word": "応援する",
+    "reading": "おうえんする",
+    "meaning": "động viên, cổ vũ",
+    "type": "động từ III"
+  },
+  {
+    "word": "感謝する",
+    "reading": "かんしゃする",
+    "meaning": "biết ơn",
+    "type": "động từ III"
+  },
+  {
+    "word": "再来週",
+    "reading": "さらいしゅう",
+    "meaning": "tuần sau nữa",
+    "type": "danh từ"
+  },
+  {
+    "word": "再来月",
+    "reading": "さらいげつ",
+    "meaning": "tháng sau nữa",
+    "type": "danh từ"
+  },
+  {
+    "word": "再来年",
+    "reading": "さらいねん",
+    "meaning": "năm sau nữa",
+    "type": "danh từ"
+  },
+  {
+    "word": "私",
+    "reading": "わたくし",
+    "meaning": "tôi (khiêm nhường ngữ của わたし)",
+    "type": "danh từ"
+  },
+  {
+    "word": "ガイド",
+    "meaning": "hướng dẫn viên du lịch",
+    "type": "danh từ"
+  },
+  {
+    "word": "メールアドレス",
+    "meaning": "địa chỉ email",
+    "type": "danh từ"
+  },
+  {
+    "word": "スケジュール",
+    "meaning": "lịch làm việc, lịch trình",
+    "type": "danh từ"
+  },
+  {
+    "word": "賞金",
+    "reading": "しょうきん",
+    "meaning": "tiền thưởng",
+    "type": "danh từ"
+  },
+  {
+    "word": "心から",
+    "reading": "こころから",
+    "meaning": "từ đáy lòng",
+    "type": "phó từ"
+  },
+  {
+    "word": "区",
+    "reading": "く",
+    "meaning": "quận",
+    "type": "danh từ"
+  },
+  {
+    "word": "県",
+    "reading": "けん",
+    "meaning": "tỉnh",
+    "type": "danh từ"
+  },
+  {
+    "word": "迷惑",
+    "reading": "めいわく",
+    "meaning": "phiền hà, quấy rầy",
+    "type": "tính từ な"
+  },
+  {
+    "word": "おかげさまで",
+    "meaning": "nhờ ơn trời",
+    "type": "biểu hiện"
+  }
 ]

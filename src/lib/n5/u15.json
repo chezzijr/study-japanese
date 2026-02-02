@@ -1,261 +1,285 @@
 [
-	{
-		"word": "危ない",
-		"reading": "あぶない",
-		"meaning": "nguy hiểm"
-	},
-	{
-		"word": "日記",
-		"reading": "にっき",
-		"meaning": "nhật kí"
-	},
-	{
-		"word": "資料",
-		"reading": "しりょう",
-		"meaning": "tài liệu, tư liệu"
-	},
-	{
-		"word": "解答用紙",
-		"reading": "かいとうようし",
-		"meaning": "giấy ghi đáp án"
-	},
-	{
-		"word": "カタログ",
-		"meaning": "catalogue"
-	},
-	{
-		"word": "フェイスブック",
-		"meaning": "facebook"
-	},
-	{
-		"word": "ファイル",
-		"meaning": "file; file đựng tài liệu"
-	},
-	{
-		"word": "電子辞書",
-		"reading": "でんしじしょ",
-		"meaning": "kim từ điển"
-	},
-	{
-		"word": "ソフト",
-		"meaning": "phần mềm"
-	},
-	{
-		"word": "ケーキ",
-		"meaning": "bánh kem"
-	},
-	{
-		"word": "お菓子",
-		"reading": "[お]かし",
-		"meaning": "bánh kẹo"
-	},
-	{
-		"word": "時刻表",
-		"reading": "じこくひょう",
-		"meaning": "bảng giờ tàu chạy"
-	},
-	{
-		"word": "服",
-		"reading": "ふく",
-		"meaning": "quần áo"
-	},
-	{
-		"word": "動画",
-		"reading": "どうが",
-		"meaning": "video"
-	},
-	{
-		"word": "専門",
-		"reading": "せんもん",
-		"meaning": "chuyên môn"
-	},
-	{
-		"word": "週末",
-		"reading": "しゅうまつ",
-		"meaning": "cuối tuần"
-	},
-	{
-		"word": "会議中",
-		"reading": "かいぎちゅう",
-		"meaning": "cuộc họp đang diễn ra"
-	},
-	{
-		"word": "独身",
-		"reading": "どくしん",
-		"meaning": "độc thân"
-	},
-	{
-		"word": "道",
-		"reading": "みち",
-		"meaning": "đường xá, con đường"
-	},
-	{
-		"word": "高校",
-		"reading": "こうこう",
-		"meaning": "trường THPT"
-	},
-	{
-		"word": "使う",
-		"reading": "つかう",
-		"meaning": "dùng, sử dụng",
-		"note": "I"
-	},
-	{
-		"word": "使います",
-		"reading": "つかいます",
-		"meaning": "dùng, sử dụng",
-		"note": "I"
-	},
-	{
-		"word": "立つ",
-		"reading": "たつ",
-		"meaning": "đứng",
-		"note": "I"
-	},
-	{
-		"word": "立ちます",
-		"reading": "たちます",
-		"meaning": "đứng",
-		"note": "I"
-	},
-	{
-		"word": "座る",
-		"reading": "すわる",
-		"meaning": "ngồi",
-		"note": "I"
-	},
-	{
-		"word": "座ります",
-		"reading": "すわります",
-		"meaning": "ngồi",
-		"note": "I"
-	},
-	{
-		"word": "作る",
-		"reading": "つくる",
-		"meaning": "làm, chế tạo, sản xuất",
-		"note": "I"
-	},
-	{
-		"word": "作ります",
-		"reading": "つくります",
-		"meaning": "làm, chế tạo, sản xuất",
-		"note": "I"
-	},
-	{
-		"word": "売る",
-		"reading": "うる",
-		"meaning": "bán",
-		"note": "I"
-	},
-	{
-		"word": "売ります",
-		"reading": "うります",
-		"meaning": "bán",
-		"note": "I"
-	},
-	{
-		"word": "知る",
-		"reading": "しる",
-		"meaning": "biết",
-		"note": "I"
-	},
-	{
-		"word": "知ります",
-		"reading": "しります",
-		"meaning": "biết",
-		"note": "I"
-	},
-	{
-		"word": "置く",
-		"reading": "おく",
-		"meaning": "đặt, để",
-		"note": "I"
-	},
-	{
-		"word": "置きます",
-		"reading": "おきます",
-		"meaning": "đặt, để",
-		"note": "I"
-	},
-	{
-		"word": "住む",
-		"reading": "[おおさかに～]すむ",
-		"meaning": "sống, ở [Osaka]",
-		"note": "I"
-	},
-	{
-		"word": "住みます",
-		"reading": "[おおさかに～]すみます",
-		"meaning": "sống, ở [Osaka]",
-		"note": "I"
-	},
-	{
-		"word": "辞める",
-		"reading": "やめる",
-		"meaning": "bỏ, thôi",
-		"note": "II"
-	},
-	{
-		"word": "辞めます",
-		"reading": "やめます",
-		"meaning": "bỏ, thôi",
-		"note": "II"
-	},
-	{
-		"word": "旅行する",
-		"reading": "りょこうする",
-		"meaning": "du lịch",
-		"note": "III"
-	},
-	{
-		"word": "旅行します",
-		"reading": "りょこうします",
-		"meaning": "du lịch",
-		"note": "III"
-	},
-	{
-		"word": "研究する",
-		"reading": "けんきゅうする",
-		"meaning": "nghiên cứu",
-		"note": "III"
-	},
-	{
-		"word": "研究します",
-		"reading": "けんきゅうします",
-		"meaning": "nghiên cứu",
-		"note": "III"
-	},
-	{
-		"word": "チェックする",
-		"reading": "チェックする",
-		"meaning": "kiểm tra",
-		"note": "III"
-	},
-	{
-		"word": "チェックします",
-		"reading": "チェックします",
-		"meaning": "kiểm tra",
-		"note": "III"
-	},
-	{
-		"word": "知っている",
-		"reading": "しっている",
-		"meaning": "biết"
-	},
-	{
-		"word": "知っています",
-		"reading": "しっています",
-		"meaning": "biết"
-	},
-	{
-		"word": "住んでいる",
-		"reading": "すんでいる",
-		"meaning": "đang sống, ở"
-	},
-	{
-		"word": "住んでいます",
-		"reading": "すんでいます",
-		"meaning": "đang sống, ở"
-	}
+  {
+    "word": "危ない",
+    "reading": "あぶない",
+    "meaning": "nguy hiểm",
+    "type": "tính từ い"
+  },
+  {
+    "word": "日記",
+    "reading": "にっき",
+    "meaning": "nhật kí",
+    "type": "danh từ"
+  },
+  {
+    "word": "資料",
+    "reading": "しりょう",
+    "meaning": "tài liệu, tư liệu",
+    "type": "danh từ"
+  },
+  {
+    "word": "解答用紙",
+    "reading": "かいとうようし",
+    "meaning": "giấy ghi đáp án",
+    "type": "danh từ"
+  },
+  {
+    "word": "カタログ",
+    "meaning": "catalogue",
+    "type": "danh từ"
+  },
+  {
+    "word": "フェイスブック",
+    "meaning": "facebook",
+    "type": "danh từ"
+  },
+  {
+    "word": "ファイル",
+    "meaning": "file; file đựng tài liệu",
+    "type": "danh từ"
+  },
+  {
+    "word": "電子辞書",
+    "reading": "でんしじしょ",
+    "meaning": "kim từ điển",
+    "type": "danh từ"
+  },
+  {
+    "word": "ソフト",
+    "meaning": "phần mềm",
+    "type": "danh từ"
+  },
+  {
+    "word": "ケーキ",
+    "meaning": "bánh kem",
+    "type": "danh từ"
+  },
+  {
+    "word": "お菓子",
+    "reading": "[お]かし",
+    "meaning": "bánh kẹo",
+    "type": "danh từ"
+  },
+  {
+    "word": "時刻表",
+    "reading": "じこくひょう",
+    "meaning": "bảng giờ tàu chạy",
+    "type": "danh từ"
+  },
+  {
+    "word": "服",
+    "reading": "ふく",
+    "meaning": "quần áo",
+    "type": "danh từ"
+  },
+  {
+    "word": "動画",
+    "reading": "どうが",
+    "meaning": "video",
+    "type": "danh từ"
+  },
+  {
+    "word": "専門",
+    "reading": "せんもん",
+    "meaning": "chuyên môn",
+    "type": "danh từ"
+  },
+  {
+    "word": "週末",
+    "reading": "しゅうまつ",
+    "meaning": "cuối tuần",
+    "type": "danh từ"
+  },
+  {
+    "word": "会議中",
+    "reading": "かいぎちゅう",
+    "meaning": "cuộc họp đang diễn ra",
+    "type": "danh từ"
+  },
+  {
+    "word": "独身",
+    "reading": "どくしん",
+    "meaning": "độc thân",
+    "type": "danh từ"
+  },
+  {
+    "word": "道",
+    "reading": "みち",
+    "meaning": "đường xá, con đường",
+    "type": "danh từ"
+  },
+  {
+    "word": "高校",
+    "reading": "こうこう",
+    "meaning": "trường THPT",
+    "type": "danh từ"
+  },
+  {
+    "word": "使う",
+    "reading": "つかう",
+    "meaning": "dùng, sử dụng",
+    "type": "động từ I"
+  },
+  {
+    "word": "使います",
+    "reading": "つかいます",
+    "meaning": "dùng, sử dụng",
+    "type": "động từ I"
+  },
+  {
+    "word": "立つ",
+    "reading": "たつ",
+    "meaning": "đứng",
+    "type": "động từ I"
+  },
+  {
+    "word": "立ちます",
+    "reading": "たちます",
+    "meaning": "đứng",
+    "type": "động từ I"
+  },
+  {
+    "word": "座る",
+    "reading": "すわる",
+    "meaning": "ngồi",
+    "type": "động từ I"
+  },
+  {
+    "word": "座ります",
+    "reading": "すわります",
+    "meaning": "ngồi",
+    "type": "động từ I"
+  },
+  {
+    "word": "作る",
+    "reading": "つくる",
+    "meaning": "làm, chế tạo, sản xuất",
+    "type": "động từ I"
+  },
+  {
+    "word": "作ります",
+    "reading": "つくります",
+    "meaning": "làm, chế tạo, sản xuất",
+    "type": "động từ I"
+  },
+  {
+    "word": "売る",
+    "reading": "うる",
+    "meaning": "bán",
+    "type": "động từ I"
+  },
+  {
+    "word": "売ります",
+    "reading": "うります",
+    "meaning": "bán",
+    "type": "động từ I"
+  },
+  {
+    "word": "知る",
+    "reading": "しる",
+    "meaning": "biết",
+    "type": "động từ I"
+  },
+  {
+    "word": "知ります",
+    "reading": "しります",
+    "meaning": "biết",
+    "type": "động từ I"
+  },
+  {
+    "word": "置く",
+    "reading": "おく",
+    "meaning": "đặt, để",
+    "type": "động từ I"
+  },
+  {
+    "word": "置きます",
+    "reading": "おきます",
+    "meaning": "đặt, để",
+    "type": "động từ I"
+  },
+  {
+    "word": "住む",
+    "reading": "[おおさかに～]すむ",
+    "meaning": "sống, ở [Osaka]",
+    "type": "động từ I"
+  },
+  {
+    "word": "住みます",
+    "reading": "[おおさかに～]すみます",
+    "meaning": "sống, ở [Osaka]",
+    "type": "động từ I"
+  },
+  {
+    "word": "辞める",
+    "reading": "やめる",
+    "meaning": "bỏ, thôi",
+    "type": "động từ II"
+  },
+  {
+    "word": "辞めます",
+    "reading": "やめます",
+    "meaning": "bỏ, thôi",
+    "type": "động từ II"
+  },
+  {
+    "word": "旅行する",
+    "reading": "りょこうする",
+    "meaning": "du lịch",
+    "type": "động từ III"
+  },
+  {
+    "word": "旅行します",
+    "reading": "りょこうします",
+    "meaning": "du lịch",
+    "type": "động từ III"
+  },
+  {
+    "word": "研究する",
+    "reading": "けんきゅうする",
+    "meaning": "nghiên cứu",
+    "type": "động từ III"
+  },
+  {
+    "word": "研究します",
+    "reading": "けんきゅうします",
+    "meaning": "nghiên cứu",
+    "type": "động từ III"
+  },
+  {
+    "word": "チェックする",
+    "reading": "チェックする",
+    "meaning": "kiểm tra",
+    "type": "động từ III"
+  },
+  {
+    "word": "チェックします",
+    "reading": "チェックします",
+    "meaning": "kiểm tra",
+    "type": "động từ III"
+  },
+  {
+    "word": "知っている",
+    "reading": "しっている",
+    "meaning": "biết",
+    "type": "động từ I - tha động từ"
+  },
+  {
+    "word": "知っています",
+    "reading": "しっています",
+    "meaning": "biết",
+    "type": "động từ I - tha động từ"
+  },
+  {
+    "word": "住んでいる",
+    "reading": "すんでいる",
+    "meaning": "đang sống, ở",
+    "type": "động từ I - tự động từ"
+  },
+  {
+    "word": "住んでいます",
+    "reading": "すんでいます",
+    "meaning": "đang sống, ở",
+    "type": "động từ I - tự động từ"
+  }
 ]

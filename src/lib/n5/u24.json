@@ -1,136 +1,146 @@
 [
-	{
-		"word": "[お]弁当",
-		"reading": "[お]べんとう",
-		"meaning": "cơm hộp"
-	},
-	{
-		"word": "洋服",
-		"reading": "ようふく",
-		"meaning": "quần áo, đồ Âu"
-	},
-	{
-		"word": "大阪城",
-		"reading": "おおさかじょう",
-		"meaning": "lâu đài Osaka"
-	},
-	{
-		"word": "連れていく",
-		"reading": "つれていく",
-		"meaning": "dẫn đi",
-		"note": "I"
-	},
-	{
-		"word": "連れていきます",
-		"reading": "つれていきます",
-		"meaning": "dẫn đi",
-		"note": "I"
-	},
-	{
-		"word": "連れてくる",
-		"reading": "つれてくる",
-		"meaning": "dẫn đến",
-		"note": "III"
-	},
-	{
-		"word": "連れてきます",
-		"reading": "つれてきます",
-		"meaning": "dẫn đến",
-		"note": "III"
-	},
-	{
-		"word": "[コーヒを～]入れる",
-		"reading": "[コーヒを～]いれる",
-		"meaning": "pha [cà phê]",
-		"note": "II"
-	},
-	{
-		"word": "[コーヒを～]入れます",
-		"reading": "[コーヒを～]いれます",
-		"meaning": "pha [cà phê]",
-		"note": "II"
-	},
-	{
-		"word": "くれる",
-		"reading": "くれる",
-		"meaning": "cho (tôi)",
-		"note": "II"
-	},
-	{
-		"word": "くれます",
-		"reading": "くれます",
-		"meaning": "cho (tôi)",
-		"note": "II"
-	},
-	{
-		"word": "紹介する",
-		"reading": "しょうかいする",
-		"meaning": "giới thiệu",
-		"note": "III"
-	},
-	{
-		"word": "紹介します",
-		"reading": "しょうかいします",
-		"meaning": "giới thiệu",
-		"note": "III"
-	},
-	{
-		"word": "案内する",
-		"reading": "あんないする",
-		"meaning": "hướng dẫn, giới thiệu, dẫn đường",
-		"note": "III"
-	},
-	{
-		"word": "案内します",
-		"reading": "あんないします",
-		"meaning": "hướng dẫn, giới thiệu, dẫn đường",
-		"note": "III"
-	},
-	{
-		"word": "説明する",
-		"reading": "せつめいする",
-		"meaning": "giải thích, trình bày",
-		"note": "III"
-	},
-	{
-		"word": "説明します",
-		"reading": "せつめいします",
-		"meaning": "giải thích, trình bày",
-		"note": "III"
-	},
-	{
-		"word": "全部",
-		"reading": "ぜんぶ",
-		"meaning": "toàn bộ, tất cả"
-	},
-	{
-		"word": "お菓子",
-		"reading": "おかし",
-		"meaning": "bánh kẹo"
-	},
-	{
-		"word": "お話をします",
-		"reading": "おはなしをします",
-		"meaning": "Kể chuyện"
-	},
-	{
-		"word": "指輪",
-		"reading": "ゆびわ",
-		"meaning": "Nhẫn"
-	},
-	{
-		"word": "工場",
-		"reading": "こうじょう",
-		"meaning": "Công trường"
-	},
-	{
-		"word": "故郷",
-		"reading": "ふるさと",
-		"meaning": "Quê"
-	},
-	{
-		"word": "調子",
-		"reading": "ちょうし",
-		"meaning": "Tình trạng"
-	}
+  {
+    "word": "[お]弁当",
+    "reading": "[お]べんとう",
+    "meaning": "cơm hộp",
+    "type": "danh từ"
+  },
+  {
+    "word": "洋服",
+    "reading": "ようふく",
+    "meaning": "quần áo, đồ Âu",
+    "type": "danh từ"
+  },
+  {
+    "word": "大阪城",
+    "reading": "おおさかじょう",
+    "meaning": "lâu đài Osaka",
+    "type": "danh từ"
+  },
+  {
+    "word": "連れていく",
+    "reading": "つれていく",
+    "meaning": "dẫn đi",
+    "type": "động từ I"
+  },
+  {
+    "word": "連れていきます",
+    "reading": "つれていきます",
+    "meaning": "dẫn đi",
+    "type": "động từ I"
+  },
+  {
+    "word": "連れてくる",
+    "reading": "つれてくる",
+    "meaning": "dẫn đến",
+    "type": "động từ III"
+  },
+  {
+    "word": "連れてきます",
+    "reading": "つれてきます",
+    "meaning": "dẫn đến",
+    "type": "động từ III"
+  },
+  {
+    "word": "[コーヒを～]入れる",
+    "reading": "[コーヒを～]いれる",
+    "meaning": "pha [cà phê]",
+    "type": "động từ II"
+  },
+  {
+    "word": "[コーヒを～]入れます",
+    "reading": "[コーヒを～]いれます",
+    "meaning": "pha [cà phê]",
+    "type": "động từ II"
+  },
+  {
+    "word": "くれる",
+    "reading": "くれる",
+    "meaning": "cho (tôi)",
+    "type": "động từ II"
+  },
+  {
+    "word": "くれます",
+    "reading": "くれます",
+    "meaning": "cho (tôi)",
+    "type": "động từ II"
+  },
+  {
+    "word": "紹介する",
+    "reading": "しょうかいする",
+    "meaning": "giới thiệu",
+    "type": "động từ III"
+  },
+  {
+    "word": "紹介します",
+    "reading": "しょうかいします",
+    "meaning": "giới thiệu",
+    "type": "động từ III"
+  },
+  {
+    "word": "案内する",
+    "reading": "あんないする",
+    "meaning": "hướng dẫn, giới thiệu, dẫn đường",
+    "type": "động từ III"
+  },
+  {
+    "word": "案内します",
+    "reading": "あんないします",
+    "meaning": "hướng dẫn, giới thiệu, dẫn đường",
+    "type": "động từ III"
+  },
+  {
+    "word": "説明する",
+    "reading": "せつめいする",
+    "meaning": "giải thích, trình bày",
+    "type": "động từ III"
+  },
+  {
+    "word": "説明します",
+    "reading": "せつめいします",
+    "meaning": "giải thích, trình bày",
+    "type": "động từ III"
+  },
+  {
+    "word": "全部",
+    "reading": "ぜんぶ",
+    "meaning": "toàn bộ, tất cả",
+    "type": "phó từ"
+  },
+  {
+    "word": "お菓子",
+    "reading": "おかし",
+    "meaning": "bánh kẹo",
+    "type": "danh từ"
+  },
+  {
+    "word": "お話をします",
+    "reading": "おはなしをします",
+    "meaning": "Kể chuyện",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "指輪",
+    "reading": "ゆびわ",
+    "meaning": "Nhẫn",
+    "type": "danh từ"
+  },
+  {
+    "word": "工場",
+    "reading": "こうじょう",
+    "meaning": "Công trường",
+    "type": "danh từ"
+  },
+  {
+    "word": "故郷",
+    "reading": "ふるさと",
+    "meaning": "Quê",
+    "type": "danh từ"
+  },
+  {
+    "word": "調子",
+    "reading": "ちょうし",
+    "meaning": "Tình trạng",
+    "type": "danh từ"
+  }
 ]

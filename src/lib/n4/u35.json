@@ -1,190 +1,218 @@
 [
-	{
-		"word": "変わる",
-		"reading": "かわる",
-		"meaning": "đổi, thay đổi",
-		"note": "I"
-	},
-	{
-		"word": "困る",
-		"reading": "こまる",
-		"meaning": "khó khăn",
-		"note": "I"
-	},
-	{
-		"word": "付ける",
-		"reading": "つける",
-		"meaning": "đánh dấu (tròn)",
-		"note": "II"
-	},
-	{
-		"word": "治る",
-		"reading": "なおる",
-		"meaning": "khỏi (bệnh)",
-		"note": "I"
-	},
-	{
-		"word": "直る",
-		"reading": "なおる",
-		"meaning": "(hỏng hóc) được sửa xong",
-		"note": "I"
-	},
-	{
-		"word": "入力する",
-		"reading": "にゅうりょくする",
-		"meaning": "nhập vào",
-		"note": "III"
-	},
-	{
-		"word": "仲良くする",
-		"reading": "なかよくする",
-		"meaning": "chơi thân với (cô ấy)",
-		"note": "III"
-	},
-	{
-		"word": "クリックする",
-		"meaning": "click chuột",
-		"note": "III"
-	},
-	{
-		"word": "咲く",
-		"reading": "さく",
-		"meaning": "(hoa) nở",
-		"note": "I"
-	},
-	{
-		"word": "向こう",
-		"reading": "むこう",
-		"meaning": "đằng ấy, phía đối diện"
-	},
-	{
-		"word": "島",
-		"reading": "しま",
-		"meaning": "đảo"
-	},
-	{
-		"word": "港",
-		"reading": "みなと",
-		"meaning": "cảng"
-	},
-	{
-		"word": "近所",
-		"reading": "きんじょ",
-		"meaning": "hàng xóm, gần quanh đây"
-	},
-	{
-		"word": "屋上",
-		"reading": "おくじょう",
-		"meaning": "tầng thượng"
-	},
-	{
-		"word": "海外",
-		"reading": "かいがい",
-		"meaning": "nước ngoài"
-	},
-	{
-		"word": "山登り",
-		"reading": "やまのぼり",
-		"meaning": "leo núi"
-	},
-	{
-		"word": "歴史",
-		"reading": "れきし",
-		"meaning": "lịch sử"
-	},
-	{
-		"word": "機会",
-		"reading": "きかい",
-		"meaning": "cơ hội"
-	},
-	{
-		"word": "許可",
-		"reading": "きょか",
-		"meaning": "sự cho phép"
-	},
-	{
-		"word": "丸",
-		"reading": "まる",
-		"meaning": "dấu tròn"
-	},
-	{
-		"word": "ふりがな",
-		"meaning": "chữ Furigana (dùng để phiên âm cách đọc kanji)"
-	},
-	{
-		"word": "設備",
-		"reading": "せつび",
-		"meaning": "thiết bị"
-	},
-	{
-		"word": "紐",
-		"reading": "ひも",
-		"meaning": "sợi dây"
-	},
-	{
-		"word": "炊飯器",
-		"reading": "すいはんき",
-		"meaning": "nồi cơm điện"
-	},
-	{
-		"word": "葉",
-		"reading": "は",
-		"meaning": "lá"
-	},
-	{
-		"word": "昔",
-		"reading": "むかし",
-		"meaning": "ngày xưa"
-	},
-	{
-		"word": "レバー",
-		"meaning": "cần, cần gạt"
-	},
-	{
-		"word": "カーテン",
-		"meaning": "rèm cửa"
-	},
-	{
-		"word": "夜行バス",
-		"reading": "やこうバス",
-		"meaning": "xe buýt đêm"
-	},
-	{
-		"word": "旅行社",
-		"reading": "りょこうしゃ",
-		"meaning": "công ty du lịch"
-	},
-	{
-		"word": "スキー場",
-		"reading": "スキーじょう",
-		"meaning": "sân trượt tuyết"
-	},
-	{
-		"word": "ことわざ",
-		"meaning": "thành ngữ"
-	},
-	{
-		"word": "詳しい",
-		"reading": "くわしい",
-		"meaning": "cụ thể, chi tiết"
-	},
-	{
-		"word": "正しい",
-		"reading": "ただしい",
-		"meaning": "đúng, chính xác"
-	},
-	{
-		"word": "必要",
-		"reading": "ひつよう",
-		"meaning": "cần thiết"
-	},
-	{
-		"word": "おかゆ",
-		"meaning": "cháo"
-	},
-	{
-		"word": "関係",
-		"reading": "かんけい",
-		"meaning": "quan hệ"
-	}
+  {
+    "word": "変わる",
+    "reading": "かわる",
+    "meaning": "đổi, thay đổi",
+    "type": "động từ I"
+  },
+  {
+    "word": "困る",
+    "reading": "こまる",
+    "meaning": "khó khăn",
+    "type": "động từ I"
+  },
+  {
+    "word": "付ける",
+    "reading": "つける",
+    "meaning": "đánh dấu (tròn)",
+    "type": "động từ II"
+  },
+  {
+    "word": "治る",
+    "reading": "なおる",
+    "meaning": "khỏi (bệnh)",
+    "type": "động từ I"
+  },
+  {
+    "word": "直る",
+    "reading": "なおる",
+    "meaning": "(hỏng hóc) được sửa xong",
+    "type": "động từ I"
+  },
+  {
+    "word": "入力する",
+    "reading": "にゅうりょくする",
+    "meaning": "nhập vào",
+    "type": "động từ III"
+  },
+  {
+    "word": "仲良くする",
+    "reading": "なかよくする",
+    "meaning": "chơi thân với (cô ấy)",
+    "type": "động từ III"
+  },
+  {
+    "word": "クリックする",
+    "meaning": "click chuột",
+    "type": "động từ III"
+  },
+  {
+    "word": "咲く",
+    "reading": "さく",
+    "meaning": "(hoa) nở",
+    "type": "động từ I"
+  },
+  {
+    "word": "向こう",
+    "reading": "むこう",
+    "meaning": "đằng ấy, phía đối diện",
+    "type": "danh từ"
+  },
+  {
+    "word": "島",
+    "reading": "しま",
+    "meaning": "đảo",
+    "type": "danh từ"
+  },
+  {
+    "word": "港",
+    "reading": "みなと",
+    "meaning": "cảng",
+    "type": "danh từ"
+  },
+  {
+    "word": "近所",
+    "reading": "きんじょ",
+    "meaning": "hàng xóm, gần quanh đây",
+    "type": "danh từ"
+  },
+  {
+    "word": "屋上",
+    "reading": "おくじょう",
+    "meaning": "tầng thượng",
+    "type": "danh từ"
+  },
+  {
+    "word": "海外",
+    "reading": "かいがい",
+    "meaning": "nước ngoài",
+    "type": "danh từ"
+  },
+  {
+    "word": "山登り",
+    "reading": "やまのぼり",
+    "meaning": "leo núi",
+    "type": "danh từ"
+  },
+  {
+    "word": "歴史",
+    "reading": "れきし",
+    "meaning": "lịch sử",
+    "type": "danh từ"
+  },
+  {
+    "word": "機会",
+    "reading": "きかい",
+    "meaning": "cơ hội",
+    "type": "danh từ"
+  },
+  {
+    "word": "許可",
+    "reading": "きょか",
+    "meaning": "sự cho phép",
+    "type": "danh từ"
+  },
+  {
+    "word": "丸",
+    "reading": "まる",
+    "meaning": "dấu tròn",
+    "type": "danh từ"
+  },
+  {
+    "word": "ふりがな",
+    "meaning": "chữ Furigana (dùng để phiên âm cách đọc kanji)",
+    "type": "danh từ"
+  },
+  {
+    "word": "設備",
+    "reading": "せつび",
+    "meaning": "thiết bị",
+    "type": "danh từ"
+  },
+  {
+    "word": "紐",
+    "reading": "ひも",
+    "meaning": "sợi dây",
+    "type": "danh từ"
+  },
+  {
+    "word": "炊飯器",
+    "reading": "すいはんき",
+    "meaning": "nồi cơm điện",
+    "type": "danh từ"
+  },
+  {
+    "word": "葉",
+    "reading": "は",
+    "meaning": "lá",
+    "type": "danh từ"
+  },
+  {
+    "word": "昔",
+    "reading": "むかし",
+    "meaning": "ngày xưa",
+    "type": "danh từ"
+  },
+  {
+    "word": "レバー",
+    "meaning": "cần, cần gạt",
+    "type": "danh từ"
+  },
+  {
+    "word": "カーテン",
+    "meaning": "rèm cửa",
+    "type": "danh từ"
+  },
+  {
+    "word": "夜行バス",
+    "reading": "やこうバス",
+    "meaning": "xe buýt đêm",
+    "type": "danh từ"
+  },
+  {
+    "word": "旅行社",
+    "reading": "りょこうしゃ",
+    "meaning": "công ty du lịch",
+    "type": "danh từ"
+  },
+  {
+    "word": "スキー場",
+    "reading": "スキーじょう",
+    "meaning": "sân trượt tuyết",
+    "type": "danh từ"
+  },
+  {
+    "word": "ことわざ",
+    "meaning": "thành ngữ",
+    "type": "danh từ"
+  },
+  {
+    "word": "詳しい",
+    "reading": "くわしい",
+    "meaning": "cụ thể, chi tiết",
+    "type": "tính từ い"
+  },
+  {
+    "word": "正しい",
+    "reading": "ただしい",
+    "meaning": "đúng, chính xác",
+    "type": "tính từ い"
+  },
+  {
+    "word": "必要",
+    "reading": "ひつよう",
+    "meaning": "cần thiết",
+    "type": "tính từ な"
+  },
+  {
+    "word": "おかゆ",
+    "meaning": "cháo",
+    "type": "danh từ"
+  },
+  {
+    "word": "関係",
+    "reading": "かんけい",
+    "meaning": "quan hệ",
+    "type": "danh từ"
+  }
 ]

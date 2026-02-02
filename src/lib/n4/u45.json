@@ -1,116 +1,135 @@
 [
-	{
-		"word": "信じる",
-		"reading": "しんじる",
-		"meaning": "tin",
-		"note": "II"
-	},
-	{
-		"word": "キャンセルする",
-		"meaning": "hủy",
-		"note": "III"
-	},
-	{
-		"word": "知らせる",
-		"reading": "しらせる",
-		"meaning": "thông báo",
-		"note": "II"
-	},
-	{
-		"word": "保証書",
-		"reading": "ほしょうしょ",
-		"meaning": "phiếu bảo hành"
-	},
-	{
-		"word": "領収書",
-		"reading": "りょうしゅうしょ",
-		"meaning": "hóa đơn"
-	},
-	{
-		"word": "キャンプ",
-		"meaning": "cắm trại"
-	},
-	{
-		"word": "中止",
-		"reading": "ちゅうし",
-		"meaning": "dừng, hủy"
-	},
-	{
-		"word": "点",
-		"reading": "てん",
-		"meaning": "điểm, điểm số"
-	},
-	{
-		"word": "梅",
-		"reading": "うめ",
-		"meaning": "hoa mơ"
-	},
-	{
-		"word": "無理に",
-		"reading": "むりに",
-		"meaning": "cố, gắng (làm quá khả năng)"
-	},
-	{
-		"word": "楽しみにしています",
-		"reading": "たのしみにしています",
-		"meaning": "Tôi rất mong chờ."
-	},
-	{
-		"word": "以上です",
-		"reading": "いじょうです",
-		"meaning": "xin hết"
-	},
-	{
-		"word": "大学生",
-		"reading": "だいがくせい",
-		"meaning": "sinh viên đại học"
-	},
-	{
-		"word": "係員",
-		"reading": "かかりいん",
-		"meaning": "người phụ trách"
-	},
-	{
-		"word": "コース",
-		"meaning": "đường chạy ma-ra-tông"
-	},
-	{
-		"word": "スタート",
-		"meaning": "xuất phát"
-	},
-	{
-		"word": "悩み",
-		"reading": "なやみ",
-		"meaning": "nỗi khổ tâm"
-	},
-	{
-		"word": "回答",
-		"reading": "かいとう",
-		"meaning": "câu trả lời"
-	},
-	{
-		"word": "それでも",
-		"meaning": "kể cả như thế, mặc dù như thế"
-	},
-	{
-		"word": "贈り物",
-		"reading": "おくりもの",
-		"meaning": "quà tặng"
-	},
-	{
-		"word": "目覚まし時計",
-		"reading": "めざましどけい",
-		"meaning": "đồng hồ báo thức"
-	},
-	{
-		"word": "号室",
-		"reading": "ごうしつ",
-		"meaning": "số phòng"
-	},
-	{
-		"word": "鳴る",
-		"reading": "なる",
-		"meaning": "(chuông) kêu, reo",
-		"note": "I"
-	}
+  {
+    "word": "信じる",
+    "reading": "しんじる",
+    "meaning": "tin",
+    "type": "động từ II"
+  },
+  {
+    "word": "キャンセルする",
+    "meaning": "hủy",
+    "type": "động từ III"
+  },
+  {
+    "word": "知らせる",
+    "reading": "しらせる",
+    "meaning": "thông báo",
+    "type": "động từ II"
+  },
+  {
+    "word": "保証書",
+    "reading": "ほしょうしょ",
+    "meaning": "phiếu bảo hành",
+    "type": "danh từ"
+  },
+  {
+    "word": "領収書",
+    "reading": "りょうしゅうしょ",
+    "meaning": "hóa đơn",
+    "type": "danh từ"
+  },
+  {
+    "word": "キャンプ",
+    "meaning": "cắm trại",
+    "type": "danh từ"
+  },
+  {
+    "word": "中止",
+    "reading": "ちゅうし",
+    "meaning": "dừng, hủy",
+    "type": "danh từ"
+  },
+  {
+    "word": "点",
+    "reading": "てん",
+    "meaning": "điểm, điểm số",
+    "type": "danh từ"
+  },
+  {
+    "word": "梅",
+    "reading": "うめ",
+    "meaning": "hoa mơ",
+    "type": "danh từ"
+  },
+  {
+    "word": "無理に",
+    "reading": "むりに",
+    "meaning": "cố, gắng (làm quá khả năng)",
+    "type": "phó từ"
+  },
+  {
+    "word": "楽しみにしています",
+    "reading": "たのしみにしています",
+    "meaning": "Tôi rất mong chờ.",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "以上です",
+    "reading": "いじょうです",
+    "meaning": "xin hết",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "大学生",
+    "reading": "だいがくせい",
+    "meaning": "sinh viên đại học",
+    "type": "danh từ"
+  },
+  {
+    "word": "係員",
+    "reading": "かかりいん",
+    "meaning": "người phụ trách",
+    "type": "danh từ"
+  },
+  {
+    "word": "コース",
+    "meaning": "đường chạy ma-ra-tông",
+    "type": "danh từ"
+  },
+  {
+    "word": "スタート",
+    "meaning": "xuất phát",
+    "type": "danh từ"
+  },
+  {
+    "word": "悩み",
+    "reading": "なやみ",
+    "meaning": "nỗi khổ tâm",
+    "type": "danh từ"
+  },
+  {
+    "word": "回答",
+    "reading": "かいとう",
+    "meaning": "câu trả lời",
+    "type": "danh từ"
+  },
+  {
+    "word": "それでも",
+    "meaning": "kể cả như thế, mặc dù như thế",
+    "type": "liên từ"
+  },
+  {
+    "word": "贈り物",
+    "reading": "おくりもの",
+    "meaning": "quà tặng",
+    "type": "danh từ"
+  },
+  {
+    "word": "目覚まし時計",
+    "reading": "めざましどけい",
+    "meaning": "đồng hồ báo thức",
+    "type": "danh từ"
+  },
+  {
+    "word": "号室",
+    "reading": "ごうしつ",
+    "meaning": "số phòng",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "鳴る",
+    "reading": "なる",
+    "meaning": "(chuông) kêu, reo",
+    "type": "động từ I"
+  }
 ]

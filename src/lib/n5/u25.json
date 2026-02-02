@@ -1,89 +1,100 @@
 [
-	{
-		"word": "体",
-		"reading": "からだ",
-		"meaning": "cơ thể"
-	},
-	{
-		"word": "調子",
-		"reading": "ちょうし",
-		"meaning": "tình trạng (sức khỏe, máy móc)"
-	},
-	{
-		"word": "グループ",
-		"meaning": "nhóm, đoàn"
-	},
-	{
-		"word": "チャンス",
-		"meaning": "cơ hội"
-	},
-	{
-		"word": "日本製",
-		"reading": "にほんせい",
-		"meaning": "hàng Nhật (có xuất xứ từ Nhật)"
-	},
-	{
-		"word": "[駅に～]着く",
-		"reading": "[えきに～]つく",
-		"meaning": "đến [ga]",
-		"note": "I"
-	},
-	{
-		"word": "[駅に～]着きます",
-		"reading": "[えきに～]つきます",
-		"meaning": "đến [ga]",
-		"note": "I"
-	},
-	{
-		"word": "考える",
-		"reading": "かんがえる",
-		"meaning": "nghĩ, suy nghĩ",
-		"note": "II"
-	},
-	{
-		"word": "考えます",
-		"reading": "かんがえます",
-		"meaning": "nghĩ, suy nghĩ",
-		"note": "II"
-	},
-	{
-		"word": "留学する",
-		"reading": "りゅうがくする",
-		"meaning": "du học",
-		"note": "III"
-	},
-	{
-		"word": "留学します",
-		"reading": "りゅうがくします",
-		"meaning": "du học",
-		"note": "III"
-	},
-	{
-		"word": "体にいい",
-		"reading": "からだにいい",
-		"meaning": "tốt cho sức khỏe"
-	},
-	{
-		"word": "もし[～たら]",
-		"meaning": "nếu (~ thì)"
-	},
-	{
-		"word": "いくら[～ても]",
-		"meaning": "cho dù, thế nào (~ đi nữa)"
-	},
-	{
-		"word": "給料",
-		"reading": "きゅうりょう",
-		"meaning": "lương"
-	},
-	{
-		"word": "目が覚める",
-		"reading": "めがさめる",
-		"meaning": "tỉnh giấc"
-	},
-	{
-		"word": "言葉",
-		"reading": "ことば",
-		"meaning": "từ vựng"
-	}
+  {
+    "word": "体",
+    "reading": "からだ",
+    "meaning": "cơ thể",
+    "type": "danh từ"
+  },
+  {
+    "word": "調子",
+    "reading": "ちょうし",
+    "meaning": "tình trạng (sức khỏe, máy móc)",
+    "type": "danh từ"
+  },
+  {
+    "word": "グループ",
+    "meaning": "nhóm, đoàn",
+    "type": "danh từ"
+  },
+  {
+    "word": "チャンス",
+    "meaning": "cơ hội",
+    "type": "danh từ"
+  },
+  {
+    "word": "日本製",
+    "reading": "にほんせい",
+    "meaning": "hàng Nhật (có xuất xứ từ Nhật)",
+    "type": "danh từ"
+  },
+  {
+    "word": "[駅に～]着く",
+    "reading": "[えきに～]つく",
+    "meaning": "đến [ga]",
+    "type": "động từ I"
+  },
+  {
+    "word": "[駅に～]着きます",
+    "reading": "[えきに～]つきます",
+    "meaning": "đến [ga]",
+    "type": "động từ I"
+  },
+  {
+    "word": "考える",
+    "reading": "かんがえる",
+    "meaning": "nghĩ, suy nghĩ",
+    "type": "động từ II"
+  },
+  {
+    "word": "考えます",
+    "reading": "かんがえます",
+    "meaning": "nghĩ, suy nghĩ",
+    "type": "động từ II"
+  },
+  {
+    "word": "留学する",
+    "reading": "りゅうがくする",
+    "meaning": "du học",
+    "type": "động từ III"
+  },
+  {
+    "word": "留学します",
+    "reading": "りゅうがくします",
+    "meaning": "du học",
+    "type": "động từ III"
+  },
+  {
+    "word": "体にいい",
+    "reading": "からだにいい",
+    "meaning": "tốt cho sức khỏe",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "もし[～たら]",
+    "meaning": "nếu (~ thì)",
+    "type": "phó từ"
+  },
+  {
+    "word": "いくら[～ても]",
+    "meaning": "cho dù, thế nào (~ đi nữa)",
+    "type": "phó từ"
+  },
+  {
+    "word": "給料",
+    "reading": "きゅうりょう",
+    "meaning": "lương",
+    "type": "danh từ"
+  },
+  {
+    "word": "目が覚める",
+    "reading": "めがさめる",
+    "meaning": "tỉnh giấc",
+    "type": "động từ II - tự động từ"
+  },
+  {
+    "word": "言葉",
+    "reading": "ことば",
+    "meaning": "từ vựng",
+    "type": "danh từ"
+  }
 ]

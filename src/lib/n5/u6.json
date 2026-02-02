@@ -1,271 +1,319 @@
 [
-	{
-		"word": "飛行機",
-		"reading": "ひこうき",
-		"meaning": "máy bay"
-	},
-	{
-		"word": "船",
-		"reading": "ふね",
-		"meaning": "thuyền, tàu thủy"
-	},
-	{
-		"word": "地下鉄",
-		"reading": "ちかてつ",
-		"meaning": "tàu điện ngầm"
-	},
-	{
-		"word": "電車",
-		"reading": "でんしゃ",
-		"meaning": "tàu điện"
-	},
-	{
-		"word": "バイク",
-		"meaning": "xe máy"
-	},
-	{
-		"word": "バス",
-		"meaning": "xe bus"
-	},
-	{
-		"word": "タクシー",
-		"meaning": "taxi"
-	},
-	{
-		"word": "自転車",
-		"reading": "じてんしゃ",
-		"meaning": "xe đạp"
-	},
-	{
-		"word": "歩いて",
-		"reading": "あるいて",
-		"meaning": "đi bộ"
-	},
-	{
-		"word": "ホテル",
-		"meaning": "khách sạn"
-	},
-	{
-		"word": "美術館",
-		"reading": "びじゅつかん",
-		"meaning": "bảo tàng mỹ thuật"
-	},
-	{
-		"word": "ホーチミン市",
-		"reading": "ホーチミンし",
-		"meaning": "Thành phố Hồ Chí Minh"
-	},
-	{
-		"word": "ハイズオン",
-		"meaning": "Hải Dương"
-	},
-	{
-		"word": "ハロン湾",
-		"reading": "ハロンわん",
-		"meaning": "vịnh Hạ Long"
-	},
-	{
-		"word": "友達",
-		"reading": "ともだち",
-		"meaning": "bạn, bạn bè"
-	},
-	{
-		"word": "一人で",
-		"reading": "ひとりで",
-		"meaning": "một mình"
-	},
-	{
-		"word": "人",
-		"reading": "ひと",
-		"meaning": "người"
-	},
-	{
-		"word": "家族",
-		"reading": "かぞく",
-		"meaning": "gia đình"
-	},
-	{
-		"word": "先週",
-		"reading": "せんしゅう",
-		"meaning": "tuần trước"
-	},
-	{
-		"word": "今週",
-		"reading": "こんしゅう",
-		"meaning": "tuần này"
-	},
-	{
-		"word": "来週",
-		"reading": "らいしゅう",
-		"meaning": "tuần sau"
-	},
-	{
-		"word": "先月",
-		"reading": "せんげつ",
-		"meaning": "tháng trước"
-	},
-	{
-		"word": "今月",
-		"reading": "こんげつ",
-		"meaning": "tháng này"
-	},
-	{
-		"word": "来月",
-		"reading": "らいげつ",
-		"meaning": "tháng sau"
-	},
-	{
-		"word": "去年",
-		"reading": "きょねん",
-		"meaning": "năm ngoái"
-	},
-	{
-		"word": "今年",
-		"reading": "ことし",
-		"meaning": "năm nay"
-	},
-	{
-		"word": "来年",
-		"reading": "らいねん",
-		"meaning": "năm sau"
-	},
-	{
-		"word": "一日",
-		"reading": "ついたち",
-		"meaning": "mồng 1"
-	},
-	{
-		"word": "二日",
-		"reading": "ふつか",
-		"meaning": "mồng 2"
-	},
-	{
-		"word": "三日",
-		"reading": "みっか",
-		"meaning": "mồng 3"
-	},
-	{
-		"word": "四日",
-		"reading": "よっか",
-		"meaning": "mồng 4"
-	},
-	{
-		"word": "五日",
-		"reading": "いつか",
-		"meaning": "mồng 5"
-	},
-	{
-		"word": "六日",
-		"reading": "むいか",
-		"meaning": "mồng 6"
-	},
-	{
-		"word": "七日",
-		"reading": "なのか",
-		"meaning": "mồng 7"
-	},
-	{
-		"word": "八日",
-		"reading": "ようか",
-		"meaning": "mồng 8"
-	},
-	{
-		"word": "九日",
-		"reading": "ここのか",
-		"meaning": "mồng 9"
-	},
-	{
-		"word": "十日",
-		"reading": "とおか",
-		"meaning": "mồng 10"
-	},
-	{
-		"word": "十四日",
-		"reading": "じゅうよっか",
-		"meaning": "ngày 14"
-	},
-	{
-		"word": "二十日",
-		"reading": "はつか",
-		"meaning": "ngày 20"
-	},
-	{
-		"word": "二十四日",
-		"reading": "にじゅうよっか",
-		"meaning": "ngày 24"
-	},
-	{
-		"word": "誕生日",
-		"reading": "たんじょうび",
-		"meaning": "sinh nhật"
-	},
-	{
-		"word": "～ごろ",
-		"meaning": "khoảng ~"
-	},
-	{
-		"word": "何日",
-		"reading": "なんにち",
-		"meaning": "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày"
-	},
-	{
-		"word": "何月",
-		"reading": "なんがつ",
-		"meaning": "tháng mấy"
-	},
-	{
-		"word": "いつ",
-		"meaning": "bao giờ, khi nào"
-	},
-	{
-		"word": "行く",
-		"reading": "いく",
-		"meaning": "đi",
-		"note": "I"
-	},
-	{
-		"word": "行きます",
-		"reading": "いきます",
-		"meaning": "đi",
-		"note": "I"
-	},
-	{
-		"word": "来る",
-		"reading": "くる",
-		"meaning": "đến",
-		"note": "III"
-	},
-	{
-		"word": "来ます",
-		"reading": "きます",
-		"meaning": "đến",
-		"note": "III"
-	},
-	{
-		"word": "帰る",
-		"reading": "かえる",
-		"meaning": "về",
-		"note": "I"
-	},
-	{
-		"word": "帰ります",
-		"reading": "かえります",
-		"meaning": "về",
-		"note": "I"
-	},
-	{
-		"word": "日記",
-		"reading": "にっき",
-		"meaning": "Nhật kí"
-	},
-	{
-		"word": "本社",
-		"reading": "ほんしゃ",
-		"meaning": "Trụ sở chính"
-	},
-	{
-		"word": "空港",
-		"reading": "くうこう",
-		"meaning": "Sân bay"
-	}
+  {
+    "word": "飛行機",
+    "reading": "ひこうき",
+    "meaning": "máy bay",
+    "type": "danh từ"
+  },
+  {
+    "word": "船",
+    "reading": "ふね",
+    "meaning": "thuyền, tàu thủy",
+    "type": "danh từ"
+  },
+  {
+    "word": "地下鉄",
+    "reading": "ちかてつ",
+    "meaning": "tàu điện ngầm",
+    "type": "danh từ"
+  },
+  {
+    "word": "電車",
+    "reading": "でんしゃ",
+    "meaning": "tàu điện",
+    "type": "danh từ"
+  },
+  {
+    "word": "バイク",
+    "meaning": "xe máy",
+    "type": "danh từ"
+  },
+  {
+    "word": "バス",
+    "meaning": "xe bus",
+    "type": "danh từ"
+  },
+  {
+    "word": "タクシー",
+    "meaning": "taxi",
+    "type": "danh từ"
+  },
+  {
+    "word": "自転車",
+    "reading": "じてんしゃ",
+    "meaning": "xe đạp",
+    "type": "danh từ"
+  },
+  {
+    "word": "歩いて",
+    "reading": "あるいて",
+    "meaning": "đi bộ",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "ホテル",
+    "meaning": "khách sạn",
+    "type": "danh từ"
+  },
+  {
+    "word": "美術館",
+    "reading": "びじゅつかん",
+    "meaning": "bảo tàng mỹ thuật",
+    "type": "danh từ"
+  },
+  {
+    "word": "ホーチミン市",
+    "reading": "ホーチミンし",
+    "meaning": "Thành phố Hồ Chí Minh",
+    "type": "danh từ"
+  },
+  {
+    "word": "ハイズオン",
+    "meaning": "Hải Dương",
+    "type": "danh từ"
+  },
+  {
+    "word": "ハロン湾",
+    "reading": "ハロンわん",
+    "meaning": "vịnh Hạ Long",
+    "type": "danh từ"
+  },
+  {
+    "word": "友達",
+    "reading": "ともだち",
+    "meaning": "bạn, bạn bè",
+    "type": "danh từ"
+  },
+  {
+    "word": "一人で",
+    "reading": "ひとりで",
+    "meaning": "một mình",
+    "type": "phó từ"
+  },
+  {
+    "word": "人",
+    "reading": "ひと",
+    "meaning": "người",
+    "type": "danh từ"
+  },
+  {
+    "word": "家族",
+    "reading": "かぞく",
+    "meaning": "gia đình",
+    "type": "danh từ"
+  },
+  {
+    "word": "先週",
+    "reading": "せんしゅう",
+    "meaning": "tuần trước",
+    "type": "danh từ"
+  },
+  {
+    "word": "今週",
+    "reading": "こんしゅう",
+    "meaning": "tuần này",
+    "type": "danh từ"
+  },
+  {
+    "word": "来週",
+    "reading": "らいしゅう",
+    "meaning": "tuần sau",
+    "type": "danh từ"
+  },
+  {
+    "word": "先月",
+    "reading": "せんげつ",
+    "meaning": "tháng trước",
+    "type": "danh từ"
+  },
+  {
+    "word": "今月",
+    "reading": "こんげつ",
+    "meaning": "tháng này",
+    "type": "danh từ"
+  },
+  {
+    "word": "来月",
+    "reading": "らいげつ",
+    "meaning": "tháng sau",
+    "type": "danh từ"
+  },
+  {
+    "word": "去年",
+    "reading": "きょねん",
+    "meaning": "năm ngoái",
+    "type": "danh từ"
+  },
+  {
+    "word": "今年",
+    "reading": "ことし",
+    "meaning": "năm nay",
+    "type": "danh từ"
+  },
+  {
+    "word": "来年",
+    "reading": "らいねん",
+    "meaning": "năm sau",
+    "type": "danh từ"
+  },
+  {
+    "word": "一日",
+    "reading": "ついたち",
+    "meaning": "mồng 1",
+    "type": "danh từ"
+  },
+  {
+    "word": "二日",
+    "reading": "ふつか",
+    "meaning": "mồng 2",
+    "type": "danh từ"
+  },
+  {
+    "word": "三日",
+    "reading": "みっか",
+    "meaning": "mồng 3",
+    "type": "danh từ"
+  },
+  {
+    "word": "四日",
+    "reading": "よっか",
+    "meaning": "mồng 4",
+    "type": "danh từ"
+  },
+  {
+    "word": "五日",
+    "reading": "いつか",
+    "meaning": "mồng 5",
+    "type": "danh từ"
+  },
+  {
+    "word": "六日",
+    "reading": "むいか",
+    "meaning": "mồng 6",
+    "type": "danh từ"
+  },
+  {
+    "word": "七日",
+    "reading": "なのか",
+    "meaning": "mồng 7",
+    "type": "danh từ"
+  },
+  {
+    "word": "八日",
+    "reading": "ようか",
+    "meaning": "mồng 8",
+    "type": "danh từ"
+  },
+  {
+    "word": "九日",
+    "reading": "ここのか",
+    "meaning": "mồng 9",
+    "type": "danh từ"
+  },
+  {
+    "word": "十日",
+    "reading": "とおか",
+    "meaning": "mồng 10",
+    "type": "danh từ"
+  },
+  {
+    "word": "十四日",
+    "reading": "じゅうよっか",
+    "meaning": "ngày 14",
+    "type": "danh từ"
+  },
+  {
+    "word": "二十日",
+    "reading": "はつか",
+    "meaning": "ngày 20",
+    "type": "danh từ"
+  },
+  {
+    "word": "二十四日",
+    "reading": "にじゅうよっか",
+    "meaning": "ngày 24",
+    "type": "danh từ"
+  },
+  {
+    "word": "誕生日",
+    "reading": "たんじょうび",
+    "meaning": "sinh nhật",
+    "type": "danh từ"
+  },
+  {
+    "word": "～ごろ",
+    "meaning": "khoảng ~",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "何日",
+    "reading": "なんにち",
+    "meaning": "ngày mấy, ngày bao nhiêu, mấy ngày, bao nhiêu ngày",
+    "type": "danh từ"
+  },
+  {
+    "word": "何月",
+    "reading": "なんがつ",
+    "meaning": "tháng mấy",
+    "type": "danh từ"
+  },
+  {
+    "word": "いつ",
+    "meaning": "bao giờ, khi nào",
+    "type": "phó từ"
+  },
+  {
+    "word": "行く",
+    "reading": "いく",
+    "meaning": "đi",
+    "type": "động từ I"
+  },
+  {
+    "word": "行きます",
+    "reading": "いきます",
+    "meaning": "đi",
+    "type": "động từ I"
+  },
+  {
+    "word": "来る",
+    "reading": "くる",
+    "meaning": "đến",
+    "type": "động từ III"
+  },
+  {
+    "word": "来ます",
+    "reading": "きます",
+    "meaning": "đến",
+    "type": "động từ III"
+  },
+  {
+    "word": "帰る",
+    "reading": "かえる",
+    "meaning": "về",
+    "type": "động từ I"
+  },
+  {
+    "word": "帰ります",
+    "reading": "かえります",
+    "meaning": "về",
+    "type": "động từ I"
+  },
+  {
+    "word": "日記",
+    "reading": "にっき",
+    "meaning": "Nhật kí",
+    "type": "danh từ"
+  },
+  {
+    "word": "本社",
+    "reading": "ほんしゃ",
+    "meaning": "Trụ sở chính",
+    "type": "danh từ"
+  },
+  {
+    "word": "空港",
+    "reading": "くうこう",
+    "meaning": "Sân bay",
+    "type": "danh từ"
+  }
 ]

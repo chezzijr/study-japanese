@@ -1,236 +1,270 @@
 [
-	{
-		"word": "数える",
-		"reading": "かぞえる",
-		"meaning": "đếm",
-		"note": "II"
-	},
-	{
-		"word": "測る・量る",
-		"reading": "はかる",
-		"meaning": "đo, cân",
-		"note": "I"
-	},
-	{
-		"word": "確かめる",
-		"reading": "たしかめる",
-		"meaning": "xác nhận",
-		"note": "II"
-	},
-	{
-		"word": "合う",
-		"reading": "あう",
-		"meaning": "vừa, phù hợp (cỡ)",
-		"note": "I"
-	},
-	{
-		"word": "出発する",
-		"reading": "しゅっぱつする",
-		"meaning": "xuất phát",
-		"note": "III"
-	},
-	{
-		"word": "到着する",
-		"reading": "とうちゃくする",
-		"meaning": "đến nơi",
-		"note": "III"
-	},
-	{
-		"word": "酔う",
-		"reading": "よう",
-		"meaning": "say (rượu)",
-		"note": "I"
-	},
-	{
-		"word": "うまくいく",
-		"meaning": "thuận lợi",
-		"note": "I"
-	},
-	{
-		"word": "相談する",
-		"reading": "そうだんする",
-		"meaning": "nói chuyện, thảo luận",
-		"note": "III"
-	},
-	{
-		"word": "動かす",
-		"reading": "うごかす",
-		"meaning": "di chuyển",
-		"note": "I"
-	},
-	{
-		"word": "コンテスト",
-		"meaning": "cuộc thi"
-	},
-	{
-		"word": "天気予報",
-		"reading": "てんきよほう",
-		"meaning": "dự báo thời tiết"
-	},
-	{
-		"word": "爆弾",
-		"reading": "ばくだん",
-		"meaning": "bom"
-	},
-	{
-		"word": "急に",
-		"reading": "きゅうに",
-		"meaning": "đột nhiên"
-	},
-	{
-		"word": "発表会",
-		"reading": "はっぴょうかい",
-		"meaning": "buổi phát biểu"
-	},
-	{
-		"word": "大会",
-		"reading": "たいかい",
-		"meaning": "cuộc thi, hội thi"
-	},
-	{
-		"word": "表",
-		"reading": "おもて",
-		"meaning": "mặt phải, mặt trước"
-	},
-	{
-		"word": "裏",
-		"reading": "うら",
-		"meaning": "mặt trái, mặt sau"
-	},
-	{
-		"word": "間違い",
-		"reading": "まちがい",
-		"meaning": "sai sót"
-	},
-	{
-		"word": "傷",
-		"reading": "きず",
-		"meaning": "vết xước, vết trầy, vết thương"
-	},
-	{
-		"word": "ズボン",
-		"meaning": "quần"
-	},
-	{
-		"word": "年寄り",
-		"reading": "としより",
-		"meaning": "người già, người cao tuổi"
-	},
-	{
-		"word": "長さ",
-		"reading": "ながさ",
-		"meaning": "chiều dài"
-	},
-	{
-		"word": "重さ",
-		"reading": "おもさ",
-		"meaning": "trọng lượng"
-	},
-	{
-		"word": "高さ",
-		"reading": "たかさ",
-		"meaning": "chiều cao"
-	},
-	{
-		"word": "大きさ",
-		"reading": "おおきさ",
-		"meaning": "độ lớn, kích thước"
-	},
-	{
-		"word": "成績",
-		"reading": "せいせき",
-		"meaning": "thành tích"
-	},
-	{
-		"word": "事件",
-		"reading": "じけん",
-		"meaning": "vụ án"
-	},
-	{
-		"word": "犯人",
-		"reading": "はんにん",
-		"meaning": "tội phạm"
-	},
-	{
-		"word": "ところで",
-		"meaning": "nhân tiện"
-	},
-	{
-		"word": "～便",
-		"reading": "～びん",
-		"meaning": "chuyến ~"
-	},
-	{
-		"word": "～個",
-		"reading": "～こ",
-		"meaning": "cái, chiếc"
-	},
-	{
-		"word": "～キロ",
-		"meaning": "kilo, cân"
-	},
-	{
-		"word": "～グラム",
-		"meaning": "gram"
-	},
-	{
-		"word": "～ミリ",
-		"meaning": "mi-li-mét"
-	},
-	{
-		"word": "～以上",
-		"reading": "～いじょう",
-		"meaning": "trên ~"
-	},
-	{
-		"word": "～以下",
-		"reading": "～いか",
-		"meaning": "dưới ~"
-	},
-	{
-		"word": "忘年会",
-		"reading": "ぼうねんかい",
-		"meaning": "tiệc cuối năm"
-	},
-	{
-		"word": "新年会",
-		"reading": "しんねんかい",
-		"meaning": "tiệc đầu năm"
-	},
-	{
-		"word": "二次会",
-		"reading": "にじかい",
-		"meaning": "tăng hai"
-	},
-	{
-		"word": "手に入れる",
-		"reading": "てにいれる",
-		"meaning": "có được, thu được",
-		"note": "II"
-	},
-	{
-		"word": "様子",
-		"reading": "ようす",
-		"meaning": "tình hình, tình trạng, dáng vẻ"
-	},
-	{
-		"word": "噂",
-		"reading": "うわさ",
-		"meaning": "lời đồn"
-	},
-	{
-		"word": "美しい",
-		"reading": "うつくしい",
-		"meaning": "xinh đẹp"
-	},
-	{
-		"word": "オートバイ",
-		"meaning": "mô tô phân khối lớn"
-	},
-	{
-		"word": "積む",
-		"reading": "つむ",
-		"meaning": "chồng lên, tích lũy",
-		"note": "I"
-	}
+  {
+    "word": "数える",
+    "reading": "かぞえる",
+    "meaning": "đếm",
+    "type": "động từ II"
+  },
+  {
+    "word": "測る・量る",
+    "reading": "はかる",
+    "meaning": "đo, cân",
+    "type": "động từ I"
+  },
+  {
+    "word": "確かめる",
+    "reading": "たしかめる",
+    "meaning": "xác nhận",
+    "type": "động từ II"
+  },
+  {
+    "word": "合う",
+    "reading": "あう",
+    "meaning": "vừa, phù hợp (cỡ)",
+    "type": "động từ I"
+  },
+  {
+    "word": "出発する",
+    "reading": "しゅっぱつする",
+    "meaning": "xuất phát",
+    "type": "động từ III"
+  },
+  {
+    "word": "到着する",
+    "reading": "とうちゃくする",
+    "meaning": "đến nơi",
+    "type": "động từ III"
+  },
+  {
+    "word": "酔う",
+    "reading": "よう",
+    "meaning": "say (rượu)",
+    "type": "động từ I"
+  },
+  {
+    "word": "うまくいく",
+    "meaning": "thuận lợi",
+    "type": "động từ I"
+  },
+  {
+    "word": "相談する",
+    "reading": "そうだんする",
+    "meaning": "nói chuyện, thảo luận",
+    "type": "động từ III"
+  },
+  {
+    "word": "動かす",
+    "reading": "うごかす",
+    "meaning": "di chuyển",
+    "type": "động từ I"
+  },
+  {
+    "word": "コンテスト",
+    "meaning": "cuộc thi",
+    "type": "danh từ"
+  },
+  {
+    "word": "天気予報",
+    "reading": "てんきよほう",
+    "meaning": "dự báo thời tiết",
+    "type": "danh từ"
+  },
+  {
+    "word": "爆弾",
+    "reading": "ばくだん",
+    "meaning": "bom",
+    "type": "danh từ"
+  },
+  {
+    "word": "急に",
+    "reading": "きゅうに",
+    "meaning": "đột nhiên",
+    "type": "phó từ"
+  },
+  {
+    "word": "発表会",
+    "reading": "はっぴょうかい",
+    "meaning": "buổi phát biểu",
+    "type": "danh từ"
+  },
+  {
+    "word": "大会",
+    "reading": "たいかい",
+    "meaning": "cuộc thi, hội thi",
+    "type": "danh từ"
+  },
+  {
+    "word": "表",
+    "reading": "おもて",
+    "meaning": "mặt phải, mặt trước",
+    "type": "danh từ"
+  },
+  {
+    "word": "裏",
+    "reading": "うら",
+    "meaning": "mặt trái, mặt sau",
+    "type": "danh từ"
+  },
+  {
+    "word": "間違い",
+    "reading": "まちがい",
+    "meaning": "sai sót",
+    "type": "danh từ"
+  },
+  {
+    "word": "傷",
+    "reading": "きず",
+    "meaning": "vết xước, vết trầy, vết thương",
+    "type": "danh từ"
+  },
+  {
+    "word": "ズボン",
+    "meaning": "quần",
+    "type": "danh từ"
+  },
+  {
+    "word": "年寄り",
+    "reading": "としより",
+    "meaning": "người già, người cao tuổi",
+    "type": "danh từ"
+  },
+  {
+    "word": "長さ",
+    "reading": "ながさ",
+    "meaning": "chiều dài",
+    "type": "danh từ"
+  },
+  {
+    "word": "重さ",
+    "reading": "おもさ",
+    "meaning": "trọng lượng",
+    "type": "danh từ"
+  },
+  {
+    "word": "高さ",
+    "reading": "たかさ",
+    "meaning": "chiều cao",
+    "type": "danh từ"
+  },
+  {
+    "word": "大きさ",
+    "reading": "おおきさ",
+    "meaning": "độ lớn, kích thước",
+    "type": "danh từ"
+  },
+  {
+    "word": "成績",
+    "reading": "せいせき",
+    "meaning": "thành tích",
+    "type": "danh từ"
+  },
+  {
+    "word": "事件",
+    "reading": "じけん",
+    "meaning": "vụ án",
+    "type": "danh từ"
+  },
+  {
+    "word": "犯人",
+    "reading": "はんにん",
+    "meaning": "tội phạm",
+    "type": "danh từ"
+  },
+  {
+    "word": "ところで",
+    "meaning": "nhân tiện",
+    "type": "liên từ"
+  },
+  {
+    "word": "～便",
+    "reading": "～びん",
+    "meaning": "chuyến ~",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～個",
+    "reading": "～こ",
+    "meaning": "cái, chiếc",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～キロ",
+    "meaning": "kilo, cân",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～グラム",
+    "meaning": "gram",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～ミリ",
+    "meaning": "mi-li-mét",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～以上",
+    "reading": "～いじょう",
+    "meaning": "trên ~",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～以下",
+    "reading": "～いか",
+    "meaning": "dưới ~",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "忘年会",
+    "reading": "ぼうねんかい",
+    "meaning": "tiệc cuối năm",
+    "type": "danh từ"
+  },
+  {
+    "word": "新年会",
+    "reading": "しんねんかい",
+    "meaning": "tiệc đầu năm",
+    "type": "danh từ"
+  },
+  {
+    "word": "二次会",
+    "reading": "にじかい",
+    "meaning": "tăng hai",
+    "type": "danh từ"
+  },
+  {
+    "word": "手に入れる",
+    "reading": "てにいれる",
+    "meaning": "có được, thu được",
+    "type": "động từ II"
+  },
+  {
+    "word": "様子",
+    "reading": "ようす",
+    "meaning": "tình hình, tình trạng, dáng vẻ",
+    "type": "danh từ"
+  },
+  {
+    "word": "噂",
+    "reading": "うわさ",
+    "meaning": "lời đồn",
+    "type": "danh từ"
+  },
+  {
+    "word": "美しい",
+    "reading": "うつくしい",
+    "meaning": "xinh đẹp",
+    "type": "tính từ い"
+  },
+  {
+    "word": "オートバイ",
+    "meaning": "mô tô phân khối lớn",
+    "type": "danh từ"
+  },
+  {
+    "word": "積む",
+    "reading": "つむ",
+    "meaning": "chồng lên, tích lũy",
+    "type": "động từ I"
+  }
 ]

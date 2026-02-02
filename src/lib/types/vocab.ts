@@ -2,7 +2,8 @@ export type WordDefinition = {
 	word: string;
 	reading?: string;
 	meaning: string;
-	note?: string;
+	type?: string; // Word type: e.g., "động từ I", "danh từ", "tính từ い"
+	note?: string; // Usage info: particles, context, politeness
 	_unit?: string; // Internal field tracking source unit (populated when loading "all" or range views)
 };
 

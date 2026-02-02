@@ -1,274 +1,320 @@
 [
-	{
-		"word": "恋人",
-		"reading": "こいびと",
-		"meaning": "người yêu"
-	},
-	{
-		"word": "兄",
-		"reading": "あに",
-		"meaning": "anh trai",
-		"note": "của mình"
-	},
-	{
-		"word": "お兄さん",
-		"reading": "おにいさん",
-		"meaning": "anh trai",
-		"note": "của người khác và khi xưng hô với anh trai mình"
-	},
-	{
-		"word": "姉",
-		"reading": "あね",
-		"meaning": "chị gái",
-		"note": "của mình"
-	},
-	{
-		"word": "お姉さん",
-		"reading": "おねえさん",
-		"meaning": "chị gái",
-		"note": "của người khác và khi xưng hô với chị gái mình"
-	},
-	{
-		"word": "弟",
-		"reading": "おとうと",
-		"meaning": "em trai",
-		"note": "của mình"
-	},
-	{
-		"word": "妹",
-		"reading": "いもうと",
-		"meaning": "em gái",
-		"note": "của mình"
-	},
-	{
-		"word": "兄弟",
-		"reading": "きょうだい",
-		"meaning": "anh em"
-	},
-	{
-		"word": "子供",
-		"reading": "こども",
-		"meaning": "trẻ con, trẻ em"
-	},
-	{
-		"word": "アイスクリーム",
-		"meaning": "kem"
-	},
-	{
-		"word": "葉書",
-		"reading": "はがき",
-		"meaning": "bưu thiếp"
-	},
-	{
-		"word": "奥",
-		"reading": "おく",
-		"meaning": "bên trong cùng"
-	},
-	{
-		"word": "本棚",
-		"reading": "ほんだな",
-		"meaning": "giá sách"
-	},
-	{
-		"word": "寮",
-		"reading": "りょう",
-		"meaning": "kí túc xá"
-	},
-	{
-		"word": "田舎",
-		"reading": "いなか",
-		"meaning": "quê, nông thôn"
-	},
-	{
-		"word": "外国",
-		"reading": "がいこく",
-		"meaning": "nước ngoài"
-	},
-	{
-		"word": "動物",
-		"reading": "どうぶつ",
-		"meaning": "động vật"
-	},
-	{
-		"word": "昼寝",
-		"reading": "ひるね",
-		"meaning": "ngủ trưa"
-	},
-	{
-		"word": "一つ",
-		"reading": "ひとつ",
-		"meaning": "một cái"
-	},
-	{
-		"word": "二つ",
-		"reading": "ふたつ",
-		"meaning": "hai cái"
-	},
-	{
-		"word": "三つ",
-		"reading": "みっつ",
-		"meaning": "ba cái"
-	},
-	{
-		"word": "四つ",
-		"reading": "よっつ",
-		"meaning": "bốn cái"
-	},
-	{
-		"word": "五つ",
-		"reading": "いつつ",
-		"meaning": "năm cái"
-	},
-	{
-		"word": "六つ",
-		"reading": "むっつ",
-		"meaning": "sáu cái"
-	},
-	{
-		"word": "七つ",
-		"reading": "ななつ",
-		"meaning": "bảy cái"
-	},
-	{
-		"word": "八つ",
-		"reading": "やっつ",
-		"meaning": "tám cái"
-	},
-	{
-		"word": "九つ",
-		"reading": "ここのつ",
-		"meaning": "chín cái"
-	},
-	{
-		"word": "十",
-		"reading": "とお",
-		"meaning": "mười cái"
-	},
-	{
-		"word": "一人",
-		"reading": "ひとり",
-		"meaning": "một người"
-	},
-	{
-		"word": "二人",
-		"reading": "ふたり",
-		"meaning": "hai người"
-	},
-	{
-		"word": "～人",
-		"reading": "～にん",
-		"meaning": "~ người"
-	},
-	{
-		"word": "～台",
-		"reading": "～だい",
-		"meaning": "~ cái"
-	},
-	{
-		"word": "～枚",
-		"reading": "～まい",
-		"meaning": "~ tờ, tấm"
-	},
-	{
-		"word": "～回",
-		"reading": "～かい",
-		"meaning": "~ lần"
-	},
-	{
-		"word": "～時間",
-		"reading": "～じかん",
-		"meaning": "~ tiếng"
-	},
-	{
-		"word": "～週間",
-		"reading": "～しゅうかん",
-		"meaning": "~ tuần"
-	},
-	{
-		"word": "～ヶ月",
-		"reading": "～かげつ",
-		"meaning": "~ tháng"
-	},
-	{
-		"word": "～年",
-		"reading": "～ねん",
-		"meaning": "~ năm"
-	},
-	{
-		"word": "いくつ",
-		"meaning": "mấy cái, bao nhiêu cái"
-	},
-	{
-		"word": "どのくらい",
-		"meaning": "bao lâu"
-	},
-	{
-		"word": "～ぐらい",
-		"meaning": "khoảng ~"
-	},
-	{
-		"word": "全部で",
-		"meaning": "tổng cộng"
-	},
-	{
-		"word": "～だけ",
-		"meaning": "chỉ ~"
-	},
-	{
-		"word": "居る",
-		"reading": "いる",
-		"meaning": "có [con / ở Nhật]",
-		"note": "II"
-	},
-	{
-		"word": "居ます",
-		"reading": "います",
-		"meaning": "có",
-		"note": "II"
-	},
-	{
-		"word": "掛かる",
-		"reading": "かかる",
-		"meaning": "mất, tốn [thời gian, tiền bạc]",
-		"note": "I"
-	},
-	{
-		"word": "掛かります",
-		"reading": "かかります",
-		"meaning": "mất, tốn [thời gian, tiền bạc]",
-		"note": "I"
-	},
-	{
-		"word": "休む",
-		"reading": "やすむ",
-		"meaning": "nghỉ, nghỉ ngơi",
-		"note": "I"
-	},
-	{
-		"word": "休みます",
-		"reading": "やすみます",
-		"meaning": "nghỉ, nghỉ ngơi",
-		"note": "I"
-	},
-	{
-		"word": "焼きます",
-		"reading": "やきます",
-		"meaning": "nướng",
-		"note": "I"
-	},
-	{
-		"word": "遠くに",
-		"reading": "とおくに",
-		"meaning": "ở đằng xa"
-	},
-	{
-		"word": "必要",
-		"reading": "ひつよう",
-		"meaning": "cần thiết"
-	},
-	{
-		"word": "両親",
-		"reading": "りょうしん",
-		"meaning": "bố mẹ"
-	}
+  {
+    "word": "恋人",
+    "reading": "こいびと",
+    "meaning": "người yêu",
+    "type": "danh từ"
+  },
+  {
+    "word": "兄",
+    "reading": "あに",
+    "meaning": "anh trai",
+    "note": "của mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "お兄さん",
+    "reading": "おにいさん",
+    "meaning": "anh trai",
+    "note": "của người khác và khi xưng hô với anh trai mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "姉",
+    "reading": "あね",
+    "meaning": "chị gái",
+    "note": "của mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "お姉さん",
+    "reading": "おねえさん",
+    "meaning": "chị gái",
+    "note": "của người khác và khi xưng hô với chị gái mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "弟",
+    "reading": "おとうと",
+    "meaning": "em trai",
+    "note": "của mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "妹",
+    "reading": "いもうと",
+    "meaning": "em gái",
+    "note": "của mình",
+    "type": "danh từ"
+  },
+  {
+    "word": "兄弟",
+    "reading": "きょうだい",
+    "meaning": "anh em",
+    "type": "danh từ"
+  },
+  {
+    "word": "子供",
+    "reading": "こども",
+    "meaning": "trẻ con, trẻ em",
+    "type": "danh từ"
+  },
+  {
+    "word": "アイスクリーム",
+    "meaning": "kem",
+    "type": "danh từ"
+  },
+  {
+    "word": "葉書",
+    "reading": "はがき",
+    "meaning": "bưu thiếp",
+    "type": "danh từ"
+  },
+  {
+    "word": "奥",
+    "reading": "おく",
+    "meaning": "bên trong cùng",
+    "type": "danh từ"
+  },
+  {
+    "word": "本棚",
+    "reading": "ほんだな",
+    "meaning": "giá sách",
+    "type": "danh từ"
+  },
+  {
+    "word": "寮",
+    "reading": "りょう",
+    "meaning": "kí túc xá",
+    "type": "danh từ"
+  },
+  {
+    "word": "田舎",
+    "reading": "いなか",
+    "meaning": "quê, nông thôn",
+    "type": "danh từ"
+  },
+  {
+    "word": "外国",
+    "reading": "がいこく",
+    "meaning": "nước ngoài",
+    "type": "danh từ"
+  },
+  {
+    "word": "動物",
+    "reading": "どうぶつ",
+    "meaning": "động vật",
+    "type": "danh từ"
+  },
+  {
+    "word": "昼寝",
+    "reading": "ひるね",
+    "meaning": "ngủ trưa",
+    "type": "danh từ"
+  },
+  {
+    "word": "一つ",
+    "reading": "ひとつ",
+    "meaning": "một cái",
+    "type": "danh từ"
+  },
+  {
+    "word": "二つ",
+    "reading": "ふたつ",
+    "meaning": "hai cái",
+    "type": "danh từ"
+  },
+  {
+    "word": "三つ",
+    "reading": "みっつ",
+    "meaning": "ba cái",
+    "type": "danh từ"
+  },
+  {
+    "word": "四つ",
+    "reading": "よっつ",
+    "meaning": "bốn cái",
+    "type": "danh từ"
+  },
+  {
+    "word": "五つ",
+    "reading": "いつつ",
+    "meaning": "năm cái",
+    "type": "danh từ"
+  },
+  {
+    "word": "六つ",
+    "reading": "むっつ",
+    "meaning": "sáu cái",
+    "type": "danh từ"
+  },
+  {
+    "word": "七つ",
+    "reading": "ななつ",
+    "meaning": "bảy cái",
+    "type": "danh từ"
+  },
+  {
+    "word": "八つ",
+    "reading": "やっつ",
+    "meaning": "tám cái",
+    "type": "danh từ"
+  },
+  {
+    "word": "九つ",
+    "reading": "ここのつ",
+    "meaning": "chín cái",
+    "type": "danh từ"
+  },
+  {
+    "word": "十",
+    "reading": "とお",
+    "meaning": "mười cái",
+    "type": "danh từ"
+  },
+  {
+    "word": "一人",
+    "reading": "ひとり",
+    "meaning": "một người",
+    "type": "danh từ"
+  },
+  {
+    "word": "二人",
+    "reading": "ふたり",
+    "meaning": "hai người",
+    "type": "danh từ"
+  },
+  {
+    "word": "～人",
+    "reading": "～にん",
+    "meaning": "~ người",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～台",
+    "reading": "～だい",
+    "meaning": "~ cái",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～枚",
+    "reading": "～まい",
+    "meaning": "~ tờ, tấm",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～回",
+    "reading": "～かい",
+    "meaning": "~ lần",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～時間",
+    "reading": "～じかん",
+    "meaning": "~ tiếng",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～週間",
+    "reading": "～しゅうかん",
+    "meaning": "~ tuần",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～ヶ月",
+    "reading": "～かげつ",
+    "meaning": "~ tháng",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "～年",
+    "reading": "～ねん",
+    "meaning": "~ năm",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "いくつ",
+    "meaning": "mấy cái, bao nhiêu cái",
+    "type": "danh từ"
+  },
+  {
+    "word": "どのくらい",
+    "meaning": "bao lâu",
+    "type": "phó từ"
+  },
+  {
+    "word": "～ぐらい",
+    "meaning": "khoảng ~",
+    "type": "tiếp đầu/vĩ ngữ"
+  },
+  {
+    "word": "全部で",
+    "meaning": "tổng cộng",
+    "type": "phó từ"
+  },
+  {
+    "word": "～だけ",
+    "meaning": "chỉ ~",
+    "type": "trợ từ"
+  },
+  {
+    "word": "居る",
+    "reading": "いる",
+    "meaning": "có [con / ở Nhật]",
+    "type": "động từ II"
+  },
+  {
+    "word": "居ます",
+    "reading": "います",
+    "meaning": "có",
+    "type": "động từ II"
+  },
+  {
+    "word": "掛かる",
+    "reading": "かかる",
+    "meaning": "mất, tốn [thời gian, tiền bạc]",
+    "type": "động từ I"
+  },
+  {
+    "word": "掛かります",
+    "reading": "かかります",
+    "meaning": "mất, tốn [thời gian, tiền bạc]",
+    "type": "động từ I"
+  },
+  {
+    "word": "休む",
+    "reading": "やすむ",
+    "meaning": "nghỉ, nghỉ ngơi",
+    "type": "động từ I"
+  },
+  {
+    "word": "休みます",
+    "reading": "やすみます",
+    "meaning": "nghỉ, nghỉ ngơi",
+    "type": "động từ I"
+  },
+  {
+    "word": "焼きます",
+    "reading": "やきます",
+    "meaning": "nướng",
+    "type": "động từ I"
+  },
+  {
+    "word": "遠くに",
+    "reading": "とおくに",
+    "meaning": "ở đằng xa",
+    "type": "phó từ"
+  },
+  {
+    "word": "必要",
+    "reading": "ひつよう",
+    "meaning": "cần thiết",
+    "type": "tính từ な"
+  },
+  {
+    "word": "両親",
+    "reading": "りょうしん",
+    "meaning": "bố mẹ",
+    "type": "danh từ"
+  }
 ]

@@ -1,163 +1,183 @@
 [
-	{
-		"word": "渡す",
-		"reading": "わたす",
-		"meaning": "đưa, trao",
-		"note": "I"
-	},
-	{
-		"word": "帰ってくる",
-		"reading": "かえってくる",
-		"meaning": "trở về",
-		"note": "III"
-	},
-	{
-		"word": "出る",
-		"reading": "でる",
-		"meaning": "xuất phát, rời bến (xe bus)",
-		"note": "II"
-	},
-	{
-		"word": "出る",
-		"reading": "でる",
-		"meaning": "đến (hành lý)",
-		"note": "II"
-	},
-	{
-		"word": "入学する",
-		"reading": "にゅうがくする",
-		"meaning": "nhập học (đại học)",
-		"note": "III"
-	},
-	{
-		"word": "卒業する",
-		"reading": "そつぎょうする",
-		"meaning": "tốt nghiệp (đại học)",
-		"note": "III"
-	},
-	{
-		"word": "焼く",
-		"reading": "やく",
-		"meaning": "nướng",
-		"note": "I"
-	},
-	{
-		"word": "焼ける",
-		"reading": "やける",
-		"meaning": "(thịt) nướng chín/(nhà) bị cháy",
-		"note": "II"
-	},
-	{
-		"word": "留守",
-		"reading": "るす",
-		"meaning": "vắng nhà, đi vắng"
-	},
-	{
-		"word": "宅配便",
-		"reading": "たくはいびん",
-		"meaning": "dịch vụ chuyển phát tận nhà"
-	},
-	{
-		"word": "航空便",
-		"reading": "こうくうびん",
-		"meaning": "gửi đường hàng không"
-	},
-	{
-		"word": "船便",
-		"reading": "ふなびん",
-		"meaning": "gửi đường biển"
-	},
-	{
-		"word": "原因",
-		"reading": "げんいん",
-		"meaning": "nguyên nhân"
-	},
-	{
-		"word": "具合",
-		"reading": "ぐあい",
-		"meaning": "tình trạng, thể trạng"
-	},
-	{
-		"word": "こちら",
-		"meaning": "phía tôi"
-	},
-	{
-		"word": "～のところ",
-		"meaning": "chỗ~"
-	},
-	{
-		"word": "半年",
-		"reading": "はんとし",
-		"meaning": "nửa năm"
-	},
-	{
-		"word": "ちょうど",
-		"meaning": "vừa đúng"
-	},
-	{
-		"word": "たった今",
-		"reading": "たったいま",
-		"meaning": "vừa mới"
-	},
-	{
-		"word": "注射する",
-		"reading": "ちゅうしゃする",
-		"meaning": "tiêm",
-		"note": "III"
-	},
-	{
-		"word": "宝庫",
-		"reading": "ほうこ",
-		"meaning": "kho báu"
-	},
-	{
-		"word": "今いいでしょうか。",
-		"reading": "いまいいでしょうか。",
-		"meaning": "Bây giờ làm phiền anh/chị có được không?"
-	},
-	{
-		"word": "お待たせしました。",
-		"reading": "おまたせしました。",
-		"meaning": "Xin lỗi vì đã để anh/chị chờ lâu."
-	},
-	{
-		"word": "暗証番号",
-		"reading": "あんしょうばんごう",
-		"meaning": "mật mã"
-	},
-	{
-		"word": "順番",
-		"reading": "じゅんばん",
-		"meaning": "thứ tự, lần lượt"
-	},
-	{
-		"word": "信号",
-		"reading": "しんごう",
-		"meaning": "đèn tín hiệu"
-	},
-	{
-		"word": "用意する",
-		"reading": "よういする",
-		"meaning": "chuẩn bị sẵn",
-		"note": "III"
-	},
-	{
-		"word": "ブランド",
-		"meaning": "thương hiệu"
-	},
-	{
-		"word": "ついていない",
-		"meaning": "không theo mong muốn, đen"
-	},
-	{
-		"word": "床",
-		"reading": "ゆか",
-		"meaning": "sàn nhà"
-	},
-	{
-		"word": "慌てる",
-		"reading": "あわてる",
-		"meaning": "vội vàng",
-		"note": "II"
-	}
+  {
+    "word": "渡す",
+    "reading": "わたす",
+    "meaning": "đưa, trao",
+    "type": "động từ I"
+  },
+  {
+    "word": "帰ってくる",
+    "reading": "かえってくる",
+    "meaning": "trở về",
+    "type": "động từ III"
+  },
+  {
+    "word": "出る",
+    "reading": "でる",
+    "meaning": "xuất phát, rời bến (xe bus)",
+    "type": "động từ II"
+  },
+  {
+    "word": "出る",
+    "reading": "でる",
+    "meaning": "đến (hành lý)",
+    "type": "động từ II"
+  },
+  {
+    "word": "入学する",
+    "reading": "にゅうがくする",
+    "meaning": "nhập học (đại học)",
+    "type": "động từ III"
+  },
+  {
+    "word": "卒業する",
+    "reading": "そつぎょうする",
+    "meaning": "tốt nghiệp (đại học)",
+    "type": "động từ III"
+  },
+  {
+    "word": "焼く",
+    "reading": "やく",
+    "meaning": "nướng",
+    "type": "động từ I"
+  },
+  {
+    "word": "焼ける",
+    "reading": "やける",
+    "meaning": "(thịt) nướng chín/(nhà) bị cháy",
+    "type": "động từ II"
+  },
+  {
+    "word": "留守",
+    "reading": "るす",
+    "meaning": "vắng nhà, đi vắng",
+    "type": "danh từ"
+  },
+  {
+    "word": "宅配便",
+    "reading": "たくはいびん",
+    "meaning": "dịch vụ chuyển phát tận nhà",
+    "type": "danh từ"
+  },
+  {
+    "word": "航空便",
+    "reading": "こうくうびん",
+    "meaning": "gửi đường hàng không",
+    "type": "danh từ"
+  },
+  {
+    "word": "船便",
+    "reading": "ふなびん",
+    "meaning": "gửi đường biển",
+    "type": "danh từ"
+  },
+  {
+    "word": "原因",
+    "reading": "げんいん",
+    "meaning": "nguyên nhân",
+    "type": "danh từ"
+  },
+  {
+    "word": "具合",
+    "reading": "ぐあい",
+    "meaning": "tình trạng, thể trạng",
+    "type": "danh từ"
+  },
+  {
+    "word": "こちら",
+    "meaning": "phía tôi",
+    "type": "danh từ"
+  },
+  {
+    "word": "～のところ",
+    "meaning": "chỗ~",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "半年",
+    "reading": "はんとし",
+    "meaning": "nửa năm",
+    "type": "danh từ"
+  },
+  {
+    "word": "ちょうど",
+    "meaning": "vừa đúng",
+    "type": "phó từ"
+  },
+  {
+    "word": "たった今",
+    "reading": "たったいま",
+    "meaning": "vừa mới",
+    "type": "phó từ"
+  },
+  {
+    "word": "注射する",
+    "reading": "ちゅうしゃする",
+    "meaning": "tiêm",
+    "type": "động từ III"
+  },
+  {
+    "word": "宝庫",
+    "reading": "ほうこ",
+    "meaning": "kho báu",
+    "type": "danh từ"
+  },
+  {
+    "word": "今いいでしょうか。",
+    "reading": "いまいいでしょうか。",
+    "meaning": "Bây giờ làm phiền anh/chị có được không?",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "お待たせしました。",
+    "reading": "おまたせしました。",
+    "meaning": "Xin lỗi vì đã để anh/chị chờ lâu.",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "暗証番号",
+    "reading": "あんしょうばんごう",
+    "meaning": "mật mã",
+    "type": "danh từ"
+  },
+  {
+    "word": "順番",
+    "reading": "じゅんばん",
+    "meaning": "thứ tự, lần lượt",
+    "type": "danh từ"
+  },
+  {
+    "word": "信号",
+    "reading": "しんごう",
+    "meaning": "đèn tín hiệu",
+    "type": "danh từ"
+  },
+  {
+    "word": "用意する",
+    "reading": "よういする",
+    "meaning": "chuẩn bị sẵn",
+    "type": "động từ III"
+  },
+  {
+    "word": "ブランド",
+    "meaning": "thương hiệu",
+    "type": "danh từ"
+  },
+  {
+    "word": "ついていない",
+    "meaning": "không theo mong muốn, đen",
+    "type": "biểu hiện"
+  },
+  {
+    "word": "床",
+    "reading": "ゆか",
+    "meaning": "sàn nhà",
+    "type": "danh từ"
+  },
+  {
+    "word": "慌てる",
+    "reading": "あわてる",
+    "meaning": "vội vàng",
+    "type": "động từ II"
+  }
 ]
