@@ -3,55 +3,109 @@
     "word": "開く",
     "reading": "あく",
     "meaning": "mở",
-    "type": "động từ I"
+    "type": "động từ I",
+    "note": "tự động từ",
+    "pairWith": "開ける"
+  },
+  {
+    "word": "開ける",
+    "reading": "あける",
+    "meaning": "mở (chủ động mở)",
+    "type": "động từ II",
+    "note": "tha động từ",
+    "pairWith": "開く"
   },
   {
     "word": "閉まる",
     "reading": "しまる",
     "meaning": "đóng",
-    "type": "động từ I"
+    "type": "động từ I",
+    "note": "tự động từ",
+    "pairWith": "閉める"
+  },
+  {
+    "word": "閉める",
+    "reading": "しめる",
+    "meaning": "đóng (chủ động đóng)",
+    "type": "động từ II",
+    "note": "tha động từ",
+    "pairWith": "閉まる"
   },
   {
     "word": "付く",
     "reading": "つく",
     "meaning": "(đèn-) sáng",
-    "type": "động từ I"
+    "type": "động từ I",
+    "note": "tự động từ",
+    "pairWith": "付ける"
+  },
+  {
+    "word": "付ける",
+    "reading": "つける",
+    "meaning": "bật (đèn)",
+    "type": "động từ II",
+    "note": "tha động từ",
+    "pairWith": "付く"
   },
   {
     "word": "消える",
     "reading": "きえる",
     "meaning": "(đèn-) tắt",
-    "type": "động từ II"
+    "type": "động từ II",
+    "note": "tự động từ",
+    "pairWith": "消す"
+  },
+  {
+    "word": "消す",
+    "reading": "けす",
+    "meaning": "tắt (đèn)",
+    "type": "động từ I",
+    "note": "tha động từ",
+    "pairWith": "消える"
   },
   {
     "word": "壊れる",
     "reading": "こわれる",
     "meaning": "hỏng",
-    "type": "động từ II"
+    "type": "động từ II",
+    "note": "tự động từ"
   },
   {
     "word": "割れる",
     "reading": "われる",
     "meaning": "vỡ",
-    "type": "động từ II"
+    "type": "động từ II",
+    "note": "tự động từ"
   },
   {
     "word": "折れる",
     "reading": "おれる",
     "meaning": "(cây-) gãy",
-    "type": "động từ II"
+    "type": "động từ II",
+    "note": "tự động từ"
   },
   {
     "word": "破れる",
     "reading": "やぶれる",
     "meaning": "rách",
-    "type": "động từ II"
+    "type": "động từ II",
+    "note": "tự động từ",
+    "pairWith": "破る"
+  },
+  {
+    "word": "破る",
+    "reading": "やぶる",
+    "meaning": "xé rách",
+    "type": "động từ I",
+    "note": "tha động từ",
+    "pairWith": "破れる"
   },
   {
     "word": "汚れる",
     "reading": "よごれる",
     "meaning": "bẩn",
-    "type": "động từ II"
+    "type": "động từ II",
+    "note": "tự động từ"
   },
   {
     "word": "付く",
@@ -63,13 +117,33 @@
     "word": "外れる",
     "reading": "はずれる",
     "meaning": "bung, rơi",
-    "type": "động từ II"
+    "type": "động từ II",
+    "note": "tự động từ",
+    "pairWith": "外す"
+  },
+  {
+    "word": "外す",
+    "reading": "はずす",
+    "meaning": "tháo ra",
+    "type": "động từ I",
+    "note": "tha động từ",
+    "pairWith": "外れる"
   },
   {
     "word": "止まる",
     "reading": "とまる",
     "meaning": "dừng",
-    "type": "động từ I"
+    "type": "động từ I",
+    "note": "tự động từ",
+    "pairWith": "止める"
+  },
+  {
+    "word": "止める",
+    "reading": "とめる",
+    "meaning": "dừng lại, ngăn lại",
+    "type": "động từ II",
+    "note": "tha động từ",
+    "pairWith": "止まる"
   },
   {
     "word": "間違える",
@@ -81,13 +155,24 @@
     "word": "落とす",
     "reading": "おとす",
     "meaning": "đánh rơi",
-    "type": "động từ I"
+    "type": "động từ I",
+    "note": "tha động từ"
   },
   {
     "word": "掛かる",
     "reading": "かかる",
     "meaning": "khóa",
-    "type": "động từ I"
+    "type": "động từ I",
+    "note": "tự động từ",
+    "pairWith": "掛ける"
+  },
+  {
+    "word": "掛ける",
+    "reading": "かける",
+    "meaning": "khóa",
+    "type": "động từ II",
+    "note": "tha động từ",
+    "pairWith": "掛かる"
   },
   {
     "word": "拭く",

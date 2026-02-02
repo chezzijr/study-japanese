@@ -3,41 +3,65 @@
     "word": "増える",
     "reading": "ふえる",
     "meaning": "tăng (kích thước, số lượng)",
-    "type": "động từ II"
+    "type": "động từ II",
+    "note": "tự động từ",
+    "pairWith": "増やす"
+  },
+  {
+    "word": "増やす",
+    "reading": "ふやす",
+    "meaning": "làm tăng (kích thước, số lượng)",
+    "type": "động từ I",
+    "note": "tha động từ",
+    "pairWith": "増える"
   },
   {
     "word": "減る",
     "reading": "へる",
     "meaning": "giảm (kích thước, số lượng)",
-    "type": "động từ I"
+    "type": "động từ I",
+    "note": "tự động từ",
+    "pairWith": "減らす"
+  },
+  {
+    "word": "減らす",
+    "reading": "へらす",
+    "meaning": "làm giảm (kích thước, số lượng)",
+    "type": "động từ I",
+    "note": "tha động từ",
+    "pairWith": "減る"
   },
   {
     "word": "上がる",
     "reading": "あがる",
     "meaning": "tăng (giá cả)",
-    "type": "động từ I"
+    "type": "động từ I",
+    "note": "tự động từ"
   },
   {
     "word": "下がる",
     "reading": "さがる",
     "meaning": "giảm (giá cả)",
-    "type": "động từ I"
+    "type": "động từ I",
+    "note": "tự động từ"
   },
   {
     "word": "切れる",
     "reading": "きれる",
     "meaning": "bị đứt, hết hạn",
-    "type": "động từ II"
-  },
-  {
-    "word": "とれる",
-    "meaning": "bị tuột ra, bị bung ra",
-    "type": "động từ II"
+    "type": "động từ II",
+    "note": "tự động từ"
   },
   {
     "word": "落ちる",
     "reading": "おちる",
     "meaning": "bị rơi",
+    "type": "động từ II",
+    "note": "tự động từ"
+  },
+  {
+    "word": "とれる",
+    "meaning": "bị tuột ra, bị bung ra",
     "type": "động từ II"
   },
   {

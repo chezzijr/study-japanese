@@ -39,13 +39,17 @@
     "word": "焼く",
     "reading": "やく",
     "meaning": "nướng",
-    "type": "động từ I"
+    "type": "động từ I",
+    "note": "tha động từ",
+    "pairWith": "焼ける"
   },
   {
     "word": "焼ける",
     "reading": "やける",
     "meaning": "(thịt) nướng chín/(nhà) bị cháy",
-    "type": "động từ II"
+    "type": "động từ II",
+    "note": "tự động từ",
+    "pairWith": "焼く"
   },
   {
     "word": "留守",
