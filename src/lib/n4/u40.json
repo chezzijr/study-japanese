@@ -27,13 +27,15 @@
     "word": "出発する",
     "reading": "しゅっぱつする",
     "meaning": "xuất phát",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "到着する"
   },
   {
     "word": "到着する",
     "reading": "とうちゃくする",
     "meaning": "đến nơi",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "出発する"
   },
   {
     "word": "酔う",
@@ -97,13 +99,15 @@
     "word": "表",
     "reading": "おもて",
     "meaning": "mặt phải, mặt trước",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "裏"
   },
   {
     "word": "裏",
     "reading": "うら",
     "meaning": "mặt trái, mặt sau",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "表"
   },
   {
     "word": "間違い",
@@ -206,13 +210,15 @@
     "word": "～以上",
     "reading": "～いじょう",
     "meaning": "trên ~",
-    "type": "tiếp đầu/vĩ ngữ"
+    "type": "tiếp đầu/vĩ ngữ",
+    "pairWith": "～以下"
   },
   {
     "word": "～以下",
     "reading": "～いか",
     "meaning": "dưới ~",
-    "type": "tiếp đầu/vĩ ngữ"
+    "type": "tiếp đầu/vĩ ngữ",
+    "pairWith": "～以上"
   },
   {
     "word": "忘年会",

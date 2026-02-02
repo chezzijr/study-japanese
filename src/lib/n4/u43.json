@@ -36,14 +36,16 @@
     "reading": "あがる",
     "meaning": "tăng (giá cả)",
     "type": "động từ I",
-    "note": "tự động từ"
+    "note": "tự động từ",
+    "pairWith": "下がる"
   },
   {
     "word": "下がる",
     "reading": "さがる",
     "meaning": "giảm (giá cả)",
     "type": "động từ I",
-    "note": "tự động từ"
+    "note": "tự động từ",
+    "pairWith": "上がる"
   },
   {
     "word": "切れる",
@@ -103,12 +105,14 @@
   {
     "word": "うまい",
     "meaning": "ngon",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "まずい"
   },
   {
     "word": "まずい",
     "meaning": "dở",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "うまい"
   },
   {
     "word": "つまらない",

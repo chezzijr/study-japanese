@@ -130,25 +130,29 @@
     "word": "立つ",
     "reading": "たつ",
     "meaning": "đứng",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "座る"
   },
   {
     "word": "立ちます",
     "reading": "たちます",
     "meaning": "đứng",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "座ります"
   },
   {
     "word": "座る",
     "reading": "すわる",
     "meaning": "ngồi",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "立つ"
   },
   {
     "word": "座ります",
     "reading": "すわります",
     "meaning": "ngồi",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "立ちます"
   },
   {
     "word": "作る",

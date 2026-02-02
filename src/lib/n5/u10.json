@@ -9,25 +9,29 @@
     "word": "男の人",
     "reading": "おとこのひと",
     "meaning": "người đàn ông",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "女の人"
   },
   {
     "word": "女の人",
     "reading": "おんなのひと",
     "meaning": "người phụ nữ",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "男の人"
   },
   {
     "word": "男の子",
     "reading": "おとこのこ",
     "meaning": "cậu bé",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "女の子"
   },
   {
     "word": "女の子",
     "reading": "おんなのこ",
     "meaning": "cô bé",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "男の子"
   },
   {
     "word": "犬",
@@ -108,49 +112,57 @@
     "word": "上",
     "reading": "うえ",
     "meaning": "trên",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "下"
   },
   {
     "word": "下",
     "reading": "した",
     "meaning": "dưới",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "上"
   },
   {
     "word": "前",
     "reading": "まえ",
     "meaning": "trước",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "後ろ"
   },
   {
     "word": "後ろ",
     "reading": "うしろ",
     "meaning": "sau",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "前"
   },
   {
     "word": "右",
     "reading": "みぎ",
     "meaning": "phải",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "左"
   },
   {
     "word": "左",
     "reading": "ひだり",
     "meaning": "trái",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "右"
   },
   {
     "word": "中",
     "reading": "なか",
     "meaning": "trong, giữa",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "外"
   },
   {
     "word": "外",
     "reading": "そと",
     "meaning": "ngoài",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "中"
   },
   {
     "word": "隣",

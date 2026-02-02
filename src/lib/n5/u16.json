@@ -3,13 +3,15 @@
     "word": "強い",
     "reading": "つよい",
     "meaning": "mạnh",
-    "type": "tính từ い"
+    "type": "tính từ í",
+    "pairWith": "弱い"
   },
   {
     "word": "弱い",
     "reading": "よわい",
     "meaning": "yếu",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "強い"
   },
   {
     "word": "若い",

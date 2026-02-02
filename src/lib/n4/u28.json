@@ -177,25 +177,29 @@
     "word": "息子",
     "reading": "むすこ",
     "meaning": "con trai mình",
-    "type": "danh từ"
-  },
-  {
-    "word": "息子さん",
-    "reading": "むすこさん",
-    "meaning": "con trai người khác",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "娘"
   },
   {
     "word": "娘",
     "reading": "むすめ",
     "meaning": "con gái mình",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "息子"
+  },
+  {
+    "word": "息子さん",
+    "reading": "むすこさん",
+    "meaning": "con trai người khác",
+    "type": "danh từ",
+    "pairWith": "娘さん"
   },
   {
     "word": "娘さん",
     "reading": "むすめさん",
     "meaning": "con gái người khác",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "息子さん"
   },
   {
     "word": "自分",

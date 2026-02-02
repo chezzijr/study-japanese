@@ -57,13 +57,15 @@
     "word": "午前",
     "reading": "ごぜん",
     "meaning": "sáng, trước 12 giờ trưa",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "午後"
   },
   {
     "word": "午後",
     "reading": "ごご",
     "meaning": "chiều, sau 12 giờ trưa",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "午前"
   },
   {
     "word": "半",
@@ -231,25 +233,29 @@
     "word": "起きる",
     "reading": "おきる",
     "meaning": "thức dậy",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "寝る"
   },
   {
     "word": "起きます",
     "reading": "おきます",
     "meaning": "thức dậy",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "寝ます"
   },
   {
     "word": "寝る",
     "reading": "ねる",
     "meaning": "ngủ",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "起きる"
   },
   {
     "word": "寝ます",
     "reading": "ねます",
     "meaning": "ngủ",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "起きます"
   },
   {
     "word": "勉強する",

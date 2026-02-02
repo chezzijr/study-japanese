@@ -122,13 +122,15 @@
     "word": "戦争",
     "reading": "せんそう",
     "meaning": "chiến tranh",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "平和"
   },
   {
     "word": "平和",
     "reading": "へいわ",
     "meaning": "hòa bình",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "戦争"
   },
   {
     "word": "目的",

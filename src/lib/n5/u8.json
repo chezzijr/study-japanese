@@ -22,28 +22,32 @@
     "reading": "ちち",
     "meaning": "bố",
     "note": "dùng khi nói về bố mình",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "母"
   },
   {
     "word": "母",
     "reading": "はは",
     "meaning": "mẹ",
     "note": "dùng khi nói về mẹ mình",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "父"
   },
   {
     "word": "お父さん",
     "reading": "おとうさん",
     "meaning": "bố",
     "note": "dùng khi nói về bố người khác và dùng khi xưng hô với bố mình",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "お母さん"
   },
   {
     "word": "お母さん",
     "reading": "おかあさん",
     "meaning": "mẹ",
     "note": "dùng khi nói về mẹ người khác và dùng khi xưng hô với mẹ mình",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "お父さん"
   },
   {
     "word": "夫",
@@ -191,49 +195,57 @@
     "word": "送る",
     "reading": "おくる",
     "meaning": "gửi",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "貰う"
   },
   {
     "word": "送ります",
     "reading": "おくります",
     "meaning": "gửi",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "貰います"
   },
   {
     "word": "貰う",
     "reading": "もらう",
     "meaning": "nhận",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "送る"
   },
   {
     "word": "貰います",
     "reading": "もらいます",
     "meaning": "nhận",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "送ります"
   },
   {
     "word": "習う",
     "reading": "ならう",
     "meaning": "học",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "教える"
   },
   {
     "word": "習います",
     "reading": "ならいます",
     "meaning": "học",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "教えます"
   },
   {
     "word": "貸す",
     "reading": "かす",
     "meaning": "cho mượn",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "借りる"
   },
   {
     "word": "貸します",
     "reading": "かします",
     "meaning": "cho mượn",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "借ります"
   },
   {
     "word": "上げる",
@@ -251,13 +263,15 @@
     "word": "教える",
     "reading": "おしえる",
     "meaning": "dạy",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "習う"
   },
   {
     "word": "教えます",
     "reading": "おしえます",
     "meaning": "dạy",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "習います"
   },
   {
     "word": "かける",
@@ -275,13 +289,15 @@
     "word": "借りる",
     "reading": "かりる",
     "meaning": "vay, mượn",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "貸す"
   },
   {
     "word": "借ります",
     "reading": "かります",
     "meaning": "vay, mượn",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "貸します"
   },
   {
     "word": "もう",

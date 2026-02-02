@@ -92,24 +92,28 @@
   {
     "word": "うん",
     "meaning": "ừ (cách nói thân mật của はい)",
-    "type": "thán từ"
+    "type": "thán từ",
+    "pairWith": "ううん"
   },
   {
     "word": "ううん",
     "meaning": "không (cách nói thân mật của いいえ)",
-    "type": "thán từ"
+    "type": "thán từ",
+    "pairWith": "うん"
   },
   {
     "word": "初め",
     "reading": "はじめ",
     "meaning": "ban đầu, lúc đầu",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "終わり"
   },
   {
     "word": "終わり",
     "reading": "おわり",
     "meaning": "kết thúc",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "初め"
   },
   {
     "word": "調味料",

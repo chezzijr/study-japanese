@@ -26,13 +26,15 @@
     "word": "静か",
     "reading": "しずか",
     "meaning": "yên tĩnh",
-    "type": "tính từ な"
+    "type": "tính từ な",
+    "pairWith": "賑やか"
   },
   {
     "word": "賑やか",
     "reading": "にぎやか",
     "meaning": "náo nhiệt",
-    "type": "tính từ な"
+    "type": "tính từ な",
+    "pairWith": "静か"
   },
   {
     "word": "有名",
@@ -56,96 +58,112 @@
     "word": "暇",
     "reading": "ひま",
     "meaning": "rảnh rỗi",
-    "type": "tính từ な"
+    "type": "tính từ な",
+    "pairWith": "忙しい"
   },
   {
     "word": "忙しい",
     "reading": "いそがしい",
     "meaning": "bận rộn",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "暇"
   },
   {
     "word": "大きい",
     "reading": "おおきい",
     "meaning": "to, lớn",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "小さい"
   },
   {
     "word": "小さい",
     "reading": "ちいさい",
     "meaning": "nhỏ, bé",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "大きい"
   },
   {
     "word": "新しい",
     "reading": "あたらしい",
     "meaning": "mới",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "古い"
   },
   {
     "word": "古い",
     "reading": "ふるい",
     "meaning": "cũ",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "新しい"
   },
   {
     "word": "いい（よい）",
     "meaning": "tốt",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "悪い"
   },
   {
     "word": "悪い",
     "reading": "わるい",
     "meaning": "xấu",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "いい（よい）"
   },
   {
     "word": "暑い",
     "reading": "あつい",
     "meaning": "nóng (dùng cho thời tiết)",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "寒い"
   },
   {
     "word": "寒い",
     "reading": "さむい",
     "meaning": "lạnh, rét (dùng cho thời tiết)",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "暑い"
   },
   {
     "word": "熱い",
     "reading": "あつい",
     "meaning": "nóng (dùng cho cảm giác)",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "冷たい"
   },
   {
     "word": "冷たい",
     "reading": "つめたい",
     "meaning": "lạnh, buốt (dùng cho cảm giác)",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "熱い"
   },
   {
     "word": "難しい",
     "reading": "むずかしい",
     "meaning": "khó",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "易しい"
   },
   {
     "word": "易しい",
     "reading": "やさしい",
     "meaning": "dễ, hiền lành",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "難しい"
   },
   {
     "word": "高い",
     "reading": "たかい",
     "meaning": "đắt, cao",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "安い"
   },
   {
     "word": "安い",
     "reading": "やすい",
     "meaning": "rẻ",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "高い"
   },
   {
     "word": "低い",
@@ -157,13 +175,15 @@
     "word": "明るい",
     "reading": "あかるい",
     "meaning": "sáng sủa, tươi sáng",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "暗い"
   },
   {
     "word": "暗い",
     "reading": "くらい",
     "meaning": "tối, u ám",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "明るい"
   },
   {
     "word": "面白い",
@@ -193,7 +213,8 @@
     "word": "白い",
     "reading": "しろい",
     "meaning": "trắng",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "黒い"
   },
   {
     "word": "赤い",
@@ -211,7 +232,8 @@
     "word": "黒い",
     "reading": "くろい",
     "meaning": "đen",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "白い"
   },
   {
     "word": "寂しい",

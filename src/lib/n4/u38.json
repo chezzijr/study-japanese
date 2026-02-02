@@ -39,13 +39,15 @@
     "word": "入院する",
     "reading": "にゅういんする",
     "meaning": "nhập viện",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "退院する"
   },
   {
     "word": "退院する",
     "reading": "たいいんする",
     "meaning": "xuất viện",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "入院する"
   },
   {
     "word": "整理する",
@@ -57,13 +59,15 @@
     "word": "入れる",
     "reading": "いれる",
     "meaning": "bật (nguồn điện)",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "切る"
   },
   {
     "word": "切る",
     "reading": "きる",
     "meaning": "tắt (nguồn điện)",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "入れる"
   },
   {
     "word": "掛ける",
@@ -80,13 +84,15 @@
     "word": "気持ちがいい",
     "reading": "きもちがいい",
     "meaning": "tâm trạng sảng khoái, cảm thấy dễ chịu",
-    "type": "biểu hiện"
+    "type": "biểu hiện",
+    "pairWith": "気持ちが悪い"
   },
   {
     "word": "気持ちが悪い",
     "reading": "きもちがわるい",
     "meaning": "tâm trạng không tốt, cảm thấy khó chịu",
-    "type": "biểu hiện"
+    "type": "biểu hiện",
+    "pairWith": "気持ちがいい"
   },
   {
     "word": "赤ちゃん",

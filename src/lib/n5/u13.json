@@ -121,25 +121,29 @@
     "word": "入る",
     "reading": "はいる",
     "meaning": "vào [quán giải khát]",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "出る"
   },
   {
     "word": "入ります",
     "reading": "はいります",
     "meaning": "vào [quán giải khát]",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "出ます"
   },
   {
     "word": "出る",
     "reading": "でる",
     "meaning": "ra, ra khỏi [quán giải khát]",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "入る"
   },
   {
     "word": "出ます",
     "reading": "でます",
     "meaning": "ra, ra khỏi [quán giải khát]",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "入ります"
   },
   {
     "word": "迎える",

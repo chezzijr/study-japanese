@@ -92,13 +92,15 @@
     "word": "黒",
     "reading": "くろ",
     "meaning": "màu đen",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "白"
   },
   {
     "word": "白",
     "reading": "しろ",
     "meaning": "màu trắng",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "黒"
   },
   {
     "word": "赤",

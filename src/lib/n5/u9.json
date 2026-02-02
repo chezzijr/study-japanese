@@ -3,25 +3,29 @@
     "word": "好き",
     "reading": "すき",
     "meaning": "thích",
-    "type": "tính từ な"
+    "type": "tính từ な",
+    "pairWith": "嫌い"
   },
   {
     "word": "嫌い",
     "reading": "きらい",
     "meaning": "ghét, không thích",
-    "type": "tính từ な"
+    "type": "tính từ な",
+    "pairWith": "好き"
   },
   {
     "word": "上手",
     "reading": "じょうず",
     "meaning": "giỏi, khéo",
-    "type": "tính từ な"
+    "type": "tính từ な",
+    "pairWith": "下手"
   },
   {
     "word": "下手",
     "reading": "へた",
     "meaning": "kém",
-    "type": "tính từ な"
+    "type": "tính từ な",
+    "pairWith": "上手"
   },
   {
     "word": "痛い",
@@ -33,7 +37,8 @@
     "word": "お祖父さん",
     "reading": "おじいさん",
     "meaning": "ông",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "お祖母さん"
   },
   {
     "word": "お祖父ちゃん",
@@ -45,7 +50,8 @@
     "word": "お祖母さん",
     "reading": "おばあさん",
     "meaning": "bà",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "お祖父さん"
   },
   {
     "word": "お祖母ちゃん",

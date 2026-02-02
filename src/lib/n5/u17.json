@@ -3,13 +3,15 @@
     "word": "広い",
     "reading": "ひろい",
     "meaning": "rộng",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "狭い"
   },
   {
     "word": "狭い",
     "reading": "せまい",
     "meaning": "hẹp, chật",
-    "type": "tính từ い"
+    "type": "tính từ í",
+    "pairWith": "広い"
   },
   {
     "word": "痛い",
@@ -63,13 +65,15 @@
     "word": "上着",
     "reading": "うわぎ",
     "meaning": "áo khoác",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "下着"
   },
   {
     "word": "下着",
     "reading": "したぎ",
     "meaning": "áo lót",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "上着"
   },
   {
     "word": "キャベツ",
@@ -152,25 +156,29 @@
     "word": "持って行く",
     "reading": "もっていく",
     "meaning": "mang đi, mang theo",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "持って来る"
   },
   {
     "word": "持って行きます",
     "reading": "もっていきます",
     "meaning": "mang đi, mang theo",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "持って来ます"
   },
   {
     "word": "持って来る",
     "reading": "もってくる",
     "meaning": "mang đến",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "持って行く"
   },
   {
     "word": "持って来ます",
     "reading": "もってきます",
     "meaning": "mang đến",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "持って行きます"
   },
   {
     "word": "出かける",
@@ -188,25 +196,29 @@
     "word": "覚える",
     "reading": "おぼえる",
     "meaning": "nhớ",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "忘れる"
   },
   {
     "word": "覚えます",
     "reading": "おぼえます",
     "meaning": "nhớ",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "忘れます"
   },
   {
     "word": "忘れる",
     "reading": "わすれる",
     "meaning": "quên",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "覚える"
   },
   {
     "word": "忘れます",
     "reading": "わすれます",
     "meaning": "quên",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "覚えます"
   },
   {
     "word": "心配する",

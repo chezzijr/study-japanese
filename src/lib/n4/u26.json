@@ -15,13 +15,15 @@
     "word": "遅れる",
     "reading": "おくれる",
     "meaning": "chậm, trễ",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "間に合う"
   },
   {
     "word": "間に合う",
     "reading": "まにあう",
     "meaning": "kịp [giờ]",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "遅れる"
   },
   {
     "word": "やる",
@@ -50,13 +52,15 @@
     "word": "気分がいい",
     "reading": "きぶんがいい",
     "meaning": "cảm thấy thoải mái, cảm thấy khỏe",
-    "type": "biểu hiện"
+    "type": "biểu hiện",
+    "pairWith": "気分が悪い"
   },
   {
     "word": "気分が悪い",
     "reading": "きぶんがわるい",
     "meaning": "cảm thấy không thoải mái, cảm thấy mệt",
-    "type": "biểu hiện"
+    "type": "biểu hiện",
+    "pairWith": "気分がいい"
   },
   {
     "word": "運動会",

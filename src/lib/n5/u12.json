@@ -9,75 +9,87 @@
     "word": "近い",
     "reading": "ちかい",
     "meaning": "gần",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "遠い"
   },
   {
     "word": "遠い",
     "reading": "とおい",
     "meaning": "xa",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "近い"
   },
   {
     "word": "早い",
     "reading": "はやい",
     "meaning": "sớm, nhanh",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "遅い"
   },
   {
     "word": "遅い",
     "reading": "おそい",
     "meaning": "muộn, chậm",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "早い"
   },
   {
     "word": "多い",
     "reading": "おおい",
     "meaning": "nhiều [người]",
     "note": "人が～",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "少ない"
   },
   {
     "word": "少ない",
     "reading": "すくない",
     "meaning": "ít [người]",
     "note": "人が～",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "多い"
   },
   {
     "word": "暖かい",
     "reading": "あたたかい",
     "meaning": "ấm",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "涼しい"
   },
   {
     "word": "涼しい",
     "reading": "すずしい",
     "meaning": "mát",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "暖かい"
   },
   {
     "word": "甘い",
     "reading": "あまい",
     "meaning": "ngọt",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "辛い"
   },
   {
     "word": "辛い",
     "reading": "からい",
     "meaning": "cay",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "甘い"
   },
   {
     "word": "重い",
     "reading": "おもい",
     "meaning": "nặng",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "軽い"
   },
   {
     "word": "軽い",
     "reading": "かるい",
     "meaning": "nhẹ",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "重い"
   },
   {
     "word": "良い",

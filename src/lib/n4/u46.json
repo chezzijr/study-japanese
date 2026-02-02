@@ -27,13 +27,15 @@
     "word": "入学する",
     "reading": "にゅうがくする",
     "meaning": "nhập học (đại học)",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "卒業する"
   },
   {
     "word": "卒業する",
     "reading": "そつぎょうする",
     "meaning": "tốt nghiệp (đại học)",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "入学する"
   },
   {
     "word": "焼く",

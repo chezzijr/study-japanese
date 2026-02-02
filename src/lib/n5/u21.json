@@ -124,25 +124,29 @@
     "word": "勝つ",
     "reading": "かつ",
     "meaning": "thắng",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "負ける"
   },
   {
     "word": "勝ちます",
     "reading": "かちます",
     "meaning": "thắng",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "負けます"
   },
   {
     "word": "負ける",
     "reading": "まける",
     "meaning": "thua",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "勝つ"
   },
   {
     "word": "負けます",
     "reading": "まけます",
     "meaning": "thua",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "勝ちます"
   },
   {
     "word": "足りる",

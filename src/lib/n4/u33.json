@@ -39,13 +39,15 @@
     "word": "出席する",
     "reading": "しゅっせきする",
     "meaning": "có mặt, tham dự (cuộc họp)",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "欠席する"
   },
   {
     "word": "欠席する",
     "reading": "けっせきする",
     "meaning": "vắng mặt, không tham dự (cuộc họp)",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "出席する"
   },
   {
     "word": "伝える",
@@ -149,13 +151,15 @@
     "word": "入り口",
     "reading": "いりぐち",
     "meaning": "lối vào",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "出口"
   },
   {
     "word": "出口",
     "reading": "でぐち",
     "meaning": "lối ra",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "入り口"
   },
   {
     "word": "非常口",

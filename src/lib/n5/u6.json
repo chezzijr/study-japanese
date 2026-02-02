@@ -266,25 +266,29 @@
     "word": "行く",
     "reading": "いく",
     "meaning": "đi",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "来る"
   },
   {
     "word": "行きます",
     "reading": "いきます",
     "meaning": "đi",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "来ます"
   },
   {
     "word": "来る",
     "reading": "くる",
     "meaning": "đến",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "行く"
   },
   {
     "word": "来ます",
     "reading": "きます",
     "meaning": "đến",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "行きます"
   },
   {
     "word": "帰る",

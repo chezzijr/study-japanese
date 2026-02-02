@@ -61,13 +61,15 @@
     "word": "予習する",
     "reading": "よしゅうする",
     "meaning": "chuẩn bị bài",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "復習する"
   },
   {
     "word": "復習する",
     "reading": "ふくしゅうする",
     "meaning": "ôn tập",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "予習する"
   },
   {
     "word": "そのままにする",

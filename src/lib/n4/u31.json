@@ -81,13 +81,15 @@
     "word": "結婚式",
     "reading": "けっこんしき",
     "meaning": "lễ cưới",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "葬式"
   },
   {
     "word": "葬式",
     "reading": "そうしき",
     "meaning": "đám tang",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "結婚式"
   },
   {
     "word": "式",
@@ -164,7 +166,8 @@
     "word": "都会",
     "reading": "とかい",
     "meaning": "thành phố lớn",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "田舎"
   },
   {
     "word": "記念日",
@@ -199,6 +202,7 @@
     "word": "田舎",
     "reading": "いなか",
     "meaning": "nông thôn",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "都会"
   }
 ]

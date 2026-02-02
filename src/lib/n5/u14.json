@@ -234,49 +234,57 @@
     "word": "付ける",
     "reading": "つける",
     "meaning": "bật [điện], (điều hòa)",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "消す"
   },
   {
     "word": "付けます",
     "reading": "つけます",
     "meaning": "bật [điện], (điều hòa)",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "消します"
   },
   {
     "word": "消す",
     "reading": "けす",
     "meaning": "tắt [điện], (điều hòa)",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "付ける"
   },
   {
     "word": "消します",
     "reading": "けします",
     "meaning": "tắt [điện], (điều hòa)",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "付けます"
   },
   {
     "word": "開ける",
     "reading": "あける",
     "meaning": "mở [cửa]",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "閉める"
   },
   {
     "word": "開けます",
     "reading": "あけます",
     "meaning": "mở [cửa]",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "閉めます"
   },
   {
     "word": "閉める",
     "reading": "しめる",
     "meaning": "đóng [cửa]",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "開ける"
   },
   {
     "word": "閉めます",
     "reading": "しめます",
     "meaning": "đóng [cửa]",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "開けます"
   },
   {
     "word": "止める",

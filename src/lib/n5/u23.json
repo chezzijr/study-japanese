@@ -3,13 +3,15 @@
     "word": "長い",
     "reading": "ながい",
     "meaning": "dài",
-    "type": "tính từ い"
+    "type": "tính từ í",
+    "pairWith": "短い"
   },
   {
     "word": "短い",
     "reading": "みじかい",
     "meaning": "ngắn",
-    "type": "tính từ い"
+    "type": "tính từ í",
+    "pairWith": "長い"
   },
   {
     "word": "音",

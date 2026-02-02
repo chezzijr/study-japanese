@@ -3,13 +3,15 @@
     "word": "褒める",
     "reading": "ほめる",
     "meaning": "khen",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "叱る"
   },
   {
     "word": "叱る",
     "reading": "しかる",
     "meaning": "mắng",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "褒める"
   },
   {
     "word": "誘う",
@@ -71,13 +73,15 @@
     "word": "輸出する",
     "reading": "ゆしゅつする",
     "meaning": "xuất khẩu",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "輸入する"
   },
   {
     "word": "輸入する",
     "reading": "ゆにゅうする",
     "meaning": "nhập khẩu",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "輸出する"
   },
   {
     "word": "翻訳する",
@@ -89,13 +93,15 @@
     "word": "発明する",
     "reading": "はつめいする",
     "meaning": "phát minh",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "発見する"
   },
   {
     "word": "発見する",
     "reading": "はっけんする",
     "meaning": "phát hiện",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "発明する"
   },
   {
     "word": "殺す",

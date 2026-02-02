@@ -107,13 +107,15 @@
     "word": "賛成",
     "reading": "さんせい",
     "meaning": "tán thành",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "反対"
   },
   {
     "word": "反対",
     "reading": "はんたい",
     "meaning": "phản đối",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "賛成"
   },
   {
     "word": "～によると",
@@ -124,13 +126,15 @@
     "word": "男性",
     "reading": "だんせい",
     "meaning": "nam giới",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "女性"
   },
   {
     "word": "女性",
     "reading": "じょせい",
     "meaning": "nữ giới",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "男性"
   },
   {
     "word": "長生き",

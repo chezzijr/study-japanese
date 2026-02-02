@@ -61,13 +61,15 @@
     "word": "太る",
     "reading": "ふとる",
     "meaning": "béo ra",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "痩せる"
   },
   {
     "word": "痩せる",
     "reading": "やせる",
     "meaning": "gầy đi",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "太る"
   },
   {
     "word": "複雑",
@@ -85,13 +87,15 @@
     "word": "硬い",
     "reading": "かたい",
     "meaning": "cứng",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "柔らかい"
   },
   {
     "word": "柔らかい",
     "reading": "やわらかい",
     "meaning": "mềm",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "硬い"
   },
   {
     "word": "汚い",

@@ -3,13 +3,15 @@
     "word": "泣く",
     "reading": "なく",
     "meaning": "khóc",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "笑う"
   },
   {
     "word": "笑う",
     "reading": "わらう",
     "meaning": "cười",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "泣く"
   },
   {
     "word": "眠る",
@@ -21,13 +23,15 @@
     "word": "乾く",
     "reading": "かわく",
     "meaning": "khô",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "濡れる"
   },
   {
     "word": "濡れる",
     "reading": "ぬれる",
     "meaning": "ướt",
-    "type": "động từ II"
+    "type": "động từ II",
+    "pairWith": "乾く"
   },
   {
     "word": "滑る",
@@ -51,25 +55,29 @@
     "word": "安全",
     "reading": "あんぜん",
     "meaning": "an toàn",
-    "type": "tính từ な"
+    "type": "tính từ な",
+    "pairWith": "危険"
   },
   {
     "word": "危険",
     "reading": "きけん",
     "meaning": "nguy hiểm",
-    "type": "tính từ な"
+    "type": "tính từ な",
+    "pairWith": "安全"
   },
   {
     "word": "濃い",
     "reading": "こい",
     "meaning": "đậm, đặc",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "薄い"
   },
   {
     "word": "薄い",
     "reading": "うすい",
     "meaning": "loãng, nhạt",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "濃い"
   },
   {
     "word": "厚い",
@@ -81,13 +89,15 @@
     "word": "太い",
     "reading": "ふとい",
     "meaning": "béo",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "細い"
   },
   {
     "word": "細い",
     "reading": "ほそい",
     "meaning": "gầy",
-    "type": "tính từ い"
+    "type": "tính từ い",
+    "pairWith": "太い"
   },
   {
     "word": "空気",
@@ -105,13 +115,15 @@
     "word": "和食",
     "reading": "わしょく",
     "meaning": "món ăn kiểu Nhật",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "洋食"
   },
   {
     "word": "洋食",
     "reading": "ようしょく",
     "meaning": "món ăn kiểu Tây",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "和食"
   },
   {
     "word": "おかず",

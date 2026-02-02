@@ -9,13 +9,15 @@
     "word": "成功する",
     "reading": "せいこうする",
     "meaning": "thành công",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "失敗する"
   },
   {
     "word": "失敗する",
     "reading": "しっぱいする",
     "meaning": "thất bại, trượt (kì thi)",
-    "type": "động từ III"
+    "type": "động từ III",
+    "pairWith": "成功する"
   },
   {
     "word": "合格する",
@@ -62,13 +64,15 @@
     "word": "込む",
     "reading": "こむ",
     "meaning": "đông đúc",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "空く"
   },
   {
     "word": "空く",
     "reading": "すく",
     "meaning": "vắng",
-    "type": "động từ I"
+    "type": "động từ I",
+    "pairWith": "込む"
   },
   {
     "word": "当たる",
@@ -162,25 +166,29 @@
     "word": "東",
     "reading": "ひがし",
     "meaning": "phía Đông",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "西"
   },
   {
     "word": "西",
     "reading": "にし",
     "meaning": "phía Tây",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "東"
   },
   {
     "word": "南",
     "reading": "みなみ",
     "meaning": "phía Nam",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "北"
   },
   {
     "word": "北",
     "reading": "きた",
     "meaning": "phía Bắc",
-    "type": "danh từ"
+    "type": "danh từ",
+    "pairWith": "南"
   },
   {
     "word": "国際",
