@@ -22,6 +22,13 @@
 
 	function generateOptions(index: number) {
 		const type = Math.random() < 0.5 ? 'kotoba-to-meaning' : 'meaning-to-kotoba';
+		if (kotobas.length < 4) {
+			return {
+				answer: kotobas[index],
+				type,
+				options: [...kotobas].sort(() => Math.random() - 0.5)
+			};
+		}
 		const indices = [index];
 		while (indices.length < 4) {
 			const rand = randomIndex();

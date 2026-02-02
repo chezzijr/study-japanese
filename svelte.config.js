@@ -2,7 +2,7 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import fs from 'fs';
 // prerender entries
-const initialEntries = ['/', '/practice/verb'];
+const initialEntries = ['/'];
 
 // practice routes - dynamic across all levels
 const practiceLevels = ['n1', 'n2', 'n3', 'n4', 'n5'];
@@ -35,14 +35,11 @@ const kanjiEntries = kanjiLevels.flatMap((level) => {
 	return fs.existsSync(kanjiFile) ? [`/kanji/${level}`] : [];
 });
 
-const grammarEntries = ['/grammar/verb'];
-
 const entries = [
 	...initialEntries,
 	...practiceUnitEntries,
 	...vocabEntries,
-	...kanjiEntries,
-	...grammarEntries
+	...kanjiEntries
 ];
 // console.log(entries)
 

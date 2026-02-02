@@ -213,32 +213,6 @@
 				</div>
 			</div>
 
-			<!-- Grammar Card -->
-			<div class="card bg-base-200 shadow-md transition-shadow hover:shadow-lg">
-				<div class="card-body">
-					<h3 class="card-title">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							class="h-6 w-6 stroke-current"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								stroke-width="2"
-								d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-							></path>
-						</svg>
-						Ngữ pháp
-					</h3>
-					<p class="text-base-content/70">Hướng dẫn ngữ pháp</p>
-					<div class="card-actions mt-2 justify-end">
-						<a href="{base}/grammar/verb" class="btn btn-accent btn-sm">Động từ</a>
-					</div>
-				</div>
-			</div>
-
 			<!-- Flashcard Card -->
 			<div class="card bg-base-200 shadow-md transition-shadow hover:shadow-lg">
 				<div class="card-body">
