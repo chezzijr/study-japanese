@@ -222,11 +222,14 @@ function assertKanjiEntry(value: unknown, prefix: string, index: number): void {
 		throw new Error(`${kanjiPrefix}.char must be a non-empty string`);
 	}
 
-	if (typeof obj.hv !== 'string' || obj.hv.length === 0) {
-		throw new Error(`${kanjiPrefix}.hv must be a non-empty string`);
+	// Allow empty hv/meaning — AI sometimes omits these for rare kanji
+	if (obj.hv !== undefined && typeof obj.hv !== 'string') {
+		throw new Error(`${kanjiPrefix}.hv must be a string`);
 	}
+	if (!obj.hv) obj.hv = '';
 
-	if (typeof obj.meaning !== 'string' || obj.meaning.length === 0) {
-		throw new Error(`${kanjiPrefix}.meaning must be a non-empty string`);
+	if (obj.meaning !== undefined && typeof obj.meaning !== 'string') {
+		throw new Error(`${kanjiPrefix}.meaning must be a string`);
 	}
+	if (!obj.meaning) obj.meaning = '';
 }
