@@ -72,9 +72,7 @@
 
 	<div class="collapse collapse-arrow bg-base-200">
 		<input type="checkbox" bind:checked={showHistory} />
-		<div class="collapse-title font-medium">
-			Lịch sử dịch
-		</div>
+		<div class="collapse-title font-medium">Lịch sử dịch</div>
 		<div class="collapse-content">
 			{#if showHistory}
 				<HistoryList onselect={handleHistorySelect} />

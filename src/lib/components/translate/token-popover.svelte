@@ -92,8 +92,8 @@
 
 		<!-- Grammar section -->
 		{#if token.grammar}
-			<div class="border-t border-base-content/10 pt-2 mt-2">
-				<div class="text-xs font-semibold uppercase opacity-50 mb-1">Ngữ pháp</div>
+			<div class="mt-2 border-t border-base-content/10 pt-2">
+				<div class="mb-1 text-xs font-semibold uppercase opacity-50">Ngữ pháp</div>
 				<div class="text-sm">
 					<span class="font-medium">{token.grammar.form}</span>
 					<span class="opacity-80"> - {token.grammar.explanation}</span>
@@ -103,8 +103,8 @@
 
 		<!-- Kanji section -->
 		{#if token.kanji && token.kanji.length > 0}
-			<div class="border-t border-base-content/10 pt-2 mt-2">
-				<div class="text-xs font-semibold uppercase opacity-50 mb-1">Hán tự</div>
+			<div class="mt-2 border-t border-base-content/10 pt-2">
+				<div class="mb-1 text-xs font-semibold uppercase opacity-50">Hán tự</div>
 				<div class="flex flex-wrap gap-2">
 					{#each token.kanji as k}
 						<div class="flex items-center gap-1 rounded bg-base-content/10 px-2 py-0.5">
@@ -121,8 +121,8 @@
 
 		<!-- Context section -->
 		{#if token.context}
-			<div class="border-t border-base-content/10 pt-2 mt-2">
-				<div class="text-xs font-semibold uppercase opacity-50 mb-1">Vai trò</div>
+			<div class="mt-2 border-t border-base-content/10 pt-2">
+				<div class="mb-1 text-xs font-semibold uppercase opacity-50">Vai trò</div>
 				<div class="text-sm opacity-80">{token.context}</div>
 			</div>
 		{/if}
