@@ -105,6 +105,7 @@
 					type="button"
 					class="btn btn-ghost btn-sm btn-circle"
 					onclick={() => (showHistory = false)}
+					aria-label="Đóng lịch sử"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"

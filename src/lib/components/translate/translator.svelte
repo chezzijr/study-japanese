@@ -68,9 +68,18 @@
 		const map = new Map<string, string>();
 		if (!translation) return map;
 		for (let si = 0; si < translation.sentences.length; si++) {
-			translation.sentences[si].jp_order.forEach((id, i) => {
-				map.set(`${si}-${id}`, TOKEN_COLORS[i % TOKEN_COLORS.length]);
+			let colorIdx = 0;
+			// Assign colors from jp_order first
+			translation.sentences[si].jp_order.forEach((id) => {
+				map.set(`${si}-${id}`, TOKEN_COLORS[colorIdx++ % TOKEN_COLORS.length]);
 			});
+			// Assign colors to ghost tokens (in vn_order but not jp_order)
+			for (const id of translation.sentences[si].vn_order) {
+				const key = `${si}-${id}`;
+				if (!map.has(key)) {
+					map.set(key, TOKEN_COLORS[colorIdx++ % TOKEN_COLORS.length]);
+				}
+			}
 		}
 		return map;
 	});

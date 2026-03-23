@@ -145,7 +145,7 @@
 		{#if saving}
 			<span class="loading loading-spinner loading-xs"></span>
 		{:else if saved}
-			Saved!
+			Đã lưu!
 		{:else}
 			Lưu cài đặt
 		{/if}

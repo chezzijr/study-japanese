@@ -164,12 +164,15 @@ function assertToken(
 		throw new Error(`${prefix}.vn must be a string`);
 	}
 
-	if (typeof obj.base_form !== 'string' || obj.base_form.length === 0) {
-		throw new Error(`${prefix}.base_form must be a non-empty string`);
+	// Ghost tokens (jp: "") may have empty base_form/reading
+	const isGhostToken = typeof obj.jp === 'string' && obj.jp.length === 0;
+
+	if (typeof obj.base_form !== 'string' || (!isGhostToken && obj.base_form.length === 0)) {
+		throw new Error(`${prefix}.base_form must be a string (non-empty for non-ghost tokens)`);
 	}
 
-	if (typeof obj.reading !== 'string' || obj.reading.length === 0) {
-		throw new Error(`${prefix}.reading must be a non-empty string`);
+	if (typeof obj.reading !== 'string' || (!isGhostToken && obj.reading.length === 0)) {
+		throw new Error(`${prefix}.reading must be a string (non-empty for non-ghost tokens)`);
 	}
 
 	if (typeof obj.type !== 'string' || obj.type.length === 0) {
