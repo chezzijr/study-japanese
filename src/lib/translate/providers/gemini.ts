@@ -21,7 +21,10 @@ const provider: AIProvider = {
 			config: {
 				systemInstruction: getSystemPrompt(),
 				responseMimeType: 'application/json',
-				maxOutputTokens: 16384
+				maxOutputTokens: 65536,
+				thinkingConfig: {
+					thinkingBudget: 0
+				}
 			}
 		});
 
