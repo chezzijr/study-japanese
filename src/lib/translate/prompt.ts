@@ -134,13 +134,40 @@ Given Japanese text, produce a JSON object that:
 ## Output JSON Schema
 ${JSON_SCHEMA}
 
-## Tokenization Rules
-- Merge particles into preceding words when they form a grammatical unit (e.g., "について" as one token)
-- Merge verb endings with their stems: "勉強しています" is ONE token, not split into "勉強" + "して" + "います"
-- Merge い-adjective + です as one token (e.g., "おいしいです")
-- Keep な-adjective and です as separate tokens
-- Keep topic/object/subject particles (は, が, を, に, で, etc.) as separate tokens
+## Tokenization Rules (重要 - Very Important)
+
+### Core principle
+A token is a MEANINGFUL UNIT for a Vietnamese learner. Each token should be something a learner would look up in a dictionary or study as a grammar pattern. Map Japanese linguistic units to their Vietnamese equivalents.
+
+### Compound words (複合語) — keep as ONE token
+- Compound verbs: 引き出す, 取り出す, 見つける, 飛び出す, 思い出す, 切り替える, 受け取る
+- Compound nouns: 引き出し, 花火, 気持ち, 出口, 入口, 目標
+- Any word that has its own dictionary entry as a compound = ONE token
+
+### Verb conjugations — keep the FULL conjugated form as ONE token
+The entire conjugated form (stem + ending) is always ONE token. NEVER split a conjugated verb into parts:
+- 五段 (godan): 書く→書いて→書いた→書かない→書ける→書かれる→書かせる (each is ONE token)
+- 一段 (ichidan): 食べる→食べて→食べた→食べない→食べられる→食べさせる
+- 不規則: する→した→して→しない→できる, くる→きた→きて→こない
+
+### V-て + auxiliary verb — keep as ONE token
+These grammar patterns function as a single unit. NEVER split V-て from its auxiliary:
+- V-ている/V-てる (tiếp diễn), V-てみる (thử), V-てしまう/V-ちゃう (hoàn thành/hối tiếc)
+- V-ていく (tiếp tục), V-てくる (bắt đầu/đến), V-ておく/V-とく (chuẩn bị trước)
+- V-てあげる/V-てもらう/V-てくれる (cho/nhận hành động)
+- V-てほしい (muốn ai làm gì)
+- Example: 探してみる = ONE token, NOT 探し + て + みる
+
+### Particles — keep SEPARATE
+- Topic/case particles: は, が, を, に, で, と, も, へ, から, まで, より
+- These are separate tokens with vn: "" (omitted from vn_order when no Vietnamese equivalent)
 - Sentence-ending particles (よ, ね, か, etc.) should be separate tokens
+
+### Sentence-ending expressions — ONE token
+- V-んだ/V-のだ, V-だろう/V-でしょう, V-かもしれない, じゃないか
+
+### い-adjective + です — ONE token (おいしいです, 高いです)
+### な-adjective — keep adjective and だ/です SEPARATE (静かな, 静かだ)
 
 ## Word Type Labels (Vietnamese)
 Use these labels for the "type" field:

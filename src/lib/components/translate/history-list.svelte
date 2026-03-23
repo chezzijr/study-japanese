@@ -43,11 +43,6 @@
 		}
 	}
 
-	function truncate(text: string, maxLen: number): string {
-		if (text.length <= maxLen) return text;
-		return text.slice(0, maxLen) + '...';
-	}
-
 	function formatDate(timestamp: number): string {
 		return new Date(timestamp).toLocaleDateString('vi-VN', {
 			year: 'numeric',
@@ -59,15 +54,13 @@
 	}
 
 	const providerLabels: Record<string, string> = {
-		claude: 'Claude Haiku',
+		claude: 'Claude Sonnet',
 		gemini: 'Gemini Flash',
 		openai: 'GPT-4o-mini'
 	};
 </script>
 
 <div class="flex flex-col gap-3">
-	<h3 class="text-lg font-bold">Lịch sử dịch</h3>
-
 	<!-- Search -->
 	<div class="flex items-center gap-2">
 		<svg
@@ -121,7 +114,7 @@
 				>
 					<div class="card-body flex-row items-center gap-3 p-3">
 						<div class="min-w-0 flex-1">
-							<p class="truncate font-medium">{truncate(item.sourceText, 60)}</p>
+							<p class="line-clamp-1 break-all font-medium">{item.sourceText}</p>
 							<div class="mt-1 flex items-center gap-2 text-xs opacity-50">
 								<span class="badge badge-ghost badge-xs"
 									>{providerLabels[item.provider] ?? item.provider}</span
