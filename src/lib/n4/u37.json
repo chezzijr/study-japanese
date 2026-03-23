@@ -1,124 +1,124 @@
 [
-  {
-    "word": "褒める",
-    "reading": "ほめる",
-    "meaning": "khen",
-    "type": "động từ II",
-    "pairWith": "叱る"
-  },
-  {
-    "word": "叱る",
-    "reading": "しかる",
-    "meaning": "mắng",
-    "type": "động từ I",
-    "pairWith": "褒める"
-  },
-  {
-    "word": "誘う",
-    "reading": "さそう",
-    "meaning": "mời, rủ",
-    "type": "động từ I"
-  },
-  {
-    "word": "招待する",
-    "reading": "しょうたいする",
-    "meaning": "mời",
-    "type": "động từ III"
-  },
-  {
-    "word": "頼む",
-    "reading": "たのむ",
-    "meaning": "nhờ",
-    "type": "động từ I"
-  },
-  {
-    "word": "注意する",
-    "reading": "ちゅういする",
-    "meaning": "nhắc nhở",
-    "type": "động từ III"
-  },
-  {
-    "word": "盗む",
-    "reading": "ぬすむ",
-    "meaning": "lấy cắp",
-    "type": "động từ I"
-  },
-  {
-    "word": "踏む",
-    "reading": "ふむ",
-    "meaning": "dẫm lên",
-    "type": "động từ I"
-  },
-  {
-    "word": "壊す",
-    "reading": "こわす",
-    "meaning": "làm hỏng",
-    "type": "động từ I",
-    "note": "tha động từ"
-  },
-  {
-    "word": "汚す",
-    "reading": "よごす",
-    "meaning": "làm bẩn",
-    "type": "động từ I",
-    "note": "tha động từ"
-  },
-  {
-    "word": "行う",
-    "reading": "おこなう",
-    "meaning": "tổ chức, tiến hành",
-    "type": "động từ I"
-  },
-  {
-    "word": "輸出する",
-    "reading": "ゆしゅつする",
-    "meaning": "xuất khẩu",
-    "type": "động từ III",
-    "pairWith": "輸入する"
-  },
-  {
-    "word": "輸入する",
-    "reading": "ゆにゅうする",
-    "meaning": "nhập khẩu",
-    "type": "động từ III",
-    "pairWith": "輸出する"
-  },
-  {
-    "word": "翻訳する",
-    "reading": "ほんやくする",
-    "meaning": "biên dịch",
-    "type": "động từ III"
-  },
-  {
-    "word": "発明する",
-    "reading": "はつめいする",
-    "meaning": "phát minh",
-    "type": "động từ III",
-    "pairWith": "発見する"
-  },
-  {
-    "word": "発見する",
-    "reading": "はっけんする",
-    "meaning": "phát hiện",
-    "type": "động từ III",
-    "pairWith": "発明する"
-  },
-  {
-    "word": "殺す",
-    "reading": "ころす",
-    "meaning": "giết",
-    "type": "động từ I"
-  },
-  {
-    "word": "撃つ",
-    "reading": "うつ",
-    "meaning": "bắn (súng, tên)",
-    "type": "động từ I"
-  },
-  {
-    "word": "刺す",
-    "reading": "さす",
-    "meaning": "đâm",
-    "type": "động từ I"
-  }
+	{
+		"word": "褒める",
+		"reading": "ほめる",
+		"meaning": "khen",
+		"type": "động từ II",
+		"pairWith": "叱る"
+	},
+	{
+		"word": "叱る",
+		"reading": "しかる",
+		"meaning": "mắng",
+		"type": "động từ I",
+		"pairWith": "褒める"
+	},
+	{
+		"word": "誘う",
+		"reading": "さそう",
+		"meaning": "mời, rủ",
+		"type": "động từ I"
+	},
+	{
+		"word": "招待する",
+		"reading": "しょうたいする",
+		"meaning": "mời",
+		"type": "động từ III"
+	},
+	{
+		"word": "頼む",
+		"reading": "たのむ",
+		"meaning": "nhờ",
+		"type": "động từ I"
+	},
+	{
+		"word": "注意する",
+		"reading": "ちゅういする",
+		"meaning": "nhắc nhở",
+		"type": "động từ III"
+	},
+	{
+		"word": "盗む",
+		"reading": "ぬすむ",
+		"meaning": "lấy cắp",
+		"type": "động từ I"
+	},
+	{
+		"word": "踏む",
+		"reading": "ふむ",
+		"meaning": "dẫm lên",
+		"type": "động từ I"
+	},
+	{
+		"word": "壊す",
+		"reading": "こわす",
+		"meaning": "làm hỏng",
+		"type": "động từ I",
+		"note": "tha động từ"
+	},
+	{
+		"word": "汚す",
+		"reading": "よごす",
+		"meaning": "làm bẩn",
+		"type": "động từ I",
+		"note": "tha động từ"
+	},
+	{
+		"word": "行う",
+		"reading": "おこなう",
+		"meaning": "tổ chức, tiến hành",
+		"type": "động từ I"
+	},
+	{
+		"word": "輸出する",
+		"reading": "ゆしゅつする",
+		"meaning": "xuất khẩu",
+		"type": "động từ III",
+		"pairWith": "輸入する"
+	},
+	{
+		"word": "輸入する",
+		"reading": "ゆにゅうする",
+		"meaning": "nhập khẩu",
+		"type": "động từ III",
+		"pairWith": "輸出する"
+	},
+	{
+		"word": "翻訳する",
+		"reading": "ほんやくする",
+		"meaning": "biên dịch",
+		"type": "động từ III"
+	},
+	{
+		"word": "発明する",
+		"reading": "はつめいする",
+		"meaning": "phát minh",
+		"type": "động từ III",
+		"pairWith": "発見する"
+	},
+	{
+		"word": "発見する",
+		"reading": "はっけんする",
+		"meaning": "phát hiện",
+		"type": "động từ III",
+		"pairWith": "発明する"
+	},
+	{
+		"word": "殺す",
+		"reading": "ころす",
+		"meaning": "giết",
+		"type": "động từ I"
+	},
+	{
+		"word": "撃つ",
+		"reading": "うつ",
+		"meaning": "bắn (súng, tên)",
+		"type": "động từ I"
+	},
+	{
+		"word": "刺す",
+		"reading": "さす",
+		"meaning": "đâm",
+		"type": "động từ I"
+	}
 ]

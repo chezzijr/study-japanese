@@ -1,220 +1,220 @@
 [
-  {
-    "word": "課長",
-    "reading": "かちょう",
-    "meaning": "tổ trưởng",
-    "type": "danh từ"
-  },
-  {
-    "word": "部長",
-    "reading": "ぶちょう",
-    "meaning": "trưởng phòng",
-    "type": "danh từ"
-  },
-  {
-    "word": "社長",
-    "reading": "しゃちょう",
-    "meaning": "giám đốc",
-    "type": "danh từ"
-  },
-  {
-    "word": "ピアノ",
-    "reading": "ぴあの",
-    "meaning": "đàn Piano",
-    "type": "danh từ"
-  },
-  {
-    "word": "趣味",
-    "reading": "しゅみ",
-    "meaning": "sở thích, thú vui",
-    "type": "danh từ"
-  },
-  {
-    "word": "象",
-    "reading": "ぞう",
-    "meaning": "con voi",
-    "type": "danh từ"
-  },
-  {
-    "word": "鳥",
-    "reading": "とり",
-    "meaning": "chim",
-    "type": "danh từ"
-  },
-  {
-    "word": "へえ",
-    "reading": "へえ",
-    "meaning": "Thế à! (dùng để biểu thị sự ngạc nhiên hoặc quan tâm)",
-    "type": "thán từ"
-  },
-  {
-    "word": "大使館",
-    "reading": "たいしかん",
-    "meaning": "đại sứ quán",
-    "type": "danh từ"
-  },
-  {
-    "word": "国際",
-    "reading": "こくさい",
-    "meaning": "quốc tế",
-    "type": "danh từ"
-  },
-  {
-    "word": "洗う",
-    "reading": "あらう",
-    "meaning": "rửa",
-    "type": "động từ I"
-  },
-  {
-    "word": "洗います",
-    "reading": "あらいます",
-    "meaning": "rửa",
-    "type": "động từ I"
-  },
-  {
-    "word": "歌う",
-    "reading": "うたう",
-    "meaning": "hát",
-    "type": "động từ I"
-  },
-  {
-    "word": "歌います",
-    "reading": "うたいます",
-    "meaning": "hát",
-    "type": "động từ I"
-  },
-  {
-    "word": "弾く",
-    "reading": "ひく",
-    "meaning": "chơi (nhạc cụ: piano,gita…..)",
-    "type": "động từ I"
-  },
-  {
-    "word": "弾きます",
-    "reading": "ひきます",
-    "meaning": "chơi (nhạc cụ: piano,gita…..)",
-    "type": "động từ I"
-  },
-  {
-    "word": "取る",
-    "reading": "とる",
-    "meaning": "lấy, chuyển",
-    "type": "động từ I"
-  },
-  {
-    "word": "取ります",
-    "reading": "とります",
-    "meaning": "lấy, chuyển",
-    "type": "động từ I"
-  },
-  {
-    "word": "できる",
-    "reading": "できる",
-    "meaning": "có thể",
-    "type": "động từ II"
-  },
-  {
-    "word": "できます",
-    "reading": "できます",
-    "meaning": "có thể",
-    "type": "động từ II"
-  },
-  {
-    "word": "捨てる",
-    "reading": "すてる",
-    "meaning": "vứt, bỏ đi",
-    "type": "động từ II"
-  },
-  {
-    "word": "捨てます",
-    "reading": "すてます",
-    "meaning": "vứt, bỏ đi",
-    "type": "động từ II"
-  },
-  {
-    "word": "調べる",
-    "reading": "しらべる",
-    "meaning": "tìm hiểu, điều tra, xem",
-    "type": "động từ II"
-  },
-  {
-    "word": "調べます",
-    "reading": "しらべます",
-    "meaning": "tìm hiểu, điều tra, xem",
-    "type": "động từ II"
-  },
-  {
-    "word": "集める",
-    "reading": "あつめる",
-    "meaning": "thu thập, sưu tầm",
-    "type": "động từ II"
-  },
-  {
-    "word": "集めます",
-    "reading": "あつめます",
-    "meaning": "thu thập, sưu tầm",
-    "type": "động từ II"
-  },
-  {
-    "word": "運転する",
-    "reading": "うんてんする",
-    "meaning": "lái",
-    "type": "động từ III"
-  },
-  {
-    "word": "運転します",
-    "reading": "うんてんします",
-    "meaning": "lái",
-    "type": "động từ III"
-  },
-  {
-    "word": "予約する",
-    "reading": "よやくする",
-    "meaning": "đặt chỗ, đặt trước",
-    "type": "động từ III"
-  },
-  {
-    "word": "予約します",
-    "reading": "よやくします",
-    "meaning": "đặt chỗ, đặt trước",
-    "type": "động từ III"
-  },
-  {
-    "word": "見学する",
-    "reading": "けんがくする",
-    "meaning": "tham quan với mục đích học tập",
-    "type": "động từ III"
-  },
-  {
-    "word": "見学します",
-    "reading": "けんがくします",
-    "meaning": "tham quan với mục đích học tập",
-    "type": "động từ III"
-  },
-  {
-    "word": "それは面白いですね",
-    "reading": "それはおもしろいですね",
-    "meaning": "Hay thật nhỉ!",
-    "type": "biểu hiện"
-  },
-  {
-    "word": "なかなか",
-    "reading": "なかなか",
-    "meaning": "khó mà, không dễ, mãi mà",
-    "note": "Dùng với thể phủ định",
-    "type": "phó từ"
-  },
-  {
-    "word": "ぜひ",
-    "reading": "ぜひ",
-    "meaning": "nhất định, rất",
-    "note": "Dùng với thể khẳng định",
-    "type": "phó từ"
-  },
-  {
-    "word": "授業",
-    "reading": "じゅぎょう",
-    "meaning": "Giờ học",
-    "type": "danh từ"
-  }
+	{
+		"word": "課長",
+		"reading": "かちょう",
+		"meaning": "tổ trưởng",
+		"type": "danh từ"
+	},
+	{
+		"word": "部長",
+		"reading": "ぶちょう",
+		"meaning": "trưởng phòng",
+		"type": "danh từ"
+	},
+	{
+		"word": "社長",
+		"reading": "しゃちょう",
+		"meaning": "giám đốc",
+		"type": "danh từ"
+	},
+	{
+		"word": "ピアノ",
+		"reading": "ぴあの",
+		"meaning": "đàn Piano",
+		"type": "danh từ"
+	},
+	{
+		"word": "趣味",
+		"reading": "しゅみ",
+		"meaning": "sở thích, thú vui",
+		"type": "danh từ"
+	},
+	{
+		"word": "象",
+		"reading": "ぞう",
+		"meaning": "con voi",
+		"type": "danh từ"
+	},
+	{
+		"word": "鳥",
+		"reading": "とり",
+		"meaning": "chim",
+		"type": "danh từ"
+	},
+	{
+		"word": "へえ",
+		"reading": "へえ",
+		"meaning": "Thế à! (dùng để biểu thị sự ngạc nhiên hoặc quan tâm)",
+		"type": "thán từ"
+	},
+	{
+		"word": "大使館",
+		"reading": "たいしかん",
+		"meaning": "đại sứ quán",
+		"type": "danh từ"
+	},
+	{
+		"word": "国際",
+		"reading": "こくさい",
+		"meaning": "quốc tế",
+		"type": "danh từ"
+	},
+	{
+		"word": "洗う",
+		"reading": "あらう",
+		"meaning": "rửa",
+		"type": "động từ I"
+	},
+	{
+		"word": "洗います",
+		"reading": "あらいます",
+		"meaning": "rửa",
+		"type": "động từ I"
+	},
+	{
+		"word": "歌う",
+		"reading": "うたう",
+		"meaning": "hát",
+		"type": "động từ I"
+	},
+	{
+		"word": "歌います",
+		"reading": "うたいます",
+		"meaning": "hát",
+		"type": "động từ I"
+	},
+	{
+		"word": "弾く",
+		"reading": "ひく",
+		"meaning": "chơi (nhạc cụ: piano,gita…..)",
+		"type": "động từ I"
+	},
+	{
+		"word": "弾きます",
+		"reading": "ひきます",
+		"meaning": "chơi (nhạc cụ: piano,gita…..)",
+		"type": "động từ I"
+	},
+	{
+		"word": "取る",
+		"reading": "とる",
+		"meaning": "lấy, chuyển",
+		"type": "động từ I"
+	},
+	{
+		"word": "取ります",
+		"reading": "とります",
+		"meaning": "lấy, chuyển",
+		"type": "động từ I"
+	},
+	{
+		"word": "できる",
+		"reading": "できる",
+		"meaning": "có thể",
+		"type": "động từ II"
+	},
+	{
+		"word": "できます",
+		"reading": "できます",
+		"meaning": "có thể",
+		"type": "động từ II"
+	},
+	{
+		"word": "捨てる",
+		"reading": "すてる",
+		"meaning": "vứt, bỏ đi",
+		"type": "động từ II"
+	},
+	{
+		"word": "捨てます",
+		"reading": "すてます",
+		"meaning": "vứt, bỏ đi",
+		"type": "động từ II"
+	},
+	{
+		"word": "調べる",
+		"reading": "しらべる",
+		"meaning": "tìm hiểu, điều tra, xem",
+		"type": "động từ II"
+	},
+	{
+		"word": "調べます",
+		"reading": "しらべます",
+		"meaning": "tìm hiểu, điều tra, xem",
+		"type": "động từ II"
+	},
+	{
+		"word": "集める",
+		"reading": "あつめる",
+		"meaning": "thu thập, sưu tầm",
+		"type": "động từ II"
+	},
+	{
+		"word": "集めます",
+		"reading": "あつめます",
+		"meaning": "thu thập, sưu tầm",
+		"type": "động từ II"
+	},
+	{
+		"word": "運転する",
+		"reading": "うんてんする",
+		"meaning": "lái",
+		"type": "động từ III"
+	},
+	{
+		"word": "運転します",
+		"reading": "うんてんします",
+		"meaning": "lái",
+		"type": "động từ III"
+	},
+	{
+		"word": "予約する",
+		"reading": "よやくする",
+		"meaning": "đặt chỗ, đặt trước",
+		"type": "động từ III"
+	},
+	{
+		"word": "予約します",
+		"reading": "よやくします",
+		"meaning": "đặt chỗ, đặt trước",
+		"type": "động từ III"
+	},
+	{
+		"word": "見学する",
+		"reading": "けんがくする",
+		"meaning": "tham quan với mục đích học tập",
+		"type": "động từ III"
+	},
+	{
+		"word": "見学します",
+		"reading": "けんがくします",
+		"meaning": "tham quan với mục đích học tập",
+		"type": "động từ III"
+	},
+	{
+		"word": "それは面白いですね",
+		"reading": "それはおもしろいですね",
+		"meaning": "Hay thật nhỉ!",
+		"type": "biểu hiện"
+	},
+	{
+		"word": "なかなか",
+		"reading": "なかなか",
+		"meaning": "khó mà, không dễ, mãi mà",
+		"note": "Dùng với thể phủ định",
+		"type": "phó từ"
+	},
+	{
+		"word": "ぜひ",
+		"reading": "ぜひ",
+		"meaning": "nhất định, rất",
+		"note": "Dùng với thể khẳng định",
+		"type": "phó từ"
+	},
+	{
+		"word": "授業",
+		"reading": "じゅぎょう",
+		"meaning": "Giờ học",
+		"type": "danh từ"
+	}
 ]

@@ -77,7 +77,12 @@
 					<span class="text-5xl font-bold text-primary">{kanji}</span>
 					<span class="text-2xl font-medium">{meaning}</span>
 				</div>
-				<button type="button" class="btn btn-ghost btn-sm btn-circle" aria-label="Đóng" onclick={handleClose}>
+				<button
+					type="button"
+					class="btn btn-circle btn-ghost btn-sm"
+					aria-label="Đóng"
+					onclick={handleClose}
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						fill="none"
@@ -172,7 +177,7 @@
 								</span>
 							{/if}
 						</div>
-						<button type="button" class="btn btn-sm btn-ghost" onclick={handleRetry}>
+						<button type="button" class="btn btn-ghost btn-sm" onclick={handleRetry}>
 							Thử lại
 						</button>
 					</div>

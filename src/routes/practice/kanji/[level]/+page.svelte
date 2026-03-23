@@ -16,10 +16,12 @@
 	// Deduplicate by word and ensure onyomi/kunyomi are arrays
 	const kanjis: KanjiItem[] = [
 		...new Map(
-			data.kanjis.map((k: { word: string; meaning: string; onyomi?: string[]; kunyomi?: string[] }) => [
-				k.word,
-				{ ...k, onyomi: k.onyomi ?? [], kunyomi: k.kunyomi ?? [] }
-			])
+			data.kanjis.map(
+				(k: { word: string; meaning: string; onyomi?: string[]; kunyomi?: string[] }) => [
+					k.word,
+					{ ...k, onyomi: k.onyomi ?? [], kunyomi: k.kunyomi ?? [] }
+				]
+			)
 		).values()
 	];
 
@@ -220,7 +222,7 @@
 			<span class="block text-3xl font-bold text-primary">
 				{current.meaning}
 			</span>
-			<span class="block text-lg text-base-content/70 mt-1 font-normal">
+			<span class="mt-1 block text-lg font-normal text-base-content/70">
 				{#if current.onyomi.length > 0}
 					<span>音: {current.onyomi.join(', ')}</span>
 				{/if}

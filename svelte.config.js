@@ -35,12 +35,7 @@ const kanjiEntries = kanjiLevels.flatMap((level) => {
 	return fs.existsSync(kanjiFile) ? [`/kanji/${level}`] : [];
 });
 
-const entries = [
-	...initialEntries,
-	...practiceUnitEntries,
-	...vocabEntries,
-	...kanjiEntries
-];
+const entries = [...initialEntries, ...practiceUnitEntries, ...vocabEntries, ...kanjiEntries];
 // console.log(entries)
 
 /** @type {import('@sveltejs/kit').Config} */

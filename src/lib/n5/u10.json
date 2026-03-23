@@ -1,202 +1,202 @@
 [
-  {
-    "word": "色々",
-    "reading": "いろいろ",
-    "meaning": "nhiều, đa dạng",
-    "type": "tính từ な"
-  },
-  {
-    "word": "男の人",
-    "reading": "おとこのひと",
-    "meaning": "người đàn ông",
-    "type": "danh từ",
-    "pairWith": "女の人"
-  },
-  {
-    "word": "女の人",
-    "reading": "おんなのひと",
-    "meaning": "người phụ nữ",
-    "type": "danh từ",
-    "pairWith": "男の人"
-  },
-  {
-    "word": "男の子",
-    "reading": "おとこのこ",
-    "meaning": "cậu bé",
-    "type": "danh từ",
-    "pairWith": "女の子"
-  },
-  {
-    "word": "女の子",
-    "reading": "おんなのこ",
-    "meaning": "cô bé",
-    "type": "danh từ",
-    "pairWith": "男の子"
-  },
-  {
-    "word": "犬",
-    "reading": "いぬ",
-    "meaning": "chó",
-    "type": "danh từ"
-  },
-  {
-    "word": "猫",
-    "reading": "ねこ",
-    "meaning": "mèo",
-    "type": "danh từ"
-  },
-  {
-    "word": "木",
-    "reading": "き",
-    "meaning": "cây, gỗ",
-    "type": "danh từ"
-  },
-  {
-    "word": "物",
-    "reading": "もの",
-    "meaning": "vật, đồ vật",
-    "type": "danh từ"
-  },
-  {
-    "word": "箱",
-    "reading": "はこ",
-    "meaning": "hộp",
-    "type": "danh từ"
-  },
-  {
-    "word": "冷蔵庫",
-    "reading": "れいぞうこ",
-    "meaning": "tủ lạnh",
-    "type": "danh từ"
-  },
-  {
-    "word": "テーブル",
-    "meaning": "bàn",
-    "type": "danh từ"
-  },
-  {
-    "word": "ベッド",
-    "meaning": "giường",
-    "type": "danh từ"
-  },
-  {
-    "word": "公園",
-    "reading": "こうえん",
-    "meaning": "công viên",
-    "type": "danh từ"
-  },
-  {
-    "word": "本屋",
-    "reading": "ほんや",
-    "meaning": "hiệu sách",
-    "type": "danh từ"
-  },
-  {
-    "word": "池",
-    "reading": "いけ",
-    "meaning": "cái ao",
-    "type": "danh từ"
-  },
-  {
-    "word": "～や",
-    "meaning": "hiệu ~, cửa hàng ~",
-    "type": "trợ từ"
-  },
-  {
-    "word": "地下",
-    "reading": "ちか",
-    "meaning": "tầng hầm",
-    "type": "danh từ"
-  },
-  {
-    "word": "上",
-    "reading": "うえ",
-    "meaning": "trên",
-    "type": "danh từ",
-    "pairWith": "下"
-  },
-  {
-    "word": "下",
-    "reading": "した",
-    "meaning": "dưới",
-    "type": "danh từ",
-    "pairWith": "上"
-  },
-  {
-    "word": "前",
-    "reading": "まえ",
-    "meaning": "trước",
-    "type": "danh từ",
-    "pairWith": "後ろ"
-  },
-  {
-    "word": "後ろ",
-    "reading": "うしろ",
-    "meaning": "sau",
-    "type": "danh từ",
-    "pairWith": "前"
-  },
-  {
-    "word": "右",
-    "reading": "みぎ",
-    "meaning": "phải",
-    "type": "danh từ",
-    "pairWith": "左"
-  },
-  {
-    "word": "左",
-    "reading": "ひだり",
-    "meaning": "trái",
-    "type": "danh từ",
-    "pairWith": "右"
-  },
-  {
-    "word": "中",
-    "reading": "なか",
-    "meaning": "trong, giữa",
-    "type": "danh từ",
-    "pairWith": "外"
-  },
-  {
-    "word": "外",
-    "reading": "そと",
-    "meaning": "ngoài",
-    "type": "danh từ",
-    "pairWith": "中"
-  },
-  {
-    "word": "隣",
-    "reading": "となり",
-    "meaning": "bên cạnh",
-    "type": "danh từ"
-  },
-  {
-    "word": "近く",
-    "reading": "ちかく",
-    "meaning": "gần",
-    "type": "danh từ"
-  },
-  {
-    "word": "間",
-    "reading": "あいだ",
-    "meaning": "giữa",
-    "type": "danh từ"
-  },
-  {
-    "word": "有る",
-    "reading": "ある",
-    "meaning": "có [tồn tại, dùng cho đồ vật]",
-    "type": "động từ I"
-  },
-  {
-    "word": "居る",
-    "reading": "いる",
-    "meaning": "có, ở [tồn tại, dùng cho người và động vật]",
-    "type": "động từ II"
-  },
-  {
-    "word": "～など",
-    "meaning": "~ và ~, [v.v.]",
-    "type": "trợ từ"
-  }
+	{
+		"word": "色々",
+		"reading": "いろいろ",
+		"meaning": "nhiều, đa dạng",
+		"type": "tính từ な"
+	},
+	{
+		"word": "男の人",
+		"reading": "おとこのひと",
+		"meaning": "người đàn ông",
+		"type": "danh từ",
+		"pairWith": "女の人"
+	},
+	{
+		"word": "女の人",
+		"reading": "おんなのひと",
+		"meaning": "người phụ nữ",
+		"type": "danh từ",
+		"pairWith": "男の人"
+	},
+	{
+		"word": "男の子",
+		"reading": "おとこのこ",
+		"meaning": "cậu bé",
+		"type": "danh từ",
+		"pairWith": "女の子"
+	},
+	{
+		"word": "女の子",
+		"reading": "おんなのこ",
+		"meaning": "cô bé",
+		"type": "danh từ",
+		"pairWith": "男の子"
+	},
+	{
+		"word": "犬",
+		"reading": "いぬ",
+		"meaning": "chó",
+		"type": "danh từ"
+	},
+	{
+		"word": "猫",
+		"reading": "ねこ",
+		"meaning": "mèo",
+		"type": "danh từ"
+	},
+	{
+		"word": "木",
+		"reading": "き",
+		"meaning": "cây, gỗ",
+		"type": "danh từ"
+	},
+	{
+		"word": "物",
+		"reading": "もの",
+		"meaning": "vật, đồ vật",
+		"type": "danh từ"
+	},
+	{
+		"word": "箱",
+		"reading": "はこ",
+		"meaning": "hộp",
+		"type": "danh từ"
+	},
+	{
+		"word": "冷蔵庫",
+		"reading": "れいぞうこ",
+		"meaning": "tủ lạnh",
+		"type": "danh từ"
+	},
+	{
+		"word": "テーブル",
+		"meaning": "bàn",
+		"type": "danh từ"
+	},
+	{
+		"word": "ベッド",
+		"meaning": "giường",
+		"type": "danh từ"
+	},
+	{
+		"word": "公園",
+		"reading": "こうえん",
+		"meaning": "công viên",
+		"type": "danh từ"
+	},
+	{
+		"word": "本屋",
+		"reading": "ほんや",
+		"meaning": "hiệu sách",
+		"type": "danh từ"
+	},
+	{
+		"word": "池",
+		"reading": "いけ",
+		"meaning": "cái ao",
+		"type": "danh từ"
+	},
+	{
+		"word": "～や",
+		"meaning": "hiệu ~, cửa hàng ~",
+		"type": "trợ từ"
+	},
+	{
+		"word": "地下",
+		"reading": "ちか",
+		"meaning": "tầng hầm",
+		"type": "danh từ"
+	},
+	{
+		"word": "上",
+		"reading": "うえ",
+		"meaning": "trên",
+		"type": "danh từ",
+		"pairWith": "下"
+	},
+	{
+		"word": "下",
+		"reading": "した",
+		"meaning": "dưới",
+		"type": "danh từ",
+		"pairWith": "上"
+	},
+	{
+		"word": "前",
+		"reading": "まえ",
+		"meaning": "trước",
+		"type": "danh từ",
+		"pairWith": "後ろ"
+	},
+	{
+		"word": "後ろ",
+		"reading": "うしろ",
+		"meaning": "sau",
+		"type": "danh từ",
+		"pairWith": "前"
+	},
+	{
+		"word": "右",
+		"reading": "みぎ",
+		"meaning": "phải",
+		"type": "danh từ",
+		"pairWith": "左"
+	},
+	{
+		"word": "左",
+		"reading": "ひだり",
+		"meaning": "trái",
+		"type": "danh từ",
+		"pairWith": "右"
+	},
+	{
+		"word": "中",
+		"reading": "なか",
+		"meaning": "trong, giữa",
+		"type": "danh từ",
+		"pairWith": "外"
+	},
+	{
+		"word": "外",
+		"reading": "そと",
+		"meaning": "ngoài",
+		"type": "danh từ",
+		"pairWith": "中"
+	},
+	{
+		"word": "隣",
+		"reading": "となり",
+		"meaning": "bên cạnh",
+		"type": "danh từ"
+	},
+	{
+		"word": "近く",
+		"reading": "ちかく",
+		"meaning": "gần",
+		"type": "danh từ"
+	},
+	{
+		"word": "間",
+		"reading": "あいだ",
+		"meaning": "giữa",
+		"type": "danh từ"
+	},
+	{
+		"word": "有る",
+		"reading": "ある",
+		"meaning": "có [tồn tại, dùng cho đồ vật]",
+		"type": "động từ I"
+	},
+	{
+		"word": "居る",
+		"reading": "いる",
+		"meaning": "có, ở [tồn tại, dùng cho người và động vật]",
+		"type": "động từ II"
+	},
+	{
+		"word": "～など",
+		"meaning": "~ và ~, [v.v.]",
+		"type": "trợ từ"
+	}
 ]

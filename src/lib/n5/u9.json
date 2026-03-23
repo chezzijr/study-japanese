@@ -1,263 +1,263 @@
 [
-  {
-    "word": "好き",
-    "reading": "すき",
-    "meaning": "thích",
-    "type": "tính từ な",
-    "pairWith": "嫌い"
-  },
-  {
-    "word": "嫌い",
-    "reading": "きらい",
-    "meaning": "ghét, không thích",
-    "type": "tính từ な",
-    "pairWith": "好き"
-  },
-  {
-    "word": "上手",
-    "reading": "じょうず",
-    "meaning": "giỏi, khéo",
-    "type": "tính từ な",
-    "pairWith": "下手"
-  },
-  {
-    "word": "下手",
-    "reading": "へた",
-    "meaning": "kém",
-    "type": "tính từ な",
-    "pairWith": "上手"
-  },
-  {
-    "word": "痛い",
-    "reading": "いたい",
-    "meaning": "đau",
-    "type": "tính từ い"
-  },
-  {
-    "word": "お祖父さん",
-    "reading": "おじいさん",
-    "meaning": "ông",
-    "type": "danh từ",
-    "pairWith": "お祖母さん"
-  },
-  {
-    "word": "お祖父ちゃん",
-    "reading": "おじいちゃん",
-    "meaning": "ông",
-    "type": "danh từ"
-  },
-  {
-    "word": "お祖母さん",
-    "reading": "おばあさん",
-    "meaning": "bà",
-    "type": "danh từ",
-    "pairWith": "お祖父さん"
-  },
-  {
-    "word": "お祖母ちゃん",
-    "reading": "おばあちゃん",
-    "meaning": "bà",
-    "type": "danh từ"
-  },
-  {
-    "word": "歯医者",
-    "reading": "はいしゃ",
-    "meaning": "nha sĩ",
-    "type": "danh từ"
-  },
-  {
-    "word": "料理",
-    "reading": "りょうり",
-    "meaning": "món ăn, việc nấu ăn",
-    "note": "[～をします: nấu ăn]",
-    "type": "danh từ"
-  },
-  {
-    "word": "飲み物",
-    "reading": "のみもの",
-    "meaning": "đồ uống",
-    "type": "danh từ"
-  },
-  {
-    "word": "スポーツ",
-    "reading": "スポーツ",
-    "meaning": "thể thao",
-    "type": "danh từ"
-  },
-  {
-    "word": "野球",
-    "reading": "やきゅう",
-    "meaning": "bóng chày",
-    "type": "danh từ"
-  },
-  {
-    "word": "ダンス",
-    "reading": "ダンス",
-    "meaning": "nhảy, khiêu vũ",
-    "type": "danh từ"
-  },
-  {
-    "word": "歌",
-    "reading": "うた",
-    "meaning": "bài hát",
-    "type": "danh từ"
-  },
-  {
-    "word": "歌舞伎",
-    "reading": "かぶき",
-    "meaning": "kịch kabuki",
-    "type": "danh từ"
-  },
-  {
-    "word": "絵",
-    "reading": "え",
-    "meaning": "tranh, hội họa",
-    "type": "danh từ"
-  },
-  {
-    "word": "字",
-    "reading": "じ",
-    "meaning": "chữ",
-    "type": "danh từ"
-  },
-  {
-    "word": "漢字",
-    "reading": "かんじ",
-    "meaning": "chữ Hán",
-    "type": "danh từ"
-  },
-  {
-    "word": "風邪",
-    "reading": "かぜ",
-    "meaning": "cảm, cúm [bị cảm]",
-    "note": "[～をひきます: bị cảm]",
-    "type": "danh từ"
-  },
-  {
-    "word": "熱",
-    "reading": "ねつ",
-    "meaning": "sốt [bị sốt]",
-    "note": "[～があります: bị sốt]",
-    "type": "danh từ"
-  },
-  {
-    "word": "時間",
-    "reading": "じかん",
-    "meaning": "thời gian",
-    "type": "danh từ"
-  },
-  {
-    "word": "用事",
-    "reading": "ようじ",
-    "meaning": "việc bận, công chuyện",
-    "type": "danh từ"
-  },
-  {
-    "word": "約束",
-    "reading": "やくそく",
-    "meaning": "cuộc hẹn, lời hứa",
-    "type": "danh từ"
-  },
-  {
-    "word": "歯",
-    "reading": "は",
-    "meaning": "răng",
-    "type": "danh từ"
-  },
-  {
-    "word": "どうして",
-    "reading": "どうして",
-    "meaning": "tại sao",
-    "type": "phó từ"
-  },
-  {
-    "word": "分かる",
-    "reading": "わかる",
-    "meaning": "hiểu, nắm được",
-    "type": "động từ I"
-  },
-  {
-    "word": "分かります",
-    "reading": "わかります",
-    "meaning": "hiểu, nắm được",
-    "type": "động từ I"
-  },
-  {
-    "word": "有る",
-    "reading": "ある",
-    "meaning": "có (sở hữu)",
-    "type": "động từ I"
-  },
-  {
-    "word": "有ります",
-    "reading": "あります",
-    "meaning": "có (sở hữu)",
-    "type": "động từ I"
-  },
-  {
-    "word": "よく",
-    "reading": "よく",
-    "meaning": "tốt, rõ (chỉ mức độ), thường",
-    "type": "phó từ"
-  },
-  {
-    "word": "だいたい",
-    "reading": "だいたい",
-    "meaning": "đại khái, đại thể",
-    "type": "phó từ"
-  },
-  {
-    "word": "たくさん",
-    "reading": "たくさん",
-    "meaning": "nhiều",
-    "type": "phó từ"
-  },
-  {
-    "word": "少し",
-    "reading": "すこし",
-    "meaning": "ít, một ít",
-    "type": "phó từ"
-  },
-  {
-    "word": "全然",
-    "reading": "ぜんぜん",
-    "meaning": "hoàn toàn ~ không",
-    "type": "phó từ"
-  },
-  {
-    "word": "早く",
-    "reading": "はやく",
-    "meaning": "sớm, nhanh",
-    "type": "phó từ"
-  },
-  {
-    "word": "～から",
-    "reading": "～から",
-    "meaning": "vì ~",
-    "type": "trợ từ"
-  },
-  {
-    "word": "他に",
-    "reading": "ほかに",
-    "meaning": "ngoài ra, bên cạnh đó",
-    "type": "phó từ"
-  },
-  {
-    "word": "コンサート",
-    "reading": "コンサート",
-    "meaning": "buổi hòa nhạc",
-    "type": "danh từ"
-  },
-  {
-    "word": "チケット",
-    "reading": "チケット",
-    "meaning": "vé",
-    "type": "danh từ"
-  },
-  {
-    "word": "残念",
-    "reading": "ざんねん",
-    "meaning": "Đáng tiếc",
-    "type": "tính từ な"
-  }
+	{
+		"word": "好き",
+		"reading": "すき",
+		"meaning": "thích",
+		"type": "tính từ な",
+		"pairWith": "嫌い"
+	},
+	{
+		"word": "嫌い",
+		"reading": "きらい",
+		"meaning": "ghét, không thích",
+		"type": "tính từ な",
+		"pairWith": "好き"
+	},
+	{
+		"word": "上手",
+		"reading": "じょうず",
+		"meaning": "giỏi, khéo",
+		"type": "tính từ な",
+		"pairWith": "下手"
+	},
+	{
+		"word": "下手",
+		"reading": "へた",
+		"meaning": "kém",
+		"type": "tính từ な",
+		"pairWith": "上手"
+	},
+	{
+		"word": "痛い",
+		"reading": "いたい",
+		"meaning": "đau",
+		"type": "tính từ い"
+	},
+	{
+		"word": "お祖父さん",
+		"reading": "おじいさん",
+		"meaning": "ông",
+		"type": "danh từ",
+		"pairWith": "お祖母さん"
+	},
+	{
+		"word": "お祖父ちゃん",
+		"reading": "おじいちゃん",
+		"meaning": "ông",
+		"type": "danh từ"
+	},
+	{
+		"word": "お祖母さん",
+		"reading": "おばあさん",
+		"meaning": "bà",
+		"type": "danh từ",
+		"pairWith": "お祖父さん"
+	},
+	{
+		"word": "お祖母ちゃん",
+		"reading": "おばあちゃん",
+		"meaning": "bà",
+		"type": "danh từ"
+	},
+	{
+		"word": "歯医者",
+		"reading": "はいしゃ",
+		"meaning": "nha sĩ",
+		"type": "danh từ"
+	},
+	{
+		"word": "料理",
+		"reading": "りょうり",
+		"meaning": "món ăn, việc nấu ăn",
+		"note": "[～をします: nấu ăn]",
+		"type": "danh từ"
+	},
+	{
+		"word": "飲み物",
+		"reading": "のみもの",
+		"meaning": "đồ uống",
+		"type": "danh từ"
+	},
+	{
+		"word": "スポーツ",
+		"reading": "スポーツ",
+		"meaning": "thể thao",
+		"type": "danh từ"
+	},
+	{
+		"word": "野球",
+		"reading": "やきゅう",
+		"meaning": "bóng chày",
+		"type": "danh từ"
+	},
+	{
+		"word": "ダンス",
+		"reading": "ダンス",
+		"meaning": "nhảy, khiêu vũ",
+		"type": "danh từ"
+	},
+	{
+		"word": "歌",
+		"reading": "うた",
+		"meaning": "bài hát",
+		"type": "danh từ"
+	},
+	{
+		"word": "歌舞伎",
+		"reading": "かぶき",
+		"meaning": "kịch kabuki",
+		"type": "danh từ"
+	},
+	{
+		"word": "絵",
+		"reading": "え",
+		"meaning": "tranh, hội họa",
+		"type": "danh từ"
+	},
+	{
+		"word": "字",
+		"reading": "じ",
+		"meaning": "chữ",
+		"type": "danh từ"
+	},
+	{
+		"word": "漢字",
+		"reading": "かんじ",
+		"meaning": "chữ Hán",
+		"type": "danh từ"
+	},
+	{
+		"word": "風邪",
+		"reading": "かぜ",
+		"meaning": "cảm, cúm [bị cảm]",
+		"note": "[～をひきます: bị cảm]",
+		"type": "danh từ"
+	},
+	{
+		"word": "熱",
+		"reading": "ねつ",
+		"meaning": "sốt [bị sốt]",
+		"note": "[～があります: bị sốt]",
+		"type": "danh từ"
+	},
+	{
+		"word": "時間",
+		"reading": "じかん",
+		"meaning": "thời gian",
+		"type": "danh từ"
+	},
+	{
+		"word": "用事",
+		"reading": "ようじ",
+		"meaning": "việc bận, công chuyện",
+		"type": "danh từ"
+	},
+	{
+		"word": "約束",
+		"reading": "やくそく",
+		"meaning": "cuộc hẹn, lời hứa",
+		"type": "danh từ"
+	},
+	{
+		"word": "歯",
+		"reading": "は",
+		"meaning": "răng",
+		"type": "danh từ"
+	},
+	{
+		"word": "どうして",
+		"reading": "どうして",
+		"meaning": "tại sao",
+		"type": "phó từ"
+	},
+	{
+		"word": "分かる",
+		"reading": "わかる",
+		"meaning": "hiểu, nắm được",
+		"type": "động từ I"
+	},
+	{
+		"word": "分かります",
+		"reading": "わかります",
+		"meaning": "hiểu, nắm được",
+		"type": "động từ I"
+	},
+	{
+		"word": "有る",
+		"reading": "ある",
+		"meaning": "có (sở hữu)",
+		"type": "động từ I"
+	},
+	{
+		"word": "有ります",
+		"reading": "あります",
+		"meaning": "có (sở hữu)",
+		"type": "động từ I"
+	},
+	{
+		"word": "よく",
+		"reading": "よく",
+		"meaning": "tốt, rõ (chỉ mức độ), thường",
+		"type": "phó từ"
+	},
+	{
+		"word": "だいたい",
+		"reading": "だいたい",
+		"meaning": "đại khái, đại thể",
+		"type": "phó từ"
+	},
+	{
+		"word": "たくさん",
+		"reading": "たくさん",
+		"meaning": "nhiều",
+		"type": "phó từ"
+	},
+	{
+		"word": "少し",
+		"reading": "すこし",
+		"meaning": "ít, một ít",
+		"type": "phó từ"
+	},
+	{
+		"word": "全然",
+		"reading": "ぜんぜん",
+		"meaning": "hoàn toàn ~ không",
+		"type": "phó từ"
+	},
+	{
+		"word": "早く",
+		"reading": "はやく",
+		"meaning": "sớm, nhanh",
+		"type": "phó từ"
+	},
+	{
+		"word": "～から",
+		"reading": "～から",
+		"meaning": "vì ~",
+		"type": "trợ từ"
+	},
+	{
+		"word": "他に",
+		"reading": "ほかに",
+		"meaning": "ngoài ra, bên cạnh đó",
+		"type": "phó từ"
+	},
+	{
+		"word": "コンサート",
+		"reading": "コンサート",
+		"meaning": "buổi hòa nhạc",
+		"type": "danh từ"
+	},
+	{
+		"word": "チケット",
+		"reading": "チケット",
+		"meaning": "vé",
+		"type": "danh từ"
+	},
+	{
+		"word": "残念",
+		"reading": "ざんねん",
+		"meaning": "Đáng tiếc",
+		"type": "tính từ な"
+	}
 ]

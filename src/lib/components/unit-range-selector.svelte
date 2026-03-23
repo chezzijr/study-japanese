@@ -171,7 +171,7 @@
 						Go ({selectedIndices.size})
 					</a>
 				{:else}
-					<button class="btn btn-xs btn-disabled" disabled>Go (0)</button>
+					<button class="btn btn-disabled btn-xs" disabled>Go (0)</button>
 				{/if}
 			</div>
 		{:else}
@@ -181,11 +181,7 @@
 	</div>
 
 	<!-- Unit buttons container -->
-	<div
-		class="overflow-x-auto pb-1"
-		class:select-none={isDragging}
-		ontouchmove={handleTouchMove}
-	>
+	<div class="overflow-x-auto pb-1" class:select-none={isDragging} ontouchmove={handleTouchMove}>
 		<div class="inline-flex gap-1" style="min-width: max-content;">
 			{#each unitNumbers as unit, i}
 				{#if isMultiSelect}
@@ -199,7 +195,7 @@
 						{unit}
 					</button>
 				{:else}
-					<a href="{base}/{type}/{level}/{unit}" class="btn btn-xs w-10 btn-outline">
+					<a href="{base}/{type}/{level}/{unit}" class="btn btn-outline btn-xs w-10">
 						{unit}
 					</a>
 				{/if}

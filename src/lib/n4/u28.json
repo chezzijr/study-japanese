@@ -1,300 +1,300 @@
 [
-  {
-    "word": "売れる",
-    "reading": "うれる",
-    "meaning": "bán chạy",
-    "type": "động từ II"
-  },
-  {
-    "word": "踊る",
-    "reading": "おどる",
-    "meaning": "nhảy múa",
-    "type": "động từ I"
-  },
-  {
-    "word": "噛む",
-    "reading": "かむ",
-    "meaning": "nhai, cắn",
-    "type": "động từ I"
-  },
-  {
-    "word": "選ぶ",
-    "reading": "えらぶ",
-    "meaning": "lựa, lựa chọn",
-    "type": "động từ I"
-  },
-  {
-    "word": "通う",
-    "reading": "かよう",
-    "meaning": "đi học",
-    "type": "động từ I"
-  },
-  {
-    "word": "メモする",
-    "meaning": "ghi lại",
-    "type": "động từ III"
-  },
-  {
-    "word": "真面目",
-    "reading": "まじめ",
-    "meaning": "nghiêm túc",
-    "type": "tính từ な"
-  },
-  {
-    "word": "熱心",
-    "reading": "ねっしん",
-    "meaning": "nhiệt tình",
-    "type": "tính từ な"
-  },
-  {
-    "word": "偉い",
-    "reading": "えらい",
-    "meaning": "siêu, giỏi",
-    "type": "tính từ い"
-  },
-  {
-    "word": "ちょうどいい",
-    "meaning": "vừa vặn",
-    "type": "biểu hiện"
-  },
-  {
-    "word": "景色",
-    "reading": "けしき",
-    "meaning": "phong cảnh",
-    "type": "danh từ"
-  },
-  {
-    "word": "美容院",
-    "reading": "びよういん",
-    "meaning": "tiệm làm đẹp, thẩm mỹ viện",
-    "type": "danh từ"
-  },
-  {
-    "word": "台所",
-    "reading": "だいどころ",
-    "meaning": "nhà bếp",
-    "type": "danh từ"
-  },
-  {
-    "word": "経験",
-    "reading": "けいけん",
-    "meaning": "kinh nghiệm",
-    "type": "danh từ"
-  },
-  {
-    "word": "力",
-    "reading": "ちから",
-    "meaning": "sức mạnh",
-    "type": "danh từ"
-  },
-  {
-    "word": "人気",
-    "reading": "にんき",
-    "meaning": "được yêu thích",
-    "type": "danh từ"
-  },
-  {
-    "word": "形",
-    "reading": "かたち",
-    "meaning": "hình dạng",
-    "type": "danh từ"
-  },
-  {
-    "word": "色",
-    "reading": "いろ",
-    "meaning": "màu sắc",
-    "type": "danh từ"
-  },
-  {
-    "word": "味",
-    "reading": "あじ",
-    "meaning": "vị",
-    "type": "danh từ"
-  },
-  {
-    "word": "ガム",
-    "meaning": "kẹo cao su",
-    "type": "danh từ"
-  },
-  {
-    "word": "品物",
-    "reading": "しなもの",
-    "meaning": "hàng hóa",
-    "type": "danh từ"
-  },
-  {
-    "word": "値段",
-    "reading": "ねだん",
-    "meaning": "giá cả",
-    "type": "danh từ"
-  },
-  {
-    "word": "給料",
-    "reading": "きゅうりょう",
-    "meaning": "lương",
-    "type": "danh từ"
-  },
-  {
-    "word": "ボーナス",
-    "meaning": "thưởng",
-    "type": "danh từ"
-  },
-  {
-    "word": "ゲーム",
-    "meaning": "trò chơi, game",
-    "type": "danh từ"
-  },
-  {
-    "word": "番組",
-    "reading": "ばんぐみ",
-    "meaning": "chương trình truyền hình",
-    "type": "danh từ"
-  },
-  {
-    "word": "歌手",
-    "reading": "かしゅ",
-    "meaning": "ca sĩ",
-    "type": "danh từ"
-  },
-  {
-    "word": "ドラマ",
-    "meaning": "phim truyền hình",
-    "type": "danh từ"
-  },
-  {
-    "word": "小説",
-    "reading": "しょうせつ",
-    "meaning": "tiểu thuyết",
-    "type": "danh từ"
-  },
-  {
-    "word": "小説家",
-    "reading": "しょうせつか",
-    "meaning": "tiểu thuyết gia, nhà văn",
-    "type": "danh từ"
-  },
-  {
-    "word": "息子",
-    "reading": "むすこ",
-    "meaning": "con trai mình",
-    "type": "danh từ",
-    "pairWith": "娘"
-  },
-  {
-    "word": "娘",
-    "reading": "むすめ",
-    "meaning": "con gái mình",
-    "type": "danh từ",
-    "pairWith": "息子"
-  },
-  {
-    "word": "息子さん",
-    "reading": "むすこさん",
-    "meaning": "con trai người khác",
-    "type": "danh từ",
-    "pairWith": "娘さん"
-  },
-  {
-    "word": "娘さん",
-    "reading": "むすめさん",
-    "meaning": "con gái người khác",
-    "type": "danh từ",
-    "pairWith": "息子さん"
-  },
-  {
-    "word": "自分",
-    "reading": "じぶん",
-    "meaning": "mình",
-    "type": "danh từ"
-  },
-  {
-    "word": "しばらく",
-    "meaning": "một lúc",
-    "type": "phó từ"
-  },
-  {
-    "word": "たいてい",
-    "meaning": "thường thì",
-    "type": "phó từ"
-  },
-  {
-    "word": "それに",
-    "meaning": "hơn nữa",
-    "type": "liên từ"
-  },
-  {
-    "word": "それで",
-    "meaning": "vì thế",
-    "type": "liên từ"
-  },
-  {
-    "word": "実は",
-    "reading": "じつは",
-    "meaning": "thực ra",
-    "type": "phó từ"
-  },
-  {
-    "word": "会話",
-    "reading": "かいわ",
-    "meaning": "hội thoại",
-    "type": "danh từ"
-  },
-  {
-    "word": "体育館",
-    "reading": "たいいくかん",
-    "meaning": "nhà thi đấu thể thao",
-    "type": "danh từ"
-  },
-  {
-    "word": "無料",
-    "reading": "むりょう",
-    "meaning": "miễn phí",
-    "type": "danh từ"
-  },
-  {
-    "word": "イベント",
-    "meaning": "sự kiện",
-    "type": "danh từ"
-  },
-  {
-    "word": "お知らせ",
-    "reading": "おしらせ",
-    "meaning": "thông báo",
-    "type": "danh từ"
-  },
-  {
-    "word": "革",
-    "reading": "かわ",
-    "meaning": "chất liệu da",
-    "type": "danh từ"
-  },
-  {
-    "word": "安全",
-    "reading": "あんぜん",
-    "meaning": "an toàn",
-    "type": "tính từ な"
-  },
-  {
-    "word": "まずい",
-    "meaning": "dở",
-    "type": "tính từ い"
-  },
-  {
-    "word": "面倒くさい",
-    "reading": "めんどうくさい",
-    "meaning": "phiền phức",
-    "type": "tính từ い"
-  },
-  {
-    "word": "付き合う",
-    "reading": "つきあう",
-    "meaning": "hẹn hò",
-    "type": "động từ I"
-  },
-  {
-    "word": "誘う",
-    "reading": "さそう",
-    "meaning": "mời, rủ",
-    "type": "động từ I"
-  }
+	{
+		"word": "売れる",
+		"reading": "うれる",
+		"meaning": "bán chạy",
+		"type": "động từ II"
+	},
+	{
+		"word": "踊る",
+		"reading": "おどる",
+		"meaning": "nhảy múa",
+		"type": "động từ I"
+	},
+	{
+		"word": "噛む",
+		"reading": "かむ",
+		"meaning": "nhai, cắn",
+		"type": "động từ I"
+	},
+	{
+		"word": "選ぶ",
+		"reading": "えらぶ",
+		"meaning": "lựa, lựa chọn",
+		"type": "động từ I"
+	},
+	{
+		"word": "通う",
+		"reading": "かよう",
+		"meaning": "đi học",
+		"type": "động từ I"
+	},
+	{
+		"word": "メモする",
+		"meaning": "ghi lại",
+		"type": "động từ III"
+	},
+	{
+		"word": "真面目",
+		"reading": "まじめ",
+		"meaning": "nghiêm túc",
+		"type": "tính từ な"
+	},
+	{
+		"word": "熱心",
+		"reading": "ねっしん",
+		"meaning": "nhiệt tình",
+		"type": "tính từ な"
+	},
+	{
+		"word": "偉い",
+		"reading": "えらい",
+		"meaning": "siêu, giỏi",
+		"type": "tính từ い"
+	},
+	{
+		"word": "ちょうどいい",
+		"meaning": "vừa vặn",
+		"type": "biểu hiện"
+	},
+	{
+		"word": "景色",
+		"reading": "けしき",
+		"meaning": "phong cảnh",
+		"type": "danh từ"
+	},
+	{
+		"word": "美容院",
+		"reading": "びよういん",
+		"meaning": "tiệm làm đẹp, thẩm mỹ viện",
+		"type": "danh từ"
+	},
+	{
+		"word": "台所",
+		"reading": "だいどころ",
+		"meaning": "nhà bếp",
+		"type": "danh từ"
+	},
+	{
+		"word": "経験",
+		"reading": "けいけん",
+		"meaning": "kinh nghiệm",
+		"type": "danh từ"
+	},
+	{
+		"word": "力",
+		"reading": "ちから",
+		"meaning": "sức mạnh",
+		"type": "danh từ"
+	},
+	{
+		"word": "人気",
+		"reading": "にんき",
+		"meaning": "được yêu thích",
+		"type": "danh từ"
+	},
+	{
+		"word": "形",
+		"reading": "かたち",
+		"meaning": "hình dạng",
+		"type": "danh từ"
+	},
+	{
+		"word": "色",
+		"reading": "いろ",
+		"meaning": "màu sắc",
+		"type": "danh từ"
+	},
+	{
+		"word": "味",
+		"reading": "あじ",
+		"meaning": "vị",
+		"type": "danh từ"
+	},
+	{
+		"word": "ガム",
+		"meaning": "kẹo cao su",
+		"type": "danh từ"
+	},
+	{
+		"word": "品物",
+		"reading": "しなもの",
+		"meaning": "hàng hóa",
+		"type": "danh từ"
+	},
+	{
+		"word": "値段",
+		"reading": "ねだん",
+		"meaning": "giá cả",
+		"type": "danh từ"
+	},
+	{
+		"word": "給料",
+		"reading": "きゅうりょう",
+		"meaning": "lương",
+		"type": "danh từ"
+	},
+	{
+		"word": "ボーナス",
+		"meaning": "thưởng",
+		"type": "danh từ"
+	},
+	{
+		"word": "ゲーム",
+		"meaning": "trò chơi, game",
+		"type": "danh từ"
+	},
+	{
+		"word": "番組",
+		"reading": "ばんぐみ",
+		"meaning": "chương trình truyền hình",
+		"type": "danh từ"
+	},
+	{
+		"word": "歌手",
+		"reading": "かしゅ",
+		"meaning": "ca sĩ",
+		"type": "danh từ"
+	},
+	{
+		"word": "ドラマ",
+		"meaning": "phim truyền hình",
+		"type": "danh từ"
+	},
+	{
+		"word": "小説",
+		"reading": "しょうせつ",
+		"meaning": "tiểu thuyết",
+		"type": "danh từ"
+	},
+	{
+		"word": "小説家",
+		"reading": "しょうせつか",
+		"meaning": "tiểu thuyết gia, nhà văn",
+		"type": "danh từ"
+	},
+	{
+		"word": "息子",
+		"reading": "むすこ",
+		"meaning": "con trai mình",
+		"type": "danh từ",
+		"pairWith": "娘"
+	},
+	{
+		"word": "娘",
+		"reading": "むすめ",
+		"meaning": "con gái mình",
+		"type": "danh từ",
+		"pairWith": "息子"
+	},
+	{
+		"word": "息子さん",
+		"reading": "むすこさん",
+		"meaning": "con trai người khác",
+		"type": "danh từ",
+		"pairWith": "娘さん"
+	},
+	{
+		"word": "娘さん",
+		"reading": "むすめさん",
+		"meaning": "con gái người khác",
+		"type": "danh từ",
+		"pairWith": "息子さん"
+	},
+	{
+		"word": "自分",
+		"reading": "じぶん",
+		"meaning": "mình",
+		"type": "danh từ"
+	},
+	{
+		"word": "しばらく",
+		"meaning": "một lúc",
+		"type": "phó từ"
+	},
+	{
+		"word": "たいてい",
+		"meaning": "thường thì",
+		"type": "phó từ"
+	},
+	{
+		"word": "それに",
+		"meaning": "hơn nữa",
+		"type": "liên từ"
+	},
+	{
+		"word": "それで",
+		"meaning": "vì thế",
+		"type": "liên từ"
+	},
+	{
+		"word": "実は",
+		"reading": "じつは",
+		"meaning": "thực ra",
+		"type": "phó từ"
+	},
+	{
+		"word": "会話",
+		"reading": "かいわ",
+		"meaning": "hội thoại",
+		"type": "danh từ"
+	},
+	{
+		"word": "体育館",
+		"reading": "たいいくかん",
+		"meaning": "nhà thi đấu thể thao",
+		"type": "danh từ"
+	},
+	{
+		"word": "無料",
+		"reading": "むりょう",
+		"meaning": "miễn phí",
+		"type": "danh từ"
+	},
+	{
+		"word": "イベント",
+		"meaning": "sự kiện",
+		"type": "danh từ"
+	},
+	{
+		"word": "お知らせ",
+		"reading": "おしらせ",
+		"meaning": "thông báo",
+		"type": "danh từ"
+	},
+	{
+		"word": "革",
+		"reading": "かわ",
+		"meaning": "chất liệu da",
+		"type": "danh từ"
+	},
+	{
+		"word": "安全",
+		"reading": "あんぜん",
+		"meaning": "an toàn",
+		"type": "tính từ な"
+	},
+	{
+		"word": "まずい",
+		"meaning": "dở",
+		"type": "tính từ い"
+	},
+	{
+		"word": "面倒くさい",
+		"reading": "めんどうくさい",
+		"meaning": "phiền phức",
+		"type": "tính từ い"
+	},
+	{
+		"word": "付き合う",
+		"reading": "つきあう",
+		"meaning": "hẹn hò",
+		"type": "động từ I"
+	},
+	{
+		"word": "誘う",
+		"reading": "さそう",
+		"meaning": "mời, rủ",
+		"type": "động từ I"
+	}
 ]

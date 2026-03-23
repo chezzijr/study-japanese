@@ -41,7 +41,7 @@
 
 	// Flatten all words (including paired secondaries) for bulk operations
 	function allWords(): WordDefinition[] {
-		return displayRows.flatMap((r) => r.secondary ? [r.primary, r.secondary] : [r.primary]);
+		return displayRows.flatMap((r) => (r.secondary ? [r.primary, r.secondary] : [r.primary]));
 	}
 
 	// Flashcard integration state
@@ -242,7 +242,12 @@
 	let searchTerm = $state('');
 
 	// Filter function that searches across word, reading, meaning, and romaji
-	function matchesSingleWord(w: WordDefinition, normalizedTerm: string, asHiragana: string | null, asKatakana: string | null): boolean {
+	function matchesSingleWord(
+		w: WordDefinition,
+		normalizedTerm: string,
+		asHiragana: string | null,
+		asKatakana: string | null
+	): boolean {
 		if (w.word.includes(normalizedTerm)) return true;
 		if (w.reading?.includes(normalizedTerm)) return true;
 		if (w.meaning.toLowerCase().includes(normalizedTerm)) return true;
@@ -270,7 +275,8 @@
 		}
 
 		if (matchesSingleWord(row.primary, normalizedTerm, asHiragana, asKatakana)) return true;
-		if (row.secondary && matchesSingleWord(row.secondary, normalizedTerm, asHiragana, asKatakana)) return true;
+		if (row.secondary && matchesSingleWord(row.secondary, normalizedTerm, asHiragana, asKatakana))
+			return true;
 
 		return false;
 	}
@@ -283,13 +289,38 @@
 	{@const ex = vocabLookup.get(makeKey(level, au, word.word))}
 	{#if ex}
 		<div class="tooltip" data-tip="Trong: {ex.deckName}">
-			<button type="button" class="btn btn-ghost btn-xs text-error" title="Xóa khỏi Flashcard" onclick={() => openRemoveDialog(word, ex)}>
-				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="h-4 w-4"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" /></svg>
+			<button
+				type="button"
+				class="btn btn-ghost btn-xs text-error"
+				title="Xóa khỏi Flashcard"
+				onclick={() => openRemoveDialog(word, ex)}
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="2"
+					stroke="currentColor"
+					class="h-4 w-4"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" /></svg
+				>
 			</button>
 		</div>
 	{:else}
-		<button type="button" class="btn btn-ghost btn-xs" title="Thêm vào Flashcard" onclick={() => openAddModal(word)}>
-			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="h-4 w-4"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg>
+		<button
+			type="button"
+			class="btn btn-ghost btn-xs"
+			title="Thêm vào Flashcard"
+			onclick={() => openAddModal(word)}
+		>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke-width="2"
+				stroke="currentColor"
+				class="h-4 w-4"
+				><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" /></svg
+			>
 		</button>
 	{/if}
 {/snippet}
