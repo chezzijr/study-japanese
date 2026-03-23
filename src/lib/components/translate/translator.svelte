@@ -20,16 +20,26 @@
 	} = $props();
 
 	const TOKEN_COLORS = [
-		'#6366f1',
-		'#f59e0b',
-		'#10b981',
-		'#ef4444',
-		'#a855f7',
-		'#3b82f6',
-		'#ec4899',
-		'#14b8a6',
-		'#f97316',
-		'#84cc16'
+		'#6366f1', // indigo
+		'#f59e0b', // amber
+		'#10b981', // emerald
+		'#ef4444', // red
+		'#a855f7', // purple
+		'#3b82f6', // blue
+		'#ec4899', // pink
+		'#14b8a6', // teal
+		'#f97316', // orange
+		'#84cc16', // lime
+		'#06b6d4', // cyan
+		'#e11d48', // rose
+		'#8b5cf6', // violet
+		'#d946ef', // fuchsia
+		'#0ea5e9', // sky
+		'#65a30d', // green
+		'#ca8a04', // yellow
+		'#dc2626', // red-dark
+		'#7c3aed', // purple-dark
+		'#0891b2' // teal-dark
 	];
 
 	let inputText = $state('');
