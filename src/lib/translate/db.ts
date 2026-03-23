@@ -29,14 +29,19 @@ export async function getDB(): Promise<IDBPDatabase<TranslateDB>> {
 	if (dbInstance) return dbInstance;
 
 	dbInstance = await openDB<TranslateDB>(DB_NAME, DB_VERSION, {
-		upgrade(db) {
+		upgrade(db, oldVersion) {
 			// Version 1: Initial schema
-			// AI settings store
-			db.createObjectStore('ai-settings', { keyPath: 'id' });
+			if (oldVersion < 1) {
+				// AI settings store
+				db.createObjectStore('ai-settings', { keyPath: 'id' });
 
-			// Translations store
-			const translationStore = db.createObjectStore('translations', { keyPath: 'id' });
-			translationStore.createIndex('by-date', 'createdAt');
+				// Translations store
+				const translationStore = db.createObjectStore('translations', { keyPath: 'id' });
+				translationStore.createIndex('by-date', 'createdAt');
+			}
+
+			// Future migrations go here:
+			// if (oldVersion < 2) { ... }
 		},
 		blocked() {
 			console.warn('Database upgrade blocked - close other tabs using this database');

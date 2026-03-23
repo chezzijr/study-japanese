@@ -54,10 +54,11 @@ export async function saveTranslation(
 /**
  * Get all translations sorted by createdAt descending
  */
-export async function getTranslations(): Promise<SavedTranslation[]> {
+export async function getTranslations(limit?: number): Promise<SavedTranslation[]> {
 	const db = await getDB();
-	const all = await db.getAll('translations');
-	return all.sort((a, b) => b.createdAt - a.createdAt);
+	const all = await db.getAllFromIndex('translations', 'by-date');
+	const sorted = all.reverse();
+	return limit ? sorted.slice(0, limit) : sorted;
 }
 
 /**

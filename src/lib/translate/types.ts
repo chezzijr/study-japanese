@@ -34,6 +34,12 @@ export interface TranslationResponse {
 export interface AISettings {
 	id: 'default';
 	provider: ProviderName;
+	/**
+	 * API keys stored in plaintext in IndexedDB. This is intentional:
+	 * - Users provide their own API keys ("bring your own key" pattern)
+	 * - The app is 100% client-side (static site, no server)
+	 * - Keys never leave the user's device
+	 */
 	keys: {
 		claude?: string;
 		gemini?: string;
