@@ -7,7 +7,7 @@
 		AISettings,
 		SavedTranslation
 	} from '$lib/translate/types';
-	import { getProvider } from '$lib/translate/providers/index';
+	import { getProvider, translateChunked } from '$lib/translate/providers/index';
 	import { saveTranslation, getSettings } from '$lib/translate/storage';
 	import TokenDisplay from './token-display.svelte';
 	import TokenPopover from './token-popover.svelte';
@@ -101,7 +101,7 @@
 		try {
 			const provider = await getProvider(settings.provider);
 			const apiKey = settings.keys[settings.provider]!;
-			const response = await provider.translate(inputText.trim(), apiKey);
+			const response = await translateChunked(provider, inputText.trim(), apiKey);
 			translation = response;
 
 			// Auto-save
