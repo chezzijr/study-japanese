@@ -68,6 +68,7 @@
 		style:top="{top}px"
 		style:left="{left}px"
 		style:position="absolute"
+		style:pointer-events="none"
 	>
 		<!-- Arrow indicator -->
 		<div

@@ -15,7 +15,7 @@
 		color: string;
 		isHighlighted?: boolean;
 		isDimmed?: boolean;
-		onmouseenter?: (key: string) => void;
+		onmouseenter?: (key: string, el: HTMLElement) => void;
 		onmouseleave?: () => void;
 	} = $props();
 </script>
@@ -30,7 +30,7 @@
 	style:border-bottom="2px solid {color}"
 	style:background-color="{color}18"
 	style:--token-color={color}
-	onmouseenter={() => onmouseenter?.(tokenKey)}
+	onmouseenter={(e) => onmouseenter?.(tokenKey, e.currentTarget as HTMLElement)}
 	onmouseleave={() => onmouseleave?.()}
 >
 	{token.jp || token.vn}

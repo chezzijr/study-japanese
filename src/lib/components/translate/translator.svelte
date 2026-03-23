@@ -214,10 +214,9 @@
 										color={colorMap.get(key) ?? TOKEN_COLORS[0]}
 										isHighlighted={hoveredTokenId === key}
 										isDimmed={hoveredTokenId !== null && hoveredTokenId !== key}
-										onmouseenter={(k) => {
+										onmouseenter={(k, el) => {
 											hoveredTokenId = k;
-											const el = document.querySelector(`[data-id="${k}"]`);
-											if (el instanceof HTMLElement) hoveredAnchorEl = el;
+											hoveredAnchorEl = el;
 										}}
 										onmouseleave={() => handleTokenLeave()}
 									/>
@@ -256,10 +255,9 @@
 										color={colorMap.get(key) ?? TOKEN_COLORS[0]}
 										isHighlighted={hoveredTokenId === key}
 										isDimmed={hoveredTokenId !== null && hoveredTokenId !== key}
-										onmouseenter={(k) => {
+										onmouseenter={(k, el) => {
 											hoveredTokenId = k;
-											const el = document.querySelector(`[data-id="${k}"]`);
-											if (el instanceof HTMLElement) hoveredAnchorEl = el;
+											hoveredAnchorEl = el;
 										}}
 										onmouseleave={() => handleTokenLeave()}
 									/>
