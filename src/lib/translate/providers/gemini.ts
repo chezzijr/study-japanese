@@ -10,7 +10,7 @@ import { validateResponse } from '../validate';
 
 const provider: AIProvider = {
 	name: 'Gemini Flash',
-	modelId: 'gemini-2.0-flash',
+	modelId: 'gemini-2.5-flash',
 
 	async translate(text: string, apiKey: string): Promise<TranslationResponse> {
 		const ai = new GoogleGenAI({ apiKey });
