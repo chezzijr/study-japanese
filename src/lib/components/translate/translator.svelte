@@ -174,11 +174,14 @@
 		</button>
 	</div>
 
-	<!-- Settings panel (collapsible) -->
+	<!-- Settings panel (collapsible with transition) -->
 	{#if showSettings}
-		<div class="card bg-base-200">
+		<div class="card bg-base-200" style="animation: slideDown 0.2s ease-out;">
 			<div class="card-body p-4">
-				<ProviderSelector onsettingschange={handleSettingsChange} />
+				<ProviderSelector
+					onsettingschange={handleSettingsChange}
+					onsaved={() => (showSettings = false)}
+				/>
 			</div>
 		</div>
 	{/if}
@@ -255,12 +258,6 @@
 								{#if si < translation.sentences.length - 1}
 									<span class="w-full"></span>
 								{/if}
-							{/each}
-						</div>
-						<!-- Full Vietnamese translation fallback -->
-						<div class="mt-4 border-t border-base-content/10 pt-3 text-sm opacity-60">
-							{#each translation.sentences as sentence}
-								<p>{sentence.vn_full}</p>
 							{/each}
 						</div>
 					{:else}

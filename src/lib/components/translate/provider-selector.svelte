@@ -4,9 +4,11 @@
 	import { getSettings, saveSettings } from '$lib/translate/storage';
 
 	let {
-		onsettingschange
+		onsettingschange,
+		onsaved
 	}: {
 		onsettingschange: (settings: AISettings) => void;
+		onsaved?: () => void;
 	} = $props();
 
 	let provider = $state<ProviderName>('claude');
@@ -47,6 +49,7 @@
 			await saveSettings(updated);
 			settings = updated;
 			onsettingschange(updated);
+			onsaved?.();
 			saved = true;
 			setTimeout(() => (saved = false), 2000);
 		} finally {

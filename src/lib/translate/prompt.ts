@@ -43,12 +43,12 @@ const EXAMPLE_OUTPUT = `{
         {
           "id": 1,
           "jp": "私",
-          "vn": "toi",
+          "vn": "Tôi",
           "base_form": "私",
           "reading": "わたし",
-          "type": "danh tu",
+          "type": "danh từ",
           "kanji": [
-            { "char": "私", "hv": "TU", "meaning": "rieng tu, ca nhan" }
+            { "char": "私", "hv": "TƯ", "meaning": "riêng tư, cá nhân" }
           ]
         },
         {
@@ -57,32 +57,32 @@ const EXAMPLE_OUTPUT = `{
           "vn": "",
           "base_form": "は",
           "reading": "は",
-          "type": "tro tu",
-          "context": "tro tu chu de, danh dau chu de cua cau"
+          "type": "trợ từ",
+          "context": "trợ từ chủ đề, đánh dấu chủ đề của câu"
         },
         {
           "id": 3,
           "jp": "毎日",
-          "vn": "moi ngay",
+          "vn": "mỗi ngày",
           "base_form": "毎日",
           "reading": "まいにち",
-          "type": "pho tu",
+          "type": "phó từ",
           "kanji": [
-            { "char": "毎", "hv": "MOI", "meaning": "moi" },
-            { "char": "日", "hv": "NHAT", "meaning": "ngay" }
+            { "char": "毎", "hv": "MỖI", "meaning": "mỗi" },
+            { "char": "日", "hv": "NHẬT", "meaning": "ngày" }
           ]
         },
         {
           "id": 4,
           "jp": "日本語",
-          "vn": "tieng Nhat",
+          "vn": "tiếng Nhật",
           "base_form": "日本語",
           "reading": "にほんご",
-          "type": "danh tu",
+          "type": "danh từ",
           "kanji": [
-            { "char": "日", "hv": "NHAT", "meaning": "ngay, mat troi" },
-            { "char": "本", "hv": "BAN", "meaning": "goc, sach" },
-            { "char": "語", "hv": "NGU", "meaning": "ngon ngu" }
+            { "char": "日", "hv": "NHẬT", "meaning": "ngày, mặt trời" },
+            { "char": "本", "hv": "BẢN", "meaning": "gốc, sách" },
+            { "char": "語", "hv": "NGỮ", "meaning": "ngôn ngữ" }
           ]
         },
         {
@@ -91,29 +91,29 @@ const EXAMPLE_OUTPUT = `{
           "vn": "",
           "base_form": "を",
           "reading": "を",
-          "type": "tro tu",
-          "context": "tro tu tan ngu, danh dau doi tuong cua hanh dong"
+          "type": "trợ từ",
+          "context": "trợ từ tân ngữ, đánh dấu đối tượng của hành động"
         },
         {
           "id": 6,
           "jp": "勉強しています",
-          "vn": "dang hoc",
+          "vn": "đang học",
           "base_form": "勉強する",
           "reading": "べんきょうする",
-          "type": "dong tu III",
+          "type": "động từ III",
           "grammar": {
             "form": "ている",
-            "explanation": "the tiep dien - dien ta hanh dong dang xay ra hoac trang thai keo dai"
+            "explanation": "thể tiếp diễn - diễn tả hành động đang xảy ra hoặc trạng thái kéo dài"
           },
           "kanji": [
-            { "char": "勉", "hv": "MIEN", "meaning": "co gang" },
-            { "char": "強", "hv": "CUONG", "meaning": "manh" }
+            { "char": "勉", "hv": "MIỄN", "meaning": "cố gắng" },
+            { "char": "強", "hv": "CƯỜNG", "meaning": "mạnh" }
           ]
         }
       ],
       "jp_order": [1, 2, 3, 4, 5, 6],
       "vn_order": [1, 3, 6, 4],
-      "vn_full": "Toi moi ngay dang hoc tieng Nhat."
+      "vn_full": "Tôi mỗi ngày đang học tiếng Nhật."
     }
   ]
 }`;
@@ -144,20 +144,20 @@ ${JSON_SCHEMA}
 
 ## Word Type Labels (Vietnamese)
 Use these labels for the "type" field:
-- "danh tu" (noun)
-- "dong tu I" (godan verb), "dong tu II" (ichidan verb), "dong tu III" (irregular verb)
-- "tinh tu い" (i-adjective), "tinh tu な" (na-adjective)
-- "pho tu" (adverb)
-- "tro tu" (particle)
-- "lien tu" (conjunction)
-- "than tu" (interjection)
-- "so tu" (numeral/counter)
-- "dai tu" (pronoun)
-- "tiep dau ngu" / "tiep vi ngu" (prefix/suffix)
+- "danh từ" (noun)
+- "động từ I" (godan verb), "động từ II" (ichidan verb), "động từ III" (irregular verb)
+- "tính từ い" (i-adjective), "tính từ な" (na-adjective)
+- "phó từ" (adverb)
+- "trợ từ" (particle)
+- "liên từ" (conjunction)
+- "thán từ" (interjection)
+- "số từ" (numeral/counter)
+- "đại từ" (pronoun)
+- "tiếp đầu ngữ" / "tiếp vĩ ngữ" (prefix/suffix)
 
 ## Grammar Annotations
 Only include the "grammar" field for NON-TRIVIAL forms:
-- DO include: ている (tiep dien), ていた, たら (dieu kien), ば (dieu kien), なら, ても, られる (the bi dong), させる (the sai khien), できる/える (the kha nang), てしまう, ようにする, ことがある, たい (mong muon), てほしい, ないでください, etc.
+- DO include: ている (tiếp diễn), ていた, たら (điều kiện), ば (điều kiện), なら, ても, られる (thể bị động), させる (thể sai khiến), できる/える (thể khả năng), てしまう, ようにする, ことがある, たい (mong muốn), てほしい, ないでください, etc.
 - DO NOT include: basic Vる, Vます, Vません, Vました, Vませんでした (these are trivial conjugations)
 
 ## Context Annotations
@@ -170,6 +170,15 @@ Only include the "context" field when the token's role in the sentence is genuin
 - "hv" = Sino-Vietnamese (Han Viet) reading in UPPERCASE without diacritics (e.g., "NHAT", "BAN", "NGU")
 - "meaning" = Brief Vietnamese meaning of the individual kanji
 
+## CRITICAL: Token "vn" fields must compose into "vn_full"
+- Each token's "vn" field should contain that token's PORTION of the natural Vietnamese sentence
+- When you concatenate the "vn" values of tokens listed in "vn_order" (separated by spaces), the result MUST form the same sentence as "vn_full" (minus final punctuation)
+- Do NOT use standalone dictionary translations — use the contextual form as it appears in the natural sentence
+
+## Ghost Tokens (Untranslatable Tokens)
+- Japanese tokens with no Vietnamese equivalent (は, が, を): set vn: "" and OMIT from vn_order
+- If the natural Vietnamese sentence requires words that don't correspond to any Japanese token (e.g., added for fluency): create a token with jp: "" and a unique ID, include it in vn_order but OMIT from jp_order
+
 ## Vietnamese Word Order
 - Vietnamese uses SVO (Subject-Verb-Object) word order
 - "vn_order" must reflect NATURAL Vietnamese sentence order, NOT mirror Japanese SOV order
@@ -178,9 +187,8 @@ Only include the "context" field when the token's role in the sentence is genuin
 
 ## Important
 - Token IDs must be unique within each sentence (start from 1)
-- jp_order contains ALL token IDs; vn_order may omit particles with empty "vn" translations
+- jp_order contains ALL token IDs that have a non-empty "jp" field; vn_order contains ALL token IDs that have a non-empty "vn" field
 - Output ONLY valid JSON, no markdown fences, no extra text
-- Use ASCII for Vietnamese in the example but full Unicode with diacritics in actual output (e.g., "Toi" -> "Tôi", "tieng Nhat" -> "tiếng Nhật")
 
 ## Example
 

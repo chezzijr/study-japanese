@@ -27,19 +27,32 @@ export async function getProvider(name: ProviderName): Promise<AIProvider> {
 	}
 }
 
-const MAX_LINES_PER_CHUNK = 10;
+const MAX_CHARS_PER_CHUNK = 250;
 
 /**
- * Split text into chunks of lines to avoid exceeding token limits.
- * Splits on double newlines (paragraphs) first, then by line count.
+ * Split text into chunks based on character count to avoid exceeding token limits.
+ * Groups lines together until adding another line would exceed the character limit.
  */
 function splitIntoChunks(text: string): string[] {
 	const lines = text.split('\n').filter((l) => l.trim().length > 0);
-	if (lines.length <= MAX_LINES_PER_CHUNK) return [text];
+	const totalChars = lines.reduce((sum, l) => sum + l.length, 0);
+	if (totalChars <= MAX_CHARS_PER_CHUNK) return [text];
 
 	const chunks: string[] = [];
-	for (let i = 0; i < lines.length; i += MAX_LINES_PER_CHUNK) {
-		chunks.push(lines.slice(i, i + MAX_LINES_PER_CHUNK).join('\n'));
+	let currentLines: string[] = [];
+	let currentChars = 0;
+
+	for (const line of lines) {
+		if (currentChars + line.length > MAX_CHARS_PER_CHUNK && currentLines.length > 0) {
+			chunks.push(currentLines.join('\n'));
+			currentLines = [];
+			currentChars = 0;
+		}
+		currentLines.push(line);
+		currentChars += line.length;
+	}
+	if (currentLines.length > 0) {
+		chunks.push(currentLines.join('\n'));
 	}
 	return chunks;
 }
