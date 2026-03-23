@@ -20,6 +20,7 @@ const provider: AIProvider = {
 
 		const completion = await client.chat.completions.create({
 			model: this.modelId,
+			max_tokens: 16384,
 			response_format: { type: 'json_object' },
 			messages: [
 				{

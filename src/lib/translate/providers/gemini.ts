@@ -20,7 +20,8 @@ const provider: AIProvider = {
 			contents: getUserPrompt(text),
 			config: {
 				systemInstruction: getSystemPrompt(),
-				responseMimeType: 'application/json'
+				responseMimeType: 'application/json',
+				maxOutputTokens: 16384
 			}
 		});
 

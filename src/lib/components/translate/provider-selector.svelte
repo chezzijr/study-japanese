@@ -55,7 +55,7 @@
 	}
 
 	const providers: { value: ProviderName; label: string }[] = [
-		{ value: 'claude', label: 'Claude Haiku' },
+		{ value: 'claude', label: 'Claude Sonnet' },
 		{ value: 'gemini', label: 'Gemini Flash' },
 		{ value: 'openai', label: 'GPT-4o-mini' }
 	];
