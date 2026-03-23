@@ -36,30 +36,30 @@
 	let translation = $state<TranslationResponse | null>(null);
 	let loading = $state(false);
 	let error = $state<string | null>(null);
-	let hoveredTokenId = $state<number | null>(null);
+	let hoveredTokenId = $state<string | null>(null);
 	let hoveredAnchorEl = $state<HTMLElement | null>(null);
 	let settings = $state<AISettings | null>(null);
 	let showSettings = $state(false);
 
-	// Build token lookup: maps token id -> Token (across all sentences)
+	// Build token lookup: maps composite key "si-tid" -> Token
 	let tokenMap = $derived.by(() => {
-		if (!translation) return new Map<number, Token>();
-		const map = new Map<number, Token>();
-		for (const sentence of translation.sentences) {
-			for (const token of sentence.tokens) {
-				map.set(token.id, token);
+		if (!translation) return new Map<string, Token>();
+		const map = new Map<string, Token>();
+		for (let si = 0; si < translation.sentences.length; si++) {
+			for (const token of translation.sentences[si].tokens) {
+				map.set(`${si}-${token.id}`, token);
 			}
 		}
 		return map;
 	});
 
-	// Build a color map: token id -> color (per sentence, index-based)
+	// Build a color map: composite key "si-tid" -> color (per sentence, index-based)
 	let colorMap = $derived.by(() => {
-		const map = new Map<number, string>();
+		const map = new Map<string, string>();
 		if (!translation) return map;
-		for (const sentence of translation.sentences) {
-			sentence.jp_order.forEach((id, i) => {
-				map.set(id, TOKEN_COLORS[i % TOKEN_COLORS.length]);
+		for (let si = 0; si < translation.sentences.length; si++) {
+			translation.sentences[si].jp_order.forEach((id, i) => {
+				map.set(`${si}-${id}`, TOKEN_COLORS[i % TOKEN_COLORS.length]);
 			});
 		}
 		return map;
@@ -184,16 +184,17 @@
 						<!-- Rendered Japanese tokens -->
 						<div class="flex flex-wrap gap-1 text-lg leading-relaxed">
 							{#each translation.sentences as sentence, si}
-								{#each getJpTokens(sentence) as token (token.id)}
+								{#each getJpTokens(sentence) as token (`jp-${si}-${token.id}`)}
+									{@const key = `${si}-${token.id}`}
 									<TokenDisplay
 										{token}
-										color={colorMap.get(token.id) ?? TOKEN_COLORS[0]}
-										isHighlighted={hoveredTokenId === token.id}
-										isDimmed={hoveredTokenId !== null && hoveredTokenId !== token.id}
-										onmouseenter={(id) => {
-											hoveredTokenId = id;
-											// Find the element with this data-id
-											const el = document.querySelector(`[data-id="${id}"]`);
+										tokenKey={key}
+										color={colorMap.get(key) ?? TOKEN_COLORS[0]}
+										isHighlighted={hoveredTokenId === key}
+										isDimmed={hoveredTokenId !== null && hoveredTokenId !== key}
+										onmouseenter={(k) => {
+											hoveredTokenId = k;
+											const el = document.querySelector(`[data-id="${k}"]`);
 											if (el instanceof HTMLElement) hoveredAnchorEl = el;
 										}}
 										onmouseleave={() => handleTokenLeave()}
@@ -225,16 +226,17 @@
 						<!-- Rendered Vietnamese tokens in natural order -->
 						<div class="flex flex-wrap gap-1 text-lg leading-relaxed">
 							{#each translation.sentences as sentence, si}
-								{#each getVnTokens(sentence) as token (token.id)}
+								{#each getVnTokens(sentence) as token (`vn-${si}-${token.id}`)}
+									{@const key = `${si}-${token.id}`}
 									<TokenDisplay
 										token={{ ...token, jp: '', vn: token.vn || token.jp }}
-										color={colorMap.get(token.id) ?? TOKEN_COLORS[0]}
-										isHighlighted={hoveredTokenId === token.id}
-										isDimmed={hoveredTokenId !== null && hoveredTokenId !== token.id}
-										onmouseenter={(id) => {
-											hoveredTokenId = id;
-											// Use the JP side element as anchor for popover
-											const el = document.querySelector(`[data-id="${id}"]`);
+										tokenKey={key}
+										color={colorMap.get(key) ?? TOKEN_COLORS[0]}
+										isHighlighted={hoveredTokenId === key}
+										isDimmed={hoveredTokenId !== null && hoveredTokenId !== key}
+										onmouseenter={(k) => {
+											hoveredTokenId = k;
+											const el = document.querySelector(`[data-id="${k}"]`);
 											if (el instanceof HTMLElement) hoveredAnchorEl = el;
 										}}
 										onmouseleave={() => handleTokenLeave()}

@@ -3,6 +3,7 @@
 
 	let {
 		token,
+		tokenKey,
 		color,
 		isHighlighted = false,
 		isDimmed = false,
@@ -10,11 +11,12 @@
 		onmouseleave
 	}: {
 		token: Token;
+		tokenKey: string;
 		color: string;
 		isHighlighted?: boolean;
 		isDimmed?: boolean;
-		onmouseenter?: (id: number) => void;
-		onmouseleave?: (id: number) => void;
+		onmouseenter?: (key: string) => void;
+		onmouseleave?: () => void;
 	} = $props();
 </script>
 
@@ -24,12 +26,12 @@
 	class:token-dimmed={isDimmed}
 	role="button"
 	tabindex="0"
-	data-id={token.id}
+	data-id={tokenKey}
 	style:border-bottom="2px solid {color}"
 	style:background-color="{color}18"
 	style:--token-color={color}
-	onmouseenter={() => onmouseenter?.(token.id)}
-	onmouseleave={() => onmouseleave?.(token.id)}
+	onmouseenter={() => onmouseenter?.(tokenKey)}
+	onmouseleave={() => onmouseleave?.()}
 >
 	{token.jp || token.vn}
 </span>
