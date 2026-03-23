@@ -43,9 +43,12 @@
 		"vitest": "^2.0.4"
 	},
 	"dependencies": {
+		"@anthropic-ai/sdk": "^0.80.0",
+		"@google/genai": "^1.46.0",
 		"@tailwindcss/typography": "^0.5.15",
 		"furigana": "^0.19.3",
 		"idb": "^8.0.3",
+		"openai": "^6.32.0",
 		"theme-change": "^2.5.0",
 		"wanakana": "^5.3.1"
 	}
