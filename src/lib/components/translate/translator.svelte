@@ -106,20 +106,6 @@
 		}
 	}
 
-	function handleTokenEnter(id: number, event?: MouseEvent) {
-		hoveredTokenId = id;
-		// Find the anchor element with matching data-id nearest to the event
-		if (event) {
-			hoveredAnchorEl = event.target as HTMLElement;
-			// Walk up to find the actual token-span element with data-id
-			let el: HTMLElement | null = hoveredAnchorEl;
-			while (el && el.getAttribute('data-id') !== String(id)) {
-				el = el.parentElement;
-			}
-			if (el) hoveredAnchorEl = el;
-		}
-	}
-
 	function handleTokenLeave(_id: number) {
 		hoveredTokenId = null;
 		hoveredAnchorEl = null;
