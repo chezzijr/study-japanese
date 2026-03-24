@@ -169,6 +169,10 @@ These grammar patterns function as a single unit. NEVER split V-て from its aux
 ### い-adjective + です — ONE token (おいしいです, 高いです)
 ### な-adjective — keep adjective and だ/です SEPARATE (静かな, 静かだ)
 
+### Punctuation and Latin/romaji text — 1-to-1 mapping
+- Punctuation (。→., ！→!, ？→?, 「」→"" etc.): create a token with the JP punctuation as "jp" and equivalent VN punctuation as "vn". Include in both jp_order and vn_order at the same relative position. Set type to "trợ từ", base_form and reading same as jp.
+- Latin/romaji words (proper nouns, brand names like "Zepp", "iPhone"): create a token with same text in both "jp" and "vn". Include in both jp_order and vn_order. Set type appropriately (usually "danh từ").
+
 ## Word Type Labels (Vietnamese)
 Use these labels for the "type" field:
 - "danh từ" (noun)

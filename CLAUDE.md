@@ -51,6 +51,7 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 - `/flashcard/deck/[id]/review` - Review session with SM-2 rating
 - `/flashcard/deck/[id]/stats` - Deck statistics and analytics
 - `/flashcard/import` - Import decks from JSON
+- `/translate` - AI-powered Japanese→Vietnamese translator with token-level mapping and interactive highlights (client-only, `ssr = false`)
 
 **Supported levels:** n1, n2, n3, n4, n5 (routes are auto-generated for levels with data)
 
@@ -59,6 +60,7 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 - Vocabulary, vocab practice, and kanji listing routes are pre-rendered at build time (discovered from filesystem in `svelte.config.js`)
 - Kanji practice route (`/practice/kanji/[level]`) uses `ssr = false` and is client-only (uses canvas and fetch API for handwriting recognition)
 - Flashcard routes use `ssr = false` and are client-only (depend on IndexedDB)
+- Translate route uses `ssr = false` and is client-only (depends on IndexedDB and external AI APIs)
 
 ### Data Organization
 
@@ -115,6 +117,19 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
 - `google.ts` - Google handwriting recognition API integration
 - `index.ts` - Module re-exports
 
+**Translate Module** (`src/lib/translate/`)
+
+- `types.ts` - `Token`, `Sentence`, `TranslationResponse`, `AISettings`, `SavedTranslation`, `ProviderName`
+- `prompt.ts` - System prompt with JSON schema, tokenization rules (Japanese morphology-aware), Vietnamese word type labels
+- `validate.ts` - JSON parse + schema validation with auto-fill for missing fields, fallback handling
+- `db.ts` - Separate `study-japanese-translate` IndexedDB database (singleton pattern)
+- `storage.ts` - CRUD for AI settings and saved translations
+- `providers/claude.ts` - Claude Sonnet (`claude-sonnet-4-6`) with `dangerouslyAllowBrowser: true`
+- `providers/gemini.ts` - Gemini Flash (`gemini-2.5-flash`) with JSON mode, thinking disabled
+- `providers/openai.ts` - OpenAI GPT-4o-mini with `dangerouslyAllowBrowser: true`
+- `providers/index.ts` - `AIProvider` interface, `getProvider()` with dynamic imports, `translateChunked()` for long texts
+- `index.ts` - Module re-exports
+
 **Unit Import System** (`src/lib/unit_import.ts`)
 
 - Handles flexible unit loading: single units (`u1`), ranges (`u3-u8`), or all units (`all`)
@@ -147,6 +162,14 @@ Located in `src/lib/components/`:
 - `add-kanji-to-deck-modal.svelte` - Modal for adding kanji to decks (used in kanji-listing.svelte)
 - `stats-overview.svelte` - Statistics display widget (retention, streak, card breakdown)
 
+**Translate Components** (`src/lib/components/translate/`):
+
+- `translator.svelte` - Main two-pane layout with JP/VN token rendering, hover cross-highlighting, and popover logic
+- `token-display.svelte` - Single token span with colored border, hover events, highlight/dim states
+- `token-popover.svelte` - Floating popover (pointer-events: none) with word info, grammar, kanji breakdown sections
+- `provider-selector.svelte` - AI provider dropdown + masked API key input with auto-close on save
+- `history-list.svelte` - Saved translations list with search and delete, used in drawer
+
 ### Type Definitions
 
 - `src/lib/types/vocab.ts` - `WordDefinition`, `Dictionary` types
@@ -168,7 +191,10 @@ Located in `src/lib/components/`:
 - `wanakana` - Japanese romanization utilities (used in vocab search for romaji-to-kana conversion)
 - `furigana` - Japanese furigana parsing
 - `theme-change` - Theme switching for DaisyUI
-- `idb` - IndexedDB wrapper for flashcard data persistence (~1.2KB)
+- `idb` - IndexedDB wrapper for flashcard and translate data persistence (~1.2KB)
+- `@anthropic-ai/sdk` - Claude API client (dynamically imported, browser mode)
+- `@google/genai` - Google Gemini API client (dynamically imported, requires Node >= 20)
+- `openai` - OpenAI API client (dynamically imported, browser mode)
 
 ## Important Configuration Details
 
@@ -288,3 +314,7 @@ Export format is JSON with structure:
 ```
 
 Import supports duplicate handling options: skip, replace, or keep both.
+
+### AI Translator
+
+Client-side JP→VN translator at `/translate` using Claude Sonnet, Gemini 2.5 Flash, or GPT-4o-mini. Users provide their own API keys (stored in IndexedDB). Structured JSON response with token-level JP↔VN mapping, hover cross-highlighting, and floating popovers. Long texts auto-chunked (~250 chars/chunk). History saved in IndexedDB, accessible via drawer. See `src/lib/translate/` for module and `src/lib/components/translate/` for UI.
