@@ -55,18 +55,15 @@ export async function getSettings(): Promise<AISettings | undefined> {
 	if (!settings) return undefined;
 
 	// V1→V2 migration: old format had `provider` instead of `translationModel`/`tokenizationModel`
-	if ('provider' in settings && !('translationModel' in settings)) {
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	const raw = settings as any;
+	if (raw.provider && !raw.translationModel) {
 		const migrated: AISettings = {
 			id: 'default',
-			translationModel: getDefaultTranslationModel(
-				(settings as unknown as { provider: string }).provider
-			),
-			tokenizationModel: getDefaultTokenizationModel(
-				(settings as unknown as { provider: string }).provider
-			),
-			keys: settings.keys
+			translationModel: getDefaultTranslationModel(raw.provider),
+			tokenizationModel: getDefaultTokenizationModel(raw.provider),
+			keys: raw.keys ?? {}
 		};
-		// Save migrated settings back
 		await db.put('ai-settings', migrated);
 		return migrated;
 	}

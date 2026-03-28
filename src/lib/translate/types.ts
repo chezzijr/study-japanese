@@ -1,4 +1,5 @@
-export type { ProviderName } from './models';
+import type { ProviderName } from './models';
+export type { ProviderName };
 
 // ── V1 Types (kept for backward compatibility) ──────────────────────
 
