@@ -116,9 +116,18 @@
 						<div class="min-w-0 flex-1">
 							<p class="line-clamp-1 break-all font-medium">{item.sourceText}</p>
 							<div class="mt-1 flex items-center gap-2 text-xs opacity-50">
-								<span class="badge badge-ghost badge-xs"
-									>{providerLabels[item.provider] ?? item.provider}</span
-								>
+								<!-- Direction badge -->
+								<span class="badge badge-outline badge-xs">
+									{item.direction === 'vn-jp' ? 'VN→JP' : 'JP→VN'}
+								</span>
+								<!-- Model/provider badge -->
+								{#if item.translationModel}
+									<span class="badge badge-ghost badge-xs">{item.translationModel}</span>
+								{:else if item.provider}
+									<span class="badge badge-ghost badge-xs"
+										>{providerLabels[item.provider] ?? item.provider}</span
+									>
+								{/if}
 								<span>{formatDate(item.createdAt)}</span>
 							</div>
 						</div>
