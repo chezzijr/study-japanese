@@ -46,4 +46,4 @@ export { validateResponse, tryParseResponse } from './validate';
 
 // Providers
 export type { AIProvider } from './providers/index';
-export { getProvider, translateChunked } from './providers/index';
+export { getProvider, translateChunked, translateTwoStep } from './providers/index';
