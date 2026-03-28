@@ -1,4 +1,7 @@
-export type ProviderName = 'claude' | 'gemini' | 'openai';
+import type { ProviderName } from './models';
+export type { ProviderName };
+
+// ── V1 Types (kept for backward compatibility) ──────────────────────
 
 export interface Token {
 	id: number;
@@ -31,9 +34,51 @@ export interface TranslationResponse {
 	sentences: Sentence[];
 }
 
+// ── V2 Types ────────────────────────────────────────────────────────
+
+export type Direction = 'jp-vn' | 'vn-jp';
+
+export interface TokenInfo {
+	id: number;
+	text: string;
+	base_form: string;
+	reading: string;
+	type: string;
+	grammar?: { form: string; explanation: string };
+	context?: string;
+	kanji?: { char: string; hv: string; meaning: string }[];
+}
+
+export interface MappingGroup {
+	group_id: number;
+	source_ids: number[];
+	target_ids: number[];
+}
+
+export interface SentenceMapping {
+	source_text: string;
+	target_text: string;
+	source_tokens: TokenInfo[];
+	target_tokens: TokenInfo[];
+	groups: MappingGroup[];
+}
+
+export interface TranslationResponseV2 {
+	version: 2;
+	direction: Direction;
+	sentences: SentenceMapping[];
+}
+
+export function isV2(r: TranslationResponse | TranslationResponseV2): r is TranslationResponseV2 {
+	return 'version' in r && (r as TranslationResponseV2).version === 2;
+}
+
+// ── Settings & Storage ──────────────────────────────────────────────
+
 export interface AISettings {
 	id: 'default';
-	provider: ProviderName;
+	translationModel: string;
+	tokenizationModel: string;
 	/**
 	 * API keys stored in plaintext in IndexedDB. This is intentional:
 	 * - Users provide their own API keys ("bring your own key" pattern)
@@ -50,7 +95,10 @@ export interface AISettings {
 export interface SavedTranslation {
 	id: string;
 	sourceText: string;
-	response: TranslationResponse;
-	provider: ProviderName;
+	direction?: Direction;
+	response: TranslationResponse | TranslationResponseV2;
+	provider?: ProviderName;
+	translationModel?: string;
+	tokenizationModel?: string;
 	createdAt: number;
 }

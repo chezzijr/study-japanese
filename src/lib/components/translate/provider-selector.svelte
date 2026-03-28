@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import type { AISettings, ProviderName } from '$lib/translate/types';
+	import type { AISettings } from '$lib/translate/types';
+	import { MODEL_REGISTRY, getProviderForModel } from '$lib/translate/models';
+	import type { ModelOption, ProviderName } from '$lib/translate/models';
 	import { getSettings, saveSettings } from '$lib/translate/storage';
 
 	let {
@@ -11,26 +13,56 @@
 		onsaved?: () => void;
 	} = $props();
 
-	let provider = $state<ProviderName>('claude');
-	let apiKey = $state('');
-	let showKey = $state(false);
+	let translationModel = $state('gemini-2.5-flash-lite');
+	let tokenizationModel = $state('claude-sonnet-4-6');
+	let keys = $state<Record<string, string>>({ claude: '', gemini: '', openai: '' });
 	let saving = $state(false);
 	let saved = $state(false);
 	let settings = $state<AISettings | null>(null);
 
-	// When provider changes, load the corresponding API key
-	$effect(() => {
-		if (settings) {
-			apiKey = settings.keys[provider] ?? '';
+	// Determine which providers need keys based on selected models
+	let requiredProviders = $derived.by(() => {
+		const providers = new Set<ProviderName>();
+		try {
+			providers.add(getProviderForModel(translationModel));
+		} catch {
+			/* unknown model */
 		}
+		try {
+			providers.add(getProviderForModel(tokenizationModel));
+		} catch {
+			/* unknown model */
+		}
+		return providers;
 	});
+
+	// Provider color dots for model dropdown
+	function providerDot(provider: ProviderName): string {
+		switch (provider) {
+			case 'gemini':
+				return '\u{1F7E2}';
+			case 'claude':
+				return '\u{1F7E3}';
+			case 'openai':
+				return '\u{1F535}';
+		}
+	}
+
+	function modelLabel(m: ModelOption): string {
+		return `${providerDot(m.provider)} ${m.label} (${m.inputPrice}/${m.outputPrice})`;
+	}
 
 	onMount(async () => {
 		const loaded = await getSettings();
 		if (loaded) {
 			settings = loaded;
-			provider = loaded.provider;
-			apiKey = loaded.keys[loaded.provider] ?? '';
+			translationModel = loaded.translationModel;
+			tokenizationModel = loaded.tokenizationModel;
+			keys = {
+				claude: loaded.keys.claude ?? '',
+				gemini: loaded.keys.gemini ?? '',
+				openai: loaded.keys.openai ?? ''
+			};
 			onsettingschange(loaded);
 		}
 	});
@@ -40,10 +72,12 @@
 		try {
 			const updated: AISettings = {
 				id: 'default',
-				provider,
+				translationModel,
+				tokenizationModel,
 				keys: {
-					...(settings?.keys ?? {}),
-					[provider]: apiKey
+					claude: keys.claude || undefined,
+					gemini: keys.gemini || undefined,
+					openai: keys.openai || undefined
 				}
 			};
 			await saveSettings(updated);
@@ -56,92 +90,69 @@
 			saving = false;
 		}
 	}
-
-	const providers: { value: ProviderName; label: string }[] = [
-		{ value: 'claude', label: 'Claude Sonnet' },
-		{ value: 'gemini', label: 'Gemini Flash' },
-		{ value: 'openai', label: 'GPT-4o-mini' }
-	];
 </script>
 
 <div class="flex flex-col gap-3">
-	<!-- Provider dropdown -->
-	<div class="form-control">
-		<label class="label" for="provider-select">
-			<span class="label-text">Nhà cung cấp AI</span>
-		</label>
-		<select
-			id="provider-select"
-			class="select select-bordered select-sm w-full"
-			bind:value={provider}
-		>
-			{#each providers as p}
-				<option value={p.value}>{p.label}</option>
-			{/each}
-		</select>
-	</div>
-
-	<!-- API key input -->
-	<div class="form-control">
-		<label class="label" for="api-key-input">
-			<span class="label-text">API Key</span>
-		</label>
-		<div class="join w-full">
-			<input
-				id="api-key-input"
-				type={showKey ? 'text' : 'password'}
-				class="input input-sm join-item input-bordered w-full"
-				placeholder="Nhập API key..."
-				bind:value={apiKey}
-			/>
-			<button
-				type="button"
-				class="btn btn-ghost join-item btn-sm"
-				onclick={() => (showKey = !showKey)}
-				title={showKey ? 'Ẩn' : 'Hiện'}
+	<!-- Two model dropdowns side by side -->
+	<div class="grid grid-cols-1 gap-3 sm:grid-cols-2">
+		<!-- Translation model -->
+		<div class="form-control">
+			<label class="label" for="translation-model">
+				<span class="label-text text-xs uppercase opacity-60">Model dịch</span>
+			</label>
+			<select
+				id="translation-model"
+				class="select select-bordered select-sm w-full"
+				bind:value={translationModel}
 			>
-				{#if showKey}
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke-width="1.5"
-						stroke="currentColor"
-						class="h-4 w-4"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M3.98 8.223A10.477 10.477 0 001.934 12C3.226 16.338 7.244 19.5 12 19.5c.993 0 1.953-.138 2.863-.395M6.228 6.228A10.45 10.45 0 0112 4.5c4.756 0 8.773 3.162 10.065 7.498a10.523 10.523 0 01-4.293 5.774M6.228 6.228L3 3m3.228 3.228l3.65 3.65m7.894 7.894L21 21m-3.228-3.228l-3.65-3.65m0 0a3 3 0 10-4.243-4.243m4.242 4.242L9.88 9.88"
-						/>
-					</svg>
-				{:else}
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke-width="1.5"
-						stroke="currentColor"
-						class="h-4 w-4"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178zM15 12a3 3 0 11-6 0 3 3 0 016 0z"
-						/>
-					</svg>
-				{/if}
-			</button>
+				{#each MODEL_REGISTRY as m}
+					<option value={m.id}>{modelLabel(m)}</option>
+				{/each}
+			</select>
+		</div>
+
+		<!-- Tokenization model -->
+		<div class="form-control">
+			<label class="label" for="tokenization-model">
+				<span class="label-text text-xs uppercase opacity-60">Model phân tích</span>
+			</label>
+			<select
+				id="tokenization-model"
+				class="select select-bordered select-sm w-full"
+				bind:value={tokenizationModel}
+			>
+				{#each MODEL_REGISTRY as m}
+					<option value={m.id}>{modelLabel(m)}</option>
+				{/each}
+			</select>
 		</div>
 	</div>
 
+	<!-- API keys for required providers -->
+	<div class="flex flex-col gap-2">
+		{#each ['gemini', 'claude', 'openai'] as provider}
+			{#if requiredProviders.has(provider as ProviderName)}
+				<div class="form-control">
+					<label class="label" for="{provider}-key">
+						<span class="label-text text-xs"
+							>{providerDot(provider as ProviderName)}
+							{provider.charAt(0).toUpperCase() + provider.slice(1)} API Key</span
+						>
+					</label>
+					<input
+						id="{provider}-key"
+						type="password"
+						class="input input-sm input-bordered w-full"
+						placeholder="Nhập API key..."
+						bind:value={keys[provider]}
+					/>
+				</div>
+			{/if}
+		{/each}
+	</div>
+
 	<!-- Save button -->
-	<button
-		type="button"
-		class="btn btn-primary btn-sm"
-		onclick={handleSave}
-		disabled={saving || !apiKey.trim()}
-	>
+	<button type="button" class="btn btn-primary btn-sm" onclick={handleSave} disabled={saving}>
 		{#if saving}
 			<span class="loading loading-spinner loading-xs"></span>
 		{:else if saved}

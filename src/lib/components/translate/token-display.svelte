@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Token } from '$lib/translate/types';
+	import type { TokenInfo } from '$lib/translate/types';
 
 	let {
 		token,
@@ -7,14 +7,16 @@
 		color,
 		isHighlighted = false,
 		isDimmed = false,
+		isUnmapped = false,
 		onmouseenter,
 		onmouseleave
 	}: {
-		token: Token;
+		token: TokenInfo;
 		tokenKey: string;
 		color: string;
 		isHighlighted?: boolean;
 		isDimmed?: boolean;
+		isUnmapped?: boolean;
 		onmouseenter?: (key: string, el: HTMLElement) => void;
 		onmouseleave?: () => void;
 	} = $props();
@@ -23,17 +25,17 @@
 <span
 	class="token-span inline-block cursor-pointer rounded px-1 py-0.5 transition-all duration-200"
 	class:token-highlighted={isHighlighted}
-	class:token-dimmed={isDimmed}
+	class:token-dimmed={isDimmed || isUnmapped}
 	role="button"
 	tabindex="0"
 	data-id={tokenKey}
-	style:border-bottom="2px solid {color}"
-	style:background-color="{color}18"
-	style:--token-color={color}
+	style:border-bottom="2px solid {isUnmapped ? '#9ca3af' : color}"
+	style:background-color="{isUnmapped ? '#9ca3af' : color}18"
+	style:--token-color={isUnmapped ? '#9ca3af' : color}
 	onmouseenter={(e) => onmouseenter?.(tokenKey, e.currentTarget as HTMLElement)}
 	onmouseleave={() => onmouseleave?.()}
 >
-	{token.jp || token.vn}
+	{token.text}
 </span>
 
 <style>
