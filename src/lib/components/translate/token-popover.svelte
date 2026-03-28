@@ -1,12 +1,14 @@
 <script lang="ts">
-	import type { Token } from '$lib/translate/types';
+	import type { TokenInfo } from '$lib/translate/types';
 	import { onMount, tick } from 'svelte';
 
 	let {
-		token,
+		jpToken,
+		targetText,
 		anchorElement
 	}: {
-		token: Token;
+		jpToken: TokenInfo | null;
+		targetText: string;
 		anchorElement: HTMLElement | null;
 	} = $props();
 
@@ -77,54 +79,61 @@
 			class:popover-arrow-top={!showAbove}
 		></div>
 
-		<!-- Word section (always shown) -->
-		<div class="mb-2">
-			<div class="flex items-center gap-2">
-				<span class="text-lg font-bold">{token.base_form}</span>
-				{#if token.reading}
-					<span class="text-sm opacity-70">{token.reading}</span>
-				{/if}
-			</div>
-			<div class="mt-1 flex items-center gap-2">
-				<span>{token.vn}</span>
-				<span class="badge badge-sm {typeBadgeClass(token.type)}">{token.type}</span>
-			</div>
-		</div>
-
-		<!-- Grammar section -->
-		{#if token.grammar}
-			<div class="mt-2 border-t border-base-content/10 pt-2">
-				<div class="mb-1 text-xs font-semibold uppercase opacity-50">Ngữ pháp</div>
-				<div class="text-sm">
-					<span class="font-medium">{token.grammar.form}</span>
-					<span class="opacity-80"> - {token.grammar.explanation}</span>
+		{#if jpToken}
+			<!-- Word section -->
+			<div class="mb-2">
+				<div class="flex items-center gap-2">
+					<span class="text-lg font-bold">{jpToken.base_form}</span>
+					{#if jpToken.reading}
+						<span class="text-sm opacity-70">{jpToken.reading}</span>
+					{/if}
+				</div>
+				<div class="mt-1 flex items-center gap-2">
+					<span>{targetText}</span>
+					<span class="badge badge-sm {typeBadgeClass(jpToken.type)}">{jpToken.type}</span>
 				</div>
 			</div>
-		{/if}
 
-		<!-- Kanji section -->
-		{#if token.kanji && token.kanji.length > 0}
-			<div class="mt-2 border-t border-base-content/10 pt-2">
-				<div class="mb-1 text-xs font-semibold uppercase opacity-50">Hán tự</div>
-				<div class="flex flex-wrap gap-2">
-					{#each token.kanji as k}
-						<div class="flex items-center gap-1 rounded bg-base-content/10 px-2 py-0.5">
-							<span class="text-lg font-bold">{k.char}</span>
-							<div class="text-xs">
-								<div class="font-medium">{k.hv}</div>
-								<div class="opacity-70">{k.meaning}</div>
+			<!-- Grammar section -->
+			{#if jpToken.grammar}
+				<div class="mt-2 border-t border-base-content/10 pt-2">
+					<div class="mb-1 text-xs font-semibold uppercase opacity-50">Ngữ pháp</div>
+					<div class="text-sm">
+						<span class="font-medium">{jpToken.grammar.form}</span>
+						<span class="opacity-80"> - {jpToken.grammar.explanation}</span>
+					</div>
+				</div>
+			{/if}
+
+			<!-- Kanji section -->
+			{#if jpToken.kanji && jpToken.kanji.length > 0}
+				<div class="mt-2 border-t border-base-content/10 pt-2">
+					<div class="mb-1 text-xs font-semibold uppercase opacity-50">Hán tự</div>
+					<div class="flex flex-wrap gap-2">
+						{#each jpToken.kanji as k}
+							<div class="flex items-center gap-1 rounded bg-base-content/10 px-2 py-0.5">
+								<span class="text-lg font-bold">{k.char}</span>
+								<div class="text-xs">
+									<div class="font-medium">{k.hv}</div>
+									<div class="opacity-70">{k.meaning}</div>
+								</div>
 							</div>
-						</div>
-					{/each}
+						{/each}
+					</div>
 				</div>
-			</div>
-		{/if}
+			{/if}
 
-		<!-- Context section -->
-		{#if token.context}
-			<div class="mt-2 border-t border-base-content/10 pt-2">
-				<div class="mb-1 text-xs font-semibold uppercase opacity-50">Vai trò</div>
-				<div class="text-sm opacity-80">{token.context}</div>
+			<!-- Context section -->
+			{#if jpToken.context}
+				<div class="mt-2 border-t border-base-content/10 pt-2">
+					<div class="mb-1 text-xs font-semibold uppercase opacity-50">Vai trò</div>
+					<div class="text-sm opacity-80">{jpToken.context}</div>
+				</div>
+			{/if}
+		{:else}
+			<!-- Minimal popover when no JP token is available -->
+			<div class="mb-2">
+				<span class="text-sm">{targetText}</span>
 			</div>
 		{/if}
 	</div>
