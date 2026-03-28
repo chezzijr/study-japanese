@@ -3,18 +3,75 @@
  */
 
 import { getDB, generateId } from './db';
-import type { AISettings, SavedTranslation, TranslationResponse, ProviderName } from './types';
+import type {
+	AISettings,
+	SavedTranslation,
+	TranslationResponse,
+	TranslationResponseV2,
+	Direction
+} from './types';
+import type { ProviderName } from './models';
+
+// ============================================
+// V1 → V2 MIGRATION HELPERS
+// ============================================
+
+function getDefaultTranslationModel(provider: string): string {
+	switch (provider) {
+		case 'gemini':
+			return 'gemini-2.5-flash-lite';
+		case 'claude':
+			return 'claude-haiku-4-5';
+		case 'openai':
+			return 'gpt-4o-mini';
+		default:
+			return 'gemini-2.5-flash-lite';
+	}
+}
+
+function getDefaultTokenizationModel(provider: string): string {
+	switch (provider) {
+		case 'gemini':
+			return 'gemini-3-flash-preview';
+		case 'claude':
+			return 'claude-sonnet-4-6';
+		case 'openai':
+			return 'gpt-5.4-mini';
+		default:
+			return 'claude-sonnet-4-6';
+	}
+}
 
 // ============================================
 // SETTINGS OPERATIONS
 // ============================================
 
 /**
- * Get AI settings
+ * Get AI settings (with V1→V2 migration)
  */
 export async function getSettings(): Promise<AISettings | undefined> {
 	const db = await getDB();
-	return db.get('ai-settings', 'default');
+	const settings = await db.get('ai-settings', 'default');
+	if (!settings) return undefined;
+
+	// V1→V2 migration: old format had `provider` instead of `translationModel`/`tokenizationModel`
+	if ('provider' in settings && !('translationModel' in settings)) {
+		const migrated: AISettings = {
+			id: 'default',
+			translationModel: getDefaultTranslationModel(
+				(settings as unknown as { provider: string }).provider
+			),
+			tokenizationModel: getDefaultTokenizationModel(
+				(settings as unknown as { provider: string }).provider
+			),
+			keys: settings.keys
+		};
+		// Save migrated settings back
+		await db.put('ai-settings', migrated);
+		return migrated;
+	}
+
+	return settings as AISettings;
 }
 
 /**
@@ -34,21 +91,27 @@ export async function saveSettings(settings: AISettings): Promise<void> {
  */
 export async function saveTranslation(
 	sourceText: string,
-	response: TranslationResponse,
-	provider: ProviderName
-): Promise<SavedTranslation> {
+	response: TranslationResponse | TranslationResponseV2,
+	options: {
+		// V1 compat
+		provider?: ProviderName;
+		// V2 fields
+		direction?: Direction;
+		translationModel?: string;
+		tokenizationModel?: string;
+	}
+): Promise<string> {
 	const db = await getDB();
-
+	const id = generateId();
 	const translation: SavedTranslation = {
-		id: generateId(),
+		id,
 		sourceText,
 		response,
-		provider,
-		createdAt: Date.now()
+		createdAt: Date.now(),
+		...options
 	};
-
-	await db.add('translations', translation);
-	return translation;
+	await db.put('translations', translation);
+	return id;
 }
 
 /**
