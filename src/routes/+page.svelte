@@ -213,6 +213,32 @@
 				</div>
 			</div>
 
+			<!-- Bộ thủ Card -->
+			<div class="card bg-base-200 shadow-md transition-shadow hover:shadow-lg">
+				<div class="card-body">
+					<h3 class="card-title">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							class="h-6 w-6 stroke-current"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M9 4.5v15m6-15v15M4.5 9h15m-15 6h15"
+							></path>
+						</svg>
+						Bộ thủ
+					</h3>
+					<p class="text-base-content/70">Tra cứu 214 bộ thủ: âm HV, nghĩa, ví dụ</p>
+					<div class="card-actions mt-2 justify-end">
+						<a href="{base}/kanji/radicals" class="btn btn-primary btn-sm">Mở</a>
+					</div>
+				</div>
+			</div>
+
 			<!-- Flashcard Card -->
 			<div class="card bg-base-200 shadow-md transition-shadow hover:shadow-lg">
 				<div class="card-body">

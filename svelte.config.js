@@ -2,7 +2,7 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import fs from 'fs';
 // prerender entries
-const initialEntries = ['/'];
+const initialEntries = ['/', '/kanji/radicals'];
 
 // practice routes - dynamic across all levels
 const practiceLevels = ['n1', 'n2', 'n3', 'n4', 'n5'];

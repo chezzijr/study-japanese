@@ -4,6 +4,7 @@
 	import AddKanjiToDeckModal from './flashcard/add-kanji-to-deck-modal.svelte';
 	import KanjiPracticeModal from './kanji-practice-modal.svelte';
 	import { getAllCards, getAllDecks, deleteCard, type KanjiData } from '$lib/flashcard';
+	import { boThu, boThuParts, componentLabel } from '$lib/kanji/radicals';
 
 	interface KanjiItem {
 		word: string;
@@ -160,8 +161,15 @@
 		// 4. Kunyomi match
 		if (kanji.kunyomi.some((r) => r.includes(normalizedTerm))) return true;
 
-		// 5. Radicals match
+		// 5. Radicals match (single classifying radical)
 		if (kanji.radicals?.includes(normalizedTerm)) return true;
+
+		// 5b. Bộ thủ breakdown match (primary bộ + components: char, Hán-Việt name, meaning)
+		for (const c of boThuParts(kanji.word)) {
+			if (c.char.includes(normalizedTerm) || c.canonical.includes(normalizedTerm)) return true;
+			if (c.hanViet?.toLowerCase().includes(normalizedTerm)) return true;
+			if (c.meaning?.toLowerCase().includes(normalizedTerm)) return true;
+		}
 
 		// 6. Romaji to kana conversion
 		try {
@@ -227,12 +235,33 @@
 			</thead>
 			<tbody>
 				{#each filteredKanjis as kanji}
+					{@const bo = boThu(kanji.word)}
 					<tr class="hover:bg-base-300">
 						<td class="text-3xl font-bold text-primary">{kanji.word}</td>
 						<td class="font-medium">{kanji.meaning}</td>
 						<td class="text-sm text-base-content/80">{kanji.onyomi.join(', ') || '-'}</td>
 						<td class="text-sm text-base-content/80">{kanji.kunyomi.join(', ') || '-'}</td>
-						<td class="text-xl">{kanji.radicals || '-'}</td>
+						<td>
+							{#if bo.primary || bo.components.length > 0}
+								<div class="flex flex-wrap items-center justify-center gap-1">
+									{#if bo.primary}
+										<span class="tooltip" data-tip={componentLabel(bo.primary) ?? 'Bộ thủ'}>
+											<span class="badge badge-primary badge-lg font-bold">{bo.primary.char}</span>
+										</span>
+									{/if}
+									{#each bo.components as c}
+										{@const label = componentLabel(c)}
+										{#if label}
+											<span class="tooltip text-xl" data-tip={label}>{c.char}</span>
+										{:else}
+											<span class="text-xl text-base-content/60">{c.char}</span>
+										{/if}
+									{/each}
+								</div>
+							{:else}
+								<span class="text-xl">{kanji.radicals || '-'}</span>
+							{/if}
+						</td>
 						<td class="text-left text-sm">
 							{#if kanji.examples && kanji.examples.length > 0}
 								{@const isExpanded = expandedKanji.has(kanji.word)}
@@ -297,6 +326,7 @@
 													type="button"
 													class="btn btn-ghost btn-xs text-error"
 													title="Xóa khỏi Flashcard"
+													aria-label="Xóa kanji {kanji.word} khỏi Flashcard"
 													onclick={() => openRemoveDialog(kanji, existing)}
 												>
 													<svg
@@ -316,6 +346,7 @@
 												type="button"
 												class="btn btn-ghost btn-xs"
 												title="Thêm vào Flashcard"
+												aria-label="Thêm kanji {kanji.word} vào Flashcard"
 												onclick={() => openAddModal(kanji)}
 											>
 												<svg

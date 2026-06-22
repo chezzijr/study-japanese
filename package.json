@@ -14,7 +14,8 @@
 		"test:unit": "vitest",
 		"test": "npm run test:unit -- --run && npm run test:e2e",
 		"test:e2e": "playwright test",
-		"gen-kanji": "tsx scripts/kanji_gen.ts"
+		"gen-kanji": "tsx scripts/kanji_gen.ts",
+		"gen-decomposition": "tsx scripts/gen_decomposition.ts"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.3",
