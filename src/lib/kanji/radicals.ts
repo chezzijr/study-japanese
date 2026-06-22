@@ -71,6 +71,8 @@ const KRAD_DISPLAY: Record<string, string> = {
 	込: '辶', // SƯỚC
 	化: '亻', // NHÂN
 	个: '人', // NHÂN (top form)
+	ハ: '八', // BÁT (KRADFILE writes the splay as katakana ハ)
+	'｜': '丨', // CỔN (fullwidth stroke → radical form)
 	刈: '刂', // ĐAO
 	艾: '艹', // THẢO
 	礼: '礻', // THỊ
