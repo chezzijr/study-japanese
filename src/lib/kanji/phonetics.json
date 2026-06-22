@@ -1,0 +1,19 @@
+{
+	"_comment": "Supplementary chiết tự components: common phonetic/semantic elements that are NEITHER one of the 214 Kangxi radicals NOR an app-learned kanji, so they can't otherwise render with a Hán-Việt label. Hand-authored. Key = component char, value = { hanViet, meaning }. Used as a fallback resolver in radicals.ts after radicals + app kanji. Reference these chars in decomposition-overrides.json to teach the phonetic of a kanji (e.g. 油 = 氵 + 由).",
+	"由": { "hanViet": "DO", "meaning": "do, bởi; nguyên do" },
+	"也": { "hanViet": "DÃ", "meaning": "cũng vậy (trợ từ)" },
+	"永": { "hanViet": "VĨNH", "meaning": "lâu dài, mãi mãi" },
+	"免": { "hanViet": "MIỄN", "meaning": "miễn, tha cho" },
+	"官": { "hanViet": "QUAN", "meaning": "quan chức" },
+	"反": { "hanViet": "PHẢN", "meaning": "phản, lật lại" },
+	"各": { "hanViet": "CÁC", "meaning": "mỗi, riêng" },
+	"乍": { "hanViet": "TẠ", "meaning": "chợt, vừa mới" },
+	"巠": { "hanViet": "KINH", "meaning": "dòng nước ngầm (thanh phù)" },
+	"未": { "hanViet": "VỊ", "meaning": "chưa" },
+	"失": { "hanViet": "THẤT", "meaning": "mất, đánh mất" },
+	"予": { "hanViet": "DỰ", "meaning": "ta; sẵn, trước" },
+	"与": { "hanViet": "DỮ", "meaning": "cho, cùng với" },
+	"云": { "hanViet": "VÂN", "meaning": "rằng (nói rằng)" },
+	"勿": { "hanViet": "VẬT", "meaning": "chớ, đừng" },
+	"者": { "hanViet": "GIẢ", "meaning": "người, kẻ" }
+}

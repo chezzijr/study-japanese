@@ -19,6 +19,7 @@ import radicalsData from './radicals.json';
 import classifyingData from './classifying.json';
 import decompositionData from './decomposition.json';
 import overridesData from './decomposition-overrides.json';
+import phoneticsData from './phonetics.json';
 
 export type { RadicalInfo };
 
@@ -26,6 +27,9 @@ const RADICALS = radicalsData as RadicalInfo[];
 const CLASSIFYING = classifyingData as Record<string, number>;
 const DECOMPOSITION = decompositionData as Record<string, string[]>;
 const OVERRIDES = overridesData as Record<string, unknown>;
+// Supplementary phonetic/semantic components (not Kangxi radicals, not app kanji).
+type Phonetic = { hanViet: string; meaning: string };
+const PHONETICS = phoneticsData as Record<string, Phonetic | string>;
 
 /** A resolved bộ thủ component shown in the UI. */
 export type Component = {
@@ -111,6 +115,18 @@ function resolveComponent(raw: string, isPrimary: boolean, preferForm?: string):
 			hanViet: info.hanViet,
 			meaning: info.meaning,
 			isRadical: true,
+			isPrimary
+		};
+	}
+	// Supplementary phonetic/semantic component (e.g. 由 in 油, 免 in 晩).
+	const ph = PHONETICS[raw];
+	if (ph && typeof ph === 'object') {
+		return {
+			char: raw,
+			canonical: raw,
+			hanViet: ph.hanViet,
+			meaning: ph.meaning,
+			isRadical: false,
 			isPrimary
 		};
 	}
