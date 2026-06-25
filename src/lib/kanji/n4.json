@@ -5,26 +5,120 @@
 		"kunyomi": ["あ[う]"],
 		"onyomi": ["カイ", "エ"],
 		"examples": [
-			{ "word": "会う", "reading": "あう", "meaning": "gặp, gặp nhau" },
-			{ "word": "会社", "reading": "かいしゃ", "meaning": "công ty" },
-			{ "word": "会社員", "reading": "かいしゃいん", "meaning": "nhân viên công ty" },
-			{ "word": "会議", "reading": "かいぎ", "meaning": "cuộc họp" },
-			{ "word": "会議室", "reading": "かいぎしつ", "meaning": "phòng họp" },
-			{ "word": "運動会", "reading": "うんどうかい", "meaning": "hội thể thao" },
-			{ "word": "国会議事堂", "reading": "こっかいぎじどう", "meaning": "tòa nhà quốc hội" },
-			{ "word": "展覧会", "reading": "てんらんかい", "meaning": "hội triển lãm" },
-			{ "word": "教会", "reading": "きょうかい", "meaning": "giáo hội, nhà thờ" },
-			{ "word": "都会", "reading": "とかい", "meaning": "thành phố, đô thị" },
-			{ "word": "機会", "reading": "きかい", "meaning": "cơ hội" },
-			{ "word": "会場", "reading": "かいじょう", "meaning": "hội trường" },
-			{ "word": "社会", "reading": "しゃかい", "meaning": "xã hội" },
-			{ "word": "忘年会", "reading": "ぼうねんかい", "meaning": "tiệc cuối năm, tất niên" },
-			{ "word": "新年会", "reading": "しんねんかい", "meaning": "tiệc năm mới" },
-			{ "word": "二次会", "reading": "にじかい", "meaning": "tăng hai" },
-			{ "word": "発表会", "reading": "はっぴょうかい", "meaning": "buổi giới thiệu, buổi ra mắt" },
-			{ "word": "大会", "reading": "たいかい", "meaning": "đại hội" },
-			{ "word": "講演会", "reading": "こうえんかい", "meaning": "buổi thuyết trình" }
-		]
+			{
+				"word": "会う",
+				"reading": "あう",
+				"meaning": "gặp, gặp nhau"
+			},
+			{
+				"word": "会社",
+				"reading": "かいしゃ",
+				"meaning": "công ty"
+			},
+			{
+				"word": "会社員",
+				"reading": "かいしゃいん",
+				"meaning": "nhân viên công ty"
+			},
+			{
+				"word": "会議",
+				"reading": "かいぎ",
+				"meaning": "cuộc họp"
+			},
+			{
+				"word": "会議室",
+				"reading": "かいぎしつ",
+				"meaning": "phòng họp"
+			},
+			{
+				"word": "運動会",
+				"reading": "うんどうかい",
+				"meaning": "hội thể thao"
+			},
+			{
+				"word": "国会議事堂",
+				"reading": "こっかいぎじどう",
+				"meaning": "tòa nhà quốc hội"
+			},
+			{
+				"word": "展覧会",
+				"reading": "てんらんかい",
+				"meaning": "hội triển lãm"
+			},
+			{
+				"word": "教会",
+				"reading": "きょうかい",
+				"meaning": "giáo hội, nhà thờ"
+			},
+			{
+				"word": "都会",
+				"reading": "とかい",
+				"meaning": "thành phố, đô thị"
+			},
+			{
+				"word": "機会",
+				"reading": "きかい",
+				"meaning": "cơ hội"
+			},
+			{
+				"word": "会場",
+				"reading": "かいじょう",
+				"meaning": "hội trường"
+			},
+			{
+				"word": "社会",
+				"reading": "しゃかい",
+				"meaning": "xã hội"
+			},
+			{
+				"word": "忘年会",
+				"reading": "ぼうねんかい",
+				"meaning": "tiệc cuối năm, tất niên"
+			},
+			{
+				"word": "新年会",
+				"reading": "しんねんかい",
+				"meaning": "tiệc năm mới"
+			},
+			{
+				"word": "二次会",
+				"reading": "にじかい",
+				"meaning": "tăng hai"
+			},
+			{
+				"word": "発表会",
+				"reading": "はっぴょうかい",
+				"meaning": "buổi giới thiệu, buổi ra mắt"
+			},
+			{
+				"word": "大会",
+				"reading": "たいかい",
+				"meaning": "đại hội"
+			},
+			{
+				"word": "講演会",
+				"reading": "こうえんかい",
+				"meaning": "buổi thuyết trình"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠆢",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "一",
+					"meaning": "một"
+				},
+				{
+					"char": "厶",
+					"meaning": "riêng tư"
+				}
+			],
+			"mnemonic": "Nhiều **người** (𠆢) tụ họp lại **một** (一) nơi **riêng tư** (厶) để mở **hội**."
+		}
 	},
 	{
 		"word": "動",
@@ -32,14 +126,55 @@
 		"kunyomi": ["うご[く]", "うご[かす]"],
 		"onyomi": ["ドウ"],
 		"examples": [
-			{ "word": "動く", "reading": "うごく", "meaning": "cử động, di chuyển" },
-			{ "word": "動かす", "reading": "うごかす", "meaning": "làm chuyển động, vận hành" },
-			{ "word": "自動販売機", "reading": "じどうはんばいき", "meaning": "máy bán hàng tự động" },
-			{ "word": "動物", "reading": "どうぶつ", "meaning": "động vật" },
-			{ "word": "動物園", "reading": "どうぶつえん", "meaning": "sở thú" },
-			{ "word": "自動車", "reading": "じどうしゃ", "meaning": "xe ô tô" },
-			{ "word": "運動する", "reading": "うんどうする", "meaning": "vận động" }
-		]
+			{
+				"word": "動く",
+				"reading": "うごく",
+				"meaning": "cử động, di chuyển"
+			},
+			{
+				"word": "動かす",
+				"reading": "うごかす",
+				"meaning": "làm chuyển động, vận hành"
+			},
+			{
+				"word": "自動販売機",
+				"reading": "じどうはんばいき",
+				"meaning": "máy bán hàng tự động"
+			},
+			{
+				"word": "動物",
+				"reading": "どうぶつ",
+				"meaning": "động vật"
+			},
+			{
+				"word": "動物園",
+				"reading": "どうぶつえん",
+				"meaning": "sở thú"
+			},
+			{
+				"word": "自動車",
+				"reading": "じどうしゃ",
+				"meaning": "xe ô tô"
+			},
+			{
+				"word": "運動する",
+				"reading": "うんどうする",
+				"meaning": "vận động"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "重",
+					"meaning": "nặng"
+				},
+				{
+					"char": "力",
+					"meaning": "sức mạnh"
+				}
+			],
+			"mnemonic": "Dùng **sức mạnh** (力) đẩy vật **nặng** (重) làm nó chuyển **động**."
+		}
 	},
 	{
 		"word": "歩",
@@ -47,9 +182,30 @@
 		"kunyomi": ["あゆ[む]", "ある[く]"],
 		"onyomi": ["ホ", "ブ", "フ"],
 		"examples": [
-			{ "word": "歩く", "reading": "あるく", "meaning": "đi bộ" },
-			{ "word": "散歩する", "reading": "さんぽする", "meaning": "đi dạo" }
-		]
+			{
+				"word": "歩く",
+				"reading": "あるく",
+				"meaning": "đi bộ"
+			},
+			{
+				"word": "散歩する",
+				"reading": "さんぽする",
+				"meaning": "đi dạo"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "止",
+					"meaning": "dừng lại"
+				},
+				{
+					"char": "少",
+					"meaning": "ít/một chút"
+				}
+			],
+			"mnemonic": "Đi **bộ** là đi **một chút** (少) rồi lại **dừng** (止) nghỉ."
+		}
 	},
 	{
 		"word": "急",
@@ -57,12 +213,50 @@
 		"kunyomi": ["いそ[ぐ]"],
 		"onyomi": ["キュウ"],
 		"examples": [
-			{ "word": "急ぐ", "reading": "いそぐ", "meaning": "khẩn trương, nhanh chóng" },
-			{ "word": "急行", "reading": "きゅうこう", "meaning": "tốc hành" },
-			{ "word": "特急", "reading": "とっきゅう", "meaning": "hỏa tốc, thần tốc" },
-			{ "word": "急に", "reading": "きゅうに", "meaning": "đột nhiên, bất chợt" },
-			{ "word": "救急車", "reading": "きゅうきゅうしゃ", "meaning": "xe cấp cứu" }
-		]
+			{
+				"word": "急ぐ",
+				"reading": "いそぐ",
+				"meaning": "khẩn trương, nhanh chóng"
+			},
+			{
+				"word": "急行",
+				"reading": "きゅうこう",
+				"meaning": "tốc hành"
+			},
+			{
+				"word": "特急",
+				"reading": "とっきゅう",
+				"meaning": "hỏa tốc, thần tốc"
+			},
+			{
+				"word": "急に",
+				"reading": "きゅうに",
+				"meaning": "đột nhiên, bất chợt"
+			},
+			{
+				"word": "救急車",
+				"reading": "きゅうきゅうしゃ",
+				"meaning": "xe cấp cứu"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "⺈",
+					"canonical": "刀",
+					"meaning": "con dao"
+				},
+				{
+					"char": "彐",
+					"meaning": "đầu nhím/kéo"
+				},
+				{
+					"char": "心",
+					"meaning": "trái tim"
+				}
+			],
+			"mnemonic": "**Trái tim** (心) đập nhanh như bị **dao** (⺈) cứa khi có việc khẩn **cấp**."
+		}
 	},
 	{
 		"word": "切",
@@ -70,22 +264,87 @@
 		"kunyomi": ["き[る]"],
 		"onyomi": ["セツ"],
 		"examples": [
-			{ "word": "切る", "reading": "きる", "meaning": "cắt, tạm ngừng" },
-			{ "word": "切れる", "reading": "きれる", "meaning": "đứt, hết, hết hạn" },
-			{ "word": "切符", "reading": "きっぷ", "meaning": "vé" },
-			{ "word": "切手", "reading": "きって", "meaning": "tem" },
-			{ "word": "締め切り", "reading": "しめきり", "meaning": "hạn cuối, deadline" },
-			{ "word": "缶切り", "reading": "かんきり", "meaning": "đồ khui nắp" },
-			{ "word": "親切な", "reading": "しんせつな", "meaning": "thân thiện" },
-			{ "word": "大切な", "reading": "たいせつな", "meaning": "quan trọng" }
-		]
+			{
+				"word": "切る",
+				"reading": "きる",
+				"meaning": "cắt, tạm ngừng"
+			},
+			{
+				"word": "切れる",
+				"reading": "きれる",
+				"meaning": "đứt, hết, hết hạn"
+			},
+			{
+				"word": "切符",
+				"reading": "きっぷ",
+				"meaning": "vé"
+			},
+			{
+				"word": "切手",
+				"reading": "きって",
+				"meaning": "tem"
+			},
+			{
+				"word": "締め切り",
+				"reading": "しめきり",
+				"meaning": "hạn cuối, deadline"
+			},
+			{
+				"word": "缶切り",
+				"reading": "かんきり",
+				"meaning": "đồ khui nắp"
+			},
+			{
+				"word": "親切な",
+				"reading": "しんせつな",
+				"meaning": "thân thiện"
+			},
+			{
+				"word": "大切な",
+				"reading": "たいせつな",
+				"meaning": "quan trọng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "七",
+					"meaning": "số 7"
+				},
+				{
+					"char": "刀",
+					"meaning": "con dao"
+				}
+			],
+			"mnemonic": "Lấy **con dao** (刀) **cắt** đồ vật thành **7** (七) phần bằng nhau."
+		}
 	},
 	{
 		"word": "送",
 		"meaning": "TỐNG",
 		"kunyomi": ["おく[る]"],
 		"onyomi": ["ソウ"],
-		"examples": [{ "word": "送る", "reading": "おくる", "meaning": "gửi" }]
+		"examples": [
+			{
+				"word": "送る",
+				"reading": "おくる",
+				"meaning": "gửi"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "辶",
+					"canonical": "辵",
+					"meaning": "bước đi"
+				},
+				{
+					"char": "关",
+					"meaning": "cửa ải"
+				}
+			],
+			"mnemonic": "Cất **bước đi** (辶) ra tận **cửa ải** (关) để **tiễn/gửi** đi."
+		}
 	},
 	{
 		"word": "習",
@@ -93,13 +352,50 @@
 		"kunyomi": ["なら[う]"],
 		"onyomi": ["ジュウ", "シュウ"],
 		"examples": [
-			{ "word": "習う", "reading": "ならう", "meaning": "học" },
-			{ "word": "練習", "reading": "れんしゅう", "meaning": "luyện tập, thực hành" },
-			{ "word": "予習する", "reading": "よしゅうする", "meaning": "soạn bài" },
-			{ "word": "復習する", "reading": "ふくしゅうする", "meaning": "ôn tập" },
-			{ "word": "習慣", "reading": "しゅうかん", "meaning": "thói quen" },
-			{ "word": "習字", "reading": "しゅうじ", "meaning": "luyện chữ" }
-		]
+			{
+				"word": "習う",
+				"reading": "ならう",
+				"meaning": "học"
+			},
+			{
+				"word": "練習",
+				"reading": "れんしゅう",
+				"meaning": "luyện tập, thực hành"
+			},
+			{
+				"word": "予習する",
+				"reading": "よしゅうする",
+				"meaning": "soạn bài"
+			},
+			{
+				"word": "復習する",
+				"reading": "ふくしゅうする",
+				"meaning": "ôn tập"
+			},
+			{
+				"word": "習慣",
+				"reading": "しゅうかん",
+				"meaning": "thói quen"
+			},
+			{
+				"word": "習字",
+				"reading": "しゅうじ",
+				"meaning": "luyện chữ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "羽",
+					"meaning": "lông vũ/cánh"
+				},
+				{
+					"char": "白",
+					"meaning": "trắng"
+				}
+			],
+			"mnemonic": "Chú chim **trắng** (白) vỗ **cánh** (羽) **tập** bay."
+		}
 	},
 	{
 		"word": "歌",
@@ -107,11 +403,40 @@
 		"kunyomi": ["うた[う]"],
 		"onyomi": ["カ"],
 		"examples": [
-			{ "word": "歌", "reading": "うた", "meaning": "bài hát" },
-			{ "word": "歌う", "reading": "うたう", "meaning": "hát" },
-			{ "word": "歌手", "reading": "かしゅ", "meaning": "ca sĩ" },
-			{ "word": "歌舞伎", "reading": "かぶき", "meaning": "kịch Kabuki" }
-		]
+			{
+				"word": "歌",
+				"reading": "うた",
+				"meaning": "bài hát"
+			},
+			{
+				"word": "歌う",
+				"reading": "うたう",
+				"meaning": "hát"
+			},
+			{
+				"word": "歌手",
+				"reading": "かしゅ",
+				"meaning": "ca sĩ"
+			},
+			{
+				"word": "歌舞伎",
+				"reading": "かぶき",
+				"meaning": "kịch Kabuki"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "哥",
+					"meaning": "người anh"
+				},
+				{
+					"char": "欠",
+					"meaning": "há miệng"
+				}
+			],
+			"mnemonic": "Người **anh trai** (哥) **há miệng** (欠) hát **ca**."
+		}
 	},
 	{
 		"word": "終",
@@ -119,9 +444,30 @@
 		"kunyomi": ["お[わる]", "お[える]"],
 		"onyomi": ["シュウ"],
 		"examples": [
-			{ "word": "終わる", "reading": "おわる", "meaning": "kết thúc" },
-			{ "word": "終わり", "reading": "おわり", "meaning": "sự kết thúc" }
-		]
+			{
+				"word": "終わる",
+				"reading": "おわる",
+				"meaning": "kết thúc"
+			},
+			{
+				"word": "終わり",
+				"reading": "おわり",
+				"meaning": "sự kết thúc"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "糸",
+					"meaning": "sợi chỉ"
+				},
+				{
+					"char": "冬",
+					"meaning": "mùa đông"
+				}
+			],
+			"mnemonic": "**Mùa đông** (冬) là điểm **kết thúc** (chung) của **sợi chỉ** (糸) thời gian trong năm."
+		}
 	},
 	{
 		"word": "社",
@@ -129,10 +475,36 @@
 		"kunyomi": ["やしろ"],
 		"onyomi": ["シャ", "ジャ"],
 		"examples": [
-			{ "word": "本社", "reading": "ほんしゃ", "meaning": "trụ sở chính" },
-			{ "word": "旅行社", "reading": "りょこうしゃ", "meaning": "công ty du lịch" },
-			{ "word": "神社", "reading": "じんじゃ", "meaning": "đền thờ, miếu" }
-		]
+			{
+				"word": "本社",
+				"reading": "ほんしゃ",
+				"meaning": "trụ sở chính"
+			},
+			{
+				"word": "旅行社",
+				"reading": "りょこうしゃ",
+				"meaning": "công ty du lịch"
+			},
+			{
+				"word": "神社",
+				"reading": "じんじゃ",
+				"meaning": "đền thờ, miếu"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "礻",
+					"canonical": "示",
+					"meaning": "bàn thờ"
+				},
+				{
+					"char": "土",
+					"meaning": "đất"
+				}
+			],
+			"mnemonic": "Lập **bàn thờ** (礻) trên **đất** (土) để cúng thần thổ địa lập **xã** hội."
+		}
 	},
 	{
 		"word": "銀",
@@ -140,9 +512,31 @@
 		"kunyomi": [],
 		"onyomi": ["ギン"],
 		"examples": [
-			{ "word": "銀行", "reading": "ぎんこう", "meaning": "ngân hàng" },
-			{ "word": "銀行員", "reading": "ぎんこういん", "meaning": "nhân viên ngân hàng" }
-		]
+			{
+				"word": "銀行",
+				"reading": "ぎんこう",
+				"meaning": "ngân hàng"
+			},
+			{
+				"word": "銀行員",
+				"reading": "ぎんこういん",
+				"meaning": "nhân viên ngân hàng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "釒",
+					"canonical": "金",
+					"meaning": "kim loại/vàng"
+				},
+				{
+					"char": "艮",
+					"meaning": "tốt/bền vững"
+				}
+			],
+			"mnemonic": "Bạc (**ngân**) là một loại **kim loại** (釒) rất **bền vững** (艮) và có giá trị."
+		}
 	},
 	{
 		"word": "医",
@@ -150,11 +544,40 @@
 		"kunyomi": [],
 		"onyomi": ["イ"],
 		"examples": [
-			{ "word": "医者", "reading": "いしゃ", "meaning": "bác sĩ" },
-			{ "word": "歯医者", "reading": "はいしゃ", "meaning": "bác sĩ nha khoa" },
-			{ "word": "医学", "reading": "いがく", "meaning": "y học" },
-			{ "word": "医学部", "reading": "いがくぶ", "meaning": "khoa y, ngành y" }
-		]
+			{
+				"word": "医者",
+				"reading": "いしゃ",
+				"meaning": "bác sĩ"
+			},
+			{
+				"word": "歯医者",
+				"reading": "はいしゃ",
+				"meaning": "bác sĩ nha khoa"
+			},
+			{
+				"word": "医学",
+				"reading": "いがく",
+				"meaning": "y học"
+			},
+			{
+				"word": "医学部",
+				"reading": "いがくぶ",
+				"meaning": "khoa y, ngành y"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "匚",
+					"meaning": "cái hộp"
+				},
+				{
+					"char": "矢",
+					"meaning": "mũi tên"
+				}
+			],
+			"mnemonic": "Bác sĩ (**y**) cất **mũi tên** (矢) (nghĩa bóng: dụng cụ y tế) vào trong **hộp** (匚) cứu thương."
+		}
 	},
 	{
 		"word": "病",
@@ -162,9 +585,30 @@
 		"kunyomi": [],
 		"onyomi": ["ビョウ"],
 		"examples": [
-			{ "word": "病院", "reading": "びょういん", "meaning": "bệnh viện" },
-			{ "word": "病気", "reading": "びょうき", "meaning": "bệnh tật, ốm" }
-		]
+			{
+				"word": "病院",
+				"reading": "びょういん",
+				"meaning": "bệnh viện"
+			},
+			{
+				"word": "病気",
+				"reading": "びょうき",
+				"meaning": "bệnh tật, ốm"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "疒",
+					"meaning": "cái giường bệnh"
+				},
+				{
+					"char": "丙",
+					"meaning": "thiên can thứ 3/rực sáng"
+				}
+			],
+			"mnemonic": "Nằm trên **giường bệnh** (疒) với cơ thể sốt **rực** (丙) vì ốm."
+		}
 	},
 	{
 		"word": "院",
@@ -172,11 +616,41 @@
 		"kunyomi": [],
 		"onyomi": ["イン"],
 		"examples": [
-			{ "word": "美容院", "reading": "びよういん", "meaning": "tiệm làm tóc, salon" },
-			{ "word": "大学院", "reading": "だいがくいん", "meaning": "cao học" },
-			{ "word": "入院する", "reading": "にゅういんする", "meaning": "nhập viện" },
-			{ "word": "退院する", "reading": "たいいんする", "meaning": "ra viện" }
-		]
+			{
+				"word": "美容院",
+				"reading": "びよういん",
+				"meaning": "tiệm làm tóc, salon"
+			},
+			{
+				"word": "大学院",
+				"reading": "だいがくいん",
+				"meaning": "cao học"
+			},
+			{
+				"word": "入院する",
+				"reading": "にゅういんする",
+				"meaning": "nhập viện"
+			},
+			{
+				"word": "退院する",
+				"reading": "たいいんする",
+				"meaning": "ra viện"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "阝",
+					"canonical": "阜",
+					"meaning": "vùng đất/gò"
+				},
+				{
+					"char": "完",
+					"meaning": "hoàn thành/trọn vẹn"
+				}
+			],
+			"mnemonic": "Chữa bệnh ở **vùng đất** (阝) này xong sẽ **hoàn toàn** (完) khỏe mạnh ra **viện**."
+		}
 	},
 	{
 		"word": "国",
@@ -184,13 +658,50 @@
 		"kunyomi": ["くに"],
 		"onyomi": ["コク"],
 		"examples": [
-			{ "word": "お国", "reading": "おくに", "meaning": "quốc gia, đất nước" },
-			{ "word": "外国", "reading": "がいこく", "meaning": "nước ngoài" },
-			{ "word": "韓国", "reading": "かんこく", "meaning": "Hàn Quốc" },
-			{ "word": "中国", "reading": "ちゅうごく", "meaning": "Trung Quốc" },
-			{ "word": "国際", "reading": "こくさい", "meaning": "quốc tế" },
-			{ "word": "国連", "reading": "こくれん", "meaning": "liên hợp quốc" }
-		]
+			{
+				"word": "お国",
+				"reading": "おくに",
+				"meaning": "quốc gia, đất nước"
+			},
+			{
+				"word": "外国",
+				"reading": "がいこく",
+				"meaning": "nước ngoài"
+			},
+			{
+				"word": "韓国",
+				"reading": "かんこく",
+				"meaning": "Hàn Quốc"
+			},
+			{
+				"word": "中国",
+				"reading": "ちゅうごく",
+				"meaning": "Trung Quốc"
+			},
+			{
+				"word": "国際",
+				"reading": "こくさい",
+				"meaning": "quốc tế"
+			},
+			{
+				"word": "国連",
+				"reading": "こくれん",
+				"meaning": "liên hợp quốc"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "囗",
+					"meaning": "bao quanh/biên giới"
+				},
+				{
+					"char": "玉",
+					"meaning": "viên ngọc"
+				}
+			],
+			"mnemonic": "**Quốc** gia phải có **biên giới** (囗) để bảo vệ **viên ngọc** (玉) (vua/tài sản) bên trong."
+		}
 	},
 	{
 		"word": "世",
@@ -198,20 +709,76 @@
 		"kunyomi": ["よ"],
 		"onyomi": ["セ", "セイ"],
 		"examples": [
-			{ "word": "世話", "reading": "せわ", "meaning": "sự chăm sóc" },
-			{ "word": "世界", "reading": "せかい", "meaning": "thế giới" },
-			{ "word": "世界中", "reading": "せかいじゅう", "meaning": "khắp thế giới" },
-			{ "word": "世界遺産", "reading": "せかいいさん", "meaning": "di sản thế giới" },
-			{ "word": "世界初", "reading": "せかいはつ", "meaning": "đầu tiên trên thế giới" },
-			{ "word": "世紀", "reading": "せいき", "meaning": "thế kỷ" }
-		]
+			{
+				"word": "世話",
+				"reading": "せわ",
+				"meaning": "sự chăm sóc"
+			},
+			{
+				"word": "世界",
+				"reading": "せかい",
+				"meaning": "thế giới"
+			},
+			{
+				"word": "世界中",
+				"reading": "せかいじゅう",
+				"meaning": "khắp thế giới"
+			},
+			{
+				"word": "世界遺産",
+				"reading": "せかいいさん",
+				"meaning": "di sản thế giới"
+			},
+			{
+				"word": "世界初",
+				"reading": "せかいはつ",
+				"meaning": "đầu tiên trên thế giới"
+			},
+			{
+				"word": "世紀",
+				"reading": "せいき",
+				"meaning": "thế kỷ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "廿",
+					"meaning": "hai mươi"
+				},
+				{
+					"char": "乚",
+					"meaning": "ẩn náu"
+				}
+			],
+			"mnemonic": "Một **thế** hệ kéo dài khoảng **hai mươi** (廿) năm theo quan niệm cũ."
+		}
 	},
 	{
 		"word": "界",
 		"meaning": "GIỚI",
 		"kunyomi": [],
 		"onyomi": ["カイ"],
-		"examples": [{ "word": "世界", "reading": "せかい", "meaning": "thế giới" }]
+		"examples": [
+			{
+				"word": "世界",
+				"reading": "せかい",
+				"meaning": "thế giới"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "田",
+					"meaning": "đồng ruộng"
+				},
+				{
+					"char": "介",
+					"meaning": "ở giữa"
+				}
+			],
+			"mnemonic": "Có một cái ranh **giới** chia ở **giữa** (介) **cánh đồng** (田)."
+		}
 	},
 	{
 		"word": "教",
@@ -219,11 +786,41 @@
 		"kunyomi": ["おし[える]", "おそ[わる]"],
 		"onyomi": ["キョウ"],
 		"examples": [
-			{ "word": "教える", "reading": "おしえる", "meaning": "giảng dạy" },
-			{ "word": "教師", "reading": "きょうし", "meaning": "giáo viên" },
-			{ "word": "教室", "reading": "きょうしつ", "meaning": "phòng học" },
-			{ "word": "教育", "reading": "きょういく", "meaning": "giáo dục" }
-		]
+			{
+				"word": "教える",
+				"reading": "おしえる",
+				"meaning": "giảng dạy"
+			},
+			{
+				"word": "教師",
+				"reading": "きょうし",
+				"meaning": "giáo viên"
+			},
+			{
+				"word": "教室",
+				"reading": "きょうしつ",
+				"meaning": "phòng học"
+			},
+			{
+				"word": "教育",
+				"reading": "きょういく",
+				"meaning": "giáo dục"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "孝",
+					"meaning": "hiếu thảo"
+				},
+				{
+					"char": "攵",
+					"canonical": "攴",
+					"meaning": "đánh/dùng roi"
+				}
+			],
+			"mnemonic": "**Dùng roi** (攵) dạy dỗ con cái phải biết **hiếu thảo** (孝) là **giáo** dục."
+		}
 	},
 	{
 		"word": "研",
@@ -231,17 +828,61 @@
 		"kunyomi": [],
 		"onyomi": ["ケン"],
 		"examples": [
-			{ "word": "研究する", "reading": "けんきゅうする", "meaning": "nghiên cứu" },
-			{ "word": "研究者", "reading": "けんきゅうしゃ", "meaning": "nhà nghiên cứu" },
-			{ "word": "研究室", "reading": "けんきゅうしつ", "meaning": "phòng nghiên cứu" }
-		]
+			{
+				"word": "研究する",
+				"reading": "けんきゅうする",
+				"meaning": "nghiên cứu"
+			},
+			{
+				"word": "研究者",
+				"reading": "けんきゅうしゃ",
+				"meaning": "nhà nghiên cứu"
+			},
+			{
+				"word": "研究室",
+				"reading": "けんきゅうしつ",
+				"meaning": "phòng nghiên cứu"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "石",
+					"meaning": "hòn đá"
+				},
+				{
+					"char": "幵",
+					"meaning": "bằng phẳng"
+				}
+			],
+			"mnemonic": "Mài **hòn đá** (石) cho **bằng phẳng** (幵) để làm **nghiên** mực."
+		}
 	},
 	{
 		"word": "究",
 		"meaning": "CỨU",
 		"kunyomi": [],
 		"onyomi": ["キュウ"],
-		"examples": [{ "word": "研究する", "reading": "けんきゅうする", "meaning": "nghiên cứu" }]
+		"examples": [
+			{
+				"word": "研究する",
+				"reading": "けんきゅうする",
+				"meaning": "nghiên cứu"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "穴",
+					"meaning": "cái hang"
+				},
+				{
+					"char": "九",
+					"meaning": "số 9"
+				}
+			],
+			"mnemonic": "Khám phá **9** (九) cái **hang** (穴) để nghiên **cứu**."
+		}
 	},
 	{
 		"word": "売",
@@ -249,11 +890,44 @@
 		"kunyomi": ["う[る]", "う[れる]"],
 		"onyomi": ["バイ"],
 		"examples": [
-			{ "word": "売る", "reading": "うる", "meaning": "bán" },
-			{ "word": "売れる", "reading": "うれる", "meaning": "bán chạy, nổi tiếng" },
-			{ "word": "売り場", "reading": "うりば", "meaning": "quầy hàng, sạp hàng" },
-			{ "word": "自動販売機", "reading": "じどうはんばいき", "meaning": "máy bán hàng tự động" }
-		]
+			{
+				"word": "売る",
+				"reading": "うる",
+				"meaning": "bán"
+			},
+			{
+				"word": "売れる",
+				"reading": "うれる",
+				"meaning": "bán chạy, nổi tiếng"
+			},
+			{
+				"word": "売り場",
+				"reading": "うりば",
+				"meaning": "quầy hàng, sạp hàng"
+			},
+			{
+				"word": "自動販売機",
+				"reading": "じどうはんばいき",
+				"meaning": "máy bán hàng tự động"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "士",
+					"meaning": "kẻ sĩ"
+				},
+				{
+					"char": "冖",
+					"meaning": "cái khăn trùm"
+				},
+				{
+					"char": "儿",
+					"meaning": "người"
+				}
+			],
+			"mnemonic": "**Kẻ sĩ** (士) trùm **khăn** (冖) đi **bán** (mại) hàng vì sợ **người** (儿) khác nhận ra."
+		}
 	},
 	{
 		"word": "働",
@@ -261,16 +935,57 @@
 		"kunyomi": ["はたら[く]"],
 		"onyomi": ["ドウ"],
 		"examples": [
-			{ "word": "働く", "reading": "はたらく", "meaning": "làm việc" },
-			{ "word": "働きすぎ", "reading": "はたらきすぎ", "meaning": "làm việc quá sức" }
-		]
+			{
+				"word": "働く",
+				"reading": "はたらく",
+				"meaning": "làm việc"
+			},
+			{
+				"word": "働きすぎ",
+				"reading": "はたらきすぎ",
+				"meaning": "làm việc quá sức"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亻",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "動",
+					"meaning": "chuyển động"
+				}
+			],
+			"mnemonic": "**Người** (亻) luôn chân luôn tay **chuyển động** (動) tức là đang lao **động**."
+		}
 	},
 	{
 		"word": "勉",
 		"meaning": "MIỄN",
 		"kunyomi": [],
 		"onyomi": ["ベン"],
-		"examples": [{ "word": "勉強する", "reading": "べんきょうする", "meaning": "học" }]
+		"examples": [
+			{
+				"word": "勉強する",
+				"reading": "べんきょうする",
+				"meaning": "học"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "免",
+					"meaning": "tránh/thoát khỏi"
+				},
+				{
+					"char": "力",
+					"meaning": "sức mạnh"
+				}
+			],
+			"mnemonic": "Phải dùng **sức** (力) để **thoát khỏi** (免) sự lười biếng thì mới học tập (**miễn**) được."
+		}
 	},
 	{
 		"word": "強",
@@ -278,9 +993,34 @@
 		"kunyomi": ["つよ[い]", "し[いる]", "つよ[める]", "つよ[まる]"],
 		"onyomi": ["キョウ", "ゴウ"],
 		"examples": [
-			{ "word": "強い", "reading": "つよい", "meaning": "khỏe, bền, mạnh mẽ" },
-			{ "word": "勉強する", "reading": "べんきょうする", "meaning": "học" }
-		]
+			{
+				"word": "強い",
+				"reading": "つよい",
+				"meaning": "khỏe, bền, mạnh mẽ"
+			},
+			{
+				"word": "勉強する",
+				"reading": "べんきょうする",
+				"meaning": "học"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "弓",
+					"meaning": "cây cung"
+				},
+				{
+					"char": "厶",
+					"meaning": "riêng tư"
+				},
+				{
+					"char": "虫",
+					"meaning": "côn trùng"
+				}
+			],
+			"mnemonic": "Kéo **cây cung** (弓) bắn con **côn trùng** (虫) đang trốn chỗ **kín** (厶) đòi hỏi sự **cường** tráng."
+		}
 	},
 	{
 		"word": "泳",
@@ -288,9 +1028,31 @@
 		"kunyomi": ["およ[ぐ]"],
 		"onyomi": ["エイ"],
 		"examples": [
-			{ "word": "泳ぐ", "reading": "およぐ", "meaning": "bơi" },
-			{ "word": "水泳", "reading": "すいえい", "meaning": "bơi lội, môn bơi lội" }
-		]
+			{
+				"word": "泳ぐ",
+				"reading": "およぐ",
+				"meaning": "bơi"
+			},
+			{
+				"word": "水泳",
+				"reading": "すいえい",
+				"meaning": "bơi lội, môn bơi lội"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "氵",
+					"canonical": "水",
+					"meaning": "nước"
+				},
+				{
+					"char": "永",
+					"meaning": "mãi mãi"
+				}
+			],
+			"mnemonic": "Chơi dưới **nước** (氵) **mãi mãi** (永) là môn bơi (**vịnh**)."
+		}
 	},
 	{
 		"word": "部",
@@ -298,10 +1060,40 @@
 		"kunyomi": [],
 		"onyomi": ["ブ"],
 		"examples": [
-			{ "word": "部屋", "reading": "へや", "meaning": "phòng" },
-			{ "word": "全部", "reading": "ぜんぶ", "meaning": "toàn bộ" },
-			{ "word": "部長", "reading": "ぶちょう", "meaning": "trưởng phòng" }
-		]
+			{
+				"word": "部屋",
+				"reading": "へや",
+				"meaning": "phòng"
+			},
+			{
+				"word": "全部",
+				"reading": "ぜんぶ",
+				"meaning": "toàn bộ"
+			},
+			{
+				"word": "部長",
+				"reading": "ぶちょう",
+				"meaning": "trưởng phòng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "立",
+					"meaning": "đứng"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				},
+				{
+					"char": "阝",
+					"canonical": "邑",
+					"meaning": "thôn xóm/bộ lạc"
+				}
+			],
+			"mnemonic": "**Đứng** (立) mở **miệng** (口) nói chuyện với cả **thôn** (阝) (Bộ phận/Bộ lạc)."
+		}
 	},
 	{
 		"word": "屋",
@@ -309,9 +1101,30 @@
 		"kunyomi": ["や"],
 		"onyomi": ["オク"],
 		"examples": [
-			{ "word": "部屋", "reading": "へや", "meaning": "phòng" },
-			{ "word": "屋上", "reading": "おくじょう", "meaning": "mái nhà, tầng thượng" }
-		]
+			{
+				"word": "部屋",
+				"reading": "へや",
+				"meaning": "phòng"
+			},
+			{
+				"word": "屋上",
+				"reading": "おくじょう",
+				"meaning": "mái nhà, tầng thượng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "尸",
+					"meaning": "xác chết/người nằm"
+				},
+				{
+					"char": "至",
+					"meaning": "đến nơi"
+				}
+			],
+			"mnemonic": "Đi **đến nơi** (至) được ngả lưng **nằm** (尸) nghỉ, đó chính là nhà (**ốc**)."
+		}
 	},
 	{
 		"word": "室",
@@ -319,9 +1132,30 @@
 		"kunyomi": ["むろ"],
 		"onyomi": ["シツ"],
 		"examples": [
-			{ "word": "和室", "reading": "わしつ", "meaning": "phòng kiểu Nhật" },
-			{ "word": "号室", "reading": "ごうしつ", "meaning": "số phòng" }
-		]
+			{
+				"word": "和室",
+				"reading": "わしつ",
+				"meaning": "phòng kiểu Nhật"
+			},
+			{
+				"word": "号室",
+				"reading": "ごうしつ",
+				"meaning": "số phòng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "宀",
+					"meaning": "mái nhà"
+				},
+				{
+					"char": "至",
+					"meaning": "đến nơi"
+				}
+			],
+			"mnemonic": "**Đến** (至) dưới **mái nhà** (宀) là bước vào căn phòng (**thất**)."
+		}
 	},
 	{
 		"word": "場",
@@ -329,12 +1163,45 @@
 		"kunyomi": ["ば"],
 		"onyomi": ["ジョウ"],
 		"examples": [
-			{ "word": "乗り場", "reading": "のりば", "meaning": "điểm lên - xuống xe" },
-			{ "word": "場所", "reading": "ばしょ", "meaning": "địa điểm" },
-			{ "word": "置き場", "reading": "おきば", "meaning": "nơi để, chỗ để" },
-			{ "word": "駐車場", "reading": "ちゅうしゃじょう", "meaning": "bãi đỗ xe" },
-			{ "word": "市場調査", "reading": "しじょうちょうさ", "meaning": "điều tra thị trường" }
-		]
+			{
+				"word": "乗り場",
+				"reading": "のりば",
+				"meaning": "điểm lên - xuống xe"
+			},
+			{
+				"word": "場所",
+				"reading": "ばしょ",
+				"meaning": "địa điểm"
+			},
+			{
+				"word": "置き場",
+				"reading": "おきば",
+				"meaning": "nơi để, chỗ để"
+			},
+			{
+				"word": "駐車場",
+				"reading": "ちゅうしゃじょう",
+				"meaning": "bãi đỗ xe"
+			},
+			{
+				"word": "市場調査",
+				"reading": "しじょうちょうさ",
+				"meaning": "điều tra thị trường"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "土",
+					"meaning": "đất"
+				},
+				{
+					"char": "昜",
+					"meaning": "mặt trời chiếu sáng"
+				}
+			],
+			"mnemonic": "Khu **đất** (土) được **mặt trời chiếu sáng** (昜) rộng rãi là quảng **trường**."
+		}
 	},
 	{
 		"word": "所",
@@ -342,14 +1209,56 @@
 		"kunyomi": ["ところ"],
 		"onyomi": ["ショ"],
 		"examples": [
-			{ "word": "所", "reading": "ところ", "meaning": "nơi, chỗ" },
-			{ "word": "台所", "reading": "だいどころ", "meaning": "nhà bếp" },
-			{ "word": "元の所", "reading": "もとのところ", "meaning": "chỗ cũ, vị trí cũ" },
-			{ "word": "事務所", "reading": "じむしょ", "meaning": "văn phòng" },
-			{ "word": "住所", "reading": "じゅうしょ", "meaning": "địa chỉ" },
-			{ "word": "市役所", "reading": "しやくしょ", "meaning": "tòa thị chính" },
-			{ "word": "近所", "reading": "きんじょ", "meaning": "hàng xóm, lân cận" }
-		]
+			{
+				"word": "所",
+				"reading": "ところ",
+				"meaning": "nơi, chỗ"
+			},
+			{
+				"word": "台所",
+				"reading": "だいどころ",
+				"meaning": "nhà bếp"
+			},
+			{
+				"word": "元の所",
+				"reading": "もとのところ",
+				"meaning": "chỗ cũ, vị trí cũ"
+			},
+			{
+				"word": "事務所",
+				"reading": "じむしょ",
+				"meaning": "văn phòng"
+			},
+			{
+				"word": "住所",
+				"reading": "じゅうしょ",
+				"meaning": "địa chỉ"
+			},
+			{
+				"word": "市役所",
+				"reading": "しやくしょ",
+				"meaning": "tòa thị chính"
+			},
+			{
+				"word": "近所",
+				"reading": "きんじょ",
+				"meaning": "hàng xóm, lân cận"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "戶",
+					"canonical": "戸",
+					"meaning": "cánh cửa"
+				},
+				{
+					"char": "斤",
+					"meaning": "cái rìu"
+				}
+			],
+			"mnemonic": "Mang **rìu** (斤) đến phá **cửa** (戶) là một cơ **sở** phá hoại."
+		}
 	},
 	{
 		"word": "図",
@@ -357,10 +1266,35 @@
 		"kunyomi": ["と"],
 		"onyomi": ["ズ"],
 		"examples": [
-			{ "word": "図書館", "reading": "としょかん", "meaning": "thư viện" },
-			{ "word": "図", "reading": "ず", "meaning": "hình minh họa" },
-			{ "word": "地図", "reading": "ちず", "meaning": "bản đồ" }
-		]
+			{
+				"word": "図書館",
+				"reading": "としょかん",
+				"meaning": "thư viện"
+			},
+			{
+				"word": "図",
+				"reading": "ず",
+				"meaning": "hình minh họa"
+			},
+			{
+				"word": "地図",
+				"reading": "ちず",
+				"meaning": "bản đồ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "囗",
+					"meaning": "bao quanh"
+				},
+				{
+					"char": "乂",
+					"meaning": "dấu chéo"
+				}
+			],
+			"mnemonic": "Tấm bản **đồ** là tờ giấy **vuông** (囗) có vẽ những **đường chéo** (乂) đường đi."
+		}
 	},
 	{
 		"word": "館",
@@ -368,9 +1302,31 @@
 		"kunyomi": [],
 		"onyomi": ["カン"],
 		"examples": [
-			{ "word": "旅館", "reading": "りょかん", "meaning": "nhà trọ kiểu Nhật" },
-			{ "word": "美術館", "reading": "びじゅつかん", "meaning": "bảo tàng mỹ thuật" }
-		]
+			{
+				"word": "旅館",
+				"reading": "りょかん",
+				"meaning": "nhà trọ kiểu Nhật"
+			},
+			{
+				"word": "美術館",
+				"reading": "びじゅつかん",
+				"meaning": "bảo tàng mỹ thuật"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "飠",
+					"canonical": "食",
+					"meaning": "ăn uống"
+				},
+				{
+					"char": "官",
+					"meaning": "quan lại"
+				}
+			],
+			"mnemonic": "Nơi **quan lại** (官) đến **ăn uống** (飠) gọi là nhà hàng / **quán** trọ."
+		}
 	},
 	{
 		"word": "家",
@@ -378,20 +1334,80 @@
 		"kunyomi": ["いえ", "や"],
 		"onyomi": ["カ"],
 		"examples": [
-			{ "word": "家", "reading": "いえ", "meaning": "nhà" },
-			{ "word": "家賃", "reading": "やちん", "meaning": "tiền nhà" },
-			{ "word": "家族", "reading": "かぞく", "meaning": "gia đình" },
-			{ "word": "家内", "reading": "かない", "meaning": "vợ mình" },
-			{ "word": "家具", "reading": "かぐ", "meaning": "dụng cụ gia đình" },
-			{ "word": "小説家", "reading": "しょうせつか", "meaning": "tiểu thuyết gia" }
-		]
+			{
+				"word": "家",
+				"reading": "いえ",
+				"meaning": "nhà"
+			},
+			{
+				"word": "家賃",
+				"reading": "やちん",
+				"meaning": "tiền nhà"
+			},
+			{
+				"word": "家族",
+				"reading": "かぞく",
+				"meaning": "gia đình"
+			},
+			{
+				"word": "家内",
+				"reading": "かない",
+				"meaning": "vợ mình"
+			},
+			{
+				"word": "家具",
+				"reading": "かぐ",
+				"meaning": "dụng cụ gia đình"
+			},
+			{
+				"word": "小説家",
+				"reading": "しょうせつか",
+				"meaning": "tiểu thuyết gia"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "宀",
+					"meaning": "mái nhà"
+				},
+				{
+					"char": "豕",
+					"meaning": "con lợn"
+				}
+			],
+			"mnemonic": "Dưới **mái nhà** (宀) có nuôi **lợn** (豕) tượng trưng cho một **gia** đình sung túc thời xưa."
+		}
 	},
 	{
 		"word": "族",
 		"meaning": "TỘC",
 		"kunyomi": [],
 		"onyomi": ["ゾク"],
-		"examples": [{ "word": "家族", "reading": "かぞく", "meaning": "gia đình" }]
+		"examples": [
+			{
+				"word": "家族",
+				"reading": "かぞく",
+				"meaning": "gia đình"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "方",
+					"meaning": "lá cờ"
+				},
+				{
+					"char": "𠂉",
+					"meaning": "người/nằm"
+				},
+				{
+					"char": "矢",
+					"meaning": "mũi tên"
+				}
+			],
+			"mnemonic": "Cả gia **tộc** đi dưới **lá cờ** (方), tay cầm **mũi tên** (矢) để đi săn."
+		}
 	},
 	{
 		"word": "毎",
@@ -399,10 +1415,36 @@
 		"kunyomi": [],
 		"onyomi": ["マイ"],
 		"examples": [
-			{ "word": "毎朝", "reading": "まいあさ", "meaning": "mỗi sáng" },
-			{ "word": "毎日", "reading": "まいにち", "meaning": "mỗi ngày" },
-			{ "word": "毎月", "reading": "まいつき", "meaning": "mỗi tháng" }
-		]
+			{
+				"word": "毎朝",
+				"reading": "まいあさ",
+				"meaning": "mỗi sáng"
+			},
+			{
+				"word": "毎日",
+				"reading": "まいにち",
+				"meaning": "mỗi ngày"
+			},
+			{
+				"word": "毎月",
+				"reading": "まいつき",
+				"meaning": "mỗi tháng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠂉",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "母",
+					"meaning": "người mẹ"
+				}
+			],
+			"mnemonic": "**Người mẹ** (母) **mỗi** ngày đều lo lắng cho **con người** (𠂉) trong nhà."
+		}
 	},
 	{
 		"word": "朝",
@@ -410,9 +1452,34 @@
 		"kunyomi": ["あさ"],
 		"onyomi": ["チョウ"],
 		"examples": [
-			{ "word": "朝", "reading": "あさ", "meaning": "buổi sáng" },
-			{ "word": "朝ごはん", "reading": "あさごはん", "meaning": "bữa sáng" }
-		]
+			{
+				"word": "朝",
+				"reading": "あさ",
+				"meaning": "buổi sáng"
+			},
+			{
+				"word": "朝ごはん",
+				"reading": "あさごはん",
+				"meaning": "bữa sáng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "十",
+					"meaning": "mười"
+				},
+				{
+					"char": "早",
+					"meaning": "sớm"
+				},
+				{
+					"char": "月",
+					"meaning": "mặt trăng"
+				}
+			],
+			"mnemonic": "Vào **sáng sớm** (早), dù là ngày **mùng mười** (十) vẫn còn thấy **mặt trăng** (月)."
+		}
 	},
 	{
 		"word": "昼",
@@ -420,10 +1487,35 @@
 		"kunyomi": ["ひる"],
 		"onyomi": ["チュウ"],
 		"examples": [
-			{ "word": "昼", "reading": "ひる", "meaning": "buổi trưa" },
-			{ "word": "昼ごはん", "reading": "ひるごはん", "meaning": "bữa trưa" },
-			{ "word": "昼休み", "reading": "ひるやすみ", "meaning": "nghỉ trưa" }
-		]
+			{
+				"word": "昼",
+				"reading": "ひる",
+				"meaning": "buổi trưa"
+			},
+			{
+				"word": "昼ごはん",
+				"reading": "ひるごはん",
+				"meaning": "bữa trưa"
+			},
+			{
+				"word": "昼休み",
+				"reading": "ひるやすみ",
+				"meaning": "nghỉ trưa"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "尺",
+					"meaning": "cái thước"
+				},
+				{
+					"char": "旦",
+					"meaning": "bình minh/ngày"
+				}
+			],
+			"mnemonic": "Dùng **thước** (尺) đo bóng mặt trời vào ban **ngày** (旦) để biết giờ nghỉ **trưa** (trú)."
+		}
 	},
 	{
 		"word": "晩",
@@ -431,10 +1523,35 @@
 		"kunyomi": [],
 		"onyomi": ["バン"],
 		"examples": [
-			{ "word": "晩", "reading": "ばん", "meaning": "buổi tối" },
-			{ "word": "毎晩", "reading": "まいばん", "meaning": "mỗi tối" },
-			{ "word": "晩ごはん", "reading": "ばんごはん", "meaning": "bữa tối" }
-		]
+			{
+				"word": "晩",
+				"reading": "ばん",
+				"meaning": "buổi tối"
+			},
+			{
+				"word": "毎晩",
+				"reading": "まいばん",
+				"meaning": "mỗi tối"
+			},
+			{
+				"word": "晩ごはん",
+				"reading": "ばんごはん",
+				"meaning": "bữa tối"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				},
+				{
+					"char": "免",
+					"meaning": "trốn thoát/biến mất"
+				}
+			],
+			"mnemonic": "**Mặt trời** (日) **biến mất** (免) báo hiệu buổi tối (**vãn**) đã đến."
+		}
 	},
 	{
 		"word": "夜",
@@ -442,10 +1559,39 @@
 		"kunyomi": ["よ", "よる"],
 		"onyomi": ["ヤ"],
 		"examples": [
-			{ "word": "夜", "reading": "よる", "meaning": "buổi đêm" },
-			{ "word": "今夜", "reading": "こんや", "meaning": "đêm nay" },
-			{ "word": "夜行バス", "reading": "やこうバス", "meaning": "xe bus chạy đêm" }
-		]
+			{
+				"word": "夜",
+				"reading": "よる",
+				"meaning": "buổi đêm"
+			},
+			{
+				"word": "今夜",
+				"reading": "こんや",
+				"meaning": "đêm nay"
+			},
+			{
+				"word": "夜行バス",
+				"reading": "やこうバス",
+				"meaning": "xe bus chạy đêm"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亠",
+					"meaning": "mái nhà/nắp"
+				},
+				{
+					"char": "亻",
+					"meaning": "người"
+				},
+				{
+					"char": "夂",
+					"meaning": "bước chậm"
+				}
+			],
+			"mnemonic": "Buổi **đêm** (dạ), **người** (亻) đi **chậm chạp** (夂) về lại dưới **mái nhà** (亠)."
+		}
 	},
 	{
 		"word": "午",
@@ -453,16 +1599,61 @@
 		"kunyomi": [],
 		"onyomi": ["ゴ"],
 		"examples": [
-			{ "word": "午前", "reading": "ごぜん", "meaning": "buổi sáng" },
-			{ "word": "午後", "reading": "ごご", "meaning": "buổi chiều" }
-		]
+			{
+				"word": "午前",
+				"reading": "ごぜん",
+				"meaning": "buổi sáng"
+			},
+			{
+				"word": "午後",
+				"reading": "ごご",
+				"meaning": "buổi chiều"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠂉",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "十",
+					"meaning": "số 10"
+				}
+			],
+			"mnemonic": "Buổi trưa (**Ngọ**), **người** (𠂉) ta nghỉ ngơi hình **chữ thập** (十) trên giường."
+		}
 	},
 	{
 		"word": "後",
 		"meaning": "HẬU",
 		"kunyomi": ["あと", "うし"],
 		"onyomi": ["ゴ", "コウ"],
-		"examples": [{ "word": "午後", "reading": "ごご", "meaning": "buổi chiều" }]
+		"examples": [
+			{
+				"word": "午後",
+				"reading": "ごご",
+				"meaning": "buổi chiều"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "彳",
+					"meaning": "bước ngắn"
+				},
+				{
+					"char": "幺",
+					"meaning": "nhỏ/sợi tơ"
+				},
+				{
+					"char": "夂",
+					"meaning": "bước đi"
+				}
+			],
+			"mnemonic": "**Đi bước ngắn** (彳) và **chậm chạp** (夂) như **đứa trẻ** (幺) thì sẽ bị bỏ lại phía **sau** (hậu)."
+		}
 	},
 	{
 		"word": "前",
@@ -470,11 +1661,46 @@
 		"kunyomi": ["まえ"],
 		"onyomi": ["ゼン"],
 		"examples": [
-			{ "word": "お名前", "reading": "おなまえ", "meaning": "tên" },
-			{ "word": "前", "reading": "まえ", "meaning": "trước" },
-			{ "word": "駅前", "reading": "えきまえ", "meaning": "trước nhà ga" },
-			{ "word": "午前", "reading": "ごぜん", "meaning": "buổi sáng" }
-		]
+			{
+				"word": "お名前",
+				"reading": "おなまえ",
+				"meaning": "tên"
+			},
+			{
+				"word": "前",
+				"reading": "まえ",
+				"meaning": "trước"
+			},
+			{
+				"word": "駅前",
+				"reading": "えきまえ",
+				"meaning": "trước nhà ga"
+			},
+			{
+				"word": "午前",
+				"reading": "ごぜん",
+				"meaning": "buổi sáng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "䒑",
+					"canonical": "草",
+					"meaning": "cỏ"
+				},
+				{
+					"char": "月",
+					"meaning": "thịt"
+				},
+				{
+					"char": "刂",
+					"canonical": "刀",
+					"meaning": "con dao"
+				}
+			],
+			"mnemonic": "Lấy **con dao** (刂) thái **thịt** (月) trên đám **cỏ** (䒑) ở **trước** (tiền) nhà."
+		}
 	},
 	{
 		"word": "週",
@@ -482,12 +1708,46 @@
 		"kunyomi": [],
 		"onyomi": ["シュウ"],
 		"examples": [
-			{ "word": "先週", "reading": "せんしゅう", "meaning": "tuần trước" },
-			{ "word": "今週", "reading": "こんしゅう", "meaning": "tuần này" },
-			{ "word": "来週", "reading": "らいしゅう", "meaning": "tuần sau" },
-			{ "word": "週末", "reading": "しゅうまつ", "meaning": "cuối tuần" },
-			{ "word": "再来週", "reading": "さらいしゅう", "meaning": "tuần sau nữa" }
-		]
+			{
+				"word": "先週",
+				"reading": "せんしゅう",
+				"meaning": "tuần trước"
+			},
+			{
+				"word": "今週",
+				"reading": "こんしゅう",
+				"meaning": "tuần này"
+			},
+			{
+				"word": "来週",
+				"reading": "らいしゅう",
+				"meaning": "tuần sau"
+			},
+			{
+				"word": "週末",
+				"reading": "しゅうまつ",
+				"meaning": "cuối tuần"
+			},
+			{
+				"word": "再来週",
+				"reading": "さらいしゅう",
+				"meaning": "tuần sau nữa"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "辶",
+					"canonical": "辵",
+					"meaning": "bước đi"
+				},
+				{
+					"char": "吉",
+					"meaning": "tốt lành"
+				}
+			],
+			"mnemonic": "Đi **bước đi** (辶) dạo quanh một **vòng** (chu) vào ngày **tốt lành** (吉)."
+		}
 	},
 	{
 		"word": "試",
@@ -495,37 +1755,142 @@
 		"kunyomi": ["こころ[みる]", "ため[す]"],
 		"onyomi": ["シ"],
 		"examples": [
-			{ "word": "試験", "reading": "しけん", "meaning": "kỳ thi" },
-			{ "word": "試合", "reading": "しあい", "meaning": "trận đấu" }
-		]
+			{
+				"word": "試験",
+				"reading": "しけん",
+				"meaning": "kỳ thi"
+			},
+			{
+				"word": "試合",
+				"reading": "しあい",
+				"meaning": "trận đấu"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "言",
+					"meaning": "nói"
+				},
+				{
+					"char": "式",
+					"meaning": "hình thức/nghi thức"
+				}
+			],
+			"mnemonic": "Bằng **lời nói** (言) tạo ra một **hình thức** (式) để thi cử (**thí**)."
+		}
 	},
 	{
 		"word": "験",
 		"meaning": "NGHIỆM",
 		"kunyomi": [],
 		"onyomi": ["ケン", "ゲン"],
-		"examples": [{ "word": "実験", "reading": "じっけん", "meaning": "thí nghiệm" }]
+		"examples": [
+			{
+				"word": "実験",
+				"reading": "じっけん",
+				"meaning": "thí nghiệm"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "馬",
+					"meaning": "ngựa"
+				},
+				{
+					"char": "僉",
+					"meaning": "tất cả/cùng nhau"
+				}
+			],
+			"mnemonic": "Tất cả (僉) những con **ngựa** (馬) đều phải qua **nghiệm** thu, kiểm tra sức khỏe."
+		}
 	},
 	{
 		"word": "映",
 		"meaning": "ÁNH",
 		"kunyomi": ["うつ[る]", "うつ[す]"],
 		"onyomi": ["エイ"],
-		"examples": [{ "word": "映画", "reading": "えいが", "meaning": "phim, bộ phim" }]
+		"examples": [
+			{
+				"word": "映画",
+				"reading": "えいが",
+				"meaning": "phim, bộ phim"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				},
+				{
+					"char": "央",
+					"meaning": "ở giữa"
+				}
+			],
+			"mnemonic": "Ánh **mặt trời** (日) chiếu phản **chiếu** (ánh) vào **giữa** (央) phòng."
+		}
 	},
 	{
 		"word": "画",
 		"meaning": "HỌA",
 		"kunyomi": [],
 		"onyomi": ["ガ", "カク"],
-		"examples": [{ "word": "映画館", "reading": "えいがかん", "meaning": "rạp chiếu phim" }]
+		"examples": [
+			{
+				"word": "映画館",
+				"reading": "えいがかん",
+				"meaning": "rạp chiếu phim"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "一",
+					"meaning": "một"
+				},
+				{
+					"char": "由",
+					"meaning": "tự do/lí do"
+				},
+				{
+					"char": "凵",
+					"meaning": "cái hộp"
+				}
+			],
+			"mnemonic": "Vẽ bức **họa** là dùng bút kẻ **một** (一) đường **bao quanh** (凵) sự **tự do** (由)."
+		}
 	},
 	{
 		"word": "宿",
 		"meaning": "TÚC",
 		"kunyomi": ["やど", "やど[る]", "やど[す]"],
 		"onyomi": ["シュク"],
-		"examples": [{ "word": "宿題", "reading": "しゅくだい", "meaning": "bài tập về nhà" }]
+		"examples": [
+			{
+				"word": "宿題",
+				"reading": "しゅくだい",
+				"meaning": "bài tập về nhà"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "宀",
+					"meaning": "mái nhà"
+				},
+				{
+					"char": "亻",
+					"meaning": "người"
+				},
+				{
+					"char": "百",
+					"meaning": "một trăm"
+				}
+			],
+			"mnemonic": "Nhà trọ (**túc**) là dưới **mái nhà** (宀) có sức chứa **100** (百) **người** (亻)."
+		}
 	},
 	{
 		"word": "題",
@@ -533,10 +1898,35 @@
 		"kunyomi": [],
 		"onyomi": ["ダイ"],
 		"examples": [
-			{ "word": "問題", "reading": "もんだい", "meaning": "vấn đề" },
-			{ "word": "飲み放題", "reading": "のみほうだい", "meaning": "buffet đồ uống" },
-			{ "word": "食べ放題", "reading": "たべほうだい", "meaning": "buffet đồ ăn" }
-		]
+			{
+				"word": "問題",
+				"reading": "もんだい",
+				"meaning": "vấn đề"
+			},
+			{
+				"word": "飲み放題",
+				"reading": "のみほうだい",
+				"meaning": "buffet đồ uống"
+			},
+			{
+				"word": "食べ放題",
+				"reading": "たべほうだい",
+				"meaning": "buffet đồ ăn"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "是",
+					"meaning": "đúng"
+				},
+				{
+					"char": "頁",
+					"meaning": "trang giấy/cái đầu"
+				}
+			],
+			"mnemonic": "Chủ **đề** được viết **đúng** (是) đắn trên **trang giấy** (頁)."
+		}
 	},
 	{
 		"word": "紙",
@@ -544,16 +1934,57 @@
 		"kunyomi": ["かみ"],
 		"onyomi": ["シ"],
 		"examples": [
-			{ "word": "紙", "reading": "かみ", "meaning": "giấy" },
-			{ "word": "手紙", "reading": "てがみ", "meaning": "thư" }
-		]
+			{
+				"word": "紙",
+				"reading": "かみ",
+				"meaning": "giấy"
+			},
+			{
+				"word": "手紙",
+				"reading": "てがみ",
+				"meaning": "thư"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "糸",
+					"meaning": "sợi tơ/chỉ"
+				},
+				{
+					"char": "氏",
+					"meaning": "dòng họ/người"
+				}
+			],
+			"mnemonic": "Gia **tộc** (氏) này chuyên làm **giấy** (chỉ) từ **sợi tơ** (糸)."
+		}
 	},
 	{
 		"word": "英",
 		"meaning": "ANH",
 		"kunyomi": [],
 		"onyomi": ["エイ"],
-		"examples": [{ "word": "英語", "reading": "えいご", "meaning": "tiếng Anh" }]
+		"examples": [
+			{
+				"word": "英語",
+				"reading": "えいご",
+				"meaning": "tiếng Anh"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "艹",
+					"canonical": "草",
+					"meaning": "cây cỏ"
+				},
+				{
+					"char": "央",
+					"meaning": "ở giữa"
+				}
+			],
+			"mnemonic": "Đứng **giữa** (央) một đồng **cỏ** (艹) thì trông rất **anh** tuấn."
+		}
 	},
 	{
 		"word": "語",
@@ -561,9 +1992,30 @@
 		"kunyomi": ["かた[る]", "かた[らう]"],
 		"onyomi": ["ゴ"],
 		"examples": [
-			{ "word": "何語", "reading": "なにご", "meaning": "ngôn ngữ nào" },
-			{ "word": "日本語", "reading": "にほんご", "meaning": "tiếng Nhật" }
-		]
+			{
+				"word": "何語",
+				"reading": "なにご",
+				"meaning": "ngôn ngữ nào"
+			},
+			{
+				"word": "日本語",
+				"reading": "にほんご",
+				"meaning": "tiếng Nhật"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "言",
+					"meaning": "ngôn từ"
+				},
+				{
+					"char": "吾",
+					"meaning": "tôi/ngô"
+				}
+			],
+			"mnemonic": "Dùng **ngôn từ** (言) để diễn đạt cái **tôi** (吾) là ngôn **ngữ**."
+		}
 	},
 	{
 		"word": "待",
@@ -571,15 +2023,40 @@
 		"kunyomi": ["ま[つ]"],
 		"onyomi": ["タイ"],
 		"examples": [
-			{ "word": "待つ", "reading": "まつ", "meaning": "đợi" },
-			{ "word": "お待ちください", "reading": "おまちください", "meaning": "xin hãy đợi" },
+			{
+				"word": "待つ",
+				"reading": "まつ",
+				"meaning": "đợi"
+			},
+			{
+				"word": "お待ちください",
+				"reading": "おまちください",
+				"meaning": "xin hãy đợi"
+			},
 			{
 				"word": "お待たせしました",
 				"reading": "おまたせしました",
 				"meaning": "cảm ơn vì đã chờ đợi"
 			},
-			{ "word": "招待する", "reading": "しょうたいする", "meaning": "chiêu đãi, mời" }
-		]
+			{
+				"word": "招待する",
+				"reading": "しょうたいする",
+				"meaning": "chiêu đãi, mời"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "彳",
+					"meaning": "bước ngắn/đường đi"
+				},
+				{
+					"char": "寺",
+					"meaning": "ngôi chùa"
+				}
+			],
+			"mnemonic": "Đi **đường** (彳) rồi dừng lại ở **ngôi chùa** (寺) để **đợi** (đãi)."
+		}
 	},
 	{
 		"word": "開",
@@ -587,11 +2064,40 @@
 		"kunyomi": ["あ[く]", "あ[ける]", "ひら[く]", "ひら[ける]"],
 		"onyomi": ["カイ"],
 		"examples": [
-			{ "word": "開く", "reading": "あく", "meaning": "(cái gì đó) mở" },
-			{ "word": "開ける", "reading": "あける", "meaning": "mở ra (cái gì đó)" },
-			{ "word": "開く", "reading": "ひらく", "meaning": "(cái gì đó) mở" },
-			{ "word": "開発する", "reading": "かいはつする", "meaning": "khai phá, phát triển" }
-		]
+			{
+				"word": "開く",
+				"reading": "あく",
+				"meaning": "(cái gì đó) mở"
+			},
+			{
+				"word": "開ける",
+				"reading": "あける",
+				"meaning": "mở ra (cái gì đó)"
+			},
+			{
+				"word": "開く",
+				"reading": "ひらく",
+				"meaning": "(cái gì đó) mở"
+			},
+			{
+				"word": "開発する",
+				"reading": "かいはつする",
+				"meaning": "khai phá, phát triển"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "門",
+					"meaning": "cánh cổng"
+				},
+				{
+					"char": "廾",
+					"meaning": "chắp tay"
+				}
+			],
+			"mnemonic": "Dùng **hai tay** (廾) đẩy **cánh cổng** (門) để **mở** (khai) ra."
+		}
 	},
 	{
 		"word": "閉",
@@ -599,10 +2105,35 @@
 		"kunyomi": ["し[める]", "し[まる]", "と[じる]"],
 		"onyomi": ["ヘイ"],
 		"examples": [
-			{ "word": "閉める", "reading": "しめる", "meaning": "đóng (cái gì đó)" },
-			{ "word": "閉まる", "reading": "しまる", "meaning": "đóng lại" },
-			{ "word": "閉じる", "reading": "とじる", "meaning": "(cái gì đó) đóng lại" }
-		]
+			{
+				"word": "閉める",
+				"reading": "しめる",
+				"meaning": "đóng (cái gì đó)"
+			},
+			{
+				"word": "閉まる",
+				"reading": "しまる",
+				"meaning": "đóng lại"
+			},
+			{
+				"word": "閉じる",
+				"reading": "とじる",
+				"meaning": "(cái gì đó) đóng lại"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "門",
+					"meaning": "cánh cổng"
+				},
+				{
+					"char": "才",
+					"meaning": "tài năng/cái cọc"
+				}
+			],
+			"mnemonic": "Dùng **cái cọc** (才) chắn ngang **cánh cổng** (門) để **đóng** (bế) lại."
+		}
 	},
 	{
 		"word": "持",
@@ -610,11 +2141,41 @@
 		"kunyomi": ["も[つ]"],
 		"onyomi": [],
 		"examples": [
-			{ "word": "持つ", "reading": "もつ", "meaning": "mang, cầm, có" },
-			{ "word": "持っていく", "reading": "もっていく", "meaning": "mang đi" },
-			{ "word": "持ってくる", "reading": "もってくる", "meaning": "mang đến" },
-			{ "word": "気持ち", "reading": "きもち", "meaning": "cảm xúc" }
-		]
+			{
+				"word": "持つ",
+				"reading": "もつ",
+				"meaning": "mang, cầm, có"
+			},
+			{
+				"word": "持っていく",
+				"reading": "もっていく",
+				"meaning": "mang đi"
+			},
+			{
+				"word": "持ってくる",
+				"reading": "もってくる",
+				"meaning": "mang đến"
+			},
+			{
+				"word": "気持ち",
+				"reading": "きもち",
+				"meaning": "cảm xúc"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "扌",
+					"canonical": "手",
+					"meaning": "cái tay"
+				},
+				{
+					"char": "寺",
+					"meaning": "ngôi chùa"
+				}
+			],
+			"mnemonic": "Dùng **tay** (扌) **cầm** (trì) hương đi vào **ngôi chùa** (寺)."
+		}
 	},
 	{
 		"word": "使",
@@ -622,10 +2183,36 @@
 		"kunyomi": ["つか[う]"],
 		"onyomi": ["シ"],
 		"examples": [
-			{ "word": "使う", "reading": "つかう", "meaning": "sử dụng" },
-			{ "word": "使用禁止", "reading": "しようきんし", "meaning": "cấm sử dụng" },
-			{ "word": "使用中", "reading": "しようちゅう", "meaning": "đang sử dụng" }
-		]
+			{
+				"word": "使う",
+				"reading": "つかう",
+				"meaning": "sử dụng"
+			},
+			{
+				"word": "使用禁止",
+				"reading": "しようきんし",
+				"meaning": "cấm sử dụng"
+			},
+			{
+				"word": "使用中",
+				"reading": "しようちゅう",
+				"meaning": "đang sử dụng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亻",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "吏",
+					"meaning": "quan lại"
+				}
+			],
+			"mnemonic": "**Người** (亻) làm **quan** (吏) thì được phép sai **sử** (sử dụng) người khác."
+		}
 	},
 	{
 		"word": "止",
@@ -633,11 +2220,36 @@
 		"kunyomi": ["と[める]", "と[まる]"],
 		"onyomi": ["シ"],
 		"examples": [
-			{ "word": "止まる", "reading": "とまる", "meaning": "(cái gì đó) dừng lại" },
-			{ "word": "止める", "reading": "とめる", "meaning": "ngăn, dừng(cái gì đó)" },
-			{ "word": "中止", "reading": "ちゅうし", "meaning": "ngừng, hủy bỏ" },
-			{ "word": "立入禁止", "reading": "たちいりきんし", "meaning": "cấm vào" }
-		]
+			{
+				"word": "止まる",
+				"reading": "とまる",
+				"meaning": "(cái gì đó) dừng lại"
+			},
+			{
+				"word": "止める",
+				"reading": "とめる",
+				"meaning": "ngăn, dừng(cái gì đó)"
+			},
+			{
+				"word": "中止",
+				"reading": "ちゅうし",
+				"meaning": "ngừng, hủy bỏ"
+			},
+			{
+				"word": "立入禁止",
+				"reading": "たちいりきんし",
+				"meaning": "cấm vào"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "止",
+					"meaning": "dừng lại"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc, hình ảnh bàn chân đang **dừng** (chỉ) lại."
+		}
 	},
 	{
 		"word": "住",
@@ -645,9 +2257,31 @@
 		"kunyomi": ["す[む]", "す[まう]"],
 		"onyomi": ["ジュウ"],
 		"examples": [
-			{ "word": "住む", "reading": "すむ", "meaning": "sống" },
-			{ "word": "住所", "reading": "じゅうしょ", "meaning": "địa chỉ" }
-		]
+			{
+				"word": "住む",
+				"reading": "すむ",
+				"meaning": "sống"
+			},
+			{
+				"word": "住所",
+				"reading": "じゅうしょ",
+				"meaning": "địa chỉ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亻",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "主",
+					"meaning": "ông chủ"
+				}
+			],
+			"mnemonic": "**Người** (亻) là **ông chủ** (主) thì đang sinh **sống** (trú) tại đây."
+		}
 	},
 	{
 		"word": "降",
@@ -655,10 +2289,36 @@
 		"kunyomi": ["お[りる]", "お[ろす]", "ふ[る]", "ふ[り]"],
 		"onyomi": ["コウ"],
 		"examples": [
-			{ "word": "降る", "reading": "ふる", "meaning": "rơi (mưa)" },
-			{ "word": "降りる", "reading": "おりる", "meaning": "xuống khỏi, rút khỏi" },
-			{ "word": "降ろす", "reading": "おろす", "meaning": "thả xuống, rút tiền" }
-		]
+			{
+				"word": "降る",
+				"reading": "ふる",
+				"meaning": "rơi (mưa)"
+			},
+			{
+				"word": "降りる",
+				"reading": "おりる",
+				"meaning": "xuống khỏi, rút khỏi"
+			},
+			{
+				"word": "降ろす",
+				"reading": "おろす",
+				"meaning": "thả xuống, rút tiền"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "阝",
+					"canonical": "阜",
+					"meaning": "gò đất"
+				},
+				{
+					"char": "夅",
+					"meaning": "đi xuống"
+				}
+			],
+			"mnemonic": "Đi từ trên **gò đất** (阝) **bước xuống** (夅) thấp là **giáng** (rơi/xuống)."
+		}
 	},
 	{
 		"word": "私",
@@ -666,9 +2326,30 @@
 		"kunyomi": ["わたし"],
 		"onyomi": ["シ"],
 		"examples": [
-			{ "word": "私", "reading": "わたし", "meaning": "tôi" },
-			{ "word": "私", "reading": "わたくし", "meaning": "tôi" }
-		]
+			{
+				"word": "私",
+				"reading": "わたし",
+				"meaning": "tôi"
+			},
+			{
+				"word": "私",
+				"reading": "わたくし",
+				"meaning": "tôi"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "禾",
+					"meaning": "cây lúa"
+				},
+				{
+					"char": "厶",
+					"meaning": "riêng tư"
+				}
+			],
+			"mnemonic": "Giấu **cây lúa** (禾) làm của **riêng** (厶) cho bản thân **tôi** (tư)."
+		}
 	},
 	{
 		"word": "夫",
@@ -676,9 +2357,30 @@
 		"kunyomi": ["おっと"],
 		"onyomi": ["フ", "フウ"],
 		"examples": [
-			{ "word": "夫", "reading": "おっと", "meaning": "chồng (của mình)" },
-			{ "word": "大丈夫", "reading": "だいじょうぶ", "meaning": "ổn rồi, không sao đâu" }
-		]
+			{
+				"word": "夫",
+				"reading": "おっと",
+				"meaning": "chồng (của mình)"
+			},
+			{
+				"word": "大丈夫",
+				"reading": "だいじょうぶ",
+				"meaning": "ổn rồi, không sao đâu"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "大",
+					"meaning": "to lớn"
+				},
+				{
+					"char": "一",
+					"meaning": "số 1"
+				}
+			],
+			"mnemonic": "Người đàn ông **to lớn** (大) là số **1** (一) trong nhà là người **chồng** (phu)."
+		}
 	},
 	{
 		"word": "主",
@@ -686,9 +2388,30 @@
 		"kunyomi": ["おも", "ぬし"],
 		"onyomi": ["シュ", "ス"],
 		"examples": [
-			{ "word": "ご主人", "reading": "ごしゅじん", "meaning": "chồng (của người khác)" },
-			{ "word": "主人公", "reading": "しゅじんこう", "meaning": "nhân vật chính" }
-		]
+			{
+				"word": "ご主人",
+				"reading": "ごしゅじん",
+				"meaning": "chồng (của người khác)"
+			},
+			{
+				"word": "主人公",
+				"reading": "しゅじんこう",
+				"meaning": "nhân vật chính"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "丶",
+					"meaning": "chấm nhỏ"
+				},
+				{
+					"char": "王",
+					"meaning": "vua"
+				}
+			],
+			"mnemonic": "**Vua** (王) là người đứng đầu (**chấm nhỏ** ở trên) làm **chủ** đất nước."
+		}
 	},
 	{
 		"word": "奥",
@@ -696,16 +2419,65 @@
 		"kunyomi": ["おく"],
 		"onyomi": ["オウ", "イク"],
 		"examples": [
-			{ "word": "奥さん", "reading": "おくさん", "meaning": "vợ" },
-			{ "word": "奥様", "reading": "おくさま", "meaning": "vợ (của người khác)" }
-		]
+			{
+				"word": "奥さん",
+				"reading": "おくさん",
+				"meaning": "vợ"
+			},
+			{
+				"word": "奥様",
+				"reading": "おくさま",
+				"meaning": "vợ (của người khác)"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "宀",
+					"meaning": "mái nhà"
+				},
+				{
+					"char": "釆",
+					"meaning": "hái/phân biệt"
+				},
+				{
+					"char": "大",
+					"meaning": "to lớn"
+				}
+			],
+			"mnemonic": "Người **vợ** (áo) ở sâu trong **nhà** (宀), dọn dẹp **đồ lớn** (大) bằng tay (**釆**)."
+		}
 	},
 	{
 		"word": "妻",
 		"meaning": "THÊ",
 		"kunyomi": ["つま"],
 		"onyomi": ["サイ"],
-		"examples": [{ "word": "妻", "reading": "つま", "meaning": "vợ (của mình)" }]
+		"examples": [
+			{
+				"word": "妻",
+				"reading": "つま",
+				"meaning": "vợ (của mình)"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "十",
+					"meaning": "số 10"
+				},
+				{
+					"char": "⺕",
+					"canonical": "彐",
+					"meaning": "cái chổi"
+				},
+				{
+					"char": "女",
+					"meaning": "phụ nữ"
+				}
+			],
+			"mnemonic": "Người **phụ nữ** (女) cầm **chổi** (⺕) dọn dẹp **10** (十) việc trong nhà là người **vợ** (thê)."
+		}
 	},
 	{
 		"word": "兄",
@@ -713,10 +2485,35 @@
 		"kunyomi": ["あに"],
 		"onyomi": ["ケイ", "キョウ"],
 		"examples": [
-			{ "word": "兄", "reading": "あに", "meaning": "anh trai" },
-			{ "word": "お兄さん", "reading": "おにいさん", "meaning": "anh trai (người khác)" },
-			{ "word": "兄弟", "reading": "きょうだい", "meaning": "anh em" }
-		]
+			{
+				"word": "兄",
+				"reading": "あに",
+				"meaning": "anh trai"
+			},
+			{
+				"word": "お兄さん",
+				"reading": "おにいさん",
+				"meaning": "anh trai (người khác)"
+			},
+			{
+				"word": "兄弟",
+				"reading": "きょうだい",
+				"meaning": "anh em"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "口",
+					"meaning": "miệng"
+				},
+				{
+					"char": "儿",
+					"meaning": "người"
+				}
+			],
+			"mnemonic": "Người **anh** (huynh) là **người** (儿) có **miệng** (口) nói để dạy dỗ em."
+		}
 	},
 	{
 		"word": "弟",
@@ -724,10 +2521,39 @@
 		"kunyomi": ["おとうと"],
 		"onyomi": ["テイ", "ダイ"],
 		"examples": [
-			{ "word": "弟", "reading": "おとうと", "meaning": "em trai" },
-			{ "word": "弟さん", "reading": "おとうとさん", "meaning": "em trai (người khác)" },
-			{ "word": "兄弟", "reading": "きょうだい", "meaning": "anh em" }
-		]
+			{
+				"word": "弟",
+				"reading": "おとうと",
+				"meaning": "em trai"
+			},
+			{
+				"word": "弟さん",
+				"reading": "おとうとさん",
+				"meaning": "em trai (người khác)"
+			},
+			{
+				"word": "兄弟",
+				"reading": "きょうだい",
+				"meaning": "anh em"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "丷"
+				},
+				{
+					"char": "弓"
+				},
+				{
+					"char": "丨"
+				},
+				{
+					"char": "丿"
+				}
+			],
+			"mnemonic": "Hình ảnh sợi dây quấn quanh cây cung (弓), thứ tự quấn từ trên xuống dưới biểu thị cho người **em** (đệ)."
+		}
 	},
 	{
 		"word": "姉",
@@ -735,10 +2561,35 @@
 		"kunyomi": ["あね"],
 		"onyomi": ["シ"],
 		"examples": [
-			{ "word": "姉", "reading": "あね", "meaning": "chị gái" },
-			{ "word": "お姉さん", "reading": "おねえさん", "meaning": "chị gái (người khác)" },
-			{ "word": "姉妹", "reading": "しまい", "meaning": "chị em" }
-		]
+			{
+				"word": "姉",
+				"reading": "あね",
+				"meaning": "chị gái"
+			},
+			{
+				"word": "お姉さん",
+				"reading": "おねえさん",
+				"meaning": "chị gái (người khác)"
+			},
+			{
+				"word": "姉妹",
+				"reading": "しまい",
+				"meaning": "chị em"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "女",
+					"meaning": "phụ nữ"
+				},
+				{
+					"char": "市",
+					"meaning": "thị trường/chợ"
+				}
+			],
+			"mnemonic": "Người **phụ nữ** (女) dẫn em ra **chợ** (市) chơi là người **chị** (tỉ)."
+		}
 	},
 	{
 		"word": "妹",
@@ -746,45 +2597,169 @@
 		"kunyomi": ["いもうと"],
 		"onyomi": ["マイ"],
 		"examples": [
-			{ "word": "妹", "reading": "いもうと", "meaning": "em gái" },
-			{ "word": "妹さん", "reading": "いもうとさん", "meaning": "em gái (người khác)" },
-			{ "word": "姉妹", "reading": "しまい", "meaning": "chị em" }
-		]
+			{
+				"word": "妹",
+				"reading": "いもうと",
+				"meaning": "em gái"
+			},
+			{
+				"word": "妹さん",
+				"reading": "いもうとさん",
+				"meaning": "em gái (người khác)"
+			},
+			{
+				"word": "姉妹",
+				"reading": "しまい",
+				"meaning": "chị em"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "女",
+					"meaning": "phụ nữ"
+				},
+				{
+					"char": "未",
+					"meaning": "chưa đến/chưa lớn"
+				}
+			],
+			"mnemonic": "Người **phụ nữ** (女) **chưa trưởng thành** (未) là người **em gái** (muội)."
+		}
 	},
 	{
 		"word": "春",
 		"meaning": "XUÂN",
 		"kunyomi": ["はる"],
 		"onyomi": ["シュン"],
-		"examples": [{ "word": "春", "reading": "はる", "meaning": "mùa xuân" }]
+		"examples": [
+			{
+				"word": "春",
+				"reading": "はる",
+				"meaning": "mùa xuân"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "三",
+					"meaning": "số 3"
+				},
+				{
+					"char": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				}
+			],
+			"mnemonic": "**Ba** (三) **người** (人) đi ngắm **mặt trời** (日) vào mùa **xuân**."
+		}
 	},
 	{
 		"word": "夏",
 		"meaning": "HẠ",
 		"kunyomi": ["なつ"],
 		"onyomi": ["カ"],
-		"examples": [{ "word": "夏", "reading": "なつ", "meaning": "mùa hè" }]
+		"examples": [
+			{
+				"word": "夏",
+				"reading": "なつ",
+				"meaning": "mùa hè"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "頁",
+					"meaning": "cái đầu/mặt"
+				},
+				{
+					"char": "夂",
+					"meaning": "bước đi"
+				}
+			],
+			"mnemonic": "Đi **bộ** (夂) mà mồ hôi ướt đẫm **mặt** (頁) là vào mùa **hè** (hạ)."
+		}
 	},
 	{
 		"word": "秋",
 		"meaning": "THU",
 		"kunyomi": ["あき"],
 		"onyomi": ["シュウ"],
-		"examples": [{ "word": "秋", "reading": "あき", "meaning": "mùa thu" }]
+		"examples": [
+			{
+				"word": "秋",
+				"reading": "あき",
+				"meaning": "mùa thu"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "禾",
+					"meaning": "cây lúa"
+				},
+				{
+					"char": "火",
+					"meaning": "lửa"
+				}
+			],
+			"mnemonic": "**Cây lúa** (禾) chín vàng rực như **lửa** (火) báo hiệu mùa **thu**."
+		}
 	},
 	{
 		"word": "冬",
 		"meaning": "ĐÔNG",
 		"kunyomi": ["ふゆ"],
 		"onyomi": ["トウ"],
-		"examples": [{ "word": "冬", "reading": "ふゆ", "meaning": "mùa đông" }]
+		"examples": [
+			{
+				"word": "冬",
+				"reading": "ふゆ",
+				"meaning": "mùa đông"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "夂",
+					"meaning": "bước đi chậm"
+				},
+				{
+					"char": "冫",
+					"meaning": "băng giá"
+				}
+			],
+			"mnemonic": "**Bước đi** (夂) trong **băng tuyết** (冫) giá lạnh là mùa **đông**."
+		}
 	},
 	{
 		"word": "雪",
 		"meaning": "TUYẾT",
 		"kunyomi": ["ゆき"],
 		"onyomi": ["セツ"],
-		"examples": [{ "word": "雪", "reading": "ゆき", "meaning": "tuyết" }]
+		"examples": [
+			{
+				"word": "雪",
+				"reading": "ゆき",
+				"meaning": "tuyết"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "雨",
+					"meaning": "mưa"
+				},
+				{
+					"char": "彐",
+					"meaning": "cái chổi/bàn tay"
+				}
+			],
+			"mnemonic": "Bầu trời đổ **mưa** (雨) xuống đóng băng, phải dùng **chổi** (彐) quét **tuyết**."
+		}
 	},
 	{
 		"word": "海",
@@ -792,10 +2767,36 @@
 		"kunyomi": ["うみ"],
 		"onyomi": ["カイ"],
 		"examples": [
-			{ "word": "海", "reading": "うみ", "meaning": "biển" },
-			{ "word": "海外", "reading": "かいがい", "meaning": "nước ngoài" },
-			{ "word": "海岸", "reading": "かいがん", "meaning": "bờ biển" }
-		]
+			{
+				"word": "海",
+				"reading": "うみ",
+				"meaning": "biển"
+			},
+			{
+				"word": "海外",
+				"reading": "かいがい",
+				"meaning": "nước ngoài"
+			},
+			{
+				"word": "海岸",
+				"reading": "かいがん",
+				"meaning": "bờ biển"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "氵",
+					"canonical": "水",
+					"meaning": "nước"
+				},
+				{
+					"char": "毎",
+					"meaning": "mỗi/hàng ngày"
+				}
+			],
+			"mnemonic": "Nơi **mỗi** (毎) ngày đều có đầy **nước** (氵) là **biển** (hải)."
+		}
 	},
 	{
 		"word": "天",
@@ -803,10 +2804,35 @@
 		"kunyomi": [],
 		"onyomi": ["テン"],
 		"examples": [
-			{ "word": "天気", "reading": "てんき", "meaning": "thời tiết" },
-			{ "word": "天気予報", "reading": "てんきよほう", "meaning": "dự báo thời tiết" },
-			{ "word": "天才", "reading": "てんさい", "meaning": "thiên tài, người tài" }
-		]
+			{
+				"word": "天気",
+				"reading": "てんき",
+				"meaning": "thời tiết"
+			},
+			{
+				"word": "天気予報",
+				"reading": "てんきよほう",
+				"meaning": "dự báo thời tiết"
+			},
+			{
+				"word": "天才",
+				"reading": "てんさい",
+				"meaning": "thiên tài, người tài"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "一",
+					"meaning": "một"
+				},
+				{
+					"char": "大",
+					"meaning": "to lớn"
+				}
+			],
+			"mnemonic": "Phía trên **(一)** người đàn ông **to lớn** (大) chính là bầu **trời** (thiên)."
+		}
 	},
 	{
 		"word": "空",
@@ -814,40 +2840,154 @@
 		"kunyomi": ["そら", "から", "あ[く]", "あ[ける]"],
 		"onyomi": ["クウ"],
 		"examples": [
-			{ "word": "空", "reading": "そら", "meaning": "bầu trời" },
-			{ "word": "空", "reading": "から", "meaning": "trống rỗng" },
-			{ "word": "航空便", "reading": "こうくうびん", "meaning": "đường hàng không" },
-			{ "word": "空港", "reading": "くうこう", "meaning": "sân bay" },
-			{ "word": "空気", "reading": "くうき", "meaning": "không khí" }
-		]
+			{
+				"word": "空",
+				"reading": "そら",
+				"meaning": "bầu trời"
+			},
+			{
+				"word": "空",
+				"reading": "から",
+				"meaning": "trống rỗng"
+			},
+			{
+				"word": "航空便",
+				"reading": "こうくうびん",
+				"meaning": "đường hàng không"
+			},
+			{
+				"word": "空港",
+				"reading": "くうこう",
+				"meaning": "sân bay"
+			},
+			{
+				"word": "空気",
+				"reading": "くうき",
+				"meaning": "không khí"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "穴",
+					"meaning": "cái hang"
+				},
+				{
+					"char": "工",
+					"meaning": "công việc/thợ"
+				}
+			],
+			"mnemonic": "**Người thợ** (工) làm rỗng ruột một cái **hang** (穴) tạo ra khoảng **không** gian."
+		}
 	},
 	{
 		"word": "暑",
 		"meaning": "THỬ",
 		"kunyomi": ["あつ[い]"],
 		"onyomi": ["ショ"],
-		"examples": [{ "word": "暑い", "reading": "あつい", "meaning": "nóng" }]
+		"examples": [
+			{
+				"word": "暑い",
+				"reading": "あつい",
+				"meaning": "nóng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				},
+				{
+					"char": "者",
+					"meaning": "người"
+				}
+			],
+			"mnemonic": "**Người** (者) đứng dưới ánh **mặt trời** (日) thì cảm thấy rất **nóng** (thử)."
+		}
 	},
 	{
 		"word": "寒",
 		"meaning": "HÀN",
 		"kunyomi": ["さむ[い]"],
 		"onyomi": ["カン"],
-		"examples": [{ "word": "寒い", "reading": "さむい", "meaning": "lạnh" }]
+		"examples": [
+			{
+				"word": "寒い",
+				"reading": "さむい",
+				"meaning": "lạnh"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "宀",
+					"meaning": "mái nhà"
+				},
+				{
+					"char": "井",
+					"meaning": "giếng"
+				},
+				{
+					"char": "冫",
+					"meaning": "băng"
+				}
+			],
+			"mnemonic": "Dưới **nhà** (宀), nhét rơm rạ **xuống** (như giếng 井) để chống lại lớp **băng** (冫) **lạnh** (hàn)."
+		}
 	},
 	{
 		"word": "早",
 		"meaning": "TẢO",
 		"kunyomi": ["はや[い]"],
 		"onyomi": ["ソウ"],
-		"examples": [{ "word": "早い", "reading": "はやい", "meaning": "sớm" }]
+		"examples": [
+			{
+				"word": "早い",
+				"reading": "はやい",
+				"meaning": "sớm"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				},
+				{
+					"char": "十",
+					"meaning": "số 10"
+				}
+			],
+			"mnemonic": "**Mặt trời** (日) chiếu lên ngọn cỏ (**hình nón/chữ thập 十**) lúc **sáng sớm** (tảo)."
+		}
 	},
 	{
 		"word": "速",
 		"meaning": "TỐC",
 		"kunyomi": ["はや[い]"],
 		"onyomi": ["ソク"],
-		"examples": [{ "word": "速い", "reading": "はやい", "meaning": "nhanh chóng" }]
+		"examples": [
+			{
+				"word": "速い",
+				"reading": "はやい",
+				"meaning": "nhanh chóng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "辶",
+					"canonical": "辵",
+					"meaning": "bước đi"
+				},
+				{
+					"char": "束",
+					"meaning": "bó lại/buộc"
+				}
+			],
+			"mnemonic": "**Buộc** (束) gọn hành lý lại để **bước đi** (辶) cho **nhanh chóng** (tốc)."
+		}
 	},
 	{
 		"word": "遅",
@@ -855,10 +2995,36 @@
 		"kunyomi": ["おそ[い]", "おく[れる]"],
 		"onyomi": ["チ"],
 		"examples": [
-			{ "word": "遅い", "reading": "おそい", "meaning": "muộn, chậm" },
-			{ "word": "遅く", "reading": "おそく", "meaning": "muộn, chậm" },
-			{ "word": "遅れる", "reading": "おくれる", "meaning": "trễ, muộn" }
-		]
+			{
+				"word": "遅い",
+				"reading": "おそい",
+				"meaning": "muộn, chậm"
+			},
+			{
+				"word": "遅く",
+				"reading": "おそく",
+				"meaning": "muộn, chậm"
+			},
+			{
+				"word": "遅れる",
+				"reading": "おくれる",
+				"meaning": "trễ, muộn"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "辶",
+					"canonical": "辵",
+					"meaning": "bước đi"
+				},
+				{
+					"char": "犀",
+					"meaning": "con tê giác"
+				}
+			],
+			"mnemonic": "**Đi** (辶) chậm nề cục mịch như con **tê giác** (犀) thì sẽ bị **trễ** (trì)."
+		}
 	},
 	{
 		"word": "重",
@@ -866,16 +3032,56 @@
 		"kunyomi": ["おも[い]", "かさ[ねる]", "かさ[なる]"],
 		"onyomi": ["ジュウ"],
 		"examples": [
-			{ "word": "重い", "reading": "おもい", "meaning": "nặng" },
-			{ "word": "重さ", "reading": "おもさ", "meaning": "sức nặng" }
-		]
+			{
+				"word": "重い",
+				"reading": "おもい",
+				"meaning": "nặng"
+			},
+			{
+				"word": "重さ",
+				"reading": "おもさ",
+				"meaning": "sức nặng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "千",
+					"meaning": "một nghìn"
+				},
+				{
+					"char": "里",
+					"meaning": "dặm"
+				}
+			],
+			"mnemonic": "Hành lý mang đi **ngàn** (千) **dặm** (里) thì sẽ cảm thấy rất **nặng** (trọng)."
+		}
 	},
 	{
 		"word": "軽",
 		"meaning": "KHINH",
 		"kunyomi": ["かる[い]", "かろ[やか]"],
 		"onyomi": ["ケイ"],
-		"examples": [{ "word": "軽い", "reading": "かるい", "meaning": "nhẹ" }]
+		"examples": [
+			{
+				"word": "軽い",
+				"reading": "かるい",
+				"meaning": "nhẹ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "車",
+					"meaning": "xe cộ"
+				},
+				{
+					"char": "圣",
+					"meaning": "đất đá/công cụ"
+				}
+			],
+			"mnemonic": "Chiếc **xe** (車) chở đồ vật/công cụ (**圣**) nhỏ thì rất **nhẹ** (khinh)."
+		}
 	},
 	{
 		"word": "近",
@@ -883,30 +3089,110 @@
 		"kunyomi": ["ちか[い]"],
 		"onyomi": ["キン", "コン"],
 		"examples": [
-			{ "word": "近い", "reading": "ちかい", "meaning": "gần" },
-			{ "word": "最近", "reading": "さいきん", "meaning": "gần đây (thời gian)" }
-		]
+			{
+				"word": "近い",
+				"reading": "ちかい",
+				"meaning": "gần"
+			},
+			{
+				"word": "最近",
+				"reading": "さいきん",
+				"meaning": "gần đây (thời gian)"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "辶",
+					"canonical": "辵",
+					"meaning": "bước đi"
+				},
+				{
+					"char": "斤",
+					"meaning": "cái rìu"
+				}
+			],
+			"mnemonic": "Mang cái **rìu** (斤) **đi bộ** (辶) ra khu rừng **gần** (cận) nhà để đốn củi."
+		}
 	},
 	{
 		"word": "遠",
 		"meaning": "VIỄN",
 		"kunyomi": ["とお[い]"],
 		"onyomi": ["エン", "オン"],
-		"examples": [{ "word": "遠い", "reading": "とおい", "meaning": "xa" }]
+		"examples": [
+			{
+				"word": "遠い",
+				"reading": "とおい",
+				"meaning": "xa"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "辶",
+					"canonical": "辵",
+					"meaning": "bước đi"
+				},
+				{
+					"char": "袁",
+					"meaning": "trang phục dài/viên"
+				}
+			],
+			"mnemonic": "Mặc **áo dài** (袁) **bước đi** (辶) một quãng đường rất **xa** (viễn)."
+		}
 	},
 	{
 		"word": "質",
 		"meaning": "CHẤT",
 		"kunyomi": [],
 		"onyomi": ["シツ"],
-		"examples": [{ "word": "質問する", "reading": "しつもんする", "meaning": "hỏi" }]
+		"examples": [
+			{
+				"word": "質問する",
+				"reading": "しつもんする",
+				"meaning": "hỏi"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "斤",
+					"meaning": "cái rìu - ở đây nhân đôi là 2 rìu"
+				},
+				{
+					"char": "貝",
+					"meaning": "vỏ sò/tiền"
+				}
+			],
+			"mnemonic": "Dùng 2 cái **rìu** (斤) bảo vệ **tiền** (貝) để đem đi cầm cố / hỏi bản **chất**."
+		}
 	},
 	{
 		"word": "問",
 		"meaning": "VẤN",
 		"kunyomi": ["と[う]", "と[い]"],
 		"onyomi": ["モン"],
-		"examples": [{ "word": "問題", "reading": "もんだい", "meaning": "vấn đề" }]
+		"examples": [
+			{
+				"word": "問題",
+				"reading": "もんだい",
+				"meaning": "vấn đề"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "門",
+					"meaning": "cánh cổng"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				}
+			],
+			"mnemonic": "Đứng trước **cổng** (門) dùng **miệng** (口) để **hỏi** (vấn) đường."
+		}
 	},
 	{
 		"word": "答",
@@ -914,10 +3200,36 @@
 		"kunyomi": ["こた[え]", "こた[える]"],
 		"onyomi": ["トウ"],
 		"examples": [
-			{ "word": "答え", "reading": "こたえ", "meaning": "câu trả lời" },
-			{ "word": "答える", "reading": "こたえる", "meaning": "trả lời" },
-			{ "word": "回答", "reading": "かいとう", "meaning": "trả lời" }
-		]
+			{
+				"word": "答え",
+				"reading": "こたえ",
+				"meaning": "câu trả lời"
+			},
+			{
+				"word": "答える",
+				"reading": "こたえる",
+				"meaning": "trả lời"
+			},
+			{
+				"word": "回答",
+				"reading": "かいとう",
+				"meaning": "trả lời"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "⺮",
+					"canonical": "竹",
+					"meaning": "tre/trúc"
+				},
+				{
+					"char": "合",
+					"meaning": "hợp lại/vừa vặn"
+				}
+			],
+			"mnemonic": "Viết câu **trả lời** (đáp) **phù hợp** (合) lên thẻ **tre** (⺮)."
+		}
 	},
 	{
 		"word": "作",
@@ -925,10 +3237,36 @@
 		"kunyomi": ["つく[る]"],
 		"onyomi": ["サク", "サ"],
 		"examples": [
-			{ "word": "作る", "reading": "つくる", "meaning": "làm, chế biến" },
-			{ "word": "作文", "reading": "さくぶん", "meaning": "bài văn" },
-			{ "word": "操作", "reading": "そうさ", "meaning": "thao tác, vận hành" }
-		]
+			{
+				"word": "作る",
+				"reading": "つくる",
+				"meaning": "làm, chế biến"
+			},
+			{
+				"word": "作文",
+				"reading": "さくぶん",
+				"meaning": "bài văn"
+			},
+			{
+				"word": "操作",
+				"reading": "そうさ",
+				"meaning": "thao tác, vận hành"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亻",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "乍",
+					"meaning": "bỗng nhiên/vừa mới"
+				}
+			],
+			"mnemonic": "**Người** (亻) thợ **vừa mới** (乍) **làm/chế tạo** (tác) ra sản phẩm."
+		}
 	},
 	{
 		"word": "思",
@@ -936,10 +3274,35 @@
 		"kunyomi": ["おも[う]"],
 		"onyomi": ["シ"],
 		"examples": [
-			{ "word": "思う", "reading": "おもう", "meaning": "nghĩ" },
-			{ "word": "思い出す", "reading": "おもいだす", "meaning": "nhớ lại" },
-			{ "word": "不思議な", "reading": "ふしぎな", "meaning": "kỳ lạ, ảo" }
-		]
+			{
+				"word": "思う",
+				"reading": "おもう",
+				"meaning": "nghĩ"
+			},
+			{
+				"word": "思い出す",
+				"reading": "おもいだす",
+				"meaning": "nhớ lại"
+			},
+			{
+				"word": "不思議な",
+				"reading": "ふしぎな",
+				"meaning": "kỳ lạ, ảo"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "田",
+					"meaning": "đồng ruộng/bộ não"
+				},
+				{
+					"char": "心",
+					"meaning": "trái tim"
+				}
+			],
+			"mnemonic": "Dùng cả **não** (田) và **trái tim** (心) để **suy nghĩ** (tư)."
+		}
 	},
 	{
 		"word": "始",
@@ -947,9 +3310,30 @@
 		"kunyomi": ["はじ[める]", "はじ[まる]"],
 		"onyomi": ["シ"],
 		"examples": [
-			{ "word": "始める", "reading": "はじめる", "meaning": "bắt đầu" },
-			{ "word": "始まる", "reading": "はじまる", "meaning": "bắt đầu" }
-		]
+			{
+				"word": "始める",
+				"reading": "はじめる",
+				"meaning": "bắt đầu"
+			},
+			{
+				"word": "始まる",
+				"reading": "はじまる",
+				"meaning": "bắt đầu"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "女",
+					"meaning": "phụ nữ"
+				},
+				{
+					"char": "台",
+					"meaning": "cái bệ/đài"
+				}
+			],
+			"mnemonic": "Người **phụ nữ** (女) bước lên **đài** (台) để **bắt đầu** (thủy) buổi lễ."
+		}
 	},
 	{
 		"word": "着",
@@ -957,13 +3341,50 @@
 		"kunyomi": ["き[る]", "つ[く]", "つ[ける]"],
 		"onyomi": ["チャク"],
 		"examples": [
-			{ "word": "着る", "reading": "きる", "meaning": "mặc" },
-			{ "word": "着く", "reading": "つく", "meaning": "đến nơi ~" },
-			{ "word": "上着", "reading": "うわぎ", "meaning": "áo khoác" },
-			{ "word": "下着", "reading": "したぎ", "meaning": "đồ lót" },
-			{ "word": "着物", "reading": "きもの", "meaning": "trang phục Kimono" },
-			{ "word": "到着する", "reading": "とうちゃくする", "meaning": "đến nơi" }
-		]
+			{
+				"word": "着る",
+				"reading": "きる",
+				"meaning": "mặc"
+			},
+			{
+				"word": "着く",
+				"reading": "つく",
+				"meaning": "đến nơi ~"
+			},
+			{
+				"word": "上着",
+				"reading": "うわぎ",
+				"meaning": "áo khoác"
+			},
+			{
+				"word": "下着",
+				"reading": "したぎ",
+				"meaning": "đồ lót"
+			},
+			{
+				"word": "着物",
+				"reading": "きもの",
+				"meaning": "trang phục Kimono"
+			},
+			{
+				"word": "到着する",
+				"reading": "とうちゃくする",
+				"meaning": "đến nơi"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "羊",
+					"meaning": "con cừu"
+				},
+				{
+					"char": "目",
+					"meaning": "con mắt"
+				}
+			],
+			"mnemonic": "**Mắt** (目) nhìn thấy con **cừu** (羊) đang **mặc áo** (trứ)."
+		}
 	},
 	{
 		"word": "集",
@@ -971,23 +3392,82 @@
 		"kunyomi": ["あつ[める]", "あつ[まる]"],
 		"onyomi": ["シュウ"],
 		"examples": [
-			{ "word": "集める", "reading": "あつめる", "meaning": "tập hợp, sưu tầm" },
-			{ "word": "集まる", "reading": "あつまる", "meaning": "tập trung, tụ tập" }
-		]
+			{
+				"word": "集める",
+				"reading": "あつめる",
+				"meaning": "tập hợp, sưu tầm"
+			},
+			{
+				"word": "集まる",
+				"reading": "あつまる",
+				"meaning": "tập trung, tụ tập"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "隹",
+					"meaning": "chim chóc"
+				},
+				{
+					"char": "木",
+					"meaning": "cái cây"
+				}
+			],
+			"mnemonic": "Đàn **chim** (隹) **tụ tập** (tập) lại trên **cái cây** (木)."
+		}
 	},
 	{
 		"word": "練",
 		"meaning": "LUYỆN",
 		"kunyomi": ["ね[る]", "ね[り]"],
 		"onyomi": ["レン"],
-		"examples": [{ "word": "練習", "reading": "れんしゅう", "meaning": "luyện tập" }]
+		"examples": [
+			{
+				"word": "練習",
+				"reading": "れんしゅう",
+				"meaning": "luyện tập"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "糸",
+					"meaning": "sợi tơ"
+				},
+				{
+					"char": "東",
+					"meaning": "phương đông"
+				}
+			],
+			"mnemonic": "Đem **sợi chỉ** (糸) ra hướng **Đông** (東) phơi để **luyện** cho bền chắc."
+		}
 	},
 	{
 		"word": "晴",
 		"meaning": "TÌNH",
 		"kunyomi": ["は[れ]", "は[れる]", "は[らす]"],
 		"onyomi": ["セイ"],
-		"examples": [{ "word": "晴れる", "reading": "はれる", "meaning": "nắng" }]
+		"examples": [
+			{
+				"word": "晴れる",
+				"reading": "はれる",
+				"meaning": "nắng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				},
+				{
+					"char": "青",
+					"meaning": "xanh dương"
+				}
+			],
+			"mnemonic": "Ánh **mặt trời** (日) chiếu rọi bầu trời **xanh** (青) báo hiệu ngày **nắng** (tình)."
+		}
 	},
 	{
 		"word": "星",
@@ -995,9 +3475,30 @@
 		"kunyomi": ["ほし"],
 		"onyomi": ["シ"],
 		"examples": [
-			{ "word": "星", "reading": "ほし", "meaning": "sao" },
-			{ "word": "星占い", "reading": "ほしうらない", "meaning": "bói sao, bói tử vi" }
-		]
+			{
+				"word": "星",
+				"reading": "ほし",
+				"meaning": "sao"
+			},
+			{
+				"word": "星占い",
+				"reading": "ほしうらない",
+				"meaning": "bói sao, bói tử vi"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "日",
+					"meaning": "mặt trời/nhật"
+				},
+				{
+					"char": "生",
+					"meaning": "sinh ra"
+				}
+			],
+			"mnemonic": "Lúc **mặt trời** (日) lặn là lúc các **vì sao** (tinh) được **sinh ra** (生)."
+		}
 	},
 	{
 		"word": "風",
@@ -1005,9 +3506,30 @@
 		"kunyomi": ["かざ", "かぜ"],
 		"onyomi": ["フウ", "フ"],
 		"examples": [
-			{ "word": "風", "reading": "かぜ", "meaning": "gió" },
-			{ "word": "台風", "reading": "たいふう", "meaning": "cơn bão" }
-		]
+			{
+				"word": "風",
+				"reading": "かぜ",
+				"meaning": "gió"
+			},
+			{
+				"word": "台風",
+				"reading": "たいふう",
+				"meaning": "cơn bão"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "几",
+					"meaning": "cái bàn/bao quanh"
+				},
+				{
+					"char": "虫",
+					"meaning": "côn trùng"
+				}
+			],
+			"mnemonic": "**Gió** (phong) thổi mạnh bay cả **côn trùng** (虫) vào trong **nhà** (几)."
+		}
 	},
 	{
 		"word": "然",
@@ -1015,16 +3537,63 @@
 		"kunyomi": [],
 		"onyomi": ["ゼン", "ネン"],
 		"examples": [
-			{ "word": "全然", "reading": "ぜんぜん", "meaning": "hoàn toàn" },
-			{ "word": "自然", "reading": "しぜん", "meaning": "tự nhiên" }
-		]
+			{
+				"word": "全然",
+				"reading": "ぜんぜん",
+				"meaning": "hoàn toàn"
+			},
+			{
+				"word": "自然",
+				"reading": "しぜん",
+				"meaning": "tự nhiên"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "月",
+					"canonical": "肉",
+					"meaning": "thịt"
+				},
+				{
+					"char": "犬",
+					"meaning": "con chó"
+				},
+				{
+					"char": "灬",
+					"canonical": "火",
+					"meaning": "lửa"
+				}
+			],
+			"mnemonic": "Nướng **thịt** (月) **chó** (犬) trên đống **lửa** (灬) là việc đương **nhiên**."
+		}
 	},
 	{
 		"word": "油",
 		"meaning": "DU",
 		"kunyomi": ["あぶら"],
 		"onyomi": ["ユ", "ユウ"],
-		"examples": [{ "word": "石油", "reading": "せきゆ", "meaning": "dầu thô, dầu mỏ" }]
+		"examples": [
+			{
+				"word": "石油",
+				"reading": "せきゆ",
+				"meaning": "dầu thô, dầu mỏ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "氵",
+					"canonical": "水",
+					"meaning": "nước/chất lỏng"
+				},
+				{
+					"char": "由",
+					"meaning": "từ/do/tự do"
+				}
+			],
+			"mnemonic": "Chất lỏng (氵) trơn tuột chảy **tự do** (由) chính là **dầu** (du)."
+		}
 	},
 	{
 		"word": "原",
@@ -1032,16 +3601,56 @@
 		"kunyomi": ["はら"],
 		"onyomi": ["ゲン"],
 		"examples": [
-			{ "word": "原料", "reading": "げんりょう", "meaning": "nguyên liệu" },
-			{ "word": "原因", "reading": "げんいん", "meaning": "nguyên nhân" }
-		]
+			{
+				"word": "原料",
+				"reading": "げんりょう",
+				"meaning": "nguyên liệu"
+			},
+			{
+				"word": "原因",
+				"reading": "げんいん",
+				"meaning": "nguyên nhân"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "厂",
+					"meaning": "sườn núi"
+				},
+				{
+					"char": "白",
+					"meaning": "trắng"
+				},
+				{
+					"char": "小",
+					"meaning": "nhỏ"
+				}
+			],
+			"mnemonic": "Dưới **sườn núi** (厂) có con suối **nhỏ** (小) bọt tung **trắng** (白) là khởi **nguyên**."
+		}
 	},
 	{
 		"word": "皿",
 		"meaning": "MÃNH",
 		"kunyomi": ["さら"],
 		"onyomi": ["シ"],
-		"examples": [{ "word": "お皿", "reading": "おさら", "meaning": "cái đĩa" }]
+		"examples": [
+			{
+				"word": "お皿",
+				"reading": "おさら",
+				"meaning": "cái đĩa"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "皿",
+					"meaning": "cái đĩa/khay"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình ảnh cái **đĩa/bát** (mãnh) đựng thức ăn."
+		}
 	},
 	{
 		"word": "発",
@@ -1049,12 +3658,49 @@
 		"kunyomi": [],
 		"onyomi": ["ハツ", "ホツ"],
 		"examples": [
-			{ "word": "発表", "reading": "はっぴょう", "meaning": "phát biểu, thuyết trình" },
-			{ "word": "発見する", "reading": "はっけんする", "meaning": "tìm ra, phát hiện" },
-			{ "word": "発明する", "reading": "はつめいする", "meaning": "phát minh" },
-			{ "word": "出発する", "reading": "しゅっぱつする", "meaning": "xuất phát, bắt đầu" },
-			{ "word": "発音", "reading": "はつおん", "meaning": "phát âm" }
-		]
+			{
+				"word": "発表",
+				"reading": "はっぴょう",
+				"meaning": "phát biểu, thuyết trình"
+			},
+			{
+				"word": "発見する",
+				"reading": "はっけんする",
+				"meaning": "tìm ra, phát hiện"
+			},
+			{
+				"word": "発明する",
+				"reading": "はつめいする",
+				"meaning": "phát minh"
+			},
+			{
+				"word": "出発する",
+				"reading": "しゅっぱつする",
+				"meaning": "xuất phát, bắt đầu"
+			},
+			{
+				"word": "発音",
+				"reading": "はつおん",
+				"meaning": "phát âm"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "癶",
+					"meaning": "hai chân dẫm lên"
+				},
+				{
+					"char": "二",
+					"meaning": "hai"
+				},
+				{
+					"char": "儿",
+					"meaning": "người"
+				}
+			],
+			"mnemonic": "**Hai chân** (癶) của **người** (儿) dẫm lên nhau chuẩn bị **xuất phát** (phát)."
+		}
 	},
 	{
 		"word": "便",
@@ -1062,45 +3708,177 @@
 		"kunyomi": ["たよ[り]"],
 		"onyomi": ["ビン", "ベン"],
 		"examples": [
-			{ "word": "郵便局", "reading": "ゆうびんきょく", "meaning": "bưu điện" },
-			{ "word": "便利", "reading": "べんり", "meaning": "thuận tiện, tiện lợi" },
-			{ "word": "不便な", "reading": "ふべんな", "meaning": "bất tiện" }
-		]
+			{
+				"word": "郵便局",
+				"reading": "ゆうびんきょく",
+				"meaning": "bưu điện"
+			},
+			{
+				"word": "便利",
+				"reading": "べんり",
+				"meaning": "thuận tiện, tiện lợi"
+			},
+			{
+				"word": "不便な",
+				"reading": "ふべんな",
+				"meaning": "bất tiện"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亻",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "更",
+					"meaning": "thay đổi/lại"
+				}
+			],
+			"mnemonic": "**Người** (亻) có xe đi lại **thay đổi** (更) thì rất **tiện lợi**."
+		}
 	},
 	{
 		"word": "利",
 		"meaning": "LỢI",
 		"kunyomi": [],
 		"onyomi": ["リ"],
-		"examples": [{ "word": "利用する", "reading": "りようする", "meaning": "sử dụng, lợi dụng" }]
+		"examples": [
+			{
+				"word": "利用する",
+				"reading": "りようする",
+				"meaning": "sử dụng, lợi dụng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "禾",
+					"meaning": "cây lúa"
+				},
+				{
+					"char": "刂",
+					"canonical": "刀",
+					"meaning": "con dao"
+				}
+			],
+			"mnemonic": "Lấy **dao** (刂) cắt **lúa** (禾) mang về đem bán kiếm **lời/lợi**."
+		}
 	},
 	{
 		"word": "不",
 		"meaning": "BẤT",
 		"kunyomi": [],
 		"onyomi": ["フ", "ブ"],
-		"examples": [{ "word": "不思議な", "reading": "ふしぎな", "meaning": "kỳ lạ, ảo" }]
+		"examples": [
+			{
+				"word": "不思議な",
+				"reading": "ふしぎな",
+				"meaning": "kỳ lạ, ảo"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "一",
+					"meaning": "một"
+				},
+				{
+					"char": "亅",
+					"meaning": "móc"
+				},
+				{
+					"char": "八",
+					"meaning": "tám/tỏa ra"
+				}
+			],
+			"mnemonic": "Phủ định (**bất**) tất cả mọi thứ tỏa ra từ một điểm gốc."
+		}
 	},
 	{
 		"word": "静",
 		"meaning": "TĨNH",
 		"kunyomi": ["しず[か]"],
 		"onyomi": ["セイ", "ジョウ"],
-		"examples": [{ "word": "静かな", "reading": "しずかな", "meaning": "yên tĩnh, im lặng" }]
+		"examples": [
+			{
+				"word": "静かな",
+				"reading": "しずかな",
+				"meaning": "yên tĩnh, im lặng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "青",
+					"meaning": "xanh"
+				},
+				{
+					"char": "争",
+					"meaning": "tranh giành"
+				}
+			],
+			"mnemonic": "Hãy ngưng **tranh cãi** (争) để giữ cho bầu trời **xanh** (青) **yên bình/tĩnh** lặng."
+		}
 	},
 	{
 		"word": "同",
 		"meaning": "ĐỒNG",
 		"kunyomi": ["おな[じ]"],
 		"onyomi": ["ドウ"],
-		"examples": [{ "word": "同じ", "reading": "おなじ", "meaning": "giống" }]
+		"examples": [
+			{
+				"word": "同じ",
+				"reading": "おなじ",
+				"meaning": "giống"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "冂",
+					"meaning": "biên giới"
+				},
+				{
+					"char": "一",
+					"meaning": "một"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				}
+			],
+			"mnemonic": "Trong cùng một **biên giới** (冂), mọi **người** (口) nói cùng **một** (一) tiếng nói là **đồng** lòng/giống nhau."
+		}
 	},
 	{
 		"word": "有",
 		"meaning": "HỮU",
 		"kunyomi": ["あ[る]"],
 		"onyomi": ["ユウ", "ウ"],
-		"examples": [{ "word": "有名な", "reading": "ゆうめいな", "meaning": "nổi tiếng" }]
+		"examples": [
+			{
+				"word": "有名な",
+				"reading": "ゆうめいな",
+				"meaning": "nổi tiếng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠂇",
+					"canonical": "左",
+					"meaning": "tay trái"
+				},
+				{
+					"char": "月",
+					"canonical": "肉",
+					"meaning": "miếng thịt"
+				}
+			],
+			"mnemonic": "Dùng tay cầm **miếng thịt** (月) là biểu hiện của việc **có** (hữu) tài sản."
+		}
 	},
 	{
 		"word": "親",
@@ -1108,10 +3886,39 @@
 		"kunyomi": ["おや", "した[しい]", "した[しむ]"],
 		"onyomi": ["シン"],
 		"examples": [
-			{ "word": "親", "reading": "おや", "meaning": "cha mẹ" },
-			{ "word": "親切な", "reading": "しんせつな", "meaning": "thân thiện" },
-			{ "word": "両親", "reading": "りょうしん", "meaning": "cha mẹ" }
-		]
+			{
+				"word": "親",
+				"reading": "おや",
+				"meaning": "cha mẹ"
+			},
+			{
+				"word": "親切な",
+				"reading": "しんせつな",
+				"meaning": "thân thiện"
+			},
+			{
+				"word": "両親",
+				"reading": "りょうしん",
+				"meaning": "cha mẹ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "立",
+					"meaning": "đứng"
+				},
+				{
+					"char": "木",
+					"meaning": "cây"
+				},
+				{
+					"char": "見",
+					"meaning": "nhìn"
+				}
+			],
+			"mnemonic": "Cha mẹ luôn **đứng** (立) tựa **cây** (木) **nhìn** (見) theo bóng con đi xa (**thân**)."
+		}
 	},
 	{
 		"word": "細",
@@ -1119,10 +3926,35 @@
 		"kunyomi": ["こま[かい]", "ほそ[い]"],
 		"onyomi": ["サイ"],
 		"examples": [
-			{ "word": "細かい", "reading": "こまかい", "meaning": "chi tiết, (tiền) lẻ" },
-			{ "word": "細い", "reading": "ほそい", "meaning": "mỏng, hẹp" },
-			{ "word": "IPS細胞", "reading": "さいぼう", "meaning": "tế bào IPS" }
-		]
+			{
+				"word": "細かい",
+				"reading": "こまかい",
+				"meaning": "chi tiết, (tiền) lẻ"
+			},
+			{
+				"word": "細い",
+				"reading": "ほそい",
+				"meaning": "mỏng, hẹp"
+			},
+			{
+				"word": "IPS細胞",
+				"reading": "さいぼう",
+				"meaning": "tế bào IPS"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "糸",
+					"meaning": "sợi tơ"
+				},
+				{
+					"char": "田",
+					"meaning": "đồng ruộng"
+				}
+			],
+			"mnemonic": "**Sợi tơ** (糸) nhỏ **chi tiết** (tế) như những lối đi ngang dọc trên cánh **đồng** (田)."
+		}
 	},
 	{
 		"word": "駅",
@@ -1130,9 +3962,30 @@
 		"kunyomi": [],
 		"onyomi": ["エキ"],
 		"examples": [
-			{ "word": "駅", "reading": "えき", "meaning": "nhà ga" },
-			{ "word": "駅員", "reading": "えきいん", "meaning": "nhân viên nhà ga" }
-		]
+			{
+				"word": "駅",
+				"reading": "えき",
+				"meaning": "nhà ga"
+			},
+			{
+				"word": "駅員",
+				"reading": "えきいん",
+				"meaning": "nhân viên nhà ga"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "馬",
+					"meaning": "ngựa"
+				},
+				{
+					"char": "尺",
+					"meaning": "cái thước"
+				}
+			],
+			"mnemonic": "Nơi đổi **ngựa** (馬) sau mỗi **khoảng cách** (尺) đường dài thời xưa là **nhà ga** (dịch)."
+		}
 	},
 	{
 		"word": "店",
@@ -1140,10 +3993,35 @@
 		"kunyomi": ["みせ"],
 		"onyomi": ["テン"],
 		"examples": [
-			{ "word": "店", "reading": "みせ", "meaning": "cửa hàng" },
-			{ "word": "喫茶店", "reading": "きっさてん", "meaning": "quán cà phê" },
-			{ "word": "支店", "reading": "してん", "meaning": "chi nhánh" }
-		]
+			{
+				"word": "店",
+				"reading": "みせ",
+				"meaning": "cửa hàng"
+			},
+			{
+				"word": "喫茶店",
+				"reading": "きっさてん",
+				"meaning": "quán cà phê"
+			},
+			{
+				"word": "支店",
+				"reading": "してん",
+				"meaning": "chi nhánh"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "广",
+					"meaning": "mái hiên"
+				},
+				{
+					"char": "占",
+					"meaning": "chiếm lấy/bói toán"
+				}
+			],
+			"mnemonic": "Chiếm (占) một góc dưới **mái hiên** (广) để mở **cửa hàng** (điếm)."
+		}
 	},
 	{
 		"word": "池",
@@ -1151,9 +4029,31 @@
 		"kunyomi": ["いけ"],
 		"onyomi": ["チ"],
 		"examples": [
-			{ "word": "池", "reading": "いけ", "meaning": "ao" },
-			{ "word": "電池", "reading": "でんち", "meaning": "cục pin" }
-		]
+			{
+				"word": "池",
+				"reading": "いけ",
+				"meaning": "ao"
+			},
+			{
+				"word": "電池",
+				"reading": "でんち",
+				"meaning": "cục pin"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "氵",
+					"canonical": "水",
+					"meaning": "nước"
+				},
+				{
+					"char": "也",
+					"meaning": "con rắn"
+				}
+			],
+			"mnemonic": "Có một con **rắn** (也) đang bơi trong vũng **nước** (氵) gọi là **cái ao** (trì)."
+		}
 	},
 	{
 		"word": "公",
@@ -1161,9 +4061,30 @@
 		"kunyomi": ["おおやけ"],
 		"onyomi": ["コウ"],
 		"examples": [
-			{ "word": "公園", "reading": "こうえん", "meaning": "công viên" },
-			{ "word": "主人公", "reading": "しゅじんこう", "meaning": "nhân vật chính" }
-		]
+			{
+				"word": "公園",
+				"reading": "こうえん",
+				"meaning": "công viên"
+			},
+			{
+				"word": "主人公",
+				"reading": "しゅじんこう",
+				"meaning": "nhân vật chính"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "八",
+					"meaning": "phân chia"
+				},
+				{
+					"char": "厶",
+					"meaning": "riêng tư"
+				}
+			],
+			"mnemonic": "**Phân chia** (八) công bằng đồ vật của cá nhân (**riêng tư** - 厶) cho mọi người là **công** bằng."
+		}
 	},
 	{
 		"word": "園",
@@ -1171,9 +4092,30 @@
 		"kunyomi": [],
 		"onyomi": ["エン"],
 		"examples": [
-			{ "word": "動物園", "reading": "どうぶつえん", "meaning": "vườn bách thú" },
-			{ "word": "幼稚園", "reading": "ようちえん", "meaning": "trường mẫu giáo" }
-		]
+			{
+				"word": "動物園",
+				"reading": "どうぶつえん",
+				"meaning": "vườn bách thú"
+			},
+			{
+				"word": "幼稚園",
+				"reading": "ようちえん",
+				"meaning": "trường mẫu giáo"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "囗",
+					"meaning": "bao quanh"
+				},
+				{
+					"char": "袁",
+					"meaning": "áo dài"
+				}
+			],
+			"mnemonic": "Khu vực được **bao quanh** (囗) để mặc **áo dài** (袁) đi dạo là công **viên**."
+		}
 	},
 	{
 		"word": "洋",
@@ -1181,17 +4123,63 @@
 		"kunyomi": [],
 		"onyomi": ["ヨウ"],
 		"examples": [
-			{ "word": "洋服", "reading": "ようふく", "meaning": "quần áo phương Tây" },
-			{ "word": "洋食", "reading": "ようしょく", "meaning": "món ăn Tây" },
-			{ "word": "西洋化する", "reading": "せいようかする", "meaning": "Tây hoá" }
-		]
+			{
+				"word": "洋服",
+				"reading": "ようふく",
+				"meaning": "quần áo phương Tây"
+			},
+			{
+				"word": "洋食",
+				"reading": "ようしょく",
+				"meaning": "món ăn Tây"
+			},
+			{
+				"word": "西洋化する",
+				"reading": "せいようかする",
+				"meaning": "Tây hoá"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "氵",
+					"canonical": "水",
+					"meaning": "nước"
+				},
+				{
+					"char": "羊",
+					"meaning": "con cừu"
+				}
+			],
+			"mnemonic": "Qua vùng **nước** (氵) rộng lớn là tới thế giới **phương Tây** (dương), nơi nuôi nhiều **cừu** (羊)."
+		}
 	},
 	{
 		"word": "辺",
 		"meaning": "BIÊN",
 		"kunyomi": ["あた[り]"],
 		"onyomi": ["ヘン"],
-		"examples": [{ "word": "～辺", "reading": "へん", "meaning": "vùng" }]
+		"examples": [
+			{
+				"word": "～辺",
+				"reading": "へん",
+				"meaning": "vùng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "辶",
+					"canonical": "辵",
+					"meaning": "bước đi"
+				},
+				{
+					"char": "刀",
+					"meaning": "con dao"
+				}
+			],
+			"mnemonic": "Mang **dao** (刀) **đi tuần** (辶) xung quanh **khu vực biên** giới."
+		}
 	},
 	{
 		"word": "交",
@@ -1208,24 +4196,105 @@
 		],
 		"onyomi": ["コウ"],
 		"examples": [
-			{ "word": "交通", "reading": "こうつう", "meaning": "giao thông" },
-			{ "word": "交差点", "reading": "こうさてん", "meaning": "chỗ giao nhau" },
-			{ "word": "交番", "reading": "こうばん", "meaning": "đồn cảnh sát" }
-		]
+			{
+				"word": "交通",
+				"reading": "こうつう",
+				"meaning": "giao thông"
+			},
+			{
+				"word": "交差点",
+				"reading": "こうさてん",
+				"meaning": "chỗ giao nhau"
+			},
+			{
+				"word": "交番",
+				"reading": "こうばん",
+				"meaning": "đồn cảnh sát"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亠",
+					"meaning": "nắp"
+				},
+				{
+					"char": "八",
+					"meaning": "số 8"
+				},
+				{
+					"char": "乂",
+					"meaning": "chéo nhau"
+				}
+			],
+			"mnemonic": "Hình ảnh một người đứng vắt **chéo** chân (**giao** nhau)."
+		}
 	},
 	{
 		"word": "漢",
 		"meaning": "HÁN",
 		"kunyomi": [],
 		"onyomi": ["カン"],
-		"examples": [{ "word": "漢字", "reading": "かんじ", "meaning": "chữ Kanji" }]
+		"examples": [
+			{
+				"word": "漢字",
+				"reading": "かんじ",
+				"meaning": "chữ Kanji"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "氵",
+					"canonical": "水",
+					"meaning": "nước"
+				},
+				{
+					"char": "廿",
+					"meaning": "hai mươi"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				},
+				{
+					"char": "夫",
+					"meaning": "đàn ông"
+				}
+			],
+			"mnemonic": "Dòng **sông** (氵) nơi **người đàn ông** (夫) thời **Hán** sinh sống."
+		}
 	},
 	{
 		"word": "数",
 		"meaning": "SỐ",
 		"kunyomi": ["かず", "かぞ[える]"],
 		"onyomi": ["スウ"],
-		"examples": [{ "word": "数える", "reading": "かぞえる", "meaning": "đếm, tính" }]
+		"examples": [
+			{
+				"word": "数える",
+				"reading": "かぞえる",
+				"meaning": "đếm, tính"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "米",
+					"meaning": "gạo"
+				},
+				{
+					"char": "女",
+					"meaning": "phụ nữ"
+				},
+				{
+					"char": "攵",
+					"canonical": "攴",
+					"meaning": "đánh/hành động"
+				}
+			],
+			"mnemonic": "Người **phụ nữ** (女) đang thao tác (攵) **đếm** (số) từng hạt **gạo** (米)."
+		}
 	},
 	{
 		"word": "旅",
@@ -1233,16 +4302,62 @@
 		"kunyomi": ["たび"],
 		"onyomi": ["リョ"],
 		"examples": [
-			{ "word": "旅行", "reading": "りょこう", "meaning": "du lịch" },
-			{ "word": "旅館", "reading": "りょかん", "meaning": "nhà trọ kiểu Nhật" }
-		]
+			{
+				"word": "旅行",
+				"reading": "りょこう",
+				"meaning": "du lịch"
+			},
+			{
+				"word": "旅館",
+				"reading": "りょかん",
+				"meaning": "nhà trọ kiểu Nhật"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "方",
+					"meaning": "lá cờ"
+				},
+				{
+					"char": "𠂉",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "氏",
+					"meaning": "dòng họ/người"
+				}
+			],
+			"mnemonic": "Nhiều **người** (𠂉) mang **cờ** (方) đi du lịch, **lữ** hành cùng nhau."
+		}
 	},
 	{
 		"word": "薬",
 		"meaning": "DƯỢC",
 		"kunyomi": ["くすり"],
 		"onyomi": ["ヤク"],
-		"examples": [{ "word": "薬", "reading": "くすり", "meaning": "thuốc" }]
+		"examples": [
+			{
+				"word": "薬",
+				"reading": "くすり",
+				"meaning": "thuốc"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "艹",
+					"canonical": "草",
+					"meaning": "cỏ"
+				},
+				{
+					"char": "楽",
+					"meaning": "thoải mái/lạc"
+				}
+			],
+			"mnemonic": "Uống **thuốc** (dược) làm từ các loại **cỏ** (艹) xong sẽ thấy **thoải mái** (楽) dễ chịu."
+		}
 	},
 	{
 		"word": "台",
@@ -1250,9 +4365,30 @@
 		"kunyomi": [],
 		"onyomi": ["ダイ", "タイ"],
 		"examples": [
-			{ "word": "台所", "reading": "だいどころ", "meaning": "nhà bếp" },
-			{ "word": "台風", "reading": "たいふう", "meaning": "cơn bão" }
-		]
+			{
+				"word": "台所",
+				"reading": "だいどころ",
+				"meaning": "nhà bếp"
+			},
+			{
+				"word": "台風",
+				"reading": "たいふう",
+				"meaning": "cơn bão"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "厶",
+					"meaning": "riêng tư"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				}
+			],
+			"mnemonic": "Cất giấu cái **miệng** (口) xuống góc **kín** (厶) của chiếc **bàn/đài** (đài)."
+		}
 	},
 	{
 		"word": "里",
@@ -1260,43 +4396,152 @@
 		"kunyomi": ["さと"],
 		"onyomi": ["リ"],
 		"examples": [
-			{ "word": "万里の長城", "reading": "ばんりのちょうじょう", "meaning": "Vạn Lý Trường Thành" }
-		]
+			{
+				"word": "万里の長城",
+				"reading": "ばんりのちょうじょう",
+				"meaning": "Vạn Lý Trường Thành"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "田",
+					"meaning": "đồng ruộng"
+				},
+				{
+					"char": "土",
+					"meaning": "đất"
+				}
+			],
+			"mnemonic": "Khu **đất** (土) có nhiều **đồng ruộng** (田) là một **thôn/làng** (lí)."
+		}
 	},
 	{
 		"word": "才",
 		"meaning": "TÀI",
 		"kunyomi": [],
 		"onyomi": ["サイ"],
-		"examples": [{ "word": "天才", "reading": "てんさい", "meaning": "thiên tài, người tài" }]
+		"examples": [
+			{
+				"word": "天才",
+				"reading": "てんさい",
+				"meaning": "thiên tài, người tài"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "才",
+					"meaning": "tài năng"
+				}
+			],
+			"mnemonic": "Hình ảnh mầm cây mới nhú đâm xuyên qua đất thể hiện sức sống / **tài năng**."
+		}
 	},
 	{
 		"word": "去",
 		"meaning": "KHỨ",
 		"kunyomi": ["さ"],
 		"onyomi": ["キョ", "コ"],
-		"examples": [{ "word": "去年", "reading": "きょねん", "meaning": "năm ngoái" }]
+		"examples": [
+			{
+				"word": "去年",
+				"reading": "きょねん",
+				"meaning": "năm ngoái"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "土",
+					"meaning": "đất"
+				},
+				{
+					"char": "厶",
+					"meaning": "riêng tư"
+				}
+			],
+			"mnemonic": "Chôn **kín** (厶) mọi quá **khứ** xuống dưới lớp **đất** (土)."
+		}
 	},
 	{
 		"word": "若",
 		"meaning": "NHƯỢC",
 		"kunyomi": ["わか[い]"],
 		"onyomi": [],
-		"examples": [{ "word": "若い", "reading": "わかい", "meaning": "trẻ" }]
+		"examples": [
+			{
+				"word": "若い",
+				"reading": "わかい",
+				"meaning": "trẻ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "艹",
+					"canonical": "草",
+					"meaning": "cây cỏ"
+				},
+				{
+					"char": "右",
+					"meaning": "bên phải/trợ giúp"
+				}
+			],
+			"mnemonic": "Hái **cây cỏ** (艹) bằng tay **phải** (右) trông rất **trẻ trung** (nhược)."
+		}
 	},
 	{
 		"word": "短",
 		"meaning": "ĐOẢN",
 		"kunyomi": ["みじか[い]"],
 		"onyomi": ["タン"],
-		"examples": [{ "word": "短い", "reading": "みじかい", "meaning": "ngắn" }]
+		"examples": [
+			{
+				"word": "短い",
+				"reading": "みじかい",
+				"meaning": "ngắn"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "矢",
+					"meaning": "mũi tên"
+				},
+				{
+					"char": "豆",
+					"meaning": "hạt đậu"
+				}
+			],
+			"mnemonic": "**Mũi tên** (矢) mà dài bằng **hạt đậu** (豆) thì quá **ngắn** (đoản)."
+		}
 	},
 	{
 		"word": "弱",
 		"meaning": "NHƯỢC",
 		"kunyomi": ["よわ[い]"],
 		"onyomi": ["ジャク"],
-		"examples": [{ "word": "弱い", "reading": "よわい", "meaning": "yếu" }]
+		"examples": [
+			{
+				"word": "弱い",
+				"reading": "よわい",
+				"meaning": "yếu"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "弓",
+					"meaning": "cây cung"
+				},
+				{
+					"char": "彡",
+					"meaning": "lông tóc/sọc"
+				}
+			],
+			"mnemonic": "**Cây cung** (弓) mà mỏng manh như **sợi lông** (彡) thì sức bắn rất **yếu** (nhược)."
+		}
 	},
 	{
 		"word": "正",
@@ -1304,9 +4549,30 @@
 		"kunyomi": ["ただ[しい]", "まさ"],
 		"onyomi": ["ショウ", "セイ"],
 		"examples": [
-			{ "word": "正しい", "reading": "ただしい", "meaning": "đúng, chính xác" },
-			{ "word": "お正月", "reading": "おしょうがつ", "meaning": "Tết, năm mới" }
-		]
+			{
+				"word": "正しい",
+				"reading": "ただしい",
+				"meaning": "đúng, chính xác"
+			},
+			{
+				"word": "お正月",
+				"reading": "おしょうがつ",
+				"meaning": "Tết, năm mới"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "一",
+					"meaning": "một"
+				},
+				{
+					"char": "止",
+					"meaning": "dừng lại"
+				}
+			],
+			"mnemonic": "**Dừng lại** (止) ở **một** (一) ranh giới để giữ sự **chính** trực/đúng đắn."
+		}
 	},
 	{
 		"word": "広",
@@ -1314,16 +4580,61 @@
 		"kunyomi": ["ひろ[い]", "ひろ[る]", "ひろ[める]"],
 		"onyomi": ["コウ"],
 		"examples": [
-			{ "word": "広い", "reading": "ひろい", "meaning": "rộng, rộng lớn" },
-			{ "word": "広める", "reading": "ひろめる", "meaning": "mở rộng, quảng bá" }
-		]
+			{
+				"word": "広い",
+				"reading": "ひろい",
+				"meaning": "rộng, rộng lớn"
+			},
+			{
+				"word": "広める",
+				"reading": "ひろめる",
+				"meaning": "mở rộng, quảng bá"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "广",
+					"meaning": "mái hiên rộng"
+				},
+				{
+					"char": "厶",
+					"meaning": "riêng tư"
+				}
+			],
+			"mnemonic": "Không gian **riêng tư** (厶) nằm dưới **mái nhà** (广) rất **rộng lớn** (quảng)."
+		}
 	},
 	{
 		"word": "低",
 		"meaning": "ĐÊ",
 		"kunyomi": ["ひく[い]"],
 		"onyomi": ["テイ"],
-		"examples": [{ "word": "低い", "reading": "ひくい", "meaning": "thấp" }]
+		"examples": [
+			{
+				"word": "低い",
+				"reading": "ひくい",
+				"meaning": "thấp"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亻",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "氏",
+					"meaning": "dòng họ/thế lực"
+				},
+				{
+					"char": "丶",
+					"meaning": "chấm"
+				}
+			],
+			"mnemonic": "**Người** (亻) có thân phận **thấp** (đê) phải cúi mình (chữ 氏 cúi xuống)."
+		}
 	},
 	{
 		"word": "楽",
@@ -1331,11 +4642,44 @@
 		"kunyomi": ["たの[しい]", "たの[しむ]"],
 		"onyomi": ["ガク", "ラク"],
 		"examples": [
-			{ "word": "楽しい", "reading": "たのしい", "meaning": "vui tươi" },
-			{ "word": "楽しむ", "reading": "たのしむ", "meaning": "tận hưởng" },
-			{ "word": "楽な", "reading": "らくな", "meaning": "thoải mái, dễ chịu" },
-			{ "word": "音楽", "reading": "おんがく", "meaning": "âm nhạc" }
-		]
+			{
+				"word": "楽しい",
+				"reading": "たのしい",
+				"meaning": "vui tươi"
+			},
+			{
+				"word": "楽しむ",
+				"reading": "たのしむ",
+				"meaning": "tận hưởng"
+			},
+			{
+				"word": "楽な",
+				"reading": "らくな",
+				"meaning": "thoải mái, dễ chịu"
+			},
+			{
+				"word": "音楽",
+				"reading": "おんがく",
+				"meaning": "âm nhạc"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "白",
+					"meaning": "trắng"
+				},
+				{
+					"char": "幺",
+					"meaning": "sợi tơ nhỏ"
+				},
+				{
+					"char": "木",
+					"meaning": "gỗ/cây"
+				}
+			],
+			"mnemonic": "Sợi **tơ** (幺) căng trên thanh **gỗ** (木) tạo ra đàn, chơi đàn thật **vui vẻ** (lạc)."
+		}
 	},
 	{
 		"word": "太",
@@ -1343,10 +4687,35 @@
 		"kunyomi": ["ふと[い]", "ふと[る]"],
 		"onyomi": ["タ", "タイ"],
 		"examples": [
-			{ "word": "太い", "reading": "ふとい", "meaning": "béo, mập" },
-			{ "word": "太る", "reading": "ふとる", "meaning": "béo lên" },
-			{ "word": "太陽", "reading": "たいよう", "meaning": "mặt trời" }
-		]
+			{
+				"word": "太い",
+				"reading": "ふとい",
+				"meaning": "béo, mập"
+			},
+			{
+				"word": "太る",
+				"reading": "ふとる",
+				"meaning": "béo lên"
+			},
+			{
+				"word": "太陽",
+				"reading": "たいよう",
+				"meaning": "mặt trời"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "大",
+					"meaning": "to lớn"
+				},
+				{
+					"char": "丶",
+					"meaning": "chấm"
+				}
+			],
+			"mnemonic": "Đã **to lớn** (大) lại còn cộng thêm một **chấm** (丶) nữa thì là rất **béo/thái** quá."
+		}
 	},
 	{
 		"word": "運",
@@ -1354,10 +4723,36 @@
 		"kunyomi": ["はこ[ぶ]"],
 		"onyomi": ["ウン"],
 		"examples": [
-			{ "word": "運ぶ", "reading": "はこぶ", "meaning": "vận chuyển" },
-			{ "word": "運転", "reading": "うんてん", "meaning": "lái xe" },
-			{ "word": "運転手", "reading": "うんてんしゅ", "meaning": "tài xế" }
-		]
+			{
+				"word": "運ぶ",
+				"reading": "はこぶ",
+				"meaning": "vận chuyển"
+			},
+			{
+				"word": "運転",
+				"reading": "うんてん",
+				"meaning": "lái xe"
+			},
+			{
+				"word": "運転手",
+				"reading": "うんてんしゅ",
+				"meaning": "tài xế"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "辶",
+					"canonical": "辵",
+					"meaning": "bước đi/di chuyển"
+				},
+				{
+					"char": "軍",
+					"meaning": "quân đội"
+				}
+			],
+			"mnemonic": "**Quân đội** (軍) **di chuyển** (辶) binh lực gọi là **vận** chuyển."
+		}
 	},
 	{
 		"word": "合",
@@ -1365,14 +4760,60 @@
 		"kunyomi": ["あ[う]"],
 		"onyomi": ["ガッ", "ゴウ"],
 		"examples": [
-			{ "word": "合う", "reading": "あう", "meaning": "phù hợp, vừa vặn" },
-			{ "word": "間に合う", "reading": "まにあう", "meaning": "kịp thời" },
-			{ "word": "助け合う", "reading": "たすけあう", "meaning": "giúp đỡ lẫn nhau" },
-			{ "word": "知り合う", "reading": "しりあう", "meaning": "quen biết" },
-			{ "word": "具合", "reading": "ぐあい", "meaning": "tâm trạng, tình trạng" },
-			{ "word": "都合", "reading": "つごう", "meaning": "thuận tiện" },
-			{ "word": "合格", "reading": "ごうかく", "meaning": "thi đỗ" }
-		]
+			{
+				"word": "合う",
+				"reading": "あう",
+				"meaning": "phù hợp, vừa vặn"
+			},
+			{
+				"word": "間に合う",
+				"reading": "まにあう",
+				"meaning": "kịp thời"
+			},
+			{
+				"word": "助け合う",
+				"reading": "たすけあう",
+				"meaning": "giúp đỡ lẫn nhau"
+			},
+			{
+				"word": "知り合う",
+				"reading": "しりあう",
+				"meaning": "quen biết"
+			},
+			{
+				"word": "具合",
+				"reading": "ぐあい",
+				"meaning": "tâm trạng, tình trạng"
+			},
+			{
+				"word": "都合",
+				"reading": "つごう",
+				"meaning": "thuận tiện"
+			},
+			{
+				"word": "合格",
+				"reading": "ごうかく",
+				"meaning": "thi đỗ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠆢",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "一",
+					"meaning": "một"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				}
+			],
+			"mnemonic": "Cả hai **người** (𠆢) nói **một** (一) **lời** (口) là tâm đầu ý **hợp**."
+		}
 	},
 	{
 		"word": "当",
@@ -1380,23 +4821,84 @@
 		"kunyomi": ["あ[たり]", "あ[たる]"],
 		"onyomi": ["トウ"],
 		"examples": [
-			{ "word": "当たる", "reading": "あたる", "meaning": "trúng" },
-			{ "word": "お弁当", "reading": "おべんとう", "meaning": "cơm hộp" }
-		]
+			{
+				"word": "当たる",
+				"reading": "あたる",
+				"meaning": "trúng"
+			},
+			{
+				"word": "お弁当",
+				"reading": "おべんとう",
+				"meaning": "cơm hộp"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "⺌",
+					"canonical": "小",
+					"meaning": "nhỏ"
+				},
+				{
+					"char": "彐",
+					"meaning": "cái chổi/bàn tay"
+				}
+			],
+			"mnemonic": "Bàn tay (彐) **nhỏ** (⺌) bé cũng có thể **đảm đương** việc nhà."
+		}
 	},
 	{
 		"word": "考",
 		"meaning": "KHẢO",
 		"kunyomi": ["かんが[える]"],
 		"onyomi": ["コウ"],
-		"examples": [{ "word": "考える", "reading": "かんがえる", "meaning": "suy nghĩ" }]
+		"examples": [
+			{
+				"word": "考える",
+				"reading": "かんがえる",
+				"meaning": "suy nghĩ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "耂",
+					"canonical": "老",
+					"meaning": "người già"
+				},
+				{
+					"char": "丂",
+					"meaning": "ngăn trở/thở dài"
+				}
+			],
+			"mnemonic": "Cụ **già** (耂) vừa chống gậy vừa suy **nghĩ / khảo** sát xem có lỗi gì không."
+		}
 	},
 	{
 		"word": "走",
 		"meaning": "TẨU",
 		"kunyomi": ["はし[る]"],
 		"onyomi": ["ソウ"],
-		"examples": [{ "word": "走る", "reading": "はしる", "meaning": "chạy" }]
+		"examples": [
+			{
+				"word": "走る",
+				"reading": "はしる",
+				"meaning": "chạy"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "土",
+					"meaning": "đất"
+				},
+				{
+					"char": "止",
+					"meaning": "dừng lại/chân"
+				}
+			],
+			"mnemonic": "**Chân** (止) đạp xuống **đất** (土) để **chạy** (tẩu)."
+		}
 	},
 	{
 		"word": "治",
@@ -1404,9 +4906,31 @@
 		"kunyomi": ["おさ[める]", "なお[す]"],
 		"onyomi": ["ジ", "チ"],
 		"examples": [
-			{ "word": "治す", "reading": "なおす", "meaning": "chữa, trị bệnh" },
-			{ "word": "政治", "reading": "せいじ", "meaning": "chính trị" }
-		]
+			{
+				"word": "治す",
+				"reading": "なおす",
+				"meaning": "chữa, trị bệnh"
+			},
+			{
+				"word": "政治",
+				"reading": "せいじ",
+				"meaning": "chính trị"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "氵",
+					"canonical": "水",
+					"meaning": "nước"
+				},
+				{
+					"char": "台",
+					"meaning": "cái bệ/đài"
+				}
+			],
+			"mnemonic": "Dùng **nước** (氵) rửa vết thương trên **bàn** (台) để **chữa trị** bệnh."
+		}
 	},
 	{
 		"word": "通",
@@ -1414,10 +4938,36 @@
 		"kunyomi": ["かよ[う]", "とお[る]"],
 		"onyomi": ["ツウ", "ツ"],
 		"examples": [
-			{ "word": "通う", "reading": "かよう", "meaning": "đi học, đi làm" },
-			{ "word": "通る", "reading": "とおる", "meaning": "chạy (tàu xe), đi qua" },
-			{ "word": "普通", "reading": "ふつう", "meaning": "thông thường" }
-		]
+			{
+				"word": "通う",
+				"reading": "かよう",
+				"meaning": "đi học, đi làm"
+			},
+			{
+				"word": "通る",
+				"reading": "とおる",
+				"meaning": "chạy (tàu xe), đi qua"
+			},
+			{
+				"word": "普通",
+				"reading": "ふつう",
+				"meaning": "thông thường"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "辶",
+					"canonical": "辵",
+					"meaning": "bước đi"
+				},
+				{
+					"char": "甬",
+					"meaning": "lối đi/chuông"
+				}
+			],
+			"mnemonic": "**Bước đi** (辶) qua một **lối đi** (甬) mở suốt là đi qua / giao **thông**."
+		}
 	},
 	{
 		"word": "知",
@@ -1425,9 +4975,30 @@
 		"kunyomi": ["し[る]", "し[らせる]"],
 		"onyomi": ["チ"],
 		"examples": [
-			{ "word": "知る", "reading": "しる", "meaning": "biết" },
-			{ "word": "お知らせ", "reading": "おしらせ", "meaning": "thông báo" }
-		]
+			{
+				"word": "知る",
+				"reading": "しる",
+				"meaning": "biết"
+			},
+			{
+				"word": "お知らせ",
+				"reading": "おしらせ",
+				"meaning": "thông báo"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "矢",
+					"meaning": "mũi tên"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				}
+			],
+			"mnemonic": "Dùng **miệng** (口) nói nhanh như **mũi tên** (矢) bay chứng tỏ rất **hiểu biết** (tri)."
+		}
 	},
 	{
 		"word": "文",
@@ -1435,12 +5006,45 @@
 		"kunyomi": [],
 		"onyomi": ["モン", "ブン"],
 		"examples": [
-			{ "word": "ご注文", "reading": "ごちゅうもん", "meaning": "đặt hàng, gọi món" },
-			{ "word": "文法", "reading": "ぶんぽう", "meaning": "ngữ pháp" },
-			{ "word": "作文", "reading": "さくぶん", "meaning": "bài văn" },
-			{ "word": "論文", "reading": "ろんぶん", "meaning": "luận văn" },
-			{ "word": "文化", "reading": "ぶんか", "meaning": "văn hóa" }
-		]
+			{
+				"word": "ご注文",
+				"reading": "ごちゅうもん",
+				"meaning": "đặt hàng, gọi món"
+			},
+			{
+				"word": "文法",
+				"reading": "ぶんぽう",
+				"meaning": "ngữ pháp"
+			},
+			{
+				"word": "作文",
+				"reading": "さくぶん",
+				"meaning": "bài văn"
+			},
+			{
+				"word": "論文",
+				"reading": "ろんぶん",
+				"meaning": "luận văn"
+			},
+			{
+				"word": "文化",
+				"reading": "ぶんか",
+				"meaning": "văn hóa"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亠",
+					"meaning": "nắp/đầu"
+				},
+				{
+					"char": "乂",
+					"meaning": "chéo nhau"
+				}
+			],
+			"mnemonic": "Những nét **gạch chéo** (乂) thời xưa tượng trưng cho chữ viết/ **văn** chương."
+		}
 	},
 	{
 		"word": "化",
@@ -1448,9 +5052,31 @@
 		"kunyomi": ["ば[ける]", "ば[かす]"],
 		"onyomi": ["カ", "ケ"],
 		"examples": [
-			{ "word": "西洋化する", "reading": "せいようかする", "meaning": "Tây hoá" },
-			{ "word": "化粧", "reading": "けしょう", "meaning": "trang điểm" }
-		]
+			{
+				"word": "西洋化する",
+				"reading": "せいようかする",
+				"meaning": "Tây hoá"
+			},
+			{
+				"word": "化粧",
+				"reading": "けしょう",
+				"meaning": "trang điểm"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亻",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "匕",
+					"meaning": "cái thìa/biến đổi"
+				}
+			],
+			"mnemonic": "**Người** (亻) có sự **biến đổi** (匕) khác thường gọi là biến **hóa**."
+		}
 	},
 	{
 		"word": "経",
@@ -1458,37 +5084,140 @@
 		"kunyomi": ["へ[る]", "た[つ]"],
 		"onyomi": ["ケイ", "キョウ"],
 		"examples": [
-			{ "word": "経歴", "reading": "けいれき", "meaning": "lý lịch, quá trình làm việc" },
-			{ "word": "経験", "reading": "けいけん", "meaning": "kinh nghiệm" }
-		]
+			{
+				"word": "経歴",
+				"reading": "けいれき",
+				"meaning": "lý lịch, quá trình làm việc"
+			},
+			{
+				"word": "経験",
+				"reading": "けいけん",
+				"meaning": "kinh nghiệm"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "糸",
+					"meaning": "sợi tơ/chỉ"
+				},
+				{
+					"char": "圣",
+					"meaning": "đất/đường đi"
+				}
+			],
+			"mnemonic": "**Sợi tơ** (糸) trải dài qua bao nhiêu **đường đất** (圣) biểu thị thời gian trôi qua (**kinh** qua)."
+		}
 	},
 	{
 		"word": "済",
 		"meaning": "TẾ",
 		"kunyomi": ["す[む]", "す[まない]"],
 		"onyomi": ["サイ"],
-		"examples": [{ "word": "経済", "reading": "けいざい", "meaning": "kinh tế" }]
+		"examples": [
+			{
+				"word": "経済",
+				"reading": "けいざい",
+				"meaning": "kinh tế"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "氵",
+					"canonical": "水",
+					"meaning": "nước"
+				},
+				{
+					"char": "斉",
+					"meaning": "ngang bằng/đều đặn"
+				}
+			],
+			"mnemonic": "Lấy **nước** (氵) san lấp mọi thứ cho **ngang bằng** (斉) là hoàn tất / giải quyết (**tế**)."
+		}
 	},
 	{
 		"word": "政",
 		"meaning": "CHÍNH",
 		"kunyomi": ["まつりごと"],
 		"onyomi": ["セイ", "ショウ"],
-		"examples": [{ "word": "政治", "reading": "せいじ", "meaning": "chính trị" }]
+		"examples": [
+			{
+				"word": "政治",
+				"reading": "せいじ",
+				"meaning": "chính trị"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "正",
+					"meaning": "chính/đúng"
+				},
+				{
+					"char": "攵",
+					"canonical": "攴",
+					"meaning": "đánh/hành động"
+				}
+			],
+			"mnemonic": "Dùng roi (攵) bắt dân tuân theo điều **đúng** (正) là làm **chính** trị."
+		}
 	},
 	{
 		"word": "歴",
 		"meaning": "LỊCH",
 		"kunyomi": [],
 		"onyomi": ["レキ"],
-		"examples": [{ "word": "歴史", "reading": "れきし", "meaning": "lịch sử" }]
+		"examples": [
+			{
+				"word": "歴史",
+				"reading": "れきし",
+				"meaning": "lịch sử"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "厂",
+					"meaning": "sườn núi"
+				},
+				{
+					"char": "禾",
+					"meaning": "cây lúa x2"
+				},
+				{
+					"char": "止",
+					"meaning": "bước chân"
+				}
+			],
+			"mnemonic": "**Bước chân** (止) trồng **lúa** (禾) qua bao năm dưới **sườn núi** (厂) là **lịch** sử."
+		}
 	},
 	{
 		"word": "史",
 		"meaning": "SỬ",
 		"kunyomi": [],
 		"onyomi": ["シ"],
-		"examples": [{ "word": "歴史", "reading": "れきし", "meaning": "lịch sử" }]
+		"examples": [
+			{
+				"word": "歴史",
+				"reading": "れきし",
+				"meaning": "lịch sử"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "口",
+					"meaning": "miệng"
+				},
+				{
+					"char": "乂",
+					"meaning": "dấu chéo/ghi chép"
+				}
+			],
+			"mnemonic": "Dùng lời nói (**miệng** 口) để ghi chép (乂) lại các sự kiện **lịch sử**."
+		}
 	},
 	{
 		"word": "育",
@@ -1496,10 +5225,40 @@
 		"kunyomi": ["そだ[つ]", "そだ[てる]"],
 		"onyomi": ["イク"],
 		"examples": [
-			{ "word": "育てる", "reading": "そだてる", "meaning": "nuôi nấng, dạy dỗ" },
-			{ "word": "教育", "reading": "きょういく", "meaning": "giáo dục" },
-			{ "word": "体育館", "reading": "たいいくかん", "meaning": "nhà thi đấu, phòng thể chất" }
-		]
+			{
+				"word": "育てる",
+				"reading": "そだてる",
+				"meaning": "nuôi nấng, dạy dỗ"
+			},
+			{
+				"word": "教育",
+				"reading": "きょういく",
+				"meaning": "giáo dục"
+			},
+			{
+				"word": "体育館",
+				"reading": "たいいくかん",
+				"meaning": "nhà thi đấu, phòng thể chất"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亠",
+					"meaning": "nắp"
+				},
+				{
+					"char": "厶",
+					"meaning": "riêng tư"
+				},
+				{
+					"char": "月",
+					"canonical": "肉",
+					"meaning": "thịt"
+				}
+			],
+			"mnemonic": "Đứa bé nuôi từ lúc còn **nhỏ kín** (厶) đến lúc lớn có da có **thịt** (月) là giáo **dục** / nuôi nấng."
+		}
 	},
 	{
 		"word": "料",
@@ -1507,13 +5266,50 @@
 		"kunyomi": [],
 		"onyomi": ["リョウ"],
 		"examples": [
-			{ "word": "料理", "reading": "りょうり", "meaning": "món ăn, việc nấu ăn" },
-			{ "word": "資料", "reading": "しりょう", "meaning": "tài liệu" },
-			{ "word": "原料", "reading": "げんりょう", "meaning": "nguyên liệu" },
-			{ "word": "材料", "reading": "ざいりょう", "meaning": "vật liệu, nguyên liệu" },
-			{ "word": "無料", "reading": "むりょう", "meaning": "miễn phí" },
-			{ "word": "給料", "reading": "きゅうりょう", "meaning": "tiền lương" }
-		]
+			{
+				"word": "料理",
+				"reading": "りょうり",
+				"meaning": "món ăn, việc nấu ăn"
+			},
+			{
+				"word": "資料",
+				"reading": "しりょう",
+				"meaning": "tài liệu"
+			},
+			{
+				"word": "原料",
+				"reading": "げんりょう",
+				"meaning": "nguyên liệu"
+			},
+			{
+				"word": "材料",
+				"reading": "ざいりょう",
+				"meaning": "vật liệu, nguyên liệu"
+			},
+			{
+				"word": "無料",
+				"reading": "むりょう",
+				"meaning": "miễn phí"
+			},
+			{
+				"word": "給料",
+				"reading": "きゅうりょう",
+				"meaning": "tiền lương"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "米",
+					"meaning": "gạo"
+				},
+				{
+					"char": "斗",
+					"meaning": "cái đấu đong"
+				}
+			],
+			"mnemonic": "Dùng **cái đấu** (斗) để đong **gạo** (米) làm nguyên **liệu** nấu ăn."
+		}
 	},
 	{
 		"word": "理",
@@ -1521,11 +5317,41 @@
 		"kunyomi": [],
 		"onyomi": ["リ"],
 		"examples": [
-			{ "word": "無理な", "reading": "むりな", "meaning": "quá sức/ không thể" },
-			{ "word": "修理する", "reading": "しゅうりする", "meaning": "sửa chữa" },
-			{ "word": "整理する", "reading": "せいりする", "meaning": "sàng lọc, sắp xếp" },
-			{ "word": "理由", "reading": "りゆう", "meaning": "lý do" }
-		]
+			{
+				"word": "無理な",
+				"reading": "むりな",
+				"meaning": "quá sức/ không thể"
+			},
+			{
+				"word": "修理する",
+				"reading": "しゅうりする",
+				"meaning": "sửa chữa"
+			},
+			{
+				"word": "整理する",
+				"reading": "せいりする",
+				"meaning": "sàng lọc, sắp xếp"
+			},
+			{
+				"word": "理由",
+				"reading": "りゆう",
+				"meaning": "lý do"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "王",
+					"canonical": "玉",
+					"meaning": "viên ngọc"
+				},
+				{
+					"char": "里",
+					"meaning": "lí/thôn làng"
+				}
+			],
+			"mnemonic": "Ở **làng** (里) này có nguyên **lí** là phải mài dũa **ngọc** (王)."
+		}
 	},
 	{
 		"word": "味",
@@ -1533,18 +5359,67 @@
 		"kunyomi": ["あじ[わう]"],
 		"onyomi": ["ミ"],
 		"examples": [
-			{ "word": "味", "reading": "あじ", "meaning": "vị" },
-			{ "word": "意味", "reading": "いみ", "meaning": "ý nghĩa" },
-			{ "word": "興味", "reading": "きょうみ", "meaning": "hứng thú" },
-			{ "word": "趣味", "reading": "しゅみ", "meaning": "sở thích" }
-		]
+			{
+				"word": "味",
+				"reading": "あじ",
+				"meaning": "vị"
+			},
+			{
+				"word": "意味",
+				"reading": "いみ",
+				"meaning": "ý nghĩa"
+			},
+			{
+				"word": "興味",
+				"reading": "きょうみ",
+				"meaning": "hứng thú"
+			},
+			{
+				"word": "趣味",
+				"reading": "しゅみ",
+				"meaning": "sở thích"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "口",
+					"meaning": "miệng"
+				},
+				{
+					"char": "未",
+					"meaning": "chưa/cây cối"
+				}
+			],
+			"mnemonic": "Bỏ cành cây non (**chưa trưởng thành** - 未) vào **miệng** (口) nếm xem có **vị** gì."
+		}
 	},
 	{
 		"word": "飯",
 		"meaning": "PHẠN",
 		"kunyomi": ["めし"],
 		"onyomi": ["ハン"],
-		"examples": [{ "word": "ご飯", "reading": "ごはん", "meaning": "cơm" }]
+		"examples": [
+			{
+				"word": "ご飯",
+				"reading": "ごはん",
+				"meaning": "cơm"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "飠",
+					"canonical": "食",
+					"meaning": "ăn"
+				},
+				{
+					"char": "反",
+					"meaning": "ngược lại/phản"
+				}
+			],
+			"mnemonic": "**Ăn** (飠) **cơm** (phạn) xong lại cứ lật **đi lật lại** (反) cái bát."
+		}
 	},
 	{
 		"word": "野",
@@ -1552,16 +5427,57 @@
 		"kunyomi": ["の"],
 		"onyomi": ["ヤ"],
 		"examples": [
-			{ "word": "野菜", "reading": "やさい", "meaning": "rau củ" },
-			{ "word": "野球", "reading": "やきゅう", "meaning": "bóng chày" }
-		]
+			{
+				"word": "野菜",
+				"reading": "やさい",
+				"meaning": "rau củ"
+			},
+			{
+				"word": "野球",
+				"reading": "やきゅう",
+				"meaning": "bóng chày"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "里",
+					"meaning": "thôn làng"
+				},
+				{
+					"char": "予",
+					"meaning": "cho trước/dự"
+				}
+			],
+			"mnemonic": "Khu vực rộng lớn nằm ngoài **thôn làng** (里) chưa dự **đoán** (予) được là vùng **dã** ngoại."
+		}
 	},
 	{
 		"word": "酒",
 		"meaning": "TỬU",
 		"kunyomi": ["さけ"],
 		"onyomi": ["シュ"],
-		"examples": [{ "word": "お酒", "reading": "おさけ", "meaning": "rượu" }]
+		"examples": [
+			{
+				"word": "お酒",
+				"reading": "おさけ",
+				"meaning": "rượu"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "氵",
+					"canonical": "水",
+					"meaning": "nước"
+				},
+				{
+					"char": "酉",
+					"meaning": "bình rượu/hướng Tây"
+				}
+			],
+			"mnemonic": "**Chất lỏng** (氵) được ủ trong **bình** (酉) chính là **rượu** (tửu)."
+		}
 	},
 	{
 		"word": "品",
@@ -1569,16 +5485,48 @@
 		"kunyomi": ["しな"],
 		"onyomi": ["ヒン"],
 		"examples": [
-			{ "word": "品物", "reading": "しなもの", "meaning": "hàng hoá" },
-			{ "word": "製品", "reading": "せいひん", "meaning": "sản phẩm" }
-		]
+			{
+				"word": "品物",
+				"reading": "しなもの",
+				"meaning": "hàng hoá"
+			},
+			{
+				"word": "製品",
+				"reading": "せいひん",
+				"meaning": "sản phẩm"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "口",
+					"meaning": "cái miệng/hình khối vuông"
+				}
+			],
+			"mnemonic": "Ba cái **hộp vuông** (口) xếp chồng lên nhau tượng trưng cho hàng hóa/sản **phẩm**."
+		}
 	},
 	{
 		"word": "麦",
 		"meaning": "MẠCH",
 		"kunyomi": ["むぎ"],
 		"onyomi": [],
-		"examples": [{ "word": "麦", "reading": "むぎ", "meaning": "lúa mạch" }]
+		"examples": [
+			{
+				"word": "麦",
+				"reading": "むぎ",
+				"meaning": "lúa mạch"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "麦",
+					"meaning": "lúa mạch"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình cây lúa (**mạch**) có rễ cắm xuống đất."
+		}
 	},
 	{
 		"word": "船",
@@ -1586,9 +5534,34 @@
 		"kunyomi": ["ふね", "ふな"],
 		"onyomi": ["セン"],
 		"examples": [
-			{ "word": "船", "reading": "ふね", "meaning": "tàu, thuyền" },
-			{ "word": "船便", "reading": "ふなびん", "meaning": "gửi bằng đường biển" }
-		]
+			{
+				"word": "船",
+				"reading": "ふね",
+				"meaning": "tàu, thuyền"
+			},
+			{
+				"word": "船便",
+				"reading": "ふなびん",
+				"meaning": "gửi bằng đường biển"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "舟",
+					"meaning": "chiếc thuyền"
+				},
+				{
+					"char": "几",
+					"meaning": "cái bàn"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				}
+			],
+			"mnemonic": "Chiếc **thuyền** (舟) có chở chiếc **bàn** (几) và **người** (口)."
+		}
 	},
 	{
 		"word": "地",
@@ -1596,18 +5569,67 @@
 		"kunyomi": [],
 		"onyomi": ["ジ", "チ"],
 		"examples": [
-			{ "word": "地震", "reading": "じしん", "meaning": "động đất" },
-			{ "word": "地下", "reading": "ちか", "meaning": "tầng hầm" },
-			{ "word": "地下鉄", "reading": "ちかてつ", "meaning": "tàu điện ngầm" },
-			{ "word": "地球", "reading": "ちきゅう", "meaning": "Trái đất" }
-		]
+			{
+				"word": "地震",
+				"reading": "じしん",
+				"meaning": "động đất"
+			},
+			{
+				"word": "地下",
+				"reading": "ちか",
+				"meaning": "tầng hầm"
+			},
+			{
+				"word": "地下鉄",
+				"reading": "ちかてつ",
+				"meaning": "tàu điện ngầm"
+			},
+			{
+				"word": "地球",
+				"reading": "ちきゅう",
+				"meaning": "Trái đất"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "土",
+					"meaning": "đất"
+				},
+				{
+					"char": "也",
+					"meaning": "con rắn/cũng"
+				}
+			],
+			"mnemonic": "Con **rắn** (也) đang trườn trên mặt **đất** (土) / **địa** hình."
+		}
 	},
 	{
 		"word": "鉄",
 		"meaning": "THIẾT",
 		"kunyomi": [],
 		"onyomi": ["テツ"],
-		"examples": [{ "word": "地下鉄", "reading": "ちかてつ", "meaning": "tàu điện ngầm" }]
+		"examples": [
+			{
+				"word": "地下鉄",
+				"reading": "ちかてつ",
+				"meaning": "tàu điện ngầm"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "釒",
+					"canonical": "金",
+					"meaning": "kim loại"
+				},
+				{
+					"char": "失",
+					"meaning": "mất mát"
+				}
+			],
+			"mnemonic": "**Sắt** (thiết) là **kim loại** (釒) dễ bị rỉ sét (mất đi - 失) nếu không bảo quản."
+		}
 	},
 	{
 		"word": "特",
@@ -1615,10 +5637,36 @@
 		"kunyomi": [],
 		"onyomi": ["トク"],
 		"examples": [
-			{ "word": "特に", "reading": "とくに", "meaning": "nhất là, đặc biệt là" },
-			{ "word": "特別", "reading": "とくべつ", "meaning": "đặc biệt" },
-			{ "word": "特急", "reading": "とっきゅう", "meaning": "hoả tốc, thần tốc" }
-		]
+			{
+				"word": "特に",
+				"reading": "とくに",
+				"meaning": "nhất là, đặc biệt là"
+			},
+			{
+				"word": "特別",
+				"reading": "とくべつ",
+				"meaning": "đặc biệt"
+			},
+			{
+				"word": "特急",
+				"reading": "とっきゅう",
+				"meaning": "hoả tốc, thần tốc"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "牜",
+					"canonical": "牛",
+					"meaning": "con bò"
+				},
+				{
+					"char": "寺",
+					"meaning": "ngôi chùa"
+				}
+			],
+			"mnemonic": "Con **bò** (牜) được mang vào **chùa** (寺) để cúng là con bò **đặc** biệt."
+		}
 	},
 	{
 		"word": "客",
@@ -1626,9 +5674,30 @@
 		"kunyomi": [],
 		"onyomi": ["キャク"],
 		"examples": [
-			{ "word": "お客さん", "reading": "おきゃくさん", "meaning": "vị khách, khách hàng" },
-			{ "word": "お客様", "reading": "おきゃくさま", "meaning": "quý khách hàng" }
-		]
+			{
+				"word": "お客さん",
+				"reading": "おきゃくさん",
+				"meaning": "vị khách, khách hàng"
+			},
+			{
+				"word": "お客様",
+				"reading": "おきゃくさま",
+				"meaning": "quý khách hàng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "宀",
+					"meaning": "mái nhà"
+				},
+				{
+					"char": "各",
+					"meaning": "mỗi"
+				}
+			],
+			"mnemonic": "**Mỗi** (各) người đến dưới **mái nhà** (宀) chơi đều là **khách**."
+		}
 	},
 	{
 		"word": "様",
@@ -1636,24 +5705,89 @@
 		"kunyomi": ["さま"],
 		"onyomi": ["ヨウ"],
 		"examples": [
-			{ "word": "皆様", "reading": "みなさま", "meaning": "mọi người" },
-			{ "word": "奥様", "reading": "おくさま", "meaning": "vợ (vợ người khác)" },
-			{ "word": "様子", "reading": "ようす", "meaning": "dáng vẻ, bộ dạng" }
-		]
+			{
+				"word": "皆様",
+				"reading": "みなさま",
+				"meaning": "mọi người"
+			},
+			{
+				"word": "奥様",
+				"reading": "おくさま",
+				"meaning": "vợ (vợ người khác)"
+			},
+			{
+				"word": "様子",
+				"reading": "ようす",
+				"meaning": "dáng vẻ, bộ dạng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "木",
+					"meaning": "cây"
+				},
+				{
+					"char": "羊",
+					"meaning": "con cừu"
+				},
+				{
+					"char": "水",
+					"canonical": "氺",
+					"meaning": "nước"
+				}
+			],
+			"mnemonic": "Con **cừu** (羊) uống **nước** (氺) dưới gốc **cây** (木) có hình **dáng** rất đẹp."
+		}
 	},
 	{
 		"word": "荷",
 		"meaning": "HÀ",
 		"kunyomi": ["に"],
 		"onyomi": [],
-		"examples": [{ "word": "荷物", "reading": "にもつ", "meaning": "hành lý" }]
+		"examples": [
+			{
+				"word": "荷物",
+				"reading": "にもつ",
+				"meaning": "hành lý"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "艹",
+					"canonical": "草",
+					"meaning": "cỏ"
+				},
+				{
+					"char": "何",
+					"meaning": "cái gì"
+				}
+			],
+			"mnemonic": "Đồ đạc bọc trong **cỏ** (艹) thì không biết đó là cái **gì** (何) -> Hành lý (**hà**)."
+		}
 	},
 	{
 		"word": "馬",
 		"meaning": "MÃ",
 		"kunyomi": ["うま"],
 		"onyomi": [],
-		"examples": [{ "word": "馬", "reading": "うま", "meaning": "con ngựa" }]
+		"examples": [
+			{
+				"word": "馬",
+				"reading": "うま",
+				"meaning": "con ngựa"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "馬",
+					"meaning": "con ngựa"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình con **ngựa** có bờm, 4 chân và đuôi."
+		}
 	},
 	{
 		"word": "番",
@@ -1661,13 +5795,50 @@
 		"kunyomi": [],
 		"onyomi": ["バン"],
 		"examples": [
-			{ "word": "番号", "reading": "ばんごう", "meaning": "số hiệu" },
-			{ "word": "暗証番号", "reading": "あんしょうばんごう", "meaning": "mã PIN" },
-			{ "word": "交番", "reading": "こうばん", "meaning": "đồn cảnh sát" },
-			{ "word": "番組", "reading": "ばんぐみ", "meaning": "chương trình tivi" },
-			{ "word": "順番", "reading": "じゅんばん", "meaning": "thứ tự" },
-			{ "word": "～番線", "reading": "ばんせん", "meaning": "sân ga số ~ / tuyến tàu số ~" }
-		]
+			{
+				"word": "番号",
+				"reading": "ばんごう",
+				"meaning": "số hiệu"
+			},
+			{
+				"word": "暗証番号",
+				"reading": "あんしょうばんごう",
+				"meaning": "mã PIN"
+			},
+			{
+				"word": "交番",
+				"reading": "こうばん",
+				"meaning": "đồn cảnh sát"
+			},
+			{
+				"word": "番組",
+				"reading": "ばんぐみ",
+				"meaning": "chương trình tivi"
+			},
+			{
+				"word": "順番",
+				"reading": "じゅんばん",
+				"meaning": "thứ tự"
+			},
+			{
+				"word": "～番線",
+				"reading": "ばんせん",
+				"meaning": "sân ga số ~ / tuyến tàu số ~"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "釆",
+					"meaning": "dấu vết/phân biệt"
+				},
+				{
+					"char": "田",
+					"meaning": "đồng ruộng"
+				}
+			],
+			"mnemonic": "**Theo dấu vết** (釆) để chia đất ở **đồng ruộng** (田) theo **phiên** / thứ tự."
+		}
 	},
 	{
 		"word": "号",
@@ -1675,16 +5846,56 @@
 		"kunyomi": [],
 		"onyomi": ["ゴウ", "コウ"],
 		"examples": [
-			{ "word": "信号", "reading": "しんごう", "meaning": "đèn giao thông" },
-			{ "word": "号室", "reading": "ごうしつ", "meaning": "số phòng" }
-		]
+			{
+				"word": "信号",
+				"reading": "しんごう",
+				"meaning": "đèn giao thông"
+			},
+			{
+				"word": "号室",
+				"reading": "ごうしつ",
+				"meaning": "số phòng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "口",
+					"meaning": "miệng"
+				},
+				{
+					"char": "丂",
+					"meaning": "ngăn trở/thở dài"
+				}
+			],
+			"mnemonic": "Mở **miệng** (口) nói to để hô **hiệu** lệnh cho khỏi vướng mắc (丂)."
+		}
 	},
 	{
 		"word": "写",
 		"meaning": "TẢ",
 		"kunyomi": ["うつ[る]", "うつ[す]"],
 		"onyomi": ["シャ"],
-		"examples": [{ "word": "写真", "reading": "しゃしん", "meaning": "ảnh, bức ảnh" }]
+		"examples": [
+			{
+				"word": "写真",
+				"reading": "しゃしん",
+				"meaning": "ảnh, bức ảnh"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "冖",
+					"meaning": "khăn trùm"
+				},
+				{
+					"char": "与",
+					"meaning": "trao cho/cùng"
+				}
+			],
+			"mnemonic": "**Trùm khăn** (冖) che máy ảnh lại để **chụp/sao chép** (tả) hình rồi **trao** (与) cho bạn."
+		}
 	},
 	{
 		"word": "真",
@@ -1692,10 +5903,39 @@
 		"kunyomi": ["ま"],
 		"onyomi": ["シン"],
 		"examples": [
-			{ "word": "真ん中", "reading": "まんなか", "meaning": "chính giữa" },
-			{ "word": "真っ白", "reading": "まっしろ", "meaning": "trắng tinh" },
-			{ "word": "写真", "reading": "しゃしん", "meaning": "ảnh, bức ảnh" }
-		]
+			{
+				"word": "真ん中",
+				"reading": "まんなか",
+				"meaning": "chính giữa"
+			},
+			{
+				"word": "真っ白",
+				"reading": "まっしろ",
+				"meaning": "trắng tinh"
+			},
+			{
+				"word": "写真",
+				"reading": "しゃしん",
+				"meaning": "ảnh, bức ảnh"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "十",
+					"meaning": "mười"
+				},
+				{
+					"char": "目",
+					"meaning": "mắt"
+				},
+				{
+					"char": "廾",
+					"meaning": "chắp tay"
+				}
+			],
+			"mnemonic": "Mười (十) **con mắt** (目) cùng nhìn một lúc thì sẽ thấy được sự **chân** thật."
+		}
 	},
 	{
 		"word": "計",
@@ -1703,31 +5943,109 @@
 		"kunyomi": ["はか[る]"],
 		"onyomi": ["ケイ"],
 		"examples": [
-			{ "word": "時計", "reading": "とけい", "meaning": "đồng hồ" },
-			{ "word": "覚まし時計", "reading": "めざましどけい", "meaning": "đồng hồ báo thức" },
-			{ "word": "体温計", "reading": "たいおんけい", "meaning": "nhiệt kế" }
-		]
+			{
+				"word": "時計",
+				"reading": "とけい",
+				"meaning": "đồng hồ"
+			},
+			{
+				"word": "覚まし時計",
+				"reading": "めざましどけい",
+				"meaning": "đồng hồ báo thức"
+			},
+			{
+				"word": "体温計",
+				"reading": "たいおんけい",
+				"meaning": "nhiệt kế"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "言",
+					"meaning": "nói"
+				},
+				{
+					"char": "十",
+					"meaning": "mười"
+				}
+			],
+			"mnemonic": "**Nói** (言) ra kết quả đếm từ 1 đến **10** (十) là **kế** toán/đo lường."
+		}
 	},
 	{
 		"word": "宅",
 		"meaning": "TRẠCH",
 		"kunyomi": [],
 		"onyomi": ["タク"],
-		"examples": [{ "word": "お宅", "reading": "おたく", "meaning": "Nhà (người khác)" }]
+		"examples": [
+			{
+				"word": "お宅",
+				"reading": "おたく",
+				"meaning": "Nhà (người khác)"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "宀",
+					"meaning": "mái nhà"
+				},
+				{
+					"char": "乇",
+					"meaning": "thác/giao phó"
+				}
+			],
+			"mnemonic": "Giao phó (乇) bản thân ngủ dưới **mái nhà** (宀) an toàn là nhà ở (**trạch**)."
+		}
 	},
 	{
 		"word": "玉",
 		"meaning": "NGỌC",
 		"kunyomi": ["たま", "だま"],
 		"onyomi": [],
-		"examples": [{ "word": "お年玉", "reading": "おとしだま", "meaning": "tiền lì xì" }]
+		"examples": [
+			{
+				"word": "お年玉",
+				"reading": "おとしだま",
+				"meaning": "tiền lì xì"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "王",
+					"meaning": "vua"
+				},
+				{
+					"char": "丶",
+					"meaning": "chấm"
+				}
+			],
+			"mnemonic": "Viên đá có một **chấm** (丶) thuộc quyền sở hữu của **vua** (王) là viên **ngọc**."
+		}
 	},
 	{
 		"word": "工",
 		"meaning": "CÔNG",
 		"kunyomi": [],
 		"onyomi": ["ク", "コウ"],
-		"examples": [{ "word": "工場", "reading": "こうじょう", "meaning": "nhà máy" }]
+		"examples": [
+			{
+				"word": "工場",
+				"reading": "こうじょう",
+				"meaning": "nhà máy"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "工",
+					"meaning": "người thợ/kỹ thuật"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình cây thước đo góc vuông của **người thợ** (công)."
+		}
 	},
 	{
 		"word": "白",
@@ -1735,10 +6053,31 @@
 		"kunyomi": ["しろ", "しろ[い]"],
 		"onyomi": ["ハク"],
 		"examples": [
-			{ "word": "白", "reading": "しろ", "meaning": "màu trắng" },
-			{ "word": "白い", "reading": "しろい", "meaning": "trắng" },
-			{ "word": "真っ白", "reading": "まっしろ", "meaning": "trắng tinh" }
-		]
+			{
+				"word": "白",
+				"reading": "しろ",
+				"meaning": "màu trắng"
+			},
+			{
+				"word": "白い",
+				"reading": "しろい",
+				"meaning": "trắng"
+			},
+			{
+				"word": "真っ白",
+				"reading": "まっしろ",
+				"meaning": "trắng tinh"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "白",
+					"meaning": "màu trắng"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Một tia sáng (丶) phát ra từ mặt trời (日) là màu **trắng** rực."
+		}
 	},
 	{
 		"word": "黒",
@@ -1746,10 +6085,36 @@
 		"kunyomi": ["くろ", "くろ[い]"],
 		"onyomi": ["コク"],
 		"examples": [
-			{ "word": "黒", "reading": "くろ", "meaning": "màu đen" },
-			{ "word": "黒い", "reading": "くろい", "meaning": "đen" },
-			{ "word": "真っ黒", "reading": "まっくろ", "meaning": "đen kịt" }
-		]
+			{
+				"word": "黒",
+				"reading": "くろ",
+				"meaning": "màu đen"
+			},
+			{
+				"word": "黒い",
+				"reading": "くろい",
+				"meaning": "đen"
+			},
+			{
+				"word": "真っ黒",
+				"reading": "まっくろ",
+				"meaning": "đen kịt"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "里",
+					"meaning": "ngôi làng"
+				},
+				{
+					"char": "灬",
+					"canonical": "火",
+					"meaning": "lửa"
+				}
+			],
+			"mnemonic": "Ngôi **làng** (里) bị **lửa** (灬) thiêu cháy thì chỉ còn lại màu **đen** (hắc)."
+		}
 	},
 	{
 		"word": "赤",
@@ -1757,10 +6122,36 @@
 		"kunyomi": ["あか", "あか[い]"],
 		"onyomi": ["セキ", "シャク"],
 		"examples": [
-			{ "word": "赤", "reading": "あか", "meaning": "màu đỏ" },
-			{ "word": "赤い", "reading": "あかい", "meaning": "đỏ" },
-			{ "word": "赤ちゃん", "reading": "あかちゃん", "meaning": "em bé" }
-		]
+			{
+				"word": "赤",
+				"reading": "あか",
+				"meaning": "màu đỏ"
+			},
+			{
+				"word": "赤い",
+				"reading": "あかい",
+				"meaning": "đỏ"
+			},
+			{
+				"word": "赤ちゃん",
+				"reading": "あかちゃん",
+				"meaning": "em bé"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "土",
+					"meaning": "đất"
+				},
+				{
+					"char": "灬",
+					"canonical": "火",
+					"meaning": "lửa"
+				}
+			],
+			"mnemonic": "**Đất** (土) bị nung trong **lửa** (灬) sẽ chuyển thành gạch màu **đỏ** (xích)."
+		}
 	},
 	{
 		"word": "青",
@@ -1768,23 +6159,88 @@
 		"kunyomi": ["あお", "あお[い]"],
 		"onyomi": ["セイ", "ショウ"],
 		"examples": [
-			{ "word": "青", "reading": "あお", "meaning": "màu xanh dương" },
-			{ "word": "青い", "reading": "あおい", "meaning": "xanh dương" }
-		]
+			{
+				"word": "青",
+				"reading": "あお",
+				"meaning": "màu xanh dương"
+			},
+			{
+				"word": "青い",
+				"reading": "あおい",
+				"meaning": "xanh dương"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "生",
+					"meaning": "sinh ra/sống"
+				},
+				{
+					"char": "月",
+					"meaning": "mặt trăng/thịt"
+				}
+			],
+			"mnemonic": "Màu của sự **sống** (生) nảy mầm dưới ánh **trăng** (月) là màu **xanh** (thanh)."
+		}
 	},
 	{
 		"word": "緑",
 		"meaning": "LỤC",
 		"kunyomi": ["みどり"],
 		"onyomi": ["リョク"],
-		"examples": [{ "word": "緑", "reading": "みどり", "meaning": "màu xanh lá" }]
+		"examples": [
+			{
+				"word": "緑",
+				"reading": "みどり",
+				"meaning": "màu xanh lá"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "糸",
+					"meaning": "sợi chỉ"
+				},
+				{
+					"char": "彔",
+					"meaning": "khắc/bóc vỏ"
+				}
+			],
+			"mnemonic": "**Sợi chỉ** (糸) được nhuộm bằng vỏ cây (彔) thành màu **xanh lá** (lục)."
+		}
 	},
 	{
 		"word": "黄",
 		"meaning": "HOÀNG",
 		"kunyomi": ["き"],
 		"onyomi": ["オウ"],
-		"examples": [{ "word": "黄色", "reading": "きいろ", "meaning": "màu vàng" }]
+		"examples": [
+			{
+				"word": "黄色",
+				"reading": "きいろ",
+				"meaning": "màu vàng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "廿",
+					"meaning": "hai mươi"
+				},
+				{
+					"char": "一"
+				},
+				{
+					"char": "由",
+					"meaning": "tự do/lí do"
+				},
+				{
+					"char": "八"
+				}
+			],
+			"mnemonic": "Cánh đồng lúa (tựa chữ 田/由) nở rộ một màu **vàng** (hoàng) rực rỡ."
+		}
 	},
 	{
 		"word": "色",
@@ -1792,11 +6248,40 @@
 		"kunyomi": ["いろ"],
 		"onyomi": ["シキ", "ショク"],
 		"examples": [
-			{ "word": "色", "reading": "いろ", "meaning": "màu sắc" },
-			{ "word": "茶色", "reading": "ちゃいろ", "meaning": "màu nâu" },
-			{ "word": "景色", "reading": "けしき", "meaning": "phong cảnh" },
-			{ "word": "金色", "reading": "こんじき", "meaning": "màu vàng kim" }
-		]
+			{
+				"word": "色",
+				"reading": "いろ",
+				"meaning": "màu sắc"
+			},
+			{
+				"word": "茶色",
+				"reading": "ちゃいろ",
+				"meaning": "màu nâu"
+			},
+			{
+				"word": "景色",
+				"reading": "けしき",
+				"meaning": "phong cảnh"
+			},
+			{
+				"word": "金色",
+				"reading": "こんじき",
+				"meaning": "màu vàng kim"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "⺈",
+					"meaning": "con dao/bao bọc"
+				},
+				{
+					"char": "巴",
+					"meaning": "con rắn/dính"
+				}
+			],
+			"mnemonic": "Hình ảnh một người đang mang thai (巴 bao bọc ⺈) với vẻ mặt tươi **sắc**."
+		}
 	},
 	{
 		"word": "丸",
@@ -1804,9 +6289,30 @@
 		"kunyomi": ["まる", "まる[い]", "まる[める]"],
 		"onyomi": ["ガン"],
 		"examples": [
-			{ "word": "丸", "reading": "まる", "meaning": "vòng tròn" },
-			{ "word": "丸い", "reading": "まるい", "meaning": "tròn" }
-		]
+			{
+				"word": "丸",
+				"reading": "まる",
+				"meaning": "vòng tròn"
+			},
+			{
+				"word": "丸い",
+				"reading": "まるい",
+				"meaning": "tròn"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "九",
+					"meaning": "số chín"
+				},
+				{
+					"char": "丶",
+					"meaning": "chấm"
+				}
+			],
+			"mnemonic": "Số **9** (九) cuộn tròn thêm một **chấm** (丶) tạo thành hình **tròn / viên hoàn**."
+		}
 	},
 	{
 		"word": "心",
@@ -1814,11 +6320,36 @@
 		"kunyomi": ["こころ"],
 		"onyomi": ["シン"],
 		"examples": [
-			{ "word": "心から", "reading": "こころから", "meaning": "từ tận trái tim" },
-			{ "word": "熱心", "reading": "ねっしん", "meaning": "nhiệt tình" },
-			{ "word": "心配する", "reading": "しんぱいする", "meaning": "lo lắng" },
-			{ "word": "安心する", "reading": "あんしんする", "meaning": "yên tâm" }
-		]
+			{
+				"word": "心から",
+				"reading": "こころから",
+				"meaning": "từ tận trái tim"
+			},
+			{
+				"word": "熱心",
+				"reading": "ねっしん",
+				"meaning": "nhiệt tình"
+			},
+			{
+				"word": "心配する",
+				"reading": "しんぱいする",
+				"meaning": "lo lắng"
+			},
+			{
+				"word": "安心する",
+				"reading": "あんしんする",
+				"meaning": "yên tâm"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "心",
+					"meaning": "trái tim"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình **trái tim** (tâm) có các tĩnh mạch xung quanh."
+		}
 	},
 	{
 		"word": "自",
@@ -1826,19 +6357,75 @@
 		"kunyomi": ["みずか"],
 		"onyomi": ["シ", "ジ"],
 		"examples": [
-			{ "word": "自分", "reading": "じぶん", "meaning": "bản thân mình" },
-			{ "word": "自由", "reading": "じゆう", "meaning": "tự do" },
-			{ "word": "自然", "reading": "しぜん", "meaning": "tự nhiên" },
-			{ "word": "自転車", "reading": "じてんしゃ", "meaning": "xe đạp" },
-			{ "word": "自動車", "reading": "じどうしゃ", "meaning": "xe ô tô" }
-		]
+			{
+				"word": "自分",
+				"reading": "じぶん",
+				"meaning": "bản thân mình"
+			},
+			{
+				"word": "自由",
+				"reading": "じゆう",
+				"meaning": "tự do"
+			},
+			{
+				"word": "自然",
+				"reading": "しぜん",
+				"meaning": "tự nhiên"
+			},
+			{
+				"word": "自転車",
+				"reading": "じてんしゃ",
+				"meaning": "xe đạp"
+			},
+			{
+				"word": "自動車",
+				"reading": "じどうしゃ",
+				"meaning": "xe ô tô"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "目",
+					"meaning": "mắt"
+				},
+				{
+					"char": "丿",
+					"meaning": "nét phẩy"
+				}
+			],
+			"mnemonic": "Ngày xưa lấy tay chỉ vào mũi (giữa 2 **mắt** 目) để ám chỉ bản thân (**tự**)."
+		}
 	},
 	{
 		"word": "声",
 		"meaning": "THANH",
 		"kunyomi": ["こえ"],
 		"onyomi": ["セイ", "ショウ"],
-		"examples": [{ "word": "声", "reading": "こえ", "meaning": "tiếng" }]
+		"examples": [
+			{
+				"word": "声",
+				"reading": "こえ",
+				"meaning": "tiếng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "士",
+					"meaning": "kẻ sĩ"
+				},
+				{
+					"char": "尸",
+					"meaning": "thi thể/người"
+				},
+				{
+					"char": "殳",
+					"meaning": "binh khí"
+				}
+			],
+			"mnemonic": "**Kẻ sĩ** (士) dùng **binh khí** (殳) đánh thức **người nằm** (尸) bằng **tiếng** động (thanh)."
+		}
 	},
 	{
 		"word": "服",
@@ -1846,9 +6433,35 @@
 		"kunyomi": [],
 		"onyomi": ["フク"],
 		"examples": [
-			{ "word": "服", "reading": "ふく", "meaning": "quần áo" },
-			{ "word": "洋服", "reading": "ようふく", "meaning": "Âu phục" }
-		]
+			{
+				"word": "服",
+				"reading": "ふく",
+				"meaning": "quần áo"
+			},
+			{
+				"word": "洋服",
+				"reading": "ようふく",
+				"meaning": "Âu phục"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "月",
+					"canonical": "肉",
+					"meaning": "thịt/cơ thể"
+				},
+				{
+					"char": "卩",
+					"meaning": "đốt tre/quỳ"
+				},
+				{
+					"char": "又",
+					"meaning": "lại/cánh tay"
+				}
+			],
+			"mnemonic": "Dùng **tay** (又) phủ **quần áo** (phục) lên **cơ thể** (月) cho người đang **quỳ** (卩)."
+		}
 	},
 	{
 		"word": "毛",
@@ -1856,9 +6469,26 @@
 		"kunyomi": ["け"],
 		"onyomi": ["モウ"],
 		"examples": [
-			{ "word": "毛", "reading": "け", "meaning": "lông" },
-			{ "word": "毛糸", "reading": "けいと", "meaning": "sợi len" }
-		]
+			{
+				"word": "毛",
+				"reading": "け",
+				"meaning": "lông"
+			},
+			{
+				"word": "毛糸",
+				"reading": "けいと",
+				"meaning": "sợi len"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "毛",
+					"meaning": "lông/tóc"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình ảnh **sợi lông/tóc** bay trong gió."
+		}
 	},
 	{
 		"word": "糸",
@@ -1866,23 +6496,78 @@
 		"kunyomi": ["いと"],
 		"onyomi": ["シ"],
 		"examples": [
-			{ "word": "糸", "reading": "いと", "meaning": "sợi chỉ" },
-			{ "word": "毛糸", "reading": "けいと", "meaning": "sợi len" }
-		]
+			{
+				"word": "糸",
+				"reading": "いと",
+				"meaning": "sợi chỉ"
+			},
+			{
+				"word": "毛糸",
+				"reading": "けいと",
+				"meaning": "sợi len"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "糸",
+					"meaning": "sợi tơ/chỉ"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình ảnh **sợi chỉ** cuộn lại với nhau."
+		}
 	},
 	{
 		"word": "科",
 		"meaning": "KHOA",
 		"kunyomi": [],
 		"onyomi": ["カ"],
-		"examples": [{ "word": "科学", "reading": "かがく", "meaning": "khoa học" }]
+		"examples": [
+			{
+				"word": "科学",
+				"reading": "かがく",
+				"meaning": "khoa học"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "禾",
+					"meaning": "cây lúa"
+				},
+				{
+					"char": "斗",
+					"meaning": "cái đấu đong"
+				}
+			],
+			"mnemonic": "Dùng **đấu** (斗) để đong **lúa** (禾) phân loại theo từng **khoa/nhóm**."
+		}
 	},
 	{
 		"word": "鳴",
 		"meaning": "MINH",
 		"kunyomi": ["な[る]"],
 		"onyomi": ["メイ"],
-		"examples": [{ "word": "鳴る", "reading": "なる", "meaning": "reo, kêu, hót" }]
+		"examples": [
+			{
+				"word": "鳴る",
+				"reading": "なる",
+				"meaning": "reo, kêu, hót"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "口",
+					"meaning": "miệng"
+				},
+				{
+					"char": "鳥",
+					"meaning": "con chim"
+				}
+			],
+			"mnemonic": "Con **chim** (鳥) mở **miệng** (口) cất tiếng **kêu/hót** (minh)."
+		}
 	},
 	{
 		"word": "道",
@@ -1890,33 +6575,124 @@
 		"kunyomi": ["みち"],
 		"onyomi": ["ドウ"],
 		"examples": [
-			{ "word": "道", "reading": "みち", "meaning": "đường, con đường" },
-			{ "word": "道具", "reading": "どうぐ", "meaning": "dụng cụ" },
-			{ "word": "水道", "reading": "すいどう", "meaning": "nước máy" },
-			{ "word": "剣道", "reading": "けんどう", "meaning": "kiếm đạo" },
-			{ "word": "柔道", "reading": "じゅうどう", "meaning": "võ Judo" }
-		]
+			{
+				"word": "道",
+				"reading": "みち",
+				"meaning": "đường, con đường"
+			},
+			{
+				"word": "道具",
+				"reading": "どうぐ",
+				"meaning": "dụng cụ"
+			},
+			{
+				"word": "水道",
+				"reading": "すいどう",
+				"meaning": "nước máy"
+			},
+			{
+				"word": "剣道",
+				"reading": "けんどう",
+				"meaning": "kiếm đạo"
+			},
+			{
+				"word": "柔道",
+				"reading": "じゅうどう",
+				"meaning": "võ Judo"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "辶",
+					"canonical": "辵",
+					"meaning": "bước đi"
+				},
+				{
+					"char": "首",
+					"meaning": "cái đầu"
+				}
+			],
+			"mnemonic": "Đưa **cái đầu** (首) nhìn về phía trước và **bước đi** (辶) trên con **đường** (đạo)."
+		}
 	},
 	{
 		"word": "村",
 		"meaning": "THÔN",
 		"kunyomi": ["むら"],
 		"onyomi": ["ソン"],
-		"examples": [{ "word": "村", "reading": "むら", "meaning": "làng" }]
+		"examples": [
+			{
+				"word": "村",
+				"reading": "むら",
+				"meaning": "làng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "木",
+					"meaning": "cái cây"
+				},
+				{
+					"char": "寸",
+					"meaning": "tấc/đo đạc"
+				}
+			],
+			"mnemonic": "Đo đạc từng **tấc** (寸) đất quanh **cái cây** (木) để chia **thôn/làng**."
+		}
 	},
 	{
 		"word": "区",
 		"meaning": "KHU",
 		"kunyomi": [],
 		"onyomi": ["ク"],
-		"examples": [{ "word": "区", "reading": "く", "meaning": "khu, quận, huyện" }]
+		"examples": [
+			{
+				"word": "区",
+				"reading": "く",
+				"meaning": "khu, quận, huyện"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "匚",
+					"meaning": "cái hộp/bao quanh"
+				},
+				{
+					"char": "乂",
+					"meaning": "chéo nhau"
+				}
+			],
+			"mnemonic": "**Khu** vực được vạch **chéo** (乂) và **bao quanh** (匚) để phân chia."
+		}
 	},
 	{
 		"word": "市",
 		"meaning": "THỊ",
 		"kunyomi": ["いち"],
 		"onyomi": ["シ"],
-		"examples": [{ "word": "市役所", "reading": "しやくしょ", "meaning": "toà thị chính" }]
+		"examples": [
+			{
+				"word": "市役所",
+				"reading": "しやくしょ",
+				"meaning": "toà thị chính"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亠",
+					"meaning": "nắp/đầu"
+				},
+				{
+					"char": "巾",
+					"meaning": "cái khăn"
+				}
+			],
+			"mnemonic": "Treo **cái khăn** (巾) lên **cao** (亠) làm cờ hiệu để họp **chợ/thành phố** (thị)."
+		}
 	},
 	{
 		"word": "都",
@@ -1924,37 +6700,139 @@
 		"kunyomi": ["みやこ"],
 		"onyomi": ["ツ", "ト"],
 		"examples": [
-			{ "word": "都会", "reading": "とかい", "meaning": "thành phố" },
-			{ "word": "都合", "reading": "つごう", "meaning": "thuận tiện" }
-		]
+			{
+				"word": "都会",
+				"reading": "とかい",
+				"meaning": "thành phố"
+			},
+			{
+				"word": "都合",
+				"reading": "つごう",
+				"meaning": "thuận tiện"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "者",
+					"meaning": "người"
+				},
+				{
+					"char": "阝",
+					"canonical": "邑",
+					"meaning": "vùng đất"
+				}
+			],
+			"mnemonic": "**Vùng đất** (阝) có đông **người** (者) sinh sống là kinh **đô/thành phố**."
+		}
 	},
 	{
 		"word": "県",
 		"meaning": "HUYỆN",
 		"kunyomi": [],
 		"onyomi": ["ケン"],
-		"examples": [{ "word": "県", "reading": "けん", "meaning": "tỉnh" }]
+		"examples": [
+			{
+				"word": "県",
+				"reading": "けん",
+				"meaning": "tỉnh"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "目",
+					"meaning": "mắt"
+				},
+				{
+					"char": "乚",
+					"meaning": "móc"
+				},
+				{
+					"char": "小",
+					"meaning": "nhỏ"
+				}
+			],
+			"mnemonic": "**Mắt** (目) nhìn xuống những mảnh đất **nhỏ** (小) được kết nối là các **tỉnh** (huyện)."
+		}
 	},
 	{
 		"word": "府",
 		"meaning": "PHỦ",
 		"kunyomi": [],
 		"onyomi": ["フ"],
-		"examples": [{ "word": "府", "reading": "ふ", "meaning": "phủ" }]
+		"examples": [
+			{
+				"word": "府",
+				"reading": "ふ",
+				"meaning": "phủ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "广",
+					"meaning": "mái hiên/nhà lớn"
+				},
+				{
+					"char": "付",
+					"meaning": "giao phó/đưa cho"
+				}
+			],
+			"mnemonic": "Ngôi **nhà lớn** (广) nơi được **giao phó** (付) quyền hành là chính **phủ**."
+		}
 	},
 	{
 		"word": "京",
 		"meaning": "KINH",
 		"kunyomi": [],
 		"onyomi": ["キョウ", "ケイ", "キン"],
-		"examples": [{ "word": "東京", "reading": "とうきょう", "meaning": "Tokyo" }]
+		"examples": [
+			{
+				"word": "東京",
+				"reading": "とうきょう",
+				"meaning": "Tokyo"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亠",
+					"meaning": "nắp cao"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				},
+				{
+					"char": "小",
+					"meaning": "nhỏ"
+				}
+			],
+			"mnemonic": "Ngôi nhà cao (亠) ở kinh **đô** (kinh) làm cho **miệng** (口) người ta há hốc thấy mình thật **nhỏ** bé."
+		}
 	},
 	{
 		"word": "衣",
 		"meaning": "Y",
 		"kunyomi": [],
 		"onyomi": ["イ"],
-		"examples": [{ "word": "衣服", "reading": "いふく", "meaning": "y phục, quần áo" }]
+		"examples": [
+			{
+				"word": "衣服",
+				"reading": "いふく",
+				"meaning": "y phục, quần áo"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "衣",
+					"meaning": "quần áo"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình dáng vạt áo khoác chéo của **y phục** cổ đại."
+		}
 	},
 	{
 		"word": "光",
@@ -1962,58 +6840,219 @@
 		"kunyomi": ["ひかり"],
 		"onyomi": ["コウ"],
 		"examples": [
-			{ "word": "光", "reading": "ひかり", "meaning": "ánh sáng" },
-			{ "word": "日光", "reading": "にっこう", "meaning": "ánh mặt trời" },
-			{ "word": "観光地", "reading": "かんこうち", "meaning": "địa điểm tham quan" }
-		]
+			{
+				"word": "光",
+				"reading": "ひかり",
+				"meaning": "ánh sáng"
+			},
+			{
+				"word": "日光",
+				"reading": "にっこう",
+				"meaning": "ánh mặt trời"
+			},
+			{
+				"word": "観光地",
+				"reading": "かんこうち",
+				"meaning": "địa điểm tham quan"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "⺌",
+					"canonical": "小",
+					"meaning": "nhỏ"
+				},
+				{
+					"char": "一",
+					"meaning": "một"
+				},
+				{
+					"char": "儿",
+					"meaning": "người"
+				}
+			],
+			"mnemonic": "Một **người** (儿) đang cầm **một** (一) ngọn đuốc **nhỏ** (⺌) tỏa ánh **sáng** (quang)."
+		}
 	},
 	{
 		"word": "雲",
 		"meaning": "VÂN",
 		"kunyomi": ["くも"],
 		"onyomi": ["ウン"],
-		"examples": [{ "word": "雲", "reading": "くも", "meaning": "mây" }]
+		"examples": [
+			{
+				"word": "雲",
+				"reading": "くも",
+				"meaning": "mây"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "雨",
+					"meaning": "mưa"
+				},
+				{
+					"char": "云",
+					"meaning": "nói/đám mây"
+				}
+			],
+			"mnemonic": "Trước khi trời **mưa** (雨) thường xuất hiện **đám mây** (云) trên bầu trời (vân)."
+		}
 	},
 	{
 		"word": "王",
 		"meaning": "VƯƠNG",
 		"kunyomi": [],
 		"onyomi": ["オウ"],
-		"examples": [{ "word": "国王", "reading": "こくおう", "meaning": "vua" }]
+		"examples": [
+			{
+				"word": "国王",
+				"reading": "こくおう",
+				"meaning": "vua"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "王",
+					"meaning": "vua/ngọc"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Vị **vua** (vương) là người nối liền trời, đất và con người (3 nét ngang và 1 dọc)."
+		}
 	},
 	{
 		"word": "草",
 		"meaning": "THẢO",
 		"kunyomi": ["くさ"],
 		"onyomi": ["ソウ"],
-		"examples": [{ "word": "草", "reading": "くさ", "meaning": "cỏ" }]
+		"examples": [
+			{
+				"word": "草",
+				"reading": "くさ",
+				"meaning": "cỏ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "艹",
+					"canonical": "草",
+					"meaning": "cây cỏ"
+				},
+				{
+					"char": "早",
+					"meaning": "sớm"
+				}
+			],
+			"mnemonic": "Buổi **sáng sớm** (早) sương còn đọng trên **cây cỏ** (艹/thảo)."
+		}
 	},
 	{
 		"word": "湖",
 		"meaning": "HỒ",
 		"kunyomi": ["みずうみ"],
 		"onyomi": ["コ"],
-		"examples": [{ "word": "湖", "reading": "みずうみ", "meaning": "hồ" }]
+		"examples": [
+			{
+				"word": "湖",
+				"reading": "みずうみ",
+				"meaning": "hồ"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "氵",
+					"canonical": "水",
+					"meaning": "nước"
+				},
+				{
+					"char": "古",
+					"meaning": "cũ/cổ"
+				},
+				{
+					"char": "月",
+					"meaning": "mặt trăng"
+				}
+			],
+			"mnemonic": "Dưới ánh **trăng** (月) **cổ** (古) kính, mặt **nước** (氵) của cái **hồ** phẳng lặng."
+		}
 	},
 	{
 		"word": "谷",
 		"meaning": "CỐC",
 		"kunyomi": ["たに"],
 		"onyomi": ["コク"],
-		"examples": [{ "word": "谷", "reading": "たに", "meaning": "thung lũng" }]
+		"examples": [
+			{
+				"word": "谷",
+				"reading": "たに",
+				"meaning": "thung lũng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "八",
+					"meaning": "tỏa ra/phân chia"
+				},
+				{
+					"char": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng hang"
+				}
+			],
+			"mnemonic": "Chỗ ngọn núi chẻ ra (八), **người** (人) đi vào cái **miệng** (口) hẹp là thung lũng (**cốc**)."
+		}
 	},
 	{
 		"word": "虫",
 		"meaning": "TRÙNG",
 		"kunyomi": ["むし"],
 		"onyomi": ["チュウ"],
-		"examples": [{ "word": "虫", "reading": "むし", "meaning": "côn trùng" }]
+		"examples": [
+			{
+				"word": "虫",
+				"reading": "むし",
+				"meaning": "côn trùng"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "虫",
+					"meaning": "côn trùng"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình một con **côn trùng** (trùng) có đầu và thân."
+		}
 	},
 	{
 		"word": "羽",
 		"meaning": "VŨ",
 		"kunyomi": ["は", "はね"],
 		"onyomi": ["ウ"],
-		"examples": [{ "word": "羽", "reading": "はね", "meaning": "cánh" }]
+		"examples": [
+			{
+				"word": "羽",
+				"reading": "はね",
+				"meaning": "cánh"
+			}
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "羽",
+					"meaning": "lông chim/cánh"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình ảnh 2 cái **cánh chim** (vũ) xếp cạnh nhau."
+		}
 	}
 ]

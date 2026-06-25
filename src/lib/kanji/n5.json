@@ -41,7 +41,16 @@
 				"reading": "いちねん",
 				"meaning": "một năm"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "一",
+					"meaning": "số một"
+				}
+			],
+			"mnemonic": "Chỉ đơn giản là **một** (nhất) nét gạch ngang."
+		}
 	},
 	{
 		"word": "二",
@@ -90,7 +99,16 @@
 				"reading": "にせん",
 				"meaning": "hai nghìn"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "二",
+					"meaning": "số hai"
+				}
+			],
+			"mnemonic": "Chỉ đơn giản là **hai** (nhị) nét gạch ngang."
+		}
 	},
 	{
 		"word": "三",
@@ -134,7 +152,16 @@
 				"meaning": "3 người"
 			}
 		],
-		"radicals": "一"
+		"radicals": "一",
+		"chietTu": {
+			"components": [
+				{
+					"char": "一",
+					"meaning": "một - gộp hình"
+				}
+			],
+			"mnemonic": "Chỉ đơn giản là **ba** (tam) nét gạch ngang."
+		}
 	},
 	{
 		"word": "四",
@@ -168,7 +195,20 @@
 				"meaning": "$1/4$"
 			}
 		],
-		"radicals": "囗"
+		"radicals": "囗",
+		"chietTu": {
+			"components": [
+				{
+					"char": "囗",
+					"meaning": "bao quanh"
+				},
+				{
+					"char": "八",
+					"meaning": "số tám/chia ra"
+				}
+			],
+			"mnemonic": "Đem số **tám** (八) nhốt vào trong khung (囗) chia nửa ra thành số **4** (tứ)."
+		}
 	},
 	{
 		"word": "五",
@@ -197,7 +237,19 @@
 				"meaning": "5 yên"
 			}
 		],
-		"radicals": "二"
+		"radicals": "二",
+		"chietTu": {
+			"components": [
+				{
+					"char": "二",
+					"meaning": "số hai"
+				},
+				{
+					"char": "彐"
+				}
+			],
+			"mnemonic": "Hình ảnh các nét đan chéo nhau giữa đất và trời (hai nét ngang) tượng trưng cho **ngũ** hành."
+		}
 	},
 	{
 		"word": "六",
@@ -226,7 +278,20 @@
 				"meaning": "sáu trăm"
 			}
 		],
-		"radicals": "八"
+		"radicals": "八",
+		"chietTu": {
+			"components": [
+				{
+					"char": "亠",
+					"meaning": "cái nắp/đầu"
+				},
+				{
+					"char": "八",
+					"meaning": "số tám"
+				}
+			],
+			"mnemonic": "Đội nón (亠) cho số **8** (八) thì bị rơi mất 2 thành số **6** (lục)."
+		}
 	},
 	{
 		"word": "七",
@@ -250,7 +315,20 @@
 				"meaning": "tháng 7"
 			}
 		],
-		"radicals": "一"
+		"radicals": "一",
+		"chietTu": {
+			"components": [
+				{
+					"char": "一",
+					"meaning": "nét ngang"
+				},
+				{
+					"char": "乚",
+					"meaning": "lưỡi câu"
+				}
+			],
+			"mnemonic": "Chiếc lưỡi câu (乚) bị cắt ngang (一) thành **7** mảnh (thất)."
+		}
 	},
 	{
 		"word": "八",
@@ -283,7 +361,16 @@
 				"reading": "はっせん",
 				"meaning": "tám nghìn"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "八",
+					"meaning": "số tám/chia rẽ"
+				}
+			],
+			"mnemonic": "Hai nét phẩy chia rẽ ra hai bên, chỉ số **8** (bát)."
+		}
 	},
 	{
 		"word": "九",
@@ -312,7 +399,20 @@
 				"meaning": "chín"
 			}
 		],
-		"radicals": "乙"
+		"radicals": "乙",
+		"chietTu": {
+			"components": [
+				{
+					"char": "乙",
+					"meaning": "can ất"
+				},
+				{
+					"char": "丿",
+					"meaning": "nét phẩy"
+				}
+			],
+			"mnemonic": "Trông như một người đang cong lưng chống đẩy đến cái thứ **9** (cửu)."
+		}
 	},
 	{
 		"word": "十",
@@ -350,7 +450,16 @@
 				"reading": "とおか",
 				"meaning": "ngày mùng 10"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "十",
+					"meaning": "số 10/chữ thập"
+				}
+			],
+			"mnemonic": "Hai nét gạch chéo nhau tạo thành chữ thập, chỉ số **10**."
+		}
 	},
 	{
 		"word": "百",
@@ -384,7 +493,20 @@
 				"meaning": "tám trăm"
 			}
 		],
-		"radicals": "白"
+		"radicals": "白",
+		"chietTu": {
+			"components": [
+				{
+					"char": "一",
+					"meaning": "số một"
+				},
+				{
+					"char": "白",
+					"meaning": "màu trắng"
+				}
+			],
+			"mnemonic": "**Một** (一) bóng đèn sáng **trắng** (白) có công suất **100** (bách) watt."
+		}
 	},
 	{
 		"word": "千",
@@ -418,7 +540,20 @@
 				"meaning": "10 triệu"
 			}
 		],
-		"radicals": "十"
+		"radicals": "十",
+		"chietTu": {
+			"components": [
+				{
+					"char": "丿",
+					"meaning": "nét phẩy"
+				},
+				{
+					"char": "十",
+					"meaning": "số 10"
+				}
+			],
+			"mnemonic": "Thêm một nét phẩy (丿) lên trên số **10** (十) để nhân lên thành **1000** (thiên)."
+		}
 	},
 	{
 		"word": "万",
@@ -442,7 +577,22 @@
 				"meaning": "Vạn Lý Trường Thành"
 			}
 		],
-		"radicals": "一"
+		"radicals": "一",
+		"chietTu": {
+			"components": [
+				{
+					"char": "一",
+					"meaning": "số một"
+				},
+				{
+					"char": "𠃌"
+				},
+				{
+					"char": "丿"
+				}
+			],
+			"mnemonic": "Phía dưới số **1** (一) là cái móc treo **10.000** (vạn) đồng."
+		}
 	},
 	{
 		"word": "円",
@@ -461,7 +611,20 @@
 				"meaning": "5 yên"
 			}
 		],
-		"radicals": "冂"
+		"radicals": "冂",
+		"chietTu": {
+			"components": [
+				{
+					"char": "冂",
+					"meaning": "khung/biên giới"
+				},
+				{
+					"char": "一",
+					"meaning": "một"
+				}
+			],
+			"mnemonic": "Đồng Yên Nhật thời xưa có hình **tròn** (viên) được đúc trong khung (冂)."
+		}
 	},
 	{
 		"word": "日",
@@ -535,7 +698,16 @@
 				"reading": "たんじょうび",
 				"meaning": "ngày sinh"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "日",
+					"meaning": "mặt trời/ngày"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình **mặt trời** (nhật) tỏa sáng (vạch ở giữa)."
+		}
 	},
 	{
 		"word": "月",
@@ -588,7 +760,16 @@
 				"reading": "さらいげつ",
 				"meaning": "tháng sau nữa"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "月",
+					"meaning": "mặt trăng/tháng"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình **mặt trăng** (nguyệt) khuyết có bóng mây lấp ló."
+		}
 	},
 	{
 		"word": "火",
@@ -621,7 +802,16 @@
 				"reading": "かじ",
 				"meaning": "hỏa hoạn"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "火",
+					"meaning": "lửa"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình ngọn **lửa** (hỏa) đang bùng cháy rực rỡ."
+		}
 	},
 	{
 		"word": "水",
@@ -649,7 +839,16 @@
 				"reading": "すいえい",
 				"meaning": "bơi lội"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "水",
+					"meaning": "nước"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình dòng **nước** (thủy) chảy ở giữa, nước bắn tung tóe ra 2 bên."
+		}
 	},
 	{
 		"word": "木",
@@ -667,7 +866,16 @@
 				"reading": "もくようび",
 				"meaning": "thứ 5"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "木",
+					"meaning": "cái cây"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình **cái cây** (mộc) có cành lá vươn lên và rễ cắm xuống đất."
+		}
 	},
 	{
 		"word": "金",
@@ -725,7 +933,25 @@
 				"reading": "ぎんこう",
 				"meaning": "ngân hàng"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠆢",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "王",
+					"meaning": "vua"
+				},
+				{
+					"char": "丷",
+					"meaning": "hai chấm/vàng"
+				}
+			],
+			"mnemonic": "**Người** (𠆢) đào được quặng **vàng** (丷) đem đi cống nạp cho **Vua** (王)."
+		}
 	},
 	{
 		"word": "土",
@@ -749,7 +975,16 @@
 				"meaning": "quà quê",
 				"special_case": true
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "土",
+					"meaning": "đất"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Mầm cây đâm chồi lên từ mặt **đất** (thổ)."
+		}
 	},
 	{
 		"word": "人",
@@ -843,7 +1078,16 @@
 				"reading": "おんな のひと",
 				"meaning": "người con gái"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "人",
+					"meaning": "người"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình **con người** (nhân) đang dang rộng chân bước đi."
+		}
 	},
 	{
 		"word": "学",
@@ -932,7 +1176,24 @@
 				"meaning": "trường tiểu học"
 			}
 		],
-		"radicals": "子"
+		"radicals": "子",
+		"chietTu": {
+			"components": [
+				{
+					"char": "⺍",
+					"meaning": "3 chấm"
+				},
+				{
+					"char": "冖",
+					"meaning": "mái nhà"
+				},
+				{
+					"char": "子",
+					"meaning": "đứa trẻ"
+				}
+			],
+			"mnemonic": "Nhóm 3 **đứa trẻ** (子) tập trung dưới **mái nhà** (冖) để đi **học**."
+		}
 	},
 	{
 		"word": "先",
@@ -961,7 +1222,24 @@
 				"meaning": "tháng trước"
 			}
 		],
-		"radicals": "儿"
+		"radicals": "儿",
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠂉",
+					"meaning": "người/nét chéo"
+				},
+				{
+					"char": "土",
+					"meaning": "đất"
+				},
+				{
+					"char": "儿",
+					"meaning": "người"
+				}
+			],
+			"mnemonic": "**Người** (儿) đi **trước** (tiên) là người khai phá **đất** (土) đai."
+		}
 	},
 	{
 		"word": "生",
@@ -1032,7 +1310,20 @@
 				"reading": "しょうがくせい",
 				"meaning": "học sinh tiểu học"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "牛",
+					"meaning": "con bò/sừng"
+				},
+				{
+					"char": "一",
+					"meaning": "đất"
+				}
+			],
+			"mnemonic": "Mầm sống nảy nở (như đôi sừng nhô lên) vươn khỏi mặt đất (一) gọi là **sinh** ra."
+		}
 	},
 	{
 		"word": "方",
@@ -1070,7 +1361,16 @@
 				"reading": "ほうほう",
 				"meaning": "phương pháp"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "方",
+					"meaning": "phương hướng/lá cờ"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình lá cờ phấp phới bay dùng để chỉ **phương hướng**."
+		}
 	},
 	{
 		"word": "何",
@@ -1129,7 +1429,21 @@
 				"meaning": "thứ mấy"
 			}
 		],
-		"radicals": "人"
+		"radicals": "人",
+		"chietTu": {
+			"components": [
+				{
+					"char": "亻",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "可",
+					"meaning": "khả năng"
+				}
+			],
+			"mnemonic": "**Người** (亻) này có **khả** (可) năng làm được cái **gì** (hà)?"
+		}
 	},
 	{
 		"word": "今",
@@ -1183,7 +1497,24 @@
 				"meaning": "đêm nay"
 			}
 		],
-		"radicals": "人"
+		"radicals": "人",
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠆢",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "一",
+					"meaning": "một"
+				},
+				{
+					"char": "乛"
+				}
+			],
+			"mnemonic": "Tập hợp **người** (𠆢) tụ họp lại **một** (一) nơi ngay **bây giờ** (kim)."
+		}
 	},
 	{
 		"word": "分",
@@ -1222,7 +1553,20 @@
 				"meaning": "$1/4$"
 			}
 		],
-		"radicals": "刀"
+		"radicals": "刀",
+		"chietTu": {
+			"components": [
+				{
+					"char": "八",
+					"meaning": "tám/chia ra"
+				},
+				{
+					"char": "刀",
+					"meaning": "con dao"
+				}
+			],
+			"mnemonic": "Dùng **dao** (刀) để **chia cắt** (八) đồ vật ra làm nhiều **phần** (phân)."
+		}
 	},
 	{
 		"word": "半",
@@ -1246,7 +1590,24 @@
 				"meaning": "nửa năm"
 			}
 		],
-		"radicals": "十"
+		"radicals": "十",
+		"chietTu": {
+			"components": [
+				{
+					"char": "丷",
+					"meaning": "chia tách"
+				},
+				{
+					"char": "二",
+					"meaning": "số 2"
+				},
+				{
+					"char": "丨",
+					"meaning": "trục xuyên qua"
+				}
+			],
+			"mnemonic": "Cắt đồ vật làm **2** (二) phần bằng một nhát dọc (丨), chia mỗi bên **một nửa** (bán)."
+		}
 	},
 	{
 		"word": "時",
@@ -1285,7 +1646,20 @@
 				"meaning": "thời gian biểu"
 			}
 		],
-		"radicals": "日"
+		"radicals": "日",
+		"chietTu": {
+			"components": [
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				},
+				{
+					"char": "寺",
+					"meaning": "ngôi chùa"
+				}
+			],
+			"mnemonic": "Ngày xưa nhìn **mặt trời** (日) trên nóc **chùa** (寺) để biết **thời** gian."
+		}
 	},
 	{
 		"word": "年",
@@ -1329,7 +1703,18 @@
 				"meaning": "năm sau nữa"
 			}
 		],
-		"radicals": "干"
+		"radicals": "干",
+		"chietTu": {
+			"components": [
+				{
+					"char": "禾"
+				},
+				{
+					"char": "千"
+				}
+			],
+			"mnemonic": "Thời xưa làm nông, phải mất một vụ để phơi **khô** (干) lúa mạch, đó là 1 **năm** (niên)."
+		}
 	},
 	{
 		"word": "本",
@@ -1373,7 +1758,20 @@
 				"meaning": "nhà ga Honda"
 			}
 		],
-		"radicals": "木"
+		"radicals": "木",
+		"chietTu": {
+			"components": [
+				{
+					"char": "木",
+					"meaning": "cái cây"
+				},
+				{
+					"char": "一",
+					"meaning": "một/chỉ vị trí"
+				}
+			],
+			"mnemonic": "Gạch **một** (一) đường ở dưới cùng **cái cây** (木) để chỉ cái gốc (căn **bản** / **bản** thảo)."
+		}
 	},
 	{
 		"word": "休",
@@ -1407,7 +1805,21 @@
 				"meaning": "kỳ nghỉ"
 			}
 		],
-		"radicals": "人"
+		"radicals": "人",
+		"chietTu": {
+			"components": [
+				{
+					"char": "亻",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "木",
+					"meaning": "cái cây"
+				}
+			],
+			"mnemonic": "**Người** (亻) đứng dựa lưng vào **cái cây** (木) để **nghỉ ngơi** (hưu)."
+		}
 	},
 	{
 		"word": "帰",
@@ -1431,7 +1843,25 @@
 				"meaning": "sự trở về"
 			}
 		],
-		"radicals": "巾"
+		"radicals": "巾",
+		"chietTu": {
+			"components": [
+				{
+					"char": "刂",
+					"canonical": "刀",
+					"meaning": "con dao"
+				},
+				{
+					"char": "冖",
+					"meaning": "mái nhà"
+				},
+				{
+					"char": "巾",
+					"meaning": "cái khăn"
+				}
+			],
+			"mnemonic": "Đeo **dao** (刂), trùm **khăn** (巾) quay **trở về** (quy) dưới **mái nhà** (冖)."
+		}
 	},
 	{
 		"word": "行",
@@ -1499,7 +1929,20 @@
 				"reading": "りょこうしゃ",
 				"meaning": "công ty du lịch"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "彳",
+					"meaning": "bước chân trái"
+				},
+				{
+					"char": "亍",
+					"meaning": "bước chân phải"
+				}
+			],
+			"mnemonic": "Bước chân trái (彳) rồi nối tiếp bước chân phải (亍) để **đi / hành** quân."
+		}
 	},
 	{
 		"word": "来",
@@ -1553,7 +1996,20 @@
 				"meaning": "năm sau nữa"
 			}
 		],
-		"radicals": "木"
+		"radicals": "木",
+		"chietTu": {
+			"components": [
+				{
+					"char": "木",
+					"meaning": "cây"
+				},
+				{
+					"char": "丷",
+					"meaning": "hai hạt giống"
+				}
+			],
+			"mnemonic": "Mang rắc **hạt giống** (丷) dưới gốc **cây** (木), **tương lai** nó sẽ mọc lên."
+		}
 	},
 	{
 		"word": "書",
@@ -1597,7 +2053,20 @@
 				"meaning": "hóa đơn, biên lai"
 			}
 		],
-		"radicals": "曰"
+		"radicals": "曰",
+		"chietTu": {
+			"components": [
+				{
+					"char": "聿",
+					"meaning": "cây bút"
+				},
+				{
+					"char": "曰",
+					"meaning": "nói"
+				}
+			],
+			"mnemonic": "Dùng **bút** (聿) để chép lại **lời nói** (曰) làm thành **sách/thư** tịch."
+		}
 	},
 	{
 		"word": "食",
@@ -1640,7 +2109,21 @@
 				"reading": "ようしょく",
 				"meaning": "món ăn Âu"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠆢",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "艮",
+					"meaning": "đồ ăn/tốt"
+				}
+			],
+			"mnemonic": "**Người** (𠆢) thấy **đồ ăn ngon** (艮) là muốn **ăn** (thực)."
+		}
 	},
 	{
 		"word": "飲",
@@ -1664,7 +2147,21 @@
 				"meaning": "buffet đồ uống"
 			}
 		],
-		"radicals": "食"
+		"radicals": "食",
+		"chietTu": {
+			"components": [
+				{
+					"char": "飠",
+					"canonical": "食",
+					"meaning": "ăn uống"
+				},
+				{
+					"char": "欠",
+					"meaning": "há miệng/thiếu"
+				}
+			],
+			"mnemonic": "**Há miệng** (欠) ra để đưa **đồ ăn thức uống** (飠) vào là **ẩm** thực."
+		}
 	},
 	{
 		"word": "見",
@@ -1746,7 +2243,20 @@
 				"reading": "はいけんします",
 				"meaning": "khiêm nhường ngữ của 見ます"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "目",
+					"meaning": "mắt"
+				},
+				{
+					"char": "儿",
+					"meaning": "người"
+				}
+			],
+			"mnemonic": "**Người** (儿) mở to đôi **mắt** (目) ra để **nhìn / chứng kiến**."
+		}
 	},
 	{
 		"word": "聞",
@@ -1770,7 +2280,20 @@
 				"meaning": "báo"
 			}
 		],
-		"radicals": "耳"
+		"radicals": "耳",
+		"chietTu": {
+			"components": [
+				{
+					"char": "門",
+					"meaning": "cánh cổng"
+				},
+				{
+					"char": "耳",
+					"meaning": "cái tai"
+				}
+			],
+			"mnemonic": "Ghé **tai** (耳) vào khe **cổng** (門) để **nghe ngóng** tin tức (văn)."
+		}
 	},
 	{
 		"word": "物",
@@ -1854,7 +2377,21 @@
 				"meaning": "vật giá, giá cả"
 			}
 		],
-		"radicals": "牛"
+		"radicals": "牛",
+		"chietTu": {
+			"components": [
+				{
+					"char": "牜",
+					"canonical": "牛",
+					"meaning": "con bò"
+				},
+				{
+					"char": "勿",
+					"meaning": "chớ/chớ làm"
+				}
+			],
+			"mnemonic": "Con **bò** (牜) bị giết làm **vật** tế lễ, máu rơi lấm tấm (勿)."
+		}
 	},
 	{
 		"word": "新",
@@ -1883,7 +2420,24 @@
 				"meaning": "tiệc mừng năm mới"
 			}
 		],
-		"radicals": "斤"
+		"radicals": "斤",
+		"chietTu": {
+			"components": [
+				{
+					"char": "立",
+					"meaning": "đứng"
+				},
+				{
+					"char": "木",
+					"meaning": "cây"
+				},
+				{
+					"char": "斤",
+					"meaning": "cái rìu"
+				}
+			],
+			"mnemonic": "**Đứng** (立) cầm **rìu** (斤) chặt **cây** (木) mang về đóng đồ **mới** (tân)."
+		}
 	},
 	{
 		"word": "肉",
@@ -1911,7 +2465,16 @@
 				"reading": "ぎゅうにく",
 				"meaning": "thịt bò"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "肉",
+					"meaning": "thịt"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình các thớ **thịt** (nhục) đan chéo nhau trong khung xương."
+		}
 	},
 	{
 		"word": "花",
@@ -1940,7 +2503,21 @@
 				"meaning": "ngắm hoa anh đào"
 			}
 		],
-		"radicals": "艸"
+		"radicals": "艸",
+		"chietTu": {
+			"components": [
+				{
+					"char": "艹",
+					"canonical": "草",
+					"meaning": "cây cỏ"
+				},
+				{
+					"char": "化",
+					"meaning": "biến hóa"
+				}
+			],
+			"mnemonic": "**Cây cỏ** (艹) **biến hóa** (化) mọc ra bông **hoa** xinh đẹp."
+		}
 	},
 	{
 		"word": "魚",
@@ -1953,7 +2530,25 @@
 				"reading": "さかな",
 				"meaning": "con cá"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "⺈",
+					"meaning": "đầu cá"
+				},
+				{
+					"char": "田",
+					"meaning": "thân cá có vảy"
+				},
+				{
+					"char": "灬",
+					"canonical": "火",
+					"meaning": "đuôi cá"
+				}
+			],
+			"mnemonic": "Tượng hình con **cá** (ngư) có đầu (⺈), thân mang vảy (田) và đuôi (灬)."
+		}
 	},
 	{
 		"word": "牛",
@@ -1986,7 +2581,16 @@
 				"reading": "ぎゅうにく",
 				"meaning": "thịt bò"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "牛",
+					"meaning": "con bò"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Nhìn từ trên xuống thấy cặp sừng, hai tai và đầu **con bò** (ngưu)."
+		}
 	},
 	{
 		"word": "買",
@@ -2005,7 +2609,21 @@
 				"meaning": "mua sắm, shopping"
 			}
 		],
-		"radicals": "貝"
+		"radicals": "貝",
+		"chietTu": {
+			"components": [
+				{
+					"char": "罒",
+					"canonical": "网",
+					"meaning": "cái lưới"
+				},
+				{
+					"char": "貝",
+					"meaning": "tiền/vỏ sò"
+				}
+			],
+			"mnemonic": "Cầm **tiền** (貝) bung **lưới** (罒) vơ vét **mua sắm** (mãi) khắp nơi."
+		}
 	},
 	{
 		"word": "読",
@@ -2024,7 +2642,20 @@
 				"meaning": "cách đọc"
 			}
 		],
-		"radicals": "言"
+		"radicals": "言",
+		"chietTu": {
+			"components": [
+				{
+					"char": "言",
+					"meaning": "lời nói"
+				},
+				{
+					"char": "売",
+					"meaning": "bán"
+				}
+			],
+			"mnemonic": "**Nói** (言) ra tiếng rành rọt như rao **bán** (売) hàng gọi là **đọc** (độc)."
+		}
 	},
 	{
 		"word": "茶",
@@ -2063,7 +2694,26 @@
 				"meaning": "khuấy trà (Trà Đạo)"
 			}
 		],
-		"radicals": "艸"
+		"radicals": "艸",
+		"chietTu": {
+			"components": [
+				{
+					"char": "艹",
+					"canonical": "草",
+					"meaning": "cỏ"
+				},
+				{
+					"char": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "ホ",
+					"canonical": "木",
+					"meaning": "cái cây"
+				}
+			],
+			"mnemonic": "Loại **cỏ** (艹) mọc trên **cây** (ホ) được **người** (人) hái về pha uống là **trà**."
+		}
 	},
 	{
 		"word": "手",
@@ -2131,7 +2781,16 @@
 				"reading": "うんてんしゅ",
 				"meaning": "người lái xe"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "手",
+					"meaning": "bàn tay"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình **bàn tay** (thủ) có các ngón tay đang xòe ra."
+		}
 	},
 	{
 		"word": "少",
@@ -2155,7 +2814,20 @@
 				"meaning": "xin hãy chờ một chút"
 			}
 		],
-		"radicals": "小"
+		"radicals": "小",
+		"chietTu": {
+			"components": [
+				{
+					"char": "小",
+					"meaning": "nhỏ"
+				},
+				{
+					"char": "丿",
+					"meaning": "nét phẩy"
+				}
+			],
+			"mnemonic": "Đã **nhỏ** (小) lại còn bị **phẩy / gọt** (丿) bớt đi nên cực kỳ **ít** (thiểu)."
+		}
 	},
 	{
 		"word": "間",
@@ -2189,7 +2861,20 @@
 				"meaning": "thời gian"
 			}
 		],
-		"radicals": "門"
+		"radicals": "門",
+		"chietTu": {
+			"components": [
+				{
+					"char": "門",
+					"meaning": "cánh cổng"
+				},
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				}
+			],
+			"mnemonic": "Ánh **mặt trời** (日) chiếu lọt qua **khoảng trống / không gian** giữa 2 cánh **cổng** (門)."
+		}
 	},
 	{
 		"word": "内",
@@ -2213,7 +2898,20 @@
 				"meaning": "hướng dẫn"
 			}
 		],
-		"radicals": "冂"
+		"radicals": "冂",
+		"chietTu": {
+			"components": [
+				{
+					"char": "冂",
+					"meaning": "khung/biên giới"
+				},
+				{
+					"char": "人",
+					"meaning": "người"
+				}
+			],
+			"mnemonic": "**Người** (人) đứng ở bên **trong** ranh giới (冂) là **nội** bộ."
+		}
 	},
 	{
 		"word": "田",
@@ -2232,7 +2930,16 @@
 				"meaning": "vùng nông thôn",
 				"special_case": true
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "田",
+					"meaning": "đồng ruộng"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình thửa **ruộng** (điền) được chia làm 4 ô vuông vắn."
+		}
 	},
 	{
 		"word": "町",
@@ -2246,7 +2953,20 @@
 				"meaning": "con phố, thị trấn"
 			}
 		],
-		"radicals": "田"
+		"radicals": "田",
+		"chietTu": {
+			"components": [
+				{
+					"char": "田",
+					"meaning": "đồng ruộng"
+				},
+				{
+					"char": "丁",
+					"meaning": "đinh/con đường"
+				}
+			],
+			"mnemonic": "Nơi có **con đường** (丁) chạy ngang qua **đồng ruộng** (田) là một khu **phố / thị trấn**."
+		}
 	},
 	{
 		"word": "電",
@@ -2295,7 +3015,23 @@
 				"meaning": "nguồn điện"
 			}
 		],
-		"radicals": "雨"
+		"radicals": "雨",
+		"chietTu": {
+			"components": [
+				{
+					"char": "雨",
+					"meaning": "mưa"
+				},
+				{
+					"char": "田",
+					"meaning": "ruộng"
+				},
+				{
+					"char": "乚"
+				}
+			],
+			"mnemonic": "Lúc trời **mưa** (雨) trên cánh **đồng** (田) thường xuất hiện tia sét hình móc câu cuốn (乚) là **điện**."
+		}
 	},
 	{
 		"word": "気",
@@ -2359,7 +3095,20 @@
 				"meaning": "khỏe mạnh"
 			}
 		],
-		"radicals": "气"
+		"radicals": "气",
+		"chietTu": {
+			"components": [
+				{
+					"char": "气",
+					"meaning": "hơi nước"
+				},
+				{
+					"char": "乂",
+					"meaning": "dấu chéo"
+				}
+			],
+			"mnemonic": "Không **khí/khí** chất (气) là thứ vô hình không bắt được nên bị gạch **chéo** (乂)."
+		}
 	},
 	{
 		"word": "山",
@@ -2383,7 +3132,16 @@
 				"meaning": "núi Phú Sỹ",
 				"special_case": true
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "山",
+					"meaning": "ngọn núi"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình 3 **ngọn núi** (sơn) nhấp nhô đứng cạnh nhau."
+		}
 	},
 	{
 		"word": "川",
@@ -2397,7 +3155,17 @@
 				"meaning": "con sông"
 			}
 		],
-		"radicals": "巛"
+		"radicals": "巛",
+		"chietTu": {
+			"components": [
+				{
+					"char": "巛",
+					"canonical": "川",
+					"meaning": "con sông"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình 3 dòng nước chảy của **con sông** (xuyên)."
+		}
 	},
 	{
 		"word": "中",
@@ -2451,7 +3219,20 @@
 				"meaning": "vòng quanh thế giới"
 			}
 		],
-		"radicals": "丨"
+		"radicals": "丨",
+		"chietTu": {
+			"components": [
+				{
+					"char": "口",
+					"meaning": "cái miệng/đích"
+				},
+				{
+					"char": "丨",
+					"meaning": "trục xuyên qua"
+				}
+			],
+			"mnemonic": "Mũi tên (丨) bắn xuyên trúng vào **giữa / trung tâm** của tấm bia (口)."
+		}
 	},
 	{
 		"word": "上",
@@ -2512,7 +3293,20 @@
 				"meaning": "ăn, uống (kinh ngữ của 食べます)"
 			}
 		],
-		"radicals": "一"
+		"radicals": "一",
+		"chietTu": {
+			"components": [
+				{
+					"char": "一",
+					"meaning": "đường ngang"
+				},
+				{
+					"char": "卜",
+					"meaning": "cái cây/cọc"
+				}
+			],
+			"mnemonic": "Mầm cây (卜) mọc nhô lên **phía trên / thượng** mặt đất (一)."
+		}
 	},
 	{
 		"word": "左",
@@ -2526,7 +3320,21 @@
 				"meaning": "phía bên trái"
 			}
 		],
-		"radicals": "工"
+		"radicals": "工",
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠂇",
+					"canonical": "左",
+					"meaning": "tay trái"
+				},
+				{
+					"char": "工",
+					"meaning": "công cụ"
+				}
+			],
+			"mnemonic": "Bàn tay (𠂇) cầm **công cụ** (工) làm việc vụng về là tay **trái** (tả)."
+		}
 	},
 	{
 		"word": "右",
@@ -2540,7 +3348,21 @@
 				"meaning": "phía bên phải"
 			}
 		],
-		"radicals": "口"
+		"radicals": "口",
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠂇",
+					"canonical": "左",
+					"meaning": "tay/hướng"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				}
+			],
+			"mnemonic": "Bàn tay (𠂇) cầm thức ăn đưa vào **miệng** (口) là tay **phải** (hữu)."
+		}
 	},
 	{
 		"word": "外",
@@ -2574,7 +3396,20 @@
 				"meaning": "hải ngoại"
 			}
 		],
-		"radicals": "夕"
+		"radicals": "夕",
+		"chietTu": {
+			"components": [
+				{
+					"char": "夕",
+					"meaning": "buổi tối"
+				},
+				{
+					"char": "卜",
+					"meaning": "bói toán"
+				}
+			],
+			"mnemonic": "Ra **ngoài** (ngoại) vào **buổi tối** (夕) để đi xem **bói** (卜)."
+		}
 	},
 	{
 		"word": "大",
@@ -2648,7 +3483,16 @@
 				"reading": "だいがく",
 				"meaning": "đại học"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "大",
+					"meaning": "to lớn/người"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình người đang dang rộng 2 tay 2 chân thể hiện sự **to lớn** (đại)."
+		}
 	},
 	{
 		"word": "下",
@@ -2712,7 +3556,20 @@
 				"meaning": "kém, không giỏi"
 			}
 		],
-		"radicals": "一"
+		"radicals": "一",
+		"chietTu": {
+			"components": [
+				{
+					"char": "一",
+					"meaning": "đường ngang"
+				},
+				{
+					"char": "卜",
+					"meaning": "cái cây/cọc"
+				}
+			],
+			"mnemonic": "Rễ cây (卜) mọc đâm **xuống dưới / hạ** mặt đất (一)."
+		}
 	},
 	{
 		"word": "小",
@@ -2750,7 +3607,16 @@
 				"reading": "しょうがっこう",
 				"meaning": "trường tiểu học"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "小",
+					"meaning": "nhỏ"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Một vật bị chia làm 2 bên thành những mảnh vụn **nhỏ** (tiểu)."
+		}
 	},
 	{
 		"word": "古",
@@ -2764,7 +3630,20 @@
 				"meaning": "cũ, cổ"
 			}
 		],
-		"radicals": "口"
+		"radicals": "口",
+		"chietTu": {
+			"components": [
+				{
+					"char": "十",
+					"meaning": "mười"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				}
+			],
+			"mnemonic": "Câu chuyện được truyền **miệng** (口) qua **10** (十) đời thì rất là **cũ / cổ**."
+		}
 	},
 	{
 		"word": "高",
@@ -2787,7 +3666,23 @@
 				"reading": "こうこう",
 				"meaning": "trường THPT"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "亠",
+					"meaning": "cái nắp/đỉnh"
+				},
+				{
+					"char": "口",
+					"meaning": "cửa/phòng"
+				},
+				{
+					"char": "冂"
+				}
+			],
+			"mnemonic": "Ngôi nhà có cổng gác trên đỉnh (亠) và có nhiều phòng (口) tầng (冂) thì rất **cao**."
+		}
 	},
 	{
 		"word": "安",
@@ -2811,7 +3706,20 @@
 				"meaning": "an toàn"
 			}
 		],
-		"radicals": "宀"
+		"radicals": "宀",
+		"chietTu": {
+			"components": [
+				{
+					"char": "宀",
+					"meaning": "mái nhà"
+				},
+				{
+					"char": "女",
+					"meaning": "phụ nữ"
+				}
+			],
+			"mnemonic": "Người **phụ nữ** (女) ngồi yên bình dưới **mái nhà** (宀) thì rất **an** toàn."
+		}
 	},
 	{
 		"word": "多",
@@ -2825,7 +3733,16 @@
 				"meaning": "nhiều"
 			}
 		],
-		"radicals": "夕"
+		"radicals": "夕",
+		"chietTu": {
+			"components": [
+				{
+					"char": "夕",
+					"meaning": "buổi tối"
+				}
+			],
+			"mnemonic": "Hai **buổi tối** (夕) liên tiếp chồng lên nhau thể hiện số lượng **nhiều / đa**."
+		}
 	},
 	{
 		"word": "男",
@@ -2849,7 +3766,20 @@
 				"meaning": "nam giới, nam tính"
 			}
 		],
-		"radicals": "田"
+		"radicals": "田",
+		"chietTu": {
+			"components": [
+				{
+					"char": "田",
+					"meaning": "đồng ruộng"
+				},
+				{
+					"char": "力",
+					"meaning": "sức lực"
+				}
+			],
+			"mnemonic": "Dùng **sức lực** (力) cày cấy ngoài **đồng** (田) là việc của người đàn ông (**nam**)."
+		}
 	},
 	{
 		"word": "女",
@@ -2877,7 +3807,16 @@
 				"reading": "じょせい",
 				"meaning": "nữ giới, nữ tính"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "女",
+					"meaning": "phụ nữ"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình người **phụ nữ** (nữ) đang ngồi vắt chéo chân làm việc."
+		}
 	},
 	{
 		"word": "子",
@@ -2940,7 +3879,16 @@
 				"reading": "ようす",
 				"meaning": "bộ dạng, dáng"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "子",
+					"meaning": "đứa trẻ"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình **đứa trẻ** (tử) quấn tã, dang 2 tay đòi mẹ bế."
+		}
 	},
 	{
 		"word": "父",
@@ -2958,7 +3906,16 @@
 				"reading": "そふ",
 				"meaning": "ông"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "父",
+					"meaning": "cha"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình ảnh 2 bàn tay dang ra che chở, hoặc cầm roi dạy dỗ của người **cha** (phụ)."
+		}
 	},
 	{
 		"word": "母",
@@ -2982,7 +3939,16 @@
 				"meaning": "bà"
 			}
 		],
-		"radicals": "毋"
+		"radicals": "毋",
+		"chietTu": {
+			"components": [
+				{
+					"char": "毋",
+					"meaning": "chớ/mẹ"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình ảnh bầu ngực của người **mẹ** (mẫu) có 2 giọt sữa."
+		}
 	},
 	{
 		"word": "友",
@@ -2996,7 +3962,21 @@
 				"meaning": "ban bè"
 			}
 		],
-		"radicals": "又"
+		"radicals": "又",
+		"chietTu": {
+			"components": [
+				{
+					"char": "𠂇",
+					"canonical": "左",
+					"meaning": "tay trái"
+				},
+				{
+					"char": "又",
+					"meaning": "tay phải/lại"
+				}
+			],
+			"mnemonic": "Hai bàn tay nắm lấy nhau làm **bằng hữu / bạn bè**."
+		}
 	},
 	{
 		"word": "名",
@@ -3020,7 +4000,20 @@
 				"meaning": "nổi tiếng"
 			}
 		],
-		"radicals": "口"
+		"radicals": "口",
+		"chietTu": {
+			"components": [
+				{
+					"char": "夕",
+					"meaning": "buổi tối"
+				},
+				{
+					"char": "口",
+					"meaning": "miệng"
+				}
+			],
+			"mnemonic": "Trong **đêm tối** (夕) không nhìn thấy mặt nên phải dùng **miệng** (口) gọi **tên** (danh)."
+		}
 	},
 	{
 		"word": "音",
@@ -3053,7 +4046,20 @@
 				"reading": "ろくおんします",
 				"meaning": "ghi âm"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "立",
+					"meaning": "đứng"
+				},
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				}
+			],
+			"mnemonic": "**Đứng** (立) dưới ánh **mặt trời** (日) cất cao tiếng hát tạo ra **âm** thanh."
+		}
 	},
 	{
 		"word": "字",
@@ -3082,7 +4088,20 @@
 				"meaning": "luyện chữ"
 			}
 		],
-		"radicals": "子"
+		"radicals": "子",
+		"chietTu": {
+			"components": [
+				{
+					"char": "宀",
+					"meaning": "mái nhà"
+				},
+				{
+					"char": "子",
+					"meaning": "đứa trẻ"
+				}
+			],
+			"mnemonic": "**Đứa trẻ** (子) ngồi học dưới **mái nhà** (宀) là đang luyện **chữ** (tự)."
+		}
 	},
 	{
 		"word": "雨",
@@ -3095,7 +4114,16 @@
 				"reading": "あめ",
 				"meaning": "mưa"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "雨",
+					"meaning": "mưa"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Nhìn qua cửa sổ thấy có 4 giọt nước rơi xuống là trời **mưa** (vũ)."
+		}
 	},
 	{
 		"word": "寺",
@@ -3109,7 +4137,20 @@
 				"meaning": "đền chùa"
 			}
 		],
-		"radicals": "寸"
+		"radicals": "寸",
+		"chietTu": {
+			"components": [
+				{
+					"char": "土",
+					"meaning": "đất"
+				},
+				{
+					"char": "寸",
+					"meaning": "tấc"
+				}
+			],
+			"mnemonic": "Nơi có **tấc** (寸) **đất** (土) thiêng liêng thì được lập thành đền **chùa** (tự)."
+		}
 	},
 	{
 		"word": "米",
@@ -3122,7 +4163,16 @@
 				"reading": "こめ",
 				"meaning": "gạo"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "米",
+					"meaning": "gạo"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình các hạt **gạo** (mễ) bung ra theo các hướng."
+		}
 	},
 	{
 		"word": "出",
@@ -3181,7 +4231,16 @@
 				"meaning": "xuất phát"
 			}
 		],
-		"radicals": "凵"
+		"radicals": "凵",
+		"chietTu": {
+			"components": [
+				{
+					"char": "凵",
+					"meaning": "khuôn/vùng lõm"
+				}
+			],
+			"mnemonic": "Vượt qua 2 ngọn núi (chữ Sơn 山 chồng lên nhau) để đi **ra ngoài / xuất** phát."
+		}
 	},
 	{
 		"word": "入",
@@ -3239,7 +4298,16 @@
 				"reading": "にゅうもん",
 				"meaning": "nhập môn"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "入",
+					"meaning": "đi vào"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình mũi nhọn hoặc bước chân đi **vào** (nhập)."
+		}
 	},
 	{
 		"word": "立",
@@ -3262,7 +4330,16 @@
 				"reading": "くみたてます",
 				"meaning": "lắp ráp"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "立",
+					"meaning": "đứng/thành lập"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình một người đang **đứng** thẳng trên mặt đất."
+		}
 	},
 	{
 		"word": "言",
@@ -3280,7 +4357,16 @@
 				"reading": "いいつたえ",
 				"meaning": "truyền đạt lại"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "言",
+					"meaning": "lời nói/ngôn từ"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Cái **miệng** (口) phát ra những **lời nói** (các nét ngang) là **ngôn** ngữ."
+		}
 	},
 	{
 		"word": "話",
@@ -3319,7 +4405,20 @@
 				"meaning": "trò chuyện, hội thoại"
 			}
 		],
-		"radicals": "言"
+		"radicals": "言",
+		"chietTu": {
+			"components": [
+				{
+					"char": "言",
+					"meaning": "nói"
+				},
+				{
+					"char": "舌",
+					"meaning": "cái lưỡi"
+				}
+			],
+			"mnemonic": "Dùng **cái lưỡi** (舌) để **nói** (言) chuyện với nhau là hội **thoại**."
+		}
 	},
 	{
 		"word": "力",
@@ -3332,7 +4431,16 @@
 				"reading": "ちから",
 				"meaning": "sức lực"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "力",
+					"meaning": "sức mạnh"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình ảnh cánh tay đang gồng lên khoe **sức lực**."
+		}
 	},
 	{
 		"word": "長",
@@ -3370,7 +4478,16 @@
 				"reading": "しゃちょう",
 				"meaning": "giám đốc"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "長",
+					"meaning": "dài/trưởng"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình ảnh ông lão tóc mọc **dài** đang cầm gậy chỉ sự **trưởng** bối."
+		}
 	},
 	{
 		"word": "明",
@@ -3399,7 +4516,20 @@
 				"meaning": "phát minh"
 			}
 		],
-		"radicals": "日"
+		"radicals": "日",
+		"chietTu": {
+			"components": [
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				},
+				{
+					"char": "月",
+					"meaning": "mặt trăng"
+				}
+			],
+			"mnemonic": "Có ánh sáng của cả **mặt trời** (日) và **mặt trăng** (月) nên cực kỳ **sáng sủa / minh** mẫn."
+		}
 	},
 	{
 		"word": "暗",
@@ -3418,7 +4548,20 @@
 				"meaning": "mã số bảo mật"
 			}
 		],
-		"radicals": "日"
+		"radicals": "日",
+		"chietTu": {
+			"components": [
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				},
+				{
+					"char": "音",
+					"meaning": "âm thanh"
+				}
+			],
+			"mnemonic": "Khi **mặt trời** (日) lặn, chỉ còn nghe thấy **âm thanh** (音) trong đêm **tối / ám**."
+		}
 	},
 	{
 		"word": "元",
@@ -3437,7 +4580,20 @@
 				"meaning": "khỏe mạnh"
 			}
 		],
-		"radicals": "儿"
+		"radicals": "儿",
+		"chietTu": {
+			"components": [
+				{
+					"char": "二",
+					"meaning": "số hai"
+				},
+				{
+					"char": "儿",
+					"meaning": "người"
+				}
+			],
+			"mnemonic": "**Hai** (二) **người** (儿) (Adam & Eva) là nguồn gốc / khởi **nguyên** của nhân loại."
+		}
 	},
 	{
 		"word": "好",
@@ -3456,7 +4612,20 @@
 				"meaning": "rất thích, yêu"
 			}
 		],
-		"radicals": "女"
+		"radicals": "女",
+		"chietTu": {
+			"components": [
+				{
+					"char": "女",
+					"meaning": "phụ nữ"
+				},
+				{
+					"char": "子",
+					"meaning": "đứa trẻ"
+				}
+			],
+			"mnemonic": "Phụ **nữ** (女) thì rất **thích / tốt** (hảo) với việc ôm **đứa trẻ** (子) vào lòng."
+		}
 	},
 	{
 		"word": "足",
@@ -3474,7 +4643,16 @@
 				"reading": "たります",
 				"meaning": "đủ, đạt"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "足",
+					"meaning": "chân/đầy đủ"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Cái miệng (口) bảo dừng (止) bước **chân** lại vì đã ăn no **đủ** (túc)."
+		}
 	},
 	{
 		"word": "東",
@@ -3493,7 +4671,20 @@
 				"meaning": "Tokyo"
 			}
 		],
-		"radicals": "木"
+		"radicals": "木",
+		"chietTu": {
+			"components": [
+				{
+					"char": "木",
+					"meaning": "cái cây"
+				},
+				{
+					"char": "日",
+					"meaning": "mặt trời"
+				}
+			],
+			"mnemonic": "**Mặt trời** (日) mọc lấp ló sau **cái cây** (木) là báo hiệu hướng **Đông**."
+		}
 	},
 	{
 		"word": "西",
@@ -3511,7 +4702,16 @@
 				"reading": "せいようかします",
 				"meaning": "tây hóa"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "西",
+					"meaning": "hướng Tây"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình con chim bay về tổ (kiểu hình chữ tây) khi mặt trời lặn hướng **Tây**."
+		}
 	},
 	{
 		"word": "南",
@@ -3525,7 +4725,22 @@
 				"meaning": "phía Nam"
 			}
 		],
-		"radicals": "十"
+		"radicals": "十",
+		"chietTu": {
+			"components": [
+				{
+					"char": "十"
+				},
+				{
+					"char": "冂",
+					"meaning": "biên giới/khung"
+				},
+				{
+					"char": "￥"
+				}
+			],
+			"mnemonic": "Cầm tiền Yên (￥) đi vào trong (冂) khu vực phía **Nam** du lịch **10** (十) ngày."
+		}
 	},
 	{
 		"word": "北",
@@ -3539,7 +4754,16 @@
 				"meaning": "phía Bắc"
 			}
 		],
-		"radicals": "匕"
+		"radicals": "匕",
+		"chietTu": {
+			"components": [
+				{
+					"char": "北",
+					"meaning": "hướng Bắc"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình ảnh 2 người quay lưng (匕) vào nhau vì gió lạnh thổi từ hướng **Bắc**."
+		}
 	},
 	{
 		"word": "夕",
@@ -3552,7 +4776,16 @@
 				"reading": "ゆうがた",
 				"meaning": "hoàng hôn, chiều tối"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "夕",
+					"meaning": "buổi tối"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình mặt trăng khuyết chiếu sáng vào **buổi tối** (tịch)."
+		}
 	},
 	{
 		"word": "石",
@@ -3570,7 +4803,20 @@
 				"reading": "せきゆ",
 				"meaning": "dầu hỏa"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "厂",
+					"meaning": "sườn núi"
+				},
+				{
+					"char": "口",
+					"meaning": "khối vuông"
+				}
+			],
+			"mnemonic": "Dưới **sườn núi** (厂) có những khối **đá** (口) to gọi là **thạch**."
+		}
 	},
 	{
 		"word": "体",
@@ -3599,7 +4845,21 @@
 				"meaning": "nhiệt kế"
 			}
 		],
-		"radicals": "人"
+		"radicals": "人",
+		"chietTu": {
+			"components": [
+				{
+					"char": "亻",
+					"canonical": "人",
+					"meaning": "người"
+				},
+				{
+					"char": "本",
+					"meaning": "căn bản/sách"
+				}
+			],
+			"mnemonic": "**Căn bản** (本) để con **người** (亻) có sức sống là nhờ **cơ thể** (thể) khỏe mạnh."
+		}
 	},
 	{
 		"word": "目",
@@ -3637,7 +4897,16 @@
 				"reading": "もくてき",
 				"meaning": "mục tiêu"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "目",
+					"meaning": "mắt"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình ảnh **con mắt** (mục) nằm ngang có tròng đen ở giữa."
+		}
 	},
 	{
 		"word": "耳",
@@ -3650,7 +4919,16 @@
 				"reading": "みみ",
 				"meaning": "cái tai"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "耳",
+					"meaning": "cái tai"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình dáng **cái tai** (nhĩ) của người để hứng âm thanh."
+		}
 	},
 	{
 		"word": "口",
@@ -3683,7 +4961,16 @@
 				"reading": "じんこう",
 				"meaning": "dân số"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "口",
+					"meaning": "cái miệng"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình dáng **cái miệng** (khẩu) đang há ra."
+		}
 	},
 	{
 		"word": "鳥",
@@ -3696,7 +4983,16 @@
 				"reading": "とり",
 				"meaning": "con chim"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "鳥",
+					"meaning": "con chim"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Con chim (**điểu**) có mỏ, mắt, thân và lông đuôi (灬)."
+		}
 	},
 	{
 		"word": "犬",
@@ -3709,7 +5005,20 @@
 				"reading": "いぬ",
 				"meaning": "con chó"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "大",
+					"meaning": "to lớn"
+				},
+				{
+					"char": "丶",
+					"meaning": "chấm"
+				}
+			],
+			"mnemonic": "Con chó (**khuyển**) **to** (大) có thêm cái đuôi/vết chấm (丶)."
+		}
 	},
 	{
 		"word": "竹",
@@ -3727,7 +5036,16 @@
 				"reading": "ちくりん",
 				"meaning": "rừng tre"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "竹",
+					"meaning": "cây trúc"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình hai cành **trúc** có lá rủ xuống."
+		}
 	},
 	{
 		"word": "貝",
@@ -3740,7 +5058,16 @@
 				"reading": "かい",
 				"meaning": "con sò"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "貝",
+					"meaning": "vỏ sò/tiền"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Hình cái **vỏ sò** (bối) ngày xưa được dùng làm tiền tệ."
+		}
 	},
 	{
 		"word": "林",
@@ -3759,7 +5086,16 @@
 				"meaning": "vùng rừng rậm"
 			}
 		],
-		"radicals": "木"
+		"radicals": "木",
+		"chietTu": {
+			"components": [
+				{
+					"char": "木",
+					"meaning": "cái cây"
+				}
+			],
+			"mnemonic": "Hai **cái cây** (木) đứng cạnh nhau thành một khu rừng thưa (**lâm**)."
+		}
 	},
 	{
 		"word": "森",
@@ -3778,7 +5114,16 @@
 				"meaning": "vùng rừng rậm"
 			}
 		],
-		"radicals": "木"
+		"radicals": "木",
+		"chietTu": {
+			"components": [
+				{
+					"char": "木",
+					"meaning": "cái cây"
+				}
+			],
+			"mnemonic": "Ba **cái cây** (木) đứng cạnh nhau tạo thành rừng rậm (**sâm**)."
+		}
 	},
 	{
 		"word": "畑",
@@ -3792,7 +5137,20 @@
 				"meaning": "ruộng"
 			}
 		],
-		"radicals": "田"
+		"radicals": "田",
+		"chietTu": {
+			"components": [
+				{
+					"char": "火",
+					"meaning": "lửa"
+				},
+				{
+					"char": "田",
+					"meaning": "đồng ruộng"
+				}
+			],
+			"mnemonic": "Đốt **lửa** (火) dọn dẹp **đồng cỏ** (田) để canh tác làm **ruộng** cạn. (Chữ hội ý đặc trưng của Nhật)."
+		}
 	},
 	{
 		"word": "門",
@@ -3810,7 +5168,16 @@
 				"reading": "にゅうもん",
 				"meaning": "nhập môn"
 			}
-		]
+		],
+		"chietTu": {
+			"components": [
+				{
+					"char": "門",
+					"meaning": "cánh cổng"
+				}
+			],
+			"mnemonic": "Bộ thủ gốc. Tượng hình hai cánh cửa **cổng** (môn) đang đóng kín."
+		}
 	},
 	{
 		"word": "岩",
@@ -3824,6 +5191,19 @@
 				"meaning": "đá, tảng đá"
 			}
 		],
-		"radicals": "山"
+		"radicals": "山",
+		"chietTu": {
+			"components": [
+				{
+					"char": "山",
+					"meaning": "núi"
+				},
+				{
+					"char": "石",
+					"meaning": "đá"
+				}
+			],
+			"mnemonic": "**Đá** (石) tảng nằm trên **núi** (山) gọi là **nham** thạch."
+		}
 	}
 ]

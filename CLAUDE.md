@@ -94,10 +94,15 @@ The app uses SvelteKit's file-based routing with prerendering for static deploym
       meaning: string   // Vietnamese meaning
       special_case?: boolean
     }>
+    chietTu?: {         // Authoritative chiết tự (bộ thủ decomposition), hand-maintained
+      components: Array<{ char: string; canonical?: string; meaning?: string }>
+      mnemonic: string  // "Gợi ý học" learning sentence, **bold** marks key words
+    }
   }
   ```
 - Generated definition files: `n5_def.json` (maps kanji to definitions from Jotoba API)
 - Radicals fetched via `npx tsx scripts/add_radicals.ts` - skips if radical equals the kanji
+- **Chiết tự (bộ thủ decomposition):** the `chietTu` field on each kanji entry is the source of truth for the radical breakdown shown on `/kanji/[level]`. It is consumed at runtime by `src/lib/kanji/radicals.ts` (`boThu()`, `mnemonic()`) and edited directly in the level JSON files. Supporting reference data: `radicals.json` (214 Kangxi radicals), `classifying.json` (kanji → primary radical number), `phonetics.json` (Hán-Việt labels for non-radical components).
 
 **Flashcard Module** (`src/lib/flashcard/`)
 

@@ -4,7 +4,7 @@
 	import AddKanjiToDeckModal from './flashcard/add-kanji-to-deck-modal.svelte';
 	import KanjiPracticeModal from './kanji-practice-modal.svelte';
 	import { getAllCards, getAllDecks, deleteCard, type KanjiData } from '$lib/flashcard';
-	import { boThu, boThuParts, componentLabel } from '$lib/kanji/radicals';
+	import { boThu, boThuParts, componentLabel, mnemonic } from '$lib/kanji/radicals';
 
 	interface KanjiItem {
 		word: string;
@@ -54,6 +54,11 @@
 
 	// Expanded examples state
 	let expandedKanji = $state<Set<string>>(new Set());
+
+	// Split a mnemonic into plain/bold segments (the chietTu mnemonic marks key words with **bold**).
+	function mnemonicSegments(text: string): Array<{ text: string; bold: boolean }> {
+		return text.split(/\*\*(.+?)\*\*/g).map((t, i) => ({ text: t, bold: i % 2 === 1 }));
+	}
 
 	// Practice modal state
 	let practiceModalOpen = $state(false);
@@ -227,7 +232,8 @@
 					<th class="w-32">Onyomi</th>
 					<th class="w-32">Kunyomi</th>
 					<th class="w-16">Bộ thủ</th>
-					<th class="w-auto">Ví dụ</th>
+					<th class="w-96">Ví dụ</th>
+					<th class="w-auto">Chiết tự</th>
 					{#if level}
 						<th class="w-12"></th>
 					{/if}
@@ -236,6 +242,7 @@
 			<tbody>
 				{#each filteredKanjis as kanji}
 					{@const bo = boThu(kanji.word)}
+					{@const mn = mnemonic(kanji.word)}
 					<tr class="hover:bg-base-300">
 						<td class="text-3xl font-bold text-primary">{kanji.word}</td>
 						<td class="font-medium">{kanji.meaning}</td>
@@ -244,12 +251,7 @@
 						<td>
 							{#if bo.primary || bo.components.length > 0}
 								<div class="flex flex-wrap items-center justify-center gap-1">
-									{#if bo.primary}
-										<span class="tooltip" data-tip={componentLabel(bo.primary) ?? 'Bộ thủ'}>
-											<span class="badge badge-primary badge-lg font-bold">{bo.primary.char}</span>
-										</span>
-									{/if}
-									{#each bo.components as c}
+									{#each bo.primary ? [bo.primary, ...bo.components] : bo.components as c}
 										{@const label = componentLabel(c)}
 										{#if label}
 											<span class="tooltip text-xl" data-tip={label}>{c.char}</span>
@@ -263,10 +265,12 @@
 							{/if}
 						</td>
 						<td class="text-left text-sm">
-							{#if kanji.examples && kanji.examples.length > 0}
-								{@const isExpanded = expandedKanji.has(kanji.word)}
-								{@const displayExamples = isExpanded ? kanji.examples : kanji.examples.slice(0, 2)}
-								<div class="flex flex-col gap-1">
+							<div class="flex flex-col gap-1">
+								{#if kanji.examples && kanji.examples.length > 0}
+									{@const isExpanded = expandedKanji.has(kanji.word)}
+									{@const displayExamples = isExpanded
+										? kanji.examples
+										: kanji.examples.slice(0, 2)}
 									{#each displayExamples as ex}
 										<div class="flex items-baseline gap-2">
 											<span class="font-medium">{ex.word}</span>
@@ -274,16 +278,26 @@
 											<span class="text-base-content/80">- {ex.meaning}</span>
 										</div>
 									{/each}
-									{#if kanji.examples.length > 2}
-										<button
-											type="button"
-											class="btn btn-ghost btn-xs self-start"
-											onclick={() => toggleExpanded(kanji.word)}
-										>
-											{isExpanded ? 'Thu gọn' : `+${kanji.examples.length - 2} ví dụ khác`}
-										</button>
-									{/if}
-								</div>
+								{:else}
+									<span class="text-base-content/50">-</span>
+								{/if}
+								{#if kanji.examples && kanji.examples.length > 2}
+									<button
+										type="button"
+										class="btn btn-ghost btn-xs self-start"
+										onclick={() => toggleExpanded(kanji.word)}
+									>
+										{expandedKanji.has(kanji.word)
+											? 'Thu gọn'
+											: `+${kanji.examples.length - 2} ví dụ khác`}
+									</button>
+								{/if}
+							</div>
+						</td>
+						<td class="text-left align-top text-sm leading-relaxed">
+							{#if mn}
+								{#each mnemonicSegments(mn) as seg}{#if seg.bold}<strong>{seg.text}</strong
+										>{:else}{seg.text}{/if}{/each}
 							{:else}
 								<span class="text-base-content/50">-</span>
 							{/if}
@@ -372,7 +386,7 @@
 					</tr>
 				{:else}
 					<tr>
-						<td colspan={level ? 7 : 6} class="py-8 text-center text-base-content/50">
+						<td colspan={level ? 8 : 7} class="py-8 text-center text-base-content/50">
 							Không tìm thấy kết quả cho "{searchTerm}"
 						</td>
 					</tr>

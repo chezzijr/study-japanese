@@ -1,5 +1,5 @@
 {
-	"_comment": "Supplementary chiết tự components: common phonetic/semantic elements that are NEITHER one of the 214 Kangxi radicals NOR an app-learned kanji, so they can't otherwise render with a Hán-Việt label. Hand-authored. Key = component char, value = { hanViet, meaning }. Used as a fallback resolver in radicals.ts after radicals + app kanji. Reference these chars in decomposition-overrides.json to teach the phonetic of a kanji (e.g. 油 = 氵 + 由).",
+	"_comment": "Supplementary chiết tự components: common phonetic/semantic elements that are NEITHER one of the 214 Kangxi radicals NOR an app-learned kanji, so they can't otherwise render with a Hán-Việt label. Hand-authored. Key = component char, value = { hanViet, meaning }. Used as a fallback resolver in radicals.ts (after Kangxi radicals + app kanji) to give a Hán-Việt label to curated chietTu components such as the phonetic 由 in 油 (= 氵 + 由).",
 	"由": { "hanViet": "DO", "meaning": "do, bởi; nguyên do" },
 	"也": { "hanViet": "DÃ", "meaning": "cũng vậy (trợ từ)" },
 	"永": { "hanViet": "VĨNH", "meaning": "lâu dài, mãi mãi" },
